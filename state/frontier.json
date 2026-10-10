@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-10T16:10:00Z",
-  "active_cycle": 4,
+  "active_cycle": 5,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -139,8 +139,8 @@
         "Which specific Midwestern injection molding tollers currently hold Lily's 10 proprietary molds, what are the formal tool bailment terms, and what is the current physical shot count against tool lifecycle limits for the primary surface port molds?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -187,6 +187,38 @@
         "Which Midwestern DOT specifications (IDOT, WisDOT, INDOT) explicitly mandate US-manufactured concrete injection ports and check valves for approach-slab void mitigation, creating an immediate barrier to foreign import ports?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_12",
+      "category": "Operations",
+      "title": "Toll Molder Resin Indexation & Direct Material Hedging Protocol",
+      "question": "Does Lily Corporation expose its 70%+ accessory gross margins to silent toller margin creep by allowing contract molders to bundle raw resin procurement (PP, HDPE, Glass-Filled Nylon), and should Lily transition to index-linked resin pass-through agreements or direct master-batch purchasing?",
+      "known_facts": [
+        "Uncovered during Cycle #5 cloud investigation of [OPER_08]."
+      ],
+      "open_uncertainties": [
+        "Does Lily Corporation expose its 70%+ accessory gross margins to silent toller margin creep by allowing contract molders to bundle raw resin procurement (PP, HDPE, Glass-Filled Nylon), and should Lily transition to index-linked resin pass-through agreements or direct master-batch purchasing?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_13",
+      "category": "Product Innovation",
+      "title": "Pre-Packaged DOT Bridge Deck Crack Kits (Single-SKU Consumable Pails)",
+      "question": "Can Lily capture higher contractor average order value (AOV) and eliminate field kitting confusion by bundling 250 ports, matching caps, 10 static mixers, and ratio test cups into a single pre-sealed jobsite pail specified directly in state DOT structural repair submittals?",
+      "known_facts": [
+        "Uncovered during Cycle #5 cloud investigation of [OPER_08]."
+      ],
+      "open_uncertainties": [
+        "Can Lily capture higher contractor average order value (AOV) and eliminate field kitting confusion by bundling 250 ports, matching caps, 10 static mixers, and ratio test cups into a single pre-sealed jobsite pail specified directly in state DOT structural repair submittals?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
       "confidence_score": 3,
       "status": "OPEN",
       "priority": "MEDIUM"
