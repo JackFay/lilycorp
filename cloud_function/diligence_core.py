@@ -53,7 +53,7 @@ def run_single_cloud_cycle(bucket_name: str) -> Dict[str, Any]:
     """Execute one complete diligence and plan mutation cycle against GCS."""
     storage = GCSStorageAdapter(bucket_name)
     client = get_genai_client()
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
     frontier_data = storage.read_json("state/frontier.json")
     if not frontier_data:

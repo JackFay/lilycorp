@@ -113,7 +113,9 @@ def git_commit(message: str):
         print(f"Git commit warning: {e}")
 
 
-def execute_cycle(client: genai.Client, model_name: str = "gemini-2.5-flash"):
+def execute_cycle(client: genai.Client, model_name: str = None):
+    if not model_name:
+        model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
     frontier_data = load_frontier()
     cycle_num = frontier_data.get("active_cycle", 0) + 1
     frontier_data["active_cycle"] = cycle_num

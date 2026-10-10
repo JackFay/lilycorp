@@ -66,7 +66,7 @@ gcloud functions deploy "${FUNCTION_NAME}" \
   --no-allow-unauthenticated \
   --memory=512MiB \
   --timeout=540s \
-  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-2.5-flash"
+  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-3.8-flash"
 
 # Get Function URL
 FUNCTION_URL=$(gcloud functions describe "${FUNCTION_NAME}" --gen2 --region="${REGION}" --format="value(serviceConfig.uri)")
