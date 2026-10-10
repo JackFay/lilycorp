@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-10T16:10:00Z",
-  "active_cycle": 3,
+  "active_cycle": 4,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -54,8 +54,8 @@
         "Do slab-jacking contractors require heated hoses and automated pre-heaters, and can Lily's shop support heated rig packaging?"
       ],
       "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 8,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -158,6 +158,38 @@
       "confidence_score": 3,
       "status": "OPEN",
       "priority": "HIGH"
+    },
+    {
+      "id": "OPER_10",
+      "category": "Operations",
+      "title": "Drive-Lok Check Valve Semi-Automated Bench Assembly Fixture",
+      "question": "Can Lily design and machine an in-house pneumatic indexing fixture or vibratory bowl-feed station for <= $4,500 that reduces port check-valve insertion time from 12 seconds to <2 seconds per unit?",
+      "known_facts": [
+        "Uncovered during Cycle #4 investigation of [MKT_GEOTECH_03]."
+      ],
+      "open_uncertainties": [
+        "Can Lily design and machine an in-house pneumatic indexing fixture or vibratory bowl-feed station for <= $4,500 that reduces port check-valve insertion time from 12 seconds to <2 seconds per unit?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_11",
+      "category": "Commercial Strategy",
+      "title": "State DOT Chemical Injection Port Qualification & Buy America Wedge",
+      "question": "Which Midwestern DOT specifications (IDOT, WisDOT, INDOT) explicitly mandate US-manufactured concrete injection ports and check valves for approach-slab void mitigation, creating an immediate barrier to foreign import ports?",
+      "known_facts": [
+        "Uncovered during Cycle #4 investigation of [MKT_GEOTECH_03]."
+      ],
+      "open_uncertainties": [
+        "Which Midwestern DOT specifications (IDOT, WisDOT, INDOT) explicitly mandate US-manufactured concrete injection ports and check valves for approach-slab void mitigation, creating an immediate barrier to foreign import ports?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
     }
   ]
 }
