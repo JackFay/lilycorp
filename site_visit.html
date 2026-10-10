@@ -1,0 +1,2251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily Corp — Site Visit Due Diligence Workspace</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --surface: #111827;
+      --surface-card: #162032;
+      --surface-card-hover: #1c2940;
+      --surface-accent: #1e293b;
+      --border: #24344d;
+      --border-focus: #3b82f6;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --primary-light: rgba(59, 130, 246, 0.15);
+      
+      --green: #10b981;
+      --green-bg: rgba(16, 185, 129, 0.15);
+      --green-border: rgba(16, 185, 129, 0.35);
+      
+      --amber: #f59e0b;
+      --amber-bg: rgba(245, 158, 11, 0.15);
+      --amber-border: rgba(245, 158, 11, 0.35);
+      
+      --red: #ef4444;
+      --red-bg: rgba(239, 68, 68, 0.15);
+      --red-border: rgba(239, 68, 68, 0.35);
+
+      --purple: #a855f7;
+      --purple-bg: rgba(168, 85, 247, 0.15);
+      --purple-border: rgba(168, 85, 247, 0.35);
+
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+      --shadow-lg: 0 12px 24px -4px rgba(0,0,0,0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 120px;
+    }
+
+    /* Top Sticky Navigation Bar */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 15, 25, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+    }
+
+    .top-bar-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .badge-deal {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #fff;
+    }
+
+    .sync-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+    }
+
+    .sync-indicator {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 8px var(--green);
+      transition: all 0.3s ease;
+    }
+
+    .sync-indicator.saving {
+      background: var(--amber);
+      box-shadow: 0 0 8px var(--amber);
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    /* Executive Hero / Meta card */
+    .hero-card {
+      background: linear-gradient(180deg, var(--surface) 0%, var(--surface-card) 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .hero-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .hero-title-group h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-title-group p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+      background: rgba(0,0,0,0.25);
+      padding: 16px;
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .meta-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--text-dim);
+      margin-bottom: 3px;
+    }
+
+    .meta-value {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .meta-input {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      color: #fff;
+      font-size: 0.9rem;
+      border-radius: var(--radius-sm);
+      padding: 4px 8px;
+      margin-top: 2px;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .meta-input:focus {
+      border-color: var(--primary);
+    }
+
+    /* Diligence Scoreboard / Progress Stats */
+    .scoreboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .score-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 12px;
+      text-align: center;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .score-card:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.2);
+    }
+
+    .score-val {
+      font-size: 1.6rem;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .score-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .score-green { color: var(--green); }
+    .score-amber { color: var(--amber); }
+    .score-red { color: var(--red); }
+    .score-blue { color: var(--primary); }
+
+    /* Progress bar */
+    .progress-bar-container {
+      margin-top: 16px;
+    }
+
+    .progress-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .progress-track {
+      height: 8px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #3b82f6, #10b981);
+      width: 0%;
+      transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Filter & Controls Toolbar */
+    .toolbar {
+      position: sticky;
+      top: 61px;
+      z-index: 90;
+      background: rgba(11, 15, 25, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 0;
+      margin-bottom: 24px;
+    }
+
+    .toolbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+
+    .filter-pills::-webkit-scrollbar {
+      display: none;
+    }
+
+    .pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+
+    .pill:hover {
+      border-color: rgba(255,255,255,0.3);
+      color: #fff;
+    }
+
+    .pill.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+    }
+
+    .search-box {
+      position: relative;
+      min-width: 220px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 6px 12px 6px 32px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-light);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      pointer-events: none;
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Section Category Header */
+    .section-block {
+      margin-bottom: 32px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 18px;
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-counter {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: rgba(0,0,0,0.3);
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    /* Question Cards */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .question-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .question-card:hover {
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    .question-card.status-green {
+      border-left: 4px solid var(--green);
+    }
+
+    .question-card.status-yellow {
+      border-left: 4px solid var(--amber);
+    }
+
+    .question-card.status-red {
+      border-left: 4px solid var(--red);
+      background: linear-gradient(180deg, rgba(239, 68, 68, 0.04) 0%, var(--surface-card) 100%);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .card-title-group {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .card-badges {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+
+    .badge-killer {
+      background: var(--red-bg);
+      color: #f87171;
+      border: 1px solid var(--red-border);
+    }
+
+    .badge-risk {
+      background: var(--amber-bg);
+      color: #fbbf24;
+      border: 1px solid var(--amber-border);
+    }
+
+    .badge-field {
+      background: var(--purple-bg);
+      color: #c084fc;
+      border: 1px solid var(--purple-border);
+    }
+
+    .badge-target {
+      background: rgba(255,255,255,0.07);
+      color: var(--text-muted);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .question-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.4;
+    }
+
+    /* Verbatim Script Box */
+    .script-box {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(59, 130, 246, 0.25);
+      border-left: 3px solid var(--primary);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .script-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .script-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #60a5fa;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .btn-copy {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+
+    .btn-copy:hover {
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+    }
+
+    .script-text {
+      font-size: 0.96rem;
+      color: #e2e8f0;
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* What to Listen For Box */
+    .listen-box {
+      background: rgba(30, 41, 59, 0.5);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      margin-bottom: 16px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .listen-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #fbbf24;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .listen-text b, .listen-text strong {
+      color: #f1f5f9;
+    }
+
+    .highlight-green {
+      color: #34d399;
+      font-weight: 600;
+    }
+
+    .highlight-red {
+      color: #f87171;
+      font-weight: 600;
+    }
+
+    /* Response & Assessment Controls */
+    .response-controls {
+      background: rgba(11, 15, 25, 0.6);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .control-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Verdict Buttons Group */
+    .verdict-group {
+      display: inline-flex;
+      background: rgba(255,255,255,0.05);
+      padding: 3px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,0.08);
+      gap: 2px;
+    }
+
+    .verdict-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      user-select: none;
+      font-family: inherit;
+    }
+
+    .verdict-btn:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .verdict-btn.active-green {
+      background: var(--green);
+      color: #064e3b;
+      font-weight: 700;
+    }
+
+    .verdict-btn.active-yellow {
+      background: var(--amber);
+      color: #78350f;
+      font-weight: 700;
+    }
+
+    .verdict-btn.active-red {
+      background: var(--red);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .checkbox-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--amber);
+      cursor: pointer;
+    }
+
+    .checkbox-label:hover {
+      color: #fff;
+    }
+
+    /* Input & Textareas */
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .notes-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .notes-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+
+    .quick-tags {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+
+    .tag-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--text-dim);
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .tag-btn:hover {
+      background: rgba(255,255,255,0.12);
+      color: var(--text);
+    }
+
+    .notes-textarea {
+      width: 100%;
+      min-height: 84px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 10px 12px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      resize: vertical;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+
+    .notes-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 0 2px var(--primary-light);
+    }
+
+    .doc-request-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: var(--radius-sm);
+      padding: 6px 10px;
+    }
+
+    .doc-icon {
+      color: var(--primary);
+      flex-shrink: 0;
+    }
+
+    .doc-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #cbd5e1;
+      font-size: 0.82rem;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .doc-input::placeholder {
+      color: var(--text-dim);
+    }
+
+    /* Overall General Notes Card */
+    .general-notes-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-top: 32px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .general-notes-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    /* Sticky Bottom Action Drawer */
+    .bottom-drawer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(11, 15, 25, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-top: 1px solid var(--border);
+      padding: 12px 24px;
+      box-shadow: 0 -8px 24px rgba(0,0,0,0.5);
+    }
+
+    .bottom-drawer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .drawer-status {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.85rem;
+    }
+
+    .status-pill {
+      background: rgba(255,255,255,0.06);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .drawer-buttons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    /* Standard Buttons */
+    .btn {
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      user-select: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+    }
+
+    .btn-success {
+      background: var(--green);
+      color: #064e3b;
+      font-weight: 700;
+    }
+
+    .btn-success:hover {
+      background: #059669;
+      color: #fff;
+    }
+
+    .btn-secondary {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    .btn-secondary:hover {
+      background: var(--surface-card-hover);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    .btn-danger-outline {
+      background: transparent;
+      border-color: rgba(239, 68, 68, 0.4);
+      color: #f87171;
+    }
+
+    .btn-danger-outline:hover {
+      background: rgba(239, 68, 68, 0.15);
+      border-color: var(--red);
+    }
+
+    /* Modal Styling */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      z-index: 200;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      max-width: 600px;
+      width: 100%;
+      padding: 24px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .modal-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+
+    .modal-body {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 250;
+      background: #1e293b;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary);
+      padding: 12px 18px;
+      border-radius: var(--radius-sm);
+      color: #fff;
+      font-size: 0.88rem;
+      font-weight: 600;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateY(-50px);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .toast.toast-success { border-left-color: var(--green); }
+    .toast.toast-alert { border-left-color: var(--amber); }
+
+    /* Print Stylesheet for Executive Due Diligence Report */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+        padding-bottom: 0 !important;
+        font-size: 10.5pt;
+      }
+
+      .top-bar, .toolbar, .bottom-drawer, .btn, .verdict-group, .btn-copy, .quick-tags, .search-box, .doc-icon {
+        display: none !important;
+      }
+
+      .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+
+      .hero-card, .question-card, .general-notes-card, .section-header {
+        background: #fff !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 16px !important;
+      }
+
+      .hero-title-group h1, .question-title, .section-title, .general-notes-title {
+        color: #000 !important;
+      }
+
+      .script-box {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+        border-left: 3px solid #0284c7 !important;
+        color: #000 !important;
+      }
+
+      .script-text {
+        color: #1e293b !important;
+      }
+
+      .listen-box {
+        background: #fefce8 !important;
+        border: 1px solid #fef08a !important;
+        color: #475569 !important;
+      }
+
+      .notes-textarea {
+        background: #fff !important;
+        color: #000 !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+
+      .print-verdict-tag {
+        display: inline-block !important;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 4px;
+        border: 1px solid #999;
+      }
+
+      .meta-grid {
+        background: #f1f5f9 !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+
+      .meta-value, .meta-label {
+        color: #000 !important;
+      }
+    }
+
+    .print-verdict-tag {
+      display: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .top-bar-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .toolbar-inner {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .search-box {
+        width: 100%;
+      }
+      .bottom-drawer-inner {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .drawer-buttons {
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation & Header -->
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <div class="brand-section">
+        <span class="badge-deal">M&amp;A Diligence</span>
+        <span class="brand-title">Lily Corp — Site Visit Workspace</span>
+      </div>
+
+      <div class="top-actions">
+        <div class="sync-status" id="syncStatus">
+          <span class="sync-indicator" id="syncDot"></span>
+          <span id="syncText">Local storage active</span>
+        </div>
+        <button class="btn btn-secondary" onclick="exportMarkdown()" title="Download completed markdown report">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Export .MD
+        </button>
+        <button class="btn btn-primary" onclick="window.print()" title="Print or save as executive PDF">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          Print / PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Executive Metadata Card -->
+    <section class="hero-card">
+      <div class="hero-header">
+        <div class="hero-title-group">
+          <h1>Priority Site Visit Questions &amp; Verification</h1>
+          <p>Ranked in order of importance: Deal Killers, Operational Realities, and Diligence Verification.</p>
+        </div>
+      </div>
+
+      <div class="meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">Target Company</span>
+          <span class="meta-value">Lily Corporation (Aurora, IL)</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Primary Host</span>
+          <span class="meta-value">Robert "Bob" Trout (President)</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Acquiring Principal</span>
+          <span class="meta-value">Jack Fay</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Visit Date</span>
+          <input type="date" id="visitDate" class="meta-input" onchange="handleMetaChange()">
+        </div>
+      </div>
+
+      <!-- Diligence Progress Scoreboard -->
+      <div class="scoreboard">
+        <div class="score-card" onclick="setFilter('all')">
+          <div class="score-val score-blue" id="statAnswered">0/21</div>
+          <div class="score-label">Answered</div>
+        </div>
+        <div class="score-card" onclick="setFilter('deal-killers')">
+          <div class="score-val score-red" id="statDealKillers">0/7</div>
+          <div class="score-label">Deal Killers Addressed</div>
+        </div>
+        <div class="score-card" onclick="setFilter('green')">
+          <div class="score-val score-green" id="statGreen">0</div>
+          <div class="score-label">Green Flags</div>
+        </div>
+        <div class="score-card" onclick="setFilter('yellow')">
+          <div class="score-val score-amber" id="statYellow">0</div>
+          <div class="score-label">Caution / Follow-Up</div>
+        </div>
+        <div class="score-card" onclick="setFilter('red')">
+          <div class="score-val score-red" id="statRed">0</div>
+          <div class="score-label">Red Flags</div>
+        </div>
+      </div>
+
+      <!-- Completion progress bar -->
+      <div class="progress-bar-container">
+        <div class="progress-info">
+          <span>Diligence Completion</span>
+          <span id="progressPercent">0%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter & Category Toolbar -->
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div class="filter-pills" id="filterPills">
+          <button class="pill active" data-filter="all" onclick="setFilter('all')">All Questions (21)</button>
+          <button class="pill" data-filter="part1" onclick="setFilter('part1')">Part 1: Deal Killers (7)</button>
+          <button class="pill" data-filter="part2" onclick="setFilter('part2')">Part 2: Ops &amp; Molds (5)</button>
+          <button class="pill" data-filter="part3" onclick="setFilter('part3')">Part 3: Legal &amp; Closing (5)</button>
+          <button class="pill" data-filter="part4" onclick="setFilter('part4')">Part 4: Digital Demand (4)</button>
+          <button class="pill" data-filter="followup" onclick="setFilter('followup')">⚠️ Needs Follow-up</button>
+          <button class="pill" data-filter="red" onclick="setFilter('red')">🚩 Red Flags</button>
+          <button class="pill" data-filter="unanswered" onclick="setFilter('unanswered')">⏳ Unanswered</button>
+        </div>
+
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search questions or notes..." oninput="handleSearch()">
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions Container -->
+    <div id="questionsContainer"></div>
+
+    <!-- General Impressions & Executive Notes -->
+    <section class="general-notes-card">
+      <h2 class="general-notes-title">Overall Site Visit Impressions &amp; Executive Summary</h2>
+      <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 12px;">Synthesize overall warehouse conditions, shop floor morale, Bob's body language, and next steps.</p>
+      <textarea id="generalNotes" class="notes-textarea" style="min-height: 130px;" placeholder="Document overall takeaway: plant physical condition, employee vibe (Dave K, Greg, Maggie), readiness for acquisition, next immediate request for lender/CPA..." oninput="handleGeneralNotesInput()"></textarea>
+    </section>
+
+  </main>
+
+  <!-- Sticky Bottom Quick Actions Bar -->
+  <aside class="bottom-drawer">
+    <div class="bottom-drawer-inner">
+      <div class="drawer-status">
+        <span class="status-pill" id="completionStatusPill">0 of 21 recorded</span>
+        <span style="color: var(--text-dim); font-size: 0.8rem;" id="lastSavedLabel">Saved just now</span>
+      </div>
+
+      <div class="drawer-buttons">
+        <button class="btn btn-secondary" onclick="saveDirectToFile()" id="btnSaveDirect" title="Use modern File System API to save directly to disk">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+          Direct Save
+        </button>
+        <button class="btn btn-success" onclick="exportMarkdown()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Export Markdown (.md)
+        </button>
+        <button class="btn btn-secondary" onclick="exportJSON()" title="Download raw JSON data backup">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          JSON Backup
+        </button>
+        <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="importJSON(event)">
+        <button class="btn btn-secondary" onclick="document.getElementById('jsonFileInput').click()" title="Load existing JSON backup">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          Restore JSON
+        </button>
+        <button class="btn btn-danger-outline" onclick="confirmReset()" title="Clear all local data">
+          Reset
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Reset Confirmation Modal -->
+  <div class="modal-overlay" id="resetModal">
+    <div class="modal-box">
+      <h3 class="modal-title">Reset All Diligence Notes?</h3>
+      <p class="modal-body">This will permanently delete all entered responses, ratings, and action items stored in your local browser storage. Are you sure? Make sure you have exported a Markdown or JSON backup first.</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" onclick="closeResetModal()">Cancel</button>
+        <button class="btn btn-danger-outline" style="background: var(--red); color: #fff;" onclick="executeReset()">Yes, Clear All Data</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <span id="toastMessage">Notes saved successfully.</span>
+  </div>
+
+  <script>
+    // Master Question Dataset based on site_visit_questions.md
+    const QUESTIONS = [
+      // PART 1: The Core Deal Killers & Valuation Questions
+      {
+        id: "q1",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "1",
+        title: "The 2025 Inventory Write-Down & Current Age (> 2 Yrs = $0)",
+        target: "Bob Trout (President)",
+        badge: "DEAL KILLER",
+        badgeClass: "badge-killer",
+        script: "In your 2025 notes, you wrote down $200k in inventory after a hand count, noting $92k was obsolete stock accumulated since 1982. How do you track inventory age today, and realistically, how much of what is sitting on these shelves right now is older than 2 years?",
+        listenFor: "Does he admit they have dead stock, or claim \"plastic doesn't go bad\"? Watch if he points to an actual tracking method or admits it's just visual guesswork."
+      },
+      {
+        id: "q2",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "2",
+        title: "Ownership of the 10 Injection Molds (The Core Asset Moat)",
+        target: "Bob Trout (President)",
+        badge: "DEAL KILLER",
+        badgeClass: "badge-killer",
+        script: "Are all 10 injection molds owned 100% free-and-clear by Lily Corp, or do any customers have proprietary rights, tooling ownership, or the right to take their molds elsewhere?",
+        listenFor: "Any hesitation. If a major customer owns the tooling for parts they buy, that customer can pull their molds on Day 1 and destroy that product line."
+      },
+      {
+        id: "q3",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "3",
+        title: "The 2024 Revenue Dip (-$600k) vs. The 2026 Rebound",
+        target: "Bob Trout (President)",
+        badge: "HIGH RISK",
+        badgeClass: "badge-risk",
+        script: "Looking at your 10-year financials, Lily Corp was rock-solid around $2.0M–$2.2M in 2022 and 2023, but dipped to $1.6M in 2024 with a net operating loss. What specifically caused that $600,000 decline—did you lose a key customer, were commercial/DOT projects delayed, or did you step back? And what drove the rebound we're seeing back over $2M in 2026?",
+        listenFor: "Macro delays (projects deferred due to interest rates) = Green Flag. Lost a major customer or competitor undercut prices = Major Red Flag. Blaming \"bookkeeping errors\" for a top-line sales drop = Evasive."
+      },
+      {
+        id: "q4",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "4",
+        title: "Bob’s Commitment to a 6 to 12 Month Transition",
+        target: "Bob Trout (President)",
+        badge: "KEY-MAN RISK",
+        badgeClass: "badge-killer",
+        script: "You hold 40 years of customer trust, pricing formulas, and technical seminar knowledge. I’d need you committed for 6 to 12 months post-sale to do warm account introductions and train me. How does that fit your retirement timeline?",
+        listenFor: "Willingness vs. eagerness to bolt. If he resists staying for at least 6 months, customer churn risk goes through the roof."
+      },
+      {
+        id: "q5",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "5",
+        title: "Internal Successor for Bob’s Role (Can Dave J Step Up as GM?)",
+        target: "Bob Trout (President)",
+        badge: "OPERATIONAL MOAT",
+        badgeClass: "badge-risk",
+        script: "My goal as an owner is to modernize systems, technology, and operations from an executive level, rather than managing daily phone orders long-term. Looking at your current team—specifically Dave J or Maggie—is there anyone who has the respect, skill, and desire to step up into a General Manager role to run day-to-day operations? Or would I eventually need to recruit an outside operator?",
+        listenFor: "Does Bob praise Dave J’s technical and customer command, or claim \"nobody can do what I do\"? If he confirms Dave J (paired with Maggie) can run operations with proper incentives, you have a clear path to being a non-operator tech owner."
+      },
+      {
+        id: "q6",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "6",
+        title: "Shareholder & Family Alignment (Who Actually Signs the Deal?)",
+        target: "Bob Trout (President)",
+        badge: "MAJOR DEAL KILLER",
+        badgeClass: "badge-killer",
+        script: "I noticed payments to Lily Trout ($86k) and Mike Trout in your P&L, and I’ve been coordinating with John. Who are all the legal shareholders/owners of Lily Corp, and is everyone in the family 100% aligned on selling the business at the $1.25M valuation?",
+        listenFor: "Major deal killer. If John, Bob's wife Lily, or kids own shares or rely on distributions and aren't fully on board, the deal could fall apart months into legal drafting."
+      },
+      {
+        id: "q7",
+        part: "part1",
+        partTitle: "Part 1: The Core Deal Killers & Valuation Questions",
+        number: "7",
+        title: "Existing Debt, UCC Liens & COVID SBA EIDL Loans",
+        target: "Bob Trout (President)",
+        badge: "SBA DEAL KILLER",
+        badgeClass: "badge-killer",
+        script: "Does Lily Corp currently have any outstanding business bank debt, equipment financing notes, lines of credit, or a COVID-era SBA EIDL loan that has a blanket UCC lien on company assets?",
+        listenFor: "SBA Deal Killer. If Lily Corp took an SBA EIDL disaster loan (very common in 2020/2021), Chase CANNOT fund a new SBA 7(a) acquisition loan unless the EIDL loan is paid off in full at closing with a clean UCC termination."
+      },
+
+      // PART 2: Operations, Customers & Equipment
+      {
+        id: "q8",
+        part: "part2",
+        partTitle: "Part 2: Operations, Customers & Equipment",
+        number: "8",
+        title: "Customer Concentration & Churn",
+        target: "Bob Trout (President)",
+        badge: "REVENUE RISK",
+        badgeClass: "badge-risk",
+        script: "Who are your top 3 to 5 customers by revenue, what percentage of total sales do they represent, and are any of them pushing back on prices or threatening to leave?",
+        listenFor: "If any single contractor accounts for >15% of revenue, or if their biggest accounts are personal friends of Bob who might not buy from a new owner."
+      },
+      {
+        id: "q9",
+        part: "part2",
+        partTitle: "Part 2: Operations, Customers & Equipment",
+        number: "9",
+        title: "Product Liability, Safety & Historical Lawsuits",
+        target: "Bob Trout (President)",
+        badge: "LIABILITY RISK",
+        badgeClass: "badge-risk",
+        script: "Given that your dispensers and proportioning pumps operate under high hydraulic pressure injecting chemicals into civil bridges and buildings, have you ever faced a product liability lawsuit, equipment failure claim, or OSHA citation?",
+        listenFor: "High-pressure injection equipment carries inherent risk. You need to know their claims history and what they pay annually for product liability insurance."
+      },
+      {
+        id: "q10",
+        part: "part2",
+        partTitle: "Part 2: Operations, Customers & Equipment",
+        number: "10",
+        title: "Sole-Source Vendor Dependencies",
+        target: "Bob Trout (President)",
+        badge: "SUPPLY CHAIN",
+        badgeClass: "badge-risk",
+        script: "Are there any critical raw materials (specific nylon/polyethylene resins, pump motors, specialty check valves) where you rely on a single supplier who could halt production if they had supply issues?",
+        listenFor: "Supply chain fragility. If the resin for their 25 molded parts comes from one niche vendor with 6-month lead times, that is a critical operational risk."
+      },
+      {
+        id: "q11",
+        part: "part2",
+        partTitle: "Part 2: Operations, Customers & Equipment",
+        number: "11",
+        title: "Operational Status of Molds & Machinery ($16k Repairs)",
+        target: "Bob Trout / Dave K",
+        badge: "CAPEX & MOLDS",
+        badgeClass: "badge-risk",
+        script: "You noted $16,000 in major mold repairs in 2024/2025 and a new material dryer. Are all 10 molds currently in working condition, who does your tool & die maintenance, and how reliable is the injection molding press?",
+        listenFor: "Are any molds currently cracked or producing parts out of tolerance? Who is the outside tool & die shop they rely on?"
+      },
+      {
+        id: "q12",
+        part: "part2",
+        partTitle: "Part 2: Operations, Customers & Equipment",
+        number: "12",
+        title: "Documented Setup Sheets vs. Tribal Memory (SOPs)",
+        target: "Bob / Dave K / Greg",
+        badge: "TRIBAL KNOWLEDGE",
+        badgeClass: "badge-risk",
+        script: "For the 25 molded parts and pump assemblies, are machine recipes (temperatures, cycle times, clamping pressures) and BOMs documented on paper/electronically, or do they live in Dave K and Greg’s heads?",
+        listenFor: "Confirms whether you have to spend your first 90 days extracting tribal knowledge before an aging shop employee retires."
+      },
+
+      // PART 3: Legal, Lease & Closing Mechanics
+      {
+        id: "q13",
+        part: "part3",
+        partTitle: "Part 3: Legal, Lease & Closing Mechanics",
+        number: "13",
+        title: "Financial Reconciliation (QuickBooks vs. Tax Returns)",
+        target: "Bob Trout (President)",
+        badge: "DEAL KILLER #1",
+        badgeClass: "badge-killer",
+        script: "Can you walk me through how the 2024 duplicate inventory entry error happened? When my CPA and lender review the raw QuickBooks file against your 1120-S tax returns, what is the clean, normalized profit we should expect?",
+        listenFor: "Defensive attitude vs. transparent acknowledgment of sloppy bookkeeping."
+      },
+      {
+        id: "q14",
+        part: "part3",
+        partTitle: "Part 3: Legal, Lease & Closing Mechanics",
+        number: "14",
+        title: "Aurora Facility Lease & Landlord Assignment",
+        target: "Bob Trout (President)",
+        badge: "SBA FACILITY REQUIREMENT",
+        badgeClass: "badge-risk",
+        script: "Who owns this building, what are your current lease terms, and will the landlord formally agree to assign the lease for a 5-to-10-year term matching an SBA loan?",
+        listenFor: "If Bob owns the building, ensure rent is fair market value. If a third party owns it, confirm the relationship is healthy and assignable."
+      },
+      {
+        id: "q15",
+        part: "part3",
+        partTitle: "Part 3: Legal, Lease & Closing Mechanics",
+        number: "15",
+        title: "Environmental History (SBA Phase I ESA Prerequisite)",
+        target: "Bob Trout (President)",
+        badge: "SBA ENVIRONMENTAL",
+        badgeClass: "badge-risk",
+        script: "Because operations involve injection molding, welding, and solvents, Chase will mandate a Phase I Environmental Site Assessment. Has the property ever had chemical spills, underground storage tanks, or EPA/OSHA inspections?",
+        listenFor: "Any mention of solvent dumping, floor drain issues, or unpermitted waste disposal that could fail an environmental audit."
+      },
+      {
+        id: "q16",
+        part: "part3",
+        partTitle: "Part 3: Legal, Lease & Closing Mechanics",
+        number: "16",
+        title: "Willingness to Sign a Strict 5-Year Non-Compete",
+        target: "Bob Trout & John Trout",
+        badge: "COMPETITIVE MOAT",
+        badgeClass: "badge-risk",
+        script: "Are you and John fully prepared to sign a standard 5-year non-compete covering this equipment and seminar space across the country?",
+        listenFor: "Immediate agreement. Any hedge is a red flag."
+      },
+      {
+        id: "q17",
+        part: "part3",
+        partTitle: "Part 3: Legal, Lease & Closing Mechanics",
+        number: "17",
+        title: "Pre-Closing Joint Physical Inventory Count",
+        target: "Bob Trout (President)",
+        badge: "VALUATION PROTECTION",
+        badgeClass: "badge-risk",
+        script: "Before closing, are you comfortable with a joint physical count where any inventory older than 2 years is written down to $0 and deducted from the purchase price?",
+        listenFor: "Tests his confidence in his own inventory valuation."
+      },
+
+      // PART 4: Field Validation: Testing the "6:30 AM Digital Demand" Hypothesis
+      {
+        id: "q18",
+        part: "part4",
+        partTitle: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis",
+        number: "A",
+        title: "The 'Personal Cell Phone' Test (Ask Bob)",
+        target: "Bob Trout (President)",
+        badge: "FIELD VALIDATION",
+        badgeClass: "badge-field",
+        script: "Bob, how often do contractors call your personal cell phone at 6:00 AM or on Sunday nights because they're stuck on a jobsite and realized they ran out of mixing nozzles or ports?",
+        listenFor: "If he says \"All the time! My phone never stops ringing,\" demand for 24/7 ordering is 100% verified—it's just currently trapped in Bob's pocket."
+      },
+      {
+        id: "q19",
+        part: "part4",
+        partTitle: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis",
+        number: "B",
+        title: "The 'Monday Morning Voicemail Avalanche' (Ask Maggie Casually)",
+        target: "Maggie M (Office Manager)",
+        badge: "FIELD VALIDATION",
+        badgeClass: "badge-field",
+        script: "Maggie, on Monday mornings when you open the office at 8:00 AM, how many voicemails and unread emails from the weekend are usually waiting for you from contractors wanting parts rushed out today?",
+        listenFor: "Maggie will give you the unfiltered truth. If Monday mornings are frantic with weekend parts requests, contractors desperately need self-service ordering."
+      },
+      {
+        id: "q20",
+        part: "part4",
+        partTitle: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis",
+        number: "C",
+        title: "The 'Consumable Drop-Off' Test (Ask Bob or Dave J)",
+        target: "Bob Trout / Dave J",
+        badge: "FIELD VALIDATION",
+        badgeClass: "badge-field",
+        script: "When a contractor buys an injection pump or dispenser from you, do they consistently buy all their ongoing static mixers and ports from Lily Corp for the next 5 years? Or do you see them buy the machine here and then buy wear parts elsewhere?",
+        listenFor: "If they admit contractors buy pumps from Lily Corp but buy cheap consumables from local distributors, you have proof that convenience and speed beat brand loyalty."
+      },
+      {
+        id: "q21",
+        part: "part4",
+        partTitle: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis",
+        number: "D",
+        title: "The 'Local Supply House' Competitor (Ask Bob)",
+        target: "Bob Trout (President)",
+        badge: "FIELD VALIDATION",
+        badgeClass: "badge-field",
+        script: "Who is your biggest competitor for day-to-day accessories—do guys drive to a local construction supply branch like White Cap or buy generic nozzles online from McMaster-Carr?",
+        listenFor: "If contractors run to White Cap at 6:30 AM because Lily Corp’s office isn't open, that validates the exact revenue opportunity for mobile QR-code reordering."
+      }
+    ];
+
+    const STORAGE_KEY = "lilycorp_site_visit_state_v1";
+
+    // Application state
+    let state = {
+      visitDate: new Date().toISOString().split("T")[0],
+      generalNotes: "",
+      responses: {} // keyed by q.id
+    };
+
+    let activeFilter = "all";
+    let searchTerm = "";
+    let saveTimeout = null;
+
+    // Initialize application
+    function init() {
+      loadState();
+      renderAllQuestions();
+      updateStats();
+      setupMetaInputs();
+
+      // Check if browser supports modern File System Access API
+      if (!('showSaveFilePicker' in window)) {
+        const directBtn = document.getElementById('btnSaveDirect');
+        if (directBtn) {
+          directBtn.title = "Standard Download (File System API not supported in this browser)";
+        }
+      }
+    }
+
+    // Load state from localStorage
+    function loadState() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          state = { ...state, ...parsed };
+        }
+      } catch (e) {
+        console.warn("Could not load saved state from localStorage:", e);
+      }
+
+      // Initialize empty responses for any missing question
+      QUESTIONS.forEach(q => {
+        if (!state.responses[q.id]) {
+          state.responses[q.id] = {
+            verdict: "", // "green" | "yellow" | "red"
+            notes: "",
+            followUp: false,
+            docRequest: "",
+            lastUpdated: null
+          };
+        }
+      });
+    }
+
+    // Debounced save to localStorage
+    function triggerSave() {
+      const syncDot = document.getElementById("syncDot");
+      const syncText = document.getElementById("syncText");
+      if (syncDot) syncDot.classList.add("saving");
+      if (syncText) syncText.textContent = "Saving locally...";
+
+      clearTimeout(saveTimeout);
+      saveTimeout = setTimeout(() => {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+          const now = new Date();
+          const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+          if (syncDot) syncDot.classList.remove("saving");
+          if (syncText) syncText.textContent = `Auto-saved at ${timeStr}`;
+          const lastSavedLabel = document.getElementById("lastSavedLabel");
+          if (lastSavedLabel) lastSavedLabel.textContent = `Auto-saved ${timeStr}`;
+        } catch (e) {
+          console.error("Local save failed:", e);
+          if (syncText) syncText.textContent = "Save error!";
+        }
+      }, 200);
+
+      updateStats();
+    }
+
+    function setupMetaInputs() {
+      const dateInput = document.getElementById("visitDate");
+      if (dateInput) {
+        dateInput.value = state.visitDate || new Date().toISOString().split("T")[0];
+      }
+      const generalInput = document.getElementById("generalNotes");
+      if (generalInput) {
+        generalInput.value = state.generalNotes || "";
+      }
+    }
+
+    function handleMetaChange() {
+      const dateInput = document.getElementById("visitDate");
+      if (dateInput) state.visitDate = dateInput.value;
+      triggerSave();
+    }
+
+    function handleGeneralNotesInput() {
+      const generalInput = document.getElementById("generalNotes");
+      if (generalInput) state.generalNotes = generalInput.value;
+      triggerSave();
+    }
+
+    // Render questions
+    function renderAllQuestions() {
+      const container = document.getElementById("questionsContainer");
+      container.innerHTML = "";
+
+      // Group by part
+      const parts = [
+        { id: "part1", title: "Part 1: The Core Deal Killers & Valuation Questions" },
+        { id: "part2", title: "Part 2: Operations, Customers & Equipment" },
+        { id: "part3", title: "Part 3: Legal, Lease & Closing Mechanics" },
+        { id: "part4", title: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis" }
+      ];
+
+      parts.forEach(part => {
+        const partQuestions = QUESTIONS.filter(q => q.part === part.id);
+        if (partQuestions.length === 0) return;
+
+        const section = document.createElement("section");
+        section.className = "section-block";
+        section.id = `section-${part.id}`;
+
+        const countAnswered = partQuestions.filter(q => {
+          const r = state.responses[q.id];
+          return r && (r.verdict || (r.notes && r.notes.trim().length > 0));
+        }).length;
+
+        section.innerHTML = `
+          <div class="section-header">
+            <div class="section-title">
+              <span>${part.title}</span>
+            </div>
+            <span class="section-counter" id="counter-${part.id}">${countAnswered}/${partQuestions.length} answered</span>
+          </div>
+          <div class="question-list" id="list-${part.id}"></div>
+        `;
+
+        container.appendChild(section);
+
+        const list = section.querySelector(`#list-${part.id}`);
+        partQuestions.forEach(q => {
+          list.appendChild(createQuestionCard(q));
+        });
+      });
+
+      applyFilters();
+    }
+
+    function createQuestionCard(q) {
+      const r = state.responses[q.id] || { verdict: "", notes: "", followUp: false, docRequest: "" };
+      
+      const card = document.createElement("div");
+      card.className = `question-card ${r.verdict ? 'status-' + r.verdict : ''}`;
+      card.id = `card-${q.id}`;
+      card.dataset.part = q.part;
+      card.dataset.id = q.id;
+
+      card.innerHTML = `
+        <div class="card-top">
+          <div class="card-title-group">
+            <div class="card-badges">
+              <span class="badge ${q.badgeClass}">${q.badge}</span>
+              <span class="badge badge-target">Target: ${q.target}</span>
+            </div>
+            <div class="question-title">
+              <span style="color: var(--primary); margin-right: 6px;">#${q.number}</span>
+              ${q.title}
+            </div>
+          </div>
+          <div class="print-verdict-tag" id="printTag-${q.id}">
+            Verdict: ${r.verdict ? r.verdict.toUpperCase() : 'PENDING'}
+          </div>
+        </div>
+
+        <!-- Verbatim Script Box -->
+        <div class="script-box">
+          <div class="script-header">
+            <span class="script-label">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              Verbatim Script (Ask Bob / Team)
+            </span>
+            <button class="btn-copy" onclick="copyScript('${q.id}')" title="Copy script to clipboard">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              Copy Script
+            </button>
+          </div>
+          <div class="script-text" id="scriptText-${q.id}">"${q.script}"</div>
+        </div>
+
+        <!-- What to Listen For Box -->
+        <div class="listen-box">
+          <div class="listen-label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            What to Listen For (Cues &amp; Body Language)
+          </div>
+          <div class="listen-text">${formatListenCues(q.listenFor)}</div>
+        </div>
+
+        <!-- Response Controls -->
+        <div class="response-controls">
+          <div class="control-row">
+            <div class="verdict-group">
+              <button type="button" class="verdict-btn ${r.verdict === 'green' ? 'active-green' : ''}" onclick="setVerdict('${q.id}', 'green')">
+                <span>🟢</span> Green Flag
+              </button>
+              <button type="button" class="verdict-btn ${r.verdict === 'yellow' ? 'active-yellow' : ''}" onclick="setVerdict('${q.id}', 'yellow')">
+                <span>🟡</span> Caution / Unclear
+              </button>
+              <button type="button" class="verdict-btn ${r.verdict === 'red' ? 'active-red' : ''}" onclick="setVerdict('${q.id}', 'red')">
+                <span>🔴</span> Red Flag
+              </button>
+              ${r.verdict ? `
+              <button type="button" class="verdict-btn" style="opacity: 0.6; font-size: 0.72rem;" onclick="setVerdict('${q.id}', '')">
+                Clear
+              </button>` : ''}
+            </div>
+
+            <label class="checkbox-label">
+              <input type="checkbox" id="followUp-${q.id}" ${r.followUp ? 'checked' : ''} onchange="toggleFollowUp('${q.id}')">
+              <span>⚠️ Flag for Diligence Follow-Up</span>
+            </label>
+          </div>
+
+          <!-- Document Request Box -->
+          <div class="doc-request-row">
+            <svg class="doc-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+            <input type="text" class="doc-input" id="docRequest-${q.id}" value="${escapeHtml(r.docRequest || '')}" placeholder="Promised document / CPA follow-up item (e.g., 'Bob promised 2024 raw invoice sample')..." oninput="handleDocRequestInput('${q.id}')">
+          </div>
+
+          <!-- Executive Notes Area -->
+          <div class="input-group">
+            <div class="notes-header">
+              <span class="notes-label">Live Site Visit Notes &amp; Observations</span>
+              <div class="quick-tags">
+                <button type="button" class="tag-btn" onclick="insertTag('${q.id}', '[Confirmed]')">+ Confirmed</button>
+                <button type="button" class="tag-btn" onclick="insertTag('${q.id}', '[Defensive]')">+ Defensive</button>
+                <button type="button" class="tag-btn" onclick="insertTag('${q.id}', '[Evasive]')">+ Evasive</button>
+                <button type="button" class="tag-btn" onclick="insertTag('${q.id}', '[Promised Docs]')">+ Promised Docs</button>
+                <button type="button" class="tag-btn" onclick="insertTag('${q.id}', '[Tribal Memory]')">+ Tribal Memory</button>
+              </div>
+            </div>
+            <textarea id="notes-${q.id}" class="notes-textarea" placeholder="Type direct quotes, body language observations, tone, or specific data points..." oninput="handleNotesInput('${q.id}')">${escapeHtml(r.notes || '')}</textarea>
+          </div>
+        </div>
+      `;
+
+      return card;
+    }
+
+    function formatListenCues(text) {
+      return text
+        .replace(/Green Flag/gi, '<span class="highlight-green">Green Flag</span>')
+        .replace(/Major Red Flag/gi, '<span class="highlight-red">Major Red Flag</span>')
+        .replace(/Red Flag/gi, '<span class="highlight-red">Red Flag</span>')
+        .replace(/Major deal killer/gi, '<span class="highlight-red">Major Deal Killer</span>')
+        .replace(/SBA Deal Killer/gi, '<span class="highlight-red">SBA Deal Killer</span>')
+        .replace(/Evasive/gi, '<span style="color: #fbbf24; font-weight: 600;">Evasive</span>');
+    }
+
+    function setVerdict(id, verdict) {
+      if (!state.responses[id]) state.responses[id] = {};
+      state.responses[id].verdict = verdict;
+      state.responses[id].lastUpdated = new Date().toISOString();
+
+      // Update card visual class
+      const card = document.getElementById(`card-${id}`);
+      if (card) {
+        card.classList.remove('status-green', 'status-yellow', 'status-red');
+        if (verdict) card.classList.add(`status-${verdict}`);
+
+        // Update verdict buttons inside card
+        const verdictGroup = card.querySelector('.verdict-group');
+        if (verdictGroup) {
+          verdictGroup.innerHTML = `
+            <button type="button" class="verdict-btn ${verdict === 'green' ? 'active-green' : ''}" onclick="setVerdict('${id}', 'green')">
+              <span>🟢</span> Green Flag
+            </button>
+            <button type="button" class="verdict-btn ${verdict === 'yellow' ? 'active-yellow' : ''}" onclick="setVerdict('${id}', 'yellow')">
+              <span>🟡</span> Caution / Unclear
+            </button>
+            <button type="button" class="verdict-btn ${verdict === 'red' ? 'active-red' : ''}" onclick="setVerdict('${id}', 'red')">
+              <span>🔴</span> Red Flag
+            </button>
+            ${verdict ? `
+            <button type="button" class="verdict-btn" style="opacity: 0.6; font-size: 0.72rem;" onclick="setVerdict('${id}', '')">
+              Clear
+            </button>` : ''}
+          `;
+        }
+
+        const printTag = document.getElementById(`printTag-${id}`);
+        if (printTag) {
+          printTag.textContent = `Verdict: ${verdict ? verdict.toUpperCase() : 'PENDING'}`;
+        }
+      }
+
+      triggerSave();
+    }
+
+    function toggleFollowUp(id) {
+      const checkbox = document.getElementById(`followUp-${id}`);
+      if (!state.responses[id]) state.responses[id] = {};
+      state.responses[id].followUp = checkbox ? checkbox.checked : false;
+      state.responses[id].lastUpdated = new Date().toISOString();
+      triggerSave();
+    }
+
+    function handleNotesInput(id) {
+      const textarea = document.getElementById(`notes-${id}`);
+      if (!state.responses[id]) state.responses[id] = {};
+      state.responses[id].notes = textarea ? textarea.value : "";
+      state.responses[id].lastUpdated = new Date().toISOString();
+      triggerSave();
+    }
+
+    function handleDocRequestInput(id) {
+      const input = document.getElementById(`docRequest-${id}`);
+      if (!state.responses[id]) state.responses[id] = {};
+      state.responses[id].docRequest = input ? input.value : "";
+      state.responses[id].lastUpdated = new Date().toISOString();
+      triggerSave();
+    }
+
+    function insertTag(id, tag) {
+      const textarea = document.getElementById(`notes-${id}`);
+      if (!textarea) return;
+      const val = textarea.value;
+      const space = val.length > 0 && !val.endsWith(" ") && !val.endsWith("\n") ? " " : "";
+      textarea.value = val + space + tag + " ";
+      handleNotesInput(id);
+      textarea.focus();
+    }
+
+    function copyScript(id) {
+      const q = QUESTIONS.find(item => item.id === id);
+      if (!q) return;
+      navigator.clipboard.writeText(q.script).then(() => {
+        showToast("Script copied to clipboard!");
+      }).catch(() => {
+        showToast("Copied script text.");
+      });
+    }
+
+    // Filter and search logic
+    function setFilter(filter) {
+      activeFilter = filter;
+      document.querySelectorAll(".pill").forEach(p => {
+        p.classList.toggle("active", p.dataset.filter === filter);
+      });
+      applyFilters();
+    }
+
+    function handleSearch() {
+      const input = document.getElementById("searchInput");
+      searchTerm = input ? input.value.toLowerCase().trim() : "";
+      applyFilters();
+    }
+
+    function applyFilters() {
+      QUESTIONS.forEach(q => {
+        const card = document.getElementById(`card-${q.id}`);
+        if (!card) return;
+
+        const r = state.responses[q.id] || { verdict: "", notes: "", followUp: false, docRequest: "" };
+        const isAnswered = Boolean(r.verdict || (r.notes && r.notes.trim().length > 0));
+
+        let matchesFilter = true;
+        if (activeFilter === "all") {
+          matchesFilter = true;
+        } else if (activeFilter.startsWith("part")) {
+          matchesFilter = q.part === activeFilter;
+        } else if (activeFilter === "deal-killers") {
+          matchesFilter = q.badge.includes("KILLER");
+        } else if (activeFilter === "green") {
+          matchesFilter = r.verdict === "green";
+        } else if (activeFilter === "yellow") {
+          matchesFilter = r.verdict === "yellow";
+        } else if (activeFilter === "red") {
+          matchesFilter = r.verdict === "red";
+        } else if (activeFilter === "followup") {
+          matchesFilter = Boolean(r.followUp);
+        } else if (activeFilter === "unanswered") {
+          matchesFilter = !isAnswered;
+        }
+
+        let matchesSearch = true;
+        if (searchTerm) {
+          const haystack = (
+            q.title + " " +
+            q.script + " " +
+            q.listenFor + " " +
+            q.target + " " +
+            (r.notes || "") + " " +
+            (r.docRequest || "")
+          ).toLowerCase();
+          matchesSearch = haystack.includes(searchTerm);
+        }
+
+        card.style.display = (matchesFilter && matchesSearch) ? "block" : "none";
+      });
+
+      // Show/hide empty sections
+      ["part1", "part2", "part3", "part4"].forEach(partId => {
+        const section = document.getElementById(`section-${partId}`);
+        if (!section) return;
+        const list = section.querySelector(`#list-${partId}`);
+        const visibleCards = list.querySelectorAll(".question-card:not([style*='display: none'])");
+        section.style.display = visibleCards.length > 0 ? "block" : "none";
+      });
+    }
+
+    // Update scoreboard statistics
+    function updateStats() {
+      let countAnswered = 0;
+      let countGreen = 0;
+      let countYellow = 0;
+      let countRed = 0;
+      let countDealKillers = 0;
+      const total = QUESTIONS.length;
+
+      QUESTIONS.forEach(q => {
+        const r = state.responses[q.id];
+        if (!r) return;
+        const hasData = Boolean(r.verdict || (r.notes && r.notes.trim().length > 0));
+        if (hasData) countAnswered++;
+        if (r.verdict === "green") countGreen++;
+        if (r.verdict === "yellow") countYellow++;
+        if (r.verdict === "red") countRed++;
+        if (q.badge.includes("KILLER") && hasData) countDealKillers++;
+      });
+
+      const percent = Math.round((countAnswered / total) * 100);
+
+      const statAnswered = document.getElementById("statAnswered");
+      if (statAnswered) statAnswered.textContent = `${countAnswered}/${total}`;
+
+      const statDealKillers = document.getElementById("statDealKillers");
+      if (statDealKillers) statDealKillers.textContent = `${countDealKillers}/7`;
+
+      const statGreen = document.getElementById("statGreen");
+      if (statGreen) statGreen.textContent = countGreen;
+
+      const statYellow = document.getElementById("statYellow");
+      if (statYellow) statYellow.textContent = countYellow;
+
+      const statRed = document.getElementById("statRed");
+      if (statRed) statRed.textContent = countRed;
+
+      const progressPercent = document.getElementById("progressPercent");
+      if (progressPercent) progressPercent.textContent = `${percent}%`;
+
+      const progressFill = document.getElementById("progressFill");
+      if (progressFill) progressFill.style.width = `${percent}%`;
+
+      const statusPill = document.getElementById("completionStatusPill");
+      if (statusPill) statusPill.textContent = `${countAnswered} of ${total} recorded (${percent}%)`;
+
+      // Update part counters
+      ["part1", "part2", "part3", "part4"].forEach(partId => {
+        const partQs = QUESTIONS.filter(q => q.part === partId);
+        const answered = partQs.filter(q => {
+          const r = state.responses[q.id];
+          return r && (r.verdict || (r.notes && r.notes.trim().length > 0));
+        }).length;
+        const counter = document.getElementById(`counter-${partId}`);
+        if (counter) counter.textContent = `${answered}/${partQs.length} answered`;
+      });
+    }
+
+    // Markdown Exporter
+    function exportMarkdown() {
+      let md = `# Lily Corp: Site Visit Due Diligence Report & Findings\n`;
+      md += `*Completed On-Site Verification and Diligence Log*\n\n`;
+      md += `**Target:** Lily Corporation (Aurora, IL)  \n`;
+      md += `**Primary Host:** Robert "Bob" Trout (President)  \n`;
+      md += `**Acquiring Buyer:** Jack Fay  \n`;
+      md += `**Visit Date:** ${state.visitDate || new Date().toISOString().split("T")[0]}  \n`;
+      md += `**Export Generated:** ${new Date().toLocaleString()}  \n\n`;
+
+      // Diligence Summary Table
+      let totalAnswered = 0, g = 0, y = 0, r = 0;
+      QUESTIONS.forEach(q => {
+        const resp = state.responses[q.id];
+        if (resp && (resp.verdict || (resp.notes && resp.notes.trim()))) totalAnswered++;
+        if (resp && resp.verdict === 'green') g++;
+        if (resp && resp.verdict === 'yellow') y++;
+        if (resp && resp.verdict === 'red') r++;
+      });
+
+      md += `## Executive Summary & Diligence Scorecard\n\n`;
+      md += `| Total Questions | Completed | Green Flags 🟢 | Caution / Follow-Up 🟡 | Red Flags 🔴 |\n`;
+      md += `| :---: | :---: | :---: | :---: | :---: |\n`;
+      md += `| ${QUESTIONS.length} | ${totalAnswered} (${Math.round(totalAnswered/QUESTIONS.length*100)}%) | ${g} | ${y} | ${r} |\n\n`;
+
+      if (state.generalNotes && state.generalNotes.trim().length > 0) {
+        md += `### Overall Site Visit Impressions\n`;
+        md += `${state.generalNotes.trim()}\n\n`;
+      }
+
+      md += `---\n\n`;
+
+      const parts = [
+        { id: "part1", title: "Part 1: The Core Deal Killers & Valuation Questions" },
+        { id: "part2", title: "Part 2: Operations, Customers & Equipment" },
+        { id: "part3", title: "Part 3: Legal, Lease & Closing Mechanics" },
+        { id: "part4", title: "Part 4: Field Validation: Testing the '6:30 AM Digital Demand' Hypothesis" }
+      ];
+
+      parts.forEach(part => {
+        const partQuestions = QUESTIONS.filter(q => q.part === part.id);
+        md += `## ${part.title}\n\n`;
+
+        partQuestions.forEach(q => {
+          const resp = state.responses[q.id] || { verdict: "", notes: "", followUp: false, docRequest: "" };
+          
+          let verdictTag = "⚪ [NOT ANSWERED]";
+          if (resp.verdict === "green") verdictTag = "🟢 [GREEN FLAG / CLEAR]";
+          if (resp.verdict === "yellow") verdictTag = "🟡 [CAUTION / FOLLOW-UP]";
+          if (resp.verdict === "red") verdictTag = "🔴 [RED FLAG / DEAL KILLER RISK]";
+
+          md += `### ${q.number}. ${q.title}\n`;
+          md += `* **Assessment Status:** ${verdictTag}  \n`;
+          md += `* **Target Interviewee:** ${q.target}  \n`;
+          md += `* **Classification:** \`${q.badge}\`  \n`;
+          if (resp.followUp) {
+            md += `* **⚠️ Action Flag:** **Marked for Formal Diligence Follow-Up / Attorney / CPA Review**  \n`;
+          }
+          if (resp.docRequest && resp.docRequest.trim()) {
+            md += `* **📄 Document / Proof Requested:** ${resp.docRequest.trim()}  \n`;
+          }
+
+          md += `\n> **Question to ask:**  \n> *"${q.script}"*\n\n`;
+          md += `* **What to listen for:** ${q.listenFor}\n\n`;
+
+          md += `**On-Site Notes & Findings:**\n`;
+          if (resp.notes && resp.notes.trim().length > 0) {
+            md += `${resp.notes.trim()}\n\n`;
+          } else {
+            md += `*(No notes recorded yet)*\n\n`;
+          }
+
+          md += `---\n\n`;
+        });
+      });
+
+      downloadFile(md, `lilycorp_site_visit_notes_${state.visitDate || 'completed'}.md`, "text/markdown");
+      showToast("Exported completed Markdown!");
+    }
+
+    // Direct Save using File System Access API if available
+    async function saveDirectToFile() {
+      if ('showSaveFilePicker' in window) {
+        try {
+          const options = {
+            suggestedName: `site_visit_notes_completed.md`,
+            types: [{
+              description: 'Markdown File',
+              accept: { 'text/markdown': ['.md'] },
+            }],
+          };
+          const handle = await window.showSaveFilePicker(options);
+          const writable = await handle.createWritable();
+          
+          // Generate same content as exportMarkdown
+          let md = generateMarkdownString();
+          await writable.write(md);
+          await writable.close();
+          showToast("Saved directly to project file!");
+        } catch (err) {
+          if (err.name !== 'AbortError') {
+            console.error(err);
+            exportMarkdown();
+          }
+        }
+      } else {
+        // Fallback to standard download
+        exportMarkdown();
+      }
+    }
+
+    function generateMarkdownString() {
+      let md = `# Lily Corp: Site Visit Due Diligence Report & Findings\n`;
+      md += `*Completed On-Site Verification and Diligence Log*\n\n`;
+      md += `**Target:** Lily Corporation (Aurora, IL)  \n`;
+      md += `**Primary Host:** Robert "Bob" Trout (President)  \n`;
+      md += `**Acquiring Buyer:** Jack Fay  \n`;
+      md += `**Visit Date:** ${state.visitDate || new Date().toISOString().split("T")[0]}  \n`;
+      md += `**Export Generated:** ${new Date().toLocaleString()}  \n\n`;
+
+      if (state.generalNotes && state.generalNotes.trim()) {
+        md += `## Overall Site Visit Impressions\n${state.generalNotes.trim()}\n\n---\n\n`;
+      }
+
+      QUESTIONS.forEach(q => {
+        const resp = state.responses[q.id] || { verdict: "", notes: "", followUp: false, docRequest: "" };
+        let verdictTag = resp.verdict ? `[${resp.verdict.toUpperCase()}]` : `[PENDING]`;
+        md += `### #${q.number}: ${q.title} (${verdictTag})\n`;
+        md += `* **Target:** ${q.target} | **Badge:** ${q.badge}\n`;
+        if (resp.followUp) md += `* **FLAGGED FOR DILIGENCE FOLLOW-UP**\n`;
+        if (resp.docRequest) md += `* **Document Requested:** ${resp.docRequest}\n`;
+        md += `* **Script:** "${q.script}"\n`;
+        md += `* **Notes:** ${resp.notes || '(none)'}\n\n`;
+      });
+      return md;
+    }
+
+    // JSON backup exporter
+    function exportJSON() {
+      const dataStr = JSON.stringify(state, null, 2);
+      downloadFile(dataStr, `lilycorp_site_visit_backup_${state.visitDate || 'data'}.json`, "application/json");
+      showToast("JSON backup downloaded.");
+    }
+
+    // JSON backup importer
+    function importJSON(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const imported = JSON.parse(e.target.result);
+          if (imported && imported.responses) {
+            state = { ...state, ...imported };
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+            setupMetaInputs();
+            renderAllQuestions();
+            updateStats();
+            showToast("Successfully restored data from JSON backup!");
+          } else {
+            alert("Invalid JSON format: missing responses object.");
+          }
+        } catch (err) {
+          alert("Error parsing JSON file: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = "";
+    }
+
+    function downloadFile(content, fileName, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = fileName;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 200);
+    }
+
+    function confirmReset() {
+      document.getElementById("resetModal").classList.add("open");
+    }
+
+    function closeResetModal() {
+      document.getElementById("resetModal").classList.remove("open");
+    }
+
+    function executeReset() {
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch (e) {}
+      state = {
+        visitDate: new Date().toISOString().split("T")[0],
+        generalNotes: "",
+        responses: {}
+      };
+      closeResetModal();
+      setupMetaInputs();
+      renderAllQuestions();
+      updateStats();
+      showToast("All diligence data has been cleared.");
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      const toastMessage = document.getElementById("toastMessage");
+      if (!toast || !toastMessage) return;
+      toastMessage.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2800);
+    }
+
+    function escapeHtml(text) {
+      if (!text) return "";
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // Start
+    window.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>

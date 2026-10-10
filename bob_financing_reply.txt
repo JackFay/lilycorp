@@ -1,0 +1,49 @@
+Subject: Re: Deal Update - Financing Requirements & Options
+
+Hi Bob,
+
+Fair point, and I appreciate you asking directly. Let me lay out the exact math and requirements the lenders are working from so there is zero guesswork.
+
+Under SBA rules, lenders cannot underwrite based on 2026 run-rates alone. They are required to underwrite against the filed Form 1120-S tax returns from 2024 and 2025, and the business must hit at least a 1.25x Debt Service Coverage Ratio (DSCR).
+
+Here is the exact formula both lenders used on Lily's numbers:
+
+1. Starting Point (2024 Tax Return): Lily reported an Ordinary Business Loss of -$16,612.
+2. Add-Backs: They added back depreciation, interest, and family salaries (totaling ~$260,000).
+3. Mandatory Bank Deductions: Per SBA lending guidelines, the bank must deduct two new ongoing expenses that sit ahead of debt service:
+   - The proposed commercial facility lease: -$68,000/year (NNN).
+   - Buyer living wage / replacement general manager salary: -$100,000/year.
+
+After those deductions, the cash flow available to pay bank debt in 2024 is approximately $85,000. 
+
+To meet the bank's required 1.25x coverage ($85,000 / 1.25), maximum annual debt service cannot exceed roughly $68,000/year. 
+
+On a standard 10-year SBA loan at current interest rates (~9.5%), a $68,000 annual payment caps the maximum senior bank loan at roughly $450,000 to $500,000. 
+
+That is why an $850k to $1M+ bank loan was declined. The bank simply cannot write a loan that large against the historical tax returns.
+
+---
+
+How We Can Make This Work:
+
+To make a deal happen where you receive a strong exit and the financing actually clears, there are two realistic structures:
+
+Option A: Sized SBA Loan with Standby Seller Note
+- Bank Senior Loan: $450,000 - $500,000 (funded in cash to you at closing).
+- Buyer Cash Equity: $50,000 - $75,000 cash at closing.
+- Seller Note on Standby: The remaining balance held as a subordinated seller note on standby (no principal/interest payments for the first 24 months per SBA rules, allowing it to bypass the bank's coverage test).
+- Commercial Lease: $68,000/year ($5,666/month) NNN rent paid to you for the building.
+
+Option B: Direct Seller Financing (Bypass the SBA Entirely)
+- We bypass the banks, SBA fees, and months of loan processing.
+- Buyer Cash Equity: $50,000 - $75,000 cash paid to you at closing.
+- Seller Promissory Note: You finance the balance over a 7-to-10 year term, paying you approximately $5,500 - $6,500/month, fully secured by the equipment, inventory, and proprietary molds.
+- Commercial Lease: $68,000/year ($5,666/month) NNN rent.
+- Total to you: ~$11,000 to $12,000 every month in predictable retirement cash flow, and we close in 30 days.
+
+I want to be candid: I am still genuinely interested in Lily and would love to see a successful transition. However, after going through the underwriting process with two separate SBA lenders and really digging into the post-closing cash flow, my confidence in buying Lily at a $1M+ valuation is shaken. The debt service and historical numbers simply don't support that figure without putting the business in immediate financial jeopardy.
+
+If you are open to discussing a structure along the lines of what can actually be financed, I'm happy to hop on a call or meet up. If not, I completely understand and respect where you stand.
+
+Best,
+Jack

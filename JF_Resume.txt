@@ -1,0 +1,40 @@
+﻿John (Jack) R. Fay
+400 Selborne Rd  | Riverside IL 60546
+Phone: 573.424.6735 | E-Mail: jack@imin.technology
+EDUCATION
+University of Missouri, Columbia, MO        January 2014 – December 2016
+* Bachelor of Arts, Computer Science; GPA: 3.8
+* Relevant Coursework – Advanced Algorithm Design, Operating Systems, Object Oriented Programming
+* Athletics Department – Tennis Instructor 
+Universidad de Carlos III, Madrid, ES        January 2015 – June 2015
+* Spent the semester immersed as a foreign exchange student. Developed strong skills in the Spanish language while taking challenging computer science courses with an emphasis in cyber security
+* Relevant Coursework – Cryptography, Files and Databases
+Creighton University, Omaha, NE        August 2012 – December 2013
+* Studied Finance and Pre-Medicine
+* Athletics - Varsity Men’s Tennis Team 
+
+
+WORK EXPERIENCE
+Halo Investing, Chicago, IL        March 2025 – Present
+Head of DevOps
+* Architected a cloud cost-optimization strategy that reduced the annual AWS spend by 50% through infrastructure right-sizing, implementing Savings Plans, and eliminating resource waste.
+* Led a zero-downtime migration from legacy EC2 instances to a modern, containerized architecture on Kubernetes (EKS), boosting scalability, improving developer autonomy, and increasing service uptime to 99.99%.
+* Established a mature DevOps culture by implementing a full-scale CI/CD framework (using GitLab CI), standardized development environments with Docker Compose,  and introduced a GitOps workflow for releases via ArgoCD
+TripleBlind, Chicago, IL        May 2020 – December 2024
+Sr. DevOps Engineer
+* Joined as the team’s first DevOps engineer and built out all infrastructure, development processes, CI/CD pipelines, and security practices. Helped lead the effort to become SOC 2 compliant.
+* Architected scalable solutions to handle large amounts of data processing, job queuing, network throughput, and user rights management to ensure a high quality and reliable experience for both developers and customers.
+* Designed UIs, APIs, and deployment pipelines using tools such as Kubernetes, Docker, Bash, Python, and JavaScript to maximize the ability for developers to deploy safely and quickly.
+Twentyseven Global, Leawood, KS        September 2018 – May 2020
+Senior Consultant
+* Met with dozens of clients to discuss and implement their software needs.
+* Architected software systems for each client and served as a product manager to build out solutions leveraging offshore talent to maximize efficiency and minimize costs to the client.
+Cerner Corporation, Kansas City, MO        May 2016 – September 2018
+Software Engineer
+* Worked on the Strategy & Analytics team as a full stack developer building web applications for hospital administration and staff.
+* Developed an internal tool to automate a deployment process that normally took 1-2 hours to complete manually.
+
+
+SKILLS, INTERESTS & ACTIVITIES
+* Languages: Spanish (Conversant)
+* Interests: Piano, Tennis, Travel, Holiday “Busking” for charity

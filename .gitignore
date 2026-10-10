@@ -1,0 +1,26 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.venv/
+*venv/
+.pytest_cache/
+
+# Office temp locks
+~$*
+
+# Environment & API keys
+.env
+.env.*
+!.env.example
+
+# Local scratch and logs
+logs/
+*.log
+scratch/

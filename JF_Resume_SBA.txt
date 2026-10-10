@@ -1,0 +1,159 @@
+John (Jack) R. Fay
+400 Selborne Rd | Riverside, IL 60546
+Phone: 573.424.6735 | E-Mail: jack@imin.technology
+
+
+PROFESSIONAL SUMMARY
+
+Technology operations executive with 10+ years of experience managing cross-functional teams,
+controlling multi-million-dollar budgets, and building scalable business processes from the ground up.
+Proven track record of inheriting disorganized operations and transforming them into documented,
+repeatable systems — including vendor management, quality assurance, cost optimization, and
+workforce coordination. Seeking to acquire and operate a specialty manufacturing business, applying
+modern operational systems and technology to an established 40+ year company with a loyal customer
+base and proven product line.
+
+
+EDUCATION
+
+University of Missouri, Columbia, MO                              January 2014 – December 2016
+  Bachelor of Arts, Computer Science; GPA: 3.8
+
+Universidad de Carlos III, Madrid, ES                             January 2015 – June 2015
+  International Study — Computer Science & Cybersecurity
+
+Creighton University, Omaha, NE                                   August 2012 – December 2013
+  Studied Finance and Pre-Medicine
+
+
+RELEVANT MANAGEMENT & OPERATIONS EXPERIENCE
+
+Halo Investing, Chicago, IL                                       March 2025 – Present
+Head of DevOps — Operations & Infrastructure Leadership
+
+  * Promoted to department head; directly manage the operations engineering team responsible for
+    all production systems, vendor relationships, and infrastructure reliability for a fintech
+    platform serving institutional clients.
+
+  * Own and manage an annual infrastructure budget exceeding $1M. Led a cost-optimization
+    initiative that reduced annual operating spend by 50% ($500K+ in annual savings) through
+    vendor renegotiation, resource right-sizing, and elimination of waste — directly improving
+    the company's bottom line.
+
+  * Directed a complex, multi-month platform migration with zero downtime and zero revenue
+    disruption, coordinating across engineering, product, and compliance teams while maintaining
+    99.99% system uptime throughout.
+
+  * Established company-wide operational standards including documented workflows, standardized
+    procedures, automated quality checks, and a structured release process — transforming an
+    ad-hoc environment into a disciplined, repeatable operation.
+
+
+Linear Solutions, Griffith, IN                                    Ongoing (Concurrent)
+Fractional CTO — Master Electrical Distributor
+
+  * Serve as an operations and technology advisor to a Master Electrical Distributor specializing
+    in electrical raceway products, working directly with ownership to modernize business
+    processes in a traditional B2B industrial distribution environment.
+
+  * Optimized core operational workflows including order processing, inventory management, vendor
+    coordination, and customer quoting — gaining firsthand experience in the day-to-day
+    realities of running a physical-product distribution business selling to electrical
+    contractors and industrial accounts.
+
+  * Developed deep familiarity with the B2B contractor sales cycle, including purchase order
+    workflows, Net-30/60 credit terms, freight logistics, and relationship-driven account
+    management — the identical commercial model used by the target acquisition (Lily Corporation).
+
+  * This engagement provides direct, hands-on experience in the exact business model being
+    acquired: a Midwest industrial product company selling specialized equipment and consumables
+    to professional contractors through B2B channels.
+
+  * Deployed an AI-powered automation system that virtually eliminated manual data entry errors
+    across order processing and inventory workflows — saving the company thousands of dollars
+    annually in costly mis-shipments, billing discrepancies, and inventory reconciliation issues.
+    This is the identical problem present at the target acquisition, where manual triple-entry
+    across QuickBooks, paper pick tickets, and UPS WorldShip has already caused a documented
+    $108,000 inventory recording error.
+
+  * Built a digital customer pricing sheet system that allows management to create, assign, and
+    distribute customer-specific price sheets — replacing a manual process of maintaining
+    individual spreadsheets and printed catalogs. Enables instant price updates across all
+    accounts and automated email distribution to customers, directly improving quoting speed
+    and pricing accuracy.
+
+
+TripleBlind, Chicago, IL                                          May 2020 – December 2024
+Sr. DevOps Engineer — First Operations Hire / Greenfield Builder
+
+  * Joined as the company's first operations hire and single-handedly built out all
+    infrastructure, production systems, operational processes, and security compliance
+    frameworks from a blank slate.
+
+  * Led the company through SOC 2 Type II compliance certification, managing the full audit
+    lifecycle including vendor assessments, policy documentation, access controls, and
+    remediation — demonstrating the ability to navigate complex regulatory and compliance
+    requirements.
+
+  * Designed and implemented systems to handle high-volume order processing, job queuing, and
+    customer-facing reliability — directly supporting revenue generation and customer
+    satisfaction.
+
+  * Managed vendor relationships with multiple technology and service providers, negotiating
+    contracts, evaluating alternatives, and ensuring uninterrupted supply of critical services.
+
+  * Built user-facing dashboards, management interfaces, and operational tools that reduced
+    manual processing time by 80%+ and improved team productivity — experience directly
+    applicable to modernizing legacy order-entry and inventory systems.
+
+
+Twentyseven Global, Leawood, KS                                  September 2018 – May 2020
+Senior Consultant — Client Management & Project Delivery
+
+  * Served as a client-facing project manager and solutions architect for a consultancy serving
+    small and mid-sized businesses. Met with dozens of business owners to assess their
+    operational needs, design solutions, and deliver working systems on time and on budget.
+
+  * Managed project budgets, offshore development teams, and client relationships simultaneously
+    — balancing cost control, quality, and delivery timelines across multiple concurrent
+    engagements.
+
+  * Developed expertise in translating non-technical business requirements into actionable
+    implementation plans — a skill directly applicable to modernizing a legacy manufacturing
+    operation.
+
+
+Cerner Corporation, Kansas City, MO                               May 2016 – September 2018
+Software Engineer — Enterprise Healthcare Systems
+
+  * Full-stack developer on the Strategy & Analytics team, building operational tools for
+    hospital administrators managing multi-million-dollar clinical operations.
+
+  * Created an internal automation tool that eliminated a recurring 1–2 hour manual process,
+    demonstrating early aptitude for identifying operational inefficiencies and building
+    systems to resolve them.
+
+
+ACQUISITION-RELEVANT COMPETENCIES
+
+  * Team Leadership:        10+ years managing and coordinating cross-functional teams (3–15 people)
+  * Budget / P&L Ownership: Direct responsibility for $1M+ annual budgets with measurable cost
+                            reduction results
+  * Process Design:         Built operational SOPs, quality assurance frameworks, and compliance
+                            systems from scratch at multiple companies
+  * Vendor Management:      Negotiated contracts, managed supplier relationships, and maintained
+                            uninterrupted supply chains
+  * Client / Customer Mgmt: Managed B2B client portfolios as a consultant; experienced in
+                            relationship-driven sales and account management
+  * Regulatory Compliance:  Led SOC 2 certification; experienced with audit processes and
+                            documentation requirements
+  * Technology Modernization: Proven ability to take analog/legacy systems and implement digital
+                             ordering, automation, and operational visibility — directly applicable
+                             to modernizing a 40-year-old manufacturing operation
+
+
+ADDITIONAL
+
+  * Languages: Spanish (Conversant)
+  * Location:  Riverside, IL — 25 minutes from Aurora, IL (target acquisition facility)
+  * Interests: Piano, Tennis, Travel

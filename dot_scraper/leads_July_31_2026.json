@@ -1,0 +1,132 @@
+[
+  {
+    "letting_date": "July 31, 2026",
+    "letting_type": "Archived",
+    "item_contract": "009-62W20",
+    "contract_num": "62W20",
+    "county": "Cook",
+    "district": "1",
+    "status": "Awarded",
+    "description": "(1.413-Mile) Bridge Superstructure Replacement (SN 016-0927) consists of widening shoulder widths, replaced approach slabs, continuation of the new shared use pedestrian path, removal and installation of new guardrail, striping ond drainage improvements. The project is in Oak Park Avenue (FAU Route 2774) over I-80 in Tinley Park, IL.",
+    "total_linear_feet": 6.0,
+    "pay_items": [
+      {
+        "pay_item": "59000200",
+        "uom": "FOOT",
+        "description": "EPOXY CRACK INJECTION",
+        "quantity": 6.0
+      }
+    ],
+    "award_info": {
+      "status": "Awarded",
+      "status_date": "09/09/2026",
+      "bid_amount": "$7,166,048.30",
+      "contractor": "1320 D. Construction, Inc. 1488 So. Broadway Coal City IL 60416"
+    },
+    "authorized_bidders": []
+  },
+  {
+    "letting_date": "July 31, 2026",
+    "letting_type": "Archived",
+    "item_contract": "010-62X43",
+    "contract_num": "62X43",
+    "county": "Cook",
+    "district": "1",
+    "status": "Executed",
+    "description": "(166-Ft) Glenwood Road Bridge (SN 016-0793) over Butterfield Creek project consists of reconstruction of the joints with strip seals, hydro scarification 3/4-), deck repairs, installation of a latex concrete overlay (2\u00bc-) with diamond grinding, application of a protective coat, and substructure concrete repairs, installation of HMA on each side of the bridge. Located within Glenwood Road over Butterfield Creek in the Village of Glenwood in Cook County.",
+    "total_linear_feet": 61.0,
+    "pay_items": [
+      {
+        "pay_item": "59000200",
+        "uom": "FOOT",
+        "description": "EPOXY CRACK INJECTION",
+        "quantity": 61.0
+      }
+    ],
+    "award_info": {
+      "status": "Executed",
+      "status_date": "09/01/2026",
+      "bid_amount": "$290,657.35",
+      "contractor": "1320 D. Construction, Inc. 1488 So. Broadway Coal City IL 60416"
+    },
+    "authorized_bidders": []
+  },
+  {
+    "letting_date": "July 31, 2026",
+    "letting_type": "Archived",
+    "item_contract": "022-64T48",
+    "contract_num": "64T48",
+    "county": "Whiteside",
+    "district": "2",
+    "status": "Awarded",
+    "description": "Bridge repairs and joint replacement on SN 098-0102, carrying Moline Rd over drainage ditch, 1 mile northeast of Lyndon.",
+    "total_linear_feet": 13.0,
+    "pay_items": [
+      {
+        "pay_item": "59000200",
+        "uom": "FOOT",
+        "description": "EPOXY CRACK INJECTION",
+        "quantity": 13.0
+      }
+    ],
+    "award_info": {
+      "status": "Awarded",
+      "status_date": "09/09/2026",
+      "bid_amount": "$523,502.30",
+      "contractor": "3706 Martin & Company Excavating 2456 E. Pleasant Grove Road Oregon IL 61061"
+    },
+    "authorized_bidders": []
+  },
+  {
+    "letting_date": "July 31, 2026",
+    "letting_type": "Archived",
+    "item_contract": "023-64T49",
+    "contract_num": "64T49",
+    "county": "Ogle",
+    "district": "2",
+    "status": "Active",
+    "description": "Bridge repairs and joint replacement on SN 071-0015, carrying IL 64 over drainage ditch, 5.7 miles east of junction IL 26.",
+    "total_linear_feet": 25.0,
+    "pay_items": [
+      {
+        "pay_item": "59000200",
+        "uom": "FOOT",
+        "description": "EPOXY CRACK INJECTION",
+        "quantity": 25.0
+      }
+    ],
+    "award_info": {
+      "status": "Active",
+      "status_date": "06/24/2026",
+      "bid_amount": "$443,472.05",
+      "contractor": "3706 Martin & Company Excavating 2456 E. Pleasant Grove Road Oregon IL 61061"
+    },
+    "authorized_bidders": []
+  },
+  {
+    "letting_date": "July 31, 2026",
+    "letting_type": "Archived",
+    "item_contract": "086-80C90",
+    "contract_num": "80C90",
+    "county": "Cook",
+    "district": "1",
+    "status": "Awarded",
+    "description": "(655-Ft) The work consists of repairs and temporary shoring to the existing Pershing Road Bridge (SN 016-1423) consists of installation of temporary shoring towers, structural steel repair, protective shielding, pavement marking and signing, traffic control and protection located on Pershing Road (FAP 391) over Racine Avenue and NS Railroad in the City of Chicago, Cook County, IL.",
+    "total_linear_feet": 18.0,
+    "pay_items": [
+      {
+        "pay_item": "59000200",
+        "uom": "FOOT",
+        "description": "EPOXY CRACK INJECTION",
+        "quantity": 18.0
+      }
+    ],
+    "award_info": {
+      "status": "Awarded",
+      "status_date": "09/09/2026",
+      "bid_amount": "$2,448,235.00",
+      "contractor": "4657 F. H. Paschen, S.N. Nielsen & Associates LLC 5515 N. East River Road Chicago IL 60656"
+    },
+    "authorized_bidders": []
+  }
+]

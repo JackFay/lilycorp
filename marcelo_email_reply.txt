@@ -1,0 +1,78 @@
+Subject: Re: Lily Corp - Add-Back Schedule & Cash Flow Review
+
+Hi Marcelo,
+
+Thanks for following up. I have put together the detailed schedule and supporting context for the items you flagged.
+
+To answer your key question directly: 2026 YTD and 2025 can get there, but 2024 will fall short of $183,000 of adjusted cash flow under standard bank underwriting.
+
+Here is the breakdown by year:
+
+
+1. 2024 Add-Back Schedule (Form 1120-S Base)
+
+Ordinary Business Loss (Form 1120-S, Line 22): -$16,612
++ Depreciation and Interest: +$8,805 ($5,895 depr + $2,910 interest)
++ Family Compensation Add-Back (Form 1125-E): +$251,092
+  - Robert Trout (President/Seller): $173,057
+  - Lily Trout (Shareholder, non-working): $73,538
+  - Michael Trout (Shareholder, non-working): $4,497
+Gross Cash Flow Before Adjustments: $243,285
+
+Required Bank Adjustments Post-Close:
+- Proposed Commercial Lease (NNN): -$68,000 (Company paid $6,750 on historical P&L and $0 on tax returns because they owned the real estate; net new adjustment is -$61,250)
+- Buyer Living Wage / Replacement Manager Salary: -$100,000
+
+Adjusted Cash Flow Available for Debt Service (CFADS): ~$82,000 to $105,000
+(Note: In the seller's notes, Bob also stated that 2024 inventory had duplicate entry errors that understated COGS by $108,218. If an underwriter applies that correction to 2024, cash flow becomes negative.)
+
+
+2. 2025 Add-Back Schedule (Form 1120-S Base)
+
+Ordinary Business Loss (Form 1120-S, Line 22): -$134,891
++ Depreciation and Interest: +$6,526 ($5,895 depr + $631 interest)
++ Family Compensation Add-Back (Form 1125-E): +$265,087
+  - Robert Trout: $181,327
+  - Lily Trout: $79,370
+  - Michael Trout: $4,390
++ Inventory Adjustment Write-Down (Line 5345): +$200,387
+- New NNN Lease ($68k) and Management Salary ($100k): -$168,000
+
+Adjusted Cash Flow Available for Debt Service (CFADS): ~$169,000 to $178,000
+(Supports roughly 1.15x to 1.21x DSCR, assuming the full $200k inventory write-down is accepted as a one-time add-back.)
+
+
+3. 2026 Year-to-Date (Jan 1 - Jul 31, 7 Months)
+
+Reported Net Ordinary Income: $150,031
++ Depreciation: +$2,948
+- One-Time Inventory Credit Adjustment (Line 5345): -$72,790
+Normalized 7-Month Operating Income: $80,189 (Annualized: ~$137,500)
++ Family Compensation Add-Back: +$289,000 annualized
+- New NNN Lease ($68k) and Management Salary ($100k): -$168,000
+
+Adjusted Annualized Cash Flow (CFADS): ~$220,000 to $260,000+
+(Comfortably exceeds $183,000.)
+
+
+Support Detail for the Three Specific Questions:
+
+1. Family Salaries: Robert Trout runs the company day-to-day. Lily Trout and Michael Trout hold shares (96.2% and 3.8%) and draw roughly $85,000 to $105,000 in combined W-2 compensation without active operational roles (documented on Form 1125-E and internal payroll records).
+
+2. 2025 Inventory Write-Down ($200,387): Per the seller's notes, a physical hand count was performed in 2025 and inventory was written down by $200,387. The seller attributes $108,218 to duplicate receipt debits from 2024 bookkeeping errors, and $92,169 to cumulative dead stock accumulated over the company's 40-year history.
+
+3. 2026 Inventory Credit ($72,790): In the 2026 P&L, Account 5345 is a negative expense (-$72,790), representing an inventory true-up credit that lowered COGS and inflated reported margins. To be conservative, that non-recurring credit should be backed out, which brings normalized YTD net income down to about $100k before add-backs.
+
+
+Where This Leaves Us:
+
+If Grasshopper has a strict policy that each historical year individually (including 2024) must hit 1.25x DSCR, this transaction will not support a senior loan in the $850k to $945k range.
+
+However, if your credit committee has room to:
+1. Underwrite using a weighted average or Trailing Twelve Months (TTM) given the strong 2026 rebound; or
+2. Size a smaller senior loan (around $450k to $500k) based on what 2024 can support, with the rest structured through seller financing or a price reduction.
+
+Let me know if either of those options is something Grasshopper could consider. If not, I completely understand and appreciate your help and quick feedback on this.
+
+Best,
+Jack
