@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-10T15:45:00Z",
-  "active_cycle": 1,
+  "active_cycle": 2,
   "confidence_overall": 4.5,
   "frontier": [
     {
@@ -131,6 +131,38 @@
       "confidence_score": 5,
       "status": "OPEN",
       "priority": "MEDIUM"
+    },
+    {
+      "id": "DEAL_08",
+      "category": "Deal Structure",
+      "title": "Month 25 Standby Seller Note Debt Service Cliff & Covenant Gating",
+      "question": "How will the Standby Seller Note documentation (SBA Form 155 and Subordination Agreement) prevent borrower insolvency in Month 25 when ~$65,844/year in secondary debt service activates against an $85,000 historical CFADS base?",
+      "known_facts": [
+        "Uncovered during Cycle #2 investigation of [VALUATION_INV_02]."
+      ],
+      "open_uncertainties": [
+        "How will the Standby Seller Note documentation (SBA Form 155 and Subordination Agreement) prevent borrower insolvency in Month 25 when ~$65,844/year in secondary debt service activates against an $85,000 historical CFADS base?"
+      ],
+      "target_plan_file": "plan/01_deal_and_capital_structure.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "RISK_09",
+      "category": "Risk",
+      "title": "Facility Environmental Phase I ESA & NNN Lease Spill Indemnity",
+      "question": "Given that Lily Corporation has formulated, dispensed, and stored chemical resins and solvents at the Aurora facility since 1982, does the proposed $68k/yr NNN lease expose the buyer to pre-existing environmental remediation liabilities under Illinois EPA and SBA SOP 50 10 7.1 Phase I Environmental requirements?",
+      "known_facts": [
+        "Uncovered during Cycle #2 investigation of [VALUATION_INV_02]."
+      ],
+      "open_uncertainties": [
+        "Given that Lily Corporation has formulated, dispensed, and stored chemical resins and solvents at the Aurora facility since 1982, does the proposed $68k/yr NNN lease expose the buyer to pre-existing environmental remediation liabilities under Illinois EPA and SBA SOP 50 10 7.1 Phase I Environmental requirements?"
+      ],
+      "target_plan_file": "plan/06_risk_register_and_kill_switches.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
     }
   ]
 }

@@ -113,6 +113,56 @@ def git_commit(message: str):
         print(f"Git commit warning: {e}")
 
 
+def spawn_stress_test_scenario(client: genai.Client, model_name: str, frontier_data: dict) -> dict:
+    prompt = """
+You are the Chief Risk Officer and Hostile Competitor / Economic Stress-Tester for the acquisition of Lily Corporation (Aurora, IL).
+All baseline diligence questions have been addressed.
+
+Generate ONE severe, realistic real-world stress scenario to attack the acquisition plan.
+Examples:
+- "A major chemical resin partner (e.g. Sika, Euclid, MAPEI) changes nozzle or viscosity specifications, rendering current Lily dispenser mix ratios incompatible."
+- "Dave Jepsen experiences health emergency in Month 3; contractor support and quoting knowledge is unbacked."
+- "Raw nylon/polypropylene resin and aluminum prices surge 30% due to supply chain disruption, shrinking gross margins."
+- "First American Bank requires a Phase I Environmental Site Assessment (ESA) due to chemical flushing on the Aurora shop floor, risking deal delay."
+
+OUTPUT JSON ONLY:
+{
+  "category": "Risk Register & Stress Testing",
+  "title": "Short title",
+  "question": "Specific stress-test question examining downside cash flow and mitigation",
+  "priority": "CRITICAL",
+  "target_plan_file": "plan/06_risk_register_and_kill_switches.md"
+}
+"""
+    try:
+        resp = client.models.generate_content(
+            model=model_name,
+            contents=prompt,
+            config=types.GenerateContentConfig(response_mime_type="application/json")
+        )
+        data = json.loads(resp.text.strip())
+        spawn_id = f"STRESS_{len(frontier_data.get('frontier', [])) + 1:02d}"
+        new_item = {
+            "id": spawn_id,
+            "category": data.get("category", "Risk Register & Stress Testing"),
+            "title": data.get("title", "Adversarial Stress Test"),
+            "question": data.get("question"),
+            "known_facts": ["Autonomous stress test generated to probe downside limits of acquisition plan."],
+            "open_uncertainties": [data.get("question")],
+            "target_plan_file": data.get("target_plan_file", "plan/06_risk_register_and_kill_switches.md"),
+            "confidence_score": 2,
+            "status": "OPEN",
+            "priority": "CRITICAL"
+        }
+        frontier_data.setdefault("frontier", []).append(new_item)
+        save_frontier(frontier_data)
+        print(f"[!] Autonomous Stress Test Spawned: [{spawn_id}] {new_item['title']}")
+        return new_item
+    except Exception as e:
+        print(f"Error generating stress test: {e}")
+        return None
+
+
 def execute_cycle(client: genai.Client, model_name: str = None):
     if not model_name:
         model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
@@ -129,11 +179,16 @@ def execute_cycle(client: genai.Client, model_name: str = None):
     if inbox_notes:
         print(f"Found new steering notes from Jack:\n{inbox_notes}")
 
-    # 2. Pick target frontier item
+    # 2. Pick target frontier item (or spawn stress test if all resolved)
     open_items = [item for item in frontier_data.get("frontier", []) if item.get("status") in ["OPEN", "IN_PROGRESS"]]
     if not open_items:
-        print("No open items in frontier backlog! All current hypotheses resolved.")
-        return
+        print("All existing frontier items resolved! Entering Autonomous Stress-Testing Mode...")
+        stress_item = spawn_stress_test_scenario(client, model_name, frontier_data)
+        if stress_item:
+            open_items = [stress_item]
+        else:
+            print("No new stress tests generated. Plan is at peak convergence.")
+            return
 
     # Prioritize CRITICAL then HIGH
     priority_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
@@ -210,10 +265,10 @@ CRITICAL CONSTRAINTS:
         draft_content = draft_content[:-3]
     draft_content = draft_content.strip()
 
-    # 5. Adversarial Red-Team Committee Review
-    print("Running Adversarial Red-Team Gatekeeper (SBA Underwriter + Shop Floor Bob/Dave + Forensic Auditor)...")
+    # 5. Adversarial Red-Team Committee Review & Frontier Expansion
+    print("Running Adversarial Red-Team Gatekeeper & Frontier Expansion Spawner...")
     prompt_critique = f"""
-You are the Adversarial Review Committee for the acquisition of Lily Corporation.
+You are the Adversarial Review Committee and Diligence Frontier Expansion Engine for the acquisition of Lily Corporation.
 Review the proposed draft for `{target['target_plan_file']}`:
 
 PROPOSED DRAFT:
@@ -224,6 +279,9 @@ EVALUATE AGAINST 3 PERSPECTIVES:
 2. Shop Floor Realist (Bob Trout / Dave Jepsen): Is this operationally grounded for an analog 4-person shop in Aurora, IL? Or does it assume contractor behaviors or complex workflows that fail on job sites?
 3. Forensic Auditor: Are all dollar figures, add-backs, and inventory facts traceable to primary evidence? Are any numbers fabricated?
 
+FRONTIER EXPANSION TASK:
+Identify 1 to 2 NEW, critical second-order questions, blind spots, or downstream operational/legal risks exposed by this investigation that must be investigated next (e.g., lien priorities, APA representations on inventory, key customer concentration, tooling replacement life, environmental Phase I review).
+
 OUTPUT FORMAT (JSON ONLY):
 {{
   "approved": true / false,
@@ -232,7 +290,16 @@ OUTPUT FORMAT (JSON ONLY):
   "shop_floor_critique": "...",
   "forensic_critique": "...",
   "required_revisions": ["..."],
-  "summary_verdict": "..."
+  "summary_verdict": "...",
+  "spawned_frontier_items": [
+    {{
+      "category": "Deal Structure | Valuation | Operations | Supply Chain | Risk",
+      "title": "Short descriptive title",
+      "question": "Precise, falsifiable diligence question",
+      "priority": "CRITICAL" | "HIGH" | "MEDIUM",
+      "target_plan_file": "plan/01_deal_and_capital_structure.md | plan/02_financial_model_and_sensitivities.md | plan/03_revenue_and_commercial_engine.md | plan/04_operations_and_knowledge_transfer.md | plan/05_supply_chain_and_molds.md | plan/06_risk_register_and_kill_switches.md"
+    }}
+  ]
 }}
 """
 
@@ -248,18 +315,52 @@ OUTPUT FORMAT (JSON ONLY):
         critique_result = json.loads(response_critique.text.strip())
     except Exception as e:
         print(f"Error parsing critique JSON: {e}\nRaw output: {response_critique.text}")
-        critique_result = {"approved": True, "confidence_score": 6, "summary_verdict": "Auto-accepted with warning"}
+        critique_result = {"approved": True, "confidence_score": 6, "summary_verdict": "Auto-accepted with warning", "spawned_frontier_items": []}
 
     print(f"Verdict: Approved={critique_result.get('approved')}, Score={critique_result.get('confidence_score')}/10")
     print(f"Summary: {critique_result.get('summary_verdict')}")
 
-    # 6. Apply verdict
+    # 6. Dynamically Expand Frontier with newly spawned second-order questions
+    spawned = critique_result.get("spawned_frontier_items", [])
+    existing_questions = {item.get("question", "").strip().lower() for item in frontier_data.get("frontier", [])}
+    existing_titles = {item.get("title", "").strip().lower() for item in frontier_data.get("frontier", [])}
+    
+    new_spawns_count = 0
+    for s in spawned:
+        q_text = s.get("question", "").strip()
+        t_text = s.get("title", "").strip()
+        if not q_text or q_text.lower() in existing_questions or t_text.lower() in existing_titles:
+            continue
+        
+        # Generate clean ID
+        cat_prefix = s.get("category", "DEAL")[:4].upper().replace(" ", "_")
+        spawn_id = f"{cat_prefix}_{len(frontier_data.get('frontier', [])) + 1:02d}"
+        
+        new_frontier_item = {
+            "id": spawn_id,
+            "category": s.get("category", "Diligence & Operations"),
+            "title": t_text,
+            "question": q_text,
+            "known_facts": [f"Uncovered during Cycle #{cycle_num} investigation of [{target['id']}]."],
+            "open_uncertainties": [q_text],
+            "target_plan_file": s.get("target_plan_file", target["target_plan_file"]),
+            "confidence_score": 3,
+            "status": "OPEN",
+            "priority": s.get("priority", "HIGH")
+        }
+        frontier_data.setdefault("frontier", []).append(new_frontier_item)
+        existing_questions.add(q_text.lower())
+        existing_titles.add(t_text.lower())
+        new_spawns_count += 1
+        print(f"  [+] Spawned New Frontier Item: [{spawn_id}] {t_text}")
+
+    # 7. Apply verdict
     if critique_result.get("approved"):
         # Write to plan file
         write_text(target_plan_path, draft_content)
         print(f"Updated plan module: {target['target_plan_file']}")
 
-        # Update frontier status
+        # Update target frontier status
         target["confidence_score"] = critique_result.get("confidence_score", target.get("confidence_score", 5) + 1)
         if target["confidence_score"] >= 8:
             target["status"] = "RESOLVED"
@@ -275,6 +376,7 @@ OUTPUT FORMAT (JSON ONLY):
             f"- **Active Cycle:** {cycle_num}\n"
             f"- **Latest Refined Module:** `{target['target_plan_file']}`\n"
             f"- **Confidence Score:** {critique_result.get('confidence_score')}/10\n"
+            f"- **Total Backlog Items:** {len(frontier_data['frontier'])} ({new_spawns_count} newly spawned)\n"
             f"- **Committee Verdict:** {critique_result.get('summary_verdict')}\n\n"
             f"## Underwriter & Operational Notes\n"
             f"* **SBA Underwriter:** {critique_result.get('underwriter_critique', 'N/A')}\n"
