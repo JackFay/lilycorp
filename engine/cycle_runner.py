@@ -220,41 +220,59 @@ def execute_cycle(client: genai.Client, model_name: str = None):
     if marcelo_mail:
         evidence_context.append(f"--- EVIDENCE: Marcelo Add-Back Schedule Reply ---\n" + marcelo_mail)
 
+    # Add assumed capital baseline and graveyard context
+    capital_baseline = read_text(PLAN_DIR / "00_assumed_capital_baseline.md")
+    if capital_baseline:
+        evidence_context.append(f"--- FIXED OPERATING BASELINE: 00_assumed_capital_baseline.md ---\n" + capital_baseline)
+
+    graveyard_content = read_text(PLAN_DIR / "graveyard_rejected_ideas.md")
+    if graveyard_content:
+        evidence_context.append(f"--- REJECTED STRATEGIES & AUTOPSIES ---\n" + graveyard_content)
+
     target_plan_path = BASE_DIR / target["target_plan_file"]
     existing_plan_content = read_text(target_plan_path)
 
-    # 4. Draft refinement with Gemini Flash
+    # 4. Draft refinement with Gemini 3.8 Flash & Google Search Grounding
     prompt_draft = f"""
-You are the Lead M&A Acquisition Strategist and Turnaround Operator for Jack Fay, who is acquiring Lily Corporation (Aurora, IL), an analog manufacturer of heavy-duty chemical injection equipment and custom molded accessories.
+You are the Turnaround Operator, Chief Product Officer, and Growth Architect for Jack Fay, who is acquiring and taking over Lily Corporation (Aurora, IL), a 44-year-old manufacturer of heavy-duty chemical injection equipment and custom molded accessories.
 
-YOUR TASK:
-Draft or rigorously update the business plan module: `{target['target_plan_file']}` to solve the specific frontier diligence item:
+CONTEXT:
+The acquisition capital structure is FIXED and ASSUMED (see 00_assumed_capital_baseline.md). Do NOT spend time debating pre-deal senior debt sizing or financing structures. 
+
+YOUR MISSION:
+Focus 100% on TAKING OVER, OPERATING, AND TRANSFORMING LILY CORP into a high-margin, scalable manufacturing and distribution powerhouse.
+Research markets, invent/validate new product lines, build operational automations, establish commercial distribution channels (e.g. Sika, Euclid, White Cap, IDOT), and author Jack Fay's concrete operator playbook.
+
+YOUR IMMEDIATE TASK:
+Draft or rigorously update the plan module: `{target['target_plan_file']}` to solve this specific frontier item:
 ITEM ID: {target['id']}
 TITLE: {target['title']}
 QUESTION: {target['question']}
 KNOWN FACTS: {json.dumps(target.get('known_facts', []))}
 OPEN UNCERTAINTIES: {json.dumps(target.get('open_uncertainties', []))}
 
-USER STEERING NOTES (From Jack):
+USER STEERING NOTES (From Jack Fay):
 {inbox_notes if inbox_notes else "None"}
 
 EXISTING PLAN MODULE CONTENT:
 {existing_plan_content if existing_plan_content else "[EMPTY - CREATE INITIAL DRAFT]"}
 
-AVAILABLE EMPIRICAL EVIDENCE:
+AVAILABLE EVIDENCE & BASELINE:
 {chr(10).join(evidence_context)}
 
-CRITICAL CONSTRAINTS:
-1. Ground every claim, number, and assumption in the primary evidence provided. Cite specific files (e.g., [pl.csv], [marcelo_email_reply.txt], [site visit notes]).
-2. No generic MBA filler or ungrounded tech fantasies (no IoT telemetry rigs, no expensive accredited video academies).
-3. All financial underwriting must honor the SBA mandatory 1.25x DSCR rule (Oct 1 2026 rules) on historical 2024/2025 Form 1120-S bases, factoring in the $68k NNN lease and $100k buyer management salary.
-4. Output the COMPLETE markdown content for `{target['target_plan_file']}`.
+CRITICAL OPERATING CONSTRAINTS:
+1. Grounded in Lily's Physical Reality: Lily has 4 shop staff (Dave J, Dave K, Julian, Maggie) and 10 proprietary injection molds in Aurora, IL. Respect shop floor throughput and do not assume unrealistic capex.
+2. Civil Contractor Truth: Civil bridge and concrete contractors buy on Net 30/60 against purchase orders. They hate forced web logins. Meet them through Dave J's phone desk, jobsite QR codes, and distributor branches.
+3. High Gross Margins: Protect and expand Lily's core profit engine (~65-70%+ on molded ports, caps, and mixers).
+4. Ruthless Rejection: If an adjacent market or product line is evaluated and found unviable (excessive capex, hazmat freight liability, contractor rejection), explicitly document why it should be REJECTED and propose the grounded alternative.
+5. Output the COMPLETE markdown content for `{target['target_plan_file']}`.
 """
 
-    print("Generating grounded plan module draft...")
+    print("Generating grounded growth plan & market research with Google Search...")
     response_draft = client.models.generate_content(
         model=model_name,
-        contents=prompt_draft
+        contents=prompt_draft,
+        config={"tools": [{"google_search": {}}]}
     )
     draft_content = response_draft.text.strip()
     if draft_content.startswith("```markdown"):
@@ -266,38 +284,39 @@ CRITICAL CONSTRAINTS:
     draft_content = draft_content.strip()
 
     # 5. Adversarial Red-Team Committee Review & Frontier Expansion
-    print("Running Adversarial Red-Team Gatekeeper & Frontier Expansion Spawner...")
+    print("Running Product & Operations Review Committee...")
     prompt_critique = f"""
-You are the Adversarial Review Committee and Diligence Frontier Expansion Engine for the acquisition of Lily Corporation.
+You are the Executive Operating & Product Committee for Lily Corporation, consisting of:
+1. Shop Floor & Manufacturing Feasibility (Dave Kling & Bob Trout): Can our 4-person shop in Aurora fabricate/assemble this with our existing CNC, welding, and 10 injection molds without a massive capex spend? Does it cause shop floor chaos?
+2. Contractor & Customer Adoption Realist (Dave Jepsen): Will civil bridge and concrete contractors actually buy and spec this? Does it fit how general contractors procure equipment and consumables?
+3. Unit Economics & Margin Specialist: Does this protect Lily's ~65-70% gross margins on accessories and drive real incremental EBITDA?
+4. Competitive Moat vs Graco & ChemCo: Is this truly differentiated, or are we walking into a commodity trap?
+
 Review the proposed draft for `{target['target_plan_file']}`:
 
 PROPOSED DRAFT:
 {draft_content}
 
-EVALUATE AGAINST 3 PERSPECTIVES:
-1. SBA Commercial Underwriter: Does this draft respect strict 1.25x DSCR requirements on historical Form 1120-S tax returns? Are debt sizing, 24-month standby seller notes, and new NNN lease deductions handled properly?
-2. Shop Floor Realist (Bob Trout / Dave Jepsen): Is this operationally grounded for an analog 4-person shop in Aurora, IL? Or does it assume contractor behaviors or complex workflows that fail on job sites?
-3. Forensic Auditor: Are all dollar figures, add-backs, and inventory facts traceable to primary evidence? Are any numbers fabricated?
-
 FRONTIER EXPANSION TASK:
-Identify 1 to 2 NEW, critical second-order questions, blind spots, or downstream operational/legal risks exposed by this investigation that must be investigated next (e.g., lien priorities, APA representations on inventory, key customer concentration, tooling replacement life, environmental Phase I review).
+Identify 1 to 2 NEW, high-leverage market research questions, product line extensions, or operational automations that this investigation exposed.
 
 OUTPUT FORMAT (JSON ONLY):
 {{
   "approved": true / false,
   "confidence_score": 1-10,
-  "underwriter_critique": "...",
   "shop_floor_critique": "...",
-  "forensic_critique": "...",
+  "contractor_adoption_critique": "...",
+  "unit_economics_critique": "...",
+  "competitive_moat_critique": "...",
   "required_revisions": ["..."],
   "summary_verdict": "...",
   "spawned_frontier_items": [
     {{
-      "category": "Deal Structure | Valuation | Operations | Supply Chain | Risk",
+      "category": "Market Expansion | Product Innovation | Operations | Commercial Strategy | Operator Guide",
       "title": "Short descriptive title",
-      "question": "Precise, falsifiable diligence question",
+      "question": "Precise, falsifiable market or operational question",
       "priority": "CRITICAL" | "HIGH" | "MEDIUM",
-      "target_plan_file": "plan/01_deal_and_capital_structure.md | plan/02_financial_model_and_sensitivities.md | plan/03_revenue_and_commercial_engine.md | plan/04_operations_and_knowledge_transfer.md | plan/05_supply_chain_and_molds.md | plan/06_risk_register_and_kill_switches.md"
+      "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md | plan/02_product_lines_and_rd_pipeline.md | plan/03_commercial_distribution_and_partnerships.md | plan/04_shop_floor_modernization_and_capacity.md | plan/05_jack_fay_operator_guide.md | plan/06_risk_register_and_kill_switches.md"
     }}
   ]
 }}
@@ -378,10 +397,11 @@ OUTPUT FORMAT (JSON ONLY):
             f"- **Confidence Score:** {critique_result.get('confidence_score')}/10\n"
             f"- **Total Backlog Items:** {len(frontier_data['frontier'])} ({new_spawns_count} newly spawned)\n"
             f"- **Committee Verdict:** {critique_result.get('summary_verdict')}\n\n"
-            f"## Underwriter & Operational Notes\n"
-            f"* **SBA Underwriter:** {critique_result.get('underwriter_critique', 'N/A')}\n"
-            f"* **Shop Floor Realist:** {critique_result.get('shop_floor_critique', 'N/A')}\n"
-            f"* **Forensic Auditor:** {critique_result.get('forensic_critique', 'N/A')}\n"
+            f"## Product & Operating Committee Perspectives\n"
+            f"* **Shop Floor Feasibility (Dave K/Bob):** {critique_result.get('shop_floor_critique', 'N/A')}\n"
+            f"* **Contractor Adoption (Dave J):** {critique_result.get('contractor_adoption_critique', 'N/A')}\n"
+            f"* **Unit Economics & Margin:** {critique_result.get('unit_economics_critique', 'N/A')}\n"
+            f"* **Competitive Moat:** {critique_result.get('competitive_moat_critique', 'N/A')}\n"
         )
         write_text(DIGEST_FILE, digest_content)
 

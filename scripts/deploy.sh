@@ -7,7 +7,7 @@ REGION=${GCP_REGION:-"us-central1"}
 BUCKET_NAME="lilycorp-diligence-${PROJECT_ID}"
 FUNCTION_NAME="lilycorp-diligence-engine"
 SCHEDULER_JOB_NAME="lilycorp-diligence-cron"
-SCHEDULE_CRON="*/10 * * * *" # Every 10 minutes
+SCHEDULE_CRON="*/15 * * * *" # Every 15 minutes
 
 echo "======================================================="
 echo "Deploying Lily Corp Diligence Engine to Google Cloud"
