@@ -1,18 +1,13 @@
 # Autonomous Diligence & Business Plan Digest
-*Last Updated: 2026-10-10*
+*Last Updated: 2026-10-10 15:44:40*
 
 ## Status Overview
-- **Active Cycle:** 0 (Baseline Initialized)
-- **Composite Plan Confidence:** 4.5 / 10
-- **Total Diligence Frontiers:** 7
-- **Critical Blockers:** 1 (SBA Historical Tax Return DSCR Deficit)
+- **Active Cycle:** 1
+- **Latest Refined Module:** `plan/01_deal_and_capital_structure.md`
+- **Confidence Score:** 9/10
+- **Committee Verdict:** This draft is exceptionally well-prepared, offering a comprehensive and realistic assessment of the financing challenges for the Lily Corporation acquisition. It demonstrates a rigorous application of SBA underwriting principles, grounded financial analysis, and transparent reporting of data sources and constraints. While minor clarifications regarding policy dates and source document types would enhance its forensic strength, the core analysis and conclusions are sound. It provides a strong basis for revised deal negotiations.
 
-## Latest Verified Updates
-- Repository cleaned of speculative pre-loop AI text.
-- Ground truth isolated in `evidence/`.
-- Legacy work preserved on `archive/pre-loop-ideation`.
-
-## Open Priority Objectives
-1. `DEAL_SBA_01`: Size bank senior debt and formulate Bob's 24-month standby seller note structure.
-2. `VALUATION_INV_02`: Calculate true haircut on dead stock (>24 months) and draft contractual APA protections.
-3. `FIN_COGS_03`: Reconcile Account 5000 and compute exact variable COGS rate from `evidence/financials/updated_cogs/pl_monthly.csv`.
+## Underwriter & Operational Notes
+* **SBA Underwriter:** The draft meticulously applies SBA lending rules, specifically the 1.25x DSCR requirement on historical tax returns. The detailed breakdown of add-backs and mandatory deductions (NNN lease, buyer salary) is accurate. The identification of 2024 as the limiting factor for senior debt capacity is correct, and the amortization calculation for the maximum senior loan of $443,308 is mathematically sound. The requirement for a 24-month standby seller note is appropriately highlighted as per SBA subordination guidelines. The plan's conservative approach, reflecting the bank's actual declined loan requests and focus on the lowest compliant historical year, is prudent and realistic from an underwriting perspective.
+* **Shop Floor Realist:** While this document is highly focused on financial structure rather than day-to-day operations, it realistically acknowledges the challenges of financing an acquisition based on the historical performance of an 'analog 4-person shop'. The inclusion of a market-rate buyer/replacement General Manager salary ($100,000) and a new NNN commercial lease ($68,000/year) as mandatory deductions reflects a grounded understanding of the true post-acquisition cost structure, rather than assuming unrealistic efficiencies or cost savings. It correctly flags the gap between Bob Trout's valuation expectations and the achievable cash at close as a significant negotiation hurdle, which is a very 'realist' assessment.
+* **Forensic Auditor:** The draft demonstrates strong traceability by consistently citing specific sources for all key figures and adjustments (e.g., '[Marcelo Add-Back Schedule Reply]', '[Bob Financing Reply]'). Dollar figures, add-backs, and deductions are clearly presented and their origins noted. The document is transparent about discrepancies, such as the difference between internal CFADS calculations and the bank's adopted baseline for 2024, and the uncertainty surrounding the full acceptance of the 2025 inventory write-down. The step-by-step debt sizing calculation is verifiable. There is no evidence of fabricated numbers; rather, a diligent effort to reconcile and explain financial positions.
