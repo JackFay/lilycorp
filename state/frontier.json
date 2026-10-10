@@ -1,0 +1,136 @@
+{
+  "last_updated": "2026-10-10T15:45:00Z",
+  "active_cycle": 0,
+  "confidence_overall": 4.5,
+  "frontier": [
+    {
+      "id": "DEAL_SBA_01",
+      "category": "Capital Structure & SBA Underwriting",
+      "title": "Historical Tax Return DSCR Deficit & Standby Seller Note Sizing",
+      "question": "Can normalized 2024 (-$16.6k loss) and 2025 (-$134.9k loss) cash flow achieve the SBA mandatory 1.25x DSCR under Oct 1 2026 SBA SOP rules, and what is the exact maximum senior debt First American Bank can issue?",
+      "known_facts": [
+        "First American Bank underwriter declined standard $850k-$1M+ senior loan due to 2024/2025 Form 1120-S ordinary losses.",
+        "Underwriter deducted $72k-$68k new NNN rent and $100k GM salary ahead of debt service.",
+        "Underwriter recommended Structure B: Seller Note on full 24-month standby subject to SBA Form 155 subordination."
+      ],
+      "open_uncertainties": [
+        "Will the bank accept the full $200,387 inventory write-down in 2025 as a one-time non-recurring add-back?",
+        "What is the maximum purchase price Bob will accept with a 24-month standby note?"
+      ],
+      "target_plan_file": "plan/01_deal_and_capital_structure.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "VALUATION_INV_02",
+      "category": "Valuation & Inventory Haircut",
+      "title": "Physical Inventory Count & Dead Stock Haircut (>24 Months = $0)",
+      "question": "How much of Lily's $750k reported inventory is obsolete or dead stock dating back to 1982, and how can a dollar-for-dollar purchase price reduction be contractually enforced pre-close?",
+      "known_facts": [
+        "2025 notes admit $92k was obsolete stock accumulated since 1982.",
+        "Bob admitted during site visit that big-ticket parts like CD-250 caps sit on shelves for years.",
+        "First American Bank primary underwriter flagged concern that seller is not required to do a physical inventory in the draft LOI ('Interesting. I am not excited about this. DSC is pretty far off so I agree maybe paying too much.')."
+      ],
+      "open_uncertainties": [
+        "What is the exact quantity and book value of slow-moving CD-250 parts vs fast-moving consumable ports?",
+        "Will Bob agree to a pre-closing joint physical count with items >24 months written to $0?"
+      ],
+      "target_plan_file": "plan/01_deal_and_capital_structure.md",
+      "confidence_score": 4,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "FIN_COGS_03",
+      "category": "Financial Reconciliation",
+      "title": "True Variable Product Cost Rate: 40% vs 45%",
+      "question": "What is Lily's exact variable COGS rate when isolating Account 5000, parts, accessories, freight, packaging, and the $72,790 inventory credit adjustment?",
+      "known_facts": [
+        "2026 YTD product + freight runs at 45-46% of revenue after adjusting for the $73k inventory credit.",
+        "2025 data showed ~34% using only purchase accounts because Account 5000 ($121k) was not fully allocated.",
+        "Breakeven at 45% variable is $1.82M (4.0% safety margin). Breakeven at 40% variable is $1.67M (12.1% safety margin)."
+      ],
+      "open_uncertainties": [
+        "Need single reconciled COGS report from Bob or pl_monthly.csv isolating raw resin/molding vs outsourced metal machining vs off-the-shelf fittings."
+      ],
+      "target_plan_file": "plan/02_financial_model_and_sensitivities.md",
+      "confidence_score": 5,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "FACILITY_LEASE_04",
+      "category": "Real Estate & Facility Lease",
+      "title": "Aurora Facility $68k NNN Lease Validation & Related-Party Scrutiny",
+      "question": "Is $68,000/year ($5,666.67/mo NNN) defensible as fair market rent for the Aurora facility, and will the SBA require an independent lease appraisal?",
+      "known_facts": [
+        "Building and land ($12,800) sit on Lily Corp's historical balance sheet.",
+        "Trout family reported $0 rent on 2024 and 2025 tax returns because the business owned the building.",
+        "The $68k NNN is a completely new cash outflow that directly suppresses post-close DSCR by ~$68,000/year."
+      ],
+      "open_uncertainties": [
+        "Square footage, ceiling height, and Kane County commercial industrial flex rent comps.",
+        "Whether environmental Phase I ESA is required by SBA for chemical injection equipment manufacturing."
+      ],
+      "target_plan_file": "plan/01_deal_and_capital_structure.md",
+      "confidence_score": 4,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPS_MOLDS_05",
+      "category": "Operations & Intellectual Property",
+      "title": "Verification of the 10 Proprietary Injection Molds",
+      "question": "Are all 10 injection molds owned 100% free-and-clear, what is their physical condition, and where are they physically located?",
+      "known_facts": [
+        "Bob confirmed during site visit that Lily owns 100% of all 10 molds.",
+        "Molds produce the high-margin consumable ports and dispenser caps."
+      ],
+      "open_uncertainties": [
+        "Which molds are housed at outside third-party contract molders vs in-house?",
+        "What are replacement costs or remaining shot cycles for the core high-volume port molds?"
+      ],
+      "target_plan_file": "plan/04_operations_and_knowledge_transfer.md",
+      "confidence_score": 6,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPS_TEAM_06",
+      "category": "Operations & Key Person Transition",
+      "title": "Shop Floor Continuity & Bob Trout 6-Month Transition Transfer",
+      "question": "How to structure Bob Trout's knowledge transfer (recipes, custom quoting formulas, top 30 accounts) without paying $15,333/mo post-close if cash flow is tight?",
+      "known_facts": [
+        "Core operating staff: Dave Jepsen (sales/tech support), Dave Kling (assembly/machining), Julian Perez (assembly/shop), Maggie M (QuickBooks/admin).",
+        "Bob Trout is 70+ years old and retiring.",
+        "Bob's historical payroll add-back was ~$173k-$181k/year."
+      ],
+      "open_uncertainties": [
+        "Can Bob's transition training be structured as a 30-60 day condition precedent to closing rather than post-close consulting payroll?"
+      ],
+      "target_plan_file": "plan/04_operations_and_knowledge_transfer.md",
+      "confidence_score": 5,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "REV_ORDERING_07",
+      "category": "Revenue & Commercial Modernization",
+      "title": "Dual-Channel Frictionless Ordering & Order Entry Automation",
+      "question": "How to capture after-hours contractor re-orders and eliminate Maggie's 15-20 hours/week manual QuickBooks entry without forcing civil contractors into web logins?",
+      "known_facts": [
+        "Civil contractors order via phone and emailed PDF purchase orders.",
+        "Maggie manually transcribes paper/PDF POs into QuickBooks Desktop.",
+        "Lily misses after-hours/weekend requests."
+      ],
+      "open_uncertainties": [
+        "What is the exact monthly volume and SKU distribution of repeat port/accessory orders vs whole machine sales?"
+      ],
+      "target_plan_file": "plan/03_revenue_and_commercial_engine.md",
+      "confidence_score": 5,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    }
+  ]
+}
