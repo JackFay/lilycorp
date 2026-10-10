@@ -17,6 +17,11 @@ echo "GCS Bucket: gs://${BUCKET_NAME}"
 echo "Schedule:   ${SCHEDULE_CRON}"
 echo "======================================================="
 
+# Load .env if present
+if [ -f .env ]; then
+  export $(grep -v '^#' .env | xargs)
+fi
+
 # 1. Set GCloud Project
 gcloud config set project "${PROJECT_ID}"
 
@@ -38,6 +43,14 @@ if ! gsutil ls -b "gs://${BUCKET_NAME}" >/dev/null 2>&1; then
 else
   echo "Bucket gs://${BUCKET_NAME} already exists."
 fi
+
+# Ensure Compute SA has Storage Object Admin permissions
+PROJECT_NUMBER=$(gcloud projects describe "${PROJECT_ID}" --format="value(projectNumber)")
+COMPUTE_SA="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
+echo "Granting Storage Object Admin to ${COMPUTE_SA}..."
+gcloud projects add-iam-policy-binding "${PROJECT_ID}" \
+  --member="serviceAccount:${COMPUTE_SA}" \
+  --role="roles/storage.objectAdmin" >/dev/null 2>&1 || true
 
 # 4. Upload Initial Evidence, State, and Plan to GCS
 echo "\nUploading repository evidence, state, and steering to GCS..."
@@ -66,7 +79,7 @@ gcloud functions deploy "${FUNCTION_NAME}" \
   --no-allow-unauthenticated \
   --memory=512MiB \
   --timeout=540s \
-  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-3.8-flash"
+  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-3.8-flash,GEMINI_API_KEY=${GEMINI_API_KEY}"
 
 # Get Function URL
 FUNCTION_URL=$(gcloud functions describe "${FUNCTION_NAME}" --gen2 --region="${REGION}" --format="value(serviceConfig.uri)")

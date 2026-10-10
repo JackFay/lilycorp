@@ -32,5 +32,20 @@
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Build an accredited online video academy charging engineers and contractors for Continuing Education Units.
 * **Autopsy & Reason for Rejection:**
-  1. *Resource Drain:* Jack's 60 days with Bob Trout must focus 100% on quoting formulas and Top 30 customer relationships, not video lighting and script writing.
-  2. *Low Margin / Low Leverage:* Sika and Euclid already offer free manufacturer training to drive resin sales. Competing with free chemical manufacturer seminars is an uphill battle.
+34:   1. *Resource Drain:* Jack's 60 days with Bob Trout must focus 100% on quoting formulas and Top 30 customer relationships, not video lighting and script writing.
+35:   2. *Low Margin / Low Leverage:* Sika and Euclid already offer free manufacturer training to drive resin sales. Competing with free chemical manufacturer seminars is an uphill battle.
+36: 
+37: ---
+38: 
+39: ## 2. Post-Acquisition Operating & Product Rejections
+40: 
+41: ### Concept: Lily "AeroLift" 240V Heated Polyurethane Slab Jacking Trailer Rig
+42: * **Classification:** `REJECTED / UNVIABLE` (Logged in Cycle #4 - Market Expansion)
+43: * **Original Premise:** Modify the CD-250 chassis with dual 6kW electric primary pre-heaters, an onboard transformer, and a 200-ft continuous heated hose package to build turnkey $65k–$100k mobile slab lifting trailer rigs against Graco Reactor (E-20/E-30) and PMC.
+44: * **Autopsy & Operational Failure Modes:**
+45:   1. *Shop Floor Paralysis:* Lily fabricator Dave Kling and assembler Julian Perez would spend 45+ labor hours per unit assembling complex electrical junction boxes, heating manifolds, and transformer wiring, halting core CD-250 and injection port production.
+46:   2. *Regulatory & Certification Capex:* UL/CSA 508A electrical certification for high-amperage heating equipment requires ~$40k in testing fees and engineering documentation.
+47:   3. *Warranty & 24/7 Field Support Liability:* When a heated hose blows an internal thermocouple on an IDOT highway job at 2:00 AM, Lily's 4-person shop cannot provide 24/7 national mobile field service. Graco’s national distributor branches handle this effortlessly.
+48:   4. *Severe Margin Dilution:* Sourcing third-party heated hoses, heating elements, and generator trailers compresses gross margins down to <25%, violating Lily's 55%+ corporate margin mandate.
+49: * **Approved Alternative Wedge:** Monetize the geotechnical market through single-use injection molded ports (78–86% gross margins) and the unheated "GeoSkid 250" platform for confined-space and cold-foam void filling where Graco trailers cannot fit.
+
