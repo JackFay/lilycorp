@@ -1,6 +1,6 @@
 # 03. Commercial Distribution & Strategic Partnerships Playbook
 
-> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an aggressive, institutional civil infrastructure brand. This module establishes the multi-tiered commercial architecture: embedding Lily equipment standards into state Department of Transportation (DOT) engineering specifications via epoxy formulator alliances, operationalizing private-label consumables packaging for national polymer formulators, expanding regional distribution channels (White Cap, regional civil supply houses), structuring contractor recurring consumables pull-through, and scaling the high-margin CD-250 machine rental fleet.
+> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an aggressive, institutional civil infrastructure brand. This module establishes the multi-tiered commercial architecture: embedding Lily equipment and molded accessories into state Department of Transportation (DOT) engineering specifications via formulator alliances, operationalizing private-label and co-branded packaging for national polymer formulators on Lily's Aurora injection molding press, expanding wholesale civil distribution channels (White Cap, regional supply houses), enforcing rental consumables lock-in, and securing high-margin recurring cash flow.
 
 ---
 
@@ -11,18 +11,18 @@
 * **The Definitive Answer & Ground Truth:** **Yes, but with two critical operational and regulatory corrections that dictate the entire commercial campaign:**
   1. **The Technical Application Correction (Overlay vs. Crack Injection):**  
      * **CD-250 Reality:** The CD-250 is a 634-pound, 185-CFM pneumatic proportioner pumping 300 to 600 gallons per hour (GPH). It is **not** a crack injection pump. Deploying a CD-250 for structural crack injection is technically impossible—structural crack repair requires low-viscosity epoxy injected at 0.1 to 2.0 gallons per minute (GPM) through 1/4" surface ports at controlled pressures (50–200 PSI). The CD-250 is engineered for **Bridge Deck Thin Polymer Overlays (BTO), High Friction Surface Treatments (HFST), and Multi-Layer Epoxy Overlays**.  
-     * **Crack Repair Reality:** Lily’s structural crack repair equipment platform is the **CD-15 / CD-150 positive-displacement proportioner and the proprietary surface-mount injection port line** (produced on Lily’s 10 injection molds).  
-     * *Strategic Resolution:* The pull-through campaign must be split into two targeted technical fronts:
+     * **Crack Repair Reality:** Lily’s structural crack repair equipment platform is the **CD-15 / CD-150 positive-displacement proportioner and the proprietary surface-mount injection port line** (molded in-house on Lily’s 10 proprietary molds).  
+     * *Strategic Resolution:* The pull-through campaign is bifurcated into two targeted technical fronts:
        - **Front A (Deck Overlays & HFST):** Pulling through the **CD-250** via DOT Bridge Deck Polymer Overlay specifications (e.g., IDOT Section 503/Guide Special Provisions, Caltrans Section 60, TxDOT Item 483).
        - **Front B (Structural Crack Repair):** Pulling through the **CD-15 / CD-150 and Lily Injection Ports** via DOT Concrete Crack Chemical Injection specifications (e.g., IDOT Section 590, PennDOT Section 1091, ADOT Section 924).
   2. **The Regulatory Reality (Federal Anti-Proprietary Rules):**  
-     * Under **23 CFR 635.411 (FHWA Material and Product Selection Guidelines)**, state DOTs receiving federal highway aid are legally prohibited from specifying a single proprietary brand name (e.g., writing *"Contractor shall use a Lily CD-250"*) unless an onerous Public Interest Finding (PIF) is certified or broad "or equal" language is provided.
+     * Under **23 CFR 635.411 (FHWA Material and Product Selection Guidelines)**, state DOTs receiving federal highway aid are legally prohibited from specifying a single proprietary brand name without an onerous Public Interest Finding (PIF) or broad "or equal" language.
      * *The Proven Engineering Workaround:* Instead of naming "Lily Corp," Lily and resin formulators write **prescriptive mechanical performance standards** that describe Lily’s patented/proprietary positive-displacement air-logic architecture so tightly that inferior competitor equipment (variable-flow gear pumps, peristaltic pumps, manual hand pumps) is disqualified.
 
 ---
 
 ### 1.2 Frontier Resolution: COMM_26 (Private-Label Formulator Port Packaging Program)
-* **The Core Strategic Question:** Can Lily leverage its automated DL-100 assembly fixture and 100% inline bubble-tight certification to supply co-branded, pre-packaged injection ports directly to regional chemical formulators (e.g., ChemCo, Euclid, Sika) at a 55–60% gross margin, capturing incremental volume without channel conflict?
+* **The Core Strategic Question:** Can Lily leverage its on-site molding press, automated DL-100 assembly fixture, and 100% inline bubble-tight certification to supply co-branded, pre-packaged injection ports directly to regional chemical formulators (e.g., ChemCo, Euclid, Sika) at a 55–60% gross margin, capturing incremental volume without channel conflict?
 * **The Definitive Answer & Ground Truth:** **Yes. Lily will execute a structured Private-Label & Co-Branded Packaging Program targeting national and regional chemical formulators, yielding 56.5% to 58.8% gross margins while eliminating channel conflict through strict SKU segmentation and packaging format boundaries.**
 
 ```
@@ -35,7 +35,8 @@
 |    - Avoids injection-molding capex, automated assembly tooling, and labor overhead.              |
 |                                                                                                    |
 | 2. LILY CORPORATION (Aurora Shop Floor):                                                           |
-|    - Maximizes utilization of the 10 owned molds and the automated DL-100 assembly fixture.        |
+|    - Runs virgin polymer gaylords on its own on-site injection molding press at direct material cost.|
+|    - Utilizes the automated DL-100 assembly fixture to seat valves and pressure-test inline.       |
 |    - Secures predictable, recurring 50,000-unit contract orders from formulators.                  |
 |    - Generates 56.5–58.8% gross margin on private-label runs without adding sales headcount.       |
 |                                                                                                    |
@@ -48,208 +49,236 @@
 
 ---
 
-## 2. The Formulator Symbiosis: Why Sika, Euclid & ChemCo Need Lily
+### 1.3 Frontier Resolution: COMM_31 (OEM Co-Branded Submittal Licensing with Formulators)
+* **The Core Strategic Question:** What contractual warranty indemnity, private-label packaging minimums, and exclusivity terms are required to formalize Lily's proposed Safety Orange (COMM_24) and Drive-Lok ports as standard specified accessories in Sika (Sikadur) and Alchatek DOT submittal binders?
+* **The Definitive Answer & Ground Truth:** **To secure placement as the official specified accessory inside Sika and Alchatek DOT engineering submittal binders, Lily must execute a tripartite OEM Submittal & Supply Agreement centered on: (1) strict bilateral warranty demarcation that insulates Lily from chemical and structural failure while capping port liability at component replacement value; (2) private-label run minimums tied to gaylord resin batch economics (10,000-unit minimum release per PO against a 50,000-unit annual blanket commitment); and (3) a "Non-Exclusive Preferred Accessory Endorsement" structure that grants formulators co-branded submittal rights while permanently preserving Lily's unrestricted right to sell native Safety Orange and Drive-Lok ports across all commercial and distributor channels.**
 
-Resin formulators (Sika Corporation, Euclid Chemical, ChemCo Systems, Simpson Strong-Tie, MAPEI) manufacture high-margin, precision-engineered polymer adhesives (Sikadur 35 Hi-Mod LV, Euco Dural 452 LV, Kemko 038, Crack-Pac). However, chemical formulators face two structural vulnerabilities in the structural crack injection market:
+```
++----------------------------------------------------------------------------------------------------+
+|                 COMM_31 CONTRACTUAL ARCHITECTURE: FORMULATOR SUBMITTAL INTEGRATION                 |
++----------------------------------------------------------------------------------------------------+
+|                                                                                                    |
+|   SIKA CORPORATION (Sikadur 35 / 31)                ALCHATEK (Polyurethane Grout / Water Stop)     |
+|   Target Accessory: Lily Safety Orange Port (COMM_24) Target Accessory: Lily Drive-Lok Port       |
+|   Application: Structural Bridge Crack Repair       Application: Geotechnical Leak-Seal / Voids    |
+|                                                                                                    |
+|                                         |                                                          |
+|                    +--------------------+--------------------+                                     |
+|                    |     OEM LICENSING & SUBMITTAL AGREEMENT |                                     |
+|                    +--------------------+--------------------+                                     |
+|                                         |                                                          |
+|       +---------------------------------+---------------------------------+                        |
+|       |                                 |                                 |                        |
+|       v                                 v                                 v                        |
+| [PILLAR 1: INDEMNITY]         [PILLAR 2: MOQs & RUNS]         [PILLAR 3: EXCLUSIVITY]              |
+| - Bilateral Demarcation       - 10,000 Unit Release MOQ       - Non-Exclusive Endorsement          |
+| - Port Mechanical Defect Only - 50,000 Unit Blanket Commitment- Formulator Submittal Co-Branding   |
+| - Consequential Damages Waived- Gaylord Pellet Scheduling     - Native Lily Bulk Cartons Protected |
+| - Max Liability = Port Credit - 4-Week Production Lead Time   - "Switzerland of Hardware" Preserved|
++----------------------------------------------------------------------------------------------------+
+```
+
+#### Ground Truth Details: Sika vs. Alchatek Port Pairings
+1. **Sika Corporation (Sikadur System):** Sika dominates structural epoxy concrete repair (Sikadur 35 Hi-Mod LV resin and Sikadur 31 Hi-Mod Gel cap seal). Their critical failure mode during bridge crack injection is port detachment or non-return check-valve leakage, leading to resin backflow and unbonded bridge joints. Lily embeds its proposed **Safety Orange Surface-Mount Port (COMM_24)** into Sika’s Section 590 DOT Submittal Binder.
+2. **Alchatek (Chemical Grout & Leak-Seal System):** Alchatek specializes in expanding polyurethane resins (AP Fill 420, AP Lift 475) injected into active water leaks, geotechnical void-filling, and soil stabilization. These high-pressure reactions require friction-fit, hammer-in mechanical ports that can be seated rapidly into drill holes without waiting hours for epoxy surface paste to cure. Lily embeds its proprietary molded **Drive-Lok Port** into Alchatek's DOT Infrastructure Submittal Binder.
+
+---
+
+## 2. The Formulator Symbiosis: Why Sika, Euclid & Alchatek Need Lily
+
+Resin formulators manufacture high-margin, precision-engineered polymer adhesives and grouts (Sikadur 35 Hi-Mod LV, Euco Dural 452 LV, Alchatek AP Fill 420). However, chemical formulators face structural operational challenges that make Lily's Aurora shop their ideal hardware partner:
 
 1. **The Check-Valve Failure & Chemical Blame Game:**  
-   When injecting structural cracks at 50 to 200 PSI, the contractor relies on the port's internal non-return check mechanism to hold pressurized resin inside the concrete until it cures. Cheap, imported generic surface ports frequently experience seat blow-by or valve sticking. When a port leaks:
+   When injecting cracks at 50 to 250 PSI, the contractor relies on the port's internal non-return check valve to hold pressurized resin inside the concrete until it cures. Cheap, imported generic surface ports frequently leak or blow their seats. When a port leaks:
    * Low-viscosity resin bleeds out onto the concrete face.
-   * Internal hydrostatic pressure drops, leaving unbonded voids inside the bridge girders.
-   * Contractors instinctively blame the chemical: *"The epoxy was defective, stayed tacky, and drained out!"*
-   * Formulators spend thousands in field engineering hours and laboratory forensic testing defending chemical batch integrity.
+   * Internal hydrostatic pressure drops, leaving unbonded voids inside structural bridge girders.
+   * Contractors reflexively blame the chemical: *"The epoxy was defective, stayed tacky, and drained out!"*
+   * Formulators spend thousands in field engineering hours defending chemical batch integrity.
+   * *The Lily Solution:* 100% inline bubble-tight pressure testing on the DL-100 automated fixture guarantees zero backflow leakage up to 60 PSI, completely eliminating mechanical backflow claims for formulator reps.
 
-2. **The "Kit" Purchasing Trend vs. Formulator Manufacturing Reality:**  
-   Civil contractors increasingly demand turnkey "Crack Injection Starter Packages" and job-matched kits containing cartridges, static mixers, and matching entry ports. Formulators are resin formulators, not injection molders. They do not own high-tonnage molding machines, nor do they want to assemble elastomeric valves, handle small parts, or run bag-and-tag packaging lines.
+2. **The Drive-Lok Geotechnical Bottleneck (Alchatek Water-Stop):**  
+   Water infiltration in culverts, manholes, and bridge abutments demands instant injection against active hydrostatic head. Contractors cannot wait 4 hours for surface-mount epoxy cap seals to cure. They demand hammer-in mechanical friction-fit ports. Sourcing imported steel or low-grade mechanical packers results in collar fractures during hammer seating or blowouts during high-pressure expanding foam reactions. Lily’s molded **Drive-Lok** port uses high-impact virgin nylon/HDPE engineering resin molded in Aurora, providing a reliable friction-fit seal that seats instantly and withstands polyurethane expansion up to 250+ PSI.
 
-### The Lily Solution: The DL-100 Automated Moat
-Lily Corporation owns 10 injection molds free-and-clear and operates the **DL-100 automated assembly fixture** in Aurora, IL. The DL-100 fixture automates:
-* Precision seating of the internal elastomeric non-return check valve disc/ball.
-* Ultrasonic or mechanical retention cap staking.
-* **100% Inline Bubble-Tight Pressure Testing:** Every single assembled port is pneumatically pressurized to 60 PSI against a precision pressure-decay sensor (calibrated to ASTM F2095 standards). Defective ports with micro-leakage or seat misalignments are automatically rejected into a scrap bin. Zero uncertified ports reach packaging.
+3. **Manufacturing Realities: Chemical Blenders vs. In-House Molders:**  
+   Formulators blend chemicals in bulk liquid tanks; they do not operate high-tonnage thermoplastic injection molding presses, nor do they run automated small-parts assembly lines. Building an in-house molding operation would require hundreds of thousands of dollars in capital expenditure, toolroom overhead, and machine maintenance. Lily owns its press, operates its toolroom on-site, and owns 10 proprietary molds free-and-clear.
 
 ---
 
-## 3. Co-Branded & Private-Label Packaging Architecture (COMM_26)
+## 3. Contractual OEM Submittal Licensing Terms (COMM_31 Ground Truth)
+
+To formalize Lily’s Safety Orange and Drive-Lok ports as standard specified accessories in Sika and Alchatek DOT submittal binders without exposing Lily to chemical liabilities or commercial restrictions, Jack Fay executes a standard **Master OEM Submittal & Supply Agreement**.
+
+### 3.1 Contractual Pillar 1: Warranty Indemnity & Liability Demarcation
+Chemical formulators are highly sensitive to product liability. If an applicator performs a poor crack repair or encounters an unbonded void on a state bridge, the contractor or DOT will initiate claims. The OEM agreement must strictly demarcate hardware performance from chemical and installation variables:
 
 ```
-                       +------------------------------------------+
-                       |    LILY CORP MANUFACTURING (AURORA)      |
-                       | - 10 Owned Tooling Molds                 |
-                       | - DL-100 Automated Assembly Fixture      |
-                       | - 100% Inline Bubble-Tight Certification |
-                       +--------------------+---------------------+
-                                            |
-                                            v
-                       +------------------------------------------+
-                       |     JULIAN PEREZ PACKAGING WORKFLOW      |
-                       +--------------------+---------------------+
-                                            |
-                      +---------------------+---------------------+
-                      |                                           |
-                      v                                           v
-       +-------------------------------+           +-------------------------------+
-       |     SEGMENT A: PRIVATE-LABEL  |           |     SEGMENT B: NATIVE LILY    |
-       |      FORMULATOR KITS (COMM_26)|           |     BULK COMMERCIAL CHANNEL   |
-       +---------------+---------------+           +---------------+---------------+
-                       |                                           |
-       - 20-Pack & 50-Pack Heavy Polybags          - 1,000-Count Master Bulk Cartons
-       - Co-Branded: "[Partner] by Lily"           - 100% Lily Corporation Native Brand
-       - Sold directly to Formulators:             - Sold to: White Cap, Direct Civil
-         Sika, Euclid, ChemCo, Simpson               Contractors, Rental Fleet Kits
-       - Unit Price: $0.85 - $0.92 / port          - Master Carton Price: $0.84 wholesale
-       - Lily Gross Margin: 56.5% - 58.8%          - Lily Gross Margin: 50.0% - 68.0%
-       - Formulator MSRP: $1.65 - $2.10            - Contractor MSRP: $1.45 / port
++----------------------------------------------------------------------------------------------------+
+|                         LIABILITY & INDEMNITY BOUNDARY DEMARCATION                                 |
++----------------------------------------------------------------------------------------------------+
+| LILY CORPORATION RESPONSIBILITY (HARDWARE ONLY):                                                   |
+| - Port dimensional compliance per engineering drawing specifications.                             |
+| - Virgin polymer resin mechanical integrity (tensile, flexural, temperature resistance).            |
+| - DL-100 factory certification: 100% inline bubble-tight shutoff against backflow up to 60 PSI     |
+|   (Safety Orange) or mechanical retention up to 250 PSI (Drive-Lok).                              |
+|                                                                                                    |
+| REMEDY LIMITATION:                                                                                 |
+| - Lily’s sole liability for any verified hardware defect is strictly limited to:                   |
+|   (a) Replacement of defective port units F.O.B. Aurora, IL; or                                    |
+|   (b) Issuance of a credit memorandum equal to the net invoice purchase price of the units.       |
+| - MUTUAL WAIVER OF ALL CONSEQUENTIAL, INDIRECT, SPECIAL, LIQUIDATED, OR DELAY DAMAGES.             |
++----------------------------------------------------------------------------------------------------+
+| FORMULATOR RESPONSIBILITY (CHEMICALS, DESIGN & SUBMITTAL):                                         |
+| - Chemical formulation integrity, resin stoichiometry, shelf-life, and cure kinetics.              |
+| - Engineering suitability of the chemical-port pairing for the specific DOT project.              |
+| - Applicator jobsite execution: surface prep, port spacing, cap seal curing, injection pressure.   |
+|                                                                                                    |
+| FORMULATOR INDEMNIFICATION OF LILY:                                                                |
+| - Formulator agrees to defend, indemnify, and hold harmless Lily Corporation, its officers, and    |
+|   employees against any third-party claims, DOT backcharges, structural remediation costs, or      |
+|   property damage arising from:                                                                    |
+|   1. Improper chemical mixing, off-ratio pumping, or resin cure failure.                           |
+|   2. Surface seal delamination caused by substrate contamination or inadequate surface prep.       |
+|   3. DOT contractor workmanship defects or failure to follow project engineer specifications.      |
++----------------------------------------------------------------------------------------------------+
 ```
 
-### 3.1 Unit Economics, BOM & The 55–60% Margin Waterfall
-To ensure private-label packaging never dilutes Lily's corporate profit margins, the pricing schedule is locked to automated DL-100 cycle times and raw material purchasing schedules:
+### 3.2 Contractual Pillar 2: Private-Label Packaging Minimums & Gaylord Resin Runs
+Lily’s in-house manufacturing economics dictate strict minimum batch sizing. Running the Aurora molding press requires setup time, tool mounting, barrel purging, and polymer pellet desiccant drying. Small, sporadic runs erode labor productivity:
 
 ```
-+------------------------------------------------------+-------------------------+
-| COST / PRICING COMPONENT                             | VALUE PER UNIT (PORT)   |
-+------------------------------------------------------+-------------------------+
-| Raw Polymer Shot Cost (Virgin HDPE/Polypropylene)    | $0.165                  |
-| Internal Check Elastomer / Ball Mechanism            | $0.052                  |
-| DL-100 Automated Fixture Assembly & Inline Test Labor| $0.055 (Julian Perez)   |
-| Co-Branded Heavy-Duty Polybag & 4-Color Header Card  | $0.068                  |
-| Master Shipper Corrugated & Packaging Overheads      | $0.028                  |
-+------------------------------------------------------+-------------------------+
-| TOTAL LILY COGS PER FINISHED PACKAGED PORT           | $0.368                  |
-+------------------------------------------------------+-------------------------+
-| Wholesale Price to Formulator (20-Pack / 50-Pack)    | $0.850 - $0.890         |
-| LILY GROSS PROFIT PER UNIT                           | $0.482 - $0.522         |
-| LILY GROSS MARGIN (%)                                | 56.7% - 58.7%           |
-+------------------------------------------------------+-------------------------+
-| Formulator Transfer Price to Distributor / Kit MSRP  | $1.650 - $2.100         |
-| Formulator Gross Margin (%)                          | 48.5% - 57.6%           |
-+------------------------------------------------------+-------------------------+
++-----------------------------+------------------------------------+---------------------------------+
+| OPERATIONAL PARAMETER       | SIKA OEM SPECIFICATION (SAFETY ORANGE)| ALCHATEK OEM SPECIFICATION (DRIVE-LOK)|
++-----------------------------+------------------------------------+---------------------------------+
+| Tooling Mold Utilized       | Mold #3 (Surface Port Body) +       | Mold #6 (Drive-Lok Mechanical   |
+|                             | Mold #4 (Internal Valve Retainer)  | Friction-Fit Packer Body)       |
++-----------------------------+------------------------------------+---------------------------------+
+| Resin Formulation           | Virgin Impact-Modified Polypropylene| Virgin High-Density Nylon 6/6   |
+|                             | + 2% Safety Orange Masterbatch     | + 2% High-Visibility Colorant   |
++-----------------------------+------------------------------------+---------------------------------+
+| Pellet Drying Requirement   | 4 Hours @ 180°F in Desiccant Dryer | 6 Hours @ 175°F in Desiccant    |
+|                             | prior to barrel feed               | Hopper prior to processing      |
++-----------------------------+------------------------------------+---------------------------------+
+| Assembly & Testing          | Automated DL-100 Fixture:          | Direct Press Ejection, Gate Trim|
+|                             | Elastomer seating + 60 PSI test    | + Mechanical Retainer Staking   |
++-----------------------------+------------------------------------+---------------------------------+
+| Minimum Blanket Commitment  | 50,000 Units per 12-Month Contract | 50,000 Units per 12-Month Contract|
++-----------------------------+------------------------------------+---------------------------------+
+| Minimum Release PO Size     | 10,000 Units per PO release        | 10,000 Units per PO release     |
++-----------------------------+------------------------------------+---------------------------------+
+| Standard Packaging Format   | 50-Pack Heavy Polybags with        | 100-Pack Heavy Polybags with    |
+|                             | Sikadur Co-Branded Header Card     | Alchatek Co-Branded Header Card |
++-----------------------------+------------------------------------+---------------------------------+
+| Production Lead Time        | 3 Weeks ARO (Standard)             | 3 Weeks ARO (Standard)          |
+| Buffer Stock (Aurora Shelf) | 10,000 Finished Units Held in Stock| 10,000 Finished Units Held in Stock|
++-----------------------------+------------------------------------+---------------------------------+
 ```
-*Grounded Economic Reality:* Supplying private-label ports at $0.85–$0.89 delivers a healthy 57%+ margin to Lily, while giving formulators an attractive 50%+ gross margin when bundled with their chemical cartridge cases or pails.
 
-### 3.2 Channel Conflict Elimination Protocol
-Channel conflict occurs when a formulator discovers that their distributor can buy the exact same packaged item directly from Lily for less, or when Lily’s direct contractors feel undercut by formulator kits. Jack Fay implements three strict firewalls:
+#### Unit Economics Breakdown: OEM Private-Label Packaging
+Running raw resin pellets purchased by the gaylord yields substantial manufacturing gross margins on Lily's Aurora shop floor:
 
 ```
-+---------------------+--------------------------------------------------------------------------+
-| CONFLICT VECTOR     | OPERATIONAL & COMMERCIAL FIREWALL                                        |
-+---------------------+--------------------------------------------------------------------------+
-| Packaging Format    | - Formulators ONLY receive pre-packaged 20-port and 50-port accessory   |
-| Differentiation     |   kits designed to pair with 1-gallon / 3-gallon chemical kits or dual    |
-|                     |   cartridges.                                                            |
-|                     | - Formulators are STRICTLY PROHIBITED from buying 1,000-count master     |
-|                     |   bulk cartons. Bulk boxes are exclusive to Lily Direct & White Cap.    |
-+---------------------+--------------------------------------------------------------------------+
-| Co-Branding &       | - Lily will NOT manufacture pure anonymous white-label ports. Every      |
-| IP Attribution      |   formulator polybag is co-branded:                                      |
-|                     |   "[Partner Brand] High-Pressure Surface Ports - Engineered & Tested    |
-|                     |    Bubble-Tight by Lily Corporation, Aurora, IL."                        |
-|                     | - Formulators accept this because the "Lily Bubble-Tight Certification" |
-|                     |   transfers quality credibility to their chemical system.                |
-+---------------------+--------------------------------------------------------------------------+
-| Minimum Order Rules | - Formulators must order in minimum run sizes of 10,000 units per PO     |
-| & Blanket POs       |   (or blanket commitments of 50,000 units/year).                         |
-|                     | - Regional contractors calling Lily direct cannot access formulator kit   |
-|                     |   pricing; they buy Lily standard packaging at standard retail.         |
-+---------------------+--------------------------------------------------------------------------+
++------------------------------------------------------+---------------------+---------------------+
+| BOM & LABOR COST COMPONENT                           | SIKA SAFETY ORANGE  | ALCHATEK DRIVE-LOK  |
++------------------------------------------------------+---------------------+---------------------+
+| Raw Polymer Shot Cost (PP / Nylon Pellet gaylords)   | $0.165              | $0.195              |
+| Internal Check Valve Disc / Elastomer Mechanism      | $0.052              | $0.065              |
+| Press Machine Time & Power ($18.50/hr allocated)     | $0.035              | $0.038              |
+| Toolroom Amortization & Mold Maintenance (Acct 5440) | $0.020              | $0.022              |
+| Assembly Labor (Julian Perez on DL-100 fixture)      | $0.055              | $0.045              |
+| Co-Branded Packaging (Header card, 4-mil polybag)    | $0.041              | $0.045              |
++------------------------------------------------------+---------------------+---------------------+
+| TOTAL LILY COGS PER PACKAGED PORT                    | $0.368              | $0.410              |
++------------------------------------------------------+---------------------+---------------------+
+| Wholesale OEM Price to Formulator (F.O.B. Aurora)    | $0.880              | $0.980              |
+| LILY GROSS PROFIT PER UNIT                           | $0.512              | $0.570              |
+| LILY GROSS MARGIN (%)                                | 58.2%               | 58.2%               |
++------------------------------------------------------+---------------------+---------------------+
+| Formulator MSRP to Applicator (Inside Kit or Box)    | $1.850              | $2.150              |
+| Formulator Gross Margin (%)                          | 52.4%               | 54.4%               |
++------------------------------------------------------+---------------------+---------------------+
+```
+
+### 3.3 Contractual Pillar 3: Exclusivity Boundaries (The "Switzerland" Rule)
+Formulators routinely ask for exclusive accessory rights to lock out competing chemical companies. **Jack Fay strictly refuses full corporate exclusivity.** Granting Sika exclusive rights to Lily ports would force Lily to drop Euclid, ChemCo, and MAPEI, and prevent expansion with Alchatek.
+
+Instead, Lily utilizes a **"Non-Exclusive Preferred Accessory Endorsement"** structure with clear channel and brand firewalls:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                         NON-EXCLUSIVE OEM ENDORSEMENT FIREWALL RULES                               |
++----------------------------------------------------------------------------------------------------+
+| 1. SUBMITTAL BINDER CO-BRANDING RIGHTS:                                                            |
+|    - Sika receives the exclusive right to list the Safety Orange port under their proprietary      |
+|      co-branded designation (e.g., "Sikadur Port by Lily") inside official Sika Submittal Binders.  |
+|    - Alchatek receives the exclusive right to list the Drive-Lok port under their co-branded       |
+|      designation (e.g., "Alchatek Drive-Lok Port by Lily") inside official Alchatek Submittal      |
+|      Binders.                                                                                      |
+|                                                                                                    |
+| 2. PACKAGING DIFFERENTIATION & KIT EXCLUSIVITY:                                                    |
+|    - Formulator private-label packaging is strictly restricted to small pre-bagged kit formats    |
+|      (25-pack, 50-pack, 100-pack bags) designed to pair directly with formulator chemical pails.   |
+|    - Formulators ARE PROHIBITED from receiving or distributing Lily’s bulk master cartons.         |
+|                                                                                                    |
+| 3. UNRESTRICTED LILY COMMERCIAL CHANNELS:                                                          |
+|    - Lily Corporation explicitly retains 100% unrestrained rights to sell native "Lily Corp"       |
+|      branded Safety Orange and Drive-Lok ports in 1,000-count bulk master cartons to:              |
+|      * Direct civil contractors (Kenny, Walsh, Paschen, Kraemer).                                  |
+|      * National wholesale distribution supply houses (White Cap, Brock White).                     |
+|      * Other non-competing application sectors (geotechnical grouting, industrial flooring).       |
+|    - Lily retains the right to private-label ports for non-conflicting formulator partners.        |
++----------------------------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Prescriptive DOT Specification Blueprint (COMM_09 Integration)
+## 4. The DOT Submittal Binder Integration Mechanism
+
+State Departments of Transportation (e.g., IDOT, PennDOT, Caltrans, TxDOT, FDOT) enforce rigorous material pre-approval processes. Before a contractor can begin crack injection under Pay Item 59000200 (Epoxy Crack Injection) or geotechnical leak-sealing, they must provide a comprehensive **Material Approval Submittal Binder** to the State Resident Engineer.
 
 ```
                       +---------------------------------------+
-                      |     JACK FAY & DAVE JEPSEN            |
-                      |   (Lily Commercial Leadership)        |
+                      |       THE DOT SUBMITTAL BINDER        |
+                      |   (Submitted by General Contractor)   |
                       +-------------------+-------------------+
                                           |
-                      +-------------------+-------------------+
-                      |   REGIONAL FORMULATOR TECHNICAL REPS  |
-                      |    (Sika & Euclid Field Engineers)    |
-                      +-------------------+-------------------+
+         +--------------------------------+--------------------------------+
+         |                                                                 |
+         v                                                                 v
++-----------------------------------+             +-----------------------------------+
+|  TAB 1: FORMULATOR CHEMICAL TDS   |             | TAB 2: LILY CO-BRANDED CUT SHEET  |
+|  - Sika Sikadur 35 Hi-Mod LV /    |             | - Co-Branded: Sika or Alchatek    |
+|    Alchatek AP Fill 420           |             | - Engineering CAD Cross-Section   |
+|  - ASTM C881 / ASTM D638 Lab Data |             | - ASTM F2095 Bubble-Tight Test Cert|
+|  - State DOT Product Bulletin List|             | - Positive-Displacement Ratio Sheet|
++-----------------------------------+             +-----------------------------------+
                                           |
-                 +------------------------+------------------------+
-                 |                                                 |
-                 v                                                 v
-   +---------------------------+                     +---------------------------+
-   |   FRONT A: DECK OVERLAYS  |                     |  FRONT B: CRACK INJECTION |
-   |   (CD-250 DISPENSER)      |                     |  (CD-15 / PORTS / MIXERS) |
-   +-------------+-------------+                     +-------------+-------------+
-                 |                                                 |
-                 v                                                 v
-   +---------------------------+                     +---------------------------+
-   | TARGET: IDOT GMSP #30 /   |                     | TARGET: IDOT SECTION 590/ |
-   | AASHTO Thin Polymer Spec  |                     | PennDOT 1091 / WSDOT 6-09 |
-   +-------------+-------------+                     +-------------+-------------+
-                 |                                                 |
-                 v                                                 v
-   +---------------------------+                     +---------------------------+
-   | Prescriptive Standard:    |                     | Prescriptive Standard:    |
-   | - Positive-displacement   |                     | - Portable positive-disp. |
-   |   mechanically linked     |                     |   metering interlock      |
-   | - Continuous ±2% ratio    |                     | - Discharge up to 200 PSI |
-   | - Air-logic auto shut-off |                     | - Surface ports with 100% |
-   | - 300+ GPH flow capacity  |                     |   inline bubble-tight     |
-   |                           |                     |   check-valve cert.       |
-   +---------------------------+                     +---------------------------+
+                                          v
+                      +---------------------------------------+
+                      |      RESIDENT ENGINEER SIGN-OFF       |
+                      | - Approved without revision or delay  |
+                      | - Locks out uncertified generic ports |
+                      +---------------------------------------+
 ```
 
-### 4.1 Prescriptive Specification Clauses (Bypassing 23 CFR 635.411)
+### 4.1 Turnkey Engineering Submittal Packet Architecture
+Lily provides Sika and Alchatek field engineering teams with standardized, pre-formatted engineering submittal cut sheets that plug directly into Section 590 (Epoxy Crack Injection) and Section 1091 (Bridge Rehabilitation) project submittal binders:
 
-To embed Lily into DOT specs without violating federal anti-proprietary rules, Jack Fay and Dave Jepsen provide Sika, Euclid, and ChemCo field reps with model specification clauses:
-
-#### Clause A: Bridge Deck Thin Polymer Overlay Proportioning Equipment (Targeting CD-250)
-> *"Proportioning and Dispensing Equipment: The epoxy overlay dispensing equipment shall be a continuous, fully integrated positive-displacement, double-acting piston proportioner. The equipment shall maintain the manufacturer's specified volumetric mix ratio within a tolerance of **±2.0% by volume** at all operating speeds and discharge pressures up to 150 PSI, regardless of temperature-induced viscosity differentials between Component A and Component B.*  
-> *The dispensing system shall operate via pneumatic logic controls that mechanically interlock Component A and Component B pumping cylinders. The system shall include an automated fail-safe that terminates dispensing instantly upon pressure loss, fluid starvation, or cavitation in either component line.*  
-> *Equipment utilizing variable-speed electric rotary gear pumps, peristaltic pumps, or dynamic electronic mass-flow feedback loops subject to fluid-drag slippage shall not be permitted without prior written pre-qualification and continuous batch calibration logging."*
-
-#### Clause B: Concrete Crack Chemical Injection Accessories (Targeting CD-15 & DL-100 Certified Ports)
-> *"Epoxy Injection Equipment and Injection Accessories: Equipment used to meter, mix, and inject the structural epoxy adhesive shall be a portable, positive-displacement metering system providing mechanical volumetric ratio control within a tolerance of **±3.0% by volume** across discharge pressures from 10 PSI to 200 PSI.*  
-> *Injection Entry Ports: Entry ports shall be rigid, injection-molded surface-mount ports featuring a cross-hatched bonding base (minimum surface area 2.25 sq. in.) engineered for high-tack surface seal adhesion, and an internal non-return check valve mechanism tested and certified to maintain **100% bubble-tight shutoff against backflow up to 60 PSI**. Uncertified manual ports, open-stem nozzles lacking positive non-return check valves, or drill-in packers that induce micro-fracturing in prestressed concrete members shall not be permitted without prior written authorization from the Engineer."*
-
-*Operational Moat:* Disqualifies commodity open-tube ports and forces contractors to use certified ports—locking in Lily native ports and formulator co-branded kits.
+1. **Header Identification:**  
+   * *"Sika Concrete Repair Systems | Sikadur Engineered Crack Injection Accessories | Manufactured in USA by Lily Corporation, Aurora, IL."*  
+   * *"Alchatek Leak-Seal Division | High-Pressure Drive-Lok Mechanical Port Submittal | Engineered by Lily Corporation."*
+2. **Dimensional Drawings & Substrate Footprint:**  
+   * Detailed CAD profile showing the 2.25 sq. in. cross-hatched bonding base engineered for adhesive grip with Sikadur 31 Hi-Mod Gel cap seal.
+   * Drive-Lok ribbed insertion stem with barb-retention geometry for secure mechanical bite in hammer-drilled concrete holes.
+3. **Quality & Performance Validation Stamps:**  
+   * **ASTM F2095 Inline Bubble-Tight Certification:** Certified non-return check valve shutoff at 60 PSI air decay.
+   * **Temperature Resistance Range:** Tested polymer integrity from -20°F to 160°F.
+   * **Chemical Compatibility Attestation:** 100% inert against 100% solids epoxy resins, polyurethane chemical grouts, aliphatic solvents, and xylenes.
+4. **Prescriptive Specification Compliance Statement:**  
+   * Formatted to satisfy state DOT specifications requiring positive mechanical non-return shutoff and disqualifying open-stem, unvalved ports.
 
 ---
 
-## 5. The 4-Stage Formulator Pull-Through & Packaging Campaign
-
-```
-+---------+--------------------------------------------------------------------------------------+
-| STAGE   | ACTION PLAN & FIELD EXECUTION                                                        |
-+---------+--------------------------------------------------------------------------------------+
-| Stage 1 | Formulator Technical Outreach & DL-100 Demo (Months 1–3)                             |
-|         | - Jack Fay & Dave Jepsen meet regional technical service managers at Sika            |
-|         |   (Lyndhurst, NJ / Marion, OH), Euclid Chemical (Cleveland, OH), and ChemCo Systems  |
-|         |   (Lawrence, KS).                                                                    |
-|         | - Present physical demonstration of DL-100 inline bubble-tight pressure testing.      |
-|         | - Secure agreement to provide sample co-branded 20-packs for formulator sales reps.   |
-+---------+--------------------------------------------------------------------------------------+
-| Stage 2 | Formulator TDS Endorsement & Private-Label Pilot (Months 4–6)                        |
-|         | - Secure explicit listing of Lily CD-250 and CD-15 on official Technical Data Sheets |
-|         |   (TDS) under "Recommended Application Equipment."                                   |
-|         | - Sign pilot private-label packaging agreements with 2 major formulators (e.g.,      |
-|         |   Euclid Chemical and ChemCo Systems) for 25,000 units each.                         |
-|         | - Julian Perez runs batch DL-100 packaging on scheduled weekly production blocks.    |
-+---------+--------------------------------------------------------------------------------------+
-| Stage 3 | Joint DOT Materials Bureau Submittals & Roadshows (Months 6–9)                       |
-|         | - Partner with Sika/Euclid regional bridge preservation specialists to submit model  |
-|         |   equipment provisions to IDOT Bureau of Bridges and Structures and WisDOT.          |
-|         | - Co-host 4 regional "DOT Crack Injection & Overlay Certification Days" at targeted |
-|         |   heavy civil contractor yards (Kenny, Walsh, Paschen). Sika supplies resin;        |
-|         |   Lily demonstrates CD-250 overlay runs and CD-15 port injection.                    |
-+---------+--------------------------------------------------------------------------------------+
-| Stage 4 | Specification Monitoring & Bidder Pull-Through (Ongoing)                            |
-|         | - Maggie M scans DOT bridge letting advertisements (IDOT Bulletin, Bid Express) for  |
-|         |   Pay Item 50300300 (Polymer Overlay) and 59000200 (Epoxy Crack Injection).         |
-|         | - Dave Jepsen contacts pre-qualified bidding general contractors 10 days before bid  |
-|         |   letting to provide Lily equipment rental reservations and port accessory packages. |
-+---------+--------------------------------------------------------------------------------------+
-```
-
----
-
-## 6. Multi-Tier Commercial Distribution Channel Architecture
+## 5. Multi-Tier Commercial Distribution Channel Architecture
 
 ```
                                   +---------------------------------------+
@@ -261,36 +290,36 @@ To embed Lily into DOT specs without violating federal anti-proprietary rules, J
          v                    v                                               v                    v
 +------------------+ +------------------+                           +------------------+ +------------------+
 |    CHANNEL 1     | |    CHANNEL 2     |                           |    CHANNEL 3     | |    CHANNEL 4     |
-|   DIRECT CIVIL   | |    WHOLESALE     |                           |  MACHINE RENTAL  | | FORMULATOR CO-   |
-|   CONTRACTORS    | |   DISTRIBUTION   |                           |      FLEET       | | BRANDED PACKAGING|
+|   DIRECT CIVIL   | |    WHOLESALE     |                           |  MACHINE RENTAL  | | FORMULATOR OEM   |
+|   CONTRACTORS    | |   DISTRIBUTION   |                           |      FLEET       | | SUBMITTAL BINDERS|
 +--------+---------+ +--------+---------+                           +--------+---------+ +--------+---------+
          |                    |                                               |                    |
-- CD-250/CD-15 Sales  - Ports, Tees, Mixers                         - CD-250 Overlay   - 20 & 50 Pack Kits
-- Direct Bulk Reorders- Stocking branches:                          - $5,500-$8,000/mo - Co-branded headers
-- High-touch Support    White Cap, Brock White                      - 100% Consumables - Sika, Euclid, ChemCo
-- Net 30/60 Terms     - Consumables ONLY                              Lock-In Mandate  - 10k-50k Unit Runs
-- Gross Margin:       - Gross Margin:                               - Gross Margin:    - Gross Margin:
-  55% - 70%             48% - 52%                                     >82%               56.5% - 58.8%
+- CD-250/CD-15 Sales  - Ports, Tees, Mixers                         - CD-250 Overlay   - Sika, Alchatek,
+- Direct Bulk Reorders- Stocking branches:                          - $5,500-$8,000/mo   Euclid, ChemCo
+- Net 30/60 Terms       White Cap, Brock White                      - 100% Consumables - 50k Blanket Commit
+- Gross Margin:       - Consumables ONLY                              Lock-In Mandate  - Gross Margin:
+  55% - 70%           - Gross Margin:                               - Gross Margin:      56.5% - 58.8%
+                        48% - 52%                                     >82%
 ```
 
-### 6.1 Channel 1: Direct Heavy Civil Contractor Network (The Anchor)
+### 5.1 Channel 1: Direct Heavy Civil Contractor Network (The Anchor)
 * **Target Audience:** Bridge rehabilitation general contractors, geotechnical foundation contractors, and structural concrete repair specialists (Walsh, Paschen, Kraemer, Massman).
 * **Procurement Protocol:** Civil contractors purchase via formal Corporate Purchase Orders on Net 30/60 terms.
 * **Order Capture Automation:**
   * Implement an automated PDF PO parser feeding Maggie’s QuickBooks Desktop workflow. Bridge foremen email or fax scanned POs.
   * Direct Jobsite QR Badging: Every CD-250 and CD-15 chassis leaves Aurora with a laser-etched, chemical-resistant anodized aluminum QR plate: *"Parts, Ports, Seal Kits & Technical Field Support."* Scanning links to a 1-tap SMS/Email order desk routed directly to Dave Jepsen.
 
-### 6.2 Channel 2: Wholesale Commercial Distribution (Consumables Only)
+### 5.2 Channel 2: Wholesale Commercial Distribution (Consumables Only)
 * **Target Distributors:** White Cap Supply Holdings (450+ branches), Brock White / Border States, Dayton Superior.
 * **The Strategic Mandate: CONSUMABLES ONLY (Zero Equipment Consignment):**
   * Lily will **never** sell CD-250 or CD-15 equipment to distributor branches on consignment or standard wholesale discount (which would compress machine margins from 50% to <25%).
-  * Wholesale distribution is restricted exclusively to **Injection Ports, Caps, Static Mixers, and Couplers** (produced on Lily’s 10 proprietary molds).
+  * Wholesale distribution is restricted exclusively to **Injection Ports, Caps, Static Mixers, and Couplers** (molded in-house on Lily’s 10 proprietary molds).
 * **Economics & Minimum Order Quantities (MOQs):**
   * Distributor Master Carton Pricing: 1,000-count cartons of surface ports at 50% gross margin to Lily ($0.42/unit Lily cost, $0.84 wholesale to White Cap, $1.45 contractor branch price).
   * Minimum Order Quantity: $2,500 per branch PO.
-  * Fulfillment: Julian Perez pre-packages master cartons in standard 50-lb boxes during winter production lulls, enabling same-day pallet dispatch via LTL freight.
+  * Fulfillment: Julian Perez pre-packages master cartons in standard 50-lb boxes during scheduled packaging blocks, enabling same-day pallet dispatch via LTL freight.
 
-### 6.3 Channel 3: The High-Margin CD-250 Rental Fleet
+### 5.3 Channel 3: The High-Margin CD-250 Rental Fleet
 * **The Opportunity:** Historical financials reveal Lily generates $110,000 to $303,000 annually in equipment rental income (Account 4015). A single CD-250 overlay rig rents for **$5,500 to $8,000 per month** during peak highway paving season (April–November).
 * **Fleet Sizing & Turnaround Plan:**
   * Formalize a dedicated fleet of **12 fully certified CD-250 rental rigs** and **8 CD-15 crack injection rigs**.
@@ -299,15 +328,15 @@ To embed Lily into DOT specs without violating federal anti-proprietary rules, J
     $$12 \text{ rigs} \times 4.55 \text{ months} \times \$6,500/\text{mo} = \$354,900 \text{ in pure rental revenue}$$
     Gross margin on rental service (after Julian Perez’s standard teardown/re-seal labor): **>82%**.
 
-### 6.4 Channel 4: Formulator Co-Branded Packaging Program (COMM_26)
-* **Target Partners:** Sika Corporation, Euclid Chemical, ChemCo Systems, Simpson Strong-Tie, MAPEI.
-* **Product Scope:** Pre-packaged 20-count and 50-count certified surface port bags.
-* **Order Parameters:** Minimum annual blanket purchase order of 25,000 units; scheduled releases of 5,000 to 10,000 units.
+### 5.4 Channel 4: Formulator OEM Submittal & Packaging Program (COMM_26 & COMM_31)
+* **Target Partners:** Sika Corporation (Sikadur), Alchatek (Polyurethane Leak-Seal), Euclid Chemical (Dural), ChemCo Systems (Kemko).
+* **Product Scope:** Safety Orange surface ports, Drive-Lok hammer-in ports, static mixing manifolds.
+* **Contract Structure:** Bilateral warranty indemnity, 10,000-unit minimum release per PO against 50,000-unit annual blanket commitment, non-exclusive preferred endorsement in DOT submittal binders.
 * **Gross Margin Profile:** 56.5% to 58.8% net cash margin to Lily.
 
 ---
 
-## 7. Commercial Strategies Evaluated and Permanently Rejected (The Commercial Graveyard)
+## 6. Commercial Strategies Evaluated and Permanently Rejected (The Commercial Graveyard)
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -315,15 +344,32 @@ To embed Lily into DOT specs without violating federal anti-proprietary rules, J
 +----------------------------------------------------------------------------------------------------+
 ```
 
-### 1. Concept: Brand-Name Sole-Source Lobbying at State DOTs
+### 1. Concept: Exclusive Accessory Licensing to a Single Formulator (COMM_31 Autopsy)
+* **Classification:** `REJECTED / UNVIABLE`
+* **Original Idea:** Sign an exclusive national hardware agreement making Sika the sole distributor of Lily ports and dispensers, cutting off all other chemical brands.
+* **Autopsy & Fatal Flaw:**
+  1. *Customer Alienation:* Giving Sika an exclusive lock instantly alienates Euclid Chemical, ChemCo Systems, Alchatek, MAPEI, and Simpson Strong-Tie, eliminating over 60% of Lily's potential addressable market.
+  2. *Loss of Commercial Independence:* Lily would become an indentured subcontractor to Sika corporate procurement. If Sika squeezed wholesale pricing or shifted procurement priorities, Lily’s business would collapse.
+  3. *Channel Destruction:* White Cap and independent civil supply houses would refuse to stock a product that can only be bought through Sika chemical channels.
+* **Approved Pivot:** **Non-Exclusive Preferred Accessory Endorsement**. Sika gets exclusive co-branding for Sikadur kits and submittal binders; Lily retains complete independence to sell native Lily bulk cartons to White Cap, contractors, and non-competing formulators (e.g., Alchatek).
+
+### 2. Concept: Custom Dedicated Mold Tooling per Formulator (COMM_31 Autopsy)
+* **Classification:** `REJECTED / UNVIABLE`
+* **Original Idea:** Machine custom proprietary injection molds for each formulator partner (e.g., cut custom steel tooling with "SIKA" or "ALCHATEK" engraved directly into the steel mold cavity blocks).
+* **Autopsy & Fatal Flaw:**
+  1. *Excessive Toolroom Capex:* Building custom tooling cavities costs $35,000 to $50,000 per mold. Account 5440 ($18.9k–$31.9k/yr) is dedicated to maintaining Lily’s existing 10 molds, not speculative new tooling.
+  2. *Shop Floor Setup Inefficiency:* Having separate molds for each formulator would require Dave Kling and Julian Perez to constantly tear down and swap mold bases on Lily’s Aurora press, destroying press throughput.
+* **Approved Pivot:** **Universal Core Tooling with Swappable Cavity Date/Logo Inserts & Masterbatch Color Shifts**. Lily runs its existing 10 proprietary molds in scheduled gaylord pellet campaigns. Differentiation is achieved via resin colorant (Safety Orange, Sika Yellow, Alchatek Blue) and co-branded 4-color packaging header cards.
+
+### 3. Concept: Brand-Name Sole-Source Lobbying at State DOTs (COMM_09 Autopsy)
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Hire a state lobbyist to convince IDOT and INDOT legislative committees to mandate "Lily Corporation Model CD-250" by brand name in standard highway construction books.
 * **Autopsy & Fatal Flaw:**
-  1. *Federal Statutory Bar:* 23 CFR 635.411 prohibits federal highway funding for contracts specifying proprietary brand names without competitive alternates or certified PIFs. Attempting this triggers audits and alienates DOT Materials Engineers.
+  1. *Federal Statutory Bar:* 23 CFR 635.411 prohibits federal highway funding for contracts specifying proprietary brand names without competitive alternates or certified PIFs.
   2. *Excessive Cost:* Lobbying retainers ($10,000/month) would drain Lily’s limited working capital with near-zero probability of regulatory approval.
 * **Approved Pivot:** Embed **prescriptive mechanical performance standards** (±2.0% volumetric ratio tolerance with positive-displacement air-logic interlock) co-authored with Sika and Euclid Chemical.
 
-### 2. Concept: Selling Finished CD-250 Machines Through White Cap Showrooms
+### 4. Concept: Selling Finished CD-250 Machines Through White Cap Showrooms
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Consign completed CD-250 dispensing machines ($22,000 retail) to 50 regional White Cap branches for floor display.
 * **Autopsy & Fatal Flaw:**
@@ -332,122 +378,110 @@ To embed Lily into DOT specs without violating federal anti-proprietary rules, J
   3. *Margin Cannibalization:* Distributors demand 30–35% wholesale discounts on equipment, dropping machine gross margins from 50% to <20%.
 * **Approved Pivot:** Direct equipment sales and rentals handled exclusively through Aurora (Dave Jepsen desk); distributors carry only high-turnover injection ports and static mixers on prepaid POs.
 
-### 3. Concept: Universal B2C/Contractor E-Commerce Shopping Cart Portal
-* **Classification:** `REJECTED / UNVIABLE`
-* **Original Idea:** Build an open web portal requiring contractors to create passwords, input credit cards, and order $18,000 proportioners online.
-* **Autopsy & Fatal Flaw:**
-  1. *Contractor Workflow Rejection:* Commercial bridge contractors operate through formal accounting departments issuing Master Service Agreements (MSAs) and Net 30/60 Purchase Orders. Foremen in mud-soaked boots on highway shoulders will not set up online accounts.
-  2. *Credit Card Processing Loss:* A 3% merchant processing fee on high-ticket equipment wipes out $600–$750 in cash margin per unit.
-* **Approved Pivot:** Frictionless ordering: Rapid-response PO parsing software for Maggie M, direct phone/SMS support via Dave Jepsen, and mobile jobsite chassis QR codes.
-
-### 4. Concept: Anonymous White-Label Port Manufacturing for Commodity Importers
-* **Classification:** `REJECTED / UNVIABLE` (COMM_26 Autopsy)
-* **Original Idea:** Contract with no-name catalog distributors to manufacture completely unbranded, generic bulk surface ports at bare-bones wholesale pricing ($0.48/unit).
-* **Autopsy & Fatal Flaw:**
-  1. *Destructive Margin Compression:* Selling generic unbranded ports at $0.48 drops gross margins to ~23%, violating Lily’s 55%+ corporate hurdle rate.
-  2. *Race to the Bottom Against Overseas Tooling:* Lily’s Aurora shop cannot compete on pure unit cost against uncertified Chinese injection molders who ignore quality testing.
-  3. *Zero Brand Equity:* Complete anonymity destroys customer pull-through to Lily’s CD-15 proportioners and rental fleet.
-* **Approved Pivot:** Co-branded, premium packaging ("Engineered by Lily") with **100% inline bubble-tight certification** sold exclusively to top-tier resin formulators at 56.5–58.8% gross margins.
-
 ### 5. Concept: Lily Toll-Blending Chemical Formulations
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Install bulk liquid epoxy mixing tanks in the Aurora facility to sell Lily-branded epoxy resins directly to contractors alongside injection ports.
 * **Autopsy & Fatal Flaw:**
-  1. *Catastrophic Channel Conflict:* Blending and selling epoxies instantly turns Sika, Euclid, and ChemCo from strategic channel partners into direct enemies. They would immediately remove Lily equipment from their TDS sheets.
+  1. *Catastrophic Channel Conflict:* Blending and selling epoxies instantly turns Sika, Euclid, and ChemCo from strategic channel partners into direct competitors. They would immediately remove Lily equipment from their TDS sheets.
   2. *Environmental & Hazmat Permitting:* Storing large volumes of amines and liquid epoxy resins triggers EPA Title V air permits, Aurora fire department chemical storage compliance, and expensive hazmat freight liability.
   3. *Capital Intensity:* Blending vessels, explosion-proof pumps, and QC titration labs require >$250,000 in capex that Lily’s capital baseline cannot support.
-* **Approved Pivot:** Remain the undisputed Switzerland of equipment and molded accessories: partner symbiotically with all resin formulators without ever competing against their chemicals.
+* **Approved Pivot:** Remain the undisputed "Switzerland of equipment and molded accessories": partner symbiotically with all resin formulators without ever competing against their chemicals.
 
 ---
 
-## 8. Operational Execution & Shop Floor Throughput
+## 7. Operational Execution & In-House Injection Molding Workflow
 
-All commercial initiatives are engineered to integrate seamlessly into Lily’s 4-person Aurora facility without overtaxing staff:
+All commercial initiatives are engineered to integrate seamlessly into Lily’s 4-person Aurora facility without overtaxing staff or assuming external toll molders:
 
 ```
 +------------------+---------------------------------------------------------------------------------+
-| TEAM MEMBER      | COMMERCIAL ROLE & WORKFLOW ALLOCATION                                           |
+| TEAM MEMBER      | COMMERCIAL & IN-HOUSE MANUFACTURING ALLOCATION                                  |
 +------------------+---------------------------------------------------------------------------------+
 | Dave Jepsen      | - Key Account Lead: Servicing top 30 bridge contractors.                        |
-| (Civil Sales)    | - Field Liaison: Managing Sika & Euclid regional technical representative calls.|
-|                  | - Rental fleet scheduling and contractor application technical support.         |
-|                  | - Managing commercial formulator accounts (ChemCo, Euclid, Sika).               |
+| (Civil Sales)    | - Field Liaison: Managing Sika, Alchatek & Euclid regional technical reps.      |
+|                  | - Managing commercial OEM licensing accounts and rental fleet reservations.     |
 +------------------+---------------------------------------------------------------------------------+
-| Dave Kling       | - Fabricating CD-250 and CD-15 chassis and fluid manifolds.                     |
-| (Lead Machinist) | - Precision machining of cylinder blocks and positive-displacement pistons.     |
-|                  | - Tooling maintenance for the 10 injection molds and DL-100 fixture mechanics.  |
+| Dave Kling       | - In-House Toolroom Lead: Maintenance and refurbishment of the 10 molds         |
+| (Lead Machinist  |   (Account 5440: cavity insert remachining, parting-line EDM polishing).       |
+| & Toolmaker)     | - Fabricating CD-250 and CD-15 fluid manifolds and machining cylinder blocks.   |
+|                  | - Managing press tool setups and standardized recipe card extraction with Bob.  |
 +------------------+---------------------------------------------------------------------------------+
-| Julian Perez     | - Operating automated DL-100 fixture for bubble-tight port assembly runs.       |
-| (Assembly/Pack)  | - Packaging co-branded 20-pack and 50-pack formulator kits and master cartons.  |
+| Julian Perez     | - Operating on-site injection molding press and material desiccant dryer.        |
+| (Assembly, Press | - Operating automated DL-100 fixture for bubble-tight port testing.             |
+| & Packaging)     | - Packaging co-branded OEM 50/100-pack bags and 1,000-count master cartons.     |
 |                  | - Rental fleet check-in, solvent flush, teardown, and seal refurbishment.       |
 +------------------+---------------------------------------------------------------------------------+
-| Maggie M         | - QuickBooks billing, PO review, credit checks, and Net 30 collection calls.    |
+| Maggie M         | - QuickBooks billing, PO review, credit checks, and Net 30/60 collections.      |
 | (Office Admin)   | - Inbound DOT bid tracking via Bid Express / state DOT construction bulletins.  |
-|                  | - Coordinating LTL pallet freight and co-branded packaging component replenishment.|
+|                  | - Coordinating LTL pallet freight and raw polymer pellet gaylord orders.        |
 +------------------+---------------------------------------------------------------------------------+
-| Jack Fay         | - Executive sponsor: Negotiating Sika/Euclid corporate technical partnerships.  |
-| (Owner/GM)       | - Negotiating master private-label agreements and White Cap corporate vendor    |
-|                  |   agreements.                                                                   |
-|                  | - Financial oversight, margin auditing, and capital allocation.                 |
+| Jack Fay         | - Executive Sponsor: Negotiating master OEM licensing agreements with Sika,     |
+| (Owner/GM)       |   Alchatek, and Euclid corporate technical directors.                           |
+|                  | - Negotiating White Cap master vendor agreements.                               |
+|                  | - Financial auditing, resin purchasing optimization, and margin enforcement.    |
 +------------------+---------------------------------------------------------------------------------+
 ```
 
-### DL-100 Production Scheduling & Labor Balance
-* **Batch Sizing:** Julian Perez runs the DL-100 assembly fixture in dedicated 10,000-unit batches (two 5-hour shifts) twice per month.
-* **Throughput Capacity:** The DL-100 fixture cycles at 1,000 ports per hour. A 20,000-unit monthly volume requires only 20 hours of machine runtime, leaving Julian over 140 hours per month for equipment sub-assembly, rental fleet maintenance, and master carton staging.
-* **Quality Assurance Documentation:** A serialized "Certificate of 100% Bubble-Tight Inspection" generated by the DL-100 pressure logger is automatically printed and inserted into every master carton shipped to formulators.
+### 7.1 In-House Molding Shop Floor Operations
+* **On-Site Molding Asset:** Lily operates its thermoplastic injection molding press and material dryer in the 240 S. Broadway facility in Aurora. Raw virgin polymer pellets (PP, LDPE, HDPE, Nylon) are purchased by the gaylord and stored on racking.
+* **Standardized Setup Recipe Cards:** Dave Kling, working alongside retiring founder Bob Trout, extracts historical machine settings into laminated "Press Setup Recipe Cards" mounted at the press:
+  * Barrel temperature profiles (Zone 1 to Zone 4).
+  * Injection pressure, pack pressure, and backpressure settings.
+  * Clamp tonnage, cooling cycle timers, and mold cooling water flow rates.
+  * Material drying requirements (desiccant hopper run time and dew-point verification).
+* **Toolroom Maintenance (Account 5440 Ground Truth):** Account 5440 ($31.9k in 2024 / $18.9k in 2025) funds on-site toolroom refurbishment, cavity insert remachining, runner maintenance, and wire EDM die work performed in-house by Dave Kling to ensure clean parting lines, zero flash, and tight dimensional tolerances across all 10 proprietary molds.
+* **DL-100 Automated Assembly & Packaging Cadence:**
+  * Julian Perez runs dedicated 10,000-unit assembly blocks on the automated DL-100 fixture twice per month.
+  * Fixture cycles at 1,000 units/hour: 10,000 units require just 10 hours of machine runtime.
+  * Every finished carton includes an automatically generated "Certificate of 100% Bubble-Tight Inspection" logging the 60-PSI pressure-decay test.
 
 ---
 
-## 9. Tactical 90-Day Implementation Action Plan
+## 8. Tactical 90-Day Implementation Action Plan
 
 ```
 +-------------------+--------------------------------------------------------------------------------+
 | TIMELINE          | MILESTONES & DELIVERABLES                                                      |
 +-------------------+--------------------------------------------------------------------------------+
 | Days 1–30         | Baseline Alignment, Tooling Audit & Formulator Outreach                        |
-|                   | [x] Jack Fay & Dave Jepsen audit all active CD-250 and CD-15 customer accounts |
-|                   |     over the past 36 months to identify core bridge contractors.               |
-|                   | [x] Dave Kling inspects and calibrates the DL-100 assembly fixture in Aurora;  |
-|                   |     validates inline 60-PSI pressure-decay transducer calibration.             |
-|                   | [x] Schedule formal technical review meetings with Sika regional technical     |
-|                   |     specialists (Lyndhurst, NJ / Marion, OH) and Euclid Chemical (Cleveland).  |
-|                   | [x] Audit the 12-unit CD-250 rental fleet in Aurora; Julian Perez begins       |
-|                   |     resealing and calibrating rigs for upcoming bridge season.                 |
+|                   | [x] Dave Kling inspects all 10 injection molds in the Aurora toolroom; audits  |
+|                   |     parting lines, core pins, and ejector mechanisms (Account 5440 baseline).   |
+|                   | [x] Document and laminate Press Setup Recipe Cards with Bob Trout for Mold #3  |
+|                   |     (Safety Orange) and Mold #6 (Drive-Lok).                                   |
+|                   | [x] Jack Fay & Dave Jepsen schedule formal technical presentations with Sika    |
+|                   |     (Lyndhurst, NJ / Marion, OH) and Alchatek (Tucker, GA).                    |
+|                   | [x] Calibrate inline pressure-decay sensor on the DL-100 automated test fixture.|
 +-------------------+--------------------------------------------------------------------------------+
-| Days 31–60        | Packaging Validation, Collateral Creation & Pilot Agreements                   |
-|                   | [x] Co-author "Bridge Deck Polymer Ratio Verification Guide" with Sika field   |
-|                   |     reps, embedding ±2% positive-displacement tolerance language.              |
-|                   | [x] Design co-branded heavy polybag artwork and header cards for Euclid and    |
-|                   |     ChemCo Systems featuring the "Engineered & Certified Bubble-Tight by Lily" |
-|                   |     quality hallmark.                                                          |
-|                   | [x] Standardize 1,000-count master packaging cartons for surface ports;       |
-|                   |     Julian Perez pre-packs 50,000 ports to establish immediate buffer stock.   |
-|                   | [x] Jack Fay delivers Master Supply Agreement for private-label kits to Euclid |
-|                   |     Chemical and ChemCo Systems (targeting initial 25,000-unit POs).           |
+| Days 31–60        | Contract Delivery, Artwork Finalization & Pilot Agreements                     |
+|                   | [x] Jack Fay delivers Master OEM Submittal Agreements to Sika and Alchatek,    |
+|                   |     locking in bilateral warranty indemnity and 10,000-unit release MOQs.      |
+|                   | [x] Finalize co-branded packaging artwork for 50-pack Sikadur bags and 100-pack|
+|                   |     Alchatek Drive-Lok bags featuring "Engineered Bubble-Tight by Lily Corp."  |
+|                   | [x] Co-author standardized DOT Submittal Engineering Cut Sheets with Sika and   |
+|                   |     Alchatek field reps for Section 590 (Epoxy) and Section 1091 (Leak-Seal).  |
+|                   | [x] Purchase raw polymer gaylords (PP and Nylon) for scheduled OEM launch runs.|
 +-------------------+--------------------------------------------------------------------------------+
-| Days 61–90        | Specification Submittals & Distribution Rollout                                |
-|                   | [x] Deliver formal specification update proposals to IDOT Bureau of Bridges &   |
-|                   |     Structures and WisDOT Materials Bureau via joint Sika/Lily submittal.      |
-|                   | [x] Close first private-label production run on the DL-100 fixture; ship       |
-|                   |     initial 25,000-port order to Euclid Chemical at 57.5% gross margin.        |
-|                   | [x] Jack Fay approaches White Cap regional civil category manager with master  |
-|                   |     wholesale vendor agreement for bulk molded consumables (Ports, Mixers).    |
-|                   | [x] Implement Bid Express monitoring desk with Maggie M to track state DOT     |
-|                   |     bridge repair lettings and trigger proactive contractor outreach.          |
-|                   | [x] Affix chemical-resistant QR ordering plates to all field machines and       |
-|                   |     rental rigs, launching 1-tap SMS reordering directly to Dave Jepsen.       |
+| Days 61–90        | Production Runs, Submittal Binder Release & Distribution Rollout               |
+|                   | [x] Julian Perez executes first 10,000-unit Sika Safety Orange production run;  |
+|                   |     assembles and tests ports on the DL-100 fixture at 58.2% gross margin.     |
+|                   | [x] Execute first 10,000-unit Alchatek Drive-Lok production run in Aurora.     |
+|                   | [x] Secure formal inclusion of Lily co-branded cut sheets inside official Sika  |
+|                   |     and Alchatek DOT project submittal binders in IDOT, PennDOT, and WisDOT.   |
+|                   | [x] Jack Fay presents White Cap regional civil category manager with master    |
+|                   |     wholesale vendor agreement for bulk 1,000-count master cartons.            |
+|                   | [x] Maggie M establishes Bid Express monitoring to track DOT Pay Item 59000200 |
+|                   |     advertisements and arm Dave Jepsen with pre-bid contractor outreach data.  |
 +-------------------+--------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 10. Success Metrics & Key Performance Indicators (KPIs)
+## 9. Success Metrics & Key Performance Indicators (KPIs)
 
-Jack Fay will track commercial expansion using five strict operational metrics reviewed on the 1st of every month:
+Jack Fay reviews five commercial and manufacturing metrics on the 1st of every month:
 
-1. **Private-Label Port Volume & Gross Margin (COMM_26 KPI):** Monthly units shipped under formulator private-label/co-branded programs (Target: 30,000+ units/month within 9 months at **≥56.0% gross margin**).
-2. **DOT Specification Citations (COMM_09 KPI):** Number of targeted state DOT bridge contract special provisions specifying ±2.0% positive-displacement proportioning standards and certified non-return check ports (Target: 4 states within 18 months: IL, WI, IN, OH).
-3. **Consumables Channel Throughput:** Monthly total unit sales across all channels of injection molded ports and mixers (Target: Grow from historical ~65k units/month to **125k+ units/month** via formulator kits, White Cap distribution, and rental pull-through).
-4. **CD-250 Rental Fleet Revenue:** Net rental income from CD-250 and CD-15 proportioners (Target: Increase from historical baseline of $168k/yr to **$350k+/yr** at >80% gross margin).
-5. **Resin Formulator Endorsement Footprint:** Official Sika, Euclid, ChemCo, and Simpson Strong-Tie Technical Data Sheets explicitly citing Lily equipment as recommended application equipment (Target: Minimum 6 active TDS listings within 12 months).
+1. **OEM Co-Branded Submittal Licensing Footprint (COMM_31 KPI):** Official formulator DOT submittal binders specifying Lily Safety Orange or Drive-Lok ports as standard accessories (Target: **≥2 national formulators [Sika, Alchatek] active within 6 months; add Euclid within 12 months**).
+2. **Private-Label Port Run Rate & Gross Margin (COMM_26 KPI):** Monthly units shipped under formulator private-label/co-branded OEM programs (Target: **30,000+ units/month within 9 months at ≥56.5% gross margin**).
+3. **In-House Molding Shop Productivity:** Press uptime, scrap rate, and pellet conversion cost (Target: **<2.5% scrap rate across gaylord pellet consumption; zero uncertified ports reaching packaging**).
+4. **CD-250 Rental Fleet Revenue:** Net rental income from the 12 CD-250 overlay rigs and 8 CD-15 crack injection rigs (Target: Increase from historical baseline of $168k/yr to **$350k+/yr at >80% gross margin**).
+5. **DOT Pay Item Pull-Through Volume:** Total monthly injection ports shipped across all channels (direct contractor, White Cap wholesale, rental pull-through, and formulator OEM) (Target: Grow from historical ~65k units/month to **125k+ units/month**).

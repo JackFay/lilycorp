@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-10T16:10:00Z",
-  "active_cycle": 19,
+  "active_cycle": 22,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -387,12 +387,12 @@
       "id": "COMM_24",
       "category": "Commercial Strategy",
       "title": "State DOT Standard Specification Capture via Branded Safety Orange Port Chemistry",
-      "question": "Can Lily leverage its proprietary Safety Orange UV-stabilized masterbatch resin specification (OPER_12) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?",
+      "question": "Can Jack Fay introduce a high-visibility Safety Orange UV-stabilized masterbatch resin specification (COMM_24) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?",
       "known_facts": [
-        "Uncovered during Cycle #11 cloud investigation of [OPER_18]."
+        "Uncovered during Cycle #11 cloud investigation of [OPER_18]. Note: Lily historically molded ports in natural translucent/white resin; Safety Orange is a proposed future product initiative (COMM_24), not an existing legacy specification."
       ],
       "open_uncertainties": [
-        "Can Lily leverage its proprietary Safety Orange UV-stabilized masterbatch resin specification (OPER_12) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?"
+        "Can Jack Fay introduce a high-visibility Safety Orange UV-stabilized masterbatch resin specification (COMM_24) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?"
       ],
       "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md",
       "confidence_score": 9,
@@ -405,7 +405,7 @@
       "title": "Commercialization of Contractor-Owned CD-250 Quick-Swap Wet-End Conversion Kits",
       "question": "Can Lily package the OPER_14 Quick-Swap Fluid Section into a standardized $3,450 commercial retrofit kit for the estimated 150+ contractor-owned legacy CD-250 proportioners currently operating in North America, establishing a high-margin recurring cartridge rebuild and replacement business outside the corporate rental fleet?",
       "known_facts": [
-        "Uncovered during Cycle #11 cloud investigation of [OPER_18]."
+        "Uncovered during Cycle #11 cloud investigation of [OPER_18]. Note: Lily historically molded ports in natural translucent/white resin; Safety Orange is a proposed future product initiative (COMM_24), not an existing legacy specification."
       ],
       "open_uncertainties": [
         "Can Lily package the OPER_14 Quick-Swap Fluid Section into a standardized $3,450 commercial retrofit kit for the estimated 150+ contractor-owned legacy CD-250 proportioners currently operating in North America, establishing a high-margin recurring cartridge rebuild and replacement business outside the corporate rental fleet?"
@@ -507,8 +507,8 @@
         "What contractual warranty indemnity, private-label packaging minimums, and exclusivity terms are required to formalize Lily's Safety Orange and Drive-Lok ports as standard specified accessories in Sika (Sikadur) and Alchatek DOT submittal binders?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -523,8 +523,8 @@
         "Does pressure drop across standard 1/2\" dry-break cam couplers exceed 150 PSI when pumping high-viscosity bridge deck epoxies (>3,500 cP) at near-freezing temperatures (35-45\u00b0F), requiring a full-port oversized ball coupling spec?"
       ],
       "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -555,8 +555,8 @@
         "Which regional Midwest injection molders currently hold Lily's 10 production molds, what is the documented preventive maintenance schedule for core/cavity refurbishment, and what minimum resin pellet inventory must be maintained to buffer petrochemical supply chain spikes?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -667,6 +667,102 @@
         "Does blending up to 15% runner regrind in T-01 polypropylene and T-03 HDPE ports induce micro-void notch sensitivity or reduce hoop burst pressure below 3,000 PSI under rapid hydraulic cyclic loading in cold-weather civil injection environments?"
       ],
       "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "COMM_42",
+      "category": "Commercial Strategy",
+      "title": "National Wholesale Distributor Terms & Margin Protection Protocol",
+      "question": "Can Lily negotiate standard vendor agreements with White Cap and Brock White that exclude mandatory annual marketing development funds (MDF), distributor volume rebates (typically 5-8%), and guaranteed unsold inventory buybacks while maintaining a minimum 50% gross margin on 1,000-count master cartons?",
+      "known_facts": [
+        "Uncovered during Cycle #20 cloud investigation of [COMM_31]."
+      ],
+      "open_uncertainties": [
+        "Can Lily negotiate standard vendor agreements with White Cap and Brock White that exclude mandatory annual marketing development funds (MDF), distributor volume rebates (typically 5-8%), and guaranteed unsold inventory buybacks while maintaining a minimum 50% gross margin on 1,000-count master cartons?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_43",
+      "category": "Operations",
+      "title": "Peak Season Shop Floor Labor Balancing & Seasonal Assembly Protocol",
+      "question": "Does peak summer demand (simultaneous CD-250 rental turnaround, 30k/month DL-100 port assembly, and gaylord molding runs) exceed Julian Perez's 160 monthly standard hours, and can an Aurora vocational apprentice or part-time packaging helper be integrated at <$20/hr without disrupting Dave Kling's toolroom workflow?",
+      "known_facts": [
+        "Uncovered during Cycle #20 cloud investigation of [COMM_31]."
+      ],
+      "open_uncertainties": [
+        "Does peak summer demand (simultaneous CD-250 rental turnaround, 30k/month DL-100 port assembly, and gaylord molding runs) exceed Julian Perez's 160 monthly standard hours, and can an Aurora vocational apprentice or part-time packaging helper be integrated at <$20/hr without disrupting Dave Kling's toolroom workflow?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "PROD_44",
+      "category": "Product Innovation",
+      "title": "SureClick\u2122 Universal Dispensing Wand Interface & Competitor Latch Spec",
+      "question": "Can Lily engineer the Mold #11 SureClick\u2122 retaining cap collar with a universal twist-lock bayonet interface that natively couples with competitive injection wands (Graco, ChemCo, SealBoss) without threaded adapters, enabling Lily to capture consumable port sales on job sites where non-Lily proportioners are deployed?",
+      "known_facts": [
+        "Uncovered during Cycle #21 cloud investigation of [PROD_32]."
+      ],
+      "open_uncertainties": [
+        "Can Lily engineer the Mold #11 SureClick\u2122 retaining cap collar with a universal twist-lock bayonet interface that natively couples with competitive injection wands (Graco, ChemCo, SealBoss) without threaded adapters, enabling Lily to capture consumable port sales on job sites where non-Lily proportioners are deployed?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_45",
+      "category": "Commercial Strategy",
+      "title": "Master Chemical Supplier Private-Label Bundling (Sika & Euclid Co-Branding)",
+      "question": "Can Lily negotiate an exclusive co-branded packaging agreement with resin formulators (Sika, Euclid Chemical) to bundle 500-count cartons of SureClick\u2122 ports directly inside master structural repair epoxy shipments at a $0.58 OEM transfer price (71.7% Lily GM), securing guaranteed baseload volumes exceeding 350,000 ports/year?",
+      "known_facts": [
+        "Uncovered during Cycle #21 cloud investigation of [PROD_32]."
+      ],
+      "open_uncertainties": [
+        "Can Lily negotiate an exclusive co-branded packaging agreement with resin formulators (Sika, Euclid Chemical) to bundle 500-count cartons of SureClick\u2122 ports directly inside master structural repair epoxy shipments at a $0.58 OEM transfer price (71.7% Lily GM), securing guaranteed baseload volumes exceeding 350,000 ports/year?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_46",
+      "category": "Operations",
+      "title": "Rental Rig Smart Telemetry & Pneumatic Cycle/Ratio Data-Logger",
+      "question": "Can Lily integrate a low-cost ($150\u2013$250 capex) non-electric or battery-powered pneumatic stroke counter and differential ratio datalogger onto the CD-250 chassis to log cumulative cycles, detect off-ratio dispensing in the field, and automatically assess contractor damage billing upon rental return?",
+      "known_facts": [
+        "Uncovered during Cycle #22 cloud investigation of [OPER_34]."
+      ],
+      "open_uncertainties": [
+        "Can Lily integrate a low-cost ($150\u2013$250 capex) non-electric or battery-powered pneumatic stroke counter and differential ratio datalogger onto the CD-250 chassis to log cumulative cycles, detect off-ratio dispensing in the field, and automatically assess contractor damage billing upon rental return?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_47",
+      "category": "Product Innovation",
+      "title": "Semi-Automated Bagging & Barcode Labeling Cell for Consumable Port Packs",
+      "question": "Does integrating a tabletop semi-automatic autobagger with inline thermal transfer printer (<$4,500 capex) into Cell 1 reduce Julian Perez's manual boxing and poly-bag heat sealing time from 2.5 minutes to under 30 seconds per 100-count pack, and does direct contractor jobsite QR reorder labeling drive incremental direct accessory sales?",
+      "known_facts": [
+        "Uncovered during Cycle #22 cloud investigation of [OPER_34]."
+      ],
+      "open_uncertainties": [
+        "Does integrating a tabletop semi-automatic autobagger with inline thermal transfer printer (<$4,500 capex) into Cell 1 reduce Julian Perez's manual boxing and poly-bag heat sealing time from 2.5 minutes to under 30 seconds per 100-count pack, and does direct contractor jobsite QR reorder labeling drive incremental direct accessory sales?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
       "confidence_score": 3,
       "status": "OPEN",
       "priority": "MEDIUM"
