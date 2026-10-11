@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-10T16:10:00Z",
-  "active_cycle": 5,
+  "active_cycle": 19,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -155,8 +155,8 @@
         "Can Lily partner with regional Sika and Euclid Chemical field representatives to write CD-250 positive-displacement ratio tolerance standards directly into state DOT bridge crack repair specification sheets?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -171,8 +171,8 @@
         "Can Lily design and machine an in-house pneumatic indexing fixture or vibratory bowl-feed station for <= $4,500 that reduces port check-valve insertion time from 12 seconds to <2 seconds per unit?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -203,8 +203,8 @@
         "Does Lily Corporation expose its 70%+ accessory gross margins to silent toller margin creep by allowing contract molders to bundle raw resin procurement (PP, HDPE, Glass-Filled Nylon), and should Lily transition to index-linked resin pass-through agreements or direct master-batch purchasing?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 9,
+      "status": "RESOLVED",
       "priority": "HIGH"
     },
     {
@@ -217,6 +217,454 @@
       ],
       "open_uncertainties": [
         "Can Lily capture higher contractor average order value (AOV) and eliminate field kitting confusion by bundling 250 ports, matching caps, 10 static mixers, and ratio test cups into a single pre-sealed jobsite pail specified directly in state DOT structural repair submittals?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_14",
+      "category": "Operations",
+      "title": "Rental Fleet Rapid-Turnaround Modular Fluid Section SOP",
+      "question": "Can Lily engineer a pre-assembled, drop-in 'Quick-Swap Fluid Manifold & Cylinder Cartridge' so Julian Perez can re-certify returned CD-250 rental rigs in under 90 minutes instead of conducting a full solvent teardown during the peak summer paving season?",
+      "known_facts": [
+        "Uncovered during Cycle #6 cloud investigation of [COMM_09]."
+      ],
+      "open_uncertainties": [
+        "Can Lily engineer a pre-assembled, drop-in 'Quick-Swap Fluid Manifold & Cylinder Cartridge' so Julian Perez can re-certify returned CD-250 rental rigs in under 90 minutes instead of conducting a full solvent teardown during the peak summer paving season?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_15",
+      "category": "Commercial Strategy",
+      "title": "State DOT Letting Automation & Pre-Bid Estimator Scraping",
+      "question": "Can Maggie M automate the extraction of pre-qualified bidding general contractors from IDOT, WisDOT, INDOT, and ODOT letting bulletins for Pay Items 50300300 (Polymer Overlay) and 59000200 (Crack Injection) 14 days prior to bid letting to drive programmatic rental reservations?",
+      "known_facts": [
+        "Uncovered during Cycle #6 cloud investigation of [COMM_09]."
+      ],
+      "open_uncertainties": [
+        "Can Maggie M automate the extraction of pre-qualified bidding general contractors from IDOT, WisDOT, INDOT, and ODOT letting bulletins for Pay Items 50300300 (Polymer Overlay) and 59000200 (Crack Injection) 14 days prior to bid letting to drive programmatic rental reservations?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_16",
+      "category": "Operations",
+      "title": "Supplier Pre-Sleeved Check Valve Packaging & Cartridge Standardization",
+      "question": "Can Lily negotiate with its Drive-Lok check valve cartridge supplier to deliver valves pre-loaded in 100-count plastic feed sleeves/tubes rather than bulk bags, eliminating internal tube-loading labor and enabling continuous-feed operation of the OPER_10 fixture?",
+      "known_facts": [
+        "Uncovered during Cycle #7 cloud investigation of [OPER_10]."
+      ],
+      "open_uncertainties": [
+        "Can Lily negotiate with its Drive-Lok check valve cartridge supplier to deliver valves pre-loaded in 100-count plastic feed sleeves/tubes rather than bulk bags, eliminating internal tube-loading labor and enabling continuous-feed operation of the OPER_10 fixture?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_17",
+      "category": "Product Innovation",
+      "title": "Modular Quick-Turn Rental Pump Teardown & Solvent Flush Station",
+      "question": "Can Dave Kling and Julian design and fabricate an automated, closed-loop pneumatic solvent recirculating flush rig ($2,500 capex) that flushes and cleans returned rental CD-250/Mini fluid sections in 45 minutes without manual disassembly, compressing rental turnaround from 5 days to 24 hours?",
+      "known_facts": [
+        "Uncovered during Cycle #7 cloud investigation of [OPER_10]."
+      ],
+      "open_uncertainties": [
+        "Can Dave Kling and Julian design and fabricate an automated, closed-loop pneumatic solvent recirculating flush rig ($2,500 capex) that flushes and cleans returned rental CD-250/Mini fluid sections in 45 minutes without manual disassembly, compressing rental turnaround from 5 days to 24 hours?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_18",
+      "category": "Operations",
+      "title": "Vendor Pre-Packaged Sleeve Sourcing for Drive-Lok Check Valves",
+      "question": "Can Lily negotiate with its check-valve cartridge supplier to deliver valves pre-oriented in extruded plastic sleeve rails (similar to automated SMT or fastener packaging) for a zero or sub-$0.005/unit premium, eliminating manual magazine tube stacking at 240 S. Broadway?",
+      "known_facts": [
+        "Uncovered during Cycle #8 cloud investigation of [OPER_12]."
+      ],
+      "open_uncertainties": [
+        "Can Lily negotiate with its check-valve cartridge supplier to deliver valves pre-oriented in extruded plastic sleeve rails (similar to automated SMT or fastener packaging) for a zero or sub-$0.005/unit premium, eliminating manual magazine tube stacking at 240 S. Broadway?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_19",
+      "category": "Product Innovation",
+      "title": "Dual-Stage Integrated Ball-Check Port Geometry (Tool T-11 Feasibility)",
+      "question": "Given the tooling lifecycle of T-01 (320k shots remaining), should Lily design a next-generation patentable port base (T-11) that integrates an in-mold living-hinge or co-molded elastomer check seat, eliminating secondary Drive-Lok insertion entirely while locking contractors into a proprietary Lily dispenser coupler?",
+      "known_facts": [
+        "Uncovered during Cycle #8 cloud investigation of [OPER_12]."
+      ],
+      "open_uncertainties": [
+        "Given the tooling lifecycle of T-01 (320k shots remaining), should Lily design a next-generation patentable port base (T-11) that integrates an in-mold living-hinge or co-molded elastomer check seat, eliminating secondary Drive-Lok insertion entirely while locking contractors into a proprietary Lily dispenser coupler?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_20",
+      "category": "Operations",
+      "title": "Automated Pneumatic Backpressure Seal Test Integration for OPER_10 Fixture",
+      "question": "Can an inline 50-PSI pneumatic decay pressure-test transducer be integrated into Station 4 of the Drive-Lok bench fixture for under $650 to achieve 100% automated non-destructive leak testing before ejection?",
+      "known_facts": [
+        "Uncovered during Cycle #9 cloud investigation of [OPER_14]."
+      ],
+      "open_uncertainties": [
+        "Can an inline 50-PSI pneumatic decay pressure-test transducer be integrated into Station 4 of the Drive-Lok bench fixture for under $650 to achieve 100% automated non-destructive leak testing before ejection?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_21",
+      "category": "Commercial Strategy",
+      "title": "Civil Infrastructure Rental Fleet 'Guaranteed Uptime' Pelican SLA Contract Structure",
+      "question": "How should Lily structure and price an annual 'Guaranteed Uptime SLA' add-on for DOT bridge contractors that bundles the CD-250 rental rig with guaranteed 4-hour Pelican cartridge swaps to capture recurring subscription revenue?",
+      "known_facts": [
+        "Uncovered during Cycle #9 cloud investigation of [OPER_14]."
+      ],
+      "open_uncertainties": [
+        "How should Lily structure and price an annual 'Guaranteed Uptime SLA' add-on for DOT bridge contractors that bundles the CD-250 rental rig with guaranteed 4-hour Pelican cartridge swaps to capture recurring subscription revenue?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "PROD_22",
+      "category": "Product Innovation",
+      "title": "Contractor Field-Side Closed-Loop Chemical Purge & Anti-Fouling Kit",
+      "question": "Can Lily design a lightweight, low-cost pneumatic recirculating flush manifold kit included with every CD-250 rental crate that automates contractor solvent flushing on active bridge decks, reducing the rate of fouled returned cartridges by >50%?",
+      "known_facts": [
+        "Uncovered during Cycle #10 cloud investigation of [OPER_16]."
+      ],
+      "open_uncertainties": [
+        "Can Lily design a lightweight, low-cost pneumatic recirculating flush manifold kit included with every CD-250 rental crate that automates contractor solvent flushing on active bridge decks, reducing the rate of fouled returned cartridges by >50%?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_23",
+      "category": "Commercial Strategy",
+      "title": "Standardized DOT 'Job-in-a-Box' Consumable Pre-Packs",
+      "question": "Can Lily package standardized accessory skids (500 Safety Orange DL-100 ports, caps, static mixers, and two-part epoxy paste) tied directly to state DOT specification codes (e.g., IDOT Section 588) to capture 100% of accessory pull-through alongside CD-250 machine rentals?",
+      "known_facts": [
+        "Uncovered during Cycle #10 cloud investigation of [OPER_16]."
+      ],
+      "open_uncertainties": [
+        "Can Lily package standardized accessory skids (500 Safety Orange DL-100 ports, caps, static mixers, and two-part epoxy paste) tied directly to state DOT specification codes (e.g., IDOT Section 588) to capture 100% of accessory pull-through alongside CD-250 machine rentals?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "COMM_24",
+      "category": "Commercial Strategy",
+      "title": "State DOT Standard Specification Capture via Branded Safety Orange Port Chemistry",
+      "question": "Can Lily leverage its proprietary Safety Orange UV-stabilized masterbatch resin specification (OPER_12) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?",
+      "known_facts": [
+        "Uncovered during Cycle #11 cloud investigation of [OPER_18]."
+      ],
+      "open_uncertainties": [
+        "Can Lily leverage its proprietary Safety Orange UV-stabilized masterbatch resin specification (OPER_12) to get Lily-dimensioned entry ports written into state DOT standard repair specifications (e.g., IDOT, INDOT, PennDOT) as the approved bridge-deck inspection standard, legally locking out generic unpigmented white/black import ports?"
+      ],
+      "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_25",
+      "category": "Product Innovation",
+      "title": "Commercialization of Contractor-Owned CD-250 Quick-Swap Wet-End Conversion Kits",
+      "question": "Can Lily package the OPER_14 Quick-Swap Fluid Section into a standardized $3,450 commercial retrofit kit for the estimated 150+ contractor-owned legacy CD-250 proportioners currently operating in North America, establishing a high-margin recurring cartridge rebuild and replacement business outside the corporate rental fleet?",
+      "known_facts": [
+        "Uncovered during Cycle #11 cloud investigation of [OPER_18]."
+      ],
+      "open_uncertainties": [
+        "Can Lily package the OPER_14 Quick-Swap Fluid Section into a standardized $3,450 commercial retrofit kit for the estimated 150+ contractor-owned legacy CD-250 proportioners currently operating in North America, establishing a high-margin recurring cartridge rebuild and replacement business outside the corporate rental fleet?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_26",
+      "category": "Commercial Strategy",
+      "title": "Private-Label Formulator Port Packaging Program",
+      "question": "Can Lily leverage its automated DL-100 assembly fixture and 100% inline bubble-tight certification to supply co-branded, pre-packaged injection ports directly to regional chemical formulators (e.g., ChemCo, Euclid, Sika) at a 55-60% gross margin, capturing incremental volume without channel conflict?",
+      "known_facts": [
+        "Uncovered during Cycle #12 cloud investigation of [OPER_20]."
+      ],
+      "open_uncertainties": [
+        "Can Lily leverage its automated DL-100 assembly fixture and 100% inline bubble-tight certification to supply co-branded, pre-packaged injection ports directly to regional chemical formulators (e.g., ChemCo, Euclid, Sika) at a 55-60% gross margin, capturing incremental volume without channel conflict?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_27",
+      "category": "Operations",
+      "title": "Parts Washer Spent-Solvent Closed-Loop Distillation SOP",
+      "question": "What is the optimal solvent chemistry and small-footprint batch distillation unit (under $3,000 capex) for Julian Perez to recycle wash solvent internally in Cell 2, reducing recurring solvent procurement and hazardous waste disposal liabilities in Aurora?",
+      "known_facts": [
+        "Uncovered during Cycle #12 cloud investigation of [OPER_20]."
+      ],
+      "open_uncertainties": [
+        "What is the optimal solvent chemistry and small-footprint batch distillation unit (under $3,000 capex) for Julian Perez to recycle wash solvent internally in Cell 2, reducing recurring solvent procurement and hazardous waste disposal liabilities in Aurora?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_28",
+      "category": "Operations",
+      "title": "Turnkey Chemical Toll-Blending & Private-Label Fulfillment Architecture",
+      "question": "Can Lily negotiate turnkey private-label toll-blending and direct-to-contractor dropshipping for 5-gallon pails of SafePurge-Citrus and LubeCoat-90 at >60% gross margin without holding hazardous chemical drum inventory at the Aurora shop?",
+      "known_facts": [
+        "Uncovered during Cycle #13 cloud investigation of [PROD_22]."
+      ],
+      "open_uncertainties": [
+        "Can Lily negotiate turnkey private-label toll-blending and direct-to-contractor dropshipping for 5-gallon pails of SafePurge-Citrus and LubeCoat-90 at >60% gross margin without holding hazardous chemical drum inventory at the Aurora shop?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9.5,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_29",
+      "category": "Product Innovation",
+      "title": "Mold #11 (SureClick\u2122 Port) Tooling RFP & Illinois Injection Molder Audit",
+      "question": "What are the exact tooling costs, multi-cavity cycle times, and per-unit resin costs from Lily's top two Illinois injection molders to fabricate Mold #11 with an integrated elastomer check ball to replace makeshift golf-tee port capping?",
+      "known_facts": [
+        "Uncovered during Cycle #13 cloud investigation of [PROD_22]."
+      ],
+      "open_uncertainties": [
+        "What are the exact tooling costs, multi-cavity cycle times, and per-unit resin costs from Lily's top two Illinois injection molders to fabricate Mold #11 with an integrated elastomer check ball to replace makeshift golf-tee port capping?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_30",
+      "category": "Operations",
+      "title": "Benchtop Automated Check-Valve Assembly Fixture for Drive-Lok Ports",
+      "question": "Can Lily engineer or procure a semi-automated pneumatic vibratory bowl-feeder and press fixture under $15,000 to assemble spring-and-ball check valves into Drive-Lok ports at >600 units/hour, preventing labor bottlenecking of Julian Perez?",
+      "known_facts": [
+        "Uncovered during Cycle #14 cloud investigation of [COMM_24]."
+      ],
+      "open_uncertainties": [
+        "Can Lily engineer or procure a semi-automated pneumatic vibratory bowl-feeder and press fixture under $15,000 to assemble spring-and-ball check valves into Drive-Lok ports at >600 units/hour, preventing labor bottlenecking of Julian Perez?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 9,
+      "status": "RESOLVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_31",
+      "category": "Commercial Strategy",
+      "title": "OEM Co-Branded Submittal Licensing with Formulators (Sika / Euclid / Alchatek)",
+      "question": "What contractual warranty indemnity, private-label packaging minimums, and exclusivity terms are required to formalize Lily's Safety Orange and Drive-Lok ports as standard specified accessories in Sika (Sikadur) and Alchatek DOT submittal binders?",
+      "known_facts": [
+        "Uncovered during Cycle #14 cloud investigation of [COMM_24]."
+      ],
+      "open_uncertainties": [
+        "What contractual warranty indemnity, private-label packaging minimums, and exclusivity terms are required to formalize Lily's Safety Orange and Drive-Lok ports as standard specified accessories in Sika (Sikadur) and Alchatek DOT submittal binders?"
+      ],
+      "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_32",
+      "category": "Product Innovation",
+      "title": "Cold-Weather High-Viscosity Flow Limits on Dry-Break Couplers",
+      "question": "Does pressure drop across standard 1/2\" dry-break cam couplers exceed 150 PSI when pumping high-viscosity bridge deck epoxies (>3,500 cP) at near-freezing temperatures (35-45\u00b0F), requiring a full-port oversized ball coupling spec?",
+      "known_facts": [
+        "Uncovered during Cycle #15 cloud investigation of [PROD_25]."
+      ],
+      "open_uncertainties": [
+        "Does pressure drop across standard 1/2\" dry-break cam couplers exceed 150 PSI when pumping high-viscosity bridge deck epoxies (>3,500 cP) at near-freezing temperatures (35-45\u00b0F), requiring a full-port oversized ball coupling spec?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_33",
+      "category": "Operations",
+      "title": "Mold #11 (SureClick Port) Tooling Procurement & Shot Life Economics",
+      "question": "Can Lily finance and commission Mold #11 ($28,000 capex, 4-cavity hardened tool steel) with an Illinois domestic toolmaker with guaranteed 1,000,000-shot warranty without disrupting existing tool maintenance reserves under Account 5440?",
+      "known_facts": [
+        "Uncovered during Cycle #15 cloud investigation of [PROD_25]."
+      ],
+      "open_uncertainties": [
+        "Can Lily finance and commission Mold #11 ($28,000 capex, 4-cavity hardened tool steel) with an Illinois domestic toolmaker with guaranteed 1,000,000-shot warranty without disrupting existing tool maintenance reserves under Account 5440?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_34",
+      "category": "Operations",
+      "title": "Toll-Molder Supply Chain Resiliency & Tooling Preventative Maintenance",
+      "question": "Which regional Midwest injection molders currently hold Lily's 10 production molds, what is the documented preventive maintenance schedule for core/cavity refurbishment, and what minimum resin pellet inventory must be maintained to buffer petrochemical supply chain spikes?",
+      "known_facts": [
+        "Uncovered during Cycle #16 cloud investigation of [COMM_26]."
+      ],
+      "open_uncertainties": [
+        "Which regional Midwest injection molders currently hold Lily's 10 production molds, what is the documented preventive maintenance schedule for core/cavity refurbishment, and what minimum resin pellet inventory must be maintained to buffer petrochemical supply chain spikes?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "COMM_35",
+      "category": "Commercial Strategy",
+      "title": "Formulator Working Capital Float & Blanket PO Financing Architecture",
+      "question": "How will Lily finance the 60-to-90 day receivable lag inherent to corporate formulators (Sika, Euclid) on 50,000-unit port orders without compressing cash flow required for CD-250 rental fleet expansion and raw metal inventory?",
+      "known_facts": [
+        "Uncovered during Cycle #16 cloud investigation of [COMM_26]."
+      ],
+      "open_uncertainties": [
+        "How will Lily finance the 60-to-90 day receivable lag inherent to corporate formulators (Sika, Euclid) on 50,000-unit port orders without compressing cash flow required for CD-250 rental fleet expansion and raw metal inventory?"
+      ],
+      "target_plan_file": "plan/05_jack_fay_operator_guide.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_36",
+      "category": "Operations",
+      "title": "Sub-Zero Freeze-Thaw Stability & Winter Dropship Protocol for SafePurge-Citrus",
+      "question": "Does the bio-solvent and surfactant blend in SafePurge-Citrus experience emulsion separation, gelation, or container cracking during sub-zero (-10\u00b0F to 20\u00b0F) unheated LTL transit in Midwestern winter paving conditions, and what cold-flow stabilizer or freeze-conditioned logistics rider must be mandated with the toll-blender?",
+      "known_facts": [
+        "Uncovered during Cycle #17 cloud investigation of [OPER_28]."
+      ],
+      "open_uncertainties": [
+        "Does the bio-solvent and surfactant blend in SafePurge-Citrus experience emulsion separation, gelation, or container cracking during sub-zero (-10\u00b0F to 20\u00b0F) unheated LTL transit in Midwestern winter paving conditions, and what cold-flow stabilizer or freeze-conditioned logistics rider must be mandated with the toll-blender?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_37",
+      "category": "Product Innovation",
+      "title": "Burst-Disc Overpressure Relief Retrofit for Tool T-07 Static Mixer Retaining Nut",
+      "question": "Can Lily modify injection mold T-07 (Glass-Filled Nylon Retaining Nut) or develop a drop-in manifold insert incorporating a calibrated 2,800-PSI rupture disc/relief port to prevent injection whip hose bursting when contractors pump viscous epoxies into blind cracks at near-refusal pressures?",
+      "known_facts": [
+        "Uncovered during Cycle #17 cloud investigation of [OPER_28]."
+      ],
+      "open_uncertainties": [
+        "Can Lily modify injection mold T-07 (Glass-Filled Nylon Retaining Nut) or develop a drop-in manifold insert incorporating a calibrated 2,800-PSI rupture disc/relief port to prevent injection whip hose bursting when contractors pump viscous epoxies into blind cracks at near-refusal pressures?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "PROD_38",
+      "category": "Product Innovation",
+      "title": "Mold #12 Low-Profile Corner & Inverted Overhead Check Port Extension",
+      "question": "Can Lily leverage Wise Plastics' Mold #11 core architecture to design a family-mold insert (Mold #12) for angled corner joints and inverted overhead slab injection that utilizes the same 5/16\" EPDM check ball, capturing municipal subway and parking structure ceiling rehabilitation specs?",
+      "known_facts": [
+        "Uncovered during Cycle #18 cloud investigation of [PROD_29]."
+      ],
+      "open_uncertainties": [
+        "Can Lily leverage Wise Plastics' Mold #11 core architecture to design a family-mold insert (Mold #12) for angled corner joints and inverted overhead slab injection that utilizes the same 5/16\" EPDM check ball, capturing municipal subway and parking structure ceiling rehabilitation specs?"
+      ],
+      "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "OPER_39",
+      "category": "Operations",
+      "title": "Spent Flush Solvent Recycling & Zero-Discharge Closed-Loop Wash Station",
+      "question": "Can Lily install a closed-loop batch solvent recovery still (<$6,500 capex) in Aurora to re-distill returned DeckFlush SafePurge fluid, converting rental return chemical waste into recycled internal test solvent and eliminating Hazmat offsite disposal manifests?",
+      "known_facts": [
+        "Uncovered during Cycle #18 cloud investigation of [PROD_29]."
+      ],
+      "open_uncertainties": [
+        "Can Lily install a closed-loop batch solvent recovery still (<$6,500 capex) in Aurora to re-distill returned DeckFlush SafePurge fluid, converting rental return chemical waste into recycled internal test solvent and eliminating Hazmat offsite disposal manifests?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "OPER_40",
+      "category": "Operations",
+      "title": "Core Return & Reconditioning Architecture for Quick-Swap Fluid Cartridges",
+      "question": "Can Lily implement a core-deposit credit program ($350 credit on return of fouled wet-end manifold blocks) for contractor-owned CD-250 rigs to institutionalize rebuild recurring revenue and prevent third-party machine shops from copying Lily displacement cylinders?",
+      "known_facts": [
+        "Uncovered during Cycle #19 cloud investigation of [OPER_30]."
+      ],
+      "open_uncertainties": [
+        "Can Lily implement a core-deposit credit program ($350 credit on return of fouled wet-end manifold blocks) for contractor-owned CD-250 rigs to institutionalize rebuild recurring revenue and prevent third-party machine shops from copying Lily displacement cylinders?"
+      ],
+      "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
+      "confidence_score": 3,
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "PROD_41",
+      "category": "Product Innovation",
+      "title": "Hydrostatic Burst Testing Protocol for Index-Linked Regrind Ports",
+      "question": "Does blending up to 15% runner regrind in T-01 polypropylene and T-03 HDPE ports induce micro-void notch sensitivity or reduce hoop burst pressure below 3,000 PSI under rapid hydraulic cyclic loading in cold-weather civil injection environments?",
+      "known_facts": [
+        "Uncovered during Cycle #19 cloud investigation of [OPER_30]."
+      ],
+      "open_uncertainties": [
+        "Does blending up to 15% runner regrind in T-01 polypropylene and T-03 HDPE ports induce micro-void notch sensitivity or reduce hoop burst pressure below 3,000 PSI under rapid hydraulic cyclic loading in cold-weather civil injection environments?"
       ],
       "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
       "confidence_score": 3,
