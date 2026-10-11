@@ -22,9 +22,10 @@ This guide establishes the week-by-week operational schedule and execution manua
 * **Commute & Cadence:** Jack lives in Riverside, IL (~35 minutes from Aurora via I-88 W / US-34 Ogden Ave). Jack arrives at the facility at **06:30 CST**, 30 minutes before shop staff punches in at 07:00 CST.
 * **The Transition Window:** Founder Robert "Bob" Trout (age 70+) is retiring. Jack has a hard **45 to 60 working-day runway** to extract four decades of unwritten quoting math, equipment tolerances, and vendor networks.
 * **The Core Shop Floor:** 
-  * **Dave Jepsen (Senior Sales & Technical Applications):** 20+ years of civil contractor trust; technical anchor for bridge and structural crack injection rigs.
-  * **Dave Kling (Lead Machinist & Fabricator):** Master of manual mills, lathes, TIG welding, and CD-250 manifold machining.
-  * **Julian Perez (Assembly, Hydrostatic Testing & Spanish Speaker):** Master of tear-downs, rebuilds, proportioner assembly, and packing.
+  * **Dave Jepsen (Sales & Technical Training):** ~2 years at Lily; sales and contractor support lead, handling daily contractor phone inquiries, application sizing, and field equipment training.
+  * **Dave Kling (Lead Machinist & Fabricator):** Master of manual mills, lathes, TIG welding, purchasing, shipping, and CD-250 manifold machining.
+  * **Julian Perez (Assembly & Repairs):** Technician for new machine assembly, proportioner teardowns, and accessory packaging.
+  * **Greg (Press Operator & QA Rebuilds):** Operates the on-site injection molding press, runs hydrostatic rebuild testing, and quality assurance.
   * **Maggie M (Office Manager & Administration):** Gatekeeper of QuickBooks Desktop, job tickets, accounts receivable, and Net 30/60 billing.
 
 ---

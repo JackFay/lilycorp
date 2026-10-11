@@ -6,10 +6,13 @@
 ---
 
 <!-- Add your notes below this line -->
-* FACT CORRECTION (MANDATORY OPERATIONAL BASELINE): Lily Corporation owns and operates its thermoplastic injection molding machinery and material dryer ON-SITE inside the 240 S. Broadway building in Aurora, IL.
-* Jack Fay physically observed ports and plastic components being molded on-site during diligence.
-* The 10 proprietary molds are stored in the Aurora facility toolroom and run directly on Lily's internal press. They are NOT held at third-party toll molders.
-* Lily purchases raw plastic polymer resin pellets (PP, LDPE, HDPE, Nylon) directly by the gaylord/pallet, yielding direct manufacturing gross margins.
-* Account 5440 ($31.9k in 2024 / $18.9k in 2025) represents toolroom refurbishment, cavity insert remachining, and EDM tool & die maintenance, not toller repairs.
-* All future cycles must treat Lily as an integrated in-house injection molder, focusing on press uptime, standardized setup recipe cards (extracting tribal knowledge from Bob & Dave K), resin drying, and on-site toolroom maintenance.
-* NOTE ON COMM_24 (SAFETY ORANGE PORTS): Lily historically molded ports in standard unpigmented/natural translucent or white resin (Injecti-Port I/II, Nestler). "Safety Orange UV-Stabilized Ports" is a PROPOSED FUTURE PRODUCT INITIATIVE / MARKETING WEDGE (adding off-the-shelf colorant masterbatch to the hopper to target DOT visual QA specs), NOT an existing proprietary legacy specification. Never refer to Safety Orange resin as an existing proprietary asset.
+* MANDATORY FACT CORRECTION: Dave Jepsen has only been at Lily Corporation for almost 2 years (handling sales, phone orders, and contractor training). 
+* The 44 years of legacy contractor relationships, custom quoting math, and distributor trust belong to founder Robert "Bob" Trout, NOT Dave Jepsen. Do not attribute 20-30 years of tenure to Dave Jepsen.
+* RETAINED SHOP ROSTER:
+  1. Bob Trout: Founder/Retiring President (44 years of legacy relationships and design knowledge; 60-day transition).
+  2. Dave Jepsen: Sales & Technical Training (~2 years at Lily; contractor phone orders, application sizing).
+  3. Dave Kling: Lead Fabricator, Machinist, Welder, Purchasing, and Equipment Repairs.
+  4. Julian Perez: New Assembly and Repairs, Sub-assembly, Proportioner Teardown, and Packaging.
+  5. Greg: Injection Molding Press Operator, Rebuilds & Testing / Quality Assurance.
+  6. Maggie M: Office Manager, QuickBooks Desktop billing, order entry.
+* SIMULATION CLARIFICATION: The "333 hours / 8 weeks of manual arbor pressing by Julian" and "days hand-chiseling cured epoxy from rental rigs" was an AI-modeled industrial engineering time-study simulation, NOT an observed empirical fact from Jack Fay's diligence visit. Frame fixture automation and quick-swap cartridges as theoretical capacity-unlocking improvements, not observed historical bottlenecks.

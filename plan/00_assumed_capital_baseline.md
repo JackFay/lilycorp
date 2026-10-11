@@ -24,11 +24,12 @@
 ---
 
 ## 2. Fixed Retained Operating Team
-* **Dave Jepsen:** Senior Sales & Technical Phone Support (Civil contractor relationship anchor)
-* **Dave Kling:** Lead Fabricator, Machinist, and Welder
-* **Julian Perez:** Assembly, Sub-assembly, Machine Teardown, and Packaging
-* **Maggie M:** Office Manager, QuickBooks Desktop billing, order entry
-* **Robert "Bob" Trout:** Founder/Retiring President (60-day transition / quoting formula knowledge transfer)
+* **Robert "Bob" Trout:** Founder/Retiring President (44 years of legacy contractor relationships, custom quoting math, and equipment design; 60-day transition)
+* **Dave Jepsen:** Sales & Technical Training (~2 years at Lily; incoming contractor phone support, field applications, and equipment training)
+* **Dave Kling:** Lead Fabricator, Machinist, Welder, Purchasing, and Equipment Repairs
+* **Julian Perez:** New Assembly and Repairs, Sub-assembly, Proportioner Teardown, and Packaging
+* **Greg:** Injection Molding Press Operator, Rebuilds & Hydrostatic Testing / Quality Assurance
+* **Maggie M:** Office Manager, QuickBooks Desktop billing, and order entry
 
 ---
 
