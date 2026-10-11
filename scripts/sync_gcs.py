@@ -83,9 +83,10 @@ def main():
         print("\nInit complete! GCS is ready for Cloud Function runs.")
 
     elif args.action == "push":
-        print(f"Pushing local steering notes and state to gs://{bucket_name}...")
+        print(f"Pushing local steering notes, state, and plan to gs://{bucket_name}...")
         upload_directory(bucket, BASE_DIR / "steering", "steering")
         upload_directory(bucket, BASE_DIR / "state", "state")
+        upload_directory(bucket, BASE_DIR / "plan", "plan")
         print("Push complete.")
 
     elif args.action == "pull":

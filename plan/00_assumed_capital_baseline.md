@@ -32,6 +32,7 @@
 
 ---
 
-## 3. Core Physical Moat
-* **Tooling:** 10 proprietary injection molds owned 100% free-and-clear (producing surface-mount entry ports, dispenser caps, mixers).
-* **Equipment:** Positive-displacement chemical proportioners (CD-250, Mini dispensers, pneumatic pumps).
+## 3. Core Physical Moat & In-House Manufacturing
+* **In-House Injection Molding Press & Material Dryer:** Operated physically on-site at 240 S. Broadway in Aurora, IL. Lily runs its own molds, dries its own resin pellets, and molds ports and caps in-house.
+* **Tooling:** 10 proprietary injection molds owned 100% free-and-clear (producing surface-mount entry ports, dispenser caps, mixers), running directly on Lily's Aurora molding press.
+* **Machining & Proportioner Fabrication:** Positive-displacement chemical proportioners (CD-250, Mini dispensers, pneumatic pumps) machined, welded, assembled, and tested in Aurora.

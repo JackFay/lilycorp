@@ -52,7 +52,7 @@ Lily Corporation’s commercial moat rests on an industrial "razor and razor bla
 ### Margin Realities by Product Line
 1. **Molded Consumables & Accessories (Accounts 4010 / 5120):**
    * *Gross Margin:* 68% to 77%.
-   * *Dynamics:* Zero moving parts; historically run on Lily’s 10 owned molds via local Illinois contract molders; low inventory holding cost; civil contractors purchase by the box (500–5,000 units per bridge/parking structure repair).
+   * *Dynamics:* Zero moving parts; run directly on Lily’s on-site injection molding press in Aurora using Lily’s 10 proprietary molds; low inventory holding cost; civil contractors purchase by the box (500–5,000 units per bridge/parking structure repair).
    * *Expansion:* **PROD_29 (Mold #11 - SureClick™ Port)** expands Lily's consumable moat from standard passive open-stem ports to high-value mechanical shut-off ports, raising gross margins to 76.8% while eliminating crude jobsite practices (golf tees and friction plugs).
 2. **Proprietary Proportioners (CD-250, CD-150, CD-15):**
    * *Gross Margin (Unit Sales):* 48% to 54%.

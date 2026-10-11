@@ -130,13 +130,13 @@
     {
       "id": "OPER_08",
       "category": "Operations",
-      "title": "Contract Molder Bailment & Shot-Counter Audit Protocol",
-      "question": "Which specific Midwestern injection molding tollers currently hold Lily's 10 proprietary molds, what are the formal tool bailment terms, and what is the current physical shot count against tool lifecycle limits for the primary surface port molds?",
+      "title": "In-House Injection Molding Press Ops, Material Dryer & Recipe Standardization",
+      "question": "How should Lily optimize and standardize setup parameters, cycle times, desiccant material drying, and toolroom preventive maintenance for its on-site injection molding press running the 10 proprietary molds at 240 S. Broadway?",
       "known_facts": [
-        "Uncovered during Cycle #3 investigation of [LEADERSHIP_DAY1_01]."
+        "Uncovered during Cycle #3 investigation of [LEADERSHIP_DAY1_01]. Jack Fay personally verified Lily owns and operates the injection molding press and desiccant dryer on-site in Aurora, IL, molding ports in-house with its 10 proprietary molds."
       ],
       "open_uncertainties": [
-        "Which specific Midwestern injection molding tollers currently hold Lily's 10 proprietary molds, what are the formal tool bailment terms, and what is the current physical shot count against tool lifecycle limits for the primary surface port molds?"
+        "How should Lily optimize and standardize setup parameters, cycle times, desiccant material drying, and toolroom preventive maintenance for its on-site injection molding press running the 10 proprietary molds at 240 S. Broadway?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
       "confidence_score": 9,
@@ -194,13 +194,13 @@
     {
       "id": "OPER_12",
       "category": "Operations",
-      "title": "Toll Molder Resin Indexation & Direct Material Hedging Protocol",
-      "question": "Does Lily Corporation expose its 70%+ accessory gross margins to silent toller margin creep by allowing contract molders to bundle raw resin procurement (PP, HDPE, Glass-Filled Nylon), and should Lily transition to index-linked resin pass-through agreements or direct master-batch purchasing?",
+      "title": "Direct Bulk Resin Pellet Purchasing & Regrind Management Protocol",
+      "question": "How can Lily maximize gross margins on Account 5120 by shifting raw polymer purchasing (PP, HDPE, Nylon, Delrin) from spot 55-lb bags to 1,000-lb Gaylords from major distributors and optimizing in-house granulator regrind yield?",
       "known_facts": [
         "Uncovered during Cycle #5 cloud investigation of [OPER_08]."
       ],
       "open_uncertainties": [
-        "Does Lily Corporation expose its 70%+ accessory gross margins to silent toller margin creep by allowing contract molders to bundle raw resin procurement (PP, HDPE, Glass-Filled Nylon), and should Lily transition to index-linked resin pass-through agreements or direct master-batch purchasing?"
+        "How can Lily maximize gross margins on Account 5120 by shifting raw polymer purchasing (PP, HDPE, Nylon, Delrin) from spot 55-lb bags to 1,000-lb Gaylords from major distributors and optimizing in-house granulator regrind yield?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
       "confidence_score": 9,
