@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 146,
+  "active_cycle": 150,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -67,7 +67,10 @@
       "priority": "CRITICAL",
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 146,
-      "last_audit_timestamp": "2026-10-12 21:48:14"
+      "last_audit_timestamp": "2026-10-12 21:48:14",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/26",
+      "github_auto_merged": true,
+      "github_pr_number": 26
     },
     {
       "id": "OPER_ROSTER_RETENTION_04",
@@ -102,10 +105,15 @@
         "How many months of winter cash burn can the $50k buffer withstand without an operating line of credit?"
       ],
       "target_plan_file": "plan/00_assumed_capital_baseline.md",
-      "confidence_score": 6,
-      "status": "REFINED",
+      "confidence_score": 3.0,
+      "status": "EXPLORATORY",
       "priority": "CRITICAL",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 150,
+      "last_audit_timestamp": "2026-10-12 22:48:07",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/28",
+      "github_auto_merged": false,
+      "github_pr_number": 28
     },
     {
       "id": "COMM_PRICING_06",
