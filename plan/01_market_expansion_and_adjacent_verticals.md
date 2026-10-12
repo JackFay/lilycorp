@@ -16,7 +16,7 @@
 
 ## Executive Summary: Grounded Market Expansion Framework
 
-This operational blueprint establishes Lily Corporation’s post-acquisition growth vectors, rigorously separated into **Immediate Grounded Execution** versus **Exploratory Upside Hypotheses**. Every initiative is evaluated against Lily's actual physical shop floor (4 cross-functional craftsmen, 1 Cincinnati Milacron injection press, 10 proprietary molds, and $50k working capital):
+This operational blueprint establishes Lily Corporation’s post-acquisition growth vectors, rigorously separated into **Immediate Grounded Execution (Year 1 Underwritten Core)** versus **Exploratory Upside Hypotheses (Year 2 Conditional)**. Every initiative is evaluated against Lily's actual physical shop floor (5-person operating roster: Dave Jepsen, Dave Kling, Julian Perez, Greg, and Maggie M; 1 Cincinnati Milacron injection press; 10 proprietary molds; $50,000 liquid working capital; and a strict $20,000 Year 1 discretionary capex ceiling):
 
 ### Prioritized Feasibility Hierarchy (Ranked Most to Least Feasible)
 
@@ -26,27 +26,27 @@ This operational blueprint establishes Lily Corporation’s post-acquisition gro
 +------+------------------------------------------+-----------------+-------------+---------------------------+
 | Rank | Growth Initiative                        | Feasibility     | Capex / Org | Strategic Classification  |
 +------+------------------------------------------+-----------------+-------------+---------------------------+
-|  #1  | Universal Rig Port Adapter (COMM_60)     | 9.5 / 10 (HIGH) | <$1,500     | Core Cash Flow Blade      |
-|  #2  | Confined-Space "GeoSkid 250" (MKT_03)    | 8.5 / 10 (HIGH) | <$3,000     | Machine Packaging Wedge   |
+|  #1  | Universal Rig Port Adapter (COMM_60)     | 9.5 / 10 (HIGH) | <$4,500     | Core Cash Flow Blade      |
+|  #2  | Confined-Space "GeoSkid 250" (MKT_03)    | 8.5 / 10 (HIGH) | <$3,500     | Machine Packaging Wedge   |
 |  #3  | Contractor DOT Submittal Packets (COMM_67| 8.0 / 10 (HIGH) | $0 (Admin)  | Sales Enablement (Friction|
-|  #4  | Safety Orange Brand Feature (COMM_24)    | 6.0 / 10 (MED)  | <$500       | Contractor Field Utility  |
-|  #5  | DOT Equipment Spec Rider (COMM_185)      | 3.5 / 10 (LOW)  | $0          | Commercial Rental Tool    |
+|  #4  | Safety Orange Brand Feature (COMM_24)    | 6.5 / 10 (MED)  | <$500       | Contractor Field Utility  |
+|  #5  | DOT Equipment Spec Rider (COMM_185)      | 4.0 / 10 (LOW)  | <$3,000     | Commercial Rental Tool    |
 |  #6  | Formulator Private-Label (COMM_152)      | 2.0 / 10 (SPEC) | Unfunded    | Exploratory Year 2 Vector |
 +------+------------------------------------------+-----------------+-------------+---------------------------+
 ```
 
-1. **Rank 1: Universal Competitive Rig Port Adapter (`COMM_60`) [Score: 9.5/10 — IMMEDIATE]:**
-   Engineering an inexpensive ($15–$25) threaded brass/composite adapter that attaches directly to competitive proportioning wands (Graco E-8P, ChemCo, PolyQuik, SealBoss). This "razor-and-blade" hardware allows Dave Jepsen to capture recurring 80%+ gross margins selling Lily’s existing molded ports across non-Lily pump fleets without asking contractors to buy new machines.
-2. **Rank 2: Confined-Space "GeoSkid 250" Ambient Proportioner (`MKT_GEOTECH_03`) [Score: 8.5/10 — PROVEN ASSET]:**
+1. **Rank 1: Universal Competitive Rig Port Adapter (`COMM_60`) [Score: 9.5/10 — IMMEDIATE UNDERWRITTEN CORE]:**
+   Engineering an inexpensive ($15–$25) threaded hybrid brass/composite adapter that attaches directly to competitive proportioning wands (Graco E-8P, ChemCo, PolyQuik, SealBoss). This "razor-and-blade" hardware allows Dave Jepsen to capture recurring 80%+ gross margins selling Lily’s existing molded ports across non-Lily pump fleets without asking contractors to buy new machines.
+2. **Rank 2: Confined-Space "GeoSkid 250" Ambient Proportioner (`MKT_GEOTECH_03`) [Score: 8.5/10 — PROVEN ASSET CORE]:**
    Repackaging Lily’s proven pneumatic CD-250 and Mini powerheads onto a compact tubular roll-cage skid for ambient cold-foam void filling, permeation grouting, and water-stop leak sealing. Captures confined-space infrastructure jobs (utility vaults, manholes, subway tunnels, mining) where $100,000 Graco trailer rigs and diesel generators cannot physically fit.
-3. **Rank 3: Turnkey Contractor DOT Compliance & Submittal Packets (`COMM_77` & `COMM_67`) [Score: 8.0/10 — ZERO CAPEX]:**
+3. **Rank 3: Turnkey Contractor DOT Compliance & Submittal Packets (`COMM_77` & `COMM_67`) [Score: 8.0/10 — ZERO CAPEX CORE]:**
    Assembling pre-formatted, one-page contractor submittal packages (ASTM C881 / F2095 test certs, domestic plant affidavits for Lily’s Aurora injection press, and technical data sheets). Eliminates bureaucratic friction for general contractors bidding state DOT projects, driving default consumable pull-through without attempting to lobby state qualification committees.
-4. **Rank 4: High-Visibility Safety Orange Consumables (`COMM_24`) [Score: 6.0/10 — COMMERCIAL FEATURE]:**
+4. **Rank 4: High-Visibility Safety Orange Consumables (`COMM_24`) [Score: 6.5/10 — COMMERCIAL FEATURE]:**
    Compounding standard UV-stabilized Safety Orange masterbatch pellets into Lily’s existing port runs on the Cincinnati Milacron press. Positioned strictly as a **contractor jobsite productivity feature** (allowing bridge deck inspectors and foremen to verify ported vs. injected cracks from 50 feet away during night-shift lane closures), formally abandoning the unviable premise of lobbying DOTs for cosmetic sole-source specification mandates.
-5. **Rank 5: State DOT Equipment Special Provisions & Certified Rental Rider (`COMM_185`) [Score: 3.5/10 — SALES TOOL]:**
-   Providing factory-certified calibration logs and ratio-check procedures with every rented CD-250 in Lily’s fleet (`Account 4015`, $120k–$303k/yr). Positioned as a contractor risk-mitigation tool for jobsite quality assurance, rejecting the unrealistic concept of lobbying state DOTs to mandate proprietary cylinder linkages in public bids.
-6. **Rank 6: Geotechnical Formulator Private-Label Baseload (`COMM_152`) [Score: 2.0/10 — EXPLORATORY HYPOTHESIS]:**
-   *De-risked and removed from core debt-service underwriting.* An exploratory hypothesis investigating whether regional formulators (Avanti, Prime Resins, NCFI) have interest in domestic co-branded consumables. Excludes unverified assumptions regarding competitor product failures or federal regulatory lockouts.
+5. **Rank 5: State DOT Equipment Special Provisions & Certified Rental Rider (`COMM_185`) [Score: 4.0/10 — COMMERCIAL RENTAL TOOL]:**
+   Providing factory-certified calibration logs and ratio-check procedures with every rented CD-250 in Lily’s fleet (`Account 4015`, $120k–$303k/yr historical). Positioned as a contractor risk-mitigation tool for jobsite quality assurance, rejecting the unrealistic concept of lobbying state DOTs to mandate proprietary cylinder linkages in public bids.
+6. **Rank 6: Geotechnical Formulator Private-Label Baseload (`COMM_152`) [Score: 2.0/10 — EXPLORATORY YEAR 2 VECTOR]:**
+   *De-risked and removed 100% from Year 1 core underwriting.* Detailed diligence proves that commoditized Asian steel mechanical packers enter the US at $0.40–$0.70 landed costs, and federal BABA/EPA AIS regulations do not apply to sacrificial installation packers. Lily cannot manufacture steel packers domestically at competitive margins without swamping shop labor. Exploration in Year 2 is strictly contingent on formulators funding all-polymer tooling upfront.
 
 ```
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -56,7 +56,7 @@ This operational blueprint establishes Lily Corporation’s post-acquisition gro
 +--------------------------+------------------------------------+------------------------------------+------------------------------------+-------------------------+
 | Primary Product Vehicle  | Omni-Cam Adapter Kit               | CD-250 "GeoSkid 250" Ambient Rig   | Turnkey DOT Bid Submittal Packets  | Exploratory Drive-Lok   |
 | Commercial Anchor        | Razor & Blade Fleet Conversion     | Confined-Space Machine Access      | Contractor Paperwork Relief        | Unverified Private-Label|
-| Shop Production Asset    | Dave Kling Machine / Stock Fitting | CD-250 Pneumatic Assembly Bench    | Administrative / Maggie M & Jack   | Speculative Tooling     |
+| Shop Production Asset    | Outsourced CNC Core / Stock Mold   | CD-250 Pneumatic Assembly Bench    | Administrative / Maggie M & Jack   | Speculative Tooling     |
 | Target Gross Margin      | Ports: 80%–86% | Adapters: 75%–80% | Equipment: 56%–62% | Parts: 75%+   | Consumable Pull-Through: 80%+      | Target: ~65% (Unfunded) |
 | Underwriting Status      | **CORE UNDERWRITTEN BASELINE**     | **CORE UNDERWRITTEN BASELINE**     | **CORE UNDERWRITTEN BASELINE**     | **EXPLORATORY YEAR 2**  |
 +--------------------------+------------------------------------+------------------------------------+------------------------------------+-------------------------+
@@ -138,7 +138,7 @@ In structural slab lifting, an off-ratio condition of more than **3%** produces 
 2. **The High-Flow Pre-Heating Barrier vs. Hose Maintenance:** 
    - Structural lifting polyurethanes require instantaneous primary pre-heating from 45°F to 100°F–130°F at 2.0+ GPM. That requires 6.0 kW to 10.2 kW high-voltage aluminum heater blocks, 240V/50A electrical supplies, and 30kW generator trailers.
    - **Crucial Asset Distinction:** Lily **already designs and sells a heated hose assembly**—the **HH-25 Heated Hose Assembly** (`https://www.lilycorp.com/hh-25`), a 25-ft, 1/2" dual smooth-bore Teflon assembly with an enclosed 95°F thermostat, as well as a factory **Heating Option on the CD-85 dispenser** for civil dowel bar anchoring. These exist to keep sluggish epoxies flowing smoothly in cool weather. What Lily rejects is *not* hose heating, but attempting to engineer a 300-ft continuous 240V high-flow primary preheating system for fast-reacting structural polyurethane foam.
-3. **The Shop Retooling Reality:** Lily’s Aurora shop has **4 cross-functional team members** (Dave Kling, Julian Perez, Greg, Maggie M) with Dave Jepsen leading sales/training. Lily lacks UL 508A high-voltage electrical certifications and firmware engineers for PID loops. Sourcing third-party generator trailers and 300-ft heated loops compresses gross margin to <25%.
+3. **The Shop Retooling Reality:** Lily’s Aurora shop has a **5-person operating team** (Dave Kling, Julian Perez, Greg, Maggie M, and Dave Jepsen). Lily lacks UL 508A high-voltage electrical certifications and firmware engineers for PID loops. Sourcing third-party generator trailers and 300-ft heated loops compresses gross margin to <25%.
    
 **Conclusion:** Building a 240V primary heated Graco trailer clone is formally rejected (`The Graveyard`). Instead, Lily retains its core **HH-25 Heated Hose** for cool-weather civil epoxy maintenance, while capturing geotechnical growth where Graco cannot compete: **confined-space unheated pneumatic skids ("GeoSkid 250"), universal quick-cam adapters (`COMM_60`), and high-margin consumable ports/packers.**
 
@@ -151,13 +151,13 @@ In structural slab lifting, an off-ratio condition of more than **3%** produces 
 |                       LILY'S TWO-PRONGED ASYMMETRIC ATTACK                      |
 +---------------------------------------------------------------------------------+
 |                                                                                 |
-|  PRONG 1: THE HIGH-MARGIN CONSUMABLE BLADE (COMM_152)                           |
-|  * Product: Drive-Lok Bang-In Ports + High-Pressure Mechanical Steel Packers    |
-|  * Channel: Chemical Formulator Private-Label Baseload Bundles                  |
-|  * Partners: Prime Resins, Avanti International, NCFI Polyurethanes             |
-|  * Target Volume: 150,000 units/year @ >=65% Gross Margin                       |
+|  PRONG 1: THE HIGH-MARGIN CONSUMABLE BLADE (COMM_60 & COMM_152)                 |
+|  * Product: Universal Omni-Cam Adapters + Existing High-Margin Molded Ports     |
+|  * Channel: Independent Civil & Leak-Seal Contractors via Dave Jepsen           |
+|  * Advantage: Monetizes competitor pumps without machine purchasing friction   |
+|  * Consumable Gross Margin: 78% - 86% ($0.65 - $1.05 Retail)                    |
 |                                                                                 |
-|  PRONG 2: CONFINED-SPACE AMBIENT PROPORTIONER WEDGE                             |
+|  PRONG 2: CONFINED-SPACE AMBIENT PROPORTIONER WEDGE (MKT_GEOTECH_03)           |
 |  * Product: CD-250 & Mini "GeoSkid 250" Ambient Grouting Skid                   |
 |  * Application: Basement slabs, utility vaults, seawalls, pipe joints, mining   |
 |  * Advantage: Two-man portable, pneumatic (no generator), 100% mechanical ratio |
@@ -166,11 +166,10 @@ In structural slab lifting, an off-ratio condition of more than **3%** produces 
 +---------------------------------------------------------------------------------+
 ```
 
-### 4.1 Consumable Molded Hardware: The "Drive-Lok" Line
-* **Design:** Precision-molded nylon/polypropylene tapered drive-in body with mechanical grip ridges and internal stainless spring/Viton check ball (cracking pressure 15 PSI, backpressure seal to 2,500 PSI).
-* **Tooling Capex:** $18,500 for mold insert run on existing Aurora tooling set.
-* **COGS Breakdown:** $0.063 resin (glass-filled nylon) + $0.080 internal valve spring/ball assembly = **$0.143 per port**.
-* **Wholesale Price:** $0.65 (78.0% GM). Direct Contractor Price: $1.05 (86.4% GM).
+### 4.1 Consumable Molded Hardware: The "Drive-Lok" Line vs. Existing Port Pull-Through
+* **Design Concept:** Precision-molded nylon/polypropylene tapered drive-in body with mechanical grip ridges and internal stainless spring/Viton check ball (cracking pressure 15 PSI, backpressure seal to 2,500 PSI).
+* **Tooling Capex Discipline:** Tooling a brand new mold insert ($18,500) is **strictly frozen in Year 1** under Jack Fay's $20,000 capex ceiling.
+* **Immediate Year 1 Execution:** Dave Jepsen promotes Lily's existing, fully tooled **LPP ports and LPT snappy tees** mated with high-pressure quick-cam adapters (`COMM_60`), capturing 80%+ gross margin without committing capex to speculative new molds.
 
 ### 4.2 Confined-Space Machine: The "GeoSkid 250"
 * **Base Platform:** CD-250 pneumatic-driven dual-cylinder proportioner configured for ambient cold-pour resins (SealBoss 1640, Alchatek AP Fill 720).
@@ -179,182 +178,134 @@ In structural slab lifting, an off-ratio condition of more than **3%** produces 
 
 ---
 
-## 5. Geotechnical Formulator Private-Labeling (`COMM_152`) [EXPLORATORY HYPOTHESIS]
+## 5. Geotechnical Formulator Private-Labeling (`COMM_152`) [DEFINITIVE RESOLUTION]
 
 > [!WARNING]
-> **UNDERWRITING DISCIPLINE NOTICE:**
-> The following initiative is classified as an **Unfunded Exploratory Commercial Hypothesis (Year 2)**. It is **100% excluded** from Jack Fay's baseline acquisition financial model and debt-service coverage ratios. Lily Corporation has no historical vendor contracts or sales agreements with Avanti International, Prime Resins, or NCFI. Sourcing overseas steel blanks or setting up domestic CNC supply chains for 60,000 mechanical packers is unfunded in Year 1.
+> **UNDERWRITING DISCIPLINE NOTICE — COMM_152 RESOLUTION:**
+> Frontier item `[COMM_152]` asks whether Lily can adapt its structural epoxy licensing models (`COMM_31` / `COMM_79`) to capture an incremental 150,000 units annually at $\ge 65\%$ gross margin bundling high-pressure mechanical packers and Drive-Lok ports with polyurethane formulators (Prime Resins, Avanti, NCFI).
+> 
+> **OPERATOR VERDICT: REJECTED FOR YEAR 1 UNDERWRITING (FEASIBILITY SCORE: 2.0 / 10).**  
+> Diligence proves that mechanical steel packers are low-cost commodity imports ($0.40–$0.70 landed from Taiwan/China), federal BABA/EPA AIS regulations legally exempt sacrificial packers, and Lily's 5-person shop cannot assemble 60,000 steel packers without severe labor diversion and margin collapse. All 150,000 units ($151,800 revenue / $104,310 gross profit) are **100% excluded** from Year 1 debt-service underwriting. A narrow, zero-capex, all-polymer private-label pathway is preserved for Year 2 exploration only.
 
-### 5.1 The Commercial Hypothesis & Ground Truth Diligence
-* **The Core Growth Question (`COMM_152`):** *Can Lily adapt its structural epoxy OEM submittal licensing models (`COMM_31` / `COMM_79`) to pitch high-pressure mechanical packer and Drive-Lok baseload bundling agreements to geotechnical leak-seal polyurethane formulators (Prime Resins, Avanti International, and NCFI Polyurethanes)?*
+---
 
-#### Grounded Reality vs. Strategic Hypothesis:
-1. **Chemical Focus:** Polyurethane formulators (Prime Resins, Avanti, NCFI) derive the vast majority of their revenue and gross profit from liquid chemical drums and pails (foams, gels, and acrylates). Mechanical packers and injection ports are convenience accessories in their catalogs.
-2. **Import Supply Chains:** Formulators have long-standing supply chains for generic steel and brass mechanical packers, primarily sourced from Taiwan and China at low wholesale landed costs ($0.40–$0.70). These parts are accepted by the majority of commercial contractors.
-3. **The Domestic Value Proposition (Hypothesis to Test):** Lily cannot compete with offshore manufacturers on commodity price alone. The commercial wedge for Lily is strictly speed, domestic lead times (net 10-day replenishment vs. 14-week ocean freight), custom private-label branding, and guaranteed lot-traceability for federally funded projects where domestic certification is specifically requested.
-4. **Diligence Gate for Jack Fay:** Prior to allocating any shop tooling capital, Jack Fay and Dave Jepsen must conduct discovery interviews with formulator product managers to verify whether private-label domestic packaging carries sufficient margin premium to justify Lily’s shop time.
+### 5.1 The Commercial Hypothesis vs. Ground Diligence Reality
+* **The Core Growth Question (`COMM_152`):** *Can Lily adapt the COMM_31 and COMM_79 OEM submittal licensing models to secure high-pressure mechanical packer and Drive-Lok baseload bundling contracts with geotechnical leak-seal polyurethane formulators (Prime Resins, Avanti International, NCFI Polyurethanes), capturing an incremental 150,000 units annually at $\ge 65\%$ gross margin?*
+
+#### Diligence Deconstruction of the Three Core Assumptions:
+
+1. **Assumption 1: Formulators will abandon existing supplier channels for Lily private-labeling.**
+   - *Reality:* Chemical formulators (Prime Resins / USL Group, Avanti International, NCFI Polyurethanes) derive >85% of their gross profit from chemical resin pails and drums. Hardware packers and bang-in ports are catalog convenience items that they already source in bulk from established Taiwanese and Chinese contract manufacturers at landed wholesale costs between **$0.40 and $0.70 per unit**.
+   - Formulators mark these up to $2.50–$4.50 retail in contractor catalogs, generating 75%–85% margins for themselves. They have zero commercial incentive to pay Lily $1.75 wholesale for an identical steel packer, as doing so would compress their gross margin from ~80% down to ~45%.
+
+2. **Assumption 2: Federal BABA and EPA American Iron & Steel (AIS) regulations will legally disqualify imported Asian packers, forcing formulators into Lily's arms.**
+   - *Reality (The Regulatory Fallacy):* Under 23 U.S.C. § 313, 2 CFR Part 184, and EPA Clean Water / Drinking Water State Revolving Fund (CWSRF/DWSRF) AIS guidelines, domestic preferences apply strictly to iron, steel, and manufactured products that are **permanently incorporated into the physical civil structure** (e.g., structural ductile iron pipe, structural rebar, bridge expansion joints, permanent valves).
+   - Chemical injection packers are legally classified as **sacrificial installation aids / temporary construction tools**: technicians drill a hole, hammer or torque the packer in, inject polyurethane resin to stop water infiltration, and then **snap off or unscrew the projecting stem and zerk fitting**, patching the core hole flush with rapid-setting hydraulic cement. The steel packer is not a structural load-bearing member of the facility.
+   - Furthermore, EPA AIS and BABA guidelines include standard **de minimis cost exemptions** (allowing miscellaneous incidental components totaling up to 5% of total project material value to bypass domestic documentation entirely). Municipal engineers do not audit mill certs on sacrificial 1/2" grease zerks.
+
+3. **Assumption 3: Lily's 5-person Aurora shop can manufacture 60,000 steel mechanical packers at $\ge 65\%$ gross margin.**
+   - *Reality (Shop Capacity & Sourcing Math):* Lily does not own multi-spindle CNC screw machines. Dave Kling is a fabricator/welder with one manual shop lathe, not a high-volume production machinist.
+   - To produce mechanical packers, Lily would have to outsource cold-drawn 12L14 steel stems to a Midwest CNC job shop (Rockford or Elk Grove Village) at $0.295–$0.45 per blank, source molded NBR compression sleeves ($0.11), and buy grease zerks ($0.085). Landed raw parts alone cost **$0.49–$0.65 per unit**.
+   - Assembly by Julian Perez (inserting the sleeve, threading the washer/nut, torquing the zerk) proceeds at ~250 units/hour. For 60,000 units, that requires **240 shop hours**.
+   - In a 5-person shop where Julian handles CD-15 builds, CD-250 repairs, rental maintenance, and daily shipping, committing 240 hours to low-leverage hardware assembly strains core shop throughput.
+   - At a total manufactured COGS of $0.55–$0.70, selling at Lily's target 65% margin requires an OEM wholesale price of **$1.75 to $2.00**. Because formulators buy Asian imports at $0.50, Lily's offering is uncompetitive by 300%.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                             COMM_152 EXPLORATORY FORMULATOR VALUE WEDGE                            |
-+--------------------------------------------------+-------------------------------------------------+
-| CONVENTIONAL OFFSHORE SOURCING                   | LILY DOMESTIC PRIVATE-LABEL CONCEPT             |
-+--------------------------------------------------+-------------------------------------------------+
-| Generic commodity packers (12-16 wk lead times)  | Net 10-day domestic replenishment from Aurora   |
-| High overseas inventory holding costs            | Just-In-Time batch delivery tied to chemical runs|
-| Unbranded generic brass/steel hardware           | Custom co-branded laser-etched stems & colors   |
-| No domestic manufacturer origin certificates     | Aurora, IL Domestic Certificate of Conformance  |
-+--------------------------------------------------+-------------------------------------------------+
+|                                COMM_152 REALITY GAP: LILY VS. COMMODITY IMPORTS                     |
++-------------------------------------+-----------------------------+--------------------------------+
+| Parameter                           | Asian Landed Imports (Current) | Lily Aurora Hybrid Sourcing    |
++-------------------------------------+-----------------------------+--------------------------------+
+| Formulator Wholesale Landed Cost    | $0.40 – $0.70 / unit        | $1.75 / unit (Required for 65% |
+| Formulator Retail Catalog Markup    | $2.50 – $4.50 (75%–85% GM)  | $2.50 – $4.50 (35%–55% GM)     |
+| Domestic BABA Legal Mandate         | EXEMPT (Sacrificial Aid)    | No regulatory price protection |
+| Lily Shop Labor Commitment          | 0 shop hours                | 240+ hours (Julian Perez)      |
+| Capital Outlay Required             | $0                          | Working capital strain         |
++-------------------------------------+-----------------------------+--------------------------------+
 ```
 
 ---
 
-### 5.2 Adapting the `COMM_31` / `COMM_79` Licensing Architecture to Geotechnical OEMs
-In structural epoxies (`COMM_31` / `COMM_79`), Lily secured formulator pull-through by integrating SureClick ports into Sika and Euclid Technical Data Sheets (TDS) and submittal riders. Jack Fay adapts this exact playbook for geotechnical polyurethane formulators across three target accounts:
+### 5.2 Deconstruction of the `COMM_31` / `COMM_79` Analogy: Why Epoxy ≠ Geotechnical Leak-Seal
+The premise of `COMM_152` was that Lily could copy its structural epoxy licensing playbook (`COMM_31` / `COMM_79`). A rigorous operator analysis reveals why this analogy breaks down:
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                TARGET GEOTECHNICAL FORMULATOR BASELOAD ALLOCATION                  |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-| Formulator Partner       | Core Chemical Brands  | Hardware Product Focus  | Annual Volume Commit  |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-| Avanti International     | AV-275 Soilgrout,     | 1/2" & 5/8" Mechanical  | 60,000 units          |
-| (Webster, TX)            | AV-202 Multigrout     | Packers (Avanti Blue)   | (40k Mech / 20k Poly) |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-| Prime Resins             | Prime Flex 900 XLV,   | 3/8" Drive-Lok Bang-In  | 50,000 units          |
-| (Conyers, GA - USL Group)| Prime Flex 920 / 940  | & 1/2" Steel Packers    | (30k Poly / 20k Mech) |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-| NCFI Polyurethanes       | TerraThane 24-015,    | 5/8" Drive-Lok Ports    | 40,000 units          |
-| (Mount Airy, NC)         | Endura-Loc Geotech    | & Quick-Cam Adapters    | (30k Poly / 10k Mech) |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-| TOTAL CONTRACTED BASELOAD|                       |                         | 150,000 units/year    |
-+--------------------------+-----------------------+-------------------------+-----------------------+
-```
-
-#### The Three Structural Pillars of the Licensing Model:
-1. **The "Pre-Packaged Starter Kit" & Drum Bundling Model:**  
-   Polyurethane chemical sales reps sell resin by the 5-gallon pail or 50-gallon drum set. Dave Jepsen negotiates bundling agreements where the formulator pre-packs:
-   - 100 Drive-Lok ports or 50 mechanical packers inside every "Water-Stop Rapid Action Kit" (pail bundle).
-   - A standardized carton of 250 units automatically billed and drop-shipped on every full drum-set order.
-2. **Private-Label Cosmetic Differentiation:**  
-   - Lily molds the glass-filled nylon Drive-Lok bodies in custom formulator resin colorways: **Avanti Blue**, **Prime Resins Safety Yellow**, and **NCFI Industrial Gray**.
-   - Laser-marking or pad-printing the formulator's logo directly onto the hex stem of mechanical packers, converting a generic commodity into a high-value OEM proprietary system component.
-3. **Turnkey Specification Rider Integration:**  
-   Lily authors the official "Application Hardware Appendix" for the formulators' published Technical Data Sheets (e.g., Avanti AV-275 TDS, Prime Resins Prime Practices guides). When engineering consultants specify Prime Flex 900 XLV or Avanti AV-202 on municipal sewer rehabilitation projects, the specification explicitly references the private-labeled Lily hardware and its positive-check valve backflow containment.
+1. **Epoxy Formulators (Sika, Euclid, MAPEI):**
+   - Epoxy crack injection relies on surface entry ports glued to crack surfaces with paste epoxy.
+   - Sika and Euclid do *not* own injection molding presses. They do not sell proprietary plastic ports.
+   - Lily already owned 10 injection molds (Molds #1–10) in Aurora producing LPP ports and Snappy Tees at 75%+ margins. Getting cross-listed in Sika TDS appendices required **$0 tooling capex** and zero new labor. It was pure margin pull-through on existing assets.
+2. **Geotech Polyurethane Formulators (Prime Resins, Avanti, NCFI):**
+   - Polyurethane formulators *already* market full product lines of mechanical packers and bang-in ports under their own SKU numbers.
+   - To sell Drive-Lok ports, Lily would need to cut new mold tooling ($18,500), which violates the $20k Year 1 capex cap.
+   - To sell mechanical packers, Lily would need to become a middleman assembler of outsourced CNC steel parts, competing directly against Taiwan on price.
 
 ---
 
-### 5.3 Product Vehicles, Mechanical Specifications & Manufacturing Architecture
-To deliver 150,000 units without burdening Aurora's 4-person shop, Lily establishes two optimized product streams:
+### 5.3 The Grounded Operator Decision: Two-Phase Strategy
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                               COMM_152 PRODUCT VEHICLES & SOURCING BLUEPRINT                       |
-+----------------------------------------------------+-----------------------------------------------+
-| PRODUCT A: MOLDED POLY DRIVE-LOK BANG-IN PORTS     | PRODUCT B: HIGH-PRESSURE MECHANICAL PACKERS   |
-+----------------------------------------------------+-----------------------------------------------+
-| Target Sizes: 3/8" & 5/8" tapered drive bodies     | Target Sizes: 1/2" x 3.5" & 5/8" x 4.0" steel |
-| Material: High-Impact Glass-Filled Nylon (PA66-GF) | Body: CNC Zinc-Plated Carbon Steel Hex Stem   |
-| Internal Seal: 302 Stainless Spring + Viton Ball   | Expansion Sleeve: High-Durometer 70A NBR/EPDM |
-| Pressure Limit: 2,500 PSI backpressure containment | Pressure Limit: 4,500 PSI proof containment   |
-| Manufacturing: 100% In-House in Aurora (Greg)      | Sourcing: Hybrid Midwest CNC + Aurora Assembly|
-| Aurora Press Tool: Tool Insert #3/#4               | Machined Stem: Rockford CNC Job Shop Blank    |
-| Cycle Output: 600 parts/shift                      | Final Pack: Julian Perez / Packaged Kitting   |
-+----------------------------------------------------+-----------------------------------------------+
+|                                    COMM_152 STRATEGIC RESOLUTION                                   |
++----------------------------------------------------------------------------------------------------+
+|                                                                                                    |
+|  PHASE 1: YEAR 1 BASELINE DISCIPLINE (IMMEDIATE)                                                   |
+|  * 100% Exclusion from debt-service underwriting and pro forma financial models.                   |
+|  * Discretionary capex allocation: $0. Molds #11-13 remain FROZEN.                                |
+|  * Julian Perez labor preserved 100% for CD-250 builds, rental rigs, and existing port shipments.  |
+|  * Dave Jepsen focuses 100% of sales capacity on high-margin contractor direct orders and COMM_60. |
+|                                                                                                    |
+|  PHASE 2: YEAR 2 CONDITIONAL EXPLORATION (STOP-LOSS GATES)                                         |
+|  * Restrict scope strictly to ALL-POLYMER INJECTION MOLDED PORTS (Zero steel mechanical packers).  |
+|  * Mandate 100% FORMULATOR-FUNDED TOOLING (Formulator pays $18.5k mold insert cost upfront).       |
+|  * Require minimum contracted take-or-pay volume (50,000 units/yr) before cutting steel.          |
+|  * If formulators refuse funded tooling or take-or-pay commitments: TERMINATE PERMANENTLY.          |
+|                                                                                                    |
++----------------------------------------------------------------------------------------------------+
 ```
-
-#### High-Pressure Mechanical Packer Technical Specifications:
-- **Body & Compression Nut:** 12L14 cold-drawn steel with clear trivalent zinc plating (ASTM B633 Type III), threaded with standard 1/4"-28 grease zerk fitting equipped with high-pressure stainless ball check.
-- **Expansion Sleeve:** Oil- and chemical-resistant 70A durometer nitrile (NBR) or EPDM rubber sleeve designed for non-slip mechanical expansion inside concrete core drill holes.
-- **Anti-Spin Friction Washer:** Hardened steel washer preventing rubber sleeve twist during t-wrench tightening.
-- **Proof Containment:** Tested to hold $>3,500\text{ PSI}$ continuous hydraulic head pressure without slippage or seal bypass.
 
 ---
 
-### 5.4 Unit Economics, Margin Analysis & Capacity Verification
-The mandate for `COMM_152` requires capturing an incremental 150,000 units annually while maintaining **$\ge 65.0\%$ gross margin**.
+### 5.4 Phase 2 Execution Architecture: The All-Polymer Zero-Capex Model (Year 2+)
+
+If Jack Fay and Dave Jepsen evaluate formulator partnerships in Year 2, it must operate strictly under the following zero-risk structure:
+
+#### 1. Scope Restriction to Injection Molding (Greg on the Press):
+Lily abandons all attempts to assemble mechanical steel packers. Sourcing metal blanks and rubber sleeves is permanently eliminated. Lily restricts its pitch to **Precision-Molded Polymer Bang-In Ports** molded by Greg on the Cincinnati Milacron press in Aurora.
+- Glass-filled nylon body with internal molded ball-check seat.
+- Molds in formulator-branded colorways: **Avanti Blue**, **Prime Resins Safety Yellow**, and **NCFI Industrial Gray**.
+- Machine run time: An 8-cavity mold running 50,000 units requires only **38 press hours per year** (~3 hours/month). This fits into Greg's standard molding schedule without adding headcount.
+
+#### 2. Commercial Financing: Formulator-Funded Tooling:
+Lily does not invest a single dollar of corporate capital into mold tooling. The commercial pitch to Avanti or Prime Resins is structured as an OEM Private-Label Development Agreement:
+- **Formulator Tooling Investment:** The formulator pays an upfront non-recurring engineering (NRE) / tooling fee of **$18,500** to fund the mold insert. Lily retains tool custody and operational control in Aurora.
+- **Contracted Transfer Price:** Lily supplies the private-labeled port at **$0.48 per unit** (COGS: $0.143 resin and check ball = **70.2% gross margin**).
+- **Formulator Economic Advantage:** The formulator achieves a 60% gross margin reselling at $1.20 retail, while eliminating overseas ocean shipping lead times and holding costs.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    COMM_152 UNIT COGS & GROSS MARGIN BREAKDOWN                     |
-+--------------------------------------------------------+-------------------+-----------------------+
-| Component / Production Step                            | Drive-Lok Port    | Mechanical Steel      |
-|                                                        | (3/8" Bang-In)    | Packer (1/2" x 3.5")  |
-+--------------------------------------------------------+-------------------+-----------------------+
-| Raw Materials / Machine Blanks:                        |                   |                       |
-|   - Virgin Glass-Filled Polymer Resin                  | $0.063            | —                     |
-|   - Internal Stainless Spring & Viton Ball Assembly    | $0.080            | —                     |
-|   - CNC Zinc-Plated Steel Hex Stem & Nut Blank         | —                 | $0.295                |
-|   - Molded 70A NBR Compression Expansion Sleeve        | —                 | $0.110                |
-|   - 1/4"-28 High-Pressure Grease Zerk Fitting (Domestic| —                 | $0.085                |
-| Aurora In-House Direct Shop Labor:                     |                   |                       |
-|   - Greg: Molding Press Operation / Material Drying    | $0.008            | —                     |
-|   - Julian Perez: Sub-Assembly & Hydro-Proof Sampling  | $0.003            | $0.045                |
-| Packaging, Labeling & Box Kitting (100-Pack Carton)    | $0.007            | $0.015                |
-+--------------------------------------------------------+-------------------+-----------------------+
-| TOTAL MANUFACTURED COGS PER UNIT                       | $0.161            | $0.550                |
-+--------------------------------------------------------+-------------------+-----------------------+
-| Contracted OEM Transfer Price (Prime/Avanti/NCFI)      | $0.520            | $1.750                |
-| Contractor Retail Benchmark (Formulator Catalog Price) | $1.150            | $3.250 – $4.10        |
-+--------------------------------------------------------+-------------------+-----------------------+
-| LILY GROSS PROFIT PER UNIT                             | $0.359            | $1.200                |
-| LILY REALIZED GROSS MARGIN                             | 69.0%             | 68.6%                 |
-+--------------------------------------------------------+-------------------+-----------------------+
+|                             PHASE 2 ALL-POLYMER PRIVATE-LABEL UNIT ECONOMICS                       |
++--------------------------------------------------------+-------------------------------------------+
+| Line Item Description                                  | Polymer Drive-Lok Port (3/8" Bang-In)     |
++--------------------------------------------------------+-------------------------------------------+
+| Virgin Glass-Filled Nylon (PA66-GF) Resin              | $0.063                                    |
+| Internal Stainless Check Spring & Viton Ball           | $0.080                                    |
+| Direct Press Labor (Greg - Aurora press)               | $0.008                                    |
+| Packaging, Bulk Bagging & Labeling (Julian)            | $0.007                                    |
++--------------------------------------------------------+-------------------------------------------+
+| TOTAL IN-HOUSE MANUFACTURED COGS                       | $0.158                                    |
++--------------------------------------------------------+-------------------------------------------+
+| Contracted OEM Transfer Price to Formulator            | $0.480                                    |
+| Formulator Catalog Price to Contractors                | $1.150 – $1.350                           |
++--------------------------------------------------------+-------------------------------------------+
+| LILY REALIZED GROSS PROFIT PER UNIT                    | $0.322                                    |
+| LILY REALIZED GROSS MARGIN                             | 67.1% (Exceeds >=65% target hurdle)       |
++--------------------------------------------------------+-------------------------------------------+
 ```
 
-#### Consolidated Financial Sizing Across 150,000 Baseload Units:
-* **Product Mix:** 90,000 Drive-Lok Molded Bang-In Ports (60%) + 60,000 High-Pressure Mechanical Packers (40%).
-* **Revenue Calculation:**
-  - Drive-Lok Ports: $90,000 \times \$0.52 = \mathbf{\$46,800}$
-  - Mechanical Packers: $60,000 \times \$1.75 = \mathbf{\$105,000}$
-  - **Total Incremental Revenue:** $\mathbf{\$151,800}$
-* **COGS Calculation:**
-  - Drive-Lok Ports: $90,000 \times \$0.161 = \$14,490$
-  - Mechanical Packers: $60,000 \times \$0.550 = \$33,000$
-  - **Total Incremental COGS:** $\mathbf{\$47,490}$
-* **Gross Profit Generation:**
-  - **Incremental Gross Profit:** $\mathbf{\$104,310}$
-  - **Blended Realized Gross Margin:** $\mathbf{68.7\%}$ (Exceeds the $\ge 65.0\%$ target hurdle).
-
-#### Shop Floor Capacity & Labor Impact (Aurora Reality):
-Can Lily produce 150,000 incremental units with its 4-person shop team?
-1. **Drive-Lok Ports (90,000 units/year):**  
-   - Molded by Greg on Lily’s existing press using an 8-cavity runner insert.
-   - Cycle time: 22 seconds per shot (8 ports/shot = ~1,300 parts/hour).
-   - Total machine run time required: ~69 hours **per year** (less than 6 hours per month). Material dryer and press run semi-attended.
-2. **Mechanical Packers (60,000 units/year):**  
-   - Metal stems, sleeves, and zerks are pre-machined and pre-kitted by Midwest regional precision job shops.
-   - Assembly consists of slipping the sleeve onto the stem, threading the compression nut, and torquing the zerk.
-   - Julian Perez assembles at an audited rate of 250 units/hour.
-   - Total assembly labor required: ~240 hours **per year** (~4.6 hours per week).
-   - This fits comfortably within Julian's weekly assembly allocation without impacting core CD-250 pump builds or repair turnaround.
-
----
-
-### 5.5 Commercial Contract Structure & Mutual Lock-In
-To prevent formulators from shopping Lily's drawings overseas once initial orders clear, Jack Fay structures the agreements with three defensive contractual covenants:
-
-```
-+----------------------------------------------------------------------------------------------------+
-|                                 COMM_152 OEM CONTRACT DEFENSE MECHANISMS                           |
-+----------------------------------------------------------------------------------------------------+
-|                                                                                                    |
-|  [COVENANT 1: MINIMUM BASELOAD TAKE-OR-PAY COMMITMENT]                                             |
-|  * Formulator contracts for minimum quarterly delivery tranches (e.g., 15k packers / 22.5k ports). |
-|  * Unfulfilled volume converts into an administrative inventory carrying fee of 15%.               |
-|                                                                                                    |
-|  [COVENANT 2: SPECIFICATION EXCLUSIVITY & TRADEMARK EMBEDDING]                                     |
-|  * In exchange for wholesale transfer pricing ($0.52 / $1.75), formulator commits to named         |
-|    exclusivity in their published Technical Data Sheets (TDS) and online Application Guides.        |
-|  * The formulator agrees not to cross-list generic uncertified imports under that specific TDS code|
-|                                                                                                    |
-|  [COVENANT 3: DOMESTIC REGULATORY CERTIFICATION LOCKOUT]                                           |
-|  * Lily provides proprietary BABA & EPA American Iron and Steel (AIS) compliance documentation     |
-|    tied to each lot number, signed by Jack Fay.                                                    |
-|  * Competitors sourcing Chinese/Indian hardware cannot match this documentation for municipal work.|
-|                                                                                                    |
-+----------------------------------------------------------------------------------------------------+
-```
+#### 3. Formal Stop-Loss Gates for Jack Fay:
+Before any customer agreement is signed in Year 2, the opportunity must clear three non-negotiable gates:
+- **Gate 1 (Tooling Funding):** The formulator must wire 100% of the $18,500 tooling fee prior to mold order placement. Zero Lily cash outlay.
+- **Gate 2 (Take-or-Pay Volume):** The formulator must execute a binding 12-month purchase order for a minimum of 50,000 units ($24,000 minimum revenue), with quarterly releases.
+- **Gate 3 (Payment Terms):** Formulator agrees to Net 30 payment terms backed by standard corporate credit approval.
 
 ---
 
@@ -409,7 +360,7 @@ Instead of an illegal brand monopoly, Lily captures the state DOT standard throu
 |  * Bridge deck QA/QC: Visible from snooper trucks, lifts, and high-mast cameras.                   |
 |  * Disqualifies unpigmented translucent white / black regrind ports.                               |
 |                                                                                                    |
-|  [PILLAR 3: UV WEATHERING & STRUCTURAL INTEGRITY (OPER_12)]                                       |
+|  [PILLAR 3: UV WEATHERING & STRUCTURAL INTEGRITY]                                                  |
 |  * Mandates 500-hr UV xenon arc/fluorescent exposure (ASTM G154 / D4329).                          |
 |  * Prevents flange shattering and port blowouts on sun-baked bridge decks.                         |
 |  * Dimensioned base flange (Lily standard 1.25" w/ cross-hatched mechanical bond).                 |
@@ -606,7 +557,7 @@ Competitive proportioners (Graco Reactor E-8P, ChemCo Systems Model B/C/G, PolyQ
 ### 12.2 Sourcing Architecture: The "Drive-Lok Omni-Cam" System
 To prevent plastic thread shear and dangerous blowout under 2,000 PSI dynamic pressures, Lily engineers a **Hybrid Engineered Architecture (Part #OC-100)**:
 1. **Metallic Pressure Core:** Precision CNC-machined electroless nickel-plated 360 brass / 303 stainless core (1/4" Female NPT x internal sealing chamber), outsourced to a local Chicago CNC screw job shop for **$3.85/unit** in lots of 2,500. Preserves Dave Kling’s fabrication hours.
-2. **Glass-Filled Nylon Quick-Cam Collar:** Injection molded in Aurora by Greg using a **$12,500 4-cavity MUD mold insert (Tool Insert #11)** running 30% glass-filled nylon (PA66-GF30).
+2. **Glass-Filled Nylon Quick-Cam Collar:** Injection molded in Aurora by Greg using a modular adapter insert run on an existing tool base, requiring only **$4,500 in fixture tooling** (well within the $20,000 discretionary capex cap).
 3. **Internal High-Pressure Sealing:** High-durometer Viton 90A O-ring backed by a 302 stainless retaining clip. Rated to 2,500 PSI continuous, burst-tested to >4,500 PSI.
 4. **Sacrificial Anti-Crossover Nozzle Tips (`ST-10`):** Molded polypropylene nozzle tips ($0.038 COGS) that prevent resin crossover cure-up inside the metal adapter.
 
@@ -660,9 +611,9 @@ Prime bridge contractors receive a pre-assembled submittal packet for the Distri
 - Signed BABA Domestic Origin Affidavits.
 
 ### 14.3 Powering the Certified DOT Rental Fleet (`Account 4015`)
-- Allocate 18 dedicated proportioners to the Certified DOT Rental Fleet rented at **$2,200/month** (or $850/week).
-- Machine COGS (~$4,200) amortized in **1.9 months**. Annual rental gross margin: **82%–88%**.
-- Consumable pull-through attached to rentals: **+$95,000 in ports and mixers** at 80%+ GM.
+- Allocate 12 dedicated proportioners from existing shop inventory to the Certified DOT Rental Fleet rented at **$2,200/month** (or $850/week).
+- Machine refurbishment costs (~$800/unit in fresh fluid seals and hoses) amortized in **less than 2 weeks**. Annual rental gross margin: **82%–88%**.
+- Consumable pull-through attached to rentals: **+$50,000 to +$70,000 in ports and mixers** at 80%+ GM.
 
 ---
 
@@ -670,46 +621,60 @@ Prime bridge contractors receive a pre-assembled submittal packet for the Distri
 
 ## 15. Consolidated 12-Month Expansion Financial Model
 
-Combining all expansion vectors—Geotechnical Polyurethane Baseload (`COMM_152` & `MKT_GEOTECH_03`), DOT Bridge Repair (`COMM_24 / COMM_77 / COMM_67`), Competitive Fleet Adapter Penetration (`COMM_60`), and Certified DOT Equipment & Rental Arbitrage (`COMM_185`):
+To protect Jack Fay's balance sheet, ensure a minimum 1.35x DSCR, and respect the $20,000 Year 1 discretionary capex ceiling, expansion financials are split into the **Core Underwritten Baseline** (executed Day 1) and the **Exploratory Upside Vector** (`COMM_152`, Year 2 conditional):
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                             CONSOLIDATED 12-MONTH EXPANSION REVENUE MODEL                          |
+|                         CORE UNDERWRITTEN 12-MONTH EXPANSION FINANCIAL MODEL                       |
+|                   (EXCLUDES COMM_152 UNVERIFIED BASELOAD TO PROTECT DEBT SERVICE)                  |
 +------------------------------------+-----------+----------------+---------------+------------------+
 | Product Line / Commercial Channel  | Annual Qty| Avg Net Unit $ | Total Revenue | Gross Profit (GM)|
 +------------------------------------+-----------+----------------+---------------+------------------+
-| Drive-Lok Poly Ports (COMM_152 OEM)| 90,000 ea | $0.52          | $46,800       | $32,310  (69.0%) |
-| Mech Steel Packers (COMM_152 OEM)  | 60,000 ea | $1.75          | $105,000      | $72,000  (68.6%) |
-| Drive-Lok Geo Ports (Wholesale)    | 150,000 ea| $0.65          | $97,500       | $76,050  (78.0%) |
-| Drive-Lok Geo Ports (Direct Cont.) | 60,000 ea | $1.05          | $63,000       | $54,420  (86.4%) |
 | Non-Lily Fleet Ports via COMM_60   | 180,000 ea| $0.72 blended  | $129,600      | $103,860 (80.1%) |
 | Omni-Cam Adapter Kits (Sold/Promo) | 1,200 kits| $36.00 blended | $43,200       | $34,668  (80.3%) |
 | Sacrificial ST-10 Nozzle Tips (50pk| 1,500 pks | $18.50         | $27,750       | $24,900  (89.7%) |
-| GeoSkid 250 Proportioners          | 10 units  | $11,200 blended| $112,000      | $63,520  (56.7%) |
-| Safety Orange DOT Ports (Wholesale)| 350,000 ea| $0.48          | $168,000      | $130,550 (77.7%) |
-| Safety Orange DOT Ports (Direct)   | 100,000 ea| $0.79          | $79,000       | $68,300  (86.5%) |
-| High-Pressure Manifolds & Kits     | 55 units  | $850           | $46,750       | $30,380  (65.0%) |
-| Certified DOT Rig Rentals (COMM185)| 80 mo-eq  | $2,200 / mo    | $176,000      | $149,600 (85.0%) |
-| Attached Consumables (Rental Pull) | 110,000 ea| $0.80 blended  | $88,000       | $71,280  (81.0%) |
-| Replacement Parts / Seals          | Recurring | Blended        | $28,500       | $19,950  (70.0%) |
+| GeoSkid 250 Proportioners (MKT_03) | 6 units   | $11,850 retail | $71,100       | $42,012  (59.1%) |
+| Safety Orange DOT Ports (Wholesale)| 250,000 ea| $0.48          | $120,000      | $93,250  (77.7%) |
+| Safety Orange DOT Ports (Direct)   | 75,000 ea | $0.79          | $59,250       | $51,225  (86.5%) |
+| High-Pressure Manifolds & Kits     | 35 units  | $850           | $29,750       | $19,338  (65.0%) |
+| Certified DOT Rig Rentals (COMM185)| 60 mo-eq  | $2,200 / mo    | $132,000      | $112,200 (85.0%) |
+| Attached Consumables (Rental Pull) | 80,000 ea | $0.80 blended  | $64,000       | $51,840  (81.0%) |
+| Replacement Parts & Seals          | Recurring | Blended        | $22,500       | $15,750  (70.0%) |
 +------------------------------------+-----------+----------------+---------------+------------------+
-| CONSOLIDATED EXPANSION TOTAL       |           |                | $1,173,600    | $911,788 (77.7%) |
+| CORE UNDERWRITTEN EXPANSION TOTAL  |           |                | $699,150      | $549,043 (78.5%) |
 +------------------------------------+-----------+----------------+---------------+------------------+
 ```
 
-### 15.1 Cash Flow, Working Capital & Debt Service Coverage
-* **Consolidated Gross Profit Contribution:** **+$911,788 annually**.
-* **Total Capex & Working Capital Outlay:**
-  - Drive-Lok Tool Insert: $18,500
-  - Omni-Cam 4-Cavity Tool Insert #11: $12,500
-  - Initial CNC Brass & Steel Cores Inventory: $14,250
-  - Polymer Resins & Masterbatch: $24,000
-  - Certified Rental Fleet Builds (4 units): $16,800
-  - RatioSentinel Calibration & Proof Hydro Bench: $4,500
-  - Independent ASTM Laboratory Dossiers: $10,500
-  - DOT State Application Fees: $2,500
-  - **Total Capex & Working Capital Required:** **$113,550** (Fully funded via the packed-in acquisition working capital buffer and Year 1 operating cash flow).
-* **Debt Service & Lease Coverage:** Lily's annual senior bank debt service ($68,760) and building lease ($68,000) total **$136,760/yr**. The incremental expansion gross profit covers total fixed senior debt and facility lease obligations by **6.67x**, cementing an extraordinary operational margin of safety.
+```
++----------------------------------------------------------------------------------------------------+
+|                         EXPLORATORY YEAR 2 UPSIDE VECTOR: COMM_152 FORMULATOR OEM                  |
+|                    (UNFUNDED IN YEAR 1; CONTINGENT ON 100% FORMULATOR-FUNDED TOOLING)              |
++------------------------------------+-----------+----------------+---------------+------------------+
+| Product Line / Commercial Channel  | Annual Qty| Avg Net Unit $ | Total Revenue | Gross Profit (GM)|
++------------------------------------+-----------+----------------+---------------+------------------+
+| Polymer Bang-In Ports (OEM Funded) | 50,000 ea | $0.48          | $24,000       | $16,100  (67.1%) |
+| High-Pressure Steel Packers        | 0 ea      | REJECTED       | $0            | $0       (N/A)   |
++------------------------------------+-----------+----------------+---------------+------------------+
+| EXPLORATORY POTENTIAL ADDITION     |           |                | $24,000       | $16,100  (67.1%) |
++------------------------------------+-----------+----------------+---------------+------------------+
+```
+
+### 15.1 Grounded Capex Allocation & Working Capital Discipline
+* **Total Discretionary Year 1 Capex Commitment: $19,500 (STRICTLY UNDER $20,000 CEILING):**
+  - Omni-Cam Adapter Fixture Tooling (Tooling modification on existing base): **$4,500**
+  - Certified Rental Fleet Safety Overhaul & Calibration Kits (12 existing rigs): **$3,500**
+  - Safety Orange Masterbatch Pigment Trials & Colorimetry Validation: **$500**
+  - NIST-Traceable Volumetric Catch Cylinders & Hydro Bench Pressure Gauges: **$3,000**
+  - Independent ISO 17025 ASTM Laboratory Testing Dossier (F2095 / D4541 / G154): **$4,500**
+  - Dave Kling Lathe Tooling & Workstation Upgrade (Machinist Retention Package): **$3,500**
+  - **TOTAL YEAR 1 CAPEX:** **$19,500** (Complies 100% with the $20,000 discretionary limit).
+  - *Tooling Molds #11–13:* **$0 (100% FROZEN).** Speculative tooling is deferred until Year 2 and funded by retained earnings.
+* **Working Capital Cash Impact:**
+  - Initial CNC Brass Core Batch (2,500 units @ $3.85): $9,625 funded through existing shop inventory and trade terms.
+  - Cash buffer preserved: Minimum liquidity remains strictly above $25,000 through the Q1 winter trough.
+* **Debt Service & Fixed Lease Coverage:**
+  - Mandatory Annual Debt & Facility Lease Floor: Senior SBA 7(a) ($68,836) + Building Lease ($68,000) = **$136,836/year**.
+  - Core expansion gross profit alone ($549,043) provides **4.01x coverage** over total debt and lease obligations, providing an impenetrable cushion for the Month 25 seller note covenant.
 
 ---
 
@@ -719,26 +684,25 @@ Combining all expansion vectors—Geotechnical Polyurethane Baseload (`COMM_152`
 +----------------------------------------------------------------------------------------------------+
 |                                    90-DAY IMPLEMENTATION MILESTONES                                |
 +----------------------------------------------------------------------------------------------------+
-|  DAYS 01 - 30: COMM_152 FORMULATOR CONTRACTING, TOOLING & SOURCING                                 |
-|  - Execute mutual NDA and terms sheets with Avanti International, Prime Resins, and NCFI.          |
-|  - Issue $12.5k PO for Omni-Cam Tool Insert #11 and $18.5k PO for Drive-Lok port insert.           |
-|  - Issue blanket PO to Midwest CNC screw shop for 10k steel packer stems and 2.5k brass cores.     |
-|  - Ship SureClick port samples to ISO 17025 lab for ASTM F2095, C881/D4541, and G154 testing.     |
-|  - Trial-compound 2,000 lbs virgin polymer + OPER_12 Safety Orange UV masterbatch.                 |
+|  DAYS 01 - 30: HARDWARE PROTOTYPING, FLEET RETENTION & LAB COMMISSIONING                            |
+|  - Award Dave Kling and Greg retention packages; purchase $3.5k machinist tooling upgrade.         |
+|  - Issue PO for Chicago CNC screw shop to turn 2,500 brass Omni-Cam cores ($3.85/ea).              |
+|  - Ship Lily SureClick and LPP port samples to ISO 17025 lab for ASTM F2095, D4541, & G154 tests.  |
+|  - Greg trial-compounds 500 lbs virgin resin with Safety Orange UV masterbatch on Aurora press.    |
+|  - Maggie M configures QuickBooks Desktop SKUs for Omni-Cam adapters (OC-100) and ST-10 tips.     |
 |                                                                                                    |
-|  DAYS 31 - 60: TRIAL RUNS, TDS EMBEDDING & PROOF TESTING                                           |
-|  - Trial-mold 10,000 Avanti Blue and Prime Resins Yellow Drive-Lok ports on Aurora press.          |
-|  - Assemble initial batch of 2,500 mechanical packers (Julian Perez); hydro-test to 4,500 PSI.     |
-|  - Co-author TDS hardware appendices with Avanti and Prime Resins technical service teams.         |
+|  DAYS 31 - 60: SUBMITTAL ENGINE LAUNCH & RENTAL FLEET CERTIFICATION                                |
+|  - Build and hydro-test initial 250 Omni-Cam kits (Julian Perez & Greg). Proof-test to 4,500 PSI.  |
+|  - Re-seal and calibrate first 6 CD-250 proportioners for the Certified DOT Rental Fleet.         |
 |  - Submit formal standalone APL packets to PennDOT Bulletin 15, FDOT APL, and VDOT Materials.      |
-|  - Launch automated COMM_67 Submittal Packet Generator for IDOT Sec 590, TxDOT 780, & Caltrans 60. |
-|  - Pre-certify first 10 CD-250 rigs for the Certified DOT Rental Fleet.                            |
+|  - Jack Fay deploys "1-Click" Contractor Submittal Packet Generator for IDOT Sec 590 & TxDOT 780.  |
+|  - Co-pack Lily SureClick submittal riders into local Chicago Sika and Euclid distributor branches.|
 |                                                                                                    |
-|  DAYS 61 - 90: BASELOAD SHIPMENT LAUNCH, RENTAL DEPLOYMENT & CONVERSION                            |
-|  - Ship first 25,000-unit baseload shipment to Avanti (Houston) and Prime Resins (Atlanta).        |
-|  - Roll out Dave Jepsen's "Trojan Horse" free-adapter promotion to competitive pump contractors.   |
-|  - Dispatch initial 8 Certified DOT Rental Rigs equipped with Rider EQ-DOT compliance packets.     |
-|  - Configure QuickBooks Desktop SKUs for OEM-AV, OEM-PR, and OEM-NCFI private-label billing.       |
+|  DAYS 61 - 90: COMMERCIAL DEPLOYMENT & CONVERSION DRIVE                                            |
+|  - Roll out Dave Jepsen's "Trojan Horse" free-adapter promotion to 40 competitive pump contractors.|
+|  - Dispatch initial 4 Certified DOT Rental Rigs equipped with Rider EQ-DOT compliance packets.     |
+|  - Pre-build 50,000 Safety Orange LPP ports ahead of spring highway bidding season.                |
+|  - Dave Jepsen logs customer inquiries for geotechnical cold-pour void filling (GeoSkid 250).      |
 +----------------------------------------------------------------------------------------------------+
 ```
 
@@ -750,27 +714,16 @@ Combining all expansion vectors—Geotechnical Polyurethane Baseload (`COMM_152`
 **Can Lily adapt the COMM_31 and COMM_79 OEM submittal licensing models to secure high-pressure mechanical packer and Drive-Lok baseload bundling contracts with geotechnical leak-seal polyurethane formulators (Prime Resins, Avanti International, NCFI Polyurethanes), capturing an incremental 150,000 units annually at $\ge 65\%$ gross margin?**
 
 #### 1. The Commercial & Strategic Verdict:
-**EXPLORATORY HYPOTHESIS ONLY (FEASIBILITY SCORE: 2.0 / 10). EXCLUDED FROM BASELINE UNDERWRITING.**
-* **Diligence Fact Check:** The previous assumption that chemical formulators (Avanti, Prime Resins, NCFI) face an "epidemic" of failing Asian packers under 2,000 PSI or that municipal EPA CWSRF audits are disqualifying sacrificial grouting packers was an **unsubstantiated planning assumption**. Generic imported steel and brass packers have mature distribution, low landed costs ($0.40–$0.70), and broad contractor acceptance.
-* **Underwriting Decision:** Jack Fay must **not** include the speculative +$104,310 gross profit into core acquisition debt-service coverage or valuation models.
-* **Potential Long-Term Wedge (Year 2 Exploration):**
-  - If a chemical formulator explicitly seeks a domestic partner to offer short lead-time replenishment (net 10-day vs. 16-week ocean freight) or custom co-branded kits, Dave Jepsen can explore private-label packaging.
-  - Sourcing CNC steel blanks or investing in new bang-in tooling remains frozen until formal letters of intent (LOIs) with firm pricing and minimum volume guarantees are secured.
+**NO FOR YEAR 1 UNDERWRITING (FEASIBILITY SCORE: 2.0 / 10). REJECTED FROM CORE PLAN.**
+* **Diligence Fact Check:** The premise that chemical formulators (Avanti, Prime Resins, NCFI) face an "epidemic" of failing Asian packers under 2,000 PSI or that municipal EPA CWSRF audits are disqualifying sacrificial grouting packers was an **unsubstantiated planning assumption**. Generic imported steel and brass packers have mature distribution, low landed costs ($0.40–$0.70), and broad contractor acceptance.
+* **The Regulatory Myth (BABA / EPA AIS):** Federal BABA and EPA AIS statutes apply exclusively to iron, steel, and manufactured goods *permanently incorporated into infrastructure*. Chemical injection packers are sacrificial installation aids whose tops are snapped off and patched over with hydraulic cement. They are legally exempt, and miscellaneous de minimis exemptions apply. Formulators face zero regulatory pressure to pay Lily a 300% premium.
+* **Shop Capacity & Margin Realities:** Sourcing CNC steel blanks in Rockford ($0.295–$0.45), rubber sleeves ($0.11), and zerks ($0.085) results in a manufactured COGS of $0.55–$0.70. To achieve $\ge 65\%$ gross margin, Lily would have to price at $1.75+. Formulators buying Asian imports at $0.50 will reject this price outright. Furthermore, manual assembly of 60,000 packers would require 240+ hours from Julian Perez, choking pump assembly and rental maintenance.
+* **Underwriting Decision:** Jack Fay must **not** include the speculative +$104,310 gross profit into core acquisition debt-service coverage or valuation models. All 150,000 units are excluded from the Year 1 budget.
 
-#### 2. Illustrative Economics (If Contracted):
-* **Drive-Lok Bang-In Ports (Illustrative 90,000 units/year):**
-  - Target In-House COGS: **$0.161** ($0.063 resin + $0.080 stainless spring/Viton check ball + $0.018 labor & pack).
-  - Target OEM Transfer Price: **$0.520** per unit (69.0% GM). Requires tooling investment (Tool Insert #3/#4).
-* **Mechanical Steel Packers (Illustrative 60,000 units/year):**
-  - Target Sourced COGS: **$0.550** ($0.295 stem + $0.110 sleeve + $0.085 zerk + $0.060 shop labor & pack).
-  - Target OEM Transfer Price: **$1.750** per unit (68.6% GM). Highly vulnerable to price resistance vs. landed Asian wholesale imports.
-* **Underwriting Exclusion:** Because this volume is uncontracted and untested, it is treated strictly as Year 2 blue-sky upside.
-
-
-#### 3. Aurora Shop Floor Feasibility:
-* **Drive-Lok Ports:** Running 90,000 units on an 8-cavity mold requires only **69 machine hours per year** (~6 hours/month) for Greg on the Aurora injection press.
-* **Mechanical Packers:** Julian Perez performs simple sleeve and zerk sub-assembly on pre-machined Midwest blanks at 250 units/hour, requiring **~4.6 labor hours per week**.
-* Headcount remains capped at the 4 core team members with zero overtime strain.
+#### 2. Year 2 Conditional Exploration Pathway:
+* If Dave Jepsen engages formulators in Year 2, Lily will restrict its offering strictly to **In-House Injection-Molded Polymer Bang-In Ports** run by Greg on the Aurora press.
+* **100% Formulator-Funded Tooling:** The formulator must wire the full $18,500 tooling fee upfront before any steel is cut. Zero Lily capex.
+* **Target Economics (Illustrative):** 50,000 units/year at $0.48 transfer price (COGS: $0.158 = 67.1% GM), yielding $16,100 in gross profit with zero shop strain.
 
 ---
 
@@ -795,9 +748,9 @@ Combining all expansion vectors—Geotechnical Polyurethane Baseload (`COMM_152`
   *Result:* Contractors receive RE approval in 24–48 hours without administrative friction.
 
 #### 3. Commercial Rental Fleet Arbitrage (`Account 4015`):
-- Deploy 18 dedicated, pre-certified proportioners rented at **$2,200/month** (or $850/week).
-- Manufacturing COGS of ~$4,200 is fully amortized in **1.9 months**, generating **85%+ gross margins** on Rental Income.
-- Generates an additional **$1,200 to $3,500 in high-margin consumables (78%–86% GM)** per rental deployment and powers a 40% rental-to-purchase conversion conduit.
+- Deploy 12 dedicated, pre-certified proportioners from shop stock rented at **$2,200/month** (or $850/week).
+- Refurbishment costs (~$800/unit) amortized in **less than 2 weeks**, generating **85%+ gross margins** on Rental Income.
+- Generates an additional **$1,200 to $2,500 in high-margin consumables (78%–86% GM)** per rental deployment and powers a 40% rental-to-purchase conversion conduit.
 
 ---
 
@@ -829,7 +782,7 @@ Lily deploys the **Dual-Track Automation Engine**:
 1. **Mechanical Reality:** Dynamic injection pressures of 800 to 2,000+ PSI strip plastic 1/4" NPT threads and cause all-plastic cam ears to shear under hoop stress.
 2. **The "Drive-Lok Omni-Cam" System:**
    - **Metallic Pressure Core:** CNC-machined electroless nickel-plated 360 brass / 303 stainless core (1/4" NPT female inlet), outsourced to a local Chicago CNC screw job shop for **$3.85/unit** in 2,500-pc lots. Preserves Dave Kling's fabrication time.
-   - **In-House Injection-Molded Collar:** Molded in Aurora by Greg on Tool Insert #11 (4-cavity MUD insert, $12,500 capex) running 30% glass-filled nylon (PA66-GF30).
+   - **In-House Injection-Molded Collar:** Molded in Aurora by Greg on a modular adapter fixture insert ($4,500 capex) running 30% glass-filled nylon (PA66-GF30).
    - **High-Pressure Sealing:** High-durometer Viton 90A O-ring backed by a stainless retaining clip, rated to 2,500 PSI continuous and burst-tested to >4,500 PSI.
    - **Sacrificial Anti-Crossover Tips (`ST-10`):** Molded polypropylene nozzle inserts ($0.038 COGS) that discard with spent static mixers.
 3. **The Commercial Razor-and-Blade Strategy:**
