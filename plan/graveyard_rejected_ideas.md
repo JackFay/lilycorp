@@ -111,3 +111,18 @@
 ### Concept: Classification of Unvalidated Hardware (GeoSkid 250 & Omni-Cam) as Core Underwritten Baseline
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
 * **Autopsy:** Treating unbuilt machine skids and prototype quick-cam adapters as guaranteed baseline cash flow violates the $11,403.04/month senior debt service floor constraint. While low capex (<$1,500 to <$3,000), these represent exploratory commercial growth vectors that cannot be counted toward fixed debt coverage until purchase orders and dynamic pressure seal tests are empirically validated in the field.
+
+
+### Concept: Geotechnical Formulator Private-Label Packer Bundling (COMM_152)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Economically unviable. Domestic manufactured COGS ($0.55/unit) requires a $1.75 wholesale transfer price to achieve a 65% gross margin. Formulators (Avanti, Prime Resins, NCFI) land identical Asian-turned steel packers for $0.40-$0.70, meaning Lily would have to accept sub-27% gross margins to compete, severely diluting corporate profitability and draining working capital.
+
+
+### Concept: BABA / EPA American Iron & Steel Mandate on Sacrificial Grouting Packers
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Legally false. Mechanical injection packers and plastic drive ports are temporary sacrificial placement accessories, not permanent structural iron or steel incorporated into public infrastructure under 2 CFR Part 184 / IIJA. They qualify for standard de minimis consumable exemptions, removing any legal pressure on formulators to abandon foreign supply chains.
+
+
+### Concept: Year 1 Drive-Lok Tooling & 150,000-Unit Shop Packaging Capacity
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Operationally and financially unfeasible. Sinking $18,500 into new injection molds (Molds #11-13) consumes 92.5% of the entire $20,000 Year 1 discretionary capex budget ahead of winter debt service. Furthermore, kitting, assembling, and bagging 150,000 units would consume over 1,500 shop hours, paralyzing Julian Perez and halting core CD-250 machine rebuilds.
