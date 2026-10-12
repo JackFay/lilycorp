@@ -1,12 +1,12 @@
 # Autonomous Diligence & Business Plan Digest (Cloud Run)
-*Last Updated: 2026-10-12 16:50:41*
+*Last Updated: 2026-10-12 20:48:30*
 
 ## Status Overview
-- **Active Cycle:** 125
-- **Target Item:** [COMM_152] Geotechnical Polyurethane Formulator Private-Label Expansion (Prime Resins / Avanti / NCFI)
-- **Module:** `plan/01_market_expansion_and_adjacent_verticals.md`
-- **Frontier Status:** RESOLVED (Grounded Confidence: 9.0/10)
-- **Audit Verdict:** APPROVED (The draft rigorously debunks and disqualifies COMM_152, correctly concluding that Lily cannot secure 150,000 units annually at >=65% gross margin from geotechnical formulators. It accurately establishes that landed Asian mechanical packers cost formulators $0.40-$0.70, rendering a domestic $1.75 wholesale transfer price dead on arrival without a legal domestic-sourcing mandate. By completely excluding COMM_152 from Year 1 base underwriting and protecting the $20,000 capex ceiling, the operational plan satisfies all diligence boundary conditions.)
+- **Active Cycle:** 142
+- **Target Item:** [DEAL_FIN_GAP_01] Closing the $297k Sources & Uses Deficit: Purchase Price Adjustment vs Earnout vs Inventory True-Up
+- **Module:** `plan/01_deal_and_capital_structure.md`
+- **Frontier Status:** EXPLORATORY (Grounded Confidence: 4.0/10)
+- **Audit Verdict:** FLAGGED (The draft resolves the $297k deficit on paper by cutting the purchase price by $108k and expanding seller financing to $688.7k (57.8% of total capitalization), but this violates baseline cash flow constraints. Lily's normalized 2025 CFADS of $60,891.39 cannot even cover senior SBA debt service ($68,836/yr, a 0.88x DSCR), completely breaches the mandatory debt service floor of $136.8k/yr ($11,403/mo), and creates an unserviceable $168.8k/yr debt service cliff at Month 25. Furthermore, the draft truncates mid-sentence in Section III.E.)
 - **Backlog Remaining:** 0 open core items
 
 ## Execution Notes
