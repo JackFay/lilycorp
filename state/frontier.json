@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 125,
+  "active_cycle": 144,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -18,10 +18,15 @@
         "How much will the pre-closing physical inventory count write down the asset value dollar-for-dollar?"
       ],
       "target_plan_file": "plan/01_deal_and_capital_structure.md",
-      "confidence_score": 6,
-      "status": "REFINED",
+      "confidence_score": 3.0,
+      "status": "EXPLORATORY",
       "priority": "CRITICAL",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 144,
+      "last_audit_timestamp": "2026-10-12 21:19:21",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/23",
+      "github_auto_merged": false,
+      "github_pr_number": 23
     },
     {
       "id": "DEAL_NOTE_CLIFF_02",
@@ -2715,7 +2720,10 @@
       "priority": "LOW",
       "execution_horizon": "YEAR_2_EXPLORATORY",
       "last_audit_cycle": 125,
-      "last_audit_timestamp": "2026-10-12 16:50:41"
+      "last_audit_timestamp": "2026-10-12 16:50:41",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/5",
+      "github_auto_merged": true,
+      "github_pr_number": 5
     },
     {
       "id": "PROD_153",
