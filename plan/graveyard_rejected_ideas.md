@@ -126,3 +126,168 @@
 ### Concept: Year 1 Drive-Lok Tooling & 150,000-Unit Shop Packaging Capacity
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
 * **Autopsy:** Operationally and financially unfeasible. Sinking $18,500 into new injection molds (Molds #11-13) consumes 92.5% of the entire $20,000 Year 1 discretionary capex budget ahead of winter debt service. Furthermore, kitting, assembling, and bagging 150,000 units would consume over 1,500 shop hours, paralyzing Julian Perez and halting core CD-250 machine rebuilds.
+
+
+### Concept: SBA-Ineligible Contingent Earnout Structure
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** SBA SOP 50 10 (7.1) explicitly prohibits earnouts where purchase price consideration is contingent upon future business performance, gross margin, or revenues. Underwriting a $188,692 gross-margin-tied contingent earnout into an SBA 7(a) capital structure will result in immediate disqualification by Grasshopper Bank and First American Bank credit committees.
+
+
+### Concept: Accounting Fallacy in Sources & Uses Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** A purchase price reduction ($108,000 inventory true-up) cannot be booked as a 'Source of Funds' against an unadjusted $1,250,000 'Base Purchase Price Consideration' in Uses. A price reduction reduces Total Uses to $1,142,000 (plus WC). Listing a non-cash price deduction and deferred future earnout as Day 1 funding sources masks an unresolved closing cash deficit.
+
+
+### Concept: Working Capital Depletion & Liquidity Breach
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** The plan purports to preserve a $50,000 liquid working capital buffer, but immediately encumbers $35,000 into discretionary stay bonuses ($12,500), phone setup ($5,000), tooling ($3,500), press filters ($2,000), and bulk resin ($12,000). This leaves only $15,000 in actual cash liquidity, violating the mandatory $50,000 operational floor required to bridge 30-to-60-day distributor receivables.
+
+
+### Concept: Fictitious $108k Contractual Purchase Price Reduction
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** The draft treats a forensic accounting discrepancy (2024 duplicate entry debit) as a closed commercial agreement, asserting the purchase price was reduced from $1,250,000 to $1,142,000 because the seller's CPA 'admitted' the error in writing. An explanation of a bookkeeping error during diligence is not an agreement by Bob Trout (who is psychologically anchored to a $1.25M valuation) to absorb an outright $108k headline price cut.
+
+
+### Concept: SBA SOP 50 10 Equity Ineligibility (24-Month Standby vs. Life of Loan)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** Jack Fay is injecting only $60,000 (5.03%) in cash against a $1,192,000 project cost. Under SBA SOP 50 10 7.1, if a subordinated seller note is used to meet the required 10% minimum equity injection (funding up to 5% of the project), that note must be on complete standby (no principal or interest payments) for the entire 10-year term of the SBA senior loan, not merely a 24-month standby.
+
+
+### Concept: Contingent 'Reverse Earnout' Standby Note Disqualification
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** Tranche B ($188,692) incorporates a downward performance adjustment tied to a $1.05M gross profit hurdle. SBA regulations strictly forbid debt instruments with contingent earnout features or variable repayment structures tied to post-closing operating metrics from qualifying as stable, subordinated equity injections.
+
+
+### Concept: Unrealistic Lender Underwriting Defense of Restated Negative Cash Flow
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** The draft argues that a lender credit committee will accept that restating 2024 CFADS to negative -$32,933 was merely an 'operational anomaly' while simultaneously underwriting $443,308 in senior debt based on unadjusted 2024 numbers. A credit committee presented with a restated -$33k debt service cash flow in the prior fiscal year will not approve standard 10-year senior debt without an unencumbered guarantor or additional cash equity.
+
+
+### Concept: Unilateral Seller Concession & 58% Carryback Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #128 Audit)
+* **Autopsy:** Treating the $296,692 gap as 'definitively resolved' relies entirely on Bob Trout accepting only $453,308 in Day-1 gross cash proceeds on a $1.25M asking price while carrying $688,692 in subordinated risk (including $59,600 locked in 120-month full standby with zero cash yield). Stating this unilateral restructuring as a factual solution without an executed LOI amendment is an ungrounded commercial assumption.
+
+
+### Concept: Machinist Labor Misallocation for De Minimis Scrap Recovery
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #128 Audit)
+* **Autopsy:** Assigning Dave Kling—the sole experienced machinist, welder, and purchasing manager across a 4-person shop—to physically sort and haul 6,200 lbs of metal scrap for a 10% incentive pool ($250 to $400 gross proceeds) is an operational failure that diverts critical machining and pump assembly bandwidth for immaterial balance sheet gain.
+
+
+### Concept: Structural Non-Amortization Debt Cliff at Month 25
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #128 Audit)
+* **Autopsy:** Under the baseline CFADS floor of $85,000, combined senior debt ($68,836/yr) and post-standby seller debt ($83,267/yr) total $152,103/yr in debt service, yielding an insolvent 0.56x DSCR. Relying permanently on an automatic PIK conversion covenant to avoid default proves the capital structure cannot self-amortize on empirical historical earnings.
+
+
+### Concept: Unilateral Seller Debt Restructuring & Absolute Default Immunity
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #129 Audit)
+* **Autopsy:** Presenting Bob Trout's acceptance of an expanded $688,692 seller carryback ($59.6k locked for 10 years at 0% cash and $629.1k subordinated with 'absolute default immunity' and automatic PIK conversion) as an established closing source is ungrounded fantasy. A retiring owner-operator will not surrender operational control, take a $108,000 price cut, and subordinate 58% of enterprise value to a buyer investing only $60,000 cash while forfeiting standard creditor remedies upon default without binding legal agreement.
+
+
+### Concept: Month 25 Debt Service Cliff vs. $85k Baseline CFADS
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #129 Audit)
+* **Autopsy:** Senior debt requires $68,836/yr ($5,736/mo) and Note 2 amortization demands $99,920/yr ($8,326/mo) starting at Month 25, totaling $168,756/yr. With underwritten baseline CFADS of $85,000 (and restated 2024 at -$32,933), the business structurally defaults on Month 25. Relying on contractually forced PIK interest and 1.35x DSCR coverage stops is not a sustainable capital structure; it acknowledges that the baseline cash flow cannot support the debt load.
+
+
+### Concept: Dave Kling Scrap Metal Monetization Distraction
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #129 Audit)
+* **Autopsy:** Tasking Dave Kling (the shop's sole qualified machinist, welder, and purchasing manager) with sorting, loading, and hauling 6,200 lbs of aged scrap castings for a 10% bonus ($250 to $400 gross payout over 6 months) is operationally unviable. Pulling the lead machinist away from CD-250 proportioner fabrication for negligible scrap proceeds creates severe bottlenecks in core machine assembly.
+
+
+### Concept: Incomplete Module Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #129 Audit)
+* **Autopsy:** Section IV ('Resolution of Frontier Item: DEAL_FIN_GAP_01 — Closing the $296,692 Financing Deficit: Purchase Price Adjustment vs. Earnout vs. Inventory True') truncates mid-sentence without completing the analysis, leaving the target initiative unresolved.
+
+
+### Concept: Unilateral Seller Absorption of Deficit via $189k Note Expansion & 'Absolute Default Immunity' PIK
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #130 Audit)
+* **Autopsy:** Assuming Bob Trout will finance 57.8% ($688,692) of his own buyout, accept a 10-year life-of-loan lockup on Note 1, agree to a 24-month payment freeze on Note 2, and submit to a 1.35x DSCR covenant granting the buyer indefinite PIK conversion with 'absolute default immunity' is an ungrounded negotiating fantasy. Sellers in sub-$2M micro-cap manufacturing transactions do not surrender operational foreclosure rights and accept uncollateralized equity-risk subordinated notes without demanding personal guarantees, board observer seats, or default remedies.
+
+
+### Concept: Violation of Baseline Debt Service Coverage Floor ($11,403.04/month / $136.8k/year)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #130 Audit)
+* **Autopsy:** The plan admits normalized baseline CFADS is $60,891 (2025) and underwritten at $85,000 (2024), yet Month 25 total debt service escalates to $14,063.07/month ($168,756/year). The diligence boundary mandates that the baseline business must service debt without speculative growth. Masking an insolvency gap of $83k-$108k/year through a contractual PIK trigger does not satisfy debt service coverage; it merely compounds accrued principal to over $717k and defers default.
+
+
+### Concept: Treating Forensic Inventory True-Up as Guaranteed Purchase Price Reduction
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #130 Audit)
+* **Autopsy:** While seller representative Marcelo acknowledged the $108,218 duplicate entry in diligence discussions, treating this accounting correction as an automatic $108k dollar-for-dollar reduction of contractual purchase price (from $1.25M to $1.142M) is unexecuted. The headline purchase price in the LOI is tied to fixed assets, customer goodwill, and proprietary tooling, not a dynamic net book value formula. This adjustment remains an active deal negotiation point, not a finalized reduction of uses.
+
+
+### Concept: Unilateral Resolution of Financing Gap via Expanded Standby Carryback
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #131 Audit)
+* **Autopsy:** Declaring the $296,692 financing deficit 'definitively resolved' is a fiction. The plan assumes seller Bob Trout will passively accept a $108,000 headline price reduction while simultaneously increasing his seller financing from $500,000 to $688,692 (57.8% of the deal), placing $59,600 on complete 10-year standby and subjecting $629,092 to a 24-month cash freeze with unilateral buyer PIK conversion covenants. Trout's primary transaction objective is liquid retirement cash, not acting as an uncollateralized, subordinated mezzanine lender holding 10-year paper.
+
+
+### Concept: Breach of Debt Service Floor Constraint ($11,403.04/Month)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #131 Audit)
+* **Autopsy:** The empirical diligence framework sets a mandatory debt service floor of $11,403.04/month ($136.8k/year) that the baseline business must cover without speculative revenue. Lily's underwritten baseline CFADS is only $85,000/year ($7,083/month). The plan attempts to evade this constraint during Months 1–24 by forcing Note 2 onto standby ($5,736/month senior debt only), but at Month 25 the debt service escalates to $14,063/month ($168.8k/year). Because baseline operations generate only $85,000 CFADS, the business cannot service the debt floor without speculative turnaround revenue.
+
+
+### Concept: SBA Credit Committee Restatement Paradox
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #131 Audit)
+* **Autopsy:** The plan creates a fatal underwriting paradox: it proves that eliminating the 2024 duplicate inventory debit drops 2024 CFADS to negative -$32,933, yet asserts that SBA lenders will approve a $443,308 senior loan using the unadjusted $85,000 CFADS baseline. Under SBA SOP 50 10 7.1, historical operating cash flow from tax returns must substantiate debt service capacity. If the bank accepts the QoE forensic restatement, Lily fails historical DSCR underwriting due to negative 2024 cash flow; if the bank rejects the restatement, the 2025 add-back is disallowed as double-counting.
+
+
+### Concept: Mischaracterization of Shop Floor Production Bandwidth
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #131 Audit)
+* **Autopsy:** The plan repeatedly refers to a '5-person production team' handling machining, assembly, press operation, scrap clearing, and inventory counting. In empirical reality, only 3 personnel work the shop floor (Dave Kling for machining/welding, Julian Perez for assembly/testing, and Greg for the molding press). Maggie M is office/QuickBooks administrative staff and Dave Jepsen is dedicated to off-site sales and contractor training. Basing labor allocations and non-disruption assumptions on a 5-person production crew overstates physical shop capacity by 67%.
+
+
+### Concept: SBA Underwriting Paradox on Restated Negative 2024 Operating Cash Flow
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #132 Audit)
+* **Autopsy:** The draft attempts to use the $108,218 inventory double-count to justify a $108k purchase price cut with the seller, but simultaneously claims the SBA lender will ignore the fact that restating 2024 COGS plunges historical 2024 CFADS from +$75,285 to -$32,933 (-0.48x DSCR). SBA SOP 50 10 7.1 requires lenders to analyze historical tax returns; an institutional underwriter reviewing a restated loss of -$124.8k cannot legally approve a senior term loan based on unaudited assertions that cash flow 'rebounded' in 2026. If the double-count is formally recognized, 2024 debt service fails completely.
+
+
+### Concept: Unilateral Assumption of Seller Acceptance of 58% Subordinated Debt & 10-Year Standby
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #132 Audit)
+* **Autopsy:** The plan treats Bob Trout's agreement to expand seller financing from $500,000 to $688,692 (57.78% of the total transaction) as a settled pre-closing fact. In reality, this leaves the seller with only $453,308 in net cash proceeds at closing from a $1.25M business, forces him to accept a $108,000 headline haircut, and locks $59,600 into an SBA Form 155 full standby note receiving $0 principal and $0 interest for 120 months. This is an aggressive negotiation proposal, not a closed source of funds.
+
+
+### Concept: Treating Unfiled 2026 YTD Run-Rate CFADS ($220k+) as Empirical Underwriting Fact
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #132 Audit)
+* **Autopsy:** The narrative relies on '2026 YTD run-rate ($220k+ CFADS)' to defend multi-year weighted average underwriting before the bank's credit committee. Interim 2026 figures are unfiled, unverified management run-rates, not historical empirical facts. Labeling forward run-rate numbers as established CFADS to mask negative 2024 tax performance violates epistemic diligence boundaries.
+
+
+### Concept: Normalized CFADS Contradiction & Baseless Debt Service Feasibility
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #133 Audit)
+* **Autopsy:** In Section III.A, normalizing the 2024/2025 inventory double-count drops 2025 Net CFADS from $169,109.39 down to $60,891.39. Yet in Section III.E, the plan relies on '$169k normalized CFADS' to defend credit committee feasibility. True normalized 2025 cash flow ($60,891) cannot cover senior debt service ($68,836/yr), let alone the post-standby combined debt load ($168,757/yr) or the mandatory empirical floor ($136.8k/yr). Sizing senior debt based on unadjusted tax figures while presenting restated negative numbers in diligence creates an unbridgeable underwriting paradox.
+
+
+### Concept: Unilateral Seller Concession Fantasy (58% Seller Debt + Price Cut)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #133 Audit)
+* **Autopsy:** The plan assumes Bob Trout will absorb a $108,000 headline price reduction while simultaneously expanding seller paper to $688,692 (57.78% of total enterprise value). This leaves the seller with only $453,308 in Day-1 net cash, $59,600 locked in a 10-year zero-payment SBA standby note, and $629,092 subordinated for 24 months with no cash flow. Treating this extreme seller capitulation as a definitive pre-closing resolution without an executed LOI amendment is ungrounded wishful thinking.
+
+
+### Concept: SBA Multi-Year Coverage Rejection on Negative Historical CFADS
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #133 Audit)
+* **Autopsy:** Proposing a three-year weighted average (2024 @ 20%, 2025 @ 35%, 2026 TTM @ 45%) to bypass consecutive sub-1.0x DSCR tax years (-$33k in restated 2024, $60.9k normalized in 2025) violates SBA SOP 50 10 underwriting rules for standard acquisitions. SBA PLP lenders do not blend unfiled interim run-rates to erase two consecutive years of negative or sub-debt-service historical tax returns for a business acquisition without hard third-party guarantees.
+
+
+### Concept: Unilateral Seller Subordination Expansion to 58% LTV
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #134 Audit)
+* **Autopsy:** The plan assumes Bob Trout will absorb a $108,000 purchase price reduction and simultaneously expand seller financing from $500,000 to $688,692 (over 57% of total acquisition sources). There is zero empirical evidence, signed letter of intent, or deal precedent showing Bob Trout will agree to take 58% of enterprise value in subordinated paper, let alone accept an unhedged 10-year full standby on Note 1 ($59.6k) and an automatic PIK toggle on Note 2.
+
+
+### Concept: The SBA Underwriting Dual-Book Paradox
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #134 Audit)
+* **Autopsy:** The financing strategy creates an impossible regulatory bind: to qualify for the $443k SBA senior loan at a 1.25x DSCR, the plan relies on 2024 unadjusted tax CFADS of $85,000. However, the $108k purchase price adjustment requires formal CPA certification of a 2024 duplicate receipt error, which restates 2024 CFADS to negative -$32,933. Under SBA SOP 50 10 underwriting, an unadjusted restatement showing negative historical operating cash flow in the prior fiscal year triggers credit rejection, not approval.
+
+
+### Concept: Month 25 Debt Cliff Solvency Masked by Theoretical PIK Covenants
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #134 Audit)
+* **Autopsy:** Baseline cash flow after NNN rent ($68k) and GM living wage ($100k) yields $60,891 to $85,000 in CFADS. At Month 25, combined debt service spikes to $14,063.07/month ($168,756/year), breaching the $11,403.04/month baseline debt service constraint and causing a $83k-$108k annual cash deficit. Relying on an automatic 1.35x DSCR PIK trigger to forestall default treats an exploratory restructuring mechanism as guaranteed baseline EBITDA.
+
+
+### Concept: Unilateral Seller Cash-at-Close Compression & 58% Paper Carry
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #135 Audit)
+* **Autopsy:** The plan assumes Bob Trout will willingly accept $453,308 in Day-1 cash proceeds (a $296,692 haircut from the expected $750,000 cash at close) while expanding his seller note from $500,000 to $688,692 (57.78% of total project sources). Locking $59,600 into an SBA Form 155 full standby for 10 years (120 months) and $629,092 on a 24-month standby is presented as a done deal rather than an aggressive, unratified seller negotiation hurdle that risks torpedoing the transaction.
+
+
+### Concept: SBA Credit Committee Defense via Unaudited Future 2026 Run-Rates
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #135 Audit)
+* **Autopsy:** The lender defense asserts that SBA underwriters will disregard a restated 2024 CFADS of -$32,933 and a filed 2025 Ordinary Loss of -$134,891 by weighting a speculative '2026 YTD run-rate ($220k+ CFADS).' SBA SOP 50 10 requires repayment ability to be demonstrated from historical operating cash flows shown on filed tax returns; unfiled, interim run-rates cannot override two consecutive years of corporate tax losses for a 10-year term loan.
+
+
+### Concept: Chronological Inconsistency and Incomplete Deliverable
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #135 Audit)
+* **Autopsy:** Section III.B cites a 'September 9, 2026 facility inspection' as historical diligence context within an acquisition modeled around 2024-2025 historicals. Additionally, Section III.E abruptly truncates mid-sentence ('contractually deducted $108k from the headline purc'), leaving core diligence assertions incomplete.
