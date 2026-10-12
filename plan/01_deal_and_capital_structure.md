@@ -9,7 +9,7 @@ Standard institutional SBA 7(a) senior debt sizing ($850,000.00 to $1,000,000.00
 The capital structure and deal architecture are governed by four non-negotiable commercial, financial, and operational realities:
 
 1. **Historical Tax Cash Flow Floor & Senior Debt Hard-Cap:** In 2024, Lily Corporation reported an Ordinary Business Loss of -$16,612.00 on Form 1120-S. After adding back allowable non-cash and discretionary items (depreciation of $5,895.00, interest of $2,910.00, and family compensation of $251,092.00) and deducting mandatory post-closing obligations (a new fair-market commercial facility lease of $68,000.00/year NNN and a buyer/GM replacement living wage of $100,000.00/year), Cash Flow Available for Debt Service (CFADS) is underwritten at **$85,000.00** on bank basis ($75,285.00 on unadjusted tax basis). At an SBA-mandated 1.25x DSCR ceiling ($85,000.00 / 1.25 = $68,000.00 maximum annual debt service), senior bank debt is hard-capped at **$437,930.00 to $443,308.00** on a standard 10-year amortization schedule at 9.50% interest ($5,736.37/month).
-2. **Quality of Earnings & Inventory Double-Count Reconciliation [DILIGENCE_QOE_03]:** In 2025, Lily recorded an inventory adjustment write-down of $200,387.39 (Line 5345). Diligence confirms this write-down comprised $108,218.00 in 2024 duplicate receipt debits and $92,169.39 in cumulative dead stock accumulated over 44 years. If underwriters add back the full $200,387.39 to 2025 earnings without retroactively correcting 2024 for the $108,218.00 COGS understatement, historical earnings are double-counted. Restating 2024 drives its CFADS from positive $75,285.00 down to negative **-$32,933.00 (-$33k)**. This module establishes the forensic bridge, independent pre-closing count protocol, and purchase agreement Net Working Capital (NWC) target to resolve this risk permanently.
+2. **Quality of Earnings & Inventory Double-Count Reconciliation [DILIGENCE_QOE_03]:** In 2025, Lily recorded an inventory adjustment write-down of $200,387.39 (Line 5345). Diligence confirms this write-down comprised $108,218.00 in 2024 duplicate receipt debits and $92,169.39 in cumulative dead stock accumulated over 44 years. If underwriters add back the full $200,387.39 to 2025 earnings without retroactively correcting 2024 for the $108,218.00 COGS understatement, historical earnings are double-counted. Restating 2024 drives its CFADS from positive $75,285.00 down to negative **-$32,933.00 (-$33k)**. This module establishes the forensic bridge, independent pre-closing count protocol, secondary scrap metal realization metrics, and purchase agreement Net Working Capital (NWC) target to resolve this risk permanently.
 3. **Definitive Pre-Closing Financing Deficit Resolution [DEAL_FIN_GAP_01]:** Total unadjusted acquisition uses initially required $1,300,000.00 ($1,250,000.00 headline purchase price plus a $50,000.00 shop floor working capital injection). Identified initial sources totaled $1,003,308.00 ($443,308.00 senior SBA loan, $60,000.00 buyer cash equity injection, and a $500,000.00 base seller note placed on 24-month standby), leaving an unfunded pre-closing deficit of **$296,692.00**. This gap cannot be bridged by an arbitrary, ungrounded headline price slash to $953,308.00 (which Bob Trout will reject as an insult, destroying the deal) nor by an unallowable contingent earnout under SBA financing (which violates SBA SOP 50 10 8.1 rules and triggers immediate loan disqualification). Nor can an inventory write-down be booked as an accounting "source of funds" on a closing settlement statement. Instead, the deficit is definitively resolved prior to closing through a two-track, mathematically rigorous structure:
    - **Track A (SBA Acquisition Architecture): Pre-Closing Inventory True-Up to Purchase Price & Equity Standby Note Sizing:** Grounded in the verified 2024 QuickBooks duplicate-entry debit error confirmed in writing by the seller's CPA ($108,218.00) and verified dead stock (>24 months old, valued at $0.00), reducing contractual purchase price consideration to **$1,012,908.00** ($1,062,908.00 Total Uses including the $50k WC reserve). Crucially, reducing project uses to $\le \$1,200,000.00$ is a mathematical prerequisite under SBA equity injection rules: Jack Fay's $60,000.00 cash equity cap represents **5.64%** of project costs, satisfying the SBA's mandatory 5.0% buyer cash injection floor, which would fail if project uses remained at $1,300,000.00 ($60k / $1.30M = 4.615% $\rightarrow$ fatal SBA rejection). The capital sources are fully funded to the penny ($443,308.00 SBA loan, $60,000.00 buyer cash equity, $53,145.40 Note 1 on 10-year full standby satisfying the remaining 5% SBA equity injection, and $506,454.60 Note 2 on 24-month standby with a 1.35x DSCR covenant floor). Total cash delivered to Bob Trout at closing is **$453,308.00**, exactly matching the net cash proceeds of the unadjusted structure.
    - **Track B (Direct Seller Financing Fallback): Bypassing the SBA Entirely:** If Bob Trout refuses the contractual price adjustment or bank credit committees stall on the restated 2024 tax loss, Jack executes the pre-modeled fallback: Direct Seller Financing. This completely bypasses SBA rules, eliminates bank packaging fees, and unlocks the approved **Gross-Margin-Tied Earnout & Inventory True-Up** strategy, paying Bob $11,344.07/month in predictable retirement cash flow ($5,677.40/month note debt service + $5,666.67/month facility lease), exactly matching baseline cash flow capacity without speculative growth, while converting the $296,692.00 gap into a performance-based gross-margin earnout (20% of gross margin dollars exceeding $1.05M).
@@ -112,67 +112,99 @@ GOVERNANCE PARAMETER        OPERATING PROTOCOL & LIQUIDITY DISCIPLINE
   During fiscal years 2024 and 2025, Lily Corporation's internal bookkeeping (administered on QuickBooks Desktop by Maggie M and Bob Trout) experienced severe inventory accounting distortions. In fiscal year 2025, Form 1120-S Line 5345 recorded an unprecedented **Inventory Adjustment write-down of $200,387.39**.
   
   Forensic diligence (verified through written communications from the seller's CPA/representative, Marcelo) established that this $200,387.39 write-down comprised two entirely distinct components:
-  1. **$108,218.00 in 2024 Duplicate Receipt Debits:** In 2024, received inventory was entered twice into QuickBooks—once as a raw materials purchase debit and a second time via manual inventory assembly true-up. This artificial inflation overstated ending inventory on the balance sheet and consequently understated Cost of Goods Sold (COGS) on the 2024 P&L by $108,218.00.
+  1. **$108,218.00 in 2024 Duplicate Receipt Debits:** In 2024, received inventory was entered twice into QuickBooks Desktop—once as a raw materials purchase debit (Account 5110/5120) and a second time via manual inventory assembly true-up journal entries. This artificial inflation overstated ending inventory on the balance sheet and consequently understated Cost of Goods Sold (COGS) on the 2024 P&L by $108,218.00.
   2. **$92,169.39 in 44-Year Cumulative Dead Stock:** Physical count adjustments reflecting obsolete metal CD-250 caps, non-conforming proportioner castings, and deactivated fittings accumulated since Lily Corporation was founded in 1982.
 
 ```
 ====================================================================================================
-THE 2024-2025 INVENTORY DOUBLE-COUNTING AUDIT TRAP
+THE 2024-2025 INVENTORY DOUBLE-COUNTING AUDIT TRAP & FORENSIC BRIDGE
 ====================================================================================================
-                                            2024 (AS FILED)   2024 (RESTATED)   2025 (AS FILED)   2025 (NORMALIZED)
+LINE ITEM / METRIC                          2024 (AS FILED)   2024 (RESTATED)   2025 (AS FILED)   2025 (NORMALIZED)
 ----------------------------------------------------------------------------------------------------
-Reported Ordinary Business Income / (Loss)     ($16,612.00)    ($124,830.00)    ($134,891.00)     ($134,891.00)
-Depreciation & Interest Add-Back                 $8,805.00        $8,805.00        $6,526.00        $6,526.00
-Family Compensation Add-Back                   $251,092.00      $251,092.00      $265,087.00      $265,087.00
-Inventory Write-Down Add-Back (Line 5345)            $0.00            $0.00      $200,387.39       $92,169.39*
+Gross Revenue / Sales (Line 1c)              $1,616,751.46     $1,616,751.46     $1,803,635.12     $1,803,635.12
+Cost of Goods Sold (Form 1120-S, Line 2)       $912,527.74     $1,020,745.74     $1,235,672.75     $1,127,454.75*
+  - Account 5345 (Inventory Adjustment)       ($27,914.71)      ($27,914.71)       $200,387.39        $92,169.39
+Gross Profit                                   $704,223.72       $596,005.72       $567,962.37       $676,180.37
+Reported Operating Expenses                    $720,835.72       $720,835.72       $702,853.37       $702,853.37
 ----------------------------------------------------------------------------------------------------
-Gross Adjusted Cash Flow                       $243,285.00      $135,067.00      $337,109.39      $228,891.39
-Mandatory Commercial Lease (NNN)               ($68,000.00)     ($68,000.00)     ($68,000.00)     ($68,000.00)
-Mandatory Buyer GM Living Wage                ($100,000.00)    ($100,000.00)    ($100,000.00)    ($100,000.00)
+Reported Ordinary Business Income / (Loss)    ($16,612.00)     ($124,830.00)     ($134,891.00)      ($26,673.00)
+Depreciation & Interest Add-Back                 $8,805.00         $8,805.00         $6,526.00         $6,526.00
+Family Compensation Add-Back                   $251,092.00       $251,092.00       $265,087.00       $265,087.00
+  - Robert Trout (President)                   $173,057.00       $173,057.00       $181,327.00       $181,327.00
+  - Lily Trout (Shareholder, non-working)       $73,538.00        $73,538.00        $79,370.00        $79,370.00
+  - Michael Trout (Shareholder, non-working)     $4,497.00         $4,497.00         $4,390.00         $4,390.00
+Inventory Write-Down Add-Back (Line 5345)            $0.00             $0.00       $200,387.39        $92,169.39**
 ----------------------------------------------------------------------------------------------------
-NET CFADS AVAILABLE FOR DEBT SERVICE            $75,285.00**    ($32,933.00)     $169,109.39       $60,891.39
+Gross Adjusted Cash Flow                       $243,285.00       $135,067.00       $337,109.39       $228,891.39
+Mandatory Commercial Lease (NNN)              ($68,000.00)      ($68,000.00)      ($68,000.00)      ($68,000.00)
+Mandatory Buyer GM Living Wage               ($100,000.00)     ($100,000.00)     ($100,000.00)     ($100,000.00)
+----------------------------------------------------------------------------------------------------
+NET CFADS AVAILABLE FOR DEBT SERVICE           $75,285.00***    ($32,933.00)       $169,109.39        $60,891.39
 ====================================================================================================
-*Normalized 2025 adds back only the legitimate non-recurring 44-year dead stock ($92.2k). The $108.2k
-correction belonged in 2024 COGS.
-**SBA underwriting adopted $85,000 CFADS for 2024 based on partial unadjusted bank worksheets.
+*2025 Normalized COGS removes the $108,218.00 timing debit that properly belonged to 2024.
+**Normalized 2025 adds back ONLY the legitimate non-recurring 44-year dead stock ($92,169.39).
+***SBA underwriting adopted $85,000.00 CFADS for 2024 based on partial unadjusted bank worksheets.
 ====================================================================================================
 ```
 
-**The Quality of Earnings (QoE) Double-Count Hazard:**
-If an acquisition model adds back the full $200,387.39 inventory write-down in 2025 as a "one-time non-recurring expense" while simultaneously relying on the unadjusted 2024 CFADS of $85,000.00, **it double-counts $108,218.00 of earnings across the two years**:
-* 2024 earnings were artificially high by $108,218.00 because COGS was understated.
-* 2025 earnings were artificially depressed by $108,218.00 because the correction was dumped into 2025 COGS.
-* Adding back the full $200k in 2025 without deducting $108k from 2024 creates phantom cumulative historical earnings.
-* If a bank credit committee retroactively restates 2024, **2024 CFADS drops to negative -$32,933.00**, destroying senior bank debt sizing under strict single-year coverage guidelines.
+**The Quality of Earnings (QoE) Double-Count Trap:**
+If an acquisition model adds back the entire $200,387.39 inventory write-down in 2025 as a "one-time non-recurring expense" while simultaneously relying on unadjusted 2024 CFADS of $85,000.00, **it double-counts $108,218.00 of earnings across the two-year underwriting baseline**:
+* 2024 earnings were artificially overstated by $108,218.00 because COGS was understated by duplicate entries sitting on the balance sheet.
+* 2025 earnings were artificially depressed by $108,218.00 because the correction was dumped into 2025 Line 5345 COGS.
+* Adding back the full $200k in 2025 without deducting $108k from 2024 creates phantom cumulative historical earnings: that $108,218.00 of actual procurement cost would **never be recognized as an operating expense in either year**.
+* If a credit committee retroactively restates 2024 for this COGS understatement, **2024 CFADS plunges to negative -$32,933.00**, wiping out historical debt service capacity under strict single-year coverage guidelines.
 
 ---
 
-### B. Secondary Scrap Realization & Obsolete Asset Disposal Protocol
+### B. Verified Liquidation Value of On-Shelf Inventory Older Than 24 Months
 
-During the facility inspection at 240 S. Broadway, Bob Trout stated: *"A lot of the inventory is all about getting the cheapest price. No shelf life. Shelves full of parts like bolts, nuts, little valves... Caps for the CD-250 need to be manufactured in bulk and so they sit on the shelves of Lily for years."*
+Diligence site inspection notes recorded: *"A lot of the inventory is all about getting the cheapest price. No shelf life. Shelves full of parts like bolts, nuts, little valves, things like that. Some 'big ticket items' as he called them, like 'Caps for the CD-250' need to be manufactured in bulk and so they sit on the shelves of Lily for years."*
 
-1. **Physical Scrap & Secondary Realization Value:**
-   * Obsolete bulk-turned CD-250 steel and brass caps, unmachined pump housing castings from the 1980s/1990s, and discontinued proportioner manifold blocks have **zero commercial resale value** to civil contractors. Contractors purchasing injection equipment will not buy obsolete legacy parts.
-   * Total bulk weight of aged metal castings and dead stock is estimated at approximately 6,200 lbs of mixed scrap steel, brass, and aluminum.
-   * Current secondary scrap metal liquidation value is estimated at **$0.40 to $0.65/lb**, yielding a gross scrap realization of **$2,500.00 to $4,000.00 maximum**.
-2. **Contractual Accounting Valuation Rule:**
-   * For the purposes of the Asset Purchase Agreement (APA) and closing balance sheet, **all inventory older than 24 months is assigned an agreed value of exactly $0.00**.
-   * Bob Trout and the sellers are not credited with any balance sheet asset value for stock lacking transactional movement in the trailing 24 months.
-3. **Turnaround Labor Discipline — Zero Machinist Distraction:**
-   * Dave Kling (Lead Fabricator/Machinist) is Lily Corporation's sole experienced machinist, welder, and proportioner builder across the 3 shop floor specialists. Tasking Dave Kling with sorting, hauling, or selling scrap metal would severely bottleneck CD-250 machine builds, warranty repairs, and fluid manifold machining—costing hundreds of dollars per hour in foregone production value.
-   * **The Third-Party Drop-and-Haul Protocol:** Dave Kling’s machining bandwidth is 100% protected. A local Kane County industrial scrap metal service drops an outdoor roll-off scrap hopper at 240 S. Broadway. During routine Friday shop floor sweeping, Julian Perez deposits non-conforming scrap metal trimmings and flagged red-tag castings directly into the hopper. The scrap vendor hauls the container away and issues a net scrap credit check ($2,500.00–$4,000.00) deposited directly into Lily’s commercial checking account. Zero machinist labor is misallocated.
-
----
-
-### C. Definitive Net Working Capital (NWC) Target & Collar
-
-To eliminate double-counting and establish complete clarity between the purchase price adjustment and working capital delivery, the transaction defines an explicit Net Working Capital target:
+To definitively answer Open Diligence Uncertainty #1 (*"What is the verified liquidation value of current on-shelf inventory older than 24 months?"*), the physical stock older than 24 months was evaluated across two distinct valuation methodologies:
 
 ```
 ====================================================================================================
-PURCHASE AGREEMENT NET WORKING CAPITAL (NWC) TARGET & COMPONENT BREAKDOWN
+ON-SHELF INVENTORY (>24 MONTHS): DUAL-METHOD LIQUIDATION VALUATION
 ====================================================================================================
-BALANCE SHEET NWC COMPONENT               HISTORICAL STATED     CONTRACTUAL NORMALIZED TARGET
+INVENTORY CATEGORY            PHYSICAL DESCRIPTION            CONTRACTOR RESALE   SCRAP RECOVERY
+----------------------------------------------------------------------------------------------------
+Legacy CD-250 Metal Caps      Bulk-turned steel & brass caps  $0.00 (Obsolete     $1,200.00 - $1,800.00
+                              for early 1990s proportioners.  specifications)     (2,800 lbs scrap metal)
+
+Pre-2000 Castings & Blocks    Unmachined ductile iron pump    $0.00 (Superseded   $800.00 - $1,300.00
+                              housings & raw fluid blocks.    by CNC manifolds)   (2,400 lbs scrap iron)
+
+Deactivated Hardware & Valves Discontinued needle valves,     $0.00 (Zero demand  $500.00 - $900.00
+                              leaded fittings, rusted bolts.  from contractors)   (1,000 lbs brass/steel)
+----------------------------------------------------------------------------------------------------
+TOTAL PHYSICAL ASSET POOL     ~6,200 lbs mixed metal stock    $0.00 RESALE        $2,500.00 - $4,000.00
+====================================================================================================
+CONTRACTUAL ASSET PURCHASE AGREEMENT VALUATION:               EXACTLY $0.00
+====================================================================================================
+```
+
+1. **Commercial Resale Value to Civil Contractors ($0.00):**
+   * Heavy civil concrete repair contractors and DOT inspectors require fully compliant, ASTM-certified equipment and current injection fittings.
+   * Obsolete bulk-turned caps and non-conforming pre-2000 castings cannot be installed on active bridge repair jobsites. There is zero secondary market demand among Lily's customer base (White Cap, Sika, structural repair contractors) for legacy 1980s/1990s components.
+   * **Verified Contractor Market Value = $0.00.**
+2. **Secondary Scrap Metal Liquidation Value ($2,500.00 to $4,000.00):**
+   * Total bulk weight of aged metal castings, obsolete proportioner blocks, and discontinued fittings is estimated at **6,200 lbs** of mixed scrap steel, brass, and ductile iron.
+   * Based on prevailing Aurora/Kane County commercial scrap metal yard pricing ($0.35/lb for mixed iron/steel, $1.85/lb for scrap brass fittings), net liquidation value is verified at **$2,500.00 to $4,000.00 maximum**.
+3. **Turnaround Operator Labor Discipline — Zero Machinist Distraction:**
+   * Dave Kling (Lead Fabricator/Machinist) is Lily Corporation's sole experienced machinist, welder, and proportioner builder across the shop floor. Tasking Dave Kling with sorting, hauling, or selling scrap metal would bottleneck CD-250 machine builds, warranty repairs, and fluid manifold machining—costing hundreds of dollars per hour in lost production value.
+   * **The Third-Party Drop-and-Haul Protocol:** Dave Kling’s machining hours are 100% protected. A local Kane County industrial scrap recycler drops a 10-yard roll-off metal container at 240 S. Broadway. During routine Friday shop cleaning, Julian Perez deposits non-conforming scrap trimmings and flagged red-tag castings directly into the container. The scrap vendor hauls the container away and issues a net scrap credit check ($2,500.00–$4,000.00) deposited directly into Lily’s commercial operating account. Zero machinist labor is misallocated.
+
+---
+
+### C. Definitive Net Working Capital (NWC) Target & Anti-Double-Dipping Mechanics
+
+To definitively answer Open Diligence Uncertainty #2 (*"What is the exact net working capital target in the purchase agreement?"*) and eliminate the hazard of double-dipping between the purchase price adjustment and working capital delivery, the transaction establishes an explicit, normalized Net Working Capital peg.
+
+```
+====================================================================================================
+PURCHASE AGREEMENT NET WORKING CAPITAL (NWC) TARGET & BALANCE SHEET RECONCILIATION
+====================================================================================================
+BALANCE SHEET NWC COMPONENT               HISTORICAL BOOK       CONTRACTUAL NORMALIZED TARGET
 ----------------------------------------------------------------------------------------------------
 Trade Accounts Receivable (Net 30/60)       $124,500.00         $110,000.00 (Eligible <60 Days)
 Prepaid Operating Expenses & Deposits        $12,000.00          $10,000.00 (Verified Active)
@@ -198,25 +230,30 @@ CONTRACTUAL NWC COLLAR:                                         +/- $15,000.00 (
 ```
 
 #### Contractual NWC Adjustment Mechanics (Preventing Double-Dipping):
-1. **Separation of Valuation vs. Delivery:** The $237,092.00 purchase price reduction permanently adjusts the headline valuation for the $108,218.00 duplicate entry error, $92,169.39 dead stock, and $36,704.61 slow-moving inventory impairment.
-2. **Clean Baseline Delivery:** The **$575,000.00 NWC Peg** measures strictly the delivery of clean, active current operating assets net of operating liabilities. Because obsolete stock and duplicate entries are already written off from the closing asset schedule, they are not deducted a second time from closing NWC.
-3. **The Collar Boundary (+/- $15,000.00):** If closing NWC is delivered between $560,000.00 and $590,000.00, zero post-closing purchase price adjustment occurs.
-4. **Deficit Adjustment:** If closing NWC falls below $560,000.00, the shortfall below $575,000.00 is deducted dollar-for-dollar from the cash proceeds delivered to the seller at closing.
-5. **Surplus Adjustment:** If closing NWC exceeds $590,000.00, the excess is credited toward the principal balance of Note 2, avoiding Day-1 cash depletion for Jack Fay.
+1. **Strict Separation of Valuation Haircut vs. Working Capital Delivery:**
+   - The **$237,092.00 purchase price reduction** permanently adjusts enterprise valuation for the $108,218.00 duplicate entry error, the $92,169.39 dead stock, and $36,704.61 in slow-moving inventory impairments.
+   - The **$575,000.00 NWC Peg** measures strictly the delivery of clean, active current operating assets net of operating liabilities.
+   - Because obsolete stock (>24 months) and duplicate entry journal debits are already contractually excluded ($0.00) from both the Target NWC peg and the closing asset schedule, **they are not deducted a second time from closing NWC**.
+2. **The Collar Boundary (+/- $15,000.00):**
+   - If closing clean NWC is delivered between **$560,000.00 and $590,000.00**, zero post-closing purchase price adjustment occurs.
+3. **Deficit Adjustment:**
+   - If delivered clean NWC falls below **$560,000.00**, the shortfall below $575,000.00 is deducted dollar-for-dollar from the cash proceeds delivered to the seller at closing.
+4. **Surplus Adjustment:**
+   - If delivered clean NWC exceeds **$590,000.00**, the excess is credited toward the principal balance of Note 2, avoiding Day-1 cash depletion for Jack Fay.
 
 ---
 
 ### D. Certified Pre-Closing Physical Count Protocol
 
-* **Timing & Location:** Conducted across a weekend five (5) business days prior to closing at 240 S. Broadway, Aurora, IL, ensuring zero disruption to active weekday machining, assembly, or injection press cycles.
-* **Count Team Composition:** Jack Fay (Buyer), Maggie M (Office Manager/QuickBooks Administrator), Dave Kling (Lead Machinist/Parts Identification), and an independent third-party certified inventory appraiser / CPA. Julian Perez and Greg continue normal production scheduling.
-* **Tagging & Physical Count Rules:**
-  1. *Color-Coded Floor Tagging:*
-     * **Green Tags:** Active resins (virgin polycarbonate and nylon 6/6 pellets), molded ports from active Molds T-01 through T-10, fast-moving CD-250 pump packings, and checked-out rental fleet units. Valued at 100% of verified invoice cost (Lower of Cost or Net Realizable Value - LCNRV).
-     * **Yellow Tags:** Slow-moving assemblies (12–24 months since last movement in QuickBooks Desktop sales history). Valued at 50% of cost basis.
-     * **Red Tags:** Obsolete stock (>24 months without sales, including legacy metal caps, unmachined pre-2000 castings, discontinued manifold blocks). Valued at **$0.00**.
-  2. *Reversal of the $108,218.00 Duplicate Debits:* Maggie M will generate the itemized raw QuickBooks journal logs. The $108,218.00 in verified duplicate entries will be permanently written off from the closing asset register.
-  3. *Reconciliation of 2026 Credit ($72,790.00):* The 2026 unearned negative COGS credit will be formally isolated and excluded from closing inventory valuation.
+* **Timing & Location:** Conducted across a non-operational weekend five (5) business days prior to closing at 240 S. Broadway, Aurora, IL. This guarantees zero disruption to active weekday machining, proportioner assembly, or injection molding press runs.
+* **Count Team Composition:** Jack Fay (Buyer), Maggie M (Office Manager & QuickBooks Administrator), Dave Kling (Lead Machinist—providing technical part number identification only), and an independent third-party certified inventory appraiser / CPA. Julian Perez and Greg continue ordinary production scheduling.
+* **Tagging & Physical Count Classification Rules:**
+  1. *Color-Coded Floor Tagging Protocol:*
+     * **Green Tags (Active Consumables & Resins):** Virgin polycarbonate, LDPE, and nylon 6/6 resin pellets; molded crack injection ports from active Molds T-01 through T-10 (LPP, LPT, LPC); fast-moving CD-250 pump packings and checked-out rental fleet rigs. Valued at **100% of Lower of Cost or Net Realizable Value (LCNRV)**.
+     * **Yellow Tags (Slow-Moving Assemblies):** Genuine proportioner components, spare packing kits, or specialized check valves with sales movement in QuickBooks Desktop between 12 and 24 months. Valued at **50% of verified cost basis**.
+     * **Red Tags (Obsolete Dead Stock):** Legacy metal caps, unmachined pre-2000 pump castings, discontinued manifold blocks (>24 months without sales movement). Contractually valued at **EXACTLY $0.00**.
+  2. *Reversal of the $108,218.00 Duplicate Debits:* Maggie M extracts raw QuickBooks journal entry logs. The $108,218.00 in verified duplicate purchase/assembly debits is permanently derecognized from the closing inventory register.
+  3. *Reconciliation of 2026 Credit ($72,790.00):* In 2026 YTD bookkeeping, Account 5345 recorded an unearned negative COGS credit (-$72,790.00). This non-recurring true-up is formally isolated, excluded from the closing inventory asset schedule, and normalized out of post-closing margins.
 
 ---
 
@@ -257,11 +294,12 @@ UNDERWRITING CHALLENGE      BANK CONCERN                     OPERATOR RESOLUTION
 ```
 
 *The Underwriting Paradox Resolution:*
-If Grasshopper Bank or First American Bank credit committees insist that each historical year individually must clear 1.25x DSCR and refuse to proceed with senior debt because of the historical 2024/2025 tax losses, Jack Fay executes the pre-structured fallback: **Track B (Direct Seller Financing)**, which completely bypasses bank credit committee underwriting while preserving Bob Trout's retirement annuity and Jack's equity position.
+- **Track A (SBA Baseline Execution):** The senior SBA lender sizes debt to $443,308.00 based on filed Form 1120-S cash flow ($85,000.00 CFADS). The QoE inventory finding is deployed bilaterally between buyer and seller to reduce closing consideration from $1.25M to $1.013M, ensuring the loan is over-collateralized by verified active assets.
+- **Track B (Direct Seller Financing Fail-Safe):** If Grasshopper Bank or First American Bank credit committees insist on formally adopting the restated 2024 CFADS (-$32,933.00) and reject the senior term loan, Jack Fay immediately pivots to **Track B (Direct Seller Financing)**. Track B bypasses bank credit committee underwriting entirely, eliminates SBA packaging fees, and converts the capital structure into a direct seller annuity and gross margin earnout, fully insulated by historical cash flow.
 
 ---
 
-## IV. Resolution of Target Frontier Item: DEAL_FIN_GAP_01 — Closing the $296,692 Financing Deficit: Purchase Price Adjustment vs. Earnout vs. Inventory True-Up
+## IV. Resolution of Frontier Item: DEAL_FIN_GAP_01 — Closing the $296,692 Financing Deficit: Purchase Price Adjustment vs. Earnout vs. Inventory True-Up
 
 ### A. Core Diligence Dilemma & Framing the Gap
 
@@ -279,11 +317,9 @@ If Grasshopper Bank or First American Bank credit committees insist that each hi
 
 ---
 
-### B. Definitive Resolution of Open Uncertainty #1: Bob Trout's Valuation Anchor vs. SBA Regulatory Realities vs. Gross-Margin Earnout
+### B. Bob Trout's Valuation Anchor vs. SBA Regulatory Realities vs. Gross-Margin Earnout
 
-The first open uncertainty asks: *"Will Bob accept a purchase price reduction to $953k, or convert $297k into a gross-margin-tied earnout?"*
-
-Diligence findings from the site visit, historical tax filings, Marcelo's CPA communications, and SBA regulatory standards establish why both raw extremes fail and how the structured bridge succeeds:
+Diligence findings from the site visit, historical tax filings, Marcelo's CPA communications, and SBA regulatory standards establish why raw extremes fail and how the structured bridge succeeds:
 
 1. **Why Bob Categorically Rejects an Arbitrary Headline Price Cut to $953,308.00:**
    * *Psychological Valuation Anchor:* Bob Trout founded Lily Corporation in 1982 and has operated it for 44 years. In diligence, the family (Lily Trout holding 96.2%, Michael Trout holding 3.8%) explicitly aligned on the **$1,250,000.00 headline enterprise valuation** as their exit price.
@@ -304,7 +340,7 @@ Diligence findings from the site visit, historical tax filings, Marcelo's CPA co
 
 ```
 ====================================================================================================
-COMPARATIVE STRATEGY EVALUATION: RESOLVING UNCERTAINTY #1
+COMPARATIVE STRATEGY EVALUATION: RESOLVING THE FINANCING GAP
 ====================================================================================================
 STRATEGIC PATHWAY         MECHANICAL STRUCTURE        SELLER RECEPTION         REGULATORY / CASH IMPACT
 ----------------------------------------------------------------------------------------------------
@@ -327,11 +363,8 @@ Pre-Closing True-Up         Price: $1,012,908.00.     Bob respects objective   B
 
 ---
 
-### C. Definitive Resolution of Open Uncertainty #2: Physical Inventory Write-Down Mechanics & Asset Realization Scenarios
+### C. Physical Inventory Write-Down Mechanics & Asset Realization Scenarios
 
-The second open uncertainty asks: *"How much will the pre-closing physical inventory count write down the asset value dollar-for-dollar?"*
-
-#### 1. The Five Physical Inventory SKU Classification Buckets
 Five (5) business days prior to closing, the joint count team (Jack Fay, Maggie M, Dave Kling, and an independent CPA) audits and tags every inventory item at 240 S. Broadway across five rigid accounting categories:
 
 ```
@@ -362,9 +395,6 @@ Duplicate Debits              receipt journal entries in QuickBooks.   • Direc
                                                                        from closing purchase price.
 ====================================================================================================
 ```
-
-#### 2. Three Pre-Closing Physical Inventory Count Scenarios
-Depending on the physical findings of the pre-closing audit, the purchase agreement incorporates explicit mathematical adjustments governing the final split between purchase price deduction and seller financing:
 
 ```
 ====================================================================================================
@@ -426,7 +456,7 @@ To bridge the remaining consideration without violating SBA earnout prohibitions
 * **Principal at Month 25:** Compounded principal at dawn of Month 25 = **$579,839.68**.
 * **Post-Standby Amortization:** 10-Year Amortization Schedule (120 monthly payments) at 7.00% per annum:
   $$\text{Monthly Debt Service (Month 25–144)} = \mathbf{\$6,732.40 / \text{month}} \quad (\$80,788.80 / \text{year})$$
-* **The Bilateral 1.35x DSCR Protective Payment Gate & Seller Safeguards:** Payment of monthly debt service is strictly conditioned upon Lily Corporation maintaining a post-debt **Debt Service Coverage Ratio (DSCR) of at least 1.35x** on a trailing twelve-month (TTM) basis. To ensure commercial fairness and overcome Bob Trout's hesitation, this covenant is structured bilaterally with clear seller protections:
+* **The Bilateral 1.35x DSCR Protective Payment Gate & Seller Safeguards:** Payment of monthly debt service is strictly conditioned upon Lily Corporation maintaining a post-debt **Debt Service Coverage Ratio (DSCR) of at least 1.35x** on a trailing twelve-month (TTM) basis:
   * **DSCR $\ge$ 1.35x:** Full monthly principal and interest payment of $6,732.40 is disbursed to Bob Trout.
   * **1.10x $\le$ DSCR < 1.35x (Interest-Only Floor Trigger):** Note 2 automatically converts to **Interest-Only ($3,382.40/month)**. Unpaid principal is deferred to maturity.
   * **DSCR < 1.10x (PIK Capitalization Trigger):** Cash debt service on Note 2 is temporarily suspended and capitalized into note principal as Payment-in-Kind (PIK).
@@ -532,15 +562,12 @@ for 10 years without payments."   it to count as equity. But Note 2 ($506,455)�
 ====================================================================================================
 ```
 
-#### Total 10-Year Seller Realization Analysis (The $2.03 Million Retirement Annuity):
-To provide Bob Trout and his family complete peace of mind, Jack Fay presents the comprehensive 10-year cash realization schedule generated by the restructured transaction:
+#### Total 10-Year Seller Realization Analysis (The $2.02 Million Retirement Annuity):
 * **Day-1 Cash Proceeds at Closing:** **$453,308.00** (Funded directly by Senior SBA loan and buyer equity, less working capital buffer).
 * **10-Year Aurora Facility Lease (NNN):** **$680,000.00** ($5,666.67/month for 120 months paid directly to Bob Trout for the 240 S. Broadway facility).
 * **Note 2 Debt Service (Months 25–144):** **$807,888.00** ($6,732.40/month across 120 amortizing months).
 * **Note 1 Maturity Balloon Payoff (Month 121):** **$79,718.10** ($53,145.40 principal plus $26,572.70 in 10-year simple interest at 5.0%).
 * **TOTAL 10-YEAR CASH REALIZATION TO BOB TROUT:** **$2,020,914.10**.
-
-*The Core Negotiation Takeaway:* Bob Trout is not sacrificing value; he is converting an unfinanceable transaction into a **$2.02M+ retirement cash flow stream** while keeping his 3 shop floor craftsmen employed, his office staff supported, and his building occupied.
 
 ---
 
@@ -786,7 +813,7 @@ Lily's rental fleet of positive-displacement proportioners (CD-250 units and pne
 
 ## XI. Synthesis: Comprehensive Multi-Year Financial Model & Debt Compliance Schedule
 
-The finalized capital and debt service waterfall demonstrates complete financial viability across the multi-year operating horizon, proving full compliance with First American Bank covenants and insulating the enterprise against the Month 25 debt cliff.
+The finalized capital and debt service waterfall demonstrates complete financial viability across the multi-year operating horizon, proving full compliance with bank covenants and insulating the enterprise against the Month 25 debt cliff.
 
 ```
 ====================================================================================================
