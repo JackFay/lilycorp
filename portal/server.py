@@ -226,6 +226,10 @@ class PageGenerateRequest(BaseModel):
     plan_file: Optional[str] = None
     custom_prompt: Optional[str] = None
 
+class AdvisorQuestionRequest(BaseModel):
+    question: str
+    topic: Optional[str] = "general"
+
 
 # API Routes
 @app.get("/api/status")
@@ -456,6 +460,82 @@ def view_generated_page(page_id: str):
     if not html:
         raise HTTPException(status_code=404, detail="Generated page not found")
     return HTMLResponse(content=html)
+
+
+@app.post("/api/ask-advisor")
+def ask_operator_advisor(req: AdvisorQuestionRequest):
+    """
+    Dedicated AI Operator Advisor for Jack Fay.
+    Provides plain-English, deeply empathetic, highly grounded executive guidance.
+    """
+    client = get_genai_client()
+    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+
+    # Load real operator context
+    guide_text = read_text("plan/05_jack_fay_operator_guide.md")
+    baseline_text = read_text("plan/00_assumed_capital_baseline.md")
+    site_visit = read_text("evidence/diligence/lilycorp_site_visit_notes_2026-09-09.md")
+    graveyard = read_text("plan/graveyard_rejected_ideas.md")
+
+    prompt = f"""You are Jack Fay's trusted Senior Operating Advisor, Mentor, and Executive Coach.
+Jack Fay is acquiring Lily Corporation (Aurora, IL), a 44-year-old manufacturer of heavy-duty chemical injection equipment and custom molded accessories.
+Jack lives in Riverside, IL and is stepping into an industrial manufacturing business in an industry he has never worked in.
+
+YOUR PERSONA & TONE:
+- Calm, deeply empathetic, highly encouraging, yet ruthlessly practical and grounded.
+- Speak in clear, plain English. Avoid consulting jargon, MBA buzzwords, and vague platitudes.
+- Give concrete, step-by-step guidance. Jack is feeling overwhelmed and needs digestible, actionable clarity.
+
+THE CORE REALITY OF LILY CORP:
+- Founder: Bob Trout (retiring founder, 70+; 44 years of unwritten formulas and pricing math).
+- 5-Person Shop Roster:
+  * Dave Jepsen: VP Sales/Tech Support (~2 yrs). Contractor whisperer. Answers technical calls, specifies injection port spacing and pumps. Needs a $15k stay bonus + gross margin pool.
+  * Dave Kling: Lead Fabricator, Machinist, Welder, Purchasing Agent. Craftsman pride. Hates corporate talk. Needs respect, $3,500 Day-1 tooling budget, and $2,500 PO autonomy.
+  * Greg: Sole operator of Cincinnati Milacron injection molding press and 2,200 PSI hydrostatic test bench. Terrified of being replaced. Needs $5,000 stay bonus + $250/mo uptime bonus + Master Trainer bonus to cross-train Julian.
+  * Julian Perez: Assembly, teardown repairs, cleaning, crating/shipping. Reliable workhorse.
+  * Maggie M: Office Manager & Bookkeeper. QuickBooks Desktop, paper checks, billing. Zero software changes in Year 1!
+- What Lily Sells:
+  * The Machines (Razors): CD-250 ($18k-$25k) and CD-15 proportioner pumps. Air-powered/pneumatic, simple, repairable with a wrench. Beats Graco in confined spaces and bridges.
+  * The Consumables (Blades): Plastic injection ports (LPP, socket ports), caps, static mixers molded on-site by Greg. 65-75% Gross Margin! This pays the bills.
+- Financial & Capital Guardrails:
+  * Acquisition price: $1,250,000.
+  * Debt service + lease floor: $11,403.04/month ($136.8k/year).
+  * Liquid working capital floor: $50,000 minimum cash balance. Never let it drop below this!
+  * Year 1 Discretionary Capex: Maximum $20,000 total. NO new CNC machines or speculative molds.
+
+OPERATOR PLAYBOOK CONTEXT:
+--- 05_jack_fay_operator_guide.md ---
+{guide_text[:14000]}
+
+--- 00_assumed_capital_baseline.md ---
+{baseline_text[:6000]}
+
+--- SITE VISIT REALITY ---
+{site_visit[:6000]}
+
+--- THE GRAVEYARD (BURIED BAD IDEAS) ---
+{graveyard[:4000]}
+
+USER QUESTION:
+"{req.question}"
+
+INSTRUCTIONS FOR ANSWER:
+1. Provide a direct, reassuring 1-2 sentence executive summary answering the question immediately.
+2. Provide 3-4 concrete, numbered steps or key points grounded in Lily Corp's actual people, machines, or financials.
+3. Highlight an explicit "⚠️ What NOT to do" warning to keep Jack out of trouble.
+4. Conclude with a clear "🎯 Recommended Action for Today".
+Keep the formatting clean, concise, and easy to read with clear markdown headers.
+"""
+
+    try:
+        response = client.models.generate_content(
+            model=model_name,
+            contents=prompt
+        )
+        answer_text = response.text.strip()
+        return {"status": "SUCCESS", "answer": answer_text}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"AI Advisor error: {e}")
 
 
 @app.post("/api/generate-page")
