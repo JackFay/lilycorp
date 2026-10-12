@@ -81,3 +81,18 @@
 * **Approved Alternative Wedge:** Demote formulator private-label packaging (`COMM_152`) to an **unfunded exploratory Year 2 hypothesis**. Focus Year 1 resources on high-certainty, high-margin in-house molded consumables via the Universal Quick-Cam Adapter (`COMM_60`) and pre-formatted contractor submittal packets.
 
 
+
+
+### Concept: BABA / EPA American Iron and Steel Regulatory Protection for Grouting Packers
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cycle #125 Audit)
+* **Autopsy:** Under 23 U.S.C. § 313, 2 CFR Part 184, and EPA CWSRF/DWSRF AIS guidance, domestic preference rules apply strictly to permanent, structural iron and steel products. High-pressure mechanical packers are temporary, sacrificial installation tools that are snapped off or unscrewed and patched flush, making them legally exempt and eligible under standard de minimis provisions. Formulators face zero regulatory compulsion to buy domestic.
+
+
+### Concept: In-House Steel Mechanical Packer Assembly at >=65% Gross Margin
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cycle #125 Audit)
+* **Autopsy:** Formulators source commodity steel packers from Taiwan and China at $0.40-$0.70 landed cost. Sourcing outsourced CNC stems ($0.30-$0.45), rubber sleeves ($0.11), and zerks ($0.085) puts Lily's raw COGS at $0.49-$0.65 before labor, requiring a $1.75 wholesale price to hit 65% gross margin. Furthermore, hand-assembling 60,000 units would consume 240+ hours of Julian Perez's shop time, directly cannibalizing machine assembly and rental fleet turnaround.
+
+
+### Concept: Year 1 Drive-Lok Proprietary Mold Tooling
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cycle #125 Audit)
+* **Autopsy:** Tooling a dedicated multi-cavity injection mold for the Drive-Lok line requires $18,500 in upfront tooling capital, which would consume 92.5% of the total $20,000 Year 1 discretionary capex budget and jeopardize the $50,000 liquid working capital buffer.
