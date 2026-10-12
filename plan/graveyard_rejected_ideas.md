@@ -126,3 +126,38 @@
 ### Concept: Year 1 Drive-Lok Tooling & 150,000-Unit Shop Packaging Capacity
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
 * **Autopsy:** Operationally and financially unfeasible. Sinking $18,500 into new injection molds (Molds #11-13) consumes 92.5% of the entire $20,000 Year 1 discretionary capex budget ahead of winter debt service. Furthermore, kitting, assembling, and bagging 150,000 units would consume over 1,500 shop hours, paralyzing Julian Perez and halting core CD-250 machine rebuilds.
+
+
+### Concept: SBA-Ineligible Contingent Earnout Structure
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** SBA SOP 50 10 (7.1) explicitly prohibits earnouts where purchase price consideration is contingent upon future business performance, gross margin, or revenues. Underwriting a $188,692 gross-margin-tied contingent earnout into an SBA 7(a) capital structure will result in immediate disqualification by Grasshopper Bank and First American Bank credit committees.
+
+
+### Concept: Accounting Fallacy in Sources & Uses Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** A purchase price reduction ($108,000 inventory true-up) cannot be booked as a 'Source of Funds' against an unadjusted $1,250,000 'Base Purchase Price Consideration' in Uses. A price reduction reduces Total Uses to $1,142,000 (plus WC). Listing a non-cash price deduction and deferred future earnout as Day 1 funding sources masks an unresolved closing cash deficit.
+
+
+### Concept: Working Capital Depletion & Liquidity Breach
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** The plan purports to preserve a $50,000 liquid working capital buffer, but immediately encumbers $35,000 into discretionary stay bonuses ($12,500), phone setup ($5,000), tooling ($3,500), press filters ($2,000), and bulk resin ($12,000). This leaves only $15,000 in actual cash liquidity, violating the mandatory $50,000 operational floor required to bridge 30-to-60-day distributor receivables.
+
+
+### Concept: Fictitious $108k Contractual Purchase Price Reduction
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** The draft treats a forensic accounting discrepancy (2024 duplicate entry debit) as a closed commercial agreement, asserting the purchase price was reduced from $1,250,000 to $1,142,000 because the seller's CPA 'admitted' the error in writing. An explanation of a bookkeeping error during diligence is not an agreement by Bob Trout (who is psychologically anchored to a $1.25M valuation) to absorb an outright $108k headline price cut.
+
+
+### Concept: SBA SOP 50 10 Equity Ineligibility (24-Month Standby vs. Life of Loan)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** Jack Fay is injecting only $60,000 (5.03%) in cash against a $1,192,000 project cost. Under SBA SOP 50 10 7.1, if a subordinated seller note is used to meet the required 10% minimum equity injection (funding up to 5% of the project), that note must be on complete standby (no principal or interest payments) for the entire 10-year term of the SBA senior loan, not merely a 24-month standby.
+
+
+### Concept: Contingent 'Reverse Earnout' Standby Note Disqualification
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** Tranche B ($188,692) incorporates a downward performance adjustment tied to a $1.05M gross profit hurdle. SBA regulations strictly forbid debt instruments with contingent earnout features or variable repayment structures tied to post-closing operating metrics from qualifying as stable, subordinated equity injections.
+
+
+### Concept: Unrealistic Lender Underwriting Defense of Restated Negative Cash Flow
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #127 Audit)
+* **Autopsy:** The draft argues that a lender credit committee will accept that restating 2024 CFADS to negative -$32,933 was merely an 'operational anomaly' while simultaneously underwriting $443,308 in senior debt based on unadjusted 2024 numbers. A credit committee presented with a restated -$33k debt service cash flow in the prior fiscal year will not approve standard 10-year senior debt without an unencumbered guarantor or additional cash equity.

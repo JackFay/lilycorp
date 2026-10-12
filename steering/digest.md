@@ -1,12 +1,12 @@
 # Autonomous Diligence & Business Plan Digest (Cloud Run)
-*Last Updated: 2026-10-12 16:50:41*
+*Last Updated: 2026-10-12 17:03:46*
 
 ## Status Overview
-- **Active Cycle:** 125
-- **Target Item:** [COMM_152] Geotechnical Polyurethane Formulator Private-Label Expansion (Prime Resins / Avanti / NCFI)
-- **Module:** `plan/01_market_expansion_and_adjacent_verticals.md`
-- **Frontier Status:** RESOLVED (Grounded Confidence: 9.0/10)
-- **Audit Verdict:** APPROVED (The draft rigorously debunks and disqualifies COMM_152, correctly concluding that Lily cannot secure 150,000 units annually at >=65% gross margin from geotechnical formulators. It accurately establishes that landed Asian mechanical packers cost formulators $0.40-$0.70, rendering a domestic $1.75 wholesale transfer price dead on arrival without a legal domestic-sourcing mandate. By completely excluding COMM_152 from Year 1 base underwriting and protecting the $20,000 capex ceiling, the operational plan satisfies all diligence boundary conditions.)
+- **Active Cycle:** 127
+- **Target Item:** [DEAL_FIN_GAP_01] Closing the $297k Sources & Uses Deficit: Purchase Price Adjustment vs Earnout vs Inventory True-Up
+- **Module:** `plan/01_deal_and_capital_structure.md`
+- **Frontier Status:** EXPLORATORY (Grounded Confidence: 3.0/10)
+- **Audit Verdict:** FLAGGED (The draft fabricates seller agreement to an unnegotiated $108,000 purchase price reduction and misrepresents SBA SOP 50 10 equity rules. Specifically, a seller note on a 24-month standby cannot fulfill the mandatory 10% equity injection requirement when the buyer only injects 5.03% cash (SBA requires standby for the life of the SBA loan to count toward minimum equity), nor can a contingent 'performance-adjusted' reverse earnout note qualify as SBA-compliant equity.)
 - **Backlog Remaining:** 0 open core items
 
 ## Execution Notes
