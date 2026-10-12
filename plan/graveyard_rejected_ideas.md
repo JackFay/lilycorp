@@ -126,3 +126,18 @@
 ### Concept: Year 1 Drive-Lok Tooling & 150,000-Unit Shop Packaging Capacity
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
 * **Autopsy:** Operationally and financially unfeasible. Sinking $18,500 into new injection molds (Molds #11-13) consumes 92.5% of the entire $20,000 Year 1 discretionary capex budget ahead of winter debt service. Furthermore, kitting, assembling, and bagging 150,000 units would consume over 1,500 shop hours, paralyzing Julian Perez and halting core CD-250 machine rebuilds.
+
+
+### Concept: SBA-Ineligible Contingent Earnout Structure
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** SBA SOP 50 10 (7.1) explicitly prohibits earnouts where purchase price consideration is contingent upon future business performance, gross margin, or revenues. Underwriting a $188,692 gross-margin-tied contingent earnout into an SBA 7(a) capital structure will result in immediate disqualification by Grasshopper Bank and First American Bank credit committees.
+
+
+### Concept: Accounting Fallacy in Sources & Uses Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** A purchase price reduction ($108,000 inventory true-up) cannot be booked as a 'Source of Funds' against an unadjusted $1,250,000 'Base Purchase Price Consideration' in Uses. A price reduction reduces Total Uses to $1,142,000 (plus WC). Listing a non-cash price deduction and deferred future earnout as Day 1 funding sources masks an unresolved closing cash deficit.
+
+
+### Concept: Working Capital Depletion & Liquidity Breach
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #126 Audit)
+* **Autopsy:** The plan purports to preserve a $50,000 liquid working capital buffer, but immediately encumbers $35,000 into discretionary stay bonuses ($12,500), phone setup ($5,000), tooling ($3,500), press filters ($2,000), and bulk resin ($12,000). This leaves only $15,000 in actual cash liquidity, violating the mandatory $50,000 operational floor required to bridge 30-to-60-day distributor receivables.
