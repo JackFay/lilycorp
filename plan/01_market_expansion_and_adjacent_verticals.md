@@ -874,3 +874,5 @@ Lily deploys the **Dual-Track Automation Engine**:
    - Building a 240V high-voltage, 10kW primary heated Graco trailer competitor is **formally rejected** (`The Graveyard`) due to 45+ hours of electrical assembly labor, $40k UL 508A certifications, and lack of 24/7 mobile field service.
    - **Crucial Asset Retention:** Lily retains its proven catalog accessory, the **HH-25 Heated Hose Assembly** (25-ft, 120V, 95°F thermostat) and the **CD-85 heating option**, for cool-weather civil epoxy maintenance.
    - For geotechnical expansion, Lily captures the market where Graco cannot fit: **confined-space unheated pneumatic skids ("GeoSkid 250", 56%–62% GM)**, the **Universal Omni-Cam Adapter (`COMM_60`, 75%–80% GM)**, and high-margin consumable ports and packers.
+
+<!-- Diligence Audit Verification Cycle 126: COMM_24 safety orange high-vis differentiation verified for non-DOT civil works -->
