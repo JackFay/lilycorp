@@ -1,12 +1,12 @@
 # Autonomous Diligence & Business Plan Digest (Cloud Run)
-*Last Updated: 2026-10-12 16:50:41*
+*Last Updated: 2026-10-12 19:49:20*
 
 ## Status Overview
-- **Active Cycle:** 125
-- **Target Item:** [COMM_152] Geotechnical Polyurethane Formulator Private-Label Expansion (Prime Resins / Avanti / NCFI)
-- **Module:** `plan/01_market_expansion_and_adjacent_verticals.md`
-- **Frontier Status:** RESOLVED (Grounded Confidence: 9.0/10)
-- **Audit Verdict:** APPROVED (The draft rigorously debunks and disqualifies COMM_152, correctly concluding that Lily cannot secure 150,000 units annually at >=65% gross margin from geotechnical formulators. It accurately establishes that landed Asian mechanical packers cost formulators $0.40-$0.70, rendering a domestic $1.75 wholesale transfer price dead on arrival without a legal domestic-sourcing mandate. By completely excluding COMM_152 from Year 1 base underwriting and protecting the $20,000 capex ceiling, the operational plan satisfies all diligence boundary conditions.)
+- **Active Cycle:** 138
+- **Target Item:** [DEAL_FIN_GAP_01] Closing the $297k Sources & Uses Deficit: Purchase Price Adjustment vs Earnout vs Inventory True-Up
+- **Module:** `plan/01_deal_and_capital_structure.md`
+- **Frontier Status:** EXPLORATORY (Grounded Confidence: 3.0/10)
+- **Audit Verdict:** FLAGGED (The proposed resolution of the $297k financing deficit relies on the ungrounded assumption that Bob Trout will accept a 40% haircut to Day-1 cash consideration while carrying $689k in subordinated paper. Crucially, the draft fails Empirical Diligence Constraint #3, as baseline CFADS ($85k tax basis, dropping to -$33k restated) cannot support the mandatory $11,403.04/month ($136.8k/year) debt service floor. Furthermore, the underwriting structure creates a fatal regulatory paradox by presenting unadjusted 2024 returns to the SBA while using a forensic QoE restatement to reduce the purchase price.)
 - **Backlog Remaining:** 0 open core items
 
 ## Execution Notes
