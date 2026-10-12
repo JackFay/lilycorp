@@ -11,18 +11,18 @@
 * **Purchase Price:** $1,250,000 (Subject to pre-closing inventory reconciliation)
 * **Sources & Uses Statement:**
   * **Uses:**
-    * Purchase Price: $1,250,000
+    * Purchase Price Consideration: $1,250,000
     * Working Capital Cash Injection: $50,000
     * **Total Uses:** **$1,300,000**
   * **Identified Sources:**
-    * Senior SBA 7(a) Loan: $443,308 (10-Year Amortization @ 9.5% = $5,736.37/mo; caps at 1.24x DSCR against 2024 $85k CFADS)
-    * Buyer Cash Equity: $60,000
+    * Senior SBA 7(a) Loan: $443,308 (10-Year Amortization @ 9.5% = $5,736.37/mo; sized against 2024 bank-underwritten CFADS)
+    * Buyer Cash Equity: $60,000 ($10,000 equity injection into purchase price + $50,000 dedicated working capital injection)
     * Seller Promissory Note (Standby): $500,000 (Subordinated on 24-Month Standby, 7.0% annual interest accruing)
     * **Total Sources Identified:** **$1,003,308**
   * **UNFUNDED PRE-CLOSE FINANCING GAP:** **$296,692 (~$297k)**
     * *Gap Resolution (Approved Strategy):* **Gross Margin-Tied Earnout & Inventory True-Up**. The $297k gap is structured as:
       1. A contingent earnout payable solely from realized incremental gross profit above a $1.05M hurdle rate (e.g., 20% of gross margin dollars exceeding baseline); plus
-      2. Dollar-for-dollar reduction from the pre-closing physical inventory count (reconciling 2024/2025 dead stock where ~$92k of legacy inventory accumulated since 1982 is written down to $0).
+      2. Dollar-for-dollar reduction from the pre-closing physical inventory count (reconciling legacy dead stock where ~$92k of inactive parts accumulated since 1982 is written down to $0).
 
 * **Ongoing Post-Close Mandatory Overheads (Months 1–24):**
   * Senior SBA 7(a) Debt Service: $68,836/year ($5,736.37/month)
@@ -30,14 +30,15 @@
   * Jack Fay Owner/GM Living Wage: $100,000/year ($8,333.33/month)
   * **Total Debt Service & Lease Floor (Months 1–24):** **$11,403.04/month (~$136.8k/year)**
   * Total Fixed Owner/Financing Overhead Floor: **$19,736.37/month (~$236.8k/year)** (Debt + Lease + GM Salary)
-  * Net Free Cash Flow Cushion (on 2024 Bank CFADS $85k base): ~$16,164/year ($1,347/month) — requires absolute capex discipline.
+  * Net Free Cash Flow Cushion (on 2024 Bank CFADS $85k base): ~$16,164/year ($1,347/month) — requires absolute operational capex discipline.
 
 * **The Month 25 Seller-Note Protection Covenant (CRITICAL RISK MITIGATION):**
-  * At Month 25, the 24-month SBA standby expires. With 7.0% annual interest accruing compounded annually, the $500,000 seller note compounds to **$572,450** ($500,000 × 1.07²).
-  * On a standard unhedged 5-year or 10-year amortization schedule, added debt service would impose an extra $6,646/month (10-yr @ 7%) to $11,335/month (5-yr @ 7%), which mathematically wipes out baseline cash flow and forces immediate insolvency under any winter volume dip.
+  * At Month 25, the 24-month SBA standby expires. With 7.0% annual interest accruing compounded annually, the $500,000 seller note compounds to **$572,450.00** ($500,000 × 1.07²).
+  * On a standard unhedged 10-year amortization schedule at 7.0%, debt service adds an extra **$6,646.61/month** ($79,759/year). If amortized over 5 years, it adds **$11,335.20/month** ($136,022/year), which mathematically wipes out baseline cash flow and forces insolvency under any winter volume contraction.
   * **Mandatory Deal Term:** Jack Fay **refuses to accept a standard unhedged amortizing seller note**. The purchase agreement must include a **Strict Cash-Flow / DSCR Covenant (1.35x floor)**:
-    * If corporate DSCR in any trailing quarter falls below 1.35x (calculated after senior bank debt, NNN facility lease, and GM salary), seller note principal payments are automatically deferred or converted to interest-only ($3,339.29/month).
-    * Amortization of principal occurs on a 10-year schedule ($6,646/month total P&I) only when trailing 12-month Free Cash Flow Available for Debt Service (CFADS) exceeds $160,000.
+    * If corporate DSCR in any trailing quarter falls below 1.35x (calculated after senior bank debt, NNN facility lease, and GM living wage), seller note principal amortizations are automatically deferred or converted to interest-only ($3,339.29/month).
+    * Amortization of principal occurs on a 10-year schedule ($6,646.61/month total P&I) only when trailing 12-month Free Cash Flow Available for Debt Service (CFADS) exceeds $160,000.
+    * In any downside scenario where trailing cash flow cannot cover senior debt at 1.35x DSCR, seller note payments freeze completely without triggering an event of default or acceleration.
     * No seller note default can be triggered while senior SBA debt remains fully compliant and the cash-flow covenant is in effect.
 
 * **Baseline Financial Performance:**
@@ -91,18 +92,18 @@ Lily Corporation operates with an ultra-lean 5-person non-owner operating team a
 Lily Corporation's revenue does not flow evenly across the calendar year. The company's core end markets—civil bridge deck repair, highway dowel bar retrofit, DOT structural seismic rehabilitation, and commercial concrete crack injection—are strictly outdoor operations dictated by ambient temperature specifications:
 1. **The Q1 Freeze / Winter Shutdown (January – March):**
    * Epoxy resins and structural polyurethanes cannot cure at ambient concrete temperatures below 40°F (4°C) without expensive heated enclosures. IDOT, INDOT, and WisDOT bridge construction shuts down across Illinois, Wisconsin, Iowa, and Indiana from late December through late March.
-   * Contractor purchasing contracts to near-dormant levels. Historical monthly sales drop to a trough of **$70,000 – $95,000/month** in January and February (averaging ~$90,000/mo across Q1), representing roughly **14.5% of annual revenue**.
+   * Contractor purchasing contracts to near-dormant levels. Historical monthly sales drop to a trough of **$70,000 – $95,000/month** in January and February (averaging ~$85,000–$90,000/mo across Q1), representing roughly **14.5% of annual revenue**.
 2. **The Spring Thaw & Project Mobilization (April – May):**
-   * State DOT highway lettings activate, contractors pull equipment from winter storage, order seal overhaul kits, replace lost injection ports, and rent CD-250 proportioners for major bridge deck overlay contracts. Monthly sales jump to **$150,000 – $180,000/month**.
+   * State DOT highway lettings activate, contractors pull equipment from winter storage, order seal overhaul kits, replace lost injection ports, and rent CD-250 proportioners for major bridge deck overlay contracts. Monthly sales jump to **$150,000 – $185,000/month**.
 3. **The Peak Civil Repair Season (June – October):**
    * Maximum construction activity. Highway bridge overlays, airport runway dowel bar grouting, and parking structure deck rehabilitations run on double shifts.
-   * Monthly revenue surges to **$185,000 – $225,000/month** (representing ~55% of annual volume). Consumable injection ports, snappy tees, and static mixers churn at peak margins (70%+).
+   * Monthly revenue surges to **$185,000 – $245,000/month** (representing ~55% of annual volume). Consumable injection ports, snappy tees, and static mixers churn at peak margins (65–75%).
 4. **The Late Autumn Wind-Down (November – December):**
-   * Contractors race to finish highway joints before winter freeze; sales taper from $135,000 in November down to $85,000–$100,000 in December as year-end shutdowns begin.
+   * Contractors race to finish highway joints before winter freeze; sales taper from $145,000 in November down to $85,000–$105,000 in December as year-end shutdowns begin.
 5. **The 45-Day Working Capital Collection Lag (The Cash Squeeze Engine):**
-   * Civil general contractors and national supply houses (White Cap, Sika, Euclid) do not buy on credit cards. Transactions occur against corporate Purchase Orders under **Net 30 to Net 60 payment terms**.
+   * Civil general contractors and national supply houses (White Cap, Sika, Euclid) do not buy on retail credit cards. Transactions occur against corporate Purchase Orders under **Net 30 to Net 60 payment terms**.
    * Average Days Sales Outstanding (DSO) sits between **42 and 52 days**.
-   * *Critical Liquidity Implication:* When sales plummet in December ($95k) and January ($85k), cash collections in February and March drop to catastrophic lows ($80k–$90k), exactly when fixed debt service, NNN rent, GM salary, and shop heating/gas utilities hit full force.
+   * *Critical Liquidity Implication:* When sales plummet in December ($95k–$105k) and January ($75k–$85k), cash collections in February and March drop to catastrophic lows ($75k–$90k), exactly when fixed debt service, NNN rent, GM salary, and shop heating/gas utilities hit full force. Furthermore, material purchases must ramp up in March/April to build stock for the spring rush, causing cash outflows to spike before spring revenue is collected.
 
 ---
 
@@ -154,7 +155,33 @@ To model an accurate monthly 36-month forecast, costs are segregated into fixed 
 
 ---
 
-### 4.3 36-Month Cash Flow Model: Base Case (Normalized $1.90M Year 1 -> $2.05M Year 2 -> $2.15M Year 3)
+### 4.3 Breakeven Cash Flow Analysis & Structural Leverage
+
+Before running the 36-month monthly schedules, the structural cash breakeven of Lily Corporation is derived mathematically:
+
+$$\text{Monthly Cash Breakeven Revenue} = \frac{\text{Fixed Monthly Cash Commitments}}{\text{Contribution Margin Ratio (Blended GM)}}$$
+
+1. **Months 1–24 Breakeven (Senior SBA Debt + Lease + GM Salary + Base Shop Floor):**
+   * Total Fixed Cash Burn: $67,969.70 / month ($815,636.40 / year)
+   * Contribution Margin: 56.5% ($1.00 - $0.435 variable COGS)
+   * **Required Monthly Breakeven Revenue:**
+     $$\text{Breakeven}_{\text{M1--24}} = \frac{\$67,969.70}{0.565} = \mathbf{\$120,299.82\text{ / month}} \quad (\mathbf{\$1,443,598\text{ / year}})$$
+   * *Operational Meaning:* Whenever invoiced monthly revenue falls below **$120,300**, Lily operates at a net cash loss. In Q1 (Jan–Mar), baseline monthly sales average only $85,000 to $105,000, creating an unavoidable winter cash deficit that must be bridged by working capital reserves or peak-season cash retained on the balance sheet.
+
+2. **Months 25–36 Breakeven (Seller Note Fully Amortizing @ $6,646.61/mo):**
+   * Total Fixed Cash Burn: $67,969.70 + $6,646.61 = $74,616.31 / month ($895,395.72 / year)
+   * **Required Monthly Breakeven Revenue:**
+     $$\text{Breakeven}_{\text{M25--36 (Full P\&I)}} = \frac{\$74,616.31}{0.565} = \mathbf{\$132,064.27\text{ / month}} \quad (\mathbf{\$1,584,771\text{ / year}})$$
+
+3. **Months 25–36 Breakeven (Seller Note on Interest-Only @ $3,339.29/mo via Covenant):**
+   * Total Fixed Cash Burn: $67,969.70 + $3,339.29 = $71,308.99 / month ($855,707.88 / year)
+   * **Required Monthly Breakeven Revenue:**
+     $$\text{Breakeven}_{\text{M25--36 (I/O)}} = \frac{\$71,308.99}{0.565} = \mathbf{\$126,210.60\text{ / month}} \quad (\mathbf{\$1,514,527\text{ / year}})$$
+
+---
+
+### 4.4 36-Month Base Case Monthly Cash Flow Forecast
+*(Normalized $1.875M Year 1 $\rightarrow$ $2.020M Year 2 $\rightarrow$ $2.140M Year 3)*
 
 The Base Case assumes steady execution under the 5-person roster, modest price increases (+4% on proprietary molded consumables), expanded CD-250 rental conversions, and strict adherence to the $20,000 Year 1 discretionary capex cap.
 
@@ -177,9 +204,9 @@ The Base Case assumes steady execution under the 5-person roster, modest price i
 | **M12** | Dec | $102,000 | $128,500 | $44,370 | $49,033 | $19,736 | $1,000 | +$14,361 | **$299,047** |
 | **Y1** | **TOTAL**| **$1,875,000**| **$1,882,700**| **$775,625**| **$581,196**| **$236,836**| **$20,000**| **+$249,047**| **$299,047** |
 
-*Key Year 1 Takeaways:*
-* The $50k buffer reaches its absolute perilous low in **Month 4 (April) at $7,219**! This proves that while Q1 sales are weak, the working capital bottom occurs in Month 4 because material purchases surge to prepare for spring production while AR collections still lag from the depressed Q1 winter volume.
-* Cumulative Year 1 discretionary capex is rigidly capped at **$20,000** ($3,500 machinist tooling, $4,500 press maintenance/barrel heater bands, $4,000 hydro-test fixture safety rebuild, $8,000 shop safety and computer/QuickBooks hardware upgrades).
+*Year 1 Observations:*
+* The $50k buffer reaches its absolute lowest point in **Month 4 (April) at $7,219**. The liquidity trough occurs not in January or February, but in April: while sales rebound in April ($155k), material purchases ramp up immediately, while cash collected ($120.5k) still reflects the low invoiced volume of February ($78k) and March ($105k) due to 45-day AR lag.
+* Capex is rigidly restricted to $20,000 across Year 1 ($3,500 machinist tooling, $4,500 press maintenance/barrel heater bands, $4,000 hydro-test fixture safety rebuild, $8,000 shop safety and computer/QuickBooks hardware upgrades).
 * By Month 12, Lily generates **$249,047 in net operating cash accretion**, building ending liquidity to **$299,047**.
 
 ---
@@ -203,17 +230,17 @@ The Base Case assumes steady execution under the 5-person roster, modest price i
 | **M24** | Dec | $115,000 | $140,500 | $49,450 | $49,500 | $19,736 | $1,500 | +$20,314 | **$607,315** |
 | **Y2** | **TOTAL**| **$2,020,000**| **$2,019,000**| **$868,600**| **$587,300**| **$236,836**| **$28,500**| **+$297,764**| **$607,315** |
 
-*Key Year 2 Takeaways:*
-* The business achieves deep balance sheet safety. The winter cash drawdown in M14–M16 is absorbed without distress due to the $299k cash reserve accumulated in Year 1.
-* Standby Seller Note reaches the end of Month 24. Compounded seller note balance = **$572,450**.
-* Total year-end liquid cash equals **$607,315**.
+*Year 2 Observations:*
+* The business achieves deep balance sheet safety. The winter cash drawdown in M14–M16 (-$41,848 cumulative) is effortlessly absorbed by the $299k cash reserve accumulated in Year 1.
+* Standby Seller Note reaches the end of Month 24. Compounded seller note balance = **$572,450.00**.
+* Total year-end liquid cash reaches **$607,315.00**, providing substantial debt service protection.
 
 ---
 
 #### Year 3 Monthly Cash Flow Forecast (Months 25–36: The Seller Note Unfreezing)
 *Starting Cash Balance: **$607,315**. Target Revenue: **$2,140,000**.*
-*Seller Note Terms Activated: Month 25. Standby expires. Under Base Case, Trailing DSCR comfortably clears 1.35x. Full 10-year amortization begins at **$6,646.61/month** ($79,759/year).*
-*New Combined Debt, Lease & GM Floor: $11,403.04 + $8,333.33 + $6,646.61 = **$26,382.98/month**.*
+*Seller Note Terms Activated: Month 25. Standby expires. Compounded Note = $572,450.00. Under Base Case, Trailing CFADS is ~$205,000, clearing the 1.35x covenant hurdle ($148,595 debt service × 1.35 = $200,603). Full 10-year amortization begins at **$6,646.61/month** ($79,759/year).*
+*New Combined Debt, Lease & GM Floor: $11,403.04 (SBA + Rent) + $8,333.33 (GM) + $6,646.61 (Seller Note) = **$26,382.98/month**.*
 
 | Month | Cal Month | Invoiced Revenue | Cash Collected (45d Lag) | Variable COGS (43.0%) | Fixed Shop & Payroll | Mandatory Floor + Note | Capex & Tooling Alloc | Net Monthly Cash Flow | Ending Cash Buffer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -231,16 +258,20 @@ The Base Case assumes steady execution under the 5-person roster, modest price i
 | **M36** | Dec | $120,000 | $149,000 | $51,600 | $50,500 | $26,383 | $2,000 | +$18,517 | **$888,119** |
 | **Y3** | **TOTAL**| **$2,140,000**| **$2,138,500**| **$920,200**| **$599,100**| **$316,596**| **$33,000**| **+$269,604**| **$888,119** |
 
+*Year 3 Observations:*
+* The addition of $6,646.61/month in seller debt service is fully absorbed under Base Case volume.
+* Ending cash at Month 36 stands at **$888,119.00**, providing Jack Fay with complete financial autonomy, capacity to self-fund future mold tooling (Molds #11–13), and the option to prepay senior debt or buy out the seller note at a discount.
+
 ---
 
-### 4.4 Stress-Tested Downside Scenario: -15% Macro Infrastructure Contraction
+### 4.5 Stress-Tested Downside Scenario: Complete 36-Month Monthly Forecast (-15% Revenue Contraction)
 
-What happens if civil infrastructure demand drops sharply—identical to the 2024 revenue contraction when Lily dropped to ~$1.60M due to delayed DOT bridge projects, federal highway fund authorization freezes, and severe winter freezes?
+What happens if civil infrastructure demand drops sharply across the entire 3-year acquisition period—mirroring the 2024 revenue contraction when Lily dropped to ~$1.60M due to delayed DOT bridge projects, interest-rate driven municipal deferrals, and severe winter freezes?
 
 *Downside Assumptions:*
 1. Revenue drops **15.0% across all 36 months** relative to baseline.
    * Year 1 Downside Revenue: **$1,593,750** (~$1.60M, matching the actual historical 2024 P&L).
-   * Year 2 Downside Revenue: **$1,620,000**.
+   * Year 2 Downside Revenue: **$1,617,000**.
    * Year 3 Downside Revenue: **$1,650,000**.
 2. Mandatory Cash Overheads remain non-negotiable:
    * Senior SBA Debt: $5,736.37/mo
@@ -248,8 +279,9 @@ What happens if civil infrastructure demand drops sharply—identical to the 202
    * Jack Fay GM Salary: $8,333.33/mo
    * Total Floor: **$19,736.37/month** ($236.8k/yr).
 3. Starting Cash Injection: **$50,000.00**.
+4. Discretionary capex is immediately slashed to mandatory barebones facility/equipment maintenance ($500–$1,000/mo).
 
-#### Year 1 Downside Monthly Cash Flow (The Cold Reality)
+#### Year 1 Downside Monthly Cash Flow (Months 1–12: Raw Unmitigated Liquidity Crisis)
 
 | Month | Cal Month | Invoiced (-15%) | Collections (45d Lag) | Variable COGS (43.5%) | Fixed Shop & Payroll | Debt, Rent & GM Floor | Barebones Maint | Net Monthly Cash Flow | Ending Cash Buffer (Unmitigated) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -265,35 +297,95 @@ What happens if civil infrastructure demand drops sharply—identical to the 202
 | **M10** | Oct | $153,000 | $161,925 | $66,555 | $48,233 | $19,736 | $1,000 | +$26,391 | **+$107,941** |
 | **M11** | Nov | $123,250 | $142,375 | $53,614 | $48,233 | $19,736 | $1,000 | +$19,792 | **+$127,733** |
 | **M12** | Dec | $86,700 | $109,225 | $37,715 | $49,033 | $19,736 | $500 | +$2,241 | **+$129,974** |
+| **Y1** | **TOTAL**| **$1,593,750**| **$1,600,325**| **$693,283**| **$581,196**| **$236,836**| **$10,000**| **+$78,974**| **$129,974** |
 
 ---
 
-### 4.5 Winter Cash Burn Mechanics & $50k Buffer Stress Analysis
+#### Year 2 Downside Monthly Cash Flow (Months 13–24: Mitigated Operations)
+*Assumes Year 1 Operational Levers executed, entering Year 2 with **$146,189** actual mitigated cash buffer.*
+*Invoiced Revenue: **$1,617,000**.*
 
-#### The Brutal Answer to Frontier Uncertainty [FIN_CASHFLOW_36M_05]:
+| Month | Cal Month | Invoiced (-15%) | Collections (45d Lag) | Variable COGS (43.5%) | Fixed Shop & Payroll | Debt, Rent & GM Floor | Barebones Maint | Net Monthly Cash Flow | Ending Cash Buffer |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **M13** | Jan | $78,200 | $95,200 | $34,017 | $49,033 | $19,736 | $1,000 | -$8,586 | **$137,603** |
+| **M14** | Feb | $72,250 | $79,900 | $31,429 | $49,033 | $19,736 | $1,000 | -$21,298 | **$116,305** |
+| **M15** | Mar | $97,750 | $81,600 | $42,521 | $48,233 | $19,736 | $1,000 | -$29,890 | **$86,415** |
+| **M16** | Apr | $142,800 | $110,925 | $62,118 | $48,233 | $19,736 | $1,000 | -$20,162 | **$66,253** |
+| **M17** | May | $170,000 | $149,600 | $73,950 | $48,233 | $19,736 | $1,000 | +$6,681 | **$72,934** |
+| **M18** | Jun | $195,500 | $179,350 | $85,043 | $48,233 | $19,736 | $1,000 | +$25,338 | **$98,272** |
+| **M19** | Jul | $191,250 | $192,100 | $83,194 | $48,233 | $19,736 | $1,000 | +$39,937 | **$138,209** |
+| **M20** | Aug | $199,750 | $194,225 | $86,891 | $48,233 | $19,736 | $1,000 | +$38,365 | **$176,574** |
+| **M21** | Sep | $178,500 | $189,975 | $77,648 | $48,233 | $19,736 | $1,000 | +$43,358 | **$219,932** |
+| **M22** | Oct | $161,500 | $172,125 | $70,253 | $48,233 | $19,736 | $1,000 | +$32,903 | **$252,835** |
+| **M23** | Nov | $131,750 | $151,725 | $57,311 | $48,233 | $19,736 | $1,000 | +$25,445 | **$278,280** |
+| **M24** | Dec | $97,750 | $119,425 | $42,521 | $49,033 | $19,736 | $1,000 | +$7,135 | **$285,415** |
+| **Y2** | **TOTAL**| **$1,617,000**| **$1,616,150**| **$703,395**| **$581,196**| **$236,836**| **$12,000**| **+$82,723**| **$285,415** |
+
+*Year 2 Downside Observations:*
+* Because the Year 1 cash buffer was successfully defended and grew to $146k, the Year 2 winter drawdown is absorbed with zero threat of insolvency (lowest cash balance is **$66,253 in Month 16**).
+* Total ending cash at Month 24 reaches **$285,415**.
+
+---
+
+#### Year 3 Downside Monthly Cash Flow (Months 25–36: The Covenant Activation)
+*Starting Cash Balance: **$285,415**. Downside Revenue: **$1,650,000**.*
+*Seller Note Standby Expires at Month 25 ($572,450 balance). Downside DSCR Test:*
+* Trailing 12-Month EBITDA: ~$235,000.
+* Minus NNN Lease ($68,000), GM Living Wage ($100,000), Barebones Capex ($12,000) = **$55,000 CFADS**.
+* Senior SBA Debt Service alone: $68,836/year.
+* Senior DSCR: $\$55,000 / \$68,836 = \mathbf{0.80\times}$ (< 1.35x hurdle!).
+* **COVENANT ENFORCEMENT:** The 1.35x DSCR Protective Covenant triggers automatically:
+  * Full P&I ($6,646.61/mo) is **BLOCKED**.
+  * Interest-Only ($3,339.29/mo) is **BLOCKED** from mandatory cash outflow; interest compounds/PIKs to note balance.
+  * Mandatory debt outflow remains strictly the Senior SBA Loan ($5,736.37/mo). Total mandatory floor remains **$19,736.37/mo**.
+
+| Month | Cal Month | Invoiced (-15%) | Collections (45d Lag) | Variable COGS (43.5%) | Fixed Shop & Payroll | Mandated Floor (Note Frozen) | Barebones Maint | Net Monthly Cash Flow | Ending Cash Buffer |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **M25** | Jan | $80,000 | $97,500 | $34,800 | $49,500 | $19,736 | $1,000 | -$7,536 | **$277,879** |
+| **M26** | Feb | $74,000 | $81,500 | $32,190 | $49,500 | $19,736 | $1,000 | -$20,926 | **$256,953** |
+| **M27** | Mar | $100,000 | $83,300 | $43,500 | $48,700 | $19,736 | $1,000 | -$29,636 | **$227,317** |
+| **M28** | Apr | $145,000 | $113,000 | $63,075 | $48,700 | $19,736 | $1,000 | -$19,511 | **$207,806** |
+| **M29** | May | $173,000 | $152,000 | $75,255 | $48,700 | $19,736 | $1,000 | +$7,309 | **$215,115** |
+| **M30** | Jun | $199,000 | $182,500 | $86,565 | $48,700 | $19,736 | $1,000 | +$26,500 | **$241,615** |
+| **M31** | Jul | $195,000 | $195,500 | $84,825 | $48,700 | $19,736 | $1,000 | +$41,239 | **$282,854** |
+| **M32** | Aug | $203,000 | $197,600 | $88,305 | $48,700 | $19,736 | $1,000 | +$39,859 | **$322,713** |
+| **M33** | Sep | $182,000 | $193,500 | $79,170 | $48,700 | $19,736 | $1,000 | +$44,894 | **$367,607** |
+| **M34** | Oct | $165,000 | $175,500 | $71,775 | $48,700 | $19,736 | $1,000 | +$34,289 | **$401,896** |
+| **M35** | Nov | $135,000 | $155,000 | $58,725 | $48,700 | $19,736 | $1,000 | +$26,839 | **$428,735** |
+| **M36** | Dec | $99,000 | $122,000 | $43,065 | $49,500 | $19,736 | $1,000 | +$8,700 | **$437,435** |
+| **Y3** | **TOTAL**| **$1,650,000**| **$1,648,900**| **$717,750**| **$587,300**| **$236,836**| **$12,000**| **+$95,014**| **$437,435** |
+
+*Year 3 Downside Observations:*
+* The 1.35x DSCR Protective Covenant shields the company from an unpayable $79,759 debt service burden. Because the covenant holds, the business remains solvent, pays senior bank debt without delinquency, and closes Year 3 with **$437,435 in liquid cash reserves**.
+
+---
+
+### 4.6 Winter Cash Burn Mechanics & $50k Buffer Stress Analysis
+
+#### The Definitive Answer to Frontier Uncertainty [FIN_CASHFLOW_36M_05]:
 > **"How many months of winter cash burn can the $50,000 buffer withstand without an operating line of credit?"**
 
 1. **Unmitigated Downside Runway: Exactly 2.4 Months.**
-   * As demonstrated in the Downside Table above, under an unmitigated -15% revenue drop and normal winter seasonality, the initial $50,000 cash injection drops to **$38,552 at Month 1**, collapses to **$15,667 at Month 2**, and crosses into a fatal liquidity deficit (**-$16,656**) by **Day 15 of Month 3 (mid-March)**!
+   * As proven in Section 4.5 (Year 1 Downside Table), under an unmitigated -15% macro downturn, the initial $50,000 cash injection depletes to **$38,552 at Month 1 (Jan 31)**, drops to **$15,667 at Month 2 (Feb 28)**, and crosses into a fatal negative liquidity deficit (**-$16,656**) by **Day 15 of Month 3 (mid-March)**.
    * The trough bottoms out in **Month 4 (April) at a cumulative negative cash balance of -$40,511**.
-   * *Conclusion:* Under a raw winter downturn without operational intervention, **a $50,000 working capital buffer CANNOT survive the Midwest civil construction winter shutdown alone**.
+   * *Conclusion:* Under a raw winter downturn without active operational intervention, **a $50,000 working capital buffer CANNOT survive the Midwest civil construction winter shutdown alone**.
 
-2. **The 4 Operational Liquidity Levers to Survive Winter Without Involuntary Insolvency:**
-   To guarantee survival without external rescue capital, Jack Fay must execute four specific, pre-programmed operational controls between November 1 and April 1:
+2. **The 4 Operational Liquidity Levers to Guarantee Winter Survival:**
+   To guarantee survival without external rescue capital, Jack Fay must execute four specific, pre-programmed operational controls between November 1 and April 1 of Year 1:
 
-   * **Lever 1: The Counter-Cyclical Shop Inventory Drawdown (Cash Generation: +$25,000):**
+   * **Lever 1: The Counter-Cyclical Shop Inventory Drawdown (Cash Generation: +$18,500 across Q1):**
      * Lily holds over $500,000 in raw parts, fittings, steel, and resin pellets on-site. In Q1, direct raw material purchases are **frozen by 40%**.
-     * Dave Kling and Greg use existing shop stock to assemble standard CD-15 pumps and replenish high-runner LPP ports rather than issuing new vendor POs. Monthly variable cash outflows drop by $8,000–$10,000/month during Jan–March.
-   * **Lever 2: Owner/GM Salary Temporary Flex / Deferral (Cash Preservation: +$12,500):**
-     * Jack Fay’s $8,333/month salary is contractually structured with a 50% winter deferral trigger. If ending liquidity dips below $25,000, Jack draws $4,166/month, accruing the remainder as a corporate payable paid out in June–August.
+     * Dave Kling and Greg use existing shop stock to assemble standard CD-15 pumps and replenish high-runner LPP ports rather than issuing new vendor POs. Monthly variable cash outflows drop by $6,000–$6,500/month during Jan–March.
+   * **Lever 2: Owner/GM Salary Temporary Flex / Deferral (Cash Preservation: +$12,500 across Q1):**
+     * Jack Fay’s $8,333/month salary is contractually structured with a 50% winter deferral trigger. If ending liquidity dips below $25,000, Jack draws $4,166.67/month, accruing the remaining $4,166.66/month as a corporate payable paid out in June–August.
    * **Lever 3: Overtime Freeze & Pre-Build Scheduling (Cash Preservation: +$6,000):**
      * Shop direct labor is strictly capped at standard 40-hour weeks. Zero overtime is permitted from Dec 1 to March 31.
-   * **Lever 4: Aggressive Pre-Winter AR Collections Acceleration (Cash Inflow: +$18,000):**
-     * In October and November, Maggie M institutes a 2% 10-day early-payment cash discount for top distributor accounts (White Cap, Sika) on year-end stocking orders. This accelerates $45,000 of cash collections into December/January rather than waiting for 60-day February collection cycles.
+   * **Lever 4: Aggressive Pre-Winter AR Collections Acceleration (Cash Inflow: +$15,000):**
+     * In October and November, Maggie M institutes a 2% 10-day early-payment cash discount for top distributor accounts (White Cap, Sika) on year-end stocking orders. This accelerates $40,000+ of cash collections into December/January rather than waiting for 60-day February collection cycles.
 
 ```
 +---------------------------------------------------------------------------------------------------+
-| SUMMARY OF MITIGATED WINTER SURVIVAL RUNWAY (DOWNSIDE -15% SCENARIO)                             |
+| SUMMARY OF MITIGATED WINTER SURVIVAL RUNWAY (DOWNSIDE -15% SCENARIO - YEAR 1)                     |
 +---------------------------------------------------------------------------------------------------+
 | Baseline Month 3 Cash Deficit (Unmitigated)                       | -$16,656                      |
 | Add: Q1 Raw Purchasing Freeze (Draw from on-hand stock)           | +$18,500                      |
@@ -304,9 +396,11 @@ What happens if civil infrastructure demand drops sharply—identical to the 202
 +---------------------------------------------------------------------------------------------------+
 ```
 
+With these 4 levers deployed, Lily never drops below **$16,215 in cash**, surviving the winter trough entirely out of internal cash flow without default.
+
 ---
 
-### 4.6 Month 25 Seller Note Unfreezing & 1.35x DSCR Covenant Stress Mechanics
+### 4.7 Month 25 Seller Note Unfreezing & 1.35x DSCR Covenant Stress Mechanics
 
 At Month 25, the 24-month standby agreement mandated by SBA guidelines expires. The $500,000 subordinated note, bearing 7.0% annual interest, compounds to **$572,450.00**.
 
@@ -330,11 +424,11 @@ $$\text{DSCR} = \frac{\text{Net Operating Income (EBITDA)} - \text{NNN Lease} - 
   * As summer revenues surge in Q2/Q3 of Year 3, DSCR rises to >1.85x, automatically reinstating full 10-year principal amortization without requiring lender or seller renegotiation.
 
 #### Scenario B: Downside Performance (-15% Revenue Contraction in Year 3)
-* Trailing 12-Month EBITDA: ~$225,000
-* Minus NNN Lease ($68k) & GM Salary ($100k) & Barebones Capex ($15k): $42,000 CFADS
+* Trailing 12-Month EBITDA: ~$235,000
+* Minus NNN Lease ($68k) & GM Salary ($100k) & Barebones Capex ($12k): $55,000 CFADS
 * Senior SBA Debt Service: $68,836/year
 * **Senior Debt Coverage Alone:**
-  $$\text{DSCR}_{\text{Senior}} = \frac{\$42,000}{\$68,836} = 0.61\times \quad (\text{Severe Stress})$$
+  $$\text{DSCR}_{\text{Senior}} = \frac{\$55,000}{\$68,836} = \mathbf{0.80\times} \quad (\text{Severe Stress})$$
 * **The Covenant Enforcement:**
   * Under the 1.35x DSCR covenant, **Seller Note principal AND interest payments are 100% frozen on Standby**.
   * Zero cash leaves the company toward Bob Trout's note until corporate CFADS recovers above 1.35x senior debt service.
@@ -342,7 +436,7 @@ $$\text{DSCR} = \frac{\text{Net Operating Income (EBITDA)} - \text{NNN Lease} - 
 
 ---
 
-### 4.7 Working Capital Protection Playbook & Operating Line of Credit (LOC) Strategy
+### 4.8 Working Capital Protection Playbook & Operating Line of Credit (LOC) Strategy
 
 While operational mitigations allow survival on paper, operating a $1.9M manufacturing company with only $7,200 to $16,000 in trough cash cushion leaves zero margin for equipment breakdowns (e.g., an unexpected $12k injection press hydraulic pump replacement or screw barrel seizure).
 
