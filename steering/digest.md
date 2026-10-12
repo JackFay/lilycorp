@@ -1,15 +1,26 @@
-# Autonomous Diligence & Business Plan Digest (Cloud Run)
-*Last Updated: 2026-10-11 02:33:26*
+# Autonomous Diligence & Business Plan Digest
+*Last Updated: 2026-10-11 21:29:39*
 
 ## Status Overview
-- **Active Cycle:** 23
-- **Latest Refined Module:** `plan/04_shop_floor_modernization_and_capacity.md`
-- **Confidence Score:** 9/10
-- **Total Backlog Items:** 49 (2 newly spawned)
-- **Committee Verdict:** An exceptional, battle-tested operational blueprint that rigorously balances shop floor feasibility, microeconomic margin protection, capital discipline, and customer adoption realities for Lily Corporation.
+- **Active Cycle:** 116
+- **Target Item:** [DEAL_NOTE_CLIFF_02] Modeling & Negotiating the Month 25 Seller Note Debt Cliff ($570k Accrued Principal vs $85k CFADS)
+- **Module:** `plan/01_deal_and_capital_structure.md`
+- **Evaluation Score:** **94/100** (Baseline: 52/100, Delta: +42)
+- **Frontier Status:** RESOLVED
 
-## Product & Operating Committee Perspectives
-* **Shop Floor Feasibility (Dave K/Bob):** Dave Kling and Julian Perez's capacity is protected with exceptional rigor. Relegating chemical blending entirely off-site eliminates an otherwise catastrophic $80k–$120k Class 1 Div 1 hazmat facility capex and regulatory overhead at 240 S. Broadway. The tooling PM schedule, shot counters, and $0.015/shot accrual directly solve the erratic $19k–$32k Account 5440 spikes seen in 2024–2025. The mechanical BOMs for both the OPER_10/20 rotary indexer ($4,384 combined) and the OPER_30 vibratory bowl assembly ($13,420) are disciplined, fully itemized with off-the-shelf COTS components (SMC, Bimba, AutomationDirect, ADI), and can be fabricated by Dave Kling without disrupting machine shop flow. Clarification is required on the transition timeline between the OPER_10 rotary indexer and the OPER_30 vibratory bowl: ensure the shop does not build OPER_10 only to immediately mothball it if OPER_30 is commissioned concurrently.
-* **Contractor Adoption (Dave J):** The 100% inline 50-PSI decay test (OPER_20) gives Dave Jepsen an unassailable commercial sales weapon against generic low-cost ports: zero chemical backflow blowouts on bridge decks. Furthermore, the SafePurge-Citrus sub-zero reformulation with 4.5% DPM solves a legitimate winter pain point where civil contractors face frozen sludge in unheated trailers or multi-day PFF carrier embargoes during emergency cold-weather repairs. The $1,250 Emergency Pelican Swap service for rental rigs directly aligns with bridge contractors desperate to avoid state DOT liquidated damages of $5,000+/hour for missed lane-closure windows.
-* **Unit Economics & Margin:** The unit economics are rock-solid and preserve Lily's core profitability. Maintaining in-house molding operations captures 82% to 94% gross margin on bare ports ($0.0289 COGS vs. $0.65 wholesale / $1.10 direct), avoiding the $0.115–$0.180 toller margin penalty while establishing pre-qualified hot-standby molders for disaster recovery. Bulk Gaylord sourcing and closed-loop regrind yield +$26,400/yr direct EBITDA on Account 5120. Private-label tolling of SafePurge and LubeCoat captures 63.7%–65.8% gross margins ($99.9k–$182.6k gross profit) with zero inventory footprint in Aurora. The combined payback period of 1.5 months across the $22,720 modular capex makes this a high-return turnaround deployment.
-* **Competitive Moat:** This operational blueprint builds a structural moat against Graco and chemical formulators (ChemCo/Sika). Graco sells generalized, heavy proportioners with complex fluid sections that take days to service; Lily’s CD-250 Quick-Swap modular wet-end (90-minute turnaround) creates field uptime stickiness. ChemCo sells raw chemicals but ignores port assembly defects and purge freezing logistics; Lily controls the closed consumable loop (tested Drive-Lok ports, sub-zero stabilized flush, and high-pressure proportioners).
+## Category Scores
+- Capital & Liquidity Feasibility: 23/25
+- Shop Floor & Labor Realism: 24/25
+- Commercial & Contractor Truth: 20/20
+- Financial & Diligence Rigor: 14/15
+- Document Fidelity & Completeness: 13/15
+
+## Critic Summary Verdict
+Outstanding operational plan that soundly defeats the baseline score (52/100). It establishes legally and mathematically robust protections against the Month 25 seller debt cliff while respecting every operational and budgetary boundary.
+
+## Key Strengths Added
+- Flawlessly structures the Month 25 debt cliff resolution with a 10-year post-standby amortization schedule ($6,646.65/mo) protected by a multi-tiered 1.35x DSCR covenant (with I/O and PIK automatic conversion triggers and explicit default immunity).
+- Adheres strictly to the $20,000 Year 1 discretionary Capex ceiling and explicitly freezes speculative tooling initiatives (Molds #11-13).
+- Detailed shop floor roster accurately accounts for all key personnel (Dave Kling, Greg, Dave Jepsen, Julian Perez, Maggie M, Bob Trout) with retention packages aligned to tribal knowledge preservation.
+- Bridges the exact $296,692 Sources & Uses deficit via a $108,000 certified pre-closing inventory deduction and a $188,692 gross margin-tied subordinated earnout.
+- Comprehensive proprietary asset register incorporating Molds T-01 through T-10 with detailed cavity specs, resin types, and replacement costs.
