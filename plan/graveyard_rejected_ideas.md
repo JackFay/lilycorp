@@ -96,3 +96,18 @@
 ### Concept: Year 1 Drive-Lok Proprietary Mold Tooling
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cycle #125 Audit)
 * **Autopsy:** Tooling a dedicated multi-cavity injection mold for the Drive-Lok line requires $18,500 in upfront tooling capital, which would consume 92.5% of the total $20,000 Year 1 discretionary capex budget and jeopardize the $50,000 liquid working capital buffer.
+
+
+### Concept: Geotechnical Formulator Private-Label Packer Bundling (COMM_152)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Formulators like Avanti, Prime Resins, and NCFI purchase generic mechanical packers and hammer-in ports from overseas wholesale supply chains at $0.45 to $0.65 landed. Lily's domestic sub-tier machining and assembly COGS is $0.55 per unit, requiring a $1.75 wholesale price to achieve a 65% gross margin. Formulators will not dilute their own 60%-75% distribution margins or accept a 200%+ price premium for sacrificial commodity hardware.
+
+
+### Concept: BABA and EPA AIS Domestic Regulatory Mandate for Chemical Packers
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Federal domestic preference rules under FHWA BABA and EPA AIS apply strictly to permanent structural iron and steel products integrated into civil infrastructure. Mechanical packers and bang-in ports are temporary sacrificial installation aids where the zerk is snapped off and the drill hole patched over with cement, rendering them exempt from domestic origin certification requirements.
+
+
+### Concept: Classification of Unvalidated Hardware (GeoSkid 250 & Omni-Cam) as Core Underwritten Baseline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #125 Audit)
+* **Autopsy:** Treating unbuilt machine skids and prototype quick-cam adapters as guaranteed baseline cash flow violates the $11,403.04/month senior debt service floor constraint. While low capex (<$1,500 to <$3,000), these represent exploratory commercial growth vectors that cannot be counted toward fixed debt coverage until purchase orders and dynamic pressure seal tests are empirically validated in the field.
