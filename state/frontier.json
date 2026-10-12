@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 145,
+  "active_cycle": 146,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -24,9 +24,9 @@
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 145,
       "last_audit_timestamp": "2026-10-12 21:33:40",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/24",
-      "github_auto_merged": false,
-      "github_pr_number": 24
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/25",
+      "github_auto_merged": true,
+      "github_pr_number": 25
     },
     {
       "id": "DEAL_NOTE_CLIFF_02",
@@ -62,10 +62,12 @@
         "What is the exact net working capital target in the purchase agreement?"
       ],
       "target_plan_file": "plan/01_deal_and_capital_structure.md",
-      "confidence_score": 6,
-      "status": "REFINED",
+      "confidence_score": 8.0,
+      "status": "RESOLVED",
       "priority": "CRITICAL",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 146,
+      "last_audit_timestamp": "2026-10-12 21:48:14"
     },
     {
       "id": "OPER_ROSTER_RETENTION_04",
