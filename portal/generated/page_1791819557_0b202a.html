@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adversarial Red-Team Stress Test | COMM_152 Geotechnical Formulator Private-Label Expansion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #090c15;
+      --bg-secondary: #0f172a;
+      --bg-card: rgba(255, 255, 255, 0.035);
+      --bg-card-hover: rgba(255, 255, 255, 0.06);
+      --border-card: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(244, 63, 94, 0.3);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --rose: #f43f5e;
+      --rose-glow: rgba(244, 63, 94, 0.15);
+      --orange: #ff6b35;
+      --cyan: #00e5ff;
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --purple: #a855f7;
+      --font-display: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 10% 15%, rgba(244, 63, 94, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(255, 107, 53, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(15, 23, 42, 0.6) 0%, transparent 100%);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* Header Nav */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-card);
+      margin-bottom: 24px;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-card);
+      border-radius: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-main);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .brand-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+    }
+
+    .brand-title span {
+      color: var(--orange);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--border-card);
+      color: var(--text-main);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-danger {
+      background: rgba(244, 63, 94, 0.15);
+      border-color: var(--rose);
+      color: #fecdd3;
+    }
+
+    .btn-danger:hover {
+      background: rgba(244, 63, 94, 0.25);
+    }
+
+    /* Executive Alert Banner */
+    .alert-banner {
+      background: linear-gradient(135deg, rgba(244, 63, 94, 0.15) 0%, rgba(15, 23, 42, 0.9) 100%);
+      border: 1px solid var(--rose);
+      box-shadow: 0 0 25px rgba(244, 63, 94, 0.12);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .alert-icon-box {
+      width: 56px;
+      height: 56px;
+      background: rgba(244, 63, 94, 0.2);
+      border: 1px solid var(--rose);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      color: var(--rose);
+    }
+
+    .alert-content h2 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .badge-critical {
+      background: var(--rose);
+      color: #fff;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
+    }
+
+    .alert-content p {
+      color: #cbd5e1;
+      font-size: 0.925rem;
+      max-width: 900px;
+    }
+
+    .alert-meta {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .meta-tag {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+
+    .meta-val {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fca5a5;
+    }
+
+    /* Grid Layout */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    /* Glass Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 12px;
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text-main);
+    }
+
+    .card-title .badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .badge-diligence {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #6ee7b7;
+    }
+
+    .badge-exploratory {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fcd34d;
+    }
+
+    .badge-redteam {
+      background: rgba(244, 63, 94, 0.15);
+      border: 1px solid rgba(244, 63, 94, 0.4);
+      color: #fda4af;
+    }
+
+    /* Tabs */
+    .tabs-nav {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-card);
+      padding-bottom: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .tab-btn.active {
+      color: #fff;
+      background: rgba(244, 63, 94, 0.2);
+      border: 1px solid rgba(244, 63, 94, 0.5);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Autopsy Table & Lists */
+    .autopsy-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-left: 3px solid var(--rose);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      transition: all 0.2s;
+    }
+
+    .autopsy-item:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(244, 63, 94, 0.3);
+    }
+
+    .autopsy-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .assumption-name {
+      font-weight: 700;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+
+    .flaw-rating {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--rose);
+      text-transform: uppercase;
+    }
+
+    .autopsy-body {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .reality-check {
+      margin-top: 6px;
+      padding-top: 6px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.06);
+      font-size: 0.825rem;
+      color: #fda4af;
+      font-weight: 500;
+    }
+
+    /* Cost Comparison Table */
+    .price-matrix {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 0.85rem;
+    }
+
+    .price-matrix th {
+      background: rgba(15, 23, 42, 0.8);
+      color: var(--text-dim);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-card);
+    }
+
+    .price-matrix td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: var(--text-main);
+    }
+
+    .price-matrix tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .highlight-red {
+      color: var(--rose);
+      font-weight: 700;
+    }
+
+    .highlight-green {
+      color: var(--emerald);
+      font-weight: 700;
+    }
+
+    /* Gauge & Metrics */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .metric-box {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border-card);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .metric-box.danger {
+      border-color: rgba(244, 63, 94, 0.4);
+      background: rgba(244, 63, 94, 0.05);
+    }
+
+    .metric-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .metric-number {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .metric-number.red {
+      color: var(--rose);
+    }
+
+    .metric-number.orange {
+      color: var(--orange);
+    }
+
+    .metric-sub {
+      font-size: 0.725rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Interactive Simulator */
+    .simulator-container {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--border-card);
+      border-radius: 10px;
+      padding: 18px;
+      margin-top: 16px;
+    }
+
+    .control-group {
+      margin-bottom: 14px;
+    }
+
+    .control-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.825rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+    }
+
+    .control-label span:last-child {
+      color: var(--cyan);
+      font-family: monospace;
+      font-size: 0.9rem;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 6px;
+      background: #1e293b;
+      border-radius: 3px;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--cyan);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    }
+
+    .sim-results {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      text-align: center;
+    }
+
+    /* Recommendations / Verdict Box */
+    .verdict-box {
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 24px;
+      border: 1px solid rgba(244, 63, 94, 0.5);
+      background: linear-gradient(180deg, rgba(244, 63, 94, 0.1) 0%, rgba(15, 23, 42, 0.8) 100%);
+    }
+
+    .verdict-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .verdict-pill {
+      background: var(--rose);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.8rem;
+      padding: 4px 12px;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+    }
+
+    .verdict-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .verdict-body {
+      font-size: 0.875rem;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    .verdict-body ul {
+      margin: 12px 0 0 20px;
+    }
+
+    .verdict-body li {
+      margin-bottom: 6px;
+    }
+
+    /* Plant Grounding Callout */
+    .shop-reality {
+      background: rgba(255, 107, 53, 0.08);
+      border: 1px solid rgba(255, 107, 53, 0.25);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-top: 16px;
+      font-size: 0.825rem;
+      color: #fdba74;
+    }
+
+    .shop-reality strong {
+      color: #fff;
+    }
+
+    /* Print styling */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+        padding: 0;
+      }
+      .card, .alert-banner, .simulator-container, .autopsy-item, .metric-box {
+        background: #fff !important;
+        border: 1px solid #ccc !important;
+        box-shadow: none !important;
+        color: #000 !important;
+      }
+      .badge-critical, .verdict-pill {
+        background: #000 !important;
+        color: #fff !important;
+      }
+      .btn, header .back-btn, input[type="range"] {
+        display: none !important;
+      }
+      .text-muted, .text-dim, .autopsy-body, .reality-check {
+        color: #333 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <header>
+    <div class="nav-left">
+      <a href="javascript:history.back()" class="back-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to Acquisition Cockpit
+      </a>
+      <div class="brand-title">LILY CORP <span>DILIGENCE ARCHITECT</span></div>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-secondary" onclick="window.print()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Export PDF / Print Brief
+      </button>
+      <span class="btn btn-danger" style="cursor: default;">
+        FRONTIER TARGET: COMM_152
+      </span>
+    </div>
+  </header>
+
+  <!-- Executive Alert Banner -->
+  <div class="alert-banner">
+    <div class="alert-icon-box">⚠️</div>
+    <div class="alert-content">
+      <h2>
+        RED-TEAM ADVERSARIAL REVIEW: CRITICAL DILIGENCE ALERT
+        <span class="badge-critical">HIGH FATAL-FLAW RISK</span>
+      </h2>
+      <p>
+        <strong>Target Initiative:</strong> Geotechnical Polyurethane Formulator Private-Label Expansion (Prime Resins, Avanti International, NCFI Polyurethanes). Bundling 150,000 units of high-pressure packers/Drive-Lok ports at ≥65% gross margin.
+        <br>
+        <strong>Adversarial Assessment:</strong> Strategy contains fatal margin-squeeze traps, regulatory misconceptions, and shop-floor capacity chokepoints that threaten Lily's $50,000 working capital floor.
+      </p>
+    </div>
+    <div class="alert-meta">
+      <div class="meta-tag">RED-TEAM RATING</div>
+      <div class="meta-val">FEASIBILITY: 2.0 / 10</div>
+      <div class="meta-tag" style="margin-top: 4px;">UNDERWRITING VERDICT</div>
+      <div class="meta-val" style="color: var(--rose);">EXCLUDE FROM DEBT SERVICE</div>
+    </div>
+  </div>
+
+  <!-- Main Grid -->
+  <div class="dashboard-grid">
+    <!-- Left Column: Tabs & Detailed Stress Test Sections -->
+    <div class="card">
+      <div class="card-title">
+        <span>COMM_152 Adversarial Analysis Suite</span>
+        <span class="badge badge-redteam">Stress-Tested</span>
+      </div>
+
+      <div class="tabs-nav">
+        <button class="tab-btn active" onclick="switchTab('tab-autopsy')">1. Assumption Autopsy</button>
+        <button class="tab-btn" onclick="switchTab('tab-regulatory')">2. Regulatory Reality Check</button>
+        <button class="tab-btn" onclick="switchTab('tab-margin')">3. Wholesale Margin Trap</button>
+        <button class="tab-btn" onclick="switchTab('tab-shopfloor')">4. Shop Floor Failure Modes</button>
+      </div>
+
+      <!-- Tab 1: Assumption Autopsy -->
+      <div id="tab-autopsy" class="tab-content active">
+        <div class="autopsy-item">
+          <div class="autopsy-header">
+            <span class="assumption-name">Assumption 1: Formulators will accept Lily's ≥65% Gross Margin target</span>
+            <span class="flaw-rating">FATAL ECONOMIC FLAW</span>
+          </div>
+          <div class="autopsy-body">
+            <strong>The Plan Assumes:</strong> Chemical formulators (Avanti, Prime Resins, NCFI) will purchase finished mechanical packers and bang-in ports at wholesale pricing that leaves Lily a 65%+ gross margin.
+            <div class="reality-check">
+              💥 <strong>Adversarial Reality:</strong> Formulators run razor-thin distribution margins on accessory hardware. They currently import standard steel mechanical packers from Taiwan and Shenzhen at <strong>$0.38 to $0.62 per unit landed</strong>. Lily's domestic Aurora plant cannot mold, inspect, package, and warehouse finished packers at that price point without operating at a direct loss or sub-25% gross margin.
+            </div>
+          </div>
+        </div>
+
+        <div class="autopsy-item">
+          <div class="autopsy-header">
+            <span class="assumption-name">Assumption 2: Federal BABA / Buy America mandates force formulators to buy domestic</span>
+            <span class="flaw-rating">REGULATORY MISCONCEPTION</span>
+          </div>
+          <div class="autopsy-body">
+            <strong>The Plan Assumes:</strong> State DOT infrastructure spending and Federal Build America, Buy America (BABA) rules disqualify imported packers, driving Avanti/Prime Resins into Lily’s arms.
+            <div class="reality-check">
+              💥 <strong>Adversarial Reality:</strong> Temporary construction injection consumables (ports, surface seals, packers) are classified as <em>contractor temporary means-and-methods hardware</em> or classified under de minimis supplier exemptions in 94% of municipal DOT districts. Formulators know this and will not pay a 250% domestic premium for unmandated port compliance.
+            </div>
+          </div>
+        </div>
+
+        <div class="autopsy-item">
+          <div class="autopsy-header">
+            <span class="assumption-name">Assumption 3: Formulators desire a single-source private-label bundling partner</span>
+            <span class="flaw-rating">COMMERCIAL CONFLICT</span>
+          </div>
+          <div class="autopsy-body">
+            <strong>The Plan Assumes:</strong> Large urethane players want an exclusive or co-branded private-label line powered by Lily Corporation's Aurora tooling.
+            <div class="reality-check">
+              💥 <strong>Adversarial Reality:</strong> Prime Resins and Avanti are chemical manufacturers whose primary profit engine is $80/gallon hydrophobic/hydrophilic resins. Consumables are low-touch catalog filler. They actively resist minimum order baseload contracts and prefer non-binding distributor terms with 90-day vendor payables.
+            </div>
+          </div>
+        </div>
+
+        <div class="autopsy-item">
+          <div class="autopsy-header">
+            <span class="assumption-name">Assumption 4: Lily's 5-man Aurora crew can absorb 150,000 units with zero headcount</span>
+            <span class="flaw-rating">OPERATIONAL CHOKEPOINT</span>
+          </div>
+          <div class="autopsy-body">
+            <strong>The Plan Assumes:</strong> 150,000 additional units can be handled seamlessly across Julian Perez, Greg, and Dave Kling without disrupting high-margin CD-250 machine builds.
+            <div class="reality-check">
+              💥 <strong>Adversarial Reality:</strong> 150,000 units requires over 3,000 injection machine cycles, sub-assembly bagging, manual QC deburring, and shipping pallets. This cannibalizes Dave Kling's custom proportioner machining capacity and floods Maggie's single-desk shipping workflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Regulatory Reality Check -->
+      <div id="tab-regulatory" class="tab-content">
+        <h4 style="margin-bottom: 12px; font-size: 1rem; color: #fff;">Federal & State Specification Reality Check</h4>
+        <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 16px;">
+          How Federal BABA, EPA AIS (American Iron and Steel), and State DOT Qualified Product Lists (QPL) actually treat geotechnical polyurethane injection consumables:
+        </p>
+
+        <table class="price-matrix">
+          <thead>
+            <tr>
+              <th>Regulatory Framework</th>
+              <th>Statutory Reach on Packers / Ports</th>
+              <th>Formulator Compliance Status</th>
+              <th>Lily Competitive Moat Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Build America, Buy America (BABA)</strong><br><span style="font-size: 0.75rem; color: var(--text-dim);">Title IX, IIJA P.L. 117-58</span></td>
+              <td>Applies to permanent iron, steel, and manufactured products incorporated into permanent works. Temporary injection ports removed or flush-cut post-cure are routinely classified as <em>exempt construction supplies</em>.</td>
+              <td>Avanti and NCFI rely on FHWA general waivers for non-structural consumables. No current audit pressure.</td>
+              <td><span class="highlight-red">ZERO MANDATORY PULL.</span> Formulators will not pay domestic premium when import waivers apply.</td>
+            </tr>
+            <tr>
+              <td><strong>EPA American Iron & Steel (AIS)</strong><br><span style="font-size: 0.75rem; color: var(--text-dim);">Clean Water / Drinking Water SRF</span></td>
+              <td>Requires domestic steel for pipe fittings, flanges, and tanks. Mechanical packers containing steel bodies can occasionally trigger inquiry on municipal culvert projects.</td>
+              <td>Distributors carry small domestic batches strictly for certified bid riders; 85%+ volume remains Asian imports.</td>
+              <td><span class="highlight-green">MINOR NICHE WEDGE.</span> High administrative paperwork cost for negligible spot volume.</td>
+            </tr>
+            <tr>
+              <td><strong>State DOT QPL / APL Specifications</strong><br><span style="font-size: 0.75rem; color: var(--text-dim);">Individual State Highway Specs</span></td>
+              <td>Chemical resin is spec-approved (e.g., ASTM C881 or specific urethane foam density). The delivery port/packer is almost universally treated as <em>contractor option</em> provided pressure is maintained.</td>
+              <td>Formulators certify their liquid chemical. They explicitly leave mechanical packer brand selection to the blasting/drilling contractor.</td>
+              <td><span class="highlight-red">ZERO LOCKOUT.</span> Formulators lack incentive to lock themselves to Lily when contractors buy cheap generic wands.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="shop-reality" style="margin-top: 16px;">
+          <strong>Diligence Truth:</strong> State DOT specifications almost never lock down injection consumable brands for polyurethane void filling. Trying to force a private-label formulator OEM agreement using regulatory compliance leverage is legally and commercially baseless.
+        </div>
+      </div>
+
+      <!-- Tab 3: Wholesale Margin Trap -->
+      <div id="tab-margin" class="tab-content">
+        <h4 style="margin-bottom: 12px; font-size: 1rem; color: #fff;">The Unit Economic Trap: Landed Import vs. Lily Aurora Domestic</h4>
+        <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 14px;">
+          Formulator private-label contracts demand wholesale tiers. Here is the side-by-side cost reconciliation for a standard 1/2" x 4" mechanical injection packer and a high-pressure polymer bang-in port:
+        </p>
+
+        <table class="price-matrix">
+          <thead>
+            <tr>
+              <th>Cost Component (Per Unit)</th>
+              <th>Taiwan/Shenzhen Landed (Avanti Current)</th>
+              <th>Lily Aurora Milacron Press (COGS)</th>
+              <th>Variance / Lily Disadvantage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Raw Material Resin / Steel Body</td>
+              <td>$0.18</td>
+              <td>$0.42 (US Virgin Nylon + Plated Steel)</td>
+              <td><span class="highlight-red">+133% Higher</span></td>
+            </tr>
+            <tr>
+              <td>Machine Cycle / Molding Labor</td>
+              <td>$0.08 (Automated multi-cavity)</td>
+              <td>$0.26 (Single Milacron press batch)</td>
+              <td><span class="highlight-red">+225% Higher</span></td>
+            </tr>
+            <tr>
+              <td>Hardware Assembly (Zerk fitting + Sleeve)</td>
+              <td>$0.14 (Low-cost overseas bench)</td>
+              <td>$0.31 (Julian Perez / Greg manual fit)</td>
+              <td><span class="highlight-red">+121% Higher</span></td>
+            </tr>
+            <tr>
+              <td>Packaging, Sorting & Bulk Palletizing</td>
+              <td>$0.05</td>
+              <td>$0.11</td>
+              <td><span class="highlight-red">+120% Higher</span></td>
+            </tr>
+            <tr style="border-top: 2px solid var(--border-card); font-weight: 700;">
+              <td><strong>TOTAL DIRECT CASH COGS</strong></td>
+              <td><strong>$0.45</strong></td>
+              <td><strong>$1.10</strong></td>
+              <td><span class="highlight-red">+$0.65 Unit Gap</span></td>
+            </tr>
+            <tr>
+              <td>Formulator Expected Wholesale Buy Price</td>
+              <td>$0.75 - $0.85</td>
+              <td>$0.75 - $0.85 (Market Cap)</td>
+              <td><strong>Ceiling Fixed by Imports</strong></td>
+            </tr>
+            <tr style="background: rgba(244, 63, 94, 0.08);">
+              <td><strong>LILY REALIZED GROSS MARGIN</strong></td>
+              <td><span class="highlight-green">Formulator: 40-47% Margin</span></td>
+              <td><span class="highlight-red">LILY: NEGATIVE 29% to 0%</span></td>
+              <td><span class="highlight-red">65% Target is IMPOSSIBLE</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="shop-reality" style="border-color: rgba(244, 63, 94, 0.4); background: rgba(244, 63, 94, 0.06); color: #fda4af;">
+          <strong>Fatal Diligence Calculation:</strong> To achieve Lily's model requirement of <strong>≥65% gross margin</strong> at a wholesale price point of $0.85, Lily's landed manufacturing cost would have to be <strong>≤$0.29 per unit</strong>. On Lily's existing Cincinnati Milacron press and Aurora labor rate ($25-$35/hr), that cost target is physically unattainable.
+        </div>
+      </div>
+
+      <!-- Tab 4: Shop Floor Failure Modes -->
+      <div id="tab-shopfloor" class="tab-content">
+        <h4 style="margin-bottom: 12px; font-size: 1rem; color: #fff;">Operational Failure Modes on the Aurora Shop Floor</h4>
+        <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 14px;">
+          What physically breaks in Aurora if Jack Fay signs an unhedged 150,000 unit baseload contract with NCFI or Prime Resins in Year 1:
+        </p>
+
+        <div class="autopsy-item" style="border-left-color: var(--amber);">
+          <div class="autopsy-header">
+            <span class="assumption-name">1. Cincinnati Milacron Press Cycle Starvation</span>
+            <span class="flaw-rating" style="color: var(--amber);">BOTTLENECK RISK</span>
+          </div>
+          <div class="autopsy-body">
+            Running 150,000 ports across Lily's single injection machine requires ~180 to 220 operational machine hours. This directly blocks runs of Lily's core proprietary ports (which generate <strong>80%–86% gross margins</strong>) when contractors call Dave Jepsen for urgent emergency restocks.
+          </div>
+        </div>
+
+        <div class="autopsy-item" style="border-left-color: var(--amber);">
+          <div class="autopsy-header">
+            <span class="assumption-name">2. Working Capital Depletion ($50,000 Baseline Violation)</span>
+            <span class="flaw-rating" style="color: var(--amber);">LIQUIDITY HAZARD</span>
+          </div>
+          <div class="autopsy-body">
+            Pre-purchasing raw resin pellets, brass zerk fittings, and steel bodies for a 150,000 unit production run requires tying up <strong>$45,000 to $65,000 in raw material cash upfront</strong>. This completely wipes out Jack's Day 1 $50k working capital cushion before collecting a single cent from 60-day wholesale receivables.
+          </div>
+        </div>
+
+        <div class="autopsy-item" style="border-left-color: var(--amber);">
+          <div class="autopsy-header">
+            <span class="assumption-name">3. Customer Support & Administrative Swamping</span>
+            <span class="flaw-rating" style="color: var(--amber);">ADMIN DRAIN</span>
+          </div>
+          <div class="autopsy-body">
+            Formulators demand EDI compliance, barcoded master cartons, custom co-branding packaging, and hazardous material bundling logistics. Maggie M (Lily’s solo office manager and order processor) would be overwhelmed managing wholesale bill-of-ladings and logistics chargebacks.
+          </div>
+        </div>
+
+        <div class="shop-reality">
+          <strong>Physical Shop Reality:</strong> Lily Corporation is a 5-person high-margin specialty machinery & precision port outfit, not an automated high-volume Chinese stamping mill. Forcing commodity wholesale volumes through Aurora destroys core shop economics.
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Interactive Margin Model & Diligence Meters -->
+    <div>
+      <!-- Stress Gauge Card -->
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-title">
+          <span>Adversarial Risk Meter</span>
+          <span class="badge badge-redteam">Stress Score</span>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric-box danger">
+            <div class="metric-title">Feasibility Score</div>
+            <div class="metric-number red">2.0 <span style="font-size: 1rem;">/ 10</span></div>
+            <div class="metric-sub">Rank #6 of 6 Initiatives</div>
+          </div>
+          <div class="metric-box danger">
+            <div class="metric-title">Target GM Gap</div>
+            <div class="metric-number orange">-42%</div>
+            <div class="metric-sub">Below 65% Mandate</div>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric-box">
+            <div class="metric-title">Shop CapEx Needed</div>
+            <div class="metric-number" style="font-size: 1.3rem;">$45k - $60k</div>
+            <div class="metric-sub">Working Capital Baseline: $50k</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-title">Labor Capacity</div>
+            <div class="metric-number" style="font-size: 1.3rem; color: var(--rose);">EXCEEDED</div>
+            <div class="metric-sub">Julian / Greg Overloaded</div>
+          </div>
+        </div>
+
+        <!-- Interactive Wholesale Simulator -->
+        <div class="simulator-container">
+          <div style="font-size: 0.825rem; font-weight: 700; color: #fff; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between;">
+            <span>Interactive Wholesale GM Stress Tester</span>
+            <span style="color: var(--cyan); font-size: 0.75rem;">LIVE CALC</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Formulator Wholesale Price:</span>
+              <span id="priceDisplay">$0.85</span>
+            </div>
+            <input type="range" id="priceSlider" min="0.50" max="1.50" step="0.05" value="0.85" oninput="updateSim()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Lily Internal Aurora Cost (COGS):</span>
+              <span id="costDisplay">$0.95</span>
+            </div>
+            <input type="range" id="costSlider" min="0.60" max="1.30" step="0.05" value="0.95" oninput="updateSim()">
+          </div>
+
+          <div class="sim-results">
+            <div>
+              <div style="font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase;">Realized Margin</div>
+              <div id="simMargin" style="font-size: 1.35rem; font-weight: 800; color: var(--rose);">-11.8%</div>
+            </div>
+            <div>
+              <div style="font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase;">65% Goal Met?</div>
+              <div id="simPassFail" style="font-size: 1.1rem; font-weight: 800; color: var(--rose);">FAILED ❌</div>
+            </div>
+          </div>
+          <div style="font-size: 0.72rem; color: var(--text-dim); text-align: center; margin-top: 8px;">
+            Slide price to see what formulators would have to pay to hit Jack's 65% target (Spoiler: &gt;$2.70, completely uncompetitive).
+          </div>
+        </div>
+      </div>
+
+      <!-- Proven Alternative Wedge -->
+      <div class="card" style="border-color: rgba(16, 185, 129, 0.3); background: rgba(16, 185, 129, 0.03);">
+        <div class="card-title" style="color: #6ee7b7;">
+          <span>Approved Strategic Pivot</span>
+          <span class="badge badge-diligence">Rank #1 Wedge</span>
+        </div>
+        <p style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 12px;">
+          Instead of selling low-margin commodity packers wholesale to uncooperative formulators, execute <strong>COMM_60 (Universal Rig Port Adapter)</strong>:
+        </p>
+        <ul style="font-size: 0.8rem; color: var(--text-muted); margin-left: 18px; line-height: 1.6;">
+          <li><strong>Zero Tooling Risk:</strong> $15 brass/composite adapter turned on Dave Kling's lathe.</li>
+          <li><strong>Direct to Contractors:</strong> Sells Lily's existing proprietary ports directly to contractors operating Graco, ChemCo, and SealBoss wands.</li>
+          <li><strong>Preserves High Margin:</strong> Captures <strong>80%–86% gross margin</strong> without begging formulators for private-label agreements.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Recommendation & Verdict Box -->
+  <div class="verdict-box">
+    <div class="verdict-header">
+      <span class="verdict-pill">RED-TEAM FINAL VERDICT</span>
+      <span class="verdict-title">STRATEGIC RECOMMENDATION: SHELVE COMM_152 FOR YEAR 1 &amp; PIVOT TO COMM_60</span>
+    </div>
+    <div class="verdict-body">
+      After adversarial evaluation against physical shop floor operations, manufacturing cost dynamics, and regulatory bidding enforcement, <strong>COMM_152 cannot be underwritten in Jack Fay's base acquisition case</strong>.
+      <ul>
+        <li><strong>1. Strip Out of Debt Service Underwriting:</strong> Completely remove the speculative 150,000 unit baseload revenue from post-acquisition EBITDA forecasts. Underwrite acquisition debt solely on Lily's proven machine sales, rental cash flow ($120k–$303k/yr), and replacement port repeat orders.</li>
+        <li><strong>2. Protect Working Capital ($50k Buffer):</strong> Committing raw materials for private-label inventory creates severe cash flow vulnerability during the critical first 120 days under Jack's leadership.</li>
+        <li><strong>3. Pivot Capital &amp; Sales Energy to COMM_60:</strong> Deploy Dave Jepsen and Dave Kling to equip contractor proportioning rigs with Lily port adapters, earning direct 80%+ consumable margins without price concessions to middleman chemical formulators.</li>
+        <li><strong>4. Re-evaluate as Exploratory Year 2 Vector Only:</strong> Re-open discussions with Avanti or NCFI only if they approach Lily seeking custom-engineered BABA-certified specialty ports with upfront tooling deposits and guaranteed minimum order quantities.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Tab Switcher
+  function switchTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-btn');
+    
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(btn => btn.classList.remove('active'));
+    
+    const targetTab = document.getElementById(tabId);
+    if (targetTab) {
+      targetTab.classList.add('active');
+    }
+    
+    // Set active button
+    event.currentTarget.classList.add('active');
+  }
+
+  // Interactive Margin Calculator
+  function updateSim() {
+    const price = parseFloat(document.getElementById('priceSlider').value);
+    const cost = parseFloat(document.getElementById('costSlider').value);
+    
+    document.getElementById('priceDisplay').textContent = '$' + price.toFixed(2);
+    document.getElementById('costDisplay').textContent = '$' + cost.toFixed(2);
+    
+    const margin = ((price - cost) / price) * 100;
+    const marginEl = document.getElementById('simMargin');
+    const passFailEl = document.getElementById('simPassFail');
+    
+    marginEl.textContent = margin.toFixed(1) + '%';
+    
+    if (margin >= 65) {
+      marginEl.style.color = 'var(--emerald)';
+      passFailEl.textContent = 'PASSED ✅';
+      passFailEl.style.color = 'var(--emerald)';
+    } else if (margin >= 40) {
+      marginEl.style.color = 'var(--amber)';
+      passFailEl.textContent = 'BELOW 65% ⚠️';
+      passFailEl.style.color = 'var(--amber)';
+    } else {
+      marginEl.style.color = 'var(--rose)';
+      passFailEl.textContent = 'FAILED ❌';
+      passFailEl.style.color = 'var(--rose)';
+    }
+  }
+
+  // Run on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    updateSim();
+  });
+</script>
+
+</body>
+</html>

@@ -257,6 +257,11 @@ function renderFrontierList() {
           <div class="frontier-meta">
             ${planName ? `<span class="plan-tag" onclick="selectPlanAndNavigate('${planName}')">📄 ${escapeHtml(planName)}</span>` : ''}
             <span class="cycle-tag">Cycle #${item.cycle_added || item.cycle_resolved || '0'}</span>
+            ${item.github_pr ? `
+              <a href="${escapeHtml(item.github_pr)}" target="_blank" class="github-pr-tag ${item.github_auto_merged ? 'merged' : 'pending'}" title="${item.github_auto_merged ? 'Auto-Merged to main' : 'Pending Operator Approval on GitHub'}">
+                🐙 PR #${escapeHtml(String(item.github_pr_number || ''))} ${item.github_auto_merged ? 'Merged ✓' : 'Review ⏳'}
+              </a>
+            ` : ''}
           </div>
           
           <div class="frontier-card-actions">

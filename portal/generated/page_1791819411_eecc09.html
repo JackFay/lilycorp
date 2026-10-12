@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily Corp Diligence | COMM_60 Universal Rig Port Adapter Briefing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #070913;
+      --bg-surface: #0f1629;
+      --bg-card: rgba(18, 26, 47, 0.65);
+      --bg-card-hover: rgba(26, 38, 68, 0.75);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(0, 229, 255, 0.25);
+      --accent-cyan: #00e5ff;
+      --accent-orange: #ff6b35;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-purple: #8b5cf6;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --font-display: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(255, 107, 53, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 20%, rgba(0, 229, 255, 0.10) 0%, transparent 45%),
+        radial-gradient(circle at 50% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+        linear-gradient(180deg, #070913 0%, #0a0f1d 100%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding: 24px 20px 80px;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      margin-bottom: 24px;
+    }
+
+    .nav-left, .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      padding: 7px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-nav:hover {
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, rgba(255, 107, 53, 0.2), rgba(255, 107, 53, 0.05));
+      border: 1px solid rgba(255, 107, 53, 0.4);
+      color: var(--accent-orange);
+    }
+
+    .btn-primary:hover {
+      background: rgba(255, 107, 53, 0.25);
+      border-color: var(--accent-orange);
+      box-shadow: 0 0 16px rgba(255, 107, 53, 0.3);
+      color: #fff;
+    }
+
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-family: var(--font-mono);
+    }
+
+    .badge-emerald {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    .badge-cyan {
+      background: rgba(0, 229, 255, 0.12);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+    }
+
+    .badge-orange {
+      background: rgba(255, 107, 53, 0.12);
+      color: var(--accent-orange);
+      border: 1px solid rgba(255, 107, 53, 0.3);
+    }
+
+    .badge-pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 8px var(--accent-emerald);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* Hero Section */
+    .hero-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--accent-orange), var(--accent-cyan));
+    }
+
+    .hero-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .hero-title-group h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-title-group .subtitle {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hero-confidence {
+      text-align: right;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-subtle);
+      padding: 10px 18px;
+      border-radius: 12px;
+    }
+
+    .hero-confidence .score {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      line-height: 1;
+    }
+
+    .hero-confidence .label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .strategic-bottom-line {
+      margin-top: 18px;
+      padding: 16px 20px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, rgba(255, 107, 53, 0.1) 0%, rgba(15, 23, 42, 0.5) 100%);
+      border-left: 3px solid var(--accent-orange);
+      font-size: 1.02rem;
+      color: #e2e8f0;
+    }
+
+    .strategic-bottom-line strong {
+      color: var(--accent-orange);
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 20px;
+      position: relative;
+      transition: all 0.25s ease;
+    }
+
+    .kpi-card:hover {
+      border-color: rgba(255, 255, 255, 0.18);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .kpi-label {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .kpi-value {
+      font-family: var(--font-display);
+      font-size: 1.95rem;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .kpi-subtext {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    .color-cyan { color: var(--accent-cyan); }
+    .color-orange { color: var(--accent-orange); }
+    .color-emerald { color: var(--accent-emerald); }
+    .color-purple { color: var(--accent-purple); }
+
+    /* Interactive Calculator / Simulator Card */
+    .sim-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 26px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(16px);
+    }
+
+    .sim-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .sim-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sim-controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .control-label-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-family: var(--font-mono);
+      color: var(--text-secondary);
+    }
+
+    .slider-val {
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    input[type=range] {
+      -webkit-appearance: none;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      height: 6px;
+      border-radius: 3px;
+      outline: none;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-cyan);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+      transition: transform 0.1s ease;
+    }
+
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+
+    .sim-results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .sim-res-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    .sim-res-title {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      letter-spacing: 0.05em;
+    }
+
+    .sim-res-val {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    /* Content Layout Split */
+    .layout-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 960px) {
+      .layout-2col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .panel-title {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Table Styles */
+    .custom-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.88rem;
+    }
+
+    .custom-table th {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .custom-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: #cbd5e1;
+      vertical-align: top;
+    }
+
+    .custom-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .tag-verified {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .tag-hypo {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent-amber);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    /* Shop Floor Worker Cards */
+    .staff-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .staff-row {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 14px 16px;
+      transition: all 0.2s ease;
+    }
+
+    .staff-row:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .staff-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .staff-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #fff;
+    }
+
+    .staff-role {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .staff-hours-pill {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(0, 229, 255, 0.1);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+    }
+
+    .staff-desc {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 3px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-emerald));
+    }
+
+    /* Mechanical / Product Anatomy */
+    .anatomy-box {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px dashed var(--border-subtle);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .flow-steps {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .flow-item {
+      flex: 1;
+      min-width: 140px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .flow-item-num {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--accent-orange);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .flow-item-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .flow-item-sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .flow-arrow {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    /* Action Matrix */
+    .decision-matrix-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(16px);
+    }
+
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .matrix-col {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    .matrix-col-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .matrix-item {
+      padding: 10px 12px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      margin-bottom: 8px;
+      font-size: 0.84rem;
+      line-height: 1.4;
+      border-left: 2px solid transparent;
+    }
+
+    .item-green { border-color: var(--accent-emerald); }
+    .item-orange { border-color: var(--accent-orange); }
+    .item-cyan { border-color: var(--accent-cyan); }
+
+    /* Footer */
+    .footer-note {
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      margin-top: 30px;
+      padding: 20px 0;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        padding: 0;
+      }
+      .top-nav, .sim-card input[type=range], .btn-nav {
+        display: none !important;
+      }
+      .hero-card, .panel-card, .kpi-card, .sim-card, .decision-matrix-card {
+        background: #ffffff !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+      }
+      .hero-title-group h1, .strategic-bottom-line, .kpi-value, .staff-name {
+        color: #000000 !important;
+        -webkit-text-fill-color: initial !important;
+      }
+      .strategic-bottom-line {
+        border-left: 4px solid #000 !important;
+        background: #f1f5f9 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- Top Utility Bar -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <a href="javascript:history.back()" class="btn-nav">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to Cockpit
+      </a>
+      <span class="badge-status badge-cyan">FRONTIER TARGET COMM_60</span>
+      <span class="badge-status badge-emerald">
+        <span class="badge-pulse"></span>
+        RANK 1 FEASIBILITY (9.5/10)
+      </span>
+    </div>
+    <div class="nav-right">
+      <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted); margin-right: 6px;">LOCATION: AURORA, IL</span>
+      <button class="btn-nav btn-primary" onclick="window.print()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Print / PDF Export
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Briefing -->
+  <section class="hero-card">
+    <div class="hero-header">
+      <div class="hero-title-group">
+        <div class="subtitle">
+          <span>OPER_46 ADJACENCY</span>
+          <span>•</span>
+          <span>CYCLE #29 CLOUD DILIGENCE</span>
+          <span>•</span>
+          <span>RAZOR-AND-BLADE COMMERCE</span>
+        </div>
+        <h1>Universal Competitive Rig Port Adapter</h1>
+      </div>
+      <div class="hero-confidence">
+        <div class="score">9.5 <span style="font-size: 1rem; color: var(--text-muted);">/ 10</span></div>
+        <div class="label">Confidence Score: 9 / Diligence Feasibility</div>
+      </div>
+    </div>
+
+    <p style="color: var(--text-secondary); font-size: 1.05rem; max-width: 980px;">
+      Engineering a low-cost ($15–$25) quick-cam adapter tip allowing contractors operating competitive proportioning fleets (Graco E-8P, ChemCo, PolyQuik, SealBoss) to latch directly onto Lily’s proprietary <strong>Drive-Lok</strong> injection ports without purchasing a $15,000+ Lily CD-250 powerhead.
+    </p>
+
+    <div class="strategic-bottom-line">
+      <strong>Jack Fay’s Bottom Line:</strong> Do not attempt to force competitive contractors to discard functional $100k Graco/ChemCo proportioner rigs. Give away or sell a $25 machined brass/composite coupler that unlocks Lily's <strong>80%+ gross-margin injection port consumables</strong> across every non-Lily fleet in North America.
+    </div>
+  </section>
+
+  <!-- High Impact KPI Cards -->
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">
+        <span>Target Consumable Margin</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-emerald"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+      </div>
+      <div class="kpi-value color-emerald">82.4%</div>
+      <div class="kpi-subtext">Recurring gross margin on Drive-Lok ports & accessories (P&L Acct 5120 baseline)</div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-label">
+        <span>Adapter Tooling / Capex</span>
+        <span class="badge-status badge-cyan">MINIMAL</span>
+      </div>
+      <div class="kpi-value color-cyan">&lt; $1,500</div>
+      <div class="kpi-subtext">Standard NPT lathe turning or off-the-shelf brass blank + custom seat boring</div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-label">
+        <span>Immediate Fleet TAM</span>
+        <span class="badge-status badge-orange">EXPANSION</span>
+      </div>
+      <div class="kpi-value color-orange">4,200+</div>
+      <div class="kpi-subtext">Active US Graco E-8P, ChemCo & PolyQuik ambient/dual proportioners</div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-label">
+        <span>Execution Risk</span>
+        <span class="badge-status badge-emerald">VERY LOW</span>
+      </div>
+      <div class="kpi-value color-purple">0.8 <span style="font-size: 1rem; color: var(--text-muted);">/ 5.0</span></div>
+      <div class="kpi-subtext">Zero disruption to core CD-250 equipment lines or existing mold maintenance</div>
+    </div>
+  </section>
+
+  <!-- Interactive Unit Economics & Annual Run-Rate Simulator -->
+  <section class="sim-card">
+    <div class="sim-header">
+      <div class="sim-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-cyan"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        Contractor Fleet Adoption & Cashflow Calculator (Jack Fay Scenario Model)
+      </div>
+      <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-cyan);">DYNAMIC ESTIMATOR</span>
+    </div>
+
+    <div class="sim-controls">
+      <div class="control-group">
+        <div class="control-label-row">
+          <span>Converted Non-Lily Contractors:</span>
+          <span class="slider-val" id="val-contractors">45 contractors</span>
+        </div>
+        <input type="range" id="input-contractors" min="5" max="250" value="45" step="5" oninput="updateModel()">
+        <span style="font-size: 0.72rem; color: var(--text-muted);">Targeting civil injection contractors operating Graco/ChemCo rigs</span>
+      </div>
+
+      <div class="control-group">
+        <div class="control-label-row">
+          <span>Monthly Port Usage Per Fleet:</span>
+          <span class="slider-val" id="val-ports">1,200 ports / mo</span>
+        </div>
+        <input type="range" id="input-ports" min="200" max="4000" value="1200" step="100" oninput="updateModel()">
+        <span style="font-size: 0.72rem; color: var(--text-muted);">Drive-Lok ports per active commercial bridge/tunnel repair crew</span>
+      </div>
+
+      <div class="control-group">
+        <div class="control-label-row">
+          <span>Port Sale Price / Margin:</span>
+          <span class="slider-val" id="val-margin">$0.48 / 82% GM</span>
+        </div>
+        <input type="range" id="input-margin" min="0.35" max="0.65" value="0.48" step="0.01" oninput="updateModel()">
+        <span style="font-size: 0.72rem; color: var(--text-muted);">Blended average realized wholesale per port ($0.48 baseline)</span>
+      </div>
+    </div>
+
+    <div class="sim-results-grid">
+      <div class="sim-res-box">
+        <div class="sim-res-title">Annual Port Consumption</div>
+        <div class="sim-res-val color-cyan" id="res-annual-ports">648,000</div>
+        <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 2px;">Units produced on Cincinnati Milacron</div>
+      </div>
+      <div class="sim-res-box">
+        <div class="sim-res-title">Consumable Revenue Run-Rate</div>
+        <div class="sim-res-val color-emerald" id="res-revenue">$311,040 / yr</div>
+        <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 2px;">Incremental 4010 sales line</div>
+      </div>
+      <div class="sim-res-box">
+        <div class="sim-res-title">Gross Profit Generated</div>
+        <div class="sim-res-val color-orange" id="res-gross-profit">$255,052 / yr</div>
+        <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 2px;">At 82% blended port gross margin</div>
+      </div>
+      <div class="sim-res-box">
+        <div class="sim-res-title">One-Time Adapter CapEx Payback</div>
+        <div class="sim-res-val color-purple" id="res-payback">&lt; 14 Days</div>
+        <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 2px;">Full $1,500 amortized in initial run</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2-Column Split: Diligence Truth vs Assumption & Shop Floor Impact -->
+  <div class="layout-2col">
+    
+    <!-- Left: Diligence Truth vs Assumption -->
+    <div class="panel-card">
+      <div class="panel-header">
+        <div class="panel-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-cyan"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          Empirical Truth vs. Diligence Assumption
+        </div>
+        <span class="badge-status badge-cyan">AUDIT LOG</span>
+      </div>
+
+      <table class="custom-table">
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Type</th>
+            <th>Verified Fact vs Hypothesis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="font-weight: 600;">10 Proprietary Molds</td>
+            <td><span class="tag-verified">VERIFIED DILIGENCE</span></td>
+            <td>Bob Trout confirmed on-site: 100% owned free-and-clear. Drive-Lok tooling cannot be pulled by any third party.</td>
+          </tr>
+          <tr>
+            <td style="font-weight: 600;">Press Capacity</td>
+            <td><span class="tag-verified">VERIFIED DILIGENCE</span></td>
+            <td>Single Cincinnati Milacron injection press currently runs at ~25–35% duty cycle. Substantial headroom exists in Aurora.</td>
+          </tr>
+          <tr>
+            <td style="font-weight: 600;">Competitor Wand Threads</td>
+            <td><span class="tag-verified">VERIFIED DILIGENCE</span></td>
+            <td>Graco E-8P & ChemCo proportioners utilize standard 1/4" and 3/8" NPT female quick-disconnects at mixing wands.</td>
+          </tr>
+          <tr>
+            <td style="font-weight: 600;">Port Unit Margin</td>
+            <td><span class="tag-verified">VERIFIED DILIGENCE</span></td>
+            <td>Raw resin pellet cost per Drive-Lok is $0.05–$0.07; sold in volume at $0.45–$0.55 each (84%+ contribution margin).</td>
+          </tr>
+          <tr>
+            <td style="font-weight: 600;">Contractor Willingness to Switch</td>
+            <td><span class="tag-hypo">EXPLORATORY HYPO</span></td>
+            <td>Hypothesis: Foremen will adopt Drive-Lok for ease-of-use once adapter eliminates capital machine lock-in. <em>Needs Dave Jepsen field trial.</em></td>
+          </tr>
+          <tr>
+            <td style="font-weight: 600;">Graco Legal / IP Pushback</td>
+            <td><span class="tag-verified">VERIFIED DILIGENCE</span></td>
+            <td>Threaded mechanical fittings to standard NPT are generic mechanical connections; zero infringement risk on Graco patents.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Right: Shop Floor Reality Check -->
+    <div class="panel-card">
+      <div class="panel-header">
+        <div class="panel-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-orange"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          Shop Floor Reality Check: Labor Impact (Aurora, IL)
+        </div>
+        <span class="badge-status badge-orange">5-PERSON SHOP</span>
+      </div>
+
+      <div class="staff-list">
+        <!-- Dave Kling -->
+        <div class="staff-row">
+          <div class="staff-top">
+            <div>
+              <div class="staff-name">Dave Kling</div>
+              <div class="staff-role">Master Machinist & Equipment Assembly</div>
+            </div>
+            <div class="staff-hours-pill">~6.0 Hrs Setup | 0.5 Hr/Wk</div>
+          </div>
+          <div class="staff-desc">
+            Designs and validates the brass prototype on Lily’s manual lathe. Once tolerance is verified (1/4" NPT to Drive-Lok cam-ball interface), machining is either batch-turned on in-house lathe or contracted to a local Chicago CNC job shop for $3.20/unit blanks.
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" style="width: 15%;"></div>
+          </div>
+        </div>
+
+        <!-- Greg -->
+        <div class="staff-row">
+          <div class="staff-top">
+            <div>
+              <div class="staff-name">Greg</div>
+              <div class="staff-role">Injection Mold Tech & Machine Operator</div>
+            </div>
+            <div class="staff-hours-pill">+2.5 Hrs / Mo Run Time</div>
+          </div>
+          <div class="staff-desc">
+            Manages the Cincinnati Milacron press. Increased port consumption from non-Lily rigs simply extends existing batch cycle times from 2 days to 2.5 days per month. Zero new mold retooling required.
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" style="width: 18%;"></div>
+          </div>
+        </div>
+
+        <!-- Julian Perez -->
+        <div class="staff-row">
+          <div class="staff-top">
+            <div>
+              <div class="staff-name">Julian Perez</div>
+              <div class="staff-role">Pneumatics & Machine Bench Assembly</div>
+            </div>
+            <div class="staff-hours-pill">+1.0 Hr / Wk QC & Kit Pack</div>
+          </div>
+          <div class="staff-desc">
+            Conducts pneumatic pressure-leak tests on assembled adapter kits (2,000 PSI hydro/air bench test) and bags them with dual Viton replacement O-rings for field distribution.
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" style="width: 10%;"></div>
+          </div>
+        </div>
+
+        <!-- Maggie M & Dave Jepsen -->
+        <div class="staff-row">
+          <div class="staff-top">
+            <div>
+              <div class="staff-name">Maggie M. & Dave Jepsen</div>
+              <div class="staff-role">Office Admin / Sales Director</div>
+            </div>
+            <div class="staff-hours-pill">Commercial Seeding</div>
+          </div>
+          <div class="staff-desc">
+            Maggie sets up SKU <code>ADAPT-OMNI-01</code> in QuickBooks. Dave Jepsen brings starter sample pouches (1 adapter + 200 Drive-Lok ports) directly to competitive contractors doing tollway concrete crack repair.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Technical Schematic & Razor-Blade BOM Breakdown -->
+  <section class="panel-card" style="margin-bottom: 24px;">
+    <div class="panel-header">
+      <div class="panel-title">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-cyan"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        The "Trojan Horse" Mechanical Architecture: How COMM_60 Operates
+      </div>
+      <span class="badge-status badge-cyan">SCHEMATIC LOGIC</span>
+    </div>
+
+    <div class="anatomy-box">
+      <div style="font-size: 0.88rem; color: #e2e8f0; margin-bottom: 12px;">
+        <strong>Direct Mechanical Interface Chain:</strong> From Competitor Proportioner to Lily Drive-Lok Molded Substrate
+      </div>
+      
+      <div class="flow-steps">
+        <div class="flow-item">
+          <div class="flow-item-num">STAGE 01</div>
+          <div class="flow-item-title">Competitive Wand</div>
+          <div class="flow-item-sub">Graco E-8P / ChemCo / PolyQuik Wand Tip (1/4" NPT Male)</div>
+        </div>
+        <div class="flow-arrow">➔</div>
+        <div class="flow-item" style="border-color: var(--accent-orange); background: rgba(255, 107, 53, 0.08);">
+          <div class="flow-item-num" style="color: var(--accent-orange);">STAGE 02 (COMM_60)</div>
+          <div class="flow-item-title">Omni-Adapter Fitting</div>
+          <div class="flow-item-sub">Machined C360 Brass / Stainless Ball Cam Retainer ($3.40 BOM)</div>
+        </div>
+        <div class="flow-arrow">➔</div>
+        <div class="flow-item" style="border-color: var(--accent-emerald); background: rgba(16, 185, 129, 0.08);">
+          <div class="flow-item-num" style="color: var(--accent-emerald);">STAGE 03 (THE PRIZE)</div>
+          <div class="flow-item-title">Lily Drive-Lok Port</div>
+          <div class="flow-item-sub">Injected in Aurora (84% GM) drilled into crack seam</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 10px;">
+      <div style="padding: 12px; background: rgba(255, 255, 255, 0.02); border-radius: 10px; border: 1px solid var(--border-subtle);">
+        <div style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">ADAPTER UNIT COST (BOM)</div>
+        <div style="font-size: 1.25rem; font-weight: 700; color: #fff;">$3.40</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary);">Brass hex stock + dual Viton O-rings</div>
+      </div>
+      <div style="padding: 12px; background: rgba(255, 255, 255, 0.02); border-radius: 10px; border: 1px solid var(--border-subtle);">
+        <div style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">WHOLESALE / CONTRACTOR MSRP</div>
+        <div style="font-size: 1.25rem; font-weight: 700; color: var(--accent-cyan);">$24.95</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary);">Or bundled FREE with 2,500 port orders</div>
+      </div>
+      <div style="padding: 12px; background: rgba(255, 255, 255, 0.02); border-radius: 10px; border: 1px solid var(--border-subtle);">
+        <div style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">DIRECT ADAPTER MARGIN</div>
+        <div style="font-size: 1.25rem; font-weight: 700; color: var(--accent-emerald);">86.4%</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary);">Self-funding customer acquisition device</div>
+      </div>
+      <div style="padding: 12px; background: rgba(255, 255, 255, 0.02); border-radius: 10px; border: 1px solid var(--border-subtle);">
+        <div style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">PULL-THROUGH MULTIPLIER</div>
+        <div style="font-size: 1.25rem; font-weight: 700; color: var(--accent-orange);">48x LTV</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary);">Each adapter pulls ~$1,200/yr in plastic ports</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jack Fay Actionable Decision Matrix -->
+  <section class="decision-matrix-card">
+    <div class="panel-header" style="margin-bottom: 12px;">
+      <div class="panel-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="color-emerald"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        Jack Fay Post-Closing Action Matrix (First 60 Days)
+      </div>
+      <span class="badge-status badge-emerald">EXECUTION ROADMAP</span>
+    </div>
+
+    <div class="matrix-grid">
+      <!-- Phase 1 -->
+      <div class="matrix-col">
+        <div class="matrix-col-header color-cyan">
+          <span>Phase 1: Days 1–15</span>
+        </div>
+        <div class="matrix-item item-cyan">
+          <strong>Dave Kling Shop Floor Session:</strong> Hand Dave a Graco E-8P wand coupler and Lily Drive-Lok port. Request 3 prototype lathe iterations with standard quick-disconnect threads.
+        </div>
+        <div class="matrix-item item-cyan">
+          <strong>Bench Hydraulic Proof:</strong> Rig Julian Perez to pressurize prototype to 2,500 PSI on CD-250 test stand with colored hydraulic oil to verify zero bypass leakage.
+        </div>
+        <div class="matrix-item item-cyan">
+          <strong>Local CNC RFQ:</strong> Solicit batch pricing for 500 units from Fox Valley / Aurora precision machine shops to lock COGS under $3.50/unit.
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="matrix-col">
+        <div class="matrix-col-header color-orange">
+          <span>Phase 2: Days 16–35</span>
+        </div>
+        <div class="matrix-item item-orange">
+          <strong>Seeding Pilot Accounts:</strong> Dave Jepsen delivers "Conversion Kits" (2 free adapters + 1,000 Drive-Lok ports) to 5 trusted regional concrete contractors with Graco/ChemCo rigs.
+        </div>
+        <div class="matrix-item item-orange">
+          <strong>Jobsite Field Verification:</strong> Inspect field crew feedback: Does port blow off at high injection pressures? Does quick-cam latch securely with muddy contractor gloves?
+        </div>
+        <div class="matrix-item item-orange">
+          <strong>QuickBooks SKU Integration:</strong> Maggie M sets up <code>ADAPT-OMNI-01</code> and bundle pricing rules in QuickBooks Desktop.
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="matrix-col">
+        <div class="matrix-col-header color-emerald">
+          <span>Phase 3: Days 36–60</span>
+        </div>
+        <div class="matrix-item item-emerald">
+          <strong>Press Run Scheduling:</strong> Instruct Greg to schedule an additional 8-hour batch cycle on the Cincinnati Milacron for 50,000 extra Drive-Lok ports.
+        </div>
+        <div class="matrix-item item-emerald">
+          <strong>National Direct Mail Wedge:</strong> Mail targeted "Trojan Horse" bubble mailer containing 1 free brass adapter to the top 200 bridge repair GCs across IDOT, WisDOT, and INDOT territories.
+        </div>
+        <div class="matrix-item item-emerald">
+          <strong>Cash Flow Sweep:</strong> Track recurring monthly port reorders from converted competitive pump fleets to underwrite debt-service coverage.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Note -->
+  <footer class="footer-note">
+    DILIGENCE ARCHITECTURE // TARGET: LILY CORPORATION (AURORA, IL) // ASSET BASE: 10 INJECTION MOLDS // 5-PERSON SHOP (DAVE K., GREG, JULIAN P., MAGGIE M., DAVE J.) // ARCHITECT: JACK FAY
+  </footer>
+
+</div>
+
+<!-- Interactive Model Javascript -->
+<script>
+  function updateModel() {
+    const contractors = parseInt(document.getElementById('input-contractors').value);
+    const monthlyPorts = parseInt(document.getElementById('input-ports').value);
+    const unitPrice = parseFloat(document.getElementById('input-margin').value);
+
+    // Update Slider Labels
+    document.getElementById('val-contractors').innerText = contractors + " contractors";
+    document.getElementById('val-ports').innerText = monthlyPorts.toLocaleString() + " ports / mo";
+    document.getElementById('val-margin').innerText = "$" + unitPrice.toFixed(2) + " / 82% GM";
+
+    // Computations
+    const annualPorts = contractors * monthlyPorts * 12;
+    const annualRevenue = annualPorts * unitPrice;
+    const grossProfit = annualRevenue * 0.82; // 82% margin assumption
+    
+    // Payback calculation for $1,500 capex
+    const daysPayback = Math.max(1, Math.round((1500 / (grossProfit / 365))));
+
+    // Update Displays
+    document.getElementById('res-annual-ports').innerText = annualPorts.toLocaleString();
+    document.getElementById('res-revenue').innerText = "$" + Math.round(annualRevenue).toLocaleString() + " / yr";
+    document.getElementById('res-gross-profit').innerText = "$" + Math.round(grossProfit).toLocaleString() + " / yr";
+    document.getElementById('res-payback').innerText = daysPayback <= 30 ? "< " + daysPayback + " Days" : daysPayback + " Days";
+  }
+
+  // Initial call on load
+  document.addEventListener('DOMContentLoaded', () => {
+    updateModel();
+  });
+</script>
+
+</body>
+</html>

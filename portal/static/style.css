@@ -1363,3 +1363,41 @@ body {
   border-radius: var(--radius-lg);
   font-size: 0.95rem;
 }
+
+/* GitHub PR Badges */
+.github-pr-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.github-pr-tag.merged {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--accent-emerald);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.github-pr-tag.merged:hover {
+  background: rgba(16, 185, 129, 0.25);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+  transform: translateY(-1px);
+}
+
+.github-pr-tag.pending {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-amber);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.github-pr-tag.pending:hover {
+  background: rgba(245, 158, 11, 0.25);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
+  transform: translateY(-1px);
+}

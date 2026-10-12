@@ -13,6 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from google import genai
 from google.genai import types
+from cloud_function.github_lifecycle import GitHubLifecycleManager
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 PLAN_DIR = BASE_DIR / "plan"
@@ -420,10 +421,38 @@ EXISTING PLAN CONTENT:
     )
     write_text(DIGEST_FILE, digest_content)
 
-    # Commit to Git
+    # Commit to Local Git
     commit_msg = f"research(cycle #{cycle_num}): audited [{target['id']}] in {target['target_plan_file']} (score: {grounded_score}/10)"
     git_commit(commit_msg, [str(target_plan_path), str(FRONTIER_FILE), str(DIGEST_FILE), str(PLAN_DIR / "graveyard_rejected_ideas.md")])
-    print(f"[SUCCESS] Cycle #{cycle_num} completed and committed: {commit_msg}")
+    print(f"[SUCCESS] Cycle #{cycle_num} completed and committed locally: {commit_msg}")
+
+    # Synchronize to GitHub with Pull Request and conditional auto-merge
+    gh_manager = GitHubLifecycleManager()
+    if gh_manager.is_configured:
+        print(f"\n[GITHUB] Synchronizing Cycle #{cycle_num} to GitHub ({gh_manager.repo})...")
+        files_to_commit = {
+            target["target_plan_file"]: draft_content,
+            "state/frontier.json": json.dumps(frontier_data, indent=2),
+            "steering/digest.md": digest_content,
+            "plan/graveyard_rejected_ideas.md": read_text(PLAN_DIR / "graveyard_rejected_ideas.md")
+        }
+        gh_res = gh_manager.sync_cycle_to_github(
+            cycle_num=cycle_num,
+            target=target,
+            files_to_commit=files_to_commit,
+            confidence_score=grounded_score,
+            audit_passed=audit_passed,
+            audit_msg=audit_msg,
+            adversarial_critique=audit_msg,
+            unviable_concepts=unviable_concepts
+        )
+        if gh_res.get("status") == "SUCCESS":
+            target["github_pr"] = gh_res.get("pr_url")
+            target["github_auto_merged"] = gh_res.get("auto_merged", False)
+            target["github_pr_number"] = gh_res.get("pr_number")
+            save_frontier(frontier_data)
+            action = "AUTO-MERGED to main" if gh_res.get("auto_merged") else "PENDING OPERATOR REVIEW"
+            print(f"[GITHUB] Pull Request #{gh_res.get('pr_number')} ({action}): {gh_res.get('pr_url')}")
 
 
 

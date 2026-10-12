@@ -79,7 +79,7 @@ gcloud functions deploy "${FUNCTION_NAME}" \
   --no-allow-unauthenticated \
   --memory=512MiB \
   --timeout=540s \
-  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-3.8-flash,GEMINI_API_KEY=${GEMINI_API_KEY}"
+  --set-env-vars="GCS_BUCKET_NAME=${BUCKET_NAME},GCP_PROJECT=${PROJECT_ID},GCP_LOCATION=${REGION},GEMINI_MODEL=gemini-3.8-flash,GEMINI_API_KEY=${GEMINI_API_KEY},GITHUB_TOKEN=${GITHUB_TOKEN},GITHUB_REPO=${GITHUB_REPO:-JackFay/lilycorp},GITHUB_DEFAULT_BRANCH=${GITHUB_DEFAULT_BRANCH:-main},GITHUB_AUTO_MERGE_THRESHOLD=${GITHUB_AUTO_MERGE_THRESHOLD:-7.5}"
 
 # Get Function URL
 FUNCTION_URL=$(gcloud functions describe "${FUNCTION_NAME}" --gen2 --region="${REGION}" --format="value(serviceConfig.uri)")

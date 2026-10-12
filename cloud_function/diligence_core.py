@@ -7,10 +7,11 @@ grounded in full empirical evidence with deterministic code guardrails.
 import os
 import json
 from datetime import datetime
-from typing import Dict, Any
+from typing import Dict, Any, List, Optional
 from google import genai
 from google.genai import types
 from storage_adapter import GCSStorageAdapter
+from github_lifecycle import GitHubLifecycleManager
 
 
 def get_genai_client() -> genai.Client:
@@ -327,9 +328,8 @@ EXISTING PLAN CONTENT:
         target["status"] = "REFINED"
     else:
         target["status"] = "EXPLORATORY"
-    storage.write_json("state/frontier.json", frontier_data)
 
-    # Update digest
+    # Prepare initial digest
     timestamp_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     digest_content = (
         f"# Autonomous Diligence & Business Plan Digest (Cloud Run)\n"
@@ -347,11 +347,49 @@ EXISTING PLAN CONTENT:
     )
     storage.write_text("steering/digest.md", digest_content, content_type="text/markdown")
 
+    # Prepare files to commit to GitHub
+    files_to_commit = {
+        target_plan_path: draft_content,
+        "state/frontier.json": json.dumps(frontier_data, indent=2),
+        "steering/digest.md": digest_content,
+    }
+    if unviable_concepts:
+        files_to_commit["plan/graveyard_rejected_ideas.md"] = storage.read_text("plan/graveyard_rejected_ideas.md")
+
+    # Sync cycle to GitHub via Git Lifecycle Manager
+    gh_manager = GitHubLifecycleManager()
+    gh_res = gh_manager.sync_cycle_to_github(
+        cycle_num=cycle_num,
+        target=target,
+        files_to_commit=files_to_commit,
+        confidence_score=grounded_score,
+        audit_passed=audit_passed,
+        audit_msg=audit_msg,
+        adversarial_critique=audit_msg,
+        unviable_concepts=unviable_concepts
+    )
+
+    if gh_res.get("status") == "SUCCESS":
+        target["github_pr"] = gh_res.get("pr_url")
+        target["github_auto_merged"] = gh_res.get("auto_merged", False)
+        target["github_pr_number"] = gh_res.get("pr_number")
+
+        action_text = "AUTO-MERGED to main" if gh_res.get("auto_merged") else "PENDING OPERATOR APPROVAL"
+        gh_status_line = f"- **GitHub Pull Request:** [PR #{gh_res.get('pr_number')}]({gh_res.get('pr_url')}) ({action_text})\n"
+        digest_content = digest_content.replace(
+            f"- **Audit Verdict:** {'APPROVED' if audit_passed else 'FLAGGED'} ({audit_msg})\n",
+            f"- **Audit Verdict:** {'APPROVED' if audit_passed else 'FLAGGED'} ({audit_msg})\n{gh_status_line}"
+        )
+        storage.write_text("steering/digest.md", digest_content, content_type="text/markdown")
+
+    storage.write_json("state/frontier.json", frontier_data)
+
     return {
         "status": "APPROVED",
         "cycle": cycle_num,
         "target_id": target["id"],
         "plan_file": target_plan_path,
-        "confidence_score": target["confidence_score"]
+        "confidence_score": target["confidence_score"],
+        "github": gh_res
     }
 

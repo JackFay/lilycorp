@@ -11,11 +11,13 @@ import json
 import time
 import uuid
 import re
+import secrets
+import base64
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
-from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
+from fastapi import FastAPI, HTTPException, Request, Response, BackgroundTasks
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -50,6 +52,34 @@ def load_env():
 
 load_env()
 
+# Initialize Google Cloud Storage if configured
+GCS_BUCKET = os.environ.get("GCS_BUCKET_NAME")
+gcs_adapter = None
+if GCS_BUCKET:
+    try:
+        from google.cloud import storage
+        class GCSStore:
+            def __init__(self, bname):
+                self.client = storage.Client()
+                self.bucket = self.client.bucket(bname)
+            def read_text(self, path: str) -> str:
+                blob = self.bucket.blob(path.lstrip("/"))
+                return blob.download_as_text() if blob.exists() else ""
+            def write_text(self, path: str, content: str, content_type: str = "text/plain"):
+                blob = self.bucket.blob(path.lstrip("/"))
+                blob.upload_from_string(content, content_type=content_type)
+            def read_json(self, path: str) -> dict:
+                txt = self.read_text(path)
+                return json.loads(txt) if txt else {}
+            def write_json(self, path: str, data: Any):
+                self.write_text(path, json.dumps(data, indent=2), content_type="application/json")
+            def list_blobs(self, prefix: str):
+                return [b.name for b in self.client.list_blobs(self.bucket, prefix=prefix.lstrip("/"))]
+        gcs_adapter = GCSStore(GCS_BUCKET)
+        print(f"[STORAGE] Connected to Google Cloud Storage: gs://{GCS_BUCKET}", flush=True)
+    except Exception as e:
+        print(f"[STORAGE] GCS initialization failed ({e}), falling back to local files.", flush=True)
+
 def get_genai_client() -> genai.Client:
     api_key = os.environ.get("GEMINI_API_KEY")
     if api_key:
@@ -68,41 +98,120 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Helper functions
-def read_text(path: Path) -> str:
-    if not path.exists():
-        return ""
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+# HTTP Basic Authentication Middleware
+@app.middleware("http")
+async def basic_auth_middleware(request: Request, call_next):
+    # Health checks exempt from auth
+    if request.url.path in ("/health", "/api/health"):
+        return await call_next(request)
 
-def write_text(path: Path, content: str):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
+    # Allow disabling auth explicitly via env
+    if os.environ.get("PORTAL_DISABLE_AUTH", "false").lower() == "true":
+        return await call_next(request)
 
-def read_json(path: Path) -> dict:
-    if not path.exists():
-        return {}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    expected_username = os.environ.get("PORTAL_USERNAME", "jack")
+    expected_password = os.environ.get("PORTAL_PASSWORD", "lilycorp2026")
 
-def write_json(path: Path, data: Any):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    auth_header = request.headers.get("Authorization")
+    if not auth_header or not auth_header.startswith("Basic "):
+        return Response(
+            content="Authentication required. Please enter your Lily Corp Cockpit credentials.\n",
+            status_code=401,
+            headers={"WWW-Authenticate": 'Basic realm="Lily Corp Diligence Cockpit"'}
+        )
+
+    try:
+        encoded_creds = auth_header.split(" ", 1)[1]
+        decoded_creds = base64.b64decode(encoded_creds).decode("utf-8")
+        username, password = decoded_creds.split(":", 1)
+    except Exception:
+        return Response(
+            content="Invalid Authorization header.\n",
+            status_code=401,
+            headers={"WWW-Authenticate": 'Basic realm="Lily Corp Diligence Cockpit"'}
+        )
+
+    correct_username = secrets.compare_digest(username.encode("utf-8"), expected_username.encode("utf-8"))
+    correct_password = secrets.compare_digest(password.encode("utf-8"), expected_password.encode("utf-8"))
+
+    if not (correct_username and correct_password):
+        return Response(
+            content="Incorrect username or password.\n",
+            status_code=401,
+            headers={"WWW-Authenticate": 'Basic realm="Lily Corp Diligence Cockpit"'}
+        )
+
+    return await call_next(request)
+
+# Storage helpers (supporting both GCS and local filesystem)
+def normalize_rel_path(path: Any) -> str:
+    s = str(path)
+    if s.startswith(str(BASE_DIR)):
+        return os.path.relpath(s, str(BASE_DIR))
+    return s.lstrip("/")
+
+def read_text(path: Any) -> str:
+    rel_path = normalize_rel_path(path)
+    if gcs_adapter:
+        txt = gcs_adapter.read_text(rel_path)
+        if txt:
+            return txt
+    p = BASE_DIR / rel_path if not isinstance(path, Path) else path
+    if p.exists():
+        with open(p, "r", encoding="utf-8") as f:
+            return f.read()
+    return ""
+
+def write_text(path: Any, content: str, content_type: str = "text/plain"):
+    rel_path = normalize_rel_path(path)
+    if gcs_adapter:
+        try:
+            gcs_adapter.write_text(rel_path, content, content_type=content_type)
+        except Exception as e:
+            print(f"[STORAGE] GCS write error for {rel_path}: {e}")
+    try:
+        p = BASE_DIR / rel_path if not isinstance(path, Path) else path
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(content)
+    except Exception:
+        pass
+
+def read_json(path: Any) -> dict:
+    rel_path = normalize_rel_path(path)
+    if gcs_adapter:
+        data = gcs_adapter.read_json(rel_path)
+        if data:
+            return data
+    p = BASE_DIR / rel_path if not isinstance(path, Path) else path
+    if p.exists():
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def write_json(path: Any, data: Any):
+    rel_path = normalize_rel_path(path)
+    if gcs_adapter:
+        try:
+            gcs_adapter.write_json(rel_path, data)
+        except Exception as e:
+            print(f"[STORAGE] GCS write_json error for {rel_path}: {e}")
+    try:
+        p = BASE_DIR / rel_path if not isinstance(path, Path) else path
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+    except Exception:
+        pass
 
 def get_generated_registry() -> List[Dict[str, Any]]:
-    reg_file = GENERATED_DIR / "registry.json"
-    if not reg_file.exists():
-        return []
-    try:
-        return read_json(reg_file)
-    except Exception:
-        return []
+    res = read_json("portal/generated/registry.json")
+    if isinstance(res, list):
+        return res
+    return []
 
 def save_generated_registry(items: List[Dict[str, Any]]):
-    reg_file = GENERATED_DIR / "registry.json"
-    write_json(reg_file, items)
+    write_json("portal/generated/registry.json", items)
 
 
 # Models
@@ -155,6 +264,9 @@ def get_system_status():
     graveyard_content = read_text(PLAN_DIR / "graveyard_rejected_ideas.md")
     graveyard_count = len(re.findall(r"### Concept:", graveyard_content))
 
+    github_prs_merged = len([i for i in items if i.get("github_auto_merged") is True])
+    github_prs_pending = len([i for i in items if i.get("github_pr") and not i.get("github_auto_merged")])
+
     return {
         "active_cycle": active_cycle,
         "total_frontier_items": len(items),
@@ -163,6 +275,8 @@ def get_system_status():
         "avg_confidence_score": avg_score,
         "rejection_count": rejection_count,
         "graveyard_count": graveyard_count,
+        "github_prs_merged": github_prs_merged,
+        "github_prs_pending": github_prs_pending,
         "digest_snippet": digest_content[:500] if digest_content else "No digest available yet.",
         "last_updated": datetime.now().isoformat()
     }
@@ -209,10 +323,28 @@ def get_frontier_item(item_id: str):
     raise HTTPException(status_code=404, detail="Item not found")
 
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "service": "lilycorp-cockpit", "time": datetime.now().isoformat()}
+
+
 @app.get("/api/plans")
 def list_plans():
     plans = []
-    if PLAN_DIR.exists():
+    if gcs_adapter:
+        blob_names = gcs_adapter.list_blobs("plan/")
+        for name in sorted(blob_names):
+            if name.endswith(".md"):
+                filename = name.split("/")[-1]
+                content = read_text(name)
+                plans.append({
+                    "filename": filename,
+                    "relative_path": name,
+                    "size_bytes": len(content),
+                    "lines": len(content.splitlines()),
+                    "is_graveyard": filename == "graveyard_rejected_ideas.md"
+                })
+    if not plans and PLAN_DIR.exists():
         for f in sorted(PLAN_DIR.glob("*.md")):
             size = f.stat().st_size
             lines = len(read_text(f).splitlines())
@@ -228,21 +360,21 @@ def list_plans():
 
 @app.get("/api/plans/{filename}")
 def get_plan_content(filename: str):
-    file_path = PLAN_DIR / filename
-    if not file_path.exists() or not file_path.is_file():
+    rel_path = f"plan/{filename}"
+    content = read_text(rel_path)
+    if not content:
         raise HTTPException(status_code=404, detail="Plan file not found")
-    content = read_text(file_path)
     return {
         "filename": filename,
         "content": content,
         "line_count": len(content.splitlines()),
-        "last_modified": datetime.fromtimestamp(file_path.stat().st_mtime).isoformat()
+        "last_modified": datetime.now().isoformat()
     }
 
 
 @app.get("/api/graveyard")
 def get_graveyard():
-    content = read_text(PLAN_DIR / "graveyard_rejected_ideas.md")
+    content = read_text("plan/graveyard_rejected_ideas.md")
     # Parse concepts
     concepts = []
     chunks = content.split("### Concept: ")
@@ -265,9 +397,9 @@ def get_graveyard():
 
 @app.get("/api/steering")
 def get_steering_info():
-    inbox = read_text(STEERING_DIR / "inbox.md")
-    archive = read_text(STEERING_DIR / "archive.md")
-    digest = read_text(STEERING_DIR / "digest.md")
+    inbox = read_text("steering/inbox.md")
+    archive = read_text("steering/archive.md")
+    digest = read_text("steering/digest.md")
     return {
         "inbox": inbox,
         "archive_recent": archive[-5000:] if archive else "",
@@ -281,10 +413,9 @@ def submit_steering(data: SteeringInput, background_tasks: BackgroundTasks):
     if not note:
         raise HTTPException(status_code=400, detail="Note cannot be empty")
 
-    inbox_file = STEERING_DIR / "inbox.md"
-    current_inbox = read_text(inbox_file)
+    current_inbox = read_text("steering/inbox.md")
     entry = f"\n- [{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {note}\n"
-    write_text(inbox_file, current_inbox + entry)
+    write_text("steering/inbox.md", current_inbox + entry)
 
     if data.run_cycle_now:
         # Trigger cycle runner in background
@@ -294,14 +425,18 @@ def submit_steering(data: SteeringInput, background_tasks: BackgroundTasks):
 
 
 def run_local_cycle():
-    """Run single cycle in background using venv python."""
+    """Run single cycle in background using venv python or direct cloud call."""
     try:
+        if GCS_BUCKET:
+            from cloud_function.diligence_core import run_single_cloud_cycle
+            run_single_cloud_cycle(GCS_BUCKET)
+            return
         import subprocess
         python_bin = BASE_DIR / "engine" / ".venv" / "bin" / "python"
         runner_script = BASE_DIR / "engine" / "cycle_runner.py"
         subprocess.run([str(python_bin), str(runner_script), "--once"], cwd=BASE_DIR, check=True)
     except Exception as e:
-        print(f"Background cycle execution failed: {e}")
+        print(f"Background cycle execution failed: {e}", flush=True)
 
 
 @app.post("/api/run-cycle")
@@ -317,10 +452,10 @@ def list_generated_pages():
 
 @app.get("/view/{page_id}", response_class=HTMLResponse)
 def view_generated_page(page_id: str):
-    page_file = GENERATED_DIR / f"{page_id}.html"
-    if not page_file.exists():
+    html = read_text(f"portal/generated/{page_id}.html")
+    if not html:
         raise HTTPException(status_code=404, detail="Generated page not found")
-    return HTMLResponse(content=read_text(page_file))
+    return HTMLResponse(content=html)
 
 
 @app.post("/api/generate-page")
@@ -336,12 +471,12 @@ def generate_ai_html_page(req: PageGenerateRequest):
     evidence_snippets = []
     
     # Financials
-    pl_csv = read_text(EVIDENCE_DIR / "financials" / "pl.csv")
+    pl_csv = read_text("evidence/financials/pl.csv")
     if pl_csv:
         evidence_snippets.append("--- P&L 2015-2025 ---\n" + "\n".join(pl_csv.splitlines()[:40]))
         
     # Site Notes
-    site_notes = read_text(EVIDENCE_DIR / "diligence" / "lilycorp_site_visit_notes_2026-09-09.md")
+    site_notes = read_text("evidence/diligence/lilycorp_site_visit_notes_2026-09-09.md")
     if site_notes:
         evidence_snippets.append("--- SITE VISIT NOTES ---\n" + site_notes[:4000])
 
@@ -349,7 +484,7 @@ def generate_ai_html_page(req: PageGenerateRequest):
     target_context = ""
     frontier_item = None
     if req.item_id:
-        frontier = read_json(STATE_DIR / "frontier.json")
+        frontier = read_json("state/frontier.json")
         for item in frontier.get("frontier", []):
             if item.get("id") == req.item_id:
                 frontier_item = item
@@ -357,15 +492,15 @@ def generate_ai_html_page(req: PageGenerateRequest):
                 break
 
     if req.plan_file:
-        p_path = BASE_DIR / req.plan_file
-        if p_path.exists():
-            target_context += f"PLAN MODULE ({req.plan_file}):\n" + read_text(p_path)[:12000]
+        plan_txt = read_text(req.plan_file)
+        if plan_txt:
+            target_context += f"PLAN MODULE ({req.plan_file}):\n" + plan_txt[:12000]
     elif frontier_item and frontier_item.get("target_plan_file"):
-        p_path = BASE_DIR / frontier_item.get("target_plan_file")
-        if p_path.exists():
-            target_context += f"TARGET PLAN MODULE:\n" + read_text(p_path)[:12000]
+        plan_txt = read_text(frontier_item.get("target_plan_file"))
+        if plan_txt:
+            target_context += f"TARGET PLAN MODULE:\n" + plan_txt[:12000]
 
-    graveyard_text = read_text(PLAN_DIR / "graveyard_rejected_ideas.md")
+    graveyard_text = read_text("plan/graveyard_rejected_ideas.md")
 
     # 2. Template instructions
     template_instructions = {
@@ -437,6 +572,9 @@ REJECTED CONCEPTS & AUTOPSIES:
 {graveyard_text[:3000]}
 """
 
+    t0 = time.time()
+    print(f"[AI GENERATE] Generating {req.template_type} page for item={req.item_id}, plan={req.plan_file} using {model_name}...", flush=True)
+
     response = client.models.generate_content(
         model=model_name,
         contents=prompt
@@ -451,10 +589,9 @@ REJECTED CONCEPTS & AUTOPSIES:
         html_content = html_content[:-3]
     html_content = html_content.strip()
 
-    # Save page to disk
+    # Save page to disk & GCS
     page_id = f"page_{int(time.time())}_{uuid.uuid4().hex[:6]}"
-    page_file = GENERATED_DIR / f"{page_id}.html"
-    write_text(page_file, html_content)
+    write_text(f"portal/generated/{page_id}.html", html_content, content_type="text/html")
 
     # Derive human title
     page_title = req.title
@@ -479,6 +616,9 @@ REJECTED CONCEPTS & AUTOPSIES:
     }
     registry.insert(0, entry)
     save_generated_registry(registry)
+
+    elapsed = time.time() - t0
+    print(f"[AI GENERATE] Done in {elapsed:.2f}s! Saved {page_id} ({len(html_content)} bytes): {page_title}", flush=True)
 
     return {
         "status": "SUCCESS",
