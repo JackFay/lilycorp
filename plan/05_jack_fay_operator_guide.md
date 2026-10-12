@@ -10,66 +10,220 @@ This guide establishes the week-by-week operational schedule and execution manua
   Phase 1 (Days 1–15)      Phase 2 (Days 16–30)      Phase 3 (Days 31–45)      Phase 4 (Days 46–60)      Phase 5 (Days 61–75)      Phase 6 (Days 76–90)
  ┌────────────────────┐   ┌────────────────────┐   ┌────────────────────┐   ┌────────────────────┐   ┌────────────────────┐   ┌────────────────────┐
  │  FLOOR TRUST &     │   │ BOB'S FORMULAS &   │   │ AUTONOMOUS QUOTES  │   │ BOB'S RETIREMENT & │   │ CONSUMABLE MARGIN  │   │ DISTRIBUTOR SCALE  │
- │  DAVE J RETENTION  │──▶│ SHADOW SALES       │──▶│ & SHOP WIP FLOW    │──▶│ FULL CONTROL       │──▶│ & BATCH INVENTORY  │──▶│ & Q2 EXPANSION     │
+ │  ROSTER RETENTION  │──▶│ SHADOW SALES       │──▶│ & SHOP WIP FLOW    │──▶│ FULL CONTROL       │──▶│ & BATCH INVENTORY  │──▶│ & Q2 EXPANSION     │
  └────────────────────┘   └────────────────────┘   └────────────────────┘   └────────────────────┘   └────────────────────┘   └────────────────────┘
-   • 6:30 AM shop arrival   • Deconstruct Bob's      • Jack writes 100%       • Bob exits to paid      • 10 proprietary molds   • White Cap & Sika
-   • Dave J incentive VCU     unwritten formulas       of quotes under Bob      retainer advisory        inventory audit          pipeline review
-   • 1-on-1 shop floor      • Top 30 joint account     • Hydrostatic bench      • Clean accounting cut   • Julian kitting flow    • State DOT bid
-     station work             handshakes               certifications           • Zero founder drag      • Tooling PM schedules     monitoring cadence
+   • 06:30 shop arrival     • Deconstruct Bob's      • Jack writes 100%       • Bob exits to paid      • 10 proprietary molds   • White Cap & Sika
+   • Dave J VCU executed      unwritten formulas       of quotes under Bob      retainer advisory        inventory audit          pipeline review
+   • Dave K & Greg signed   • Top 30 joint account     • Hydrostatic bench      • Clean accounting cut   • Julian kitting flow    • State DOT bid
+   • Workstation upgrades     handshakes               certifications           • Zero founder drag      • Tooling PM schedules     monitoring cadence
 ```
 
 ### The Operating Reality
 * **Commute & Cadence:** Jack lives in Riverside, IL (~35 minutes from Aurora via I-88 W / US-34 Ogden Ave). Jack arrives at the facility at **06:30 CST**, 30 minutes before shop staff punches in at 07:00 CST.
 * **The Transition Window:** Founder Robert "Bob" Trout (age 70+) is retiring. Jack has a hard **45 to 60 working-day runway** to extract four decades of unwritten quoting math, equipment tolerances, and vendor networks.
-* **The Core Shop Floor:** 
-  * **Dave Jepsen (Sales & Technical Training):** ~2 years at Lily; sales and contractor support lead, handling daily contractor phone inquiries, application sizing, and field equipment training.
-  * **Dave Kling (Lead Machinist & Fabricator):** Master of manual mills, lathes, TIG welding, purchasing, shipping, and CD-250 manifold machining.
-  * **Julian Perez (Assembly & Repairs):** Technician for new machine assembly, proportioner teardowns, and accessory packaging.
-  * **Greg (Press Operator & QA Rebuilds):** Operates the on-site injection molding press, runs hydrostatic rebuild testing, and quality assurance.
-  * **Maggie M (Office Manager & Administration):** Gatekeeper of QuickBooks Desktop, job tickets, accounts receivable, and Net 30/60 billing.
+* **The Core 5-Person Shop Roster:** 
+  * **Dave Jepsen (Contractor Sales Engineer & Technical Application Support):** ~2 years at Lily; sales and contractor support lead, handling daily contractor phone inquiries, viscosity-appropriate port spacing, and field equipment training seminars.
+  * **Dave Kling (Lead Fabricator, Machinist, Welder & Purchasing Agent):** Master of manual mills, lathes, 316 stainless TIG welding, hardware purchasing, and CD-250 manifold machining.
+  * **Greg (Press Operator & QA/Hydrostatic Testing Lead):** Sole in-house operator of the Cincinnati Milacron injection molding press, manager of the resin desiccant dryer, and operator of the 2,200+ PSI hydrostatic rebuild test bench.
+  * **Julian Perez (Assembly Technician, Repairs & Logistics Specialist):** Technician for CD-15/CD-250 pump assembly, tear-down cleaning, packaging, and pallet freight.
+  * **Maggie M (Office Manager & Bookkeeper):** QuickBooks Desktop administrator, Net 30/60 billing, paper checks, customer shipping documents, and vendor PO matching.
 
 ---
 
 ## 1. Key Personnel Alignment & Retention Architecture
+`[FRONTIER RESOLUTION: OPER_ROSTER_RETENTION_04]`
+
+Lily Corporation’s physical and financial existence rests entirely upon three non-owner individuals: **Dave Jepsen** (who owns contractor relationships), **Dave Kling** (who machines every custom manifold and controls purchasing), and **Greg** (who single-handedly operates the proprietary injection molding press and pressure-tests finished rigs). 
+
+Losing any of these three during Year 1 produces catastrophic operational paralysis:
+1. Losing Dave J stalls sales and severs the Sika/Euclid/White Cap referral channels.
+2. Losing Dave Kling halts CD-250 fabrication, manifold machining, and pump rebuilds.
+3. Losing Greg instantly shuts down the injection molding press—freezing Lily's 65–75% gross margin consumable profit engine—and eliminates hydrostatic quality assurance.
+
+To secure this roster without inflaming internal shop tensions or burning scarce working capital, Jack executes a differentiated, role-specific retention architecture within the first 5 days.
+
+```
++---------------------------------------------------------------------------------------------------------------------------------------+
+| LILY CORPORATION 3-TIER OPERATIONAL RETENTION MATRIX                                                                                  |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Team Member       | Operational Moat / Risk    | Guaranteed Stay Bonus       | Performance Incentive    | Workstation / Craft Upgrade |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Dave Jepsen       | Contractor relationships & | $15,000 Total               | 2.5% GM Consumables Pool | Direct technical sales desk |
+| (VP Sales/Tech)   | dispenser specification    | ($7,500 M6 / $7,500 M12)    | 4.0% GM Custom Rig Pool  | upgrade & travel per diem   |
+|                   |                            |                             | 7.5% Synthetic Equity    | autonomy                    |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Dave Kling        | Custom machining, lathe,   | $7,500 Total                | $500/quarter scrap bonus | $3,500 Day-1 machine shop   |
+| (Lead Fabricator) | TIG welding, purchasing    | ($3,750 M6 / $3,750 M12)    | (<1.0% manifold scrap;   | tooling upgrade (carbide,   |
+|                   |                            |                             | zero bar stock stockouts)| DRO calibration, TIG kit)   |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Greg              | Cincinnati Milacron press, | $5,000 Total                | $250/mo Press Uptime &   | $1,500 Master Trainer Bonus |
+| (Press Operator)  | resin drying, 2,200 PSI    | ($2,500 M6 / $2,500 M12)    | QA Bonus (>85% uptime,   | (incentive to cross-train   |
+|                   | hydrostatic test bench     |                             | <0.5% part rejection)    | Julian on mold press)       |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Julian Perez      | Assembly, teardown repair, | Annual wage review &        | Cross-training skill     | $1,500 heavy-duty parts     |
+| (Assembly Tech)   | solvent wash, crating      | bilingual progression path  | step increases (+$1.50/h)| washer & anti-fatigue mats  |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+| Maggie M          | QuickBooks Desktop, Net    | Retention assurance &       | Year-end administrative  | $1,200 workstation upgrade  |
+| (Office Manager)  | 30/60 billing, paper checks| zero system disruption      | accuracy bonus ($1,500)  | (dual monitors, high-speed  |
+|                   |                            |                             |                          | document scanner for POs)   |
++-------------------+----------------------------+-----------------------------+--------------------------+-----------------------------+
+```
+
+---
 
 ### 1.1 Dave Jepsen: Commercial & Technical Retention Plan
-**The Risk:** Dave Jepsen is the voice and technical brain of Lily Corp to civil engineering contractors, DOT project managers, and distribution desks. If Dave leaves, contractor orders will stall, custom proportioner inquiries will be misquoted, and resin manufacturers (Sika, Euclid, Master Builders) will lose their primary equipment contact.
+**The Risk:** Dave Jepsen is the voice and technical authority of Lily Corp to civil engineering contractors, DOT project managers, and distributor desks. If Dave departs, contractor orders stall, custom proportioner inquiries are misquoted, and resin formulators (Sika, Euclid Chemical, Master Builders) lose their primary application contact.
 
-**The Incentive Solution: The Key-Operator Value Creation Unit (VCU) Agreement**
-Rather than diluting legal equity in an LLC, Jack institutes a **Phantom Equity & Gross Margin Sharing Agreement** signed on Day 5:
+**The Solution: The Key-Operator Value Creation Unit (VCU) Agreement**
+Rather than diluting legal equity in an LLC, Jack institutes a **Synthetic Equity & Gross Margin Sharing Agreement** signed on Day 5:
 
 1. **Title Advancement:** Vice President of Technical Applications & Field Sales.
 2. **Gross Margin Pool (Quarterly Cash Bonus):**
    * Dave receives a **2.5% quarterly commission on gross margin dollars** generated from all proprietary molded consumable sales (surface ports, corner ports, static mixers, CD-250 caps).
-   * Dave receives a **4.0% commission on gross margin dollars** on any new custom proportioner rig sales he originates and quotes.
-   * *Economic Impact:* At $1.90M historical top-line (~$1.05M Gross Profit), this yields Dave an additional $18,000–$26,000 in annual performance compensation, paid quarterly.
+   * Dave receives a **4.0% commission on gross margin dollars** on all custom proportioner rig sales he originates, configures, and quotes.
+   * *Economic Reality:* At $1.90M historical top-line (~$1.05M Gross Profit), this yields Dave an additional $18,000–$26,000 in annual performance compensation, paid quarterly.
 3. **Synthetic Value Creation Units (VCUs):**
-   * Dave is awarded **7.5% Synthetic Equity (VCUs)** in Lily Corp enterprise value growth over the closing valuation ($1,250,000 base).
-   * *Vesting Schedule:* 3-year cliff/graded vest (33.3% at Month 12, 33.3% at Month 24, 33.4% at Month 36).
-   * *Liquidity Event / Phantom Exit:* If Lily Corp is sold, recapped, or reaches Year 5, Dave receives 7.5% of the net enterprise value generated above $1.25M.
-   * *Stay Bonus Floor:* A guaranteed minimum retention payment of $7,500 at the end of Month 6 and $7,500 at Month 12, creditable against earned VCU cashouts.
-4. **Non-Solicitation & IP Formalization:**
-   * In exchange for the VCU agreement, Dave executes an updated, robust 24-month post-employment non-solicitation of Lily Corp customers, suppliers, and proprietary designs.
+   * Dave is awarded **7.5% Synthetic Equity (VCUs)** in Lily Corp enterprise value growth over the acquisition base ($1,250,000).
+   * *Vesting Schedule:* 3-year graded vesting (33.3% at Month 12, 33.3% at Month 24, 33.4% at Month 36).
+   * *Liquidity Event / Phantom Exit:* If Lily Corp is sold, recapped, or reaches Year 5, Dave receives 7.5% of net enterprise value created above $1.25M.
+   * *Stay Bonus Floor:* A guaranteed minimum retention payment of $7,500 at Month 6 and $7,500 at Month 12, creditable against earned VCU cashouts.
+4. **Protective Covenants:**
+   * In exchange for the VCU agreement, Dave executes an updated, enforceable 24-month post-employment non-solicitation agreement covering Lily Corp customers, suppliers, and proprietary equipment configurations.
 
-### 1.2 Dave Kling: Machining, Welding & Shop Respect Protocol
-**The Risk:** Long-tenured machinists resent "business school" owners who hover with clipboards or attempt to tell them how to grind carbide tools or TIG weld 316 stainless manifolds.
-* **Jack's Posture:** Jack is the apprentice on machining; Jack is the facilitator on tooling.
-* **The "Clear the Roadblocks" Action:**
-  * During Week 1, Jack asks Dave Kling one question: *"What tool, fixture, machine repair, or stock material shortage has Bob refused to buy that makes your job harder or slower?"*
-  * Within 48 hours of Day 3, Jack funds up to $3,500 in overdue shop maintenance (e.g., fresh carbide endmills, digital readout service on the Bridgeport, new TIG torches, or ergonomic material handling carts).
-  * Establish Dave Kling as the final sign-off authority on machine tolerances and fabrication QA.
+---
 
-### 1.3 Julian Perez: Assembly, Ergonomics & Bilingual Bridge
-**The Risk:** Julian handles heavy physical assembly, solvent cleaning, tear-downs, and packaging. Communication gaps or top-down mandates create disengagement and unrecorded quality defects.
-* **Jack's Posture:** Jack rolls up his sleeves, puts on safety glasses and nitrile gloves, and works the assembly bench alongside Julian for 90 minutes every morning during Days 1–14.
-* **Bilingual Integration:** Jack utilizes working Spanish for operational instructions on the bench. All job travelers, assembly checklist placards, and safety placards are updated with dual English/Spanish signage.
-* **Shop Improvement:**
-  * Julian's tear-down station currently handles chemical proportioners caked in cured epoxy and polyurethane. Jack purchases an upgraded heavy-duty parts washer, pneumatic torque drivers, and anti-fatigue floor matting within the first 10 days.
+### 1.2 Dave Kling: Lead Fabricator, Machinist & Purchasing Retention Architecture
+**The Risk:** Dave Kling is Lily's sole master machinist, precision manual lathe/mill operator, TIG welder, equipment rebuild lead, and primary purchasing agent. Dave holds 20+ years of unwritten machining tolerances for CD-250 fluid manifold blocks and manages all vendor relationships (Alro Steel, Parker Hannifin, McMaster-Carr). If Dave walks out, Lily cannot build proportioning pumps or machine fluid ends.
 
-### 1.4 Maggie M: QuickBooks Desktop & Billing Workflow
-* **Current Posture:** Maggie handles invoicing on QuickBooks Desktop, cuts manual paper checks, and monitors customer payments on Net 30/60 terms.
-* **First 30 Days Rule:** Do not touch QuickBooks Desktop, chart of accounts, or billing processes. Do not attempt an aggressive cloud ERP migration in the first 90 days.
-* **Supportive Upgrades:** Upgrade Maggie’s workstation hardware (dual 27" monitors, fast document scanner for PO matching). Provide automated bank feed reconciliation assistance to eliminate manual data entry.
+**Craftsman Psychology & Operating Posture:**
+Dave Kling is a master tradesman who takes deep pride in his craft. He does not want corporate "phantom equity," MBA performance frameworks, or complicated vesting spreadsheets. Dave wants:
+* Absolute respect for his machining mastery and tooling autonomy.
+* Relief from Bob Trout’s penny-pinching on worn cutting tools, dull endmills, and chattering lathe holders.
+* Guaranteed cash retention payments that reward his loyalty.
+* Autonomy to purchase metal stock and standard components without micro-management.
+
+**The Key-Craftsman Retention & Purchasing Agreement (Executed Day 3):**
+1. **Guaranteed Cash Stay Bonus: $7,500 Total.**
+   * *Structure:* Two guaranteed installments to match post-acquisition liquidity:
+     * **$3,750 payable at Month 6** (end of June, during peak construction cash flow).
+     * **$3,750 payable at Month 12** (end of December).
+   * *Conditions:* Dave remains full-time lead fabricator and machinist in good standing.
+   * *Protective Terms:* 24-month non-solicitation of Lily vendors and customers; standard trade secret protection covering Lily manifold dimensions and COCO ball valve tolerances.
+2. **Machining Quality & Scrap Optimization Incentive:**
+   * **$500 Quarterly Bonus ($2,000/year):** Tied to achieving <1.0% scrap rates on 316 stainless and 6061-T6 aluminum fluid manifold machining runs, and maintaining zero stockouts on core machine bar stock.
+3. **Purchasing Autonomy & Vendor Authority:**
+   * Dave Kling is granted immediate signing authority on purchase orders up to **$2,500** for shop stock, raw metals, and standard tooling without requiring Jack's prior approval.
+   * Formalized Purchasing Protocol: Dave logs vendor orders in a simple physical purchasing register on his desk; Maggie matches the PO upon receiving the packing slip and vendor invoice.
+4. **Day-1 Tooling Upgrade Budget ($3,500 Discretionary Capex Allocation):**
+   * On Day 2, Jack sits at Dave Kling’s workbench and asks: *"What tooling, fixtures, or machine repairs has Bob refused to fund that makes your job harder or slower?"*
+   * Jack immediately authorizes up to **$3,500** from the Year 1 capex budget for:
+     * Digital Readout (DRO) calibration and scale cleaning on the shop Bridgeport mill ($600).
+     * New Aloris quick-change tool post and indexable carbide turning/boring bars for the engine lathe ($1,400).
+     * High-performance 316 stainless cobalt/carbide drill bits and spiral flute taps ($800).
+     * Upgraded Miller TIG welding torch, gas lenses, and heavy-duty ground clamps ($700).
+5. **Knowledge Codification: The Dave Kling Machining Traveler:**
+   * Dave agrees to formalize setup cards for the 8 core machined parts (CD-250 primary manifold block, CD-15 fluid cylinders, COCO valve housing seats). As Dave runs each batch, Jack documents tool numbers, spindle speeds, feed rates, and critical inspection dimensions into laminated physical shop binders.
+
+---
+
+### 1.3 Greg: Injection Molding Press Operator & QA Rebuild Retention Protocol
+**The Risk:** Greg is Lily's **sole on-site injection molding press operator** and runs the 2,200 PSI hydrostatic test bench. Every high-margin surface port (LPP), socket port, snappy tee (LPT), reservoir bowl (LPC), and static mixer retaining nut depends on Greg running the Cincinnati Milacron press, operating the desiccant resin pellet dryer, and maintaining cycle times. Furthermore, Greg conducts final hydrostatic quality assurance on all completed proportioner pumps. If Greg leaves, Lily's highest-margin profit engine (~65–75% GM) freezes instantly.
+
+**Operator Psychology & De-risking Replacement Fears:**
+Greg understands he is the only person who knows how to operate the press. When a new owner talks about "cross-training Julian," Greg’s immediate fear is: *"They are going to have me teach Julian my job, and then fire me or cut my pay."* Jack must dismantle this fear immediately through economic alignment.
+
+**The Key-Operator Retention & Uptime Agreement (Executed Day 3):**
+1. **Guaranteed Cash Stay Bonus: $5,000 Total.**
+   * *Structure:* Two guaranteed cash installments:
+     * **$2,500 payable at Month 6** (end of June).
+     * **$2,500 payable at Month 12** (end of December).
+   * *Conditions:* Greg remains full-time injection molding press operator and QA technician in good standing.
+   * *Protective Terms:* 24-month non-solicitation agreement and confidentiality regarding proprietary mold cavity inserts.
+2. **Press Uptime & Tooling Care Performance Bonus:**
+   * **$250 Monthly Cash Bonus ($3,000/year):** Paid on the first payroll of each month, conditioned on:
+     * **Press Uptime:** Maintaining >85% scheduled press availability.
+     * **Scrap / Defect Rate:** Maintaining <0.5% part rejection on molded ports and caps.
+     * **Mold Preventative Maintenance:** Daily execution of the mold maintenance checklist (greasing guide pins, inspecting ejector return pins, monitoring desiccant dryer dew-point at -40°F).
+     * *Financial Impact:* Historical P&L Account 5440 (*Repairs & Maintenance - Molds*) suffered volatile spikes ($31,956 in 2024; $18,969 in 2025). Disciplined daily mold PM directly avoids $15,000+ in emergency tool repairs, easily funding Greg's $3,000/year bonus.
+3. **Hydrostatic QA & Zero-Leakage Incentive:**
+   * **$250 Quarterly Bonus ($1,000/year):** Tied to 100% first-pass verification on the 2,200 PSI hydrostatic test bench and zero customer warranty claims from leaking fluid manifold seals.
+4. **The "Master Trainer" Cross-Training Bonus (Eliminating the Replacement Threat):**
+   * To cross-train Julian Perez without triggering Greg’s insecurity, Jack establishes the **Master Trainer Incentive ($1,500 Total Cash)**:
+     * Greg receives **$750** when Julian completes verified certification on basic press startup, material drying checks, and hopper loading (Milestone 1, Month 3).
+     * Greg receives **$750** when Julian demonstrates autonomous operation of standard surface port runs under Greg's supervision (Milestone 2, Month 6).
+   * *Jack’s Direct Messaging to Greg:* *"Greg, you are the master press operator and QA lead. I never want you overwhelmed by basic hopper loading or running standard parts when we have complex mold changes and custom machine testing to do. Julian is your apprentice and backup so you can take time off without the shop shutting down. You get paid extra to teach him."*
+
+---
+
+### 1.4 Julian Perez: Assembly, Ergonomics & Bilingual Bridge
+**The Operational Domain:** Julian handles physical assembly of CD-15 and CD-250 pumps, tear-down cleaning of returned rental units encrusted in cured resins, fluid hose crimping, packaging, and freight staging.
+* **Jack's Posture:** Jack works alongside Julian at the tear-down bench for 90 minutes every morning during Days 1–14, learning the physical assembly sequence and establishing mutual respect.
+* **Bilingual Integration:** Jack utilizes working Spanish for technical instructions on the assembly bench. All job travelers, assembly checklist placards, and safety warning signs are updated with dual English/Spanish notation.
+* **Workstation Upgrades & Ergonomics ($1,500 Budget):**
+  * Julian currently cleans cured epoxy components using harsh solvent baths with inadequate ventilation. Within the first 10 days, Jack purchases an upgraded heavy-duty recirculating parts washer, pneumatic torque drivers, and anti-fatigue floor matting ($1,500 total).
+* **Career Pathway:** Julian is enrolled in the structured cross-training track:
+  * Mold press auxiliary operation under Greg (earning a +$1.50/hour skill-tier wage bump upon completion of Milestone 1).
+  * Horizontal band saw cut-off operation under Dave Kling to assist with raw stock preparation.
+
+---
+
+### 1.5 Maggie M: QuickBooks Desktop & Billing Workflow
+**The Operational Domain:** Maggie manages customer invoicing on QuickBooks Desktop, enters purchase orders, cuts vendor checks, and coordinates Net 30/60 receivables.
+* **First 90 Days Rule:** Zero disruption to existing financial software. Do not touch QuickBooks Desktop, do not alter the chart of accounts, and do not attempt an ERP migration.
+* **Workstation & Ergonomic Upgrade ($1,200 Budget):**
+  * Replace Maggie’s outdated single monitor with dual 27-inch commercial displays and install a dedicated high-speed duplex document scanner for contractor PO matching ($1,200 total).
+* **Job Stability & Administrative Bonus:**
+  * Reassure Maggie that her role is completely secure. Establish an annual **$1,500 Administrative Accuracy & AR Bonus** tied to keeping A/R aging > 60 days below 8% of total billings.
+
+---
+
+### 1.6 Shop Culture Architecture & Internal Equity Harmony
+
+A major risk in small-bay industrial turnarounds is culture shock and pay resentment. If shop-floor craftsmen learn that Dave Jepsen received synthetic equity and gross margin percentages while they received flat stay bonuses, resentment will poison the facility.
+
+Jack establishes strict cultural guardrails to ensure shop unity:
+1. **Confidentiality on Commercial Structures:** Dave Jepsen’s Value Creation Unit (VCU) agreement is an executive commercial agreement governed by strict mutual non-disclosure covenants. Dave J’s compensation is tied to outside commercial origination and customer development.
+2. **Craft-Aligned Incentives for Shop Specialists:** Shop tradesmen value immediate tool funding, physical autonomy, and guaranteed cash over complex equity formulas. Dave Kling ($7,500 stay + $2,000/yr scrap bonus + $3,500 tooling) and Greg ($5,000 stay + $4,000/yr uptime/QA bonus + $1,500 trainer bonus) receive substantial, tangible cash rewards tied directly to shop reality.
+3. **The Daily 07:10 Standup:** Jack unites the shop daily on physical progress rather than corporate metrics. Every worker sees what is shipping, what materials are needed, and that leadership is physically present on the floor.
+4. **Jack's Apprentice Posture:** Jack never acts as the "expert machinist" or "expert molder." Jack approaches Dave Kling and Greg as the apprentice seeking to master their craft, while serving as the executive who removes administrative and equipment roadblocks.
+
+---
+
+### 1.7 Cash Outlay, Retention Accrual & Capex Reconciliation
+All immediate workstation commitments and deferred stay bonuses are strictly budgeted against the Assumed Capital Baseline ($50,000 initial cash buffer; $20,000 Year 1 discretionary capex ceiling):
+
+```
++---------------------------------------------------------------------------------------------------+
+| DAY-1 DISCRETIONARY CAPEX & WORKSTATION ALLOCATION (CAPPED AT $20,000 CEILING)                    |
++----------------------------------------------------+----------------------------------------------+
+| Line Item Description                              | Authorized Cash Outflow                      |
++----------------------------------------------------+----------------------------------------------+
+| Dave Kling Shop Tooling (DRO, lathe carbide, TIG)   | $3,500.00                                    |
+| Julian Perez Assembly Bench & Parts Washer         | $1,500.00                                    |
+| Maggie M Dual Monitor & High-Speed Scanner Station | $1,200.00                                    |
+| Day-1 Shop Floor Welcome Town Hall & Hot Catering  | $400.00                                      |
+| TOTAL IMMEDIATE DAY-1 CASH COMMITMENTS             | **$6,600.00** (Preserves $43,400 Cash Buffer)|
+| Remaining Year 1 Capex Reserve (Press/Hydro bench) | $13,400.00 (Total Capex = $20,000.00)        |
++----------------------------------------------------+----------------------------------------------+
+```
+
+```
++---------------------------------------------------------------------------------------------------+
+| CASH RETENTION BONUS VESTING SCHEDULE & LIQUIDITY RECONCILIATION                                 |
++-------------------+--------------------+--------------------+-------------------------------------+
+| Recipient         | Month 6 Cash Vest  | Month 12 Cash Vest | Annual Performance Bonus Maximum    |
++-------------------+--------------------+--------------------+-------------------------------------+
+| Dave Jepsen       | $7,500.00          | $7,500.00          | Variable (Paid quarterly from GM)   |
+| Dave Kling        | $3,750.00          | $3,750.00          | $2,000.00 ($500/quarter scrap bonus)|
+| Greg              | $2,500.00          | $2,500.00          | $4,000.00 ($250/mo press + QA)      |
+| TOTAL ACCRUAL     | **$13,750.00**     | **$13,750.00**     | Funded out of monthly cash flow     |
++-------------------+--------------------+--------------------+-------------------------------------+
+```
+
+*Cash Flow Timing Verification:*
+* In Month 4 (April), when Lily’s cash buffer drops to its seasonal low of **$7,219**, zero stay bonus payments are due.
+* Month 6 (June) stay bonuses ($13,750 total) are paid when peak summer sales have generated **+$34,000 in monthly net cash accretion**, raising the cash buffer to **$52,281**.
+* Month 12 (December) stay bonuses ($13,750 total) are disbursed from a robust ending balance of **$299,047**.
 
 ---
 
@@ -104,7 +258,7 @@ Bob Trout’s custom dispenser quoting math lives entirely in his head and in sc
 ```
 
 ### 2.1 The Mechanical Sizing & Fluid Ratio Math
-Lily's core proportioners (CD-250, Mini Dispensers, Pneumatic Portable Rigs) rely on dual positive-displacement metering fluid cylinders driven by a common pneumatic or electro-mechanical power head.
+Lily's core proportioners (CD-250, CD-200, CD-85, CD-15, and CP-5) rely on dual positive-displacement metering fluid cylinders driven by a common pneumatic power head.
 
 #### 1. Volumetric Ratio Equations
 The volumetric ratio ($R$) between Resin Component A and Hardener Component B is governed by cylinder bore area and mechanical stroke length:
@@ -187,7 +341,7 @@ NET MARGIN REALIZATION:                                          $6,816.50 (53.0
 ---
 
 ### 2.3 The Proprietary Injection Molding Consumable Engine
-Lily owns 10 injection molds producing surface entry ports, corner ports, CD-250 caps, and static mixer housings. These parts represent Lily's core margin moat (~65–75% Gross Margin).
+Lily owns 10 injection molds producing surface entry ports (LPP), snappy tee adapters (LPT), reservoir bowls (LPC), port caps, and static mixer housings. These parts represent Lily's core margin moat (~65–75% Gross Margin).
 
 #### 1. Mold Maintenance & Shot Cost Amortization Formula
 From historical P&L Account 5440 (*Repairs & Maintenance - Molds*), mold tooling requires periodic maintenance (polishing, ejector pin replacement, runner recutting, cavity refurbishment).
@@ -214,7 +368,7 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
 #### Week 1: Days 1–5 (The "Ears Open, Boots Clean" Initiation)
 * **Daily Schedule (06:30 – 16:30):**
   * 06:30: Jack arrives. Inspects shop security, checks overnight heat/compressor, reviews Maggie’s physical inbox of previous day's packing slips.
-  * 07:00: Shop punches in. Jack attends morning kickoff with Dave K and Julian.
+  * 07:00: Shop punches in. Jack attends morning kickoff with Dave K, Greg, and Julian.
   * 07:15 – 09:00: Bench station with Julian. Hands-on packing and teardown of returned rental CD-250s.
   * 09:00 – 12:00: Shadow Dave Jepsen on incoming contractor technical support calls. Document common customer failure modes.
   * 12:00 – 12:45: Shop lunch (Jack brings hot catered lunch on Day 2).
@@ -222,15 +376,16 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
   * 15:00 – 16:30: Review daily shipments and invoicing with Maggie.
 * **Key Milestones:**
   * **Day 1:** All-hands 15-minute introductory meeting. Theme: *"My job is to give you the tools, material, and support to do what you've done for decades. Nobody is losing their job. No crazy corporate systems. We are building an enduring business."*
-  * **Day 3:** Present Dave Jepsen with the draft Key-Operator VCU Retention Agreement.
-  * **Day 5:** Sign Dave Jepsen’s Retention Agreement. Complete first shop-wide safety walk (fire extinguishers, eye wash stations, compressor condensate drains).
+  * **Day 2:** Private 1-on-1 meetings with Dave Kling and Greg. Present Dave Kling with the $3,500 tooling authorization and Greg with the Press PM & QA incentive plan.
+  * **Day 3:** Execute formal retention agreements with Dave Kling ($7,500 stay bonus) and Greg ($5,000 stay bonus).
+  * **Day 5:** Sign Dave Jepsen’s Key-Operator VCU Retention Agreement. Complete first shop-wide safety walk (fire extinguishers, eye wash stations, compressor condensate drains).
 
 #### Week 2: Days 6–10 (The Workstation Audit & Vendor Map)
 * **Focus:** Deep dive into Dave Kling’s machine shop operations and supplier lead times.
 * **Actions:**
   * Spend 8 shop hours at the machining station with Dave Kling. Map every step of CD-250 manifold block milling, boring, and tapping.
-  * Review current machine tooling inventory. Authorize initial $2,500 tooling upgrade for Dave Kling (high-performance carbide drills, tapping heads).
-  * Identify Bob’s top 10 raw material and component suppliers (stainless bar distributors, pneumatic cylinder suppliers, injection molders running Lily’s 10 molds).
+  * Review current machine tooling inventory. Authorize initial $3,500 tooling upgrade for Dave Kling (high-performance carbide drills, tapping heads, DRO calibration).
+  * Identify Bob’s top 10 raw material and component suppliers (stainless bar distributors, pneumatic cylinder suppliers, resin distributors).
   * Sit with Maggie to review accounts receivable aging and identify slow-paying civil contractor accounts (> 60 days).
 
 ---
@@ -263,16 +418,16 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
 * **Actions:**
   * Jack assumes primary responsibility for pricing all custom proportioner builds, replacement parts, and bulk consumable orders.
   * Target turnaround: Custom rig quotes delivered to contractors within **4 business hours** (down from Bob’s historical 3–5 days).
-  * Establish a physical visual WIP (Work-In-Process) board on the shop floor for Dave Kling and Julian:
-    * Columns: *Queued (BOM Staged) | In Machining (Dave K) | In Assembly & Sub-Assembly (Julian) | Hydrostatic Test & QA (Julian/Jack) | Packaging & Shipping (Maggie)*.
+  * Establish a physical visual WIP (Work-In-Process) board on the shop floor for Dave Kling, Greg, and Julian:
+    * Columns: *Queued (BOM Staged) | In Machining (Dave K) | In Molding (Greg) | In Assembly (Julian) | Hydrostatic Test & QA (Greg/Jack) | Packaging & Shipping (Maggie/Julian)*.
   * Eliminate verbal job assignments. Every build receives an active Job Traveler folder with technical drawings, cut lists, and an inspection checklist.
 
 #### Week 6: Days 26–30 (The Pressure Test Bench & Quality Assurance)
-* **Focus:** Master hydrostatic testing and machine teardown protocols alongside Julian.
+* **Focus:** Master hydrostatic testing and machine teardown protocols alongside Greg and Julian.
 * **Actions:**
-  * Jack completes full teardown, rebuild, seal replacement, and hydrostatic pressure certification of three CD-250 proportioners.
+  * Jack completes full teardown, rebuild, seal replacement, and hydrostatic pressure certification of three CD-250 proportioners under Greg's direction.
   * Certify testing protocol: Every chemical dispenser leaving Aurora must hold **2,200 PSI hydrostatic oil test for 15 minutes** with zero pressure drop across both fluid ends.
-  * Establish serialized QA certificates signed by Julian and Jack, physically packed into every machine crate.
+  * Establish serialized QA certificates signed by Greg and Jack, physically packed into every machine crate.
   * Spanish-English Job Traveler standardization: Standardize assembly instructions with laminated visual schematics at Julian's workbench.
 
 ---
@@ -284,8 +439,8 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
 * **Actions:**
   * Bob Trout reduces on-site presence to 08:00 – 12:00. Jack runs morning standup, shop scheduling, quoting, and vendor purchasing autonomously.
   * Run first complete month-end financial close with Maggie in QuickBooks Desktop without Bob’s intervention.
-  * Complete physical audit of the 10 proprietary injection molds:
-    * Verify physical location of all 10 mold tools (Aurora on-site vs. contracted injection molders).
+  * Complete physical audit of the 10 proprietary injection molds with Greg:
+    * Verify physical condition of all 10 mold tools (cavities, ejector plates, runner gates).
     * Inspect tool condition, last refurbishment date, shot counter logs, and maintenance logs.
     * Confirm free-and-clear ownership documentation is secured in company vault.
 
@@ -301,13 +456,13 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
 
 ### Phase 5: Days 61–75 — Margin Expansion, Consumable Inventory & Batch Scheduling
 
-#### Week 9: Days 41–45 (Molded Consumable Optimization)
+#### Week 9: Days 41–45 (Molded Consumable Optimization & Greg's Cross-Training Kickoff)
 * **Focus:** Scaling the high-margin consumable engine (ports, caps, static mixers).
 * **Actions:**
-  * Review historical inventory records. In 2024–2025, Lily suffered massive inventory swings due to small, erratic production runs.
   * Implement Economic Order Quantity (EOQ) batch runs for surface ports and CD-250 caps:
     * Calculate annual resin pellet purchasing schedules to capture bulk raw material discounts.
     * Establish minimum inventory buffers in Aurora: Maintain 15,000 units of standard surface ports and 5,000 units of corner ports ready to ship same-day.
+  * Greg initiates Milestone 1 of Julian's cross-training protocol (resin dryer dew-point monitoring, hopper material feeding, and basic press cycle monitoring) to activate Greg's Master Trainer milestone bonus.
   * Launch "Same-Day Port Dispatch": Any contractor order for injection ports received before 14:00 CST ships that afternoon via UPS Ground/Freight.
 
 #### Week 10: Days 46–50 (Machining Cell Efficiency & Sublet Optimization)
@@ -351,25 +506,27 @@ JACK FAY FIRST 90 DAYS MASTER SCHEDULE
 ┌──────────────┬──────────────┬──────────────┬─────────────────────┬──────────┬──────────────┬──────────────┬──────────────┐
 │ JACK ARRIVES │ SHOP START & │ 10-MIN DAILY │ BENCH / MACHINE     │ SHOP     │ SALES / TECH │ FINAL QA &   │ SHOP CLOSE & │
 │ Facility     │ PUNCH-IN     │ STANDUP      │ FLOOR INTEGRATION   │ LUNCH    │ QUOTES / DESK│ SHIPPING     │ NEXT DAY     │
-│ Inspection & │ Julian &     │ Whiteboard   │ Jack works with     │ Dave K,  │ With Dave J; │ Julian/Maggie│ STAGING      │
-│ Invoicing    │ Dave K       │ Schedule &   │ Julian (Assembly)   │ Julian & │ Phone Orders │ Daily Carrier│ Jack locks up│
-│ Review       │ on deck      │ Bottlenecks  │ & Dave K (Machining)│ Dave J   │ & Formulations│ Manifests   │ at 17:00     │
+│ Inspection & │ Julian, Greg │ Whiteboard   │ Jack works with     │ Dave K,  │ With Dave J; │ Julian/Maggie│ STAGING      │
+│ Invoicing    │ & Dave K     │ Schedule &   │ Julian (Assembly)   │ Greg,    │ Phone Orders │ Daily Carrier│ Jack locks up│
+│ Review       │ on deck      │ Bottlenecks  │ & Dave K (Machining)│ Julian & │ & Formulations│ Manifests   │ at 17:00     │
+│              │              │              │ & Greg (Press / QA) │ Dave J   │              │              │              │
 └──────────────┴──────────────┴──────────────┴─────────────────────┴──────────┴──────────────┴──────────────┴──────────────┘
 ```
 
 ### 4.1 The 10-Minute Daily Shop Standup (07:10 CST)
-Held around the central white whiteboard in the assembly bay. Attended by Jack, Dave K, Julian, and Dave J.
+Held around the central whiteboard in the assembly bay. Attended by Jack, Dave K, Greg, Julian, and Dave J.
 
 **Agenda (Strict 10-Minute Cap):**
 1. **Shipments Going Out Today (2 mins):** What proportioners, rental units, or consumable pallets must hit the freight truck by 15:30?
-2. **Machining & Assembly Bottlenecks (4 mins):**
+2. **Machining, Press & Assembly Flow (4 mins):**
    * Dave K: What parts are coming off the Bridgeport/lathe today? Are any fixtures worn?
+   * Greg: What mold is in the press today? Has resin pellet drying hit -40°F dew point? Any hydro-bench test runs scheduled?
    * Julian: How many pumps are in teardown vs. ready for 2,200 PSI hydro-testing?
-3. **Materials & Supplies Needed (2 mins):** Fasteners, seals, hose fittings, packaging boxes, cutting fluid.
-4. **Safety & Housekeeping (2 mins):** Trip hazards, chemical storage, chip cleanup.
+3. **Materials & Supplies Needed (2 mins):** Fasteners, seals, hose fittings, packaging boxes, cutting fluid, resin stock.
+4. **Safety & Housekeeping (2 mins):** Trip hazards, chemical storage, chip cleanup, eye wash stations.
 
 ### 4.2 The Weekly Financial & Operational Scorecard
-Every Friday at 15:00 CST, Jack reviews four operational KPIs with Maggie and Dave J:
+Every Friday at 15:00 CST, Jack reviews five operational KPIs with Maggie, Dave J, Dave K, and Greg:
 
 ```
 ================================================================================
@@ -379,8 +536,9 @@ Metric Category           KPI Target                     Action Trigger
 --------------------------------------------------------------------------------
 1. Quoting Velocity       100% quoted within < 4 hrs    > 8 hrs requires Jack review
 2. Shop QA Pass Rate      > 98.5% first-pass hydro test  Single failure triggers root-cause
-3. Consumable Stock       Zero stockouts on Top 10 ports Inventory drops below 2-week buffer
-4. A/R Aging > 60 Days    < 8% of total receivables     Requires direct phone follow-up
+3. Molding Press Uptime   > 85.0% scheduled run time     Uptime < 80% triggers maintenance review
+4. Consumable Stock       Zero stockouts on Top 10 ports Inventory drops below 2-week buffer
+5. A/R Aging > 60 Days    < 8% of total receivables     Requires direct phone follow-up
 ================================================================================
 ```
 
@@ -411,6 +569,10 @@ To protect shop throughput, cash flow, and Jack’s bandwidth during the critica
 │ Low-End Consumer Injection    │ Low margins, massive support  │ Focus 100% on heavy-duty,   │
 │ Caulking Tools                │ overhead, high product returns│ professional civil bridge   │
 │                               │ from uncertified contractors. │ and DOT proportioner rigs.  │
+├───────────────────────────────┼───────────────────────────────┼─────────────────────────────┤
+│ Speculative New Injection     │ Multi-cavity steel molds cost │ Maximize capacity across    │
+│ Tooling (Molds #11-13)        │ $35k–$50k each; violates the  │ existing 10 owned molds;    │
+│                               │ $20k Year 1 Capex ceiling.    │ freeze tooling capex.       │
 └───────────────────────────────┴───────────────────────────────┴─────────────────────────────┘
 ```
 
@@ -420,8 +582,10 @@ To protect shop throughput, cash flow, and Jack’s bandwidth during the critica
 
 By Day 90, Jack Fay will have achieved the following milestones:
 
-1. **Dave Jepsen is Locked In:** Bound by an executed Key-Operator VCU Retention and Gross Margin agreement, motivated by upside, and actively mentoring Jack on civil contractor relationships.
-2. **Bob Trout’s Knowledge is Extracted:** Bob has transitioned from daily operator to an off-site paid advisor. 100% of his custom dispenser sizing and quoting logic is codified in the **Lily Quoting Engine**.
-3. **Shop Credibility is Established:** Dave Kling and Julian Perez trust Jack’s operational leadership. Jack has proven he can rebuild a CD-250, operate the hydro-test bench, stage shop materials, and respect the craft of manufacturing.
-4. **Gross Margins are Defended:** Molded accessory production runs are stabilized at > 68% gross margin, custom proportioner builds are priced at > 52% gross margin, and mold maintenance reserves are fully funded.
-5. **Cash Flow is Secured:** The facility lease ($5,666.67/mo) and senior debt service ($5,730/mo) are covered by predictable operating cash flow, positioning Lily Corporation for disciplined growth in civil and infrastructure markets.
+1. **Dave Jepsen is Locked In:** Bound by an executed Key-Operator VCU Retention and Gross Margin agreement, motivated by commercial upside, and actively mentoring Jack on civil contractor relationships.
+2. **Dave Kling is Secured & Equipped:** Anchored by a $7,500 stay bonus, empowered by $3,500 in modernized lathe/mill tooling, incentivized by a quarterly scrap bonus, and granted independent purchasing authority up to $2,500.
+3. **Greg is Anchored & Cross-Training Active:** Bound by a $5,000 stay bonus, earning a monthly press uptime/QA incentive, and actively mentoring Julian under the $1,500 Master Trainer protocol without fear of replacement.
+4. **Bob Trout’s Knowledge is Extracted:** Bob has transitioned from daily operator to an off-site paid advisor. 100% of his custom dispenser sizing and quoting logic is codified in the **Lily Quoting Engine**.
+5. **Shop Credibility is Established:** The 5-person roster trusts Jack’s operational leadership. Jack has proven he can rebuild a CD-250, operate the hydro-test bench, stage shop materials, and respect the craft of manufacturing.
+6. **Gross Margins are Defended:** Molded accessory production runs are stabilized at > 68% gross margin, custom proportioner builds are priced at > 52% gross margin, and mold maintenance reserves ($0.015/part) are fully funded.
+7. **Cash Flow is Secured:** The facility lease ($5,666.67/mo) and senior debt service ($5,736.37/mo) are covered by predictable operating cash flow, positioning Lily Corporation for disciplined growth in civil and infrastructure markets.

@@ -1,0 +1,347 @@
+[
+  {
+    "id": "story_01",
+    "category": "industry_101",
+    "category_name": "\ud83c\udfd7\ufe0f Industry 101",
+    "title": "What The Hell Does Lily Corp Actually Do?",
+    "subtitle": "The Razor & Blade Business Model",
+    "eli5": "Lily doesn't make its real money selling heavy machines. We sell the machines so contractors are forced to buy our single-use plastic injection ports and chemical flushes every single day.",
+    "analogy": "Think of Keurig. Keurig practically gives the coffee maker away at cost so you're locked into buying their 80% profit margin K-Cups every morning for the next 10 years. Lily's proportioning pumps are the Keurig machine; our plastic injection ports and flush chemicals are the K-Cups.",
+    "why_jack_cares": "Machines have 45\u201350% margin and sell once every 5 years. Consumable ports have 70\u201385% gross margin and civil contractors order them by the tens of thousands for bridge jobs.",
+    "key_metric": "75%+",
+    "metric_label": "Consumables Gross Margin",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "Where does Lily's biggest profit margin come from?",
+      "options": [
+        "Building heavy metal pump carts",
+        "Single-use plastic ports & consumable parts",
+        "Selling 240V diesel generators"
+      ],
+      "correct_index": 1,
+      "explanation": "Spot on! The proportioners are just the anchor. The real goldmine is the high-frequency plastic ports and chemical consumables."
+    }
+  },
+  {
+    "id": "story_02",
+    "category": "industry_101",
+    "category_name": "\ud83c\udfd7\ufe0f Industry 101",
+    "title": "Why Do Concrete Bridges Crack?",
+    "subtitle": "And why can't you just patch them with Elmer's glue?",
+    "eli5": "Concrete expands in summer heat, freezes in winter, and gets hammered by 80,000-lb semi-trucks. Cracks form deep inside. If water gets in, it rusts the rebar and the bridge collapses.",
+    "analogy": "Imagine a tooth cavity. You can't just smear toothpaste on top of the tooth and call it fixed. A dentist has to drill in, clean the root, and inject filling under pressure all the way to the bottom. Concrete crack repair is structural root canal surgery for highway overpasses.",
+    "why_jack_cares": "Department of Transportation (DOT) engineers legally mandate high-pressure epoxy injection. It's not optional maintenance\u2014contractors face massive penalties if they don't repair it.",
+    "key_metric": "$2,500 PSI",
+    "metric_label": "Max Injection Pressure",
+    "plan_link": "plan/01_market_expansion_and_adjacent_verticals.md",
+    "interactive_quiz": {
+      "question": "Why do engineers inject liquid epoxy under 1,000+ PSI?",
+      "options": [
+        "To make the concrete look shiny for cars",
+        "To force liquid glue through microscopic cracks all the way to the rebar",
+        "Because state inspectors love wasting money"
+      ],
+      "correct_index": 1,
+      "explanation": "Exactly! Hairline cracks run feet deep into concrete. Only high pressure can force viscous epoxy all the way to the core."
+    }
+  },
+  {
+    "id": "story_03",
+    "category": "industry_101",
+    "category_name": "\ud83c\udfd7\ufe0f Industry 101",
+    "title": "What On Earth Is An 'Injecti-Port'?",
+    "subtitle": "The 10-Cent Plastic Tee That Prints Cash",
+    "eli5": "You can't just stick a hose against concrete and pump glue\u2014it will spray everywhere. A port is a small plastic tee that gets glued over the crack. The pump locks onto it to inject resin, and an internal check ball stops the glue from shooting back in your face.",
+    "analogy": "It's like an IV port in an arm at a hospital. The doctor tapes the port to your vein so medicine can be pushed in cleanly without making a mess or leaking back out.",
+    "why_jack_cares": "A single bridge deck or parking garage repair can use 5,000 to 20,000 ports. They are 100% disposable single-use plastic. Once the epoxy hardens, they are knocked off with a hammer and thrown in the trash.",
+    "key_metric": "350k+",
+    "metric_label": "Ports Molded Per Year",
+    "plan_link": "plan/04_shop_floor_modernization_and_capacity.md",
+    "interactive_quiz": {
+      "question": "What happens to the port after the epoxy cures?",
+      "options": [
+        "It gets cleaned and reused on the next job",
+        "It is knocked off and thrown away\u2014single use only",
+        "It melts into the concrete"
+      ],
+      "correct_index": 1,
+      "explanation": "Bingo! They are 100% disposable single-use items. Every project requires a brand new box of ports."
+    }
+  },
+  {
+    "id": "story_04",
+    "category": "shop_floor",
+    "category_name": "\u2699\ufe0f The Shop Floor",
+    "title": "The 10 Steel Molds in Aurora",
+    "subtitle": "Our Secret In-House Manufacturing Fortress",
+    "eli5": "Lily doesn't pay a supplier in China or an outside factory to mold our plastic parts. In our building at 240 S. Broadway in Aurora, we own the molding machine, the resin dryer, and 10 proprietary steel tool molds.",
+    "analogy": "Most bakeries buy frozen dough from an industrial supplier and just heat it up. Lily owns the original secret recipe cast-iron waffle irons. We pour raw plastic pellets in one side, and finished high-pressure ports pop out the other side for pennies.",
+    "why_jack_cares": "Because we mold in-house, a port that sells for $0.85 to $1.50 costs us only ~$0.03 to $0.16 in raw polymer pellets. Plus, it qualifies 100% for 'Build America, Buy America' (BABA) rules that kick out cheap foreign imports on DOT jobs.",
+    "key_metric": "10 Molds",
+    "metric_label": "Owned 100% Free & Clear",
+    "plan_link": "plan/04_shop_floor_modernization_and_capacity.md",
+    "interactive_quiz": {
+      "question": "Why is owning the molds in our own building a huge advantage?",
+      "options": [
+        "It looks cool when visitors walk through",
+        "It drops our unit cost to pennies and qualifies for US Buy America mandates",
+        "It saves us from paying office rent"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct! Direct polymer pellet pricing yields 80%+ margins, and 100% US-made status gives us priority on federal infrastructure jobs."
+    }
+  },
+  {
+    "id": "story_05",
+    "category": "shop_floor",
+    "category_name": "\u2699\ufe0f The Shop Floor",
+    "title": "Meet The Crew At 240 S. Broadway",
+    "subtitle": "The 5 People Running The Business",
+    "eli5": "You don't need to hire 20 people. Lily operates with a tight, loyal, experienced 5-person crew that knows the equipment inside and out.",
+    "analogy": "Like a specialized pit crew at the Indy 500: each person has one exact job, and if they do it well, the car flies.",
+    "why_jack_cares": "Your goal as owner/operator is to empower them with better tools, clear SOPs, and modern software\u2014not micromanage them.",
+    "key_metric": "5 People",
+    "metric_label": "Aurora Operating Roster",
+    "plan_link": "plan/00_assumed_capital_baseline.md",
+    "interactive_quiz": {
+      "question": "Who at Lily has the 44-year relationships and quoting knowledge you must absorb in your first 60 days?",
+      "options": [
+        "Dave Jepsen",
+        "Julian Perez",
+        "Founder Robert 'Bob' Trout"
+      ],
+      "correct_index": 2,
+      "explanation": "Bob Trout is the founder! Dave J has been there ~2 years on sales/training, but Bob is the 44-year technical brain."
+    }
+  },
+  {
+    "id": "story_06",
+    "category": "products",
+    "category_name": "\ud83d\ude80 Secret Weapons",
+    "title": "Air Power vs. Fancy Computers",
+    "subtitle": "Why Contractors Hate Graco's Electronics",
+    "eli5": "Our competitor Graco builds machines loaded with touchscreens, sensors, and 240-volt computer boards. Lily builds machines powered 100% by compressed shop air with mechanical linkages and zero microchips.",
+    "analogy": "Think of a mechanical Rolex or an old diesel tractor vs a modern Tesla. When you're standing in 4 inches of mud and freezing rain on an Interstate at 2:00 AM, a touchscreen with an error code will shut down the whole job. A pure pneumatic air motor never gets bricked by water and never sparks in an explosive gas environment.",
+    "why_jack_cares": "Lily machines run for 25+ years without electronic obsolescence. Contractors rent them because they are indestructible on dirty job sites.",
+    "key_metric": "0 Volts",
+    "metric_label": "100% Explosion-Proof Air Logic",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "Why do bridge contractors love Lily's pneumatic air-logic machines?",
+      "options": [
+        "They can stream YouTube while working",
+        "They have zero sensitive circuit boards to fry in wet, dirty highway conditions",
+        "They are lightweight plastic toys"
+      ],
+      "correct_index": 1,
+      "explanation": "You got it! 100% pneumatic means zero fried electronics, zero spark risk, and unstoppable reliability."
+    }
+  },
+  {
+    "id": "story_07",
+    "category": "products",
+    "category_name": "\ud83d\ude80 Secret Weapons",
+    "title": "The 3:30 AM Bridge Deck Panic",
+    "subtitle": "DeckFlush & CleanPass-250",
+    "eli5": "Bridge crews work at night. Highway lanes MUST reopen by 5:00 AM, or the contractor gets fined $1,500 every single minute. At 3:30 AM, they have to flush 2-part epoxy out of the pump before it hardens into solid rock.",
+    "analogy": "Imagine baking superglue inside an expensive blender. If you don't rinse it immediately, the blender is ruined forever. But bridge crews can't dump solvent into the river below because the EPA will hit them with massive fines.",
+    "why_jack_cares": "Our new CleanPass-250 and DeckFlush kits let them flush the machine closed-loop in 90 seconds right on the bridge with zero toxic spills. Contractors happily pay $195 for the kit to avoid $10,000 in DOT fines.",
+    "key_metric": "$1,500/min",
+    "metric_label": "DOT Late Reopening Penalty",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "What happens if a contractor fails to clear bridge lanes by 5:00 AM?",
+      "options": [
+        "They get a friendly warning letter",
+        "Liquidated damages of $1,000\u2013$1,500 per minute from the State DOT",
+        "Free donuts from the state police"
+      ],
+      "correct_index": 1,
+      "explanation": "State DOTs are brutal. Every minute of traffic delay costs $1,500 in liquidated damages."
+    }
+  },
+  {
+    "id": "story_08",
+    "category": "products",
+    "category_name": "\ud83d\ude80 Secret Weapons",
+    "title": "What Is A 'Wet-End'?",
+    "subtitle": "And why RapidSwap\u2122 is a $950 Cash Machine",
+    "eli5": "The 'wet-end' is the metal manifold and cylinder where liquid epoxy actually flows. When a contractor screws up and lets epoxy harden inside, the wet-end gets choked with rock-solid resin.",
+    "analogy": "It's like an ink cartridge in a fountain pen. In the past, Julian had to spend 3 full days with screwdrivers and wire brushes chiseling hardened glue out of returned rental pumps. With RapidSwap, we unbolt the fouled wet-end in 90 minutes and snap in a fresh factory cartridge.",
+    "why_jack_cares": "Instead of losing 3 days of shop time, we send contractors a refurbished cartridge for $950. When they return their fouled core, we clean it ultrasonically for $60 and pocket an 86% gross profit margin.",
+    "key_metric": "$950",
+    "metric_label": "Exchange Fee (86.5% GM)",
+    "plan_link": "plan/04_shop_floor_modernization_and_capacity.md",
+    "interactive_quiz": {
+      "question": "How long does a RapidSwap wet-end exchange take vs historical teardown?",
+      "options": [
+        "90 minutes vs 2\u20133 days",
+        "2 weeks vs 3 weeks",
+        "Same exact time"
+      ],
+      "correct_index": 0,
+      "explanation": "90 minutes! It turns a multi-day repair bottleneck into a fast, high-margin modular swap."
+    }
+  },
+  {
+    "id": "story_09",
+    "category": "commercial",
+    "category_name": "\ud83e\udd1d Commercial & Sales",
+    "title": "The Trojan Horse: OmniLatch\u2122",
+    "subtitle": "Selling Ports to Contractors Who Own Graco Rigs",
+    "eli5": "Most big contractors already own pumping rigs from competitors like Graco or ChemCo. They won't buy our $12,000 pump just to use our ports. So we invented OmniLatch: a universal adapter that lets any competitor pump snap directly onto Lily ports.",
+    "analogy": "Think of USB-C or headphone adapters. Apple made everyone buy lightning dongles; OmniLatch is the universal adapter that lets anyone plug into Lily's high-margin consumable ports regardless of what pump they bought.",
+    "why_jack_cares": "Dave Jepsen doesn't have to convince a contractor to throw away their existing $30k machine. He just hands them a $45 OmniLatch adapter and starts shipping them pallets of Lily ports every month.",
+    "key_metric": "300+",
+    "metric_label": "Competitor Fleets Unlocked",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "What is the primary commercial goal of the OmniLatch adapter?",
+      "options": [
+        "To repair broken competitor pumps",
+        "To let competitor pump owners buy high-margin Lily consumable ports",
+        "To convert air pumps into electric pumps"
+      ],
+      "correct_index": 1,
+      "explanation": "Bingo! It's the classic Trojan Horse. Give away the adapter, capture the recurring port volume."
+    }
+  },
+  {
+    "id": "story_10",
+    "category": "commercial",
+    "category_name": "\ud83e\udd1d Commercial & Sales",
+    "title": "White Cap & Big Distributors",
+    "subtitle": "How To Avoid The Corporate Discount Trap",
+    "eli5": "White Cap is the Home Depot of commercial concrete contractors with 200+ branches. If you sell to them through standard corporate purchasing, they nickel-and-dime you with 8% rebates, marketing fees, and return clauses.",
+    "analogy": "Selling to Walmart: if you aren't careful, Walmart charges you slotting fees, mandatory markdown penalties, and sends unsold inventory back to your warehouse at your expense.",
+    "why_jack_cares": "We use the 'Engineered Specialty Vendor Protocol.' We give White Cap branch managers an immediate 45% profit margin on our 1,000-count master cartons in exchange for a contract that legally bans volume rebates, marketing fees, and inventory buybacks.",
+    "key_metric": "$0.84",
+    "metric_label": "Net Wholesale Port Price",
+    "plan_link": "plan/03_commercial_distribution_and_partnerships.md",
+    "interactive_quiz": {
+      "question": "How does Lily protect its cash flow when selling to White Cap branches?",
+      "options": [
+        "By accepting whatever corporate contract they send",
+        "By giving branches a high front-end margin while banning backend rebates & buybacks",
+        "By only selling on consignment"
+      ],
+      "correct_index": 1,
+      "explanation": "Exact right answer! High front-end branch margin gets local managers excited, while stripping out predatory corporate clawbacks."
+    }
+  },
+  {
+    "id": "story_11",
+    "category": "finance",
+    "category_name": "\ud83d\udcb0 Finance & Cash Flow",
+    "title": "The Financial Truth: $275k Baseline",
+    "subtitle": "Why Bob's Tax Returns Looked Confusing",
+    "eli5": "Bob's raw QuickBooks showed $450k+ in profit, but tax returns showed a loss. The difference was simple: Bob owned the building and didn't pay rent, and inventory had duplicate counting errors that got written down.",
+    "analogy": "If you live in a house your parents paid off, your 'spending' looks super low. But when you move out and have to pay market rent, you have to budget for the true cost. That's why we normalized the rent to $68k/year.",
+    "why_jack_cares": "The real normalized SDE you are buying is ~$250k\u2013$300k. That's why your bank loan is small (~$443k) with a $500k seller note on standby. The debt service is only ~$11,400/mo, leaving you plenty of cash flow safety cushion.",
+    "key_metric": "~$275k",
+    "metric_label": "True Historical Base SDE",
+    "plan_link": "plan/00_assumed_capital_baseline.md",
+    "interactive_quiz": {
+      "question": "What is the true normalized historical SDE of the business at acquisition?",
+      "options": [
+        "$1,500,000",
+        "~$250,000 to $300,000",
+        "Negative $100,000"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct. ~$275k normalized historical SDE is the honest baseline that covers debt service comfortably."
+    }
+  },
+  {
+    "id": "story_12",
+    "category": "finance",
+    "category_name": "\ud83d\udcb0 Finance & Cash Flow",
+    "title": "The Path From $275k To $1.0M SDE",
+    "subtitle": "4 Clear Levers With Zero New Hires",
+    "eli5": "How do we jump from $275k profit to $1.0M+ in 2\u20133 years without building a new factory or hiring 10 people? We activate 4 high-margin revenue streams that require zero manual labor from Julian and Dave.",
+    "analogy": "A restaurant adding catering, private dining, and bottled secret sauce. You don't need a bigger kitchen; you just sell higher-margin products through existing channels.",
+    "why_jack_cares": "1. Turnkey Chemical Dropshipping (+320k GP) - blenders ship directly to contractors. 2. White Cap Master Port Boxes (+$280k GP) - run on our in-house press. 3. RapidSwap Rental Fleet Uptime (+$160k GP). 4. Geotechnical sacrificial tips & GeoSkid (+$140k GP). Total: +$900k gross profit!",
+    "key_metric": "$1.0M+",
+    "metric_label": "Target SDE in 24-36 Months",
+    "plan_link": "plan/01_deal_and_capital_structure.md",
+    "interactive_quiz": {
+      "question": "Does reaching $1.0M in SDE require hiring a big sales army?",
+      "options": [
+        "Yes, at least 15 outbound sales reps",
+        "No, it uses existing staff + wholesale distributors & turnkey dropshipping",
+        "Yes, we must open 5 new branch locations"
+      ],
+      "correct_index": 1,
+      "explanation": "Exactly right! No sales army. We scale through formulator partnerships, wholesale distributors, and dropshipping."
+    }
+  },
+  {
+    "id": "story_13",
+    "category": "products",
+    "category_name": "\ud83d\ude80 Secret Weapons",
+    "title": "The Drum Crust Nightmare",
+    "subtitle": "PROD_120: DrySpear-250\u2122 & The $48 Breather Annuity",
+    "eli5": "In humid summer weather, open 55-gallon chemical drums react with moisture in the air. A rock-hard crust forms on top of the liquid glue, gets sucked into the pump, and clogs the check valves\u2014triggering emergency warranty calls.",
+    "analogy": "Leaving a gallon of paint or pudding open overnight in the fridge. A tough skin forms on top. If you try to drink it through a straw, the skin clogs the straw instantly.",
+    "why_jack_cares": "Competitors force contractors to buy expensive $2,500 pneumatic drum transfer pumps. Lily builds a stainless steel suction spear with an orange-to-green moisture breather for $32 COGS. We sell it for $145 (78% GM), and contractors must buy $48 replacement breather cartridges (82% GM) every 12 drums forever.",
+    "key_metric": "82.3%",
+    "metric_label": "Breather Annuity Gross Margin",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "Why does liquid glue in open drums form a hard crust?",
+      "options": [
+        "It reacts with humidity and moisture in the ambient air",
+        "Contractors drop dirt into the drum",
+        "The sun bleaches the plastic drum"
+      ],
+      "correct_index": 0,
+      "explanation": "Spot on! Isocyanate is super hygroscopic\u2014it greedily drinks moisture out of the air and instantly cures into hard polyurea."
+    }
+  },
+  {
+    "id": "story_14",
+    "category": "products",
+    "category_name": "\ud83d\ude80 Secret Weapons",
+    "title": "Scaffolding Surgery",
+    "subtitle": "PROD_108: RatioShift-15\u2122 Quick-Change Sleeves",
+    "eli5": "Contractors repairing bridge piers hang on scaffolding 40 feet in the air over live highway traffic. If they need to change the glue mix ratio from 1:1 to 2:1, they used to have to unbolt heavy pump blocks with loose nuts that could drop into cars below.",
+    "analogy": "Swapping camera lenses with a quick bayonet twist vs having to disassemble your entire camera with a screwdriver while standing on a rope bridge.",
+    "why_jack_cares": "RatioShift-15 lets them swap cylinder sleeves in 7.5 minutes with captive collars and zero loose hardware. Landed COGS is $195, sells for $850 (77% GM), adding +$94k in annual gross profit.",
+    "key_metric": "7.5 min",
+    "metric_label": "Scaffolding Changeover Time",
+    "plan_link": "plan/02_product_lines_and_rd_pipeline.md",
+    "interactive_quiz": {
+      "question": "Why is dropping loose nuts or bolts from scaffolding a massive issue?",
+      "options": [
+        "It scuffs the paint on the scaffolding",
+        "Loose nuts fall 40 feet into active highway traffic below, creating severe liability",
+        "Inspectors make you climb down to pick them up"
+      ],
+      "correct_index": 1,
+      "explanation": "Exactly! Dropping hardware onto active interstate lanes is a catastrophic safety hazard. Captive hand collars prevent it completely."
+    }
+  },
+  {
+    "id": "story_15",
+    "category": "shop_floor",
+    "category_name": "\u2699\ufe0f The Shop Floor",
+    "title": "The $100k Boondoggle Graveyard",
+    "subtitle": "Why We Rejected Fancy Machines To Save Cash",
+    "eli5": "Most search fund buyers get seduced by shiny $50,000 automated machines, SaaS software, and GPS trackers. The diligence engine evaluated and ruthlessly REJECTED over $100,000 in bad equipment purchases.",
+    "analogy": "Buying a $100,000 combine harvester when you only have a backyard tomato garden. It feels impressive, but it bankrupts you before you harvest a single tomato.",
+    "why_jack_cares": "We rejected a $45,000 CNC cylinder hone (Dave K built a $2.1k air hone instead), a $15,000 GPS fleet tracker (contractors put them in metal trailers that block GPS), and a $35k cloud ERP (inspectors won't log into password portals on bridge decks). This preserves your $50,000 cash buffer.",
+    "key_metric": "$100k+",
+    "metric_label": "Wasted Capex Avoided",
+    "plan_link": "plan/04_shop_floor_modernization_and_capacity.md",
+    "interactive_quiz": {
+      "question": "Why did the engine reject enterprise cloud QMS portals ($25k/yr) for bridge inspections?",
+      "options": [
+        "The software is too cheap",
+        "State DOT bridge inspectors on highway shoulders refuse to register accounts or type passwords",
+        "The cloud doesn't work in Illinois"
+      ],
+      "correct_index": 1,
+      "explanation": "Bingo! An inspector standing in mud will red-tag the job before they download an app or create an account. Our free QR code scans instantly in Safari with zero passwords."
+    }
+  }
+]

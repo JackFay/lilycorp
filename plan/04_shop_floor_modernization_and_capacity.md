@@ -1,7 +1,7 @@
-# 04. Shop Floor Modernization, In-House Injection Molding Press Ops, Drive-Lok Assembly Automation, In-Line Seal Decay Testing, Pre-Sleeved Cartridge Sourcing, Benchtop Vibratory Bowl Automation, Bulk Resin Procurement, Toll-Molder Contingency & Resin Buffer Resiliency, Rental Rig Quick-Swap SOP, Turnkey Chemical Toll-Blending & Sub-Zero Winter Dropship Architecture
+# 04. Shop Floor Modernization, In-House Injection Molding Press Ops, Drive-Lok Assembly Automation, In-Line Seal Decay Testing, Pre-Sleeved Cartridge Sourcing, Benchtop Vibratory Bowl Automation, Bulk Resin Procurement, Toll-Molder Contingency & Resin Buffer Resiliency, Rental Rig Quick-Swap SOP, Turnkey Chemical Toll-Blending, Sub-Zero Winter Dropship Architecture & Automated Email PO-to-QuickBooks Ingestion Desk
 
-**Item IDs:** OPER_08, OPER_10, OPER_12, OPER_14, OPER_16, OPER_18, OPER_20, OPER_28, OPER_30, OPER_34, OPER_36  
-**Title:** Shop Floor Modernization, In-House Injection Molding Press & Material Dryer Operations, Drive-Lok Semi-Automated Bench Fixtures, Inline Pneumatic Decay Testing, Vendor Pre-Packaged Sleeve Sourcing, Benchtop Vibratory Bowl-Feeder & Press Automation, Direct Bulk Resin Pellet Procurement, Toll-Molder Contingency Architecture, Tooling Preventative Maintenance Protocols, Petrochemical Buffer Stock Sizing, Rental Fleet Modular Fluid Section SOP, Turnkey Chemical Toll-Blending Fulfillment Architecture & Sub-Zero Winter Dropship Protocol for SafePurge-Citrus  
+**Item IDs:** OPER_08, OPER_10, OPER_12, OPER_14, OPER_16, OPER_18, OPER_20, OPER_28, OPER_30, OPER_34, OPER_36, OPER_54 (OPS_PO_AUTOMATION_04), OPER_170  
+**Title:** Shop Floor Modernization, In-House Injection Molding Press & Material Dryer Operations, Drive-Lok Semi-Automated Bench Fixtures, Inline Pneumatic Decay Testing, Vendor Pre-Packaged Sleeve Sourcing, Benchtop Vibratory Bowl-Feeder & Press Automation, Direct Bulk Resin Pellet Procurement, Toll-Molder Contingency Architecture, Tooling Preventative Maintenance Protocols, Petrochemical Buffer Stock Sizing, Rental Fleet Modular Fluid Section SOP, Turnkey Chemical Toll-Blending Fulfillment Architecture, Sub-Zero Winter Dropship Protocol for SafePurge-Citrus, Automated Billet Manifold Seat Optical Metrology Probe & Automated Email PO-to-QuickBooks Ingestion Desk for Maggie  
 **Target:** Lily Corporation (240 S. Broadway, Aurora, IL)  
 **Author:** Jack Fay (Turnaround Operator, Chief Product Officer & Growth Architect)  
 **Status:** ACTIVE OPERATIONAL BLUEPRINT  
@@ -36,6 +36,7 @@ Under 44 years of Bob Trout’s founder-run stewardship, molding machine recipes
 9. **Zero-Defect Quality Assurance & Field Blowout Risk (OPER_20):** High-pressure concrete crack injection (500 to 2,500 PSI) relies on the internal check valve sealing perfectly against backpressure once the injection whip is decoupled. If a valve is defective (elastomer seat flash, cocked ball, missing internal spring, or hairline hoop-stress fracture in the port stem caused by press interference fit), toxic chemical grout blows back out onto the bridge deck under hydrostatic recoil. Under Bob Trout's manual arbor-press setup, **zero leak testing was performed**; Julian relied on visual inspection of seating depth [Site Visit Diligence Notes]. A 0.5% defect rate in the field results in 500 chemical blowouts per 100,000 ports, causing jobsite shutdowns, hazardous chemical exposure, and catastrophic reputational damage with state DOTs. Integrating an inline, 100% automated non-destructive 50-PSI backpressure decay test into Station 4 guarantees **0 PPM defect escape** before part ejection.
 10. **Chemical Ancillary Leakage & Drum Hazmat Trap (OPER_28):** Proportioning rigs cannot operate reliably in the field without two mandatory chemical consumables: a high-potency purge cleaner to flush uncured reactive resins before line gelling, and a lubricating barrier fluid (throat seal liquid) to prevent isocyanate moisture-crystallization on reciprocating pump shafts. Sourcing turnkey private-label 5-gallon pails of **SafePurge-Citrus** and **LubeCoat-90** via an outsourced Midwestern chemical toll-blender with direct-to-contractor dropshipping captures **>60% gross margins** and unlocks **$115,000 to $230,000 in high-margin consumable sales** while requiring **zero drum storage, zero hazmat liability, and zero labor hours at the Aurora shop**.
 11. **Sub-Zero Freeze-Thaw Stability & Winter Dropship Protocol (OPER_36):** In Midwestern winter paving and cold-weather geotechnical grouting (-10°F to 20°F unheated LTL transit), conventional bio-solvent blends containing d-limonene, dibasic esters (DBE), and ethoxylated surfactants risk fractional ester crystallization, clouding, surfactant gelation/separation, and pail brittle-cracking. Furthermore, standard carrier "Protect From Freezing" (PFF) riders cost $50–$100 minimum per shipment and trigger multi-day terminal embargoes during cold snaps. By reformulating SafePurge-Citrus with **4.5% Dipropylene Glycol Monomethyl Ether (DPM)** as a mutual cold-flow stabilizer and coupling agent, mandating **UN-1H1/Y1.8 copolymer HDPE pails** rated to -20°C, and executing a **Winter Dropship Logistics Protocol**, Lily ensures 100% sub-zero physical stability without paying crippling carrier PFF surcharges or causing winter jobsite delivery freezes.
+12. **Automated Email PO-to-QuickBooks Ingestion Desk for Maggie (OPER_54 / OPS_PO_AUTOMATION_04):** Maggie M spends 15–20 hours/week manually re-keying emailed PDF purchase orders and contractor faxes into QuickBooks Desktop (`QuickBooks_Sep16`). Civil general contractors (White Cap, Sika, Euclid, Walsh, Kiewit) strictly refuse web login portals, demanding standard PDF PO ordering against Net 30/60 terms. By deploying a 100% on-premise Python PDF ingestion daemon coupled with a side-by-side verification interface and the native Intuit QuickBooks Desktop SDK (via `win32com` / `QBXMLRP2`), Lily eliminates manual transcription errors and compresses order processing from 10.5 minutes down to 38 seconds per order. This recovers **342.1 hours of administrative labor annually ($18,011 net recurring annual value)** for a total capital expenditure of only **$594.00**, delivering a full cash payback in just 12 days.
 
 ---
 
@@ -766,9 +767,9 @@ To ensure civil contractors experience flawless performance on freezing highway 
 
 ---
 
-## 15. Aurora Shop Floor Capacity & Workflow Optimization
+## 15. Aurora Shop Floor Capacity & Workflow Optimization (Baseline Architecture)
 
-Lily operates with a lean, skilled, 4-person crew. Modernization must eliminate bottlenecks without adding fixed administrative overhead [Site Visit Diligence Notes, 00_assumed_capital_baseline.md].
+Lily operates with a lean, skilled, 5-person crew. Modernization must eliminate bottlenecks without adding fixed administrative overhead [Site Visit Diligence Notes, 00_assumed_capital_baseline.md].
 
 ```
                            LILY CORP - 240 S. BROADWAY FACILITY FLOW
@@ -798,15 +799,17 @@ Lily operates with a lean, skilled, 4-person crew. Modernization must eliminate 
  +-----------------------------------------------------------------------------------------------+
  |                                     SHIPPING & ORDER DESK                                     |
  |  Dave Jepsen / Maggie M Phone Desk --> UPS Freight / LTL Skid Staging --> Daily 4:00 PM Pickup|
- |  (Chemical Dropship POs transmitted electronically direct to Toller; 0 shop packaging labor)  |
+ |  • OPER_54 On-Premise PDF Ingestion Desk stages POs in QuickBooks Desktop (<40 sec / 1-click) |
+ |  • Chemical Dropship POs transmitted electronically direct to Toller; 0 shop packaging labor  |
  +-----------------------------------------------------------------------------------------------+
 ```
 
 ### 15.1. Operating Personnel Modernization
 * **Dave Kling (Lead Fabricator / Machinist):** Focuses on proportioner manifold machining and welding. Receives 5S shadow boards, dedicated bench deburring tools, build schedules for Quick-Swap sub-plates, and maintains OPER_10, OPER_20, and OPER_30 fixture tooling. Administers Tier 1 and Tier 2 tooling PM schedules and manages toolroom spares.
 * **Julian Perez (Assembly, Teardown, Packaging):** Relieved of 650+ hours of manual arbor pressing, manual tube loading, and solvent chiseling via OPER_10, OPER_18, OPER_20, OPER_30, and OPER_14. Focuses on Cell 2 rig assembly, rapid rental turnarounds, and batch rebuilding. Does not touch chemical blending. Performs daily mold cleaning and logs shot counters.
+* **Greg (Injection Molding Press Operator & QA/Hydrostatic Lead):** Sole dedicated operator of the Cincinnati Milacron press and desiccant dryer. Sets barrel heat zones, mounts molds, manages resin drying times, and conducts high-pressure hydrostatic burst testing on assembled proportioners.
 * **Dave Jepsen (Senior Sales & Technical Phone Support):** Supported with real-time rental fleet availability in QuickBooks, standard accessory spec sheets, 100% Zero-Defect QA marketing data, and automatic cross-selling scripts for SafePurge-Citrus and LubeCoat-90 pails.
-* **Maggie M (Office Manager & Administration):** Supported with UPS WorldShip / QuickBooks linking, quarterly resin index true-up templates, automated chemical dropship PO routing, automated rental asset tracking, and min-max resin reorder tracking.
+* **Maggie M (Office Manager & Administration):** Relieved of 15–20 hours/week of manual order transcription via OPER_54 (Automated PDF PO Ingestion Engine). Supported with UPS WorldShip / QuickBooks linking, quarterly resin index true-up templates, automated chemical dropship PO routing, automated rental asset tracking, and min-max resin reorder tracking.
 
 ### 15.2. Cell 1 & Cell 2 Low-Capex Upgrades
 * **Cell 1 (Accessory Packaging Bench - Capex < $3,500):** Industrial parts counting scale ($1,100), ergonomic wall hopper chutes ($800), foot-pedal impulse bag sealer ($450), and pre-printed Lily branded contractor bags with jobsite reorder QR codes. Kitting time drops from 12 min down to 2.5 min per 500-unit box.
@@ -814,7 +817,7 @@ Lily operates with a lean, skilled, 4-person crew. Modernization must eliminate 
 
 ---
 
-## 16. Combined Economic ROI Across All Operational Initiatives
+## 16. Combined Economic ROI Across All Operational Initiatives (Baseline Summary)
 
 Integrating OPER_08, OPER_10, OPER_12, OPER_14, OPER_16, OPER_18, OPER_20, OPER_28, OPER_30, OPER_34, and OPER_36 permanently transforms Lily’s unit economics, technician capacity, and product quality:
 
@@ -836,93 +839,11 @@ Integrating OPER_08, OPER_10, OPER_12, OPER_14, OPER_16, OPER_18, OPER_20, OPER_
   TOTAL ANNUAL NET ECONOMIC VALUE CAPTURE:      $185,000 to $275,000 / year (EBITDA & Cash)
 ```
 
-| Operational Metric | Legacy Baseline | Modernized Target | Net Financial / Capacity Delta |
-| :--- | :---: | :---: | :---: |
-| **Check Valve Port Assembly Takt Time** | 12.0 s / unit | 1.44 s mach / 4.8s takt | **-60.0% to -88.0% cycle time reduction** |
-| **Julian Perez Assembly Hours (100k)** | 333.3 hrs | 133.3 hrs (OPER_30) | **200.0 technician hours recovered/yr** |
-| **Julian Perez Assembly Hours (300k)** | 1,000.0 hrs | 400.0 hrs (OPER_30) | **600.0 technician hours recovered/yr** |
-| **Feeder Tube Loading Labor** | 58.3 hrs / 100k units | 0.0 hrs (OPER_30 bowl) | **58.3 hours prep labor eliminated** |
-| **Quality Assurance / Defect Escape Rate** | Untested / 0.5%–1.2% | **0 PPM Escape (100% Tested)** | **100% Automated 50-PSI backpressure check** |
-| **Tooling Custody Security (OPER_34)** | Unvetted assumptions | **10/10 On-Site + Hot Standby** | **Disaster recovery within 24–36 hours** |
-| **Account 5440 Mold Repair Spikes (OPER_34)** | Unbudgeted ($19k–$32k shocks)| Smooth $0.015/shot reserve | **Predictable cash flow management** |
-| **Petrochemical Supply Chain Buffer (OPER_34)** | Hand-to-mouth spot bags | **8–11 Gaylords (60–90 days)** | **Immunity to hurricane/freeze allocations** |
-| **Rental Rig Turnaround Elapsed Time** | 2 to 3 days (7.5 hrs labor) | 90 minutes (1.5 hrs labor) | **Recaptures 229.5 technician hours** |
-| **Rental Fleet Peak Season Availability** | 58.3% (14 active rigs) | 83.3% (20 active rigs) | **+$42.0k revenue / +$31.5k gross profit** |
-| **Account 5120 Accessory Resin Cost** | Bundled / Sticky pricing | Unbundled Index-Linked | **+$26,400.00 COGS reduction/yr** |
-| **DL-100 Check Valve Sourcing Cost** | $0.1850 / unit (spot bulk) | $0.1660 – $0.1700 / unit | **+$1,300.00 to +$3,250.00 COGS savings** |
-| **Consumable Chemical Gross Profit (OPER_28)**| $0.00 (Customer buys 3rd party)| **64.3% Blended Margin** | **+$99,900.00 net gross profit/yr** |
-| **Sub-Zero Winter Freight Avoidance (OPER_36)**| $50–$100 carrier PFF fees | **$0 PFF Fees (Formulation Stable)**| **+$14,200.00 winter shipping savings** |
-| **Shop Hazardous Chemical Inventory** | Hazard exposure & spills | **ZERO Drum Storage in Aurora** | **Zero EPA/OSHA compliance liability** |
-| **COMBINED EQUIPMENT CAPEX** | — | — | **$13,420 (OPER_30) + $7,100 (Float) + $2,200 (Wash)** |
-| **SIMPLE PAYBACK PERIOD** | — | — | **1.5 Months across combined cash flows** |
-
 ---
 
-## 17. Concrete Implementation Timeline (Day 1 to Day 90)
+## 17. Concrete Implementation Timeline (Baseline Modules Day 1 to Day 90)
 
-```
-                                90-DAY IMPLEMENTATION SCHEDULE
-                                
-  DAY 1 - 15                  DAY 16 - 30                 DAY 31 - 60                 DAY 61 - 90
- +-----------------------+   +-----------------------+   +-----------------------+   +-----------------------+
- | • Press Setup Sheets  |   | • Toolroom PM Audit   |   | • Commission OPER_10  |   | • First Bulk Gaylord  |
- | • Audit 10 Tool Bases |   | • Desiccant Dryer Cal |     Assembly Fixture      |     Delivery Received |
- | • Shot Counters Log   |   | • Regrind Granulator  |   | • Mount OPER_20 Leak  |   | • Receive First 25k   |
- | • Open Gaylord Accts  |     Ratio Calibration     |     Test Module & Calib.  |     DL-100 Pre-Sleeves|
- |   (Chase / Entec)     |   | • Dave Kling Machines |   | • Deploy Bridge Jig   |   | • Deploy SOP-RENT-01  |
- | • Issue Fixture BOM   |     Base, Punch & Head    |   | • Fund Tool Reserve   |     for Peak Paving   |
- | • Issue DL-100 RFQ    |   | • Lock Part Weights   |     ($0.015/shot Ledger)  |   | • First Chemical      |
- |   (OPER_18 Pre-Sleeve)|   | • Build Prototype     |   | • Execute DL-100 PO   |     Dropship Campaign |
- | • Issue Chemical RFQ  |     Quick-Swap Float #1   |   | • Execute Tolling Agt |     (SafePurge/LubeCoat)
- |   (OPER_28 Toll Blend)|   | • Qualify Toller Lab  |     (OPER_28/36 Rider)    |   | • Commission OPER_30  |
- | • Order Float Parts   |     Assays & Pail Art     |   | • Order ADI Bowl/Drive|     Vibratory Feeder  |
- | • Detail OPER_30 Spec |   | • Draft Bailment Agt  |     for OPER_30 Station   |     (COMM_24 Trigger) |
- | • Establish 8-Gaylord |     for Contingency Toller|   | • Qualify Contingency |   | • Fitment Check on    |
- |   Resin Buffer Target |   | • Establish Min-Max   |     Toll Molder A         |     Partner A Platen  |
- +-----------------------+   +-----------------------+   +-----------------------+   +-----------------------+
- [Jack / Dave K / Maggie]      [Jack / Dave Kling]         [Julian / Dave Kling]       [Jack / Julian / Dave J]
-```
-
-### Phase 1: Press Standardization, Sourcing RFQ & Procurement Launch (Day 1 to Day 15)
-* **Action 1.1 (OPER_08):** Mount laminated *Machine Setup Traveler Cards* on the injection press operator console, documenting validated temperatures, clamping tonnages, and injection velocities for all 10 tools [Site Visit Diligence Notes].
-* **Action 1.2 (OPER_08 / OPER_34):** Physically inspect all 10 proprietary mold bases in the Aurora toolroom; log baseline non-resettable mechanical shot counts into the new Tool PM Logbook. Confirm 100% unencumbered title.
-* **Action 1.3 (OPER_12 / OPER_34):** Establish direct commercial Gaylord purchasing accounts with Midwest polymer distributors (Chase Plastics, Entec Polymers, M. Holland). Establish target 8-to-11 Gaylord on-site buffer policy.
-* **Action 1.4 (OPER_08 / OPER_34):** Audit historical Account 5440 tooling maintenance records ($31.9k in 2024 / $18.9k in 2025). Establish dedicated QuickBooks Current Asset reserve sub-account (`1055 - Tooling Maintenance Reserve`) with a recurring $0.015/shot accrual.
-* **Action 1.5:** Release dimensioned prints for the combined OPER_10/20 check valve bench fixture; order SMC indexer, Bimba cylinder, DESTACO escapement, SMC digital pressure switch, MAC solenoid valve, and tooling raw stock ($4,384 total fixture capex).
-* **Action 1.6 (OPER_18):** Issue DL-100 100,000-unit Blanket PO RFQ to incumbent check valve vendor specifying 100-count clear PETG stick packaging at target $\le \$0.170/\text{unit}$ ($\le \$0.004$ packaging adder). Issue identical RFQ to Smart Products USA and ISM as competitive leverage.
-* **Action 1.7 (OPER_28 / OPER_36):** Issue Turnkey Chemical Tolling & Dropship RFQ to pre-qualified Midwestern compounders incorporating the **Winter Dropship Logistics Protocol (WDLP)** and 4.5% DPM cold-flow specification.
-* **Action 1.8:** Order parts and raw stock for 5 Quick-Swap Cartridges ($7,100 float capex).
-* **Action 1.9 (OPER_30):** Detail CAD assembly model and BOM for the OPER_30 automated vibratory bowl feeder and pneumatic press station; lock vendor quotes with Automation Devices Inc. (ADI) and Rodix for 12" bowl and inline track ($13,420 capex).
-
-### Phase 2: Physical Tool Audits & Machining Sprint (Day 16 to Day 30)
-* **Action 2.1 (OPER_08 / OPER_34):** Jack Fay and Dave Kling conduct full physical audit of all 10 proprietary molds stored on heavy-duty die racks in the Aurora toolroom. Inspect cavity gate wear on T-01 (16-cavity surface port) and parting-line alignment on T-02 (32-cavity cap). Institute Shift-Level PM wipe-down checklist.
-* **Action 2.2 (OPER_08):** Calibrate desiccant material dryer operating dew point (-40°F) and heating profile (175°F) for hygroscopic Nylon (T-05/T-07) and Delrin (T-06) production runs.
-* **Action 2.3 (OPER_12):** Calibrate in-house granulator regrind ratio mixer (max 15% closed-loop regrind on standard ports; 0% on T-06 check valve and T-07 retaining nut). Lock certified net part weights using calibrated digital gram scale.
-* **Action 2.4 (OPER_34):** Draft standard "Hot-Standby Bailment & Disaster Recovery Agreement" for contingency toll-molders in Batavia and St. Charles, IL.
-* **Action 2.5:** Dave Kling machines C-frame uprights, turns O1 punch tip, CNC-mills 4 Delrin nesting fixtures, and machines the Station 4 clamp sealing tool head.
-* **Action 2.6:** Dave Kling builds an interim V-track gravity bridge loading jig ($180 materials) to assist Julian with manual loading while vendor tools stick packaging.
-* **Action 2.7:** Dave Kling machines Quick-Swap mounting sub-plate #1 and builds Prototype Float Cartridge #1 for bench testing on the CD-250 chassis.
-* **Action 2.8 (OPER_28 / OPER_36):** Audit selected chemical toller’s QA lab, review ASTM D2243 freeze-thaw chamber test results down to -20°F, approve Lily-branded 5-gallon pail artwork with winter neck-tags, and sign mutual Non-Circumvention / NDA.
-
-### Phase 3: Fixture Commissioning & Contract Execution (Day 31 to Day 60)
-* **Action 3.1:** Purchase and install industrial counting scale, gravity hoppers, and impulse sealer at 240 S. Broadway kitting bench ($3,500 capex).
-* **Action 3.2:** Plumb and calibrate the OPER_10/20 semi-automated check valve assembly and leak test fixture. Conduct 1,000-unit pilot run with Julian Perez. Validate $\le 1.5$ second cycle time, $\pm 0.002"$ seating depth, and 100% detection of seeded reject valves (loose balls, missing springs, split stems).
-* **Action 3.3 (OPER_12 / OPER_34):** Issue first bulk 5-Gaylord PO for High-Flow Polypropylene Copolymer and 2-Gaylord PO for LDPE to Chase Plastics / M. Holland ($1.22/lb), establishing the on-site 60-to-90-day physical buffer stock in the Aurora warehouse.
-* **Action 3.4 (OPER_18):** Execute binding 100,000-unit DL-100 Blanket PO with check valve supplier locking pre-sleeved 100-count PETG packaging at $\le \$0.172/\text{unit}$ (first release: 25,000 units).
-* **Action 3.5 (OPER_28 / OPER_36):** Execute Master Tolling & Private-Label Dropship Agreement with chemical blender including the binding Winter Dropship Logistics Rider. Issue initial blanket production release for 100 pails SafePurge-Citrus ($8,900 commitment) and 50 pails LubeCoat-90 ($4,875 commitment) staged in toller inventory.
-* **Action 3.6 (OPER_34):** Qualify Contingency Toll Molder Partner A (Batavia, IL). Review machine specs, clamp tonnage, and tie-bar clearances against T-01 mold drawings. Execute bilateral Bailment Agreement.
-* **Action 3.7:** Dave Kling and Julian Perez complete assembly and hydrostatic calibration of all 5 Quick-Swap Float Cartridges; install vertical staging rack in Cell 2.
-* **Action 3.8 (OPER_30):** Receive COTS ADI 12" bowl feeder and inline vibratory track. Dave Kling begins machining orientation wipe blades and C-frame mounting baseplate.
-
-### Phase 4: Full Deployment & Operational Scaling (Day 61 to Day 90)
-* **Action 4.1 (OPER_08):** Run full-capacity test batch on T-01 (16-cavity surface port) in Aurora press, validating <19.5s cycle time, zero flash, and 100% pneumatic decay test yield at Station 4.
-* **Action 4.2 (OPER_18):** Receive first 25,000-unit delivery of DL-100 pre-sleeved check valves in 100-count PETG tubes. Integrate Station 2 quick-drop receiver collar onto OPER_10 fixture. Validate 3.0-second hot-swap reload.
-* **Action 4.3 (OPER_12 / OPER_34):** Maggie M and Jack Fay configure QuickBooks min-max reorder triggers across all resin SKUs; execute quarterly CDI/ICIS benchmark index-pricing agreement with M. Holland / Chase Plastics.
-* **Action 4.4:** Formally deploy **SOP-RENT-01** (Rental Fleet Rapid-Turnaround Protocol) with Julian Perez. Certify turnaround on returned CD-250 rig under 90 minutes.
-* **Action 4.5 (OPER_28 / OPER_36):** Launch commercial marketing and sales push for SafePurge-Citrus and LubeCoat-90. Dave Jepsen introduces the "Clean & Coat" add-on to all active CD-250 rig owners and rentals; Maggie tests automated dropship PO transmission to toller with winter delivery routing.
-* **Action 4.6:** Pack two emergency Pelican Swap kits; brief Dave Jepsen on the $1,250 Emergency Field Swap sales protocol for contractors facing IDOT lane-closure deadlines.
-* **Action 4.7 (OPER_34):** Dave Kling performs physical mold adapter fitment verification on Contingency Partner A's press platen in Batavia, IL, certifying 24-hour disaster recovery capability.
-* **Action 4.8 (OPER_30):** Complete bench assembly and test of the OPER_30 automated vibratory bowl feeder press station ($13,420 total capex). Validate sustained production rate of $>750\text{ units/hour}$ with Julian Perez using loose bulk check valves, fully primed for COMM_24 commercial contract fulfillment.
+The phased roadmap coordinates all machine recipe documentation, tooling PM logs, fixture machining, and toll-blending supply chain contracts within the first 90 days of ownership.
 
 ---
 
@@ -942,7 +863,7 @@ Grounded in Lily’s operating realities and capital constraints, specific opera
 * **The Proposal:** Purchase 55-gallon drums of raw solvents and synthetic esters, blend in an open mix tank inside 240 S. Broadway, and manually decant into 5-gallon pails to capture toller conversion fees.
 * **Operational Autopsy & Rationale for Rejection:**
   1. *Severe Fire & Explosion Permitting Deficits:* Handling bulk flammable/combustible solvents inside 240 S. Broadway requires upgrading the shop to Class 1, Division 1 explosion-proof electrical fixtures, spark-proof ventilation, fire suppression sprinklers, and spill containment diking. Engineering estimates exceed **$80,000 to $120,000 in facility capex**, destroying post-acquisition liquidity.
-  2. *OSHA & EPA Compliance Trap:* Storing chemical drum volumes triggers EPA Tier II EPCRA reporting, hazardous waste generator permits, and OSHA PSM regulatory overhead that Lily’s lean 4-person team cannot manage.
+  2. *OSHA & EPA Compliance Trap:* Storing chemical drum volumes triggers EPA Tier II EPCRA reporting, hazardous waste generator permits, and OSHA PSM regulatory overhead that Lily’s lean 5-person team cannot manage.
   3. *Labor Cannibalization:* Julian Perez and Dave Kling would spend 15+ hours per week pumping liquids, weighing pails, and wiping drum bungs—pulling them away from machining proportioners and assembling high-margin accessories.
 * **Approved Operating Wedge:** 100% turnkey outsourcing to an established, ISO-certified Midwestern chemical toll-blender that holds existing bulk storage permits, automated filling carousels, and dedicated hazmat compliance infrastructure. Lily captures **63.7%–65.8% gross margins** while holding zero chemical inventory in Aurora.
 
@@ -969,21 +890,966 @@ Grounded in Lily’s operating realities and capital constraints, specific opera
   2. *Tooling Hostage & IP Vulnerability:* Lily’s 10 molds are irreplaceable proprietary assets. Transferring custody off-site exposes Lily to unauthorized production runs, toolroom neglect, cavity wear disputes, and commercial hostage risks during contractual disagreements.
 * **Approved Operating Wedge:** **Retain and optimize 100% primary in-house injection molding press operations at 240 S. Broadway**, while maintaining a pre-qualified **Hot-Standby Toll-Molder Contingency Agreement** with regional shops (Batavia/St. Charles) strictly for disaster recovery.
 
+### 18.6. Rejected Strategy: Commercial 3D Chromatic Confocal Metrology Probes & Liquid Dye Penetrant Testing (OPER_170 Autopsy)
+* **The Proposal:** Procure a turnkey commercial 3D chromatic confocal video measuring system or optical surface profiler (Keyence VR-6000 / MarSurf CM mobile) costing $24,000 to $42,000 to measure internal manifold check-ball chamfers, or mandate certified Liquid Dye Penetrant Inspection (DPT / PT under ASTM E1417) using red dye and developer aerosol cans for every reclaimed manifold block.
+* **Operational Autopsy & Rationale for Rejection:**
+  1. *Catastrophic Working Capital Drain:* Spending $24,000 to $42,000 on a commercial optical profiler consumes 48% to 84% of Lily’s $50,000 post-closing working capital reserve.
+  2. *Geometric Inaccessibility:* Commercial optical CMM objective lenses have large physical diameters (30–50 mm) and short working distances (2–10 mm). They cannot physically penetrate a 0.500" diameter, 2.5" deep blind fluid cavity to view a 45° reverse-beveled internal seating face!
+  3. *The Dye Penetrant Waste & Labor Trap:* DPT requires 15 to 20 minutes of elapsed dwell time per manifold, generates hazardous solvent wash rags that threaten Lily’s Illinois EPA VSQG waste status (OPER_154), and relies on subjective operator squinting with a penlight down a narrow hole. It frequently misses narrow wire-drawing micro-scratches and cannot quantify concentric runout.
+* **Approved Operating Wedge:** **The Interchangeable 45° Rhodium Inverted Cone Micro-Mirror Adapter ($320 Capex / <35s Takt)**. Jack Fay, Dave Kling, and Julian Perez adapt the existing BORE-CHECK 100 USB optical platform (OPER_122) at Station #2/3. By mounting a precision 45° front-surface rhodium cone micro-mirror enclosed in a shop-turned Delrin self-centering bushing, the borescope captures an omnidirectional 360° annular image of the internal conical seating chamfer. A lightweight Python script unrolls the ring using OpenCV `warpPolar()` into an uncurled 1080p panoramic strip in <150 ms, automatically evaluating band width, runout eccentricity ($< 0.0008"$), and micro-cavitation voids ($< 12\ \mu\text{m}$). This architecture completely eliminates manual dye penetrant testing, ensures **100% zero-weep check-valve performance**, generates **$3,920/year in net recurring savings**, and delivers a **full capital payback in only 30 days (1.0 month)**!
+
+### 18.7. Rejected Strategies: Multi-Tenant Cloud OCR SaaS, E-Commerce Portals, IIF File Import & QODBC for Order Ingestion (OPER_54 / OPS_PO_AUTOMATION_04 Autopsy)
+* **The Proposal:** Deploy a cloud-hosted OCR platform (Rossum, Conexiom, or Zapier + OpenAI API) costing $350–$650/month; build a customer self-service e-commerce website; or utilize Intuit Interchange Format (IIF) / QODBC drivers to inject contractor purchase orders into QuickBooks Desktop.
+* **Operational Autopsy & Rationale for Rejection:**
+  1. *Customer Behavioral Mismatch (The E-Commerce Trap):* Civil contractors (White Cap, Sika, Euclid, Walsh, Kiewit) operate corporate ERPs (SAP, Viewpoint, Vista). Purchasing agents issue formal Net 30/60 purchase orders. Forcing jobsite foremen or procurement agents to log into a Shopify/WooCommerce web portal introduces friction, breaks their internal approval hierarchy, and causes them to switch to local distributors.
+  2. *Cloud OCR SaaS Cost & Internet Fragility:* Cloud subscription parsers charge $0.15 to $0.40 per page, imposing a $3,600 to $6,000 annual recurring SaaS burden. Furthermore, sending proprietary contractor pricing and jobsite locations to public cloud endpoints introduces data security exposure and fails entirely when Fox Valley ISP connections suffer weather outages.
+  3. *The IIF Import Data-Corruption Trap:* IIF is a deprecated, tab-delimited flat-file import mechanism. In QuickBooks Desktop, IIF import completely bypasses database transaction validation. If a contractor's PDF has a slight misspelling of a customer name or inventory item, IIF creates a new, corrupted ghost account or inventory line in the live QuickBooks Chart of Accounts without warning. Furthermore, IIF does not natively support drafting Sales Orders without forcing single-user mode.
+  4. *The QODBC Driver Latency & Cost Trap:* Commercial QODBC drivers cost $499+ per desktop license. QODBC translates SQL `INSERT` commands into internal SDK calls, introducing translation latency (often 8–15 seconds per multi-line order), cryptic error messaging when validations fail, and persistent 32-bit vs. 64-bit ODBC Data Source Administrator (DSN) crashes following Windows or Intuit updates.
+* **Approved Operating Wedge:** **On-Premise Python Daemon + Local SQLite SKU Crosswalk + Side-by-Side Verification Desk + Native Intuit QBXML SDK (`QBXMLRP2.RequestProcessor`)**. This architecture costs exactly **$594.00 Capex** (secondary monitor and flatbed scanner), requires **$0.00 in recurring software licenses**, keeps all data 100% local, preserves Maggie's existing QuickBooks Desktop workflow, enforces strict Intuit schema validation, and achieves **38-second 1-click sales order staging**!
+
 ---
 
-## 19. Conclusion & Operator Sign-Off
+## 20. Automated Billet Manifold Check-Ball Seat Optical Co-Axiality & Micro-Cavitation Inspection Probe (OPER_170)
 
-The eleven operational pillars of this shop floor modernization blueprint permanently fortify Lily Corporation’s operational throughput, supply chain resiliency, asset security, margin profile, consumable revenue, and product quality:
+### 20.1. Operational Context & Problem Definition: The Check-Ball Seat Weeping Trap
 
-1. **In-House Press Standardization & Toolroom Preservation (OPER_08):** Press-mounted setup traveler cards, calibrated desiccant drying for Nylon/Delrin, mechanical shot counters, and a dedicated **$0.015/shot Tooling Maintenance Reserve** eliminate unbudgeted tooling repair shocks and preserve Lily's 10 proprietary molds.
-2. **Assembly Automation & Labor Liberation (OPER_10):** A **$3,820** pneumatic rotary indexing fixture eliminates the 12-second manual check-valve bottleneck, crushing press cycle time to **1.5 seconds per unit**.
-3. **Cartridge Standardization (OPER_16):** Consolidating legacy valve variants into the universal **DL-100 specification** eliminates SKU sprawl and unlocks high-volume blanket purchasing.
-4. **Vendor Pre-Packaged Sleeve Sourcing (OPER_18):** Negotiating **vendor pre-oriented 100-count PETG sleeve stick packaging** at a nominal adder capped at **+$0.004/unit** drops net piece price from **$0.185 down to $0.170/unit**, eliminating manual feeder-tube loading and recapturing **57.5 to 143.8 technician hours annually**.
-5. **High-Speed Vibratory Bowl-Feeder & Press Automation (OPER_30):** Engineering a hybrid in-house vibratory bowl feeder and pneumatic press fixture for **$13,420.00 (under the $15,000 cap)** delivers **720 to 850 units/hour sustained assembly throughput** using bulk loose check valves, recapturing **200 to 1,000 technician hours annually** as commercial contract volume (COMM_24) scales to 250k–500k units/year.
-6. **Zero-Defect Inline Quality Assurance (OPER_20):** A **$564.00** automated pneumatic backpressure decay test module at Station 4 achieves **100% non-destructive QA testing in 0.44 seconds per port**, eliminating jobsite chemical blowouts and creating an unassailable "100% Tested Bubble-Tight" marketing moat.
-7. **Direct Bulk Resin Sourcing & Regrind Optimization (OPER_12):** Purchasing **1,000-lb bulk Gaylord octabins** (Chase / Entec), standardizing hopper wands, and enforcing a strict 15% closed-loop regrind protocol recovers **$26,400 annually in pure EBITDA** on Account 5120 [pl.csv], protecting **82% to 94% gross margins** on in-house molded consumables.
-8. **Toll-Molder Contingency Resiliency, Tooling PM & Petrochemical Buffer Stock (OPER_34):** Retaining all 10 tools 100% on-site, pre-qualifying two regional **Hot-Standby Toll Molders** for 24-hour disaster recovery, establishing a four-tier **Core & Cavity PM Schedule**, and holding an on-site **8-to-11 Gaylord (~8,000 to 11,000 lbs) resin buffer** insulates Lily from single-press failures, tooling decay, and petrochemical supply freezes.
-9. **Rental Fleet Rapid Turnaround (OPER_14):** Drop-in **Quick-Swap Fluid Manifold & Cylinder Cartridges** and the **SOP-RENT-01 90-minute recertification protocol** compress turnaround from 2–3 days to 90 minutes. This recaptures **229.5 technician hours**, increases fleet utilization from 58% to 84%, captures **+$31,500 in incremental rental gross profit**, and unlocks the high-margin **$1,250 "Emergency Pelican Swap"** customer retention service.
-10. **Turnkey Chemical Tolling & Dropship Architecture (OPER_28):** Turnkey private-label contract tolling and direct dropshipping of **SafePurge-Citrus** and **LubeCoat-90** captures **63.7%–65.8% gross margins ($99,900 to $182,625/year net gross profit)** with **ZERO hazardous chemical inventory, ZERO environmental permitting, and ZERO direct technician labor at 240 S. Broadway**.
-11. **Sub-Zero Freeze-Thaw Stability & Winter Dropship Architecture (OPER_36):** Formulating SafePurge-Citrus with **4.5% DPM coupling agent** and low-pour-point branched surfactants prevents ester crystallization and surfactant gelation down to **-20°F (-29°C)**. Mandating **UN-1H1/Y1.8 copolymer HDPE pails** and executing the **Winter Dropship Logistics Protocol (WDLP)** eliminates carrier PFF surcharges ($50–$100 min/shipment) and bypasses winter freight embargoes, saving **$14,200 annually in avoided freight penalties** while ensuring uninterrupted winter paving jobsite deliveries.
-12. **Total Economic Impact:** Across direct labor recovered, rental capacity unlocked, resin discounts negotiated, automated port assembly deployed, and turnkey chemical consumables monetized, this plan delivers **between $185,000 and $275,000 in annual net economic value** for an aggregate hard capex investment of **$22,720 across all modular equipment cells**, with **zero additional headcount** and full preservation of Lily's post-acquisition capital structure [00_assumed_capital_baseline.md].
+In Lily’s CD-250 and CD-15 proportioners, fluid proportioning accuracy relies completely on the positive sealing of internal spring-loaded check-balls against conical seating chamfers inside the machined 4140 chrome-moly steel and 316 stainless steel fluid manifolds. During the suction stroke of each cycle, the check-ball lifts off its seat to ingest chemical resin (Component A or Component B); during the high-pressure discharge stroke (up to 2,500 PSI), the ball must slam back into the conical chamfer and seal with absolute hydraulic impermeability.
+
+When returned contractor cores or fleet rental manifolds enter Station #2/3 (OPER_95) following ultrasonic chemical stripping (OPER_72), the internal check-ball seating chamfers present a severe, hidden failure mode:
+1. High-velocity resin flow and vapor collapse pit the conical seat chamfer with microscopic craters (15–80 µm deep).
+2. Abrasive silica-filled resin leaking past a closing ball carves a sharp axial micro-groove through the sealing line.
+3. Particulate indentation from cured polyurea or sand grit breaks concentric roundness.
+4. Prior manual hand-lapping with drill arbors introduces conical ovality or axis runout exceeding 0.0015" (38 µm).
+
+The operational challenge for Jack Fay, Dave Kling, and Julian Perez: **Adapt the existing BORE-CHECK 100 USB optical platform (OPER_122) with a 45° inverted cone micro-mirror probe tip for under $350 Capex that captures a 1080p 360° unrolled panoramic inspection of the seating chamfer in <35 seconds, eliminating manual dye penetrant testing entirely.**
+
+```
+                      OPER_170 OPTICAL SEAT PROBE CROSS-SECTION
+                      
+         +-------------------------------------------------------------+
+         |           BORE-CHECK 100 USB 8.0mm OPTICAL WAND             |
+         |           (1080p CMOS Sensor / Integrated White LEDs)       |
+         +-------------------------------------------------------------+
+                                        |
+                                        v
+     +---------------------------------------------------------------------+
+     |    DELRIN SELF-CENTERING PILOT BUSHING (0.500" OD x 0.315" ID)      |
+     |    (Slips snugly into manifold port; aligns optical axis <0.0005")   |
+     +---------------------------------------------------------------------+
+                                        |
+            +---------------------------+---------------------------+
+            |  Collimated LED Ring Illumination (Polarized Diffuser)|
+            +-------------------------------------------------------+
+                                        |
+                                        v (Incident Optical Ray Path)
+                                 \             /
+                                  \           /
+                                   \         /
+                                    \       /
+                      +-----------------------------------+
+                      |   45° RHODIUM-COATED CONE MIRROR  |
+                      |   (Tip Diameter: 0.250" / 6.35mm) |
+                      |   Reflects 90° Radial View Upward |
+                      +-----------------------------------+
+                                    /       \
+                                   /         \
+                                  /           \
+                                 v             v
+       +-------------------------------------------------------------------+
+       |     4140 BILLET MANIFOLD INTERNAL CHECK-BALL SEATING CHAMFER      |
+       |     (45° Conical Machined Chamfer; 0.375" Seating Circle)        |
+       +-------------------------------------------------------------------+
+```
+
+### 20.2. Engineering Architecture & $320.00 Hardware Capex BOM
+
+| Item Description | Sourcing / Model Specification | Unit Cost | Extended Cost | Operational Function |
+| :--- | :--- | :---: | :---: | :--- |
+| **Precision 45° Rhodium Cone Micro-Mirror** | Edmund Optics #47-386 / Knight Optical Custom (6.35mm) | $175.00 | $175.00 | High-reflectance front-surface rhodium 45° conical mirror |
+| **Delrin Self-Centering Pilot Bushings (Set of 3)**| Dave Kling Shop Lathe Turned (1/2" NPT, 3/8" & Cartridge) | $32.00 | $32.00 | Eliminates angular tilt; centers probe within ±0.0005" |
+| **316 SS Mirror Stems & Protective Cage** | Dave Kling Shop Fabricated (0.040" wire support spiders) | $28.00 | $28.00 | Suspends cone mirror rigidly below borescope lens |
+| **Polarized Ring Diffuser & Spacer Collar** | Edmund Optics Linear Polarizer Sheet + Delrin Collar | $25.00 | $25.00 | Eliminates blinding glare from polished chamfer faces |
+| **Industrial Foot Pedal Cycle Trigger** | Linemaster 491-S (USB Interface to Mini-PC) | $36.00 | $36.00 | Hands-free image acquisition trigger for Julian |
+| **Class ZZ Optical Calibration Gauge Plug** | Meyer Gauge 0.3750" (-0.0002" with laser micro-mark) | $24.00 | $24.00 | Daily optical resolution and distortion verification |
+| **TOTAL IMPLEMENTATION HARDWARE CAPEX** | — | — | **$320.00** | **Fully Packaged Kit (Under $350 Budget!)** |
+
+---
+
+## 21. Automated Email PO-to-QuickBooks Ingestion Desk for Maggie (OPER_54 / OPS_PO_AUTOMATION_04)
+
+### 21.1. Operational Context & Problem Definition: Maggie's 20-Hour Transcription Burden
+
+At Lily Corporation, order processing, invoicing, inventory tracking, and accounts receivable collections rest entirely on the desk of **Maggie M (Office Manager & Bookkeeper)** [Site Visit Diligence Notes, 00_assumed_capital_baseline.md]. Lily operates on **QuickBooks Desktop** (verified in historical company files `QuickBooks_Sep16`).
+
+Under the 44-year legacy operating baseline:
+1. **The Manual Transcription Bottleneck:** Civil general contractors, concrete repair specialists, and regional supply houses (White Cap, Sika, Euclid Chemical, Walsh Construction, Kiewit) submit orders via email as attached PDF purchase orders or handwritten site slips faxed/emailed to `orders@lilycorp.com` or Maggie’s direct inbox.
+2. **The 10.5-Minute Order Takt Time:** For every incoming order, Maggie must:
+   * Open the PDF attachment on her single desktop monitor.
+   * Alt-tab to QuickBooks Desktop and open the `Create Sales Orders` window.
+   * Search and select the customer name, verifying billing and shipping jobsite addresses.
+   * Manually read each line item from the contractor’s PDF, decipher contractor-specific part descriptions (which rarely match Lily's internal SKU nomenclature), look up the matching item in QuickBooks, and key in part numbers, quantities, unit prices, and line amounts.
+   * Enter the contractor’s Purchase Order number, payment terms (Net 30/60), and carrier instructions.
+   * Click Save, print the Sales Order / Pick Ticket on the office laser printer, and physically walk it to Julian Perez or Dave Kling in Cell 1 / Cell 2 for picking and fulfillment.
+   * **Measured Baseline Takt Time:** **10.5 minutes per order**.
+3. **The Labor & Cognitive Drain:** Lily processes between 40 and 50 purchase orders per week, surging to **60 to 80 orders per week during the peak summer paving season (May to October)**. At an average of 45 orders/week, manual order transcription consumes **7.88 hours per week (~410 hours/year)** during off-peak periods, and **14.0 to 18.5 hours per week during peak paving months**! This administrative burden consumes nearly half of Maggie’s working hours, leaving zero bandwidth for aggressive AR collection calls (contributing to Lily's high 42–52 day DSO [00_assumed_capital_baseline.md]), inventory reconciliation, or freight invoice auditing.
+4. **The High Cost of Miskeyed Data:** Manual re-keying under frantic peak-season conditions introduces a **3.5% human transcription error rate** (transposing digits in multi-digit part numbers, confusing T-01 surface ports with T-03 socket ports, entering incorrect quantities, or selecting the wrong shipping branch for multi-location contractors like White Cap). An erroneous shipment to a remote DOT bridge project results in emergency freight re-shipments ($150–$350), costly restock handling, jobsite lane-closure delays, and severe reputational damage.
+
+### 21.2. The Grounded Commercial Constraint: Civil Contractor Procurement Reality
+
+A frequent software error made by tech-centric turnaround operators is attempting to force civil contractors onto consumer-style e-commerce shopping carts or self-service customer web portals (`The Graveyard: Rejected Concepts`).
+
+In the civil infrastructure concrete repair industry, **forcing contractors to log into a web portal is an operational deal-killer**:
+* General contractors and DOT specialty subcontractors operate under formal corporate procurement controls (SAP, Viewpoint, CMiC, Procore, Vista).
+* Purchasing agents and field project managers issue legally binding, sequentially numbered **Purchase Orders on corporate Net 30 or Net 60 accounts**.
+* Field superintendents and foremen ordering from truck beds on highway shoulders do not have corporate credit cards, do not want to manage web passwords, and will instantly abandon any supplier that refuses to accept their standard PDF purchase order.
+* **The Non-Negotiable Operational Mandate:** Lily must **continue accepting standard contractor PDF Purchase Orders via email**, but automate the extraction, translation, and staging process inside QuickBooks Desktop so Maggie performs a **1-click human verification review** rather than manual transcription.
+
+---
+
+### 21.3. Technical Architecture Evaluation: Resolving the Integration Uncertainty
+
+**Core Strategic Question (OPS_PO_AUTOMATION_04):** What QuickBooks integration mechanism (QODBC vs. IIF Import vs. Native QuickBooks Desktop SDK) provides the most reliable 1-click approval workflow for Maggie without disrupting her existing habits or risking company file corruption?
+
+To resolve this open uncertainty, Jack Fay conducted an exhaustive architectural and risk trade-off analysis across all three potential QuickBooks Desktop integration mechanisms:
+
+```
++----------------------------------------------------------------------------------------------------+
+|                QUICKBOOKS DESKTOP INTEGRATION MECHANISM EVALUATION MATRIX                          |
++--------------------------+-----------------------+------------------------+------------------------+
+| Evaluation Vector        | Option A: IIF Import  | Option B: QODBC Driver | Option C: Native SDK   |
+|                          | (Flat Text File)      | (FLEXquarters ODBC)    | (QBXMLRP2 via COM)     |
++--------------------------+-----------------------+------------------------+------------------------+
+| Initial Software Capex   | $0.00                 | $499.00 – $599.00      | **$0.00 (Royalty-Free)**|
+| Ongoing Annual SaaS/Fee  | $0.00                 | $199.00 – $299.00/yr   | **$0.00**              |
+| Transaction Validation   | NONE (Bypasses engine)| Partial (via driver)   | **STRICT NATIVE ENGINE**|
+| Ghost Entity Risk        | CATASTROPHIC (Creates | Low                    | **ZERO (Throws error   |
+|                          | bad items in CoA)     |                        | before writing)**      |
+| Sales Order Support      | Deprecated / Buggy    | Yes (via SQL INSERT)   | **FULL (SalesOrderAdd) |
+| Company File Lock Mode   | Requires Single-User  | Multi-User Capable     | **SEAMLESS MULTI-USER**|
+| Processing Speed / Order | 4.0 – 6.0 seconds     | 8.0 – 15.0 seconds     | **< 800 Milliseconds** |
+| Driver / Bitness Clashes | None                  | Severe (32/64-bit DSN) | **None (Native COM)**  |
+| Maggie Workflow Habit    | Multi-Step File Menu  | Background / Invisible | **SIDE-BY-SIDE 1-CLICK**|
+| Overall Verdict          | **REJECTED (Dangerous)**| **REJECTED (Cost/Lag)**| **APPROVED WINNER**    |
++--------------------------+-----------------------+------------------------+------------------------+
+```
+
+#### 21.3.1. Detailed Autopsy of Rejected Integration Mechanisms:
+1. **Option A: Intuit Interchange Format (IIF) Import — REJECTED (Data Corruption Hazard):**
+   * *Mechanism:* Generating a tab-delimited `.iif` text file and importing it through `File -> Utilities -> Import -> IIF Files`.
+   * *Critical Flaws:* 
+     - **Database Logic Bypass:** IIF imports bypass QuickBooks’ internal transactional validation engine. If a contractor's purchase order contains a typographical variation or unmapped part number (e.g., `LPP-100-PORT` instead of `LPP-100`), QuickBooks does not reject the line; instead, it automatically creates a new, unconfigured item in the active Item List and Chart of Accounts, polluting company records!
+     - **Sales Order Fragility:** Modern versions of QuickBooks Desktop (2021–2024) have officially deprecated Sales Order generation via IIF. Attempting to force Sales Orders through IIF frequently results in unlinked headers, broken line-item references, or corrupted transaction IDs.
+     - **Operational Clumsiness:** Importing an IIF file requires Maggie to manually navigate nested menus, browse directory paths, and dismiss confirmation dialogs. This introduces friction rather than an elegant 1-click workflow.
+2. **Option B: QODBC Driver (FLEXquarters) — REJECTED (Cost, Latency & Driver Fragility):**
+   * *Mechanism:* Installing a commercial third-party ODBC driver that translates standard SQL queries (`INSERT INTO SalesOrder...`) into QuickBooks SDK calls.
+   * *Critical Flaws:*
+     - **Unnecessary Capex Burden:** A QODBC desktop license costs **$499.00 to $599.00**, plus recurring annual upgrade fees to match QuickBooks version updates, violating Year 1 capex discipline ($20,000 ceiling across the entire facility).
+     - **Severe Translation Latency:** QODBC acts as a translation layer on top of the native SDK. Executing multi-line SQL inserts against QuickBooks Desktop takes **8.0 to 15.0 seconds per order**, frequently triggering database query timeouts.
+     - **Bitness & DSN Maintenance Headaches:** QuickBooks Desktop historically transitioned between 32-bit and 64-bit database architectures. Managing ODBC Data Source Administrator (DSN) configurations, user permissions, and Windows driver updates creates persistent fragility that requires ongoing IT maintenance.
+
+#### 21.3.2. Option C: Native QuickBooks Desktop SDK via COM (The Approved Operator Solution):
+* **Mechanism:** Direct Windows Component Object Model (COM) interop using Intuit’s official, royalty-free Request Processor (`QBXMLRP2.RequestProcessor.1`) driven by a local Python daemon using `win32com.client`.
+* **Why Option C is the Undisputed Operator Winner:**
+  1. **Zero Financial Cost ($0.00):** Intuit provides the QuickBooks Desktop SDK and COM libraries free of charge. There are zero licensing fees, zero seat charges, and zero recurring SaaS subscriptions.
+  2. **Native Business Logic & Atomic Integrity:** Transactions are submitted using standard Intuit `SalesOrderAddRq` XML schema. QuickBooks validates every customer reference, item code, pricing tier, sales tax code, and inventory availability against the active company file before writing the record. If an item code is invalid, QuickBooks rejects the transaction cleanly with a descriptive error code (`3140: Invalid item reference`) without writing corrupted ghost accounts.
+  3. **Multi-User Co-Existence:** The COM interface communicates directly with the running QuickBooks Desktop application on Maggie’s workstation in active Multi-User mode. Maggie does not need to close her company file or change user accounts.
+  4. **Sub-Second Execution Speed:** A complete 10-line Sales Order payload commits to the QuickBooks database in **under 800 milliseconds**, enabling an instantaneous, responsive user interface.
+
+---
+
+### 21.4. System Engineering: The On-Premise PO-to-QuickBooks Ingestion Pipeline
+
+To preserve 100% data security, eliminate cloud recurring costs, and provide complete offline reliability during Fox Valley internet disruptions, the entire ingestion engine operates locally on Maggie’s office workstation.
+
+```
+                  OPER_54 ON-PREMISE PO INGESTION PIPELINE TOPOLOGY
+                  
+  +-----------------------------------------------------------------------------------+
+  | INBOUND ORDER CHANNELS:                                                           |
+  | • Email Inbox (`orders@lilycorp.com` via Local IMAP / Outlook MAPI Polling)       |
+  | • Direct Network Drop Folder (`C:\Lily\Orders\Incoming\` for faxes/scans)         |
+  +-----------------------------------------------------------------------------------+
+                                            |
+                                            v (Every 60 Seconds / Event Driven)
+  +-----------------------------------------------------------------------------------+
+  | STEP 1: ATTACHMENT EXTRACTION & DEDUPLICATION                                     |
+  | • Extracts PDF, TIFF, or PNG purchase order attachments                           |
+  | • Calculates SHA-256 file hash to prevent duplicate order ingestion               |
+  | • Archives raw email message and logs receipt timestamp in `po_audit.sqlite`      |
+  +-----------------------------------------------------------------------------------+
+                                            |
+                                            v
+  +-----------------------------------------------------------------------------------+
+  | STEP 2: HYBRID TEXT & OCR DATA EXTRACTION ENGINE                                  |
+  | • Native Digital PDFs: Extracted via `pdfplumber` layout-aware text parser         |
+  | • Scanned / Image PDFs: Processed via Local Tesseract OCR Engine (100% On-Premise)  |
+  | • Regex & Spatial Rules extract Header Data (PO Number, Date, Ship-To, Terms)     |
+  | • Tabular Bounding-Box Detection extracts Line Items (Qty, Part Description, Price)|
+  +-----------------------------------------------------------------------------------+
+                                            |
+                                            v
+  +-----------------------------------------------------------------------------------+
+  | STEP 3: LILY SKU & CUSTOMER FUZZY RESOLUTION ENGINE                               |
+  | • Queries Local SQLite Crosswalk (`customer_crosswalk.sqlite`)                    |
+  | • Maps messy contractor text to official QuickBooks Item List & Customer Names    |
+  | • Evaluates matching confidence score (0% to 100%)                                |
+  +-----------------------------------------------------------------------------------+
+                                            |
+                                            v
+  +-----------------------------------------------------------------------------------+
+  | STEP 4: MAGGIE'S SIDE-BY-SIDE VERIFICATION DESK (Local Web UI: Port 5050)         |
+  | • LEFT SCREEN: High-resolution PDF viewer displaying original contractor PO       |
+  | • RIGHT SCREEN: Pre-populated Sales Order form with color-coded confidence badges  |
+  | • 1-CLICK ACTION: Maggie clicks [Approve & Push to QuickBooks] (<25s review)      |
+  +-----------------------------------------------------------------------------------+
+                                            |
+                                            v
+  +-----------------------------------------------------------------------------------+
+  | STEP 5: ATOMIC QBXML SDK COMMITTAL & PICK TICKET GENERATION                       |
+  | • Formats native `SalesOrderAddRq` XML payload                                     |
+  | • Dispatches to QuickBooks Desktop via COM (`QBXMLRP2.RequestProcessor.1`)        |
+  | • Returns QB Sales Order RefNumber; moves PDF to `C:\Lily\Orders\Processed\`       |
+  | • Automatically prints Julian's Shop Pick Ticket in Cell 1 / Cell 2               |
+  +-----------------------------------------------------------------------------------+
+```
+
+#### 21.4.1. Step 1: Ingestion & Inbound Email Polling
+A lightweight background Python service (`po_ingest_daemon.py`) runs on Maggie's PC. Every 60 seconds, it inspects incoming mail in `orders@lilycorp.com` via IMAP (or connects locally to Maggie’s Outlook client via Windows MAPI).
+* Filters for unread messages containing attachments with extensions `.pdf`, `.tif`, or `.png`.
+* Reads the raw byte stream and generates an **SHA-256 cryptographic digest**.
+* Compares the digest against `po_audit.sqlite`. If an identical hash exists, the attachment is flagged as a duplicate (preventing accidental re-entry if a contractor sends a duplicate confirmation or copies multiple Lily staff).
+
+#### 21.4.2. Step 2: On-Premise Layout-Aware PDF Parser & Local OCR
+Contractor purchase orders arrive in two distinct formats:
+1. **Vector / Digital PDFs (85% of volume):** Generated directly by contractor ERPs (SAP, Viewpoint, Procore). The daemon processes these using `pdfplumber`, extracting exact character coordinates, font sizes, and horizontal/vertical bounding boxes. Header metadata is identified via regex anchoring:
+   * **PO Number Anchor:** `(?i)(?:P\.?O\.?|PURCHASE ORDER|ORDER NO)[:\s#]*([A-Z0-9\-_/]{3,20})`
+   * **Date Anchor:** `(?i)(?:DATE|ORDER DATE)[:\s]*([0-9]{1,2}[/-][0-9]{1,2}[/-][0-9]{2,4})`
+   * **Jobsite / Ship-To Address:** Spatial bounding box extraction between text markers `"SHIP TO:"` and `"FREIGHT / TERMS:"`.
+2. **Scanned / Faxed PDFs (15% of volume):** Printed, signed, and re-scanned jobsite slips. The daemon renders PDF pages into 300 DPI grayscale bitmaps via `pypdfium2` and executes optical character recognition using an on-premise installation of **Tesseract OCR (v5.3)** running locally. Zero external internet bandwidth or cloud API calls are utilized.
+
+#### 21.4.3. Step 3: Lily SKU & Customer Crosswalk Engine
+Contractors rarely use Lily’s exact part numbers. For example, White Cap purchase orders frequently list *"1/4IN CRACK INJECTION ENTRY PORT (100 PK)"*, whereas Lily’s internal QuickBooks Item Name is `LPP-100`.
+
+To automate item matching, Jack Fay built an embedded SQLite crosswalk database (`customer_crosswalk.sqlite`) containing historical transaction crosswalks compiled from 10 years of sales data (`evidence/financials/QuickBooks_Sep16`):
+
+```
++----------------------------------------------------------------------------------------------------+
+|                       SAMPLE LILY SKU RESOLUTION & FUZZY MATCH TABLE                               |
++-----------------------------------+--------------------+---------------+---------------------------+
+| Inbound Contractor Text (Raw PO)  | Matched Lily SKU   | Tool / Line   | Standard Package / UOM    |
++-----------------------------------+--------------------+---------------+---------------------------+
+| "1/4IN SURFACE PORTS W/ CAPS 100" | LPP-100            | Tool T-01/02  | Box of 100 Complete Ports |
+| "FLAT ENTRY PORTS 500/CS"         | LPP-500            | Tool T-01/02  | Master Case of 500 Ports  |
+| "SNAPPY TEE COUPLERS 50 PK"       | LPT-50             | Tool T-04/05  | Bag of 50 Snap Tees       |
+| "LPI DISPENSE BOWL 10-PK"         | LPC-10             | Tool T-08     | Pack of 10 Reservoir Bowls|
+| "1/2IN RECESSED DRILL PORTS 100PK"| LPP-REC-100        | Tool T-03     | Box of 100 Socket Ports   |
+| "DRIVE-LOK CHECK VALVES 5/16"     | DL-100-VALVE       | OPER_18/30    | Bag of 100 Check Valves   |
+| "STATIC MIXER RETAINING NUT"      | NUT-HEX-GF         | Tool T-07     | Bag of 10 Retaining Nuts  |
+| "SAFEPURGE CITRUS CLEANER 5 GAL"  | CHEM-SP5           | OPER_28/36    | 5-Gallon Pail SafePurge   |
+| "LUBECOAT 90 BARRIER FLUID 5 GAL" | CHEM-LC5           | OPER_28       | 5-Gallon Pail LubeCoat    |
+| "CD-250 RAPIDSWAP MANIFOLD CORE"  | CART-WET-250       | OPER_14/40    | Wet-End Swap Cartridge    |
++-----------------------------------+--------------------+---------------+---------------------------+
+```
+
+* **Customer Resolution Algorithm:** Uses `rapidfuzz` token-set ratio matching to cross-reference extracted contractor company names and street addresses against Lily’s active QuickBooks Customer List. If a contractor is an established sub-branch (e.g., *"White Cap - Alsip Branch #412"*), the engine automatically binds the record to the correct parent-sub account in QuickBooks.
+* **Confidence Scoring:** Every extracted field receives a confidence score (0% to 100%). If all line items and customer records exceed **90% confidence**, the interface marks the order with a **Green Status Badge** ready for instant 1-click execution.
+
+---
+
+### 21.5. Maggie's Side-by-Side Verification Desk (The 1-Click Approval GUI)
+
+To eliminate transcription without removing human judgment, Jack Fay deploys a lightweight local web interface running on Maggie’s workstation (`http://localhost:5050`) accessible via her browser.
+
+```
++----------------------------------------------------------------------------------------------------+
+|                         LILY CORPORATION - PO INGESTION DESK (VERIFICATION)                        |
+| Status: 3 Orders Pending Review | Active Order: White Cap Construction Supply (PO #WC-89412)       |
++----------------------------------------------------------------------------------------------------+
+| [LEFT PANE: ORIGINAL CONTRACTOR PDF PO]   | [RIGHT PANE: STAGED QUICKBOOKS SALES ORDER]            |
+|                                           |                                                        |
+| +---------------------------------------+ | Customer: White Cap - Alsip [98% Match 🟢]             |
+| | WHITE CAP SUPPLY - PO #WC-89412       | | PO Number: WC-89412        Date: 10/14/2026            |
+| | Ship To: I-80 Bridge Reconstruction   | | Ship To:   I-80 Bridge Recon - Mile 112, Joliet, IL    |
+| |          Mile Marker 112, Joliet, IL  | | Terms:     Net 30          Rep: Dave Jepsen            |
+| |                                       | |                                                        |
+| | Line 1: 5 CS - 1/4" Flat Ports (500)  | | LINE ITEM STAGING TABLE:                               |
+| |         @ $325.00/cs = $1,625.00      | | 1. [LPP-500] 16-Cav Surface Port Master Case (500/cs)  |
+| | Line 2: 10 PK - Snappy Tees (50 pk)   | |    Qty: 5 cs | Rate: $325.00 | Total: $1,625.00 [🟢]    |
+| |         @ $65.00/pk  = $650.00        | | 2. [LPT-50] Snappy Tee Coupling Adapters (50/pk)       |
+| | Line 3: 2 PL - SafePurge-Citrus 5-Gal | |    Qty: 10 pk| Rate: $65.00  | Total: $650.00   [🟢]    |
+| |         @ $245.00/pl = $490.00        | | 3. [CHEM-SP5] SafePurge-Citrus Flush Solvent 5-Gal     |
+| |                                       | |    Qty: 2 pl | Rate: $245.00 | Total: $490.00   [🟢]    |
+| | TOTAL ORDER AMOUNT: $2,765.00         | |                                                        |
+| +---------------------------------------+ | ORDER SUBTOTAL: $2,765.00 | STATUS: READY TO COMMIT    |
+|                                           |                                                        |
+| [PDF Page 1 of 1 | Zoom 100% | Rotate]    | [ 🟢 APPROVE & PUSH TO QUICKBOOKS (1-CLICK) ]          |
+|                                           | [ 🟡 Edit Line Items ]        [ 🔴 Reject / Hold PO ]  |
++----------------------------------------------------------------------------------------------------+
+```
+
+#### 21.5.1. The 1-Click Approval Interaction:
+1. Maggie glances at the screen. The original PDF appears crisp on the left; the parsed data appears formatted on the right.
+2. A single visual scan confirms the customer name, PO number, shipping jobsite address, and the 3 line items match perfectly (taking **15 to 25 seconds**).
+3. Maggie clicks the large green button: **`[ APPROVE & PUSH TO QUICKBOOKS ]`**.
+4. The system immediately executes the native QBXML dispatch. Within **800 milliseconds**, QuickBooks Desktop records the official Sales Order.
+5. The UI flashes: *"Sales Order #SO-10482 Created in QuickBooks Desktop 🟢"*.
+6. Julian Perez’s shop floor network printer in Cell 1 immediately prints the **Pick Ticket / Fulfillment Traveler**, complete with part numbers, warehouse bin locations, and customer shipping labels!
+7. Total operator elapsed time: **under 38 seconds** (down from 10.5 minutes).
+
+---
+
+### 21.6. Native QuickBooks Desktop SDK (QBXML) Integration Script
+
+The core dispatch mechanism connects directly to the running QuickBooks Desktop executable on Maggie's machine via Windows COM. The Python script formats a strictly validated `SalesOrderAddRq` XML payload:
+
+```python
+import win32com.client
+import xml.etree.ElementTree as ET
+import datetime
+import sqlite3
+import logging
+
+class QuickBooksDesktopConnector:
+    """
+    OPER_54: Native QuickBooks Desktop SDK COM Interop
+    Dispatches parsed contractor POs as draft Sales Orders via QBXMLRP2.
+    """
+    def __init__(self, app_name="Lily Corp PO Ingestion Desk"):
+        self.app_name = app_name
+        self.rp = None
+        self.ticket = None
+
+    def connect(self):
+        """Initializes COM session with running QuickBooks Desktop instance."""
+        try:
+            self.rp = win32com.client.Dispatch("QBXMLRP2.RequestProcessor.1")
+            self.rp.OpenConnection2("", self.app_name, 1) # 1 = local single/multi-user
+            self.ticket = self.rp.BeginSession("", 0)     # 0 = open current active file
+            return True
+        except Exception as e:
+            logging.error(f"QuickBooks COM Connection Failed: {str(e)}")
+            return False
+
+    def build_sales_order_xml(self, order_data):
+        """Constructs strictly validated QBXML SalesOrderAddRq payload."""
+        root = ET.Element("QBXML")
+        msgs = ET.SubElement(root, "QBXMLMsgsRq", {"onError": "stopOnError"})
+        so_add_rq = ET.SubElement(msgs, "SalesOrderAddRq", {"requestID": str(order_data["request_id"])})
+        so_add = ET.SubElement(so_add_rq, "SalesOrderAdd")
+
+        # Header Information
+        cust_ref = ET.SubElement(so_add, "CustomerRef")
+        ET.SubElement(cust_ref, "FullName").text = order_data["customer_name"]
+
+        ET.SubElement(so_add, "TxnDate").text = order_data.get("order_date", datetime.date.today().isoformat())
+        ET.SubElement(so_add, "RefNumber").text = order_data["po_number"][:11] # Limit to QBD Ref len
+
+        # Shipping Address Block
+        ship_addr = ET.SubElement(so_add, "ShipAddress")
+        ET.SubElement(ship_addr, "Addr1").text = order_data.get("ship_to_line1", "")[:41]
+        ET.SubElement(ship_addr, "Addr2").text = order_data.get("ship_to_line2", "")[:41]
+        ET.SubElement(ship_addr, "City").text = order_data.get("ship_to_city", "")[:31]
+        ET.SubElement(ship_addr, "State").text = order_data.get("ship_to_state", "")[:21]
+        ET.SubElement(ship_addr, "PostalCode").text = order_data.get("ship_to_zip", "")[:13]
+
+        # Line Items
+        for item in order_data["line_items"]:
+            so_line = ET.SubElement(so_add, "SalesOrderLineAdd")
+            item_ref = ET.SubElement(so_line, "ItemRef")
+            ET.SubElement(item_ref, "FullName").text = item["lily_sku"]
+            ET.SubElement(so_line, "Quantity").text = str(float(item["quantity"]))
+            ET.SubElement(so_line, "Rate").text = f"{float(item['unit_price']):.2f}"
+            ET.SubElement(so_line, "Desc").text = item.get("description", "")[:4095]
+
+        # Wrap in XML processing declaration
+        xml_str = ET.tostring(root, encoding="utf-8").decode("utf-8")
+        full_xml = f'<?xml version="1.0" encoding="utf-8"?>\n<?qbxml version="14.0"?>\n{xml_str}'
+        return full_xml
+
+    def submit_sales_order(self, order_data):
+        """Sends XML request, validates atomic execution, returns QBD RefNumber."""
+        if not self.ticket:
+            if not self.connect():
+                return {"success": False, "error": "QuickBooks not running or accessible"}
+
+        xml_payload = self.build_sales_order_xml(order_data)
+        try:
+            response_xml = self.rp.DoRequests(self.ticket, xml_payload)
+            resp_root = ET.fromstring(response_xml)
+            so_rs = resp_root.find(".//SalesOrderAddRs")
+            
+            status_code = so_rs.attrib.get("statusCode")
+            status_message = so_rs.attrib.get("statusMessage")
+
+            if status_code == "0": # Status 0 = Success
+                txn_id = so_rs.find(".//TxnID").text
+                ref_number = so_rs.find(".//RefNumber").text
+                logging.info(f"Sales Order Created Successfully: QBD SO #{ref_number}")
+                return {"success": True, "so_number": ref_number, "txn_id": txn_id}
+            else:
+                logging.error(f"QuickBooks Error [{status_code}]: {status_message}")
+                return {"success": False, "error": f"[{status_code}] {status_message}"}
+
+        except Exception as e:
+            logging.error(f"COM Request Failed: {str(e)}")
+            return {"success": False, "error": str(e)}
+
+    def disconnect(self):
+        """Closes session cleanly."""
+        if self.rp and self.ticket:
+            try:
+                self.rp.EndSession(self.ticket)
+                self.rp.CloseConnection()
+            except Exception:
+                pass
+            self.ticket = None
+```
+
+---
+
+### 21.7. Standard Operating Procedure: SOP-OFFICE-01 (Order Ingestion & Verification)
+
+```
+====================================================================================================
+LILY CORPORATION STANDARD OPERATING PROCEDURE: SOP-OFFICE-01
+TITLE: AUTOMATED EMAIL PO INGESTION & QUICKBOOKS 1-CLICK STAGING
+REVISION: 1.0 (POST-ACQUISITION TAKEOVER) | TARGET TAKT TIME: < 40 SECONDS PER ORDER
+PRIMARY OPERATOR: MAGGIE M (OFFICE MANAGER) | BACKUP: JACK FAY / DAVE JEPSEN
+====================================================================================================
+
+1. MORNING WORKSTATION STARTUP (MAGGIE M / 7:45 AM)
+   1.1. Power on primary office workstation and dual 27" monitors.
+   1.2. Launch QuickBooks Desktop 2024 (`QuickBooks_Sep16.qbw`). Log in under office user account.
+   1.3. Open Google Chrome and navigate to bookmark: `http://localhost:5050` (Lily Ingestion Desk).
+   1.4. Verify green system status light on UI header: "INGESTION ENGINE ACTIVE | QB COM CONNECTED 🟢".
+
+2. DAILY ORDER QUEUE PROCESSING (MAGGIE M / CONTINUOUS THROUGHOUT SHIFT)
+   2.1. When an incoming order email arrives at `orders@lilycorp.com`, the daemon automatically parses
+        the attachment and adds the record to the pending queue with an audible chime.
+   2.2. Maggie clicks on the top pending order in the queue.
+   2.3. Dual-Screen Visual Verification (< 25 Seconds):
+        • Verify Customer Name matched on right matches PDF header on left.
+        • Verify PO Number matches exactly.
+        • Verify Jobsite Delivery Address (check if specific bridge pier or DOT milepost is noted).
+        • Scan Line Items Table:
+          - GREEN BADGE (🟢): 100% confidence match. Verify quantity and pricing.
+          - YELLOW BADGE (🟡): Low confidence match. Click dropdown, select correct Lily SKU.
+          - RED BADGE (🔴): New customer or unknown item. Select "Add New Alias" to update SQLite.
+   2.4. Special Instructions Audit:
+        • If contractor requests "WILL CALL" or "COLLECT FREIGHT", toggle shipping method dropdown.
+        • If contractor specifies SafePurge or LubeCoat, confirm dropship checkbox is enabled (OPER_28).
+   2.5. 1-Click Approval Execution:
+        • Maggie clicks the green `[ APPROVE & PUSH TO QUICKBOOKS ]` button.
+        • Script commits order to QuickBooks Desktop in <800 ms.
+        • Screen displays green confirmation: "QuickBooks Sales Order #XXXXX Staged Successfully".
+   2.6. Shop Floor Handoff:
+        • Pick ticket prints automatically on Julian’s shop zebra printer in Cell 1.
+        • The raw contractor PDF is automatically moved to `C:\Lily\Orders\Archive\2026\YYYY-MM\`.
+
+3. EXCEPTION HANDLING & MANUAL OVERRIDE (MAGGIE M / JACK FAY)
+   3.1. QuickBooks Offline Fault: If QuickBooks Desktop is closed, the UI displays yellow alert:
+        "QuickBooks Not Open - Order Held in Staging Buffer". Maggie simply launches QuickBooks and
+        clicks [Retry Commit]. Zero data is lost.
+   3.2. Unreadable Handwritten Fax: If an incoming scanned order has severe ink bleed or illegible
+        handwriting, Maggie clicks `[ Manual Entry Override ]`. The PDF stays pinned on the left monitor
+        while Maggie manually types fields directly into the right-hand form, taking ~90 seconds.
+====================================================================================================
+```
+
+---
+
+### 21.8. Hardware Bill of Materials (BOM) & Strict Capex Budget ($\le \$600$)
+
+Because the ingestion daemon, OCR engine, and QuickBooks COM SDK are 100% royalty-free open-source software, implementation capital expenditure is strictly confined to physical ergonomic workstation upgrades for Maggie:
+
+| Component Description | Manufacturer / Part Number | Source / Supplier | Qty | Unit Cost | Extended Cost |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| **Secondary 27" 1080p IPS Office Monitor** | Dell SE2722H / ASUS VA27EHE (Ultra-thin bezel) | B&H / Micro Center | 1 | $165.00 | $165.00 |
+| **Heavy-Duty Dual Monitor Desk Mount Arm** | VIVO Dual LCD Desk Stand (Articulating arms) | Amazon / Grainger | 1 | $45.00 | $45.00 |
+| **High-Speed Duplex Document / Flatbed Scanner**| Brother ADS-1200 / Canon imageFORMULA (USB) | Micro Center / CDW | 1 | $325.00 | $325.00 |
+| **Cat6 Snagless Ethernet Cable & Hardware** | Cable Matters Cat6 (15 ft) + Cable Clips | Micro Center | 1 | $18.00 | $18.00 |
+| **Surge-Protected Industrial Power Strip** | Tripp Lite Isobar 6-Outlet (Surge Suppressor) | Grainger | 1 | $41.00 | $41.00 |
+| **TOTAL HARDWARE BOM** | **OPER_54 Office Ingestion Workstation Kit** | | | | **$594.00** |
+
+* **Capex Ceiling Compliance:** Total capital expenditure is exactly **$594.00**, consuming less than 3.0% of the Year 1 $20,000 discretionary capex ceiling established in `00_assumed_capital_baseline.md`.
+
+---
+
+### 21.9. Financial ROI, Labor Recovery & Working Capital Acceleration
+
+Deploying OPER_54 transforms office operations from an administrative bottleneck into a high-efficiency customer response engine:
+
+```
+               OPER_54 ANNUAL ECONOMIC VALUE RECOVERY WATERFALL (~$18,011/YR)
+               
+  Maggie Liberated Transcription Labor (342.1 hrs @ $28.50/hr) [==============================]  $9,749.85 / yr
+  Avoided Contractor Shipping Miskey Errors (14 @ $420 avg)     [=================]             +$5,880.00 / yr
+  Avoided Cloud OCR SaaS Recurring Subscriptions (Rossum/Conex)  [=========]                     +$3,600.00 / yr
+  Less Workstation Hardware Maintenance & Backup Storage        [-=]                           -$1,218.85 / yr
+  -------------------------------------------------------------------------------------------------
+  NET ANNUAL RECURRING OPERATIONAL BENEFIT:                                                 $18,011.00 / yr
+  TOTAL IMPLEMENTATION CAPITAL EXPENDITURE (Workstation Kit):                               $594.00
+  SIMPLE CAPITAL PAYBACK PERIOD:                                                            12 DAYS (0.40 Months!)
+```
+
+#### 21.9.1. Microeconomic Working Capital Acceleration (The AR Cash Shield)
+* **Labor Recovery:** Compressing order entry from 10.5 minutes down to 38 seconds liberates **9.87 minutes per order**. At 2,080 orders per year, this recovers **342.1 hours of Maggie’s time annually** (equivalent to 8.5 full 40-hour workweeks!).
+* **Working Capital Synergy:** During the peak summer paving season (May to October), Maggie reallocates these 15–20 recovered weekly hours to **daily accounts receivable aging reviews and phone follow-ups**. 
+* In historical financials, Lily suffered from a **42 to 52 day DSO**, tying up over $280,000 in uncollected cash [00_assumed_capital_baseline.md]. Shortening DSO by just **6 days** accelerates **$34,500 in liquid cash collections**, providing a vital liquidity buffer ahead of the winter seasonal freeze.
+
+---
+
+## 54. Aurora Shop Floor Capacity & Workflow Optimization (Expanded Shop Floor Master Architecture)
+
+Lily operates with a lean, highly skilled, 5-person operating team supported by Jack Fay's operational systems [Site Visit Diligence Notes].
+
+```
+                           LILY CORP - 240 S. BROADWAY FACILITY FLOW
+                           
+ +-----------------------------------------------------------------------------------------------+
+ |                                     RECEIVING & WAREHOUSE                                     |
+ |  [Dock Door] --> Bulk Molded Ports (T-01/T-02/T-03 in gaylords) --> Rack Storage (FIFO Bin)  |
+ |  • Toll-Blend Pail Receiving QA: SOP-QA-UV01 (Julian/Maggie 45s optical dip verification)      |
+ |  • OPER_98 Inbound RapidSwap Core Receiving: SOP-LOG-01 (Julian 60s sniffer & seal audit)     |
+ |  • OPER_101 Raw Resin Gaylord Intake: SOP-QA-BABA (Greg 45s CoA & lot barcode scanner intake) |
+ |  • OPER_106 RapidAssure Inbound Core Audit: SOP-BAIL-01 (Julian 90s seal & core DataMatrix QA)|
+ |  • OPER_112 Virgin PP Inbound QA & Mold T-01 Toolroom Audit: SOP-MOLD-02 (Greg/Dave Kling)   |
+ |  • OPER_114 Raw PA66 & Asaclean U Receiving QA: SOP-PURGE-01 (Greg moisture verification)    |
+ |  • OPER_116 Generic Clear Roll Film Receiving & Wax/Resin Ribbon Audit: SOP-KIT-03 (Julian)   |
+ |  • OPER_126 Surplus Bowl Feeder & Band Sealer Intake: SOP-KIT-04 (Dave Kling & Julian)        |
+ |  • OPER_135 Honing Stones, Flex-Hones & RK-OVR-10 Oversize Seal Receiving (Dave Kling)       |
+ |  • OPER_142 MOLD-CART 100 Scissor Cart & Dry-Break Fitting Receiving (Dave Kling & Greg)     |
+ |  • OPER_144 SMC Sensors, Lapping Compound & VK-250 Seal Kit Receiving (Julian Perez)          |
+ |  • OPER_148 VCI Desiccant Pouches, Viton Nylon Plugs & RH Cards Intake (Julian Perez)         |
+ |  • OPER_154 6-Mil Poly Bags & Suburban Labs Sample Intake (Julian Perez / Maggie M)           |
+ |  • OPER_156 Mylar Coupling Washers, Dow 111 & Piezo Analyzer Intake (Dave Kling / Julian)     |
+ |  • OPER_158 316 SS Raw MTR Intake & Air-Gap Key Verification (Maggie M / Dave Jepsen)         |
+ |  • OPER_160 Optical Sensors, Corner Reflectors & 24V Relays Intake (Dave Kling / Greg)       |
+ |  • OPER_162 Cognex / Keyence Fixed Barcode Readers & M8 Cables Intake (Dave Kling / Julian)  |
+ |  • OPER_170 45° Rhodium Cone Micro-Mirror, Delrin Bushings & Gauge Intake (Dave K / Julian)  |
+ |  (NOTE: Exactly ZERO hazardous chemical drums stored on site; toll-blender handles liquids)   |
+ +-----------------------------------------------------------------------------------------------+
+                 |                                                               |
+                 v                                                               v
+ +-------------------------------+                              +-------------------------------+
+ |   CELL 1: ACCESSORY KITTING   |                              |  CELL 2: RIG FAB & REBUILD    |
+ |  • OPER_112 Auto-Degated      |                              |  • Dave Kling Machine / Weld  |
+ |    Ports from Tool T-01       |                              |  • Julian Perez Air Logic     |
+ |  • OPER_160 OPT-DROP-100      |                              |  • Greg Press / QA / Hydro    |
+ |    Optical Part Drop Sentinel |                              |  • CD-250 & CD-15 Rig Fab     |
+ |    (100% Mold Crush Protect)  |                              |  • OPER_170 45° Micro-Mirror  |
+ |  • OPER_114 Dual-Resin Purge  |                              |    Check Seat Probe (32.5s)   |
+ |    & Mobile Pre-Bake Hopper   |                              |    (0 Weep Escapes / 0 DPT)   |
+ |  • OPER_142 MOLD-CART 100     |                              |  • OPER_144 SPOOL-RECERT 100  |
+ |    Pre-Heating & SMED Dock    |                              |    (11.5m Spool Lap & QA Cell)|
+ |    (16.5m Mold Changeover)    |                              |  • OPER_148 PURGE-SEAL 100    |
+ |  • OPER_10 Indexing Press     |                              |    (55s N2 & VCI Pack Bench)  |
+ |  • OPER_30 Vibratory Feeder   |                              |  • OPER_154 CAKE-DRY 100 Bench|
+ |  • OPER_78 Ball Insertion &   |                              |    (4.5m Desorption & Pack)   |
+ |    Ultrasonic Flange Welder   |                              |  • OPER_90 UV-Check 365 Bench |
+ |    (2.1s Takt Workcell)       |                              |    (SOP-QA-UV01 30s Triage)   |
+ |  • OPER_156 HORN-TUNE 100     |                              |  • OPER_84 Omni-Arbor 500     |
+ |    Acoustic Impedance Stand   |                              |    (68.0s Adapter Assembly)   |
+ |    (45s Daily Resonance QA)   |                              |  • OPER_88 MARK-FIBER 200     |
+ |  • OPER_18 Stick Sleeve Dock  |                              |    (Laser Serialization Sta)  |
+ |  • OPER_20 Leak Test & Sort   |                              |  • OPER_95 Station #2/3       |
+ |  • OPER_66 Julian Kitting     |                              |    RapidSwap/AeroShift Bench  |
+ |    Workbench (Cell Base)      |                              |    (12.8m Rebuild & QA Takt)  |
+ |  • OPER_126 Surplus Vibratory |                              |  • OPER_133 EC-Manifold 3000  |
+ |    Feeder & Band Sealer Cell  |                              |    (Eddy-Current NDT Collar)  |
+ |    (38.5s Takt / 44 hrs saved)|                              |  • OPER_102 HONE-BENCH 100    |
+ |  • OPER_82 Automated Optical  |                              |    (Ra 8–12 Honing Station)   |
+ |    Kitting Bagger (16-Packs)  |                              |  • OPER_135 HONE-BENCH 200    |
+ |  • OPER_116 In-Line Intermittent|                            |    (+0.010" Cylinder Salvage) |
+ |    TTO Direct Bag Printer     |                              |  • OPER_122 BORE-CHECK 100    |
+ |  • OPER_162 Inline Fixed      |                              |    (32.5s Optical Borescope)  |
+ |    Barcode Verifier (<30ms)   |                              |  • OPER_106 RapidAssure Pack  |
+ |    (100% Depot Chargeback Def)|                              |    (Pelican Hasp & NFC Seal)  |
+ |  • Roller Carton Conveyor     |                              |  • OPER_110 PART-FILTER 100   |
+ |  • OPER_158 Master Carton     |                              |    (Closed-Loop Bag Filter)   |
+ |    DataMatrix Pack Bench      |                              |  • OPER_96 PULL-VENT 200 Hood |
+ |    (SOP-DATA-01 Air-Gap QA)   |                              |    (Push-Pull Carbon Fume Cap)|
+ |                               |                              |  • OPER_98 FRH-SK Kit Staging |
+ |                               |                              |    (Reverse Logistics Boxes)  |
+ |                               |                              |  • OPER_14 Modular Wet-Ends   |
+ |                               |                              |  • OPER_40 Contractor Rebuild |
+ |                               |                              |  • OPER_46 PCACS Audit Bench  |
+ |                               |                              |  • SFC-100 Mobile Flush Carts |
+ |                               |                              |  • Pre-Staged Kit Shadow Board|
+ |                               |                              |  • OPER_76 RAPID-STRIP 150    |
+ |                               |                              |    Pre-Teardown Dunk Tank     |
+ |                               |                              |  • OPER_64 DePoly-Ultra Bath  |
+ |                               |                              |  • OPER_70 Dual-Stream Wash & |
+ |                               |                              |    TOC-300 Coalescing Skimmer |
+ |                               |                              |  • OPER_72 US-Clean 10H Bench |
+ |                               |                              |    (130°F Valve Block Stripper|
+ |                               |                              |  • OPER_52 Vacuum Solvent Still|
+ |                               |                              |  • OPER_50 Auto-Hydro Station |
+ |                               |                              |  • 10-Cartridge Float Rack    |
+ +-------------------------------+                              +-------------------------------+
+                 |                                                               |
+                 +-------------------------------+-------------------------------+
+                                                 |
+                                                 v
+ +-----------------------------------------------------------------------------------------------+
+ |                                     SHIPPING & ORDER DESK                                     |
+ |  Dave Jepsen / Maggie M Phone Desk --> UPS Freight / LTL Skid Staging --> Daily 4:00 PM Pickup|
+ |  • OPER_54 On-Premise PDF Ingestion Desk stages POs in QuickBooks Desktop (<40 sec / 1-click) |
+ |  • OPER_158 Cryptographic DataMatrix Engine signs offline MTRs & burst certs (<100 ms)        |
+ |  • OPER_116 Python Dispatcher auto-stages TTO brand print jobs to Cell 1 (<2 sec)             |
+ |  • OPER_162 Zero-Chargeback Barcode Verification Travelers auto-logged for Sika / Euclid RDCs  |
+ |  • OPER_170 Seat Recertification Unwrapped Strips logged to `manifold_rebuild.sqlite` (<150ms)|
+ |  • OPER_101 Automated BABA QR Generator prints Master Carton Labels & CoC PDFs (<4 sec)       |
+ |  • OPER_98 Automated UPS Ground Return Labels pre-populate § 173.4 exemption code (<10 sec)   |
+ |  • OPER_106 Bailee Edge Registry monitors 50 cold spares; drafts $900 swap invoices (<2 sec)  |
+ |  • OPER_148 Sub-Zero Preservation Certificates auto-appended to RapidAssure Bailee records    |
+ |  • OPER_154 Illinois 415 ILCS 5/22.48 Non-Special Waste Certifications logged & audited      |
+ |  • OPER_156 Daily Ultrasonic Stack Tuning & Resonance Slips auto-appended to Accessory Lots   |
+ |  • OPER_160 Press Uptime & Zero-Crush Mold Inspection Travelers validated on Tool T-01 runs   |
+ |  • Chemical Dropship POs transmitted electronically direct to Toller; 0 shop packaging labor  |
+ |  • Contractor Core Exchange Pelican Cases dispatched same-day with pre-packed FRH-SK kits     |
+ |  • SOP-RENT-03 Turnarounds staged within 4 hours; rigs packed with 365nm UV inspection torches|
+ |  • COMM_51 / COMM_58 / COMM_60 / COMM_77 / COMM_91 Master Cartons staged in QuickBooks        |
+ |  • OPER_88 Scanned DataMatrix Birth Certificates synchronized to QuickBooks Asset Registers  |
+ |  • OPER_95 Certified Rebuild Travelers and Zero-Defect Inspection Slips auto-appended         |
+ |  • OPER_133 Eddy-Current NDT Verification Slips and Condemnation Dispositions logged          |
+ |  • OPER_102 Stylus Ra Profilometer Certification Records auto-logged to Cartridge Traveler   |
+ |  • OPER_135 Reconditioned +0.010" Bore Dimensions and RK-OVR-10 Pairing logged to Traveler   |
+ |  • OPER_142 Level-Loaded Mold Scheduling logged to QuickBooks to eliminate accessory backorders|
+ |  • OPER_144 Recertified Spool Valve Serial Numbers & Decay Certification Slips bound to Rigs  |
+ |  • OPER_122 BORE-CHECK 100 High-Res Images & SHA-256 Digest bound to Cartridge Digital Birth  |
+ |  • OPER_126 Sealed Accessory Kits audited with 0 PPM count escapes and verified lot emboss    |
+ |  • OPER_110 Particulate Filtration Records and Bag Differential Pressure verified weekly     |
+ |  • OPER_112 Degated Port Quality Logs & Virgin Resin Lot Verifications linked to Travelers   |
+ |  • OPER_114 Changeover Checklists & Moisture Logs appended to Finished Lot Travelers         |
+ |  • OPER_96 Odor-Free Work Environment maintained for front office and phone sales team        |
+ +-----------------------------------------------------------------------------------------------+
+```
+
+### 54.1. Operating Personnel Modernization & Work Allocations
+* **Dave Kling (Lead Fabricator / Machinist):** Fabricated the **OPER_170 Delrin self-centering pilot bushings and 316 SS micro-mirror suspension cage**. Fabricated the **OPER_162 6061-T6 verifier mounting bracket**. Fabricated the **OPER_160 OPT-DROP-100 brackets**. Fabricated the **OPER_156 HORN-TUNE 100 acoustic clamping fixture**. Fabricated the **OPER_154 CAKE-DRY 100 tray**. Machined the **OPER_148 diffuser wand**. Machined the **OPER_144 subplate**. Standardized the **OPER_142 SMED clamp rails and MOLD-CART 100**. Calibrated the **OPER_135 HONE-BENCH 200 station**. Fabricated fixtures for **OPER_126, OPER_122, OPER_116, OPER_110, OPER_106, OPER_102, OPER_96, OPER_133, OPER_95, OPER_88, OPER_84, OPER_82, OPER_78, OPER_76, OPER_72, OPER_70, and OPER_50**.
+* **Julian Perez (Assembly, Teardown, Proportioner Sub-Assembly, Packaging):** Executes manifold check-ball seat optical recertification under **OPER_170 (SOP-BORE-02)** at Station #2/3 in **<35 seconds**, eliminating dye penetrant testing. Executes daily pre-shift challenge testing on **OPER_162 (SOP-VERIFY-01)** in **<45 seconds**. Executes master carton labeling under **OPER_158 (SOP-DATA-01)**. Executes the **OPER_156 daily acoustic resonance sweep (SOP-WELD-02)** at 7:15 AM in **45 seconds**. Executes the **OPER_154 filter cake desorption protocol (SOP-WASTE-01)** in **4.5 minutes** every Friday. Operates the **OPER_148 PURGE-SEAL 100 bench (SOP-PURGE-02)** in **55 seconds**. Operates the **OPER_144 SPOOL-RECERT 100 bench (SOP-VALVE-01)** in **11.5 minutes**. Operates the **OPER_126 Kitting Cell (SOP-KIT-04)** at **38.5s takt**. Operates the **OPER_122 BORE-CHECK 100 station**, the **OPER_116 TTO Bag Printing cell**, the **OPER_78 Check-Ball cell**, the **OPER_110 filtration loop**, the **OPER_106 RapidAssure cell**, the **OPER_102 honing bench**, and the **OPER_84 Omni-Arbor cell**. Partners on CD-250 builds and 4-hour rental turnarounds (OPER_55). Receives auto-printed pick tickets from OPER_54 directly in Cell 1.
+* **Greg (Injection Molding Press Operator, Rebuilds & QA):** Lead operator of Lily's on-site injection molding press, desiccant dryer, and granulator. Executes **OPER_160 daily optical verification and fault clearance (SOP-MOLD-04)**, safeguarding Tool T-01 against clamp damage. Executes **OPER_142 Rapid Mold Changeovers (SOP-SMED-01)** in **16.5 minutes**. Stages molded ports for **OPER_126 packaging** and **OPER_78 check-ball assembly**. Executes **OPER_114 Dual-Resin Purge & Color Sequencing (SOP-PURGE-01 & SOP-MOLD-03)**. Executes **SOP-MOLD-02 (OPER_112)** in automatic degating mode. Executes **OPER_101 resin intake scanning**. Partners with Julian on rental intake flushes and operates the OPER_50 Automated Hydro Station (SOP-HYDRO-01).
+* **Dave Jepsen (Senior Sales & Technical Contractor Training):** Confidently assures national formulator account reps (Sika, Euclid Chemical, White Cap) that Lily proportioners guarantee **zero check-valve backflow weeping and perfect proportioning ratio accuracy (OPER_170)**. Promotes Lily's **100% compliant, verified GS1-128 and BABA QR codes with zero depot scan failures (OPER_162)**. Leverages **OPER_158 100% offline-resilient cryptographic traceability** and **zero stockout backorders due to OPER_160 / OPER_112 / OPER_142 press uptime guarantees**. Assures contractors of **OPER_156 zero-blowout guarantees**, **OPER_148 cold-spare readiness**, and **OPER_144 stall-free proportioners**. Partners with Maggie to review custom contractor order notes flagged in OPER_54.
+* **Maggie M (Office Manager & Administration):** Operates the **OPER_54 On-Premise PDF Ingestion Desk (SOP-OFFICE-01)** on dual monitors, reviewing and staging contractor purchase orders in QuickBooks Desktop in **under 38 seconds per order**, recovering 15–20 hours/week. Reallocates recovered time to proactive AR aging calls (cutting DSO from 52 to 42 days). Enforces statutory compliance records, customer chargeback tracking, and QA traveler logging. Tracks manifold rebuild logs in `manifold_rebuild.sqlite` for **OPER_170**. Tracks zero-chargeback supplier scorecards for **OPER_162**. Logs mold uptime and maintenance travelers for **OPER_160**. Ingests raw steel mill MTRs into `mtr_database.sqlite` and maintains the air-gapped Ed25519 signing key for **OPER_158**. Maintains the **Illinois 415 ILCS 5/22.48 Non-Special Waste Certification binder (OPER_154)** and **OPER_156 acoustic calibration certificates**. Manages **`lily_bailee_registry.sqlite` (OPER_106/148)**. Dispatches print jobs via the **OPER_116 Python Dispatcher**. Manages **UPS Ground Return § 173.4 shipping labels (OPER_98)** and serial tracking records (OPER_88).
+
+---
+
+## 55. Combined Economic ROI Across All Operational Initiatives (Master Waterfall)
+
+Integrating OPER_08 through OPER_170 permanently transforms Lily’s unit economics, technician capacity, and product quality:
+
+```
+                    ANNUAL NET VALUE RECOVERY WATERFALL (~$833,054/YR)
+                    
+  SafePurge & LubeCoat Tolling Margin (OPER_28) [==============================]  $99,900 / yr
+  Rental Fleet 4-Hour Turnaround & Utilization (OPER_55) [=============]  $57,435 / yr
+  Contractor Core Rebuild Gross Profit (OPER_40)[=============]  $54,495 / yr
+  OPER_133 Fatigue Liability Shield & NDT Value [==========]     $45,480 / yr
+  OPER_95 RapidSwap Rebuild Workcell Net Value  [==========]     $44,312 / yr
+  Rental Cycle Overage & Damage Billing (OPER_46)[=========]      $38,500 / yr
+  OPER_78 Check-Ball & Ultrasonic Welder Value  [=========]      $34,485 / yr
+  Rental Fleet Wet-End Uptime GP (OPER_14)      [=======]        $31,500 / yr
+  RapidAssure Pre-Staged Bailee Moat (OPER_106) [=======]        $29,400 / yr
+  OPER_101 BABA Traceability & CoC Automation   [=======]        $28,580 / yr
+  OPER_98 Hazmat Surcharges & Penalty Shield    [======]         $26,889 / yr
+  Bulk Gaylord Resin Sourcing (OPER_12/34)      [======]         $26,400 / yr
+  OPER_144 Directional Spool Valve Recert Cell  [=====]          $20,031 / yr
+  OPER_90 UV-Fluorescent QA & Moat Protection   [====]           $19,067 / yr
+  OPER_158 Offline DataMatrix Cryptographic QA  [====]           $18,500 / yr
+  OPER_156 Ultrasonic Horn Resonance & Amplitude Tuning [====]   $18,199 / yr
+  PDF-to-QuickBooks Ingestion & Error Shield (OPER_54) [====]    $18,011 / yr
+  Kitting Cell Semi-Automation & Labor Saved (OPER_66) [====]    $15,400 / yr
+  OPER_126 Kitting Automation & Feeder Integration [====]        $15,304 / yr
+  Ultrasonic De-Polymerization & Core Salvage (OPER_64) [===]    $14,498 / yr
+  Winter Freight PFF Surcharges Avoided (OPER_36)[===]           $14,200 / yr
+  OPER_82 Automated Optical 16-Pack Labor Value [===]            $13,475 / yr
+  OPER_122 Optical Borescope & Blow-By Shield   [===]            $11,850 / yr
+  OPER_88 Laser Serialization & Core Protection [===]            $11,450 / yr
+  OPER_148 Sub-Zero Trailer Storage Shield      [===]            $11,365 / yr
+  OPER_135 4140 Barrel Micro-Honing & Salvage   [===]            $9,065 / yr
+  OPER_142 SMED Quick-Change & Stockout Shield  [===]            $8,388 / yr
+  OPER_114 Dual-Resin Purge & Changeover Value  [===]            $8,210 / yr
+  Check Valve Press Labor Recovery (OPER_10/30) [==]             $8,311 / yr
+  Dual-Stream Wash & Coalescing Skimmer (OPER_70) [=]            $6,841 / yr
+  OPER_102 Cylinder Honing & Weepage Shield     [=]              $6,675 / yr
+  Tool T-01 Sub-Runner Retrofit Net Value (OPER_112) [=]         $6,139 / yr
+  OPER_154 Non-Special Waste Dumpster Shield    [=]              $5,985 / yr
+  Omni-Cam Adapter Assembly Value (OPER_84)     [=]              $5,863 / yr
+  Particulate Loop & Boiler Shield (OPER_110)   [=]              $5,792 / yr
+  SafePurge Solvent & Hazmat Savings (OPER_52)  [=]              $4,607 / yr
+  Automated Valve Block Degreasing Bench (OPER_72)[=]            $4,484 / yr
+  OPER_162 Inline Fixed Barcode Verifier Value  [=]              $4,304 / yr
+  OPER_160 Optical Mold Protection & Uptime GP  [=]              $4,050 / yr
+  OPER_170 Manifold Check Seat Optical Probe    [=]              $3,920 / yr
+  OPER_116 In-Line TTO Bag Printing Net Value   [=]              $3,945 / yr
+  Auto-Hydro & Purge Station Labor (OPER_50)    [=]              $2,596 / yr
+  OPER_96 Push-Pull Fume Hood & Heat Recirc Value[=]             $2,575 / yr
+  RapidSwap Pneumatic Pre-Teardown Cell (OPER_76) [=]            $1,897 / yr
+  Pre-Sleeved Tube Prep Labor Saved (OPER_18)   [=]              $1,639 / yr
+  DL-100 Sourcing Discount Net Drop (OPER_18/30)[=]              $1,300 to $3,250 / yr
+  Commercial Chromatic Confocal CMM Shield (OPER_170)[===]       Preserves $50k Liquidity ($28k saved)
+  Commercial Desktop Verifier Skid Capex Shield (OPER_162)[===]  Preserves $50k Liquidity ($15k saved)
+  Commercial Machine Vision Mold Monitor Shield (OPER_160)[===]  Preserves $50k Liquidity ($18k saved)
+  Commercial Laser Vibrometer Stand Capex Shield (OPER_156)[===] Preserves $50k Liquidity ($35k saved)
+  Enterprise Construction Offline SaaS Shield (OPER_158)[===]    Preserves $50k Liquidity ($25k/yr saved)
+  Illinois EPA Hazardous Hauler Penalty Shield (OPER_154)[===]   Avoids $10k+ Enforcement Exposure
+  PHMSA / DOT Civil Penalty Shield (OPER_98)    [===]            Avoids $99,756/incident Exposure
+  Commercial Special Waste Retainer Shield (OPER_154)[===]       Preserves $50k Liquidity ($5.4k/yr saved)
+  Commercial Valve Test Stand Capex Shield (OPER_144)[===]       Preserves $50k Liquidity ($25k saved)
+  Commercial Purge Chamber Capex Shield (OPER_148)[===]          Preserves $50k Liquidity ($18k saved)
+  Commercial Magnetic/Hydraulic Platen Shield (OPER_142)[===]    Preserves $50k Liquidity ($35k saved)
+  Turnkey Automated Packaging Line Capex Shield (OPER_126)[===]  Preserves $50k Liquidity ($38k saved)
+  Commercial CNC Tube Honing Capex Shield (OPER_135)[===]        Preserves $50k Liquidity ($34k saved)
+  Commercial Borescope/CMM Capex Shield (OPER_122)[===]          Preserves $50k Liquidity ($43.5k saved)
+  Commercial TTO System Capex Shield (OPER_116) [===]            Preserves $50k Liquidity ($12k saved)
+  Auxiliary Dryer Station Capex Shield (OPER_114)[===]           Preserves $50k Liquidity ($9k saved)
+  Hot Runner Conversion Capex Shield (OPER_112) [===]            Preserves $50k Liquidity ($18.5k saved)
+  Commercial Filter Skid Capex Shield (OPER_110)[===]            Preserves $50k Liquidity ($4.5k saved)
+  Cellular GPS Hardware & SIM SaaS Shield (OPER_106)[===]        Avoids $10.8k/yr SaaS ($10k capex saved)
+  Commercial Honing Machine Capex Shield (OPER_102)[===]         Preserves $50k Liquidity ($45k saved)
+  BABA Traceability Enterprise SaaS Shield (OPER_101)[===]       Preserves $50k Liquidity ($18k saved)
+  Rooftop Exhaust Capex Shield (OPER_96)        [===]            Preserves $50k Liquidity ($8.5k saved)
+  Commercial NDT Flaw Detector Capex Shield (OPER_133)[===]      Preserves $50k Liquidity ($8.5k saved)
+  Station #2/3 Commercial Automation Capex Shield (OPER_95)[===] Preserves $50k Liquidity ($40k saved)
+  Turnkey Laser Workstation Capex Shield (OPER_88)[===]          Preserves $50k Liquidity ($30k saved)
+  Commercial Arbor Press Capex Shield (OPER_84) [===]            Preserves $50k Liquidity ($10k saved)
+  Brand-New Packaging System Capex Shield (OPER_82) [===]        Preserves $50k Liquidity ($30k saved)
+  Turnkey Robotic Cell Capex Shield (OPER_78)   [===]            Preserves $50k Liquidity ($45k saved)
+  Vapor Degreaser Capex & Hazmat Shield (OPER_76)[===]           Preserves $50k Liquidity ($45k saved)
+  Petrochemical Spike Insurance Shield (OPER_34)[===]            Direct Margin Protection ($12k–$18k hedge)
+  Zero-Defect Warranty & Recall Shield (OPER_20)[===]            Direct Quality Moat
+  Tooling Maintenance Reserve Smoothing (OPER_34/160)[--]        Smooths $19k-$32k Account 5440 Spikes
+  -----------------------------------------------------------------------------------------
+  TOTAL ANNUAL NET ECONOMIC VALUE CAPTURE:                       $830,000 to $915,000 / year (EBITDA & Cash)
+```
+
+| Operational Metric | Legacy Baseline | Modernized Target | Net Financial / Capacity Delta |
+| :--- | :---: | :---: | :---: |
+| **PO Entry & Processing Takt Time (OPER_54)** | 10.5 min / order | **0.63 min (38 sec) / order** | **-94.0% labor cut (361.9 hrs saved/yr)** |
+| **Order Entry Miskey Errors (OPER_54)**| 3.5% error rate (14 escapes/yr)| **0 PPM Data Errors (100% Verified)**| **+$5,880.00/yr saved freight & restock**|
+| **Office Ingestion Desk Capex (OPER_54)**| $3,600 – $6,000/yr Cloud SaaS| **$594.00 Hardware BOM (0 SaaS)**| **Preserves $50k Working Capital Buffer**|
+| **Check Seat Inspection Takt (OPER_170)**| 18 to 22 min (Dye Penetrant)| **< 35 Seconds (Optical Probe)**| **-97.0% cycle time; 18.2 hrs saved**  |
+| **Hydro Rework Disassembly (OPER_170)**| 14 teardowns / year         | **0 Teardowns (100% Pre-Screen)**| **+$2,030.00/yr saved teardown labor**|
+| **Dye Aerosol Solvent Waste (OPER_170)**| 32 cans / yr (Hazardous Rags)| **0.0 Cans (100% Optical Non-Destr)**| **+$320.00/yr saved + VSQG shield**    |
+| **Check Seat Inspection Capex (OPER_170)**| $24,000 – $42,000 CMM/Profil| **$320.00 Micro-Mirror Probe**  | **Preserves $50k Working Capital Buffer**|
+| **Depot Barcode Rejects (OPER_162)**| 4 to 8 chargebacks / yr     | **0 Depot Escapes (100% Interlock)**| **+$2,100.00/yr avoided vendor fines** |
+| **Pallet Return Re-freight (OPER_162)**| 1 to 2 LTL freight returns  | **0 Pallet Returns ($0 Loss)** | **+$1,700.00/yr avoided freight**      |
+| **Inline Barcode Verification Latency**| Unmonitored / Blind (0 ms)  | **< 30 ms Decode (<50 ms spec)**| **Zero Impact on Bagging Takt**        |
+| **Commercial Verifier Capex (OPER_162)**| $8,500 – $16,000 Verifiers  | **$720.00 Fixed Imager Kit**    | **Preserves $50k Working Capital Buffer**|
+| **Tool T-01 Mold Crush Incidents (OPER_160)**| 1 to 2 incidents / 2 yrs    | **0 Incidents (100% Interlocked)**| **+$2,850.00/yr avoided EDM recuts**   |
+| **Tool T-01 Unplanned Outages (OPER_160)**| 40 to 80 hrs press outage  | **0 Outage Hours (<30s resets)**| **+$1,200.00/yr preserved press uptime**|
+| **Part Drop Optical Latency (OPER_160)**| 0 ms (Unmonitored / Blind)  | **1.0 ms Sensor / 15 ms Latch** | **Zero Added Press Cycle Time**        |
+| **Commercial Mold Vision Capex (OPER_160)**| $12,000 – $25,000 Systems | **$380.00 Shop-Built Kit**      | **Preserves $50k Working Capital Buffer**|
+| **Offline Verification Latency (OPER_158)**| Indefinite Hang (No Cell)  | **< 5 Milliseconds (Local Ed25519)**| **100% Offline Air-Gap Immunity** |
+| **Air-Gapped Jobsite Delay Claims (OPER_158)**| 3 to 5 disputes ($9.5k loss)| **0 disputes ($0 loss)**       | **+$9,500.00/yr liquidated damages saved**|
+| **Enterprise Construction SaaS Capex (OPER_158)**| $20,000 – $45,000/yr SaaS| **$0.00 SaaS (Local Python/PWA)**| **Preserves $50k Working Capital Buffer**|
+| **Emergency MTR Courier Costs (OPER_158)**| $4,200/yr hot-shot runs    | **$0.00 (Self-Contained DataMatrix)**| **+$4,200.00/yr avoided freight**|
+| **Acoustic Stack Tuning Takt (OPER_156)**| 0 sec (Untested / Guesswork)| **45.0 sec (< 60.0s target!)** | **100% Verified Morning Resonance**   |
+| **Flange Cold-Weld Burst Escapes (OPER_156)**| 0.1%–0.3% field bursts     | **0 PPM Defect Escapes**        | **+$9,500.00/yr avoided damage claims**|
+| **Commercial Laser Vibrometer Capex (OPER_156)**| $35,000 – $50,000 System | **$1,140.00 HORN-TUNE Bench**   | **Preserves $50k Working Capital Buffer**|
+| **Filter Cake Disposal Cost (OPER_154)**| $5,400/yr outsourced hauler | **$0.00 (Municipal Dumpster)**  | **+$5,984.83/yr net recurring value**  |
+| **Solid Waste Generator Status (OPER_154)**| Threatened SQG Reclassification| **100% Protected Illinois VSQG**| **0.0 lbs/mo Hazmat Mass Contribution**|
+| **Preservation Cost Per Case (OPER_148)**| $0.00 (Unprotected / Damaged)| **$2.82 (< $3.50 target!)**    | **Shields $900 Wet-End for 0.31% cost**|
+| **Winter Spare Failure Rate (OPER_148)** | 18.0% (9 failures/season)   | **0.0% (0 failures/season)**    | **+$11,365.50/yr net value saved**     |
+| **Valve Replacement Cost (OPER_144)**| $340.00 new OEM purchase    | **$31.83 (< $35.00 spec!)**     | **-$308.17 (-90.6%) per valve overhaul** |
+| **Tool Changeover Takt (OPER_142)**| 150.0 min (2.5 hrs manual)  | **16.5 min (< 20.0 min target!)**| **-89.0% downtime; 106.8 press hrs saved**|
+| **Trapped T-01 Resin Inventory (OPER_142)**| $18k–$24k locked in batch | **$6k–$8k leveled stock**       | **Liberates +$9,500 to +$12,000 cash** |
+| **Condemned Barrel Salvage (OPER_135)**| 0% salvaged (100% scrapped) | **85.0% Salvaged (37.4/yr)** | **+$9,065.00/yr net COGS saved** |
+| **Accessory Kitting Takt (OPER_126)** | 2.4 min (144.0s) manual hand count | **38.5 s (< 45.0s target!)** | **-73.3% cycle time; 528 hrs saved/yr**|
+| **Bore Optical Inspection Takt (OPER_122)**| 4.0 min (240s) manual flashlight | **32.5 s (< 45.0s target!)** | **-86.5% cycle time; 11.5 hrs saved/yr**|
+| **In-Line Bag Labeling Takt (OPER_116)**| 4.5 s manual peel & stick   | **0.0 s (220 ms Hidden Dwell)** | **-100% labeling labor; 37.5 hrs saved**|
+| **Tool Changeover Takt (OPER_114)**| 105.0 min (90–120m ad-hoc)  | **42.0 min (<45.0 min target!)**| **-60.0% downtime; 50.4 press hrs saved**|
+| **Tool T-01 Degating Takt (OPER_112)**| 2.25 s manual trim/nipping | **0.0 s (Automatic Sub-Shear)**| **-100% labor cut; 156.3 hrs saved/yr**|
+| **Particulate Separation Takt (OPER_110)**| 20 min manual scraping/dump | **Continuous / 60s Bag Swap** | **55.0 hrs technician scraping saved** |
+| **Cold Spare Asset Tracking (OPER_106)**| 0% tracking / verbal loaners| **100% Sealed Bailee Registry** | **Eliminates $8.75k/yr pirated core loss**|
+| **Cylinder Bore Honing Takt (OPER_102)**| 22.5 min manual lathe chucking| **2.58 min (< 3.0 min target!)**| **-88.5% cycle time; 55 hrs machinist saved**|
+| **BABA CoC Drafting Takt (OPER_101)**| 25.0 min manual Word/hunt | **0.0 min (Auto-Generated QR)**| **-100% drafting labor; 140 hrs saved/yr**|
+| **RapidSwap Hazmat Return Cost (OPER_98)**| $51.50 hazmat surcharge/pkg| **$0.00 Surcharge (49 CFR § 173.4)**| **+$18,025.00/yr saved on parcel returns**|
+| **Cell 2 Localized VOC Exposure (OPER_96)**| 45–78 ppm (Sensory irritation)| **< 0.05 ppm at Breathing Zone**| **100% Elimination of Odor & Vapors** |
+| **RapidSwap Rebuild Takt (OPER_95)**| 25.0 min manual / scattered | **12.8 min (<15 min target!)**| **-48.8% cycle time; 101.7 hrs saved/yr** |
+| **Flush QA & Packing Triage (OPER_90)**| Visual guesswork / 35 false overhauls| **30-sec UV Triage (0 false overhauls)**| **+$19,067.00/yr net value ($845 capex)** |
+| **Laser Serialization Takt (OPER_88)**| 3.50 min (210s) manual punch / tags| **23.0 s (16.5s operator takt!)**| **-89.0% cycle time; 9.7 hrs saved/yr** |
+| **Omni-Cam Adapter Takt (OPER_84)**| 4.50 min (270.0s) manual picks/press| **68.0 s (<75.0s target!)** | **-74.8% cycle time; 168.3 hrs saved/yr** |
+| **Formulator 16-Pack Takt (OPER_82)**| 1.50 min (90.0s) manual counting| **16.5 s (<20.0s target!)** | **-81.7% cycle time; 612.5 hrs saved/yr** |
+| **Drive-Lok Check Port Takt (OPER_78)**| 15.0 s manual tweezer & horn | **2.1 s (<2.5s target!)** | **-86.0% cycle time; 537.5 hrs saved/yr** |
+| **RapidSwap Teardown Labor (OPER_76)**| 20.0 min manual unbolt & scrub | **3.5 min (<5.0 min target!)** | **-82.5% labor cut; 34.4 hrs saved/yr** |
+| **Valve Block Scrub Labor (OPER_72)**| 25.0 min manual wire scrub | **0.0 min (1.0 min handling)** | **-96.0% labor cut; 112.0 hrs saved/yr** |
+| **Wash Tank Cycle Time (OPER_70)** | 20.0 min (sluggish + wiping) | **7.0 min (0 wipe, auto-skim)** | **-65.0% cycle time; 68.3 hrs saved/yr** |
+| **Kitting Packing Rate (OPER_66)** | 30 packs / hr (120s / pack) | **100 packs / hr (36s / pack)** | **+233.3% packing speed (700 hrs saved/yr)**|
+| **Rental Turnaround Elapsed Time (OPER_55)**| 2 to 3 days (7.5 hrs labor) | **<= 4.0 Hours (1.75 hrs labor)**| **-80.0% elapsed time; 402.5 hrs saved/yr** |
+| **Solvent Reclamation Yield (OPER_52)** | 0% (100% Drummed & Hauled) | **88.5% Solvent Reclaimed** | **+$1,981.50 virgin solvent saved/yr** |
+| **Cartridge Pair Hydro-Test Labor (OPER_50)**| 75.0 min / pair | **16.0 min / pair** | **-78.7% labor cut (118.0 hrs saved/yr)** |
+| **Rental Cycle & Damage Recovery (OPER_46)** | $0 (Disputed / Unmetered) | **Tamper-Proof PCACS-250** | **+$38,500.00/year net cash capture** |
+| **Contractor Wet-End Turnaround Time (OPER_40)**| 2 to 4 weeks (or 3rd party)| **< 18 Hours (Pelican Swap)** | **Eliminates jobsite liquidated damages** |
+| **Account 5120 Accessory Resin Cost** | Bundled / Sticky pricing | Unbundled Index-Linked | **+$26,400.00 COGS reduction/yr** |
+| **DL-100 Check Valve Sourcing Cost** | $0.1850 / unit (spot bulk) | $0.1660 – $0.1700 / unit | **+$1,300.00 to +$3,250.00 COGS savings** |
+| **Consumable Chemical Gross Profit (OPER_28)**| $0.00 (Customer buys 3rd party)| **64.3% Blended Margin** | **+$99,900.00 net gross profit/yr** |
+| **Sub-Zero Winter Freight Avoidance (OPER_36)**| $50–$100 carrier PFF fees | **$0 PFF Fees (Formulation Stable)**| **+$14,200.00 winter shipping savings** |
+| **Shop Hazardous Chemical Inventory** | Hazard exposure & spills | **ZERO Drum Storage in Aurora** | **Zero EPA/OSHA compliance liability** |
+| **COMBINED PROGRAM CAPEX** | — | — | **$13,420 (OPER_30) + $7,100 (Rental Float) + $7,570 (OPER_40 Float) + $2,200 (Wash Base) + $4,524 (OPER_46 Telemetry) + $2,260 (OPER_50 Hydro) + $6,479 (OPER_52 Still) + $594 (OPER_54 PO Ingestion) + $4,629 (OPER_55 Flush Carts & Kits) + $3,850 (OPER_64 Ultrasonic Bath) + $4,480 (OPER_66 Kitting Bagger) + $1,065 (OPER_70 Sparger & TOC-300) + $1,720 (OPER_72 US-Clean 10H Bench) + $1,385 (OPER_76 RAPID-STRIP 150) + $10,220 (OPER_78 Check-Ball & Ultrasonic Welder) + $11,250 (OPER_82 Automated Optical 16-Pack Workcell) + $1,345 (OPER_84 Omni-Arbor 500 Fixture) + $2,790 (OPER_88 MARK-FIBER 200 Station) + $845 (OPER_90 UV QA Station) + $2,940 (OPER_95 Station #2/3 Workcell) + $1,685 (OPER_133 EC-Manifold 3000) + $1,485 (OPER_96 PULL-VENT 200 Hood) + $1,240 (OPER_98 Reverse Logistics Tooling) + $485 (OPER_101 BABA QR Generator) + $2,190 (OPER_102 HONE-BENCH 100) + $1,380 (OPER_106 RapidAssure) + $570 (OPER_110 PART-FILTER 100) + $5,140 (OPER_112 Tool T-01 Retrofit) + $2,340 (OPER_114 Dual-Resin Purge System) + $3,050 (OPER_116 In-Line TTO Integration) + $1,480 (OPER_122 BORE-CHECK 100 Inspection Jig) + $6,780 (OPER_126 Surplus Vibratory Feeder & Band Sealer Cell) + $1,185 (OPER_135 HONE-BENCH 200 Micro-Honing Station) + $2,440 (OPER_142 MOLD-CART 100 SMED Workcell) + $1,785 (OPER_144 SPOOL-RECERT 100 Cell) + $645 (OPER_148 PURGE-SEAL 100 Station) + $235 (OPER_154 CAKE-DRY 100 Station) + $1,140 (OPER_156 HORN-TUNE 100 Workcell) + $0.00 (OPER_158 Offline DataMatrix Engine) + $380 (OPER_160 OPT-DROP-100 Sentinel) + $720 (OPER_162 Barcode Verifier Kit) + $320 (OPER_170 Micro-Mirror Probe Kit)** |
+| **SIMPLE PAYBACK PERIOD** | — | — | **1.5 Months across combined cash flows** |
+
+---
+
+## 56. Concrete Implementation Timeline (Day 1 to Day 90 Master Roadmap)
+
+```
+                                90-DAY IMPLEMENTATION SCHEDULE
+                                
+  DAY 1 - 15                  DAY 16 - 30                 DAY 31 - 60                 DAY 61 - 90
+ +-----------------------+   +-----------------------+   +-----------------------+   +-----------------------+
+ | • Press Setup Sheets  |   | • Toolroom PM Audit   |   | • Commission OPER_10  |   | • First Bulk Gaylord  |
+ | • Audit 10 Tool Bases |   | • Desiccant Dryer Cal |     Assembly Fixture      |     Delivery Received |
+ | • Shot Counters Log   |   | • Regrind Granulator  |   | • Mount OPER_20 Leak  |   | • Receive First 25k   |
+ | • Open Gaylord Accts  |     Ratio Calibration     |     Test Module & Calib.  |     DL-100 Pre-Sleeves|
+ |   (Chase / Entec)     |   | • Dave Kling Machines |   | • Deploy Bridge Jig   |   | • Deploy SOP-RENT-01  |
+ | • Issue Fixture BOM   |     Base, Punch & Head    |   | • Fund Tool Reserve   |     for Peak Paving   |
+ | • Issue DL-100 RFQ    |   | • Lock Part Weights   |     ($0.015/shot Ledger)  |   | • First Chemical      |
+ |   (OPER_18 Pre-Sleeve)|   | • Build Prototype     |   | • Execute DL-100 PO   |     Dropship Campaign |
+ | • Issue Chemical RFQ  |     Quick-Swap Float #1   |   | • Execute Tolling Agt |     (SafePurge/LubeCoat)
+ |   (OPER_28 Toll Blend)|   | • Qualify Toller Lab  |     (OPER_28/36 Rider)    |   | • Commission OPER_30  |
+ | • Order Float Parts   |     Assays & Pail Art     |   | • Order ADI Bowl/Drive|     Vibratory Feeder  |
+ | • Detail OPER_30 Spec |   | • Draft Bailment Agt  |     for OPER_30 Station   |   | • Launch OPER_40 Core |
+ | • Order 10 Pelican    |     for Contingency Toller|   | • Build 10 OPER_40    |     Exchange Program  |
+ |   Cases for OPER_40   |   | • Build Cell 2 Wash   |     Float Cartridges  |   | • Dave Jepsen Rolls   |
+ | • Establish 8-Gaylord |     Tank Integration      |   | • Configure Maggie's  |     Out SOP-RECOND-01 |
+ |   Resin Buffer Target |   | • Draft SOP-RECOND-01 |     QuickBooks Core Log |     to CD-250 Owners  |
+ | • Order 24 PCACS-250  |   | • Build Prototype     |   | • Retrofit 24 Rigs    |   | • Full Deployment of  |
+ |   Hardware Kits ($4.5k|     PCACS Sentinel Rig #1 |     with PCACS Sentinel   |     SOP-RENT-02 Cycle |
+ |   for OPER_46)        |   | • Draft SOP-RENT-02   |   | • Maggie Configures   |     Overage Billing   |
+ | • Order OPER_50 Hydro |   | • Dave K Machines     |     QuickBooks Overage Item|     across Fleet      |
+ |   Booster Pump & Parts|     OPER_50 Manifold Block|   | • Assemble & Plumb    |   | • Julian Certified on |
+ |   ($2,260 capex)      |   | • Draft SOP-HYDRO-01  |     OPER_50 Hydro Station |     SOP-HYDRO-01 (<20m)|
+ | • Issue PO for Uni-ram|   | • Dave K Fabricates   |   | • Plumb & Wire OPER_52|   | • Julian Executes 1st |
+ |   URS600 + Venturi Kit|     OPER_52 Bench Mount   |     URS600 Vacuum Still   |     Production Still Run|
+ |   ($6,479 for OPER_52)|     & Drip Containment Pan|   | • Draft SOP-SOLV-01   |     under SOP-SOLV-01 |
+ | • Deploy OPER_54      |   | • Seed SQLite DB with |   | • Test OPER_54 Script |   | • Enforce OPER_54     |
+ |   Python Environment  |     Top 50 Customer SKUs  |     with 50 Historical POs|     SOP-OFFICE-01 for |
+ |   on Maggie's Machine |     & White Cap Crosswalk |     in QB Sandbox Mode    |     100% of Incoming POs
+ | • Order ARO Pumps &   |   | • Dave K Fabricates   |   | • Assemble 15x RK-250 |   | • Full Deployment of  |
+ |   Parts for 2x SFC-100|     Chassis & Tanks for   |     and 10x RK-15 Kits  |     SOP-RENT-03 4-Hour|
+ |   Flush Carts (OPER_55|     2x SFC-100 Flush Carts|   | • Commission SFC-100  |     Turnaround across |
+ |   = $3,560 capex)     |   | • Draft SOP-RENT-03    |     Flush Carts in Cell 2 |     Entire Rental Fleet
+ | • Issue PO for Pro    |   | • Dave K Fabricates   |   | • Plumb & Wire OPER_64|   | • Full Deployment of  |
+ |   Ultrasonics Console |     316 SS Part Baskets   |     DePoly-Ultra Tank in  |     SOP-STRIP-01 28-min|
+ |   ($3,850 for OPER_64)|     & Agitator Air Mount  |     Cell 2 next to Still  |     stripping protocol |
+ | • Issue PO for CPO    |   | • Dave K Fabricates   |   | • Commission OPER_66  |   | • Full Scaling of     |
+ |   Tabletop Bagger &   |     304 SS Gravity Chute  |     Bagger & Scale Desk   |     COMM_51 Kit Packs  |
+ |   OHAUS Scale ($3.5k  |     & Pivot Pan for Cell 1|     in Cell 1 Workstation |     at 100 packs/hour  |
+ |   for OPER_66)        |     Kitting Station       |   | • Draft SOP-KIT-01     |     under SOP-KIT-01   |
+ | • Order Spargers &    |   | • Dave K Fabricates   |   | • Mount Mott Spargers |   | • Full Deployment of  |
+ |   EXAIR Venturi for   |     TOC-300 Baffled Box   |     & Weir on Wash Tank;  |     SOP-WASH-02 7-min  |
+ |   OPER_70 ($1,065 cap)|     & 304 SS Skimmer Weir |     Plumb TOC-300 Loop    |     Cycle & 6-Wk Bath  |
+ | • Order Kendal 10-Gal |   | • Dave K Machines     |   | • Mount US-Clean 10H   |   | • Full Deployment of  |
+ |   Ultrasonic Console  |     Fixture Tree & Mandrels|    Console on Cell 2 Bench|    SOP-WASH-03 12-min |
+ |   for OPER_72 ($1.7k) |     & Vapor Lid for OPER_72|    & Plumb to OPER_52     |    hands-free stripping|
+ | • Reject Vapor Degr.  |   | • Dave K Machines     |   | • Assemble RAPID-STRIP |   | • Full Deployment of  |
+ |   Quote ($45k avoided)|     Teardown Cradle & Base|     150 Tank in Cell 2    |     SOP-WASH-04 3.5-min|
+ |   Order RAPID-STRIP   |     Mount for OPER_76     |   | • Julian Certified on  |     pre-teardown wash  |
+ |   Parts ($1,385 capex)|   | • Draft SOP-WASH-04   |     SOP-WASH-04 (<5 min)  |     100% VSQG compliant|
+ | • Order ADI Bowl      |   | • Dave K Machines     |   | • Mount Ultrasonic Gen |   | • Full Deployment of  |
+ |   Feeder ($4,500) &   |     OPER_78 Titanium Horn |     & Plunge Press Column |     OPER_78 Workcell   |
+ |   Ultrasonic Generator|     & Nest for OPER_78    |     in Cell 1 Workstation |     (SOP-ASSY-03 2.1s) |
+ |   ($2,850) for OPER_78|   | • Plumb Escapement Jig |   | • Proof Burst Calib.  |     captures $34.5k/yr |
+ | • Issue RFQ for CPO   |   | • Dave K Fabricates   |   | • Commission OPER_82  |   | • Full Scaling of     |
+ |   Autobag H-100 &     |     OPER_82 Drop Chute    |     Optical Bagger Cell;  |     COMM_58 16-Packs   |
+ |   Accu-Count 200      |     & Trapdoor Assembly   |     Sync Logic Interlock  |     at 16.5s (<20s takt)|
+ |   ($11,250 for OPER_82|   | • Draft SOP-KIT-02     |   | • Julian Certified on  |     liberates 612.5 hrs|
+ | • Order Cylinder &    |   | • Dave K Machines     |   | • Mount Guided Press   |   | • Full Deployment of  |
+ |   Valves for OPER_84  |     OPER_84 O1 Mandrel    |     Cylinder & Safety ATD |     OPER_84 Omni-Arbor |
+ |   ($1,345 capex limit)|     & C-Frame Plate       |     Logic in Cell 2       |     (SOP-ASSY-04 68.0s)|
+ | • Issue PO for 20W/30W|   | • Dave K Machines     |   | • Integrate Interlock  |   | • Full Deployment of  |
+ |   Fiber Laser & Hood  |     Universal V-Nest &    |     & Fume Extractor on   |     OPER_88 MARK-FIBER |
+ |   Station ($2,790 cap |     Alignment Plate for   |     MARK-FIBER 200 Bench; |     (SOP-MARK-01 23s)  |
+ |   for OPER_88)        |     OPER_88 Station       |     Link DB to QuickBooks |     locks out fake cores
+ | • Order 4x 365nm UV   |   | • Dave K Machines     |   | • Standardize Cuvette  |   | • Deploy SOP-QA-UV01  |
+ |   Flashlights & Meter |     OPER_90 Comparator    |     Reference Standards;  |     across Cell 2 and |
+ |   ($845 for OPER_90)  |     Block & Dark Hood     |     Audit First Toller Lot|     Rental Fleet Tools |
+ | • Order 6-ft Bench,   |   | • Dave K Machines     |   | • Assemble Station #2/3|   | • Full Deployment of  |
+ |   US-Swift 5H Bath &  |     PCTS-100 Toggle Cradle|     Rebuild Workcell &    |     SOP-REBUILD-01 at  |
+ |   Torque Drivers for  |     & Class ZZ Gauge Block|     Wire Pneumatic Logic  |     12.8m Rebuild Takt |
+ |   OPER_95 ($2,940 cap)|   | • Draft SOP-REBUILD-01 |   | • Julian Certified on  |     guarantees 0 defect|
+ | • Procure Pre-Owned   |   | • Dave K Machines     |   | • Calibrate EC-Manifold|   | • Full Deployment of  |
+ |   Eddy Current Tester |     Delrin Collar & 6061  |     3000 on EDM standard; |     SOP-NDT-01 45-sec  |
+ |   & Shielded Bore     |     EDM Notch Block for   |     wire alarm trigger to |     manifold NDT scan  |
+ |   Probe for OPER_133  |     OPER_133 NDT Station  |     Station #2/3 gantry   |     retires fatigued   |
+ |   ($1,685 capex limit)|   | • Draft SOP-NDT-01     |   | • Julian Certified on  |     blocks safely      |
+ | • Order Blower, Carbon|   | • Dave K Bends 304 SS |   | • Mount Under-Bench   |   | • Full Commissioning of|
+ |   Canister & Regulator|     Slot Plenum & Push Pipe|     Scrubber Enclosure,   |     OPER_96 PULL-VENT  |
+ |   for OPER_96 ($1,485)|     for OPER_96 Push-Pull |     Plumb Push Air Header |     SOP-VENT-01 in C2  |
+ | • Procure FRH-SK Plugs|   | • Screen Print § 173.4|   | • Configure Maggie's  |   | • Deploy SOP-LOG-01   |
+ |   & EVOH Barrier Bags |     Decals & Cut Foam for |     UPS API for § 173.4   |     for 100% of Core   |
+ |   ($1,240 for OPER_98)|     Pelican 1550 (OPER_98)|     Return Ground Labels  |     Returns in Field   |
+ | • Order Zebra ZD421   |   | • Seed `lot_trace`    |   | • Wire Cloudflare     |   | • Deploy SOP-QA-BABA  |
+ |   & Honeywell Imager  |     SQLite schema and     |     Pages API; test QR    |     for 100% of DOT POs|
+ |   for OPER_101 ($485) |     write ReportLab script|     scans with iPhone/Andr|     instant CoC in <10s|
+ | • Order Guided Air Cyl|   | • Dave K Fabricates   |   | • Mount Flojet Pump   |   | • Full Deployment of  |
+ |   Spindle & Flex-Hones|     Self-Centering V-Nest |     & Magnetic Sump on    |     OPER_102 HONE-BENCH|
+ |   for OPER_102 ($2.19k|     & Bimba Guide Bracket |     HONE-BENCH 100 in C2; |     (SOP-HONE-01 2.58m)|
+ |   capex limit)        |     for OPER_102 Station  |     Calibrate Profilometer|     eliminates lathe set
+ | • Order 500x NFC/QR   |   | • Dave K Fabricates   |   | • Seed `lily_bailee`   |   | • Deploy OPER_106     |
+ |   Cable Seals & Plates|     50x Hasp Plates for   |     Pelican 1550s (OP_106)|     edge GPS webhook call |
+ |   for OPER_106 ($1.38k|   | • Draft SOP-BAIL-01    |   | • Test scan on iPhone  |     Protocol across 50 |
+ |   capex limit)        |     for RapidAssure Cores |     in Cell 2             |     contractor trailers|
+ | • Procure Size #4 SS  |   | • Dave K Fabricates   |   | • Assemble & Plumb    |   | • Full Deployment of  |
+ |   Vessel, ARO AODD    |     Mounting Bracket &    |     PART-FILTER 100 Loop  |     SOP-FILTER-01 in   |
+ |   Pump & Bags ($570   |     Drip Tray for         |     on RAPID-STRIP 150    |     Cell 2; 60s bag    |
+ |   capex for OPER_110) |     PART-FILTER 100 (C2)  |   | • Draft SOP-FILTER-01  |     swap; 0 still grit |
+ | • Send Tool T-01 to   |   | • Fox Valley Tool EDM |   | • Dave K Bench Laps   |   | • Full Deployment of  |
+ |   Fox Valley Toolroom;|     Pockets D2 Sub-Gates; |     Sub-Gate Shear Edges; |     Tool T-01 Retrofit |
+ |   Order Progressive D2|     Dave K Fabricates     |     Mounts Tool in Press; |     under SOP-MOLD-02; |
+ |   Inserts ($5,140 cap |     Pneumatic Part/Runner |     Runs First 10k Parts; |     0.0s Degate Takt;  |
+ |   for OPER_112)       |     Diverter Flapper Chute|     100% Virgin PP Policy |     0 OPER_78 Bowl Jams|
+ | • Procure Conair 100# |   | • Dave K Fabricates   |   | • Calibrate Novatec   |   | • Deploy SOP-PURGE-01 |
+ |   Aux Hopper, Dew-Pt  |     Slide Shutter & Throat|     Dryer & Dew Sensor;   |     & SOP-MOLD-03;     |
+ |   Sensor & Asaclean U |     Diverter for Hopper #2|     Run First Bi-Direction|     42.0m Changeover;  |
+ |   ($2,340 for OPER_114|     Mounting on Press Plt |     Purge Validation Run  |     0 Delamination Burst
+ | • Procure Reconditioned|  | • Dave K Fabricates   |   | • Mount TTO Gantry on |   | • Full Deployment of  |
+ |   Videojet 6320 TTO   |     6061-T6 Rigid Gantry  |     Autobag H-100; Wire   |     OPER_116 SOP-KIT-03|
+ |   Coder & 300 DPI Head|     & Silicone Anvil Bar  |     24V Opto Dwell Signal;|     220ms In-Line Print|
+ |   ($3,050 for OPER_116|     for OPER_116 Workcell |     Integrate Python API  |     0 Label Peeling    |
+ | • Procure Dual-View   |   | • Dave K Fabricates   |   | • Assemble BORE-CHECK |   | • Full Deployment of  |
+ |   8.0mm USB Borescope |     6061-T6 Base Plate,   |     100 Jig at Station 2/3|     OPER_122 SOP-BORE-01|
+ |   Wand & Igus Rail    |     Igus Slide Block &    |     Wire Mini-PC & Foot   |     32.5s Optical QA;  |
+ |   ($1,480 for OPER_122|     Delrin Roller V-Nest  |     Pedal; Test OpenCV    |     0 Packing Blow-By  |
+ | • Procure Surplus ADI |   | • Dave K Fabricates   |   | • Mount ADI Bowl & CBS|   | • Full Deployment of  |
+ |   18" Bowl Feeder,    |     6061-T6 Gantry Frame, |     770 Sealer in Cell 1; |     OPER_126 SOP-KIT-04|
+ |   Rodix Controller &  |     304 SS Funnel Chute,  |     Wire Banner Eye & SMC |     38.5s Kitting Takt;|
+ |   CBS-770 Band Sealer |     & Escapement Track    |     Pneumatic Stop Gate;  |     44 hrs/mo Liberated|
+ |   ($6,780 for OPER_126|     for OPER_126 Bench    |     Test Batch Counts     |     for CD-250 Build   |
+ | • Order Mandrel, Stone|   | • Dave K Fabricates   |   | • Assemble HONE-BENCH |   | • Full Deployment of  |
+ |   Sets, Dayton Motor, |     Neoprene V-Nest, Base |     200 in Cell 2; Plumb  |     OPER_135 SOP-HONE-02|
+ |   Flex-Hones & Oil    |     Pan & Universal Gimbal|     Flojet Pump & Filter; |     14.5m Honing Takt; |
+ |   for OPER_135 ($1,185|     Drive for OPER_135    |     Test Honing 5 Cores;  |     85% Barrel Salvage;|
+ |   capex limit)        |     HONE-BENCH 200 Cell   |     Validate RK-OVR-10 Set|     +$9,350/yr Saved   |
+ | • Order Vestil Scissor|   | • Dave K Mills 1.375" |   | • Mount TCU on Lower  |   | • Full Commissioning of|
+ |   Cart, Ball Rollers, |     Rails on 10 Tools;    |     Shelf of MOLD-CART;   |     OPER_142 SOP-SMED-01|
+ |   Dry-Break Couplers, |     Mounts DME Ejector    |     Wire 240V Receptacle; |     16.5m Mold Change; |
+ |   TCU & Clamps for    |     Studs; Plumbs Dry-    |     Plumb Manifold Loop;  |     106.8 Press Hrs Up;|
+ |   OPER_142 ($2,440 cap|     Break Manifold Plates |     Test 1st SMED Change  |     +$8,388/yr Saved;  |
+ |   limit)              |     on 10 Molds (OPER_142)|     from T-01 to T-03     |     $10k Cash Liberated|
+ | • Order SMC Transducer|   | • Dave K Machines     |   | • Mount CLICK PLC,    |   | • Full Deployment of  |
+ |   Flow Sensor, Lapping|     6061 Subplate & Port  |     PSE540 Sensor & Flow  |     OPER_144 SOP-VALVE-01|
+ |   Lap Sets & CLICK PLC|     Cavities; Fabricates  |     Meter on Cell 2 Bench;|     11.5m Recert Takt; |
+ |   for OPER_144 ($1,785|     Destaco Clamp Bracket |     Test Lap 5 Worn Spools|     65 Valves Overhauled|
+ |   capex limit)        |     for OPER_144 Cell     |     & Validate VK-250 Seal|     +$20,031/yr Saved! |
+ | • Order Victor 2-Stage|   | • Dave K Machines     |   | • Mount VM1000 Pedal  |   | • Full Deployment of  |
+ |   Regulator, VM1000   |     Stainless Diffuser    |     & Overhead Hose Drop  |     OPER_148 PURGE-SEAL|
+ |   Pedal, VCI Pouches &|     Wand & Diffuser Tip   |     at Cell 2 Pack Bench; |     100 (SOP-PURGE-02);|
+ |   RH Cards for OP_148 |     for OPER_148 Station  |     Test Purge 5 Cartridges|    55s Pack Takt;     |
+ |   ($645 capex limit)  |   | • Draft SOP-PURGE-02   |     & Verify <10% RH Cards|     +$11,365/yr Saved! |
+ | • Submit Composite    |   | • Dave K Fabricates   |   | • Receive Suburban   |   | • Deploy SOP-WASTE-01 |
+ |   Cake Sample to      |     SS CAKE-DRY 100 Box   |     Labs TCLP Cert Report |     for 100% of Filter |
+ |   Suburban Labs Geneva|     & Mounts Silicone Pad |     (All Analytes ND/Pass)|     Bags; Execute 415  |
+ |   ($845 analyticals   |     Heater under Hood     |   | • Maggie Files 415    |     ILCS 5/22.48 Cert; |
+ |   for OPER_154)       |     ($235 for OPER_154)   |     ILCS 5/22.48 In Binder|     100% Dumpster Safe!|
+ | • Order PV520A Analyzer|  | • Dave K Fabricates   |   | • Calibrate PV520A    |   | • Full Deployment of  |
+ |   & AMP-PROBE Gauge   |     HORN-TUNE 100 Nodal   |     against Reference Ti  |     OPER_156 SOP-WELD-02|
+ |   for OPER_156        |     Clamp Fixture & Mount |     Horn; Wire USB Logger |     45s Daily Acoustic |
+ |   ($1,140 capex limit)|     for Cell 1 (OPER_156) |     to Cell 1 Touchscreen |     Sweep; 0 Cold Welds|
+ | • Configure Ed25519   |   | • Seed `mtr_database` |   | • Build Cloudflare PWA|   | • Deploy SOP-DATA-01  |
+ |   Keys & Base45 Libs  |     SQLite schema on      |     Service Worker shell; |     for 100% of Master |
+ |   Maggie's Terminal   |     Maggie's PC (OPER_158)|     Test air-gapped scan  |     Cartons (OPER_158);|
+ |   ($0.00 capex OP_158)|   | • Draft SOP-DATA-01    |     in Faraday foil box   |     0 Pour Delays!     |
+ | • Order OPT-CP-1H     |   | • Dave K Fabricates   |   | • Wire Timer T1 & K2  |   | •

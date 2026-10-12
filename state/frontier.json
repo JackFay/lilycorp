@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 116,
+  "active_cycle": 124,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -18,8 +18,8 @@
         "How much will the pre-closing physical inventory count write down the asset value dollar-for-dollar?"
       ],
       "target_plan_file": "plan/01_deal_and_capital_structure.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 6,
+      "status": "REFINED",
       "priority": "CRITICAL",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -57,8 +57,8 @@
         "What is the exact net working capital target in the purchase agreement?"
       ],
       "target_plan_file": "plan/01_deal_and_capital_structure.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 6,
+      "status": "REFINED",
       "priority": "CRITICAL",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -76,8 +76,8 @@
         "What stay bonus structure and press uptime bonus will align Dave K and Greg without destabilizing shop culture?"
       ],
       "target_plan_file": "plan/05_jack_fay_operator_guide.md",
-      "confidence_score": 4,
-      "status": "OPEN",
+      "confidence_score": 7,
+      "status": "REFINED",
       "priority": "CRITICAL",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -95,8 +95,8 @@
         "How many months of winter cash burn can the $50k buffer withstand without an operating line of credit?"
       ],
       "target_plan_file": "plan/00_assumed_capital_baseline.md",
-      "confidence_score": 3,
-      "status": "OPEN",
+      "confidence_score": 6,
+      "status": "REFINED",
       "priority": "CRITICAL",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -114,8 +114,8 @@
         "When was the last time Bob Trout raised list prices on molded accessories?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
-      "confidence_score": 4,
-      "status": "OPEN",
+      "confidence_score": 7,
+      "status": "REFINED",
       "priority": "HIGH",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -154,8 +154,8 @@
         "What wholesale discount structure is required for commercial distribution placement?"
       ],
       "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
-      "confidence_score": 5,
-      "status": "OPEN",
+      "confidence_score": 8,
+      "status": "RESOLVED",
       "priority": "HIGH",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -191,8 +191,8 @@
         "What QuickBooks integration mechanism (QODBC vs IIF import vs SDK) provides the most reliable 1-click approval workflow for Maggie without disrupting her existing habits?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 5,
-      "status": "OPEN",
+      "confidence_score": 8,
+      "status": "RESOLVED",
       "priority": "HIGH",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -209,8 +209,8 @@
         "What deposit and return overhaul protocols prevent contaminated resin freeze-ups in pump cylinders?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
-      "confidence_score": 5,
-      "status": "OPEN",
+      "confidence_score": 8,
+      "status": "RESOLVED",
       "priority": "MEDIUM",
       "execution_horizon": "YEAR_1_CORE"
     },
@@ -2710,10 +2710,10 @@
         "Can Lily adapt the COMM_31 and COMM_79 OEM submittal licensing models to secure high-pressure mechanical packer and Drive-Lok baseload bundling contracts with geotechnical leak-seal polyurethane formulators (Prime Resins, Avanti International, NCFI Polyurethanes), capturing an incremental 150,000 units annually at >=65% gross margin?"
       ],
       "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md",
-      "confidence_score": 9,
-      "status": "RESOLVED",
-      "priority": "HIGH",
-      "execution_horizon": "BASELINE_RESOLVED"
+      "confidence_score": 2,
+      "status": "EXPLORATORY",
+      "priority": "LOW",
+      "execution_horizon": "YEAR_2_EXPLORATORY"
     },
     {
       "id": "PROD_153",

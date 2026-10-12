@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily Corp — Autonomous Plan Cockpit & AI Page Generator</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Markdown Renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Background -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Main Container -->
+  <div class="app-layout">
+    
+    <!-- Top Global Header -->
+    <header class="app-header">
+      <div class="brand-area">
+        <div class="brand-badge">LILY</div>
+        <div class="brand-text">
+          <h1>Lily Corporation <span class="badge-sub">Turnaround Diligence Cockpit</span></h1>
+          <p class="tagline">Self-Improving Business Plan & Autonomous AI Page Generator</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="cycle-pill" id="headerCycleBadge">
+          <span class="pulse-dot"></span>
+          <span id="activeCycleText">Cycle #--</span>
+        </div>
+        
+        <button class="btn btn-secondary" onclick="openSteeringModal()">
+          <span class="icon">✏️</span> Steer Plan
+        </button>
+
+        <button class="btn btn-primary" onclick="openGenerateModal()">
+          <span class="icon">✨</span> Generate AI Page
+        </button>
+      </div>
+    </header>
+
+    <!-- Top KPI Stats Bar -->
+    <section class="kpi-banner">
+      <div class="kpi-card" onclick="switchTab('frontier')">
+        <div class="kpi-label">Active Frontier Items</div>
+        <div class="kpi-value" id="kpiTotalItems">--</div>
+        <div class="kpi-sub" id="kpiCriticalCount">-- Critical Priorities</div>
+      </div>
+
+      <div class="kpi-card" onclick="filterFrontierByStatus('RESOLVED')">
+        <div class="kpi-label">Empirically Grounded</div>
+        <div class="kpi-value text-emerald" id="kpiResolvedCount">--</div>
+        <div class="kpi-sub">Verified Evidence Backed</div>
+      </div>
+
+      <div class="kpi-card" onclick="filterFrontierByStatus('REFINED')">
+        <div class="kpi-label">Refined Baseline</div>
+        <div class="kpi-value text-cyan" id="kpiRefinedCount">--</div>
+        <div class="kpi-sub">Plausible Estimates</div>
+      </div>
+
+      <div class="kpi-card" onclick="filterFrontierByStatus('EXPLORATORY')">
+        <div class="kpi-label">Exploratory Hypotheses</div>
+        <div class="kpi-value text-amber" id="kpiExploratoryCount">--</div>
+        <div class="kpi-sub">Unfunded Year 2 Upside</div>
+      </div>
+
+      <div class="kpi-card" onclick="switchTab('graveyard')">
+        <div class="kpi-label">The Graveyard</div>
+        <div class="kpi-value text-rose" id="kpiGraveyardCount">--</div>
+        <div class="kpi-sub">Autopsies & Rejected Ideas</div>
+      </div>
+
+      <div class="kpi-card" onclick="switchTab('pages')">
+        <div class="kpi-label">AI Generated Views</div>
+        <div class="kpi-value text-purple" id="kpiPagesCount">--</div>
+        <div class="kpi-sub">On-The-Fly HTML Pages</div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="frontier" onclick="switchTab('frontier')">
+        <span class="tab-icon">🎯</span> Frontier & Initiatives
+      </button>
+      <button class="tab-btn" data-tab="pages" onclick="switchTab('pages')">
+        <span class="tab-icon">⚡</span> AI Page Studio
+      </button>
+      <button class="tab-btn" data-tab="plans" onclick="switchTab('plans')">
+        <span class="tab-icon">📖</span> Live Business Plan
+      </button>
+      <button class="tab-btn" data-tab="auditor" onclick="switchTab('auditor')">
+        <span class="tab-icon">🛡️</span> Auditor & Digestion Feed
+      </button>
+      <button class="tab-btn" data-tab="graveyard" onclick="switchTab('graveyard')">
+        <span class="tab-icon">🪦</span> Graveyard Autopsies
+      </button>
+      <button class="tab-btn" data-tab="steering" onclick="switchTab('steering')">
+        <span class="tab-icon">🕹️</span> Governance & Steering
+      </button>
+    </nav>
+
+    <!-- TAB 1: Frontier & Initiatives -->
+    <main class="tab-content active" id="tab-frontier">
+      <div class="toolbar">
+        <div class="search-box">
+          <input type="text" id="frontierSearch" placeholder="Search initiatives by ID, title, or question (e.g. COMM_152, heated hose, ports)..." oninput="renderFrontierList()">
+        </div>
+        
+        <div class="filter-group">
+          <select id="statusFilter" onchange="renderFrontierList()">
+            <option value="">All Statuses</option>
+            <option value="CRITICAL">Critical Priority</option>
+            <option value="RESOLVED">Resolved (Grounded)</option>
+            <option value="REFINED">Refined</option>
+            <option value="EXPLORATORY">Exploratory</option>
+            <option value="OPEN">Open</option>
+          </select>
+
+          <select id="priorityFilter" onchange="renderFrontierList()">
+            <option value="">All Priorities</option>
+            <option value="CRITICAL">Critical</option>
+            <option value="HIGH">High</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="LOW">Low</option>
+          </select>
+        </div>
+
+        <button class="btn btn-outline" onclick="loadFrontierData()">
+          🔄 Refresh
+        </button>
+      </div>
+
+      <div class="frontier-grid" id="frontierGrid">
+        <!-- Rendered dynamically -->
+        <div class="loading-state">Loading strategic frontier items...</div>
+      </div>
+    </main>
+
+    <!-- TAB 2: AI Page Studio -->
+    <main class="tab-content" id="tab-pages">
+      <div class="studio-header">
+        <div>
+          <h2>AI On-The-Fly HTML Page Studio</h2>
+          <p class="section-desc">Instantly synthesize bespoke, executive-grade HTML dashboards and reports grounded in live repository diligence data.</p>
+        </div>
+        <button class="btn btn-primary" onclick="openGenerateModal()">
+          ✨ Create New AI Page
+        </button>
+      </div>
+
+      <div class="studio-templates">
+        <div class="template-card" onclick="openGenerateModal('briefing')">
+          <div class="template-badge">Executive View</div>
+          <h3>Executive Briefing & Visual Scorecard</h3>
+          <p>Synthesizes high-impact C-suite scorecards, KPI cards, grounded vs assumption breakdown, and decision matrices.</p>
+          <span class="template-action">Generate Briefing →</span>
+        </div>
+
+        <div class="template-card" onclick="openGenerateModal('red_team')">
+          <div class="template-badge badge-rose">Adversarial Red-Team</div>
+          <h3>Forensic Red-Team Stress Test</h3>
+          <p>Unvarnished PE auditor critique exposing hidden assumptions, shop labor bottlenecks, margin traps, and legal snags.</p>
+          <span class="template-action">Run Stress Test →</span>
+        </div>
+
+        <div class="template-card" onclick="openGenerateModal('operator_checklist')">
+          <div class="template-badge badge-emerald">Operator Guide</div>
+          <h3>Jack Fay's 90-Day Transition Dashboard</h3>
+          <p>Interactive week-by-week transition milestones, Bob Trout interview prompts, and shop floor verification checklists.</p>
+          <span class="template-action">Build Checklist →</span>
+        </div>
+
+        <div class="template-card" onclick="openGenerateModal('custom')">
+          <div class="template-badge badge-purple">Bespoke Prompt</div>
+          <h3>Custom Operator Deep Dive</h3>
+          <p>Type any operational prompt to render a custom standalone HTML page with charts, tables, and workflows.</p>
+          <span class="template-action">Custom Prompt →</span>
+        </div>
+      </div>
+
+      <div class="gallery-section">
+        <h3>Generated HTML Pages Gallery</h3>
+        <div class="pages-grid" id="generatedPagesGrid">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </main>
+
+    <!-- TAB 3: Live Business Plan Modules -->
+    <main class="tab-content" id="tab-plans">
+      <div class="plan-split-view">
+        <aside class="plan-sidebar" id="planSidebar">
+          <!-- Plan list rendered dynamically -->
+        </aside>
+
+        <section class="plan-viewer">
+          <div class="plan-header" id="planViewerHeader">
+            <h2 id="planViewerTitle">Select a plan module</h2>
+            <div class="plan-meta" id="planViewerMeta"></div>
+          </div>
+          <div class="markdown-body" id="planViewerBody">
+            <p class="text-muted">Click a module on the left to read its complete operational text.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- TAB 4: Auditor & Digestion Feed -->
+    <main class="tab-content" id="tab-auditor">
+      <div class="auditor-layout">
+        <div class="card auditor-card">
+          <div class="card-header">
+            <h3>Latest Research Cycle Digest</h3>
+            <span class="badge" id="digestCycleBadge">Cycle Log</span>
+          </div>
+          <div class="markdown-body" id="digestContent">Loading digest...</div>
+        </div>
+
+        <div class="card auditor-card">
+          <div class="card-header">
+            <h3>Recent Steering Archive</h3>
+            <span class="badge">Human Oversight</span>
+          </div>
+          <div class="markdown-body" id="archiveContent">Loading steering notes...</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TAB 5: Graveyard Autopsies -->
+    <main class="tab-content" id="tab-graveyard">
+      <div class="graveyard-intro">
+        <h2>The Graveyard: Permanent Autopsies of Rejected Ideas</h2>
+        <p class="section-desc">A great turnaround plan is defined by what it refuses to do. When an idea fails our adversarial red-team audit, it is permanently buried here to prevent capital waste.</p>
+      </div>
+
+      <div class="graveyard-grid" id="graveyardGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </main>
+
+    <!-- TAB 6: Governance & Steering -->
+    <main class="tab-content" id="tab-steering">
+      <div class="steering-container">
+        <div class="card steering-form-card">
+          <h3>Steer the Autonomous Diligence Engine</h3>
+          <p class="text-muted">Drop real-world updates, notes from calls with Bob Trout or bankers, new operational constraints, or corrections. The recursive loop reads this on every cycle.</p>
+          
+          <div class="form-group">
+            <label for="steeringInputText">New Operational Instruction / Fact Correction:</label>
+            <textarea id="steeringInputText" rows="6" placeholder="Example: Bob confirmed on today's call that Julian Perez spends 8 hours a week refurbishing CD-250 rental pumps. Factor this labor constraint into Year 1 capacity models..."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <label class="checkbox-label">
+              <input type="checkbox" id="steeringTriggerCycle" checked> Trigger diligence cycle immediately after submitting
+            </label>
+            <button class="btn btn-primary" onclick="submitSteeringNote()">
+              🚀 Save & Dispatch Steering
+            </button>
+          </div>
+        </div>
+
+        <div class="card steering-live-card">
+          <div class="card-header">
+            <h3>Manual Execution Controls</h3>
+          </div>
+          <p class="text-muted">Launch a deterministic research cycle locally to resolve the top-ranked open frontier item with Google Search grounding and adversarial PE audit.</p>
+          <div style="margin-top: 1.5rem;">
+            <button class="btn btn-secondary" onclick="triggerManualCycle()">
+              ⚡ Run Single Diligence Cycle Now
+            </button>
+          </div>
+          <div id="cycleStatusLog" class="cycle-log-box" style="display: none; margin-top: 1rem;"></div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- AI PAGE GENERATION MODAL -->
+  <div class="modal-backdrop" id="generateModal" onclick="closeModalOnBackdrop(event, 'generateModal')">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>✨ Generate On-The-Fly Review HTML Page</h3>
+        <button class="close-btn" onclick="closeModal('generateModal')">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Select Review Template:</label>
+          <div class="template-selector">
+            <label class="tpl-radio">
+              <input type="radio" name="tplType" value="briefing" checked onchange="toggleCustomPromptArea()">
+              <div class="tpl-radio-card">
+                <strong>Executive Scorecard</strong>
+                <span>Strategic KPI view with evidence anchors</span>
+              </div>
+            </label>
+            <label class="tpl-radio">
+              <input type="radio" name="tplType" value="red_team" onchange="toggleCustomPromptArea()">
+              <div class="tpl-radio-card">
+                <strong>Red-Team Stress Test</strong>
+                <span>Hostile forensic audit exposing flaws</span>
+              </div>
+            </label>
+            <label class="tpl-radio">
+              <input type="radio" name="tplType" value="operator_checklist" onchange="toggleCustomPromptArea()">
+              <div class="tpl-radio-card">
+                <strong>Operator Checklist</strong>
+                <span>Jack's 90-day execution milestones</span>
+              </div>
+            </label>
+            <label class="tpl-radio">
+              <input type="radio" name="tplType" value="custom" onchange="toggleCustomPromptArea()">
+              <div class="tpl-radio-card">
+                <strong>Custom Prompt</strong>
+                <span>Type any bespoke request</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="generateTargetItem">Target Initiative (Optional):</label>
+          <select id="generateTargetItem">
+            <option value="">General Company Review</option>
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="generateTargetPlan">Target Plan Module (Optional):</label>
+          <select id="generateTargetPlan">
+            <option value="">Auto-select from initiative</option>
+            <option value="plan/01_market_expansion_and_adjacent_verticals.md">01. Market Expansion & Verticals</option>
+            <option value="plan/02_product_lines_and_rd_pipeline.md">02. Product Lines & R&D</option>
+            <option value="plan/03_commercial_distribution_and_partnerships.md">03. Commercial Distribution</option>
+            <option value="plan/04_shop_floor_modernization_and_capacity.md">04. Shop Floor & Capacity</option>
+            <option value="plan/05_jack_fay_operator_guide.md">05. Jack Fay Operator Guide</option>
+            <option value="plan/00_assumed_capital_baseline.md">00. Capital Baseline & Financials</option>
+            <option value="plan/01_deal_and_capital_structure.md">01. Deal & Debt Structure</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="customPromptGroup" style="display: none;">
+          <label for="generateCustomPrompt">Custom Prompt / Specific Instructions:</label>
+          <textarea id="generateCustomPrompt" rows="4" placeholder="e.g. Compare Lily's existing HH-25 heated hose with a 240V Graco trailer and build a contractor sales one-pager..."></textarea>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('generateModal')">Cancel</button>
+        <button class="btn btn-primary" id="btnExecuteGenerate" onclick="executeAIPageGeneration()">
+          🚀 Generate Page (Instant)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FULLSCREEN PAGE PREVIEW MODAL -->
+  <div class="modal-backdrop fullscreen-modal" id="previewModal" onclick="closeModalOnBackdrop(event, 'previewModal')">
+    <div class="modal-card preview-card">
+      <div class="modal-header">
+        <h3 id="previewModalTitle">HTML Page Preview</h3>
+        <div class="modal-header-actions">
+          <a href="#" target="_blank" id="previewOpenTabBtn" class="btn btn-outline btn-sm">🔗 Open Fullscreen Tab</a>
+          <button class="close-btn" onclick="closeModal('previewModal')">&times;</button>
+        </div>
+      </div>
+      <div class="preview-frame-container">
+        <iframe id="previewIframe" src="about:blank"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEERING MODAL -->
+  <div class="modal-backdrop" id="steeringModal" onclick="closeModalOnBackdrop(event, 'steeringModal')">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>✏️ Submit Operational Steering</h3>
+        <button class="close-btn" onclick="closeModal('steeringModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="text-muted">Enter any notes from calls with Bob Trout, banker feedback, or shop floor observations. These are archived and ingested by the self-improving loop.</p>
+        <div class="form-group" style="margin-top: 1rem;">
+          <textarea id="modalSteeringText" rows="6" placeholder="Type your note here..."></textarea>
+        </div>
+        <label class="checkbox-label">
+          <input type="checkbox" id="modalSteeringTrigger" checked> Trigger research cycle immediately
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('steeringModal')">Cancel</button>
+        <button class="btn btn-primary" onclick="submitSteeringFromModal()">Save Steering</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

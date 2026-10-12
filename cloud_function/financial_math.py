@@ -88,20 +88,55 @@ def evaluate_underwriting_scenario(
     }
 
 
-def breakeven_analysis(fixed_costs: float, variable_cost_pct: float) -> Dict[str, float]:
-    """
-    Calculates revenue required to cover fixed overhead and debt service
-    given variable COGS rate.
-    """
-    contribution_margin = 1.0 - variable_cost_pct
-    if contribution_margin <= 0:
-        return {"breakeven_revenue": 0.0, "safety_margin_pct": 0.0}
-    breakeven = fixed_costs / contribution_margin
+def reconcile_sources_and_uses(
+    purchase_price: float,
+    working_capital: float,
+    sba_senior_loan: float,
+    buyer_equity: float,
+    seller_note: float
+) -> Dict[str, Any]:
+    """Calculate total sources vs uses and identify pre-close funding gaps."""
+    total_uses = purchase_price + working_capital
+    total_sources = sba_senior_loan + buyer_equity + seller_note
+    gap = total_uses - total_sources
     return {
-        "variable_cost_pct": round(variable_cost_pct * 100, 1),
-        "contribution_margin_pct": round(contribution_margin * 100, 1),
-        "fixed_costs": round(fixed_costs, 2),
-        "breakeven_revenue": round(breakeven, 2)
+        "total_uses": round(total_uses, 2),
+        "total_sources": round(total_sources, 2),
+        "unfunded_gap": round(gap, 2),
+        "is_balanced": abs(gap) < 0.01
+    }
+
+
+def evaluate_seller_note_cliff(
+    seller_note_principal: float,
+    annual_interest_rate: float,
+    standby_months: int = 24,
+    amortization_years_list: List[int] = [5, 7, 10, 15]
+) -> Dict[str, Any]:
+    """
+    Computes compounding balance over standby period and subsequent monthly/annual
+    debt service under various amortization scenarios starting at Month 25.
+    """
+    standby_years = standby_months / 12.0
+    # Compounded principal at end of standby
+    accrued_balance = seller_note_principal * ((1.0 + annual_interest_rate) ** standby_years)
+    simple_interest_balance = seller_note_principal * (1.0 + annual_interest_rate * standby_years)
+
+    schedules = {}
+    for yrs in amortization_years_list:
+        pmt = calculate_loan_payment(accrued_balance, annual_interest_rate, years=yrs)
+        schedules[f"{yrs}_year"] = {
+            "monthly_payment": pmt["monthly_payment"],
+            "annual_payment": pmt["annual_payment"],
+            "total_interest": pmt["total_interest"]
+        }
+
+    return {
+        "original_principal": seller_note_principal,
+        "accrued_principal_compounded": round(accrued_balance, 2),
+        "accrued_principal_simple": round(simple_interest_balance, 2),
+        "standby_months": standby_months,
+        "amortization_schedules": schedules
     }
 
 
