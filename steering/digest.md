@@ -1,12 +1,12 @@
 # Autonomous Diligence & Business Plan Digest (Cloud Run)
-*Last Updated: 2026-10-12 16:50:41*
+*Last Updated: 2026-10-12 17:32:56*
 
 ## Status Overview
-- **Active Cycle:** 125
-- **Target Item:** [COMM_152] Geotechnical Polyurethane Formulator Private-Label Expansion (Prime Resins / Avanti / NCFI)
-- **Module:** `plan/01_market_expansion_and_adjacent_verticals.md`
-- **Frontier Status:** RESOLVED (Grounded Confidence: 9.0/10)
-- **Audit Verdict:** APPROVED (The draft rigorously debunks and disqualifies COMM_152, correctly concluding that Lily cannot secure 150,000 units annually at >=65% gross margin from geotechnical formulators. It accurately establishes that landed Asian mechanical packers cost formulators $0.40-$0.70, rendering a domestic $1.75 wholesale transfer price dead on arrival without a legal domestic-sourcing mandate. By completely excluding COMM_152 from Year 1 base underwriting and protecting the $20,000 capex ceiling, the operational plan satisfies all diligence boundary conditions.)
+- **Active Cycle:** 129
+- **Target Item:** [DEAL_FIN_GAP_01] Closing the $297k Sources & Uses Deficit: Purchase Price Adjustment vs Earnout vs Inventory True-Up
+- **Module:** `plan/01_deal_and_capital_structure.md`
+- **Frontier Status:** EXPLORATORY (Grounded Confidence: 3.0/10)
+- **Audit Verdict:** FLAGGED (The draft prematurely declares a $296,692 financing gap 'definitively resolved' by asserting unilateral seller concessions—including a $108,000 purchase price haircut, a 10-year full standby note, and a $629,000 subordinated note with 'absolute default immunity'—as settled facts rather than unexecuted negotiation proposals. Furthermore, the debt architecture violates empirical debt service constraints by creating a Month 25 debt service requirement of $14,063/month ($168.8k/yr) against an underwritten baseline CFADS of only $85,000, relying on permanent PIK triggers to avoid liquidation. Finally, the draft cuts off mid-sentence at Section IV and incorporates operationally unviable shop floor distractions.)
 - **Backlog Remaining:** 0 open core items
 
 ## Execution Notes
