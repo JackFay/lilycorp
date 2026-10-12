@@ -451,3 +451,108 @@
 ### Concept: Unilateral $237,092 Purchase Price Haircut Acceptance by Seller
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #146 Audit)
 * **Autopsy:** While economically justified by the $0 contractor resale value and dead stock forensic audit, assuming Bob Trout will passively accept a $237,092 cut to contractual purchase price consideration ($1,012,908 vs $1,250,000) while also placing $53,145 on a 10-year full standby note introduces high deal-fatigue risk unless framed strictly around working capital peg adjustments rather than a headline price attack.
+
+
+### Concept: Inflated Baseline Revenue Hallucination ($1.905M vs. ~$1.0M Historical)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #147 Audit)
+* **Autopsy:** The model assumes normalized Year 1 sales of $1,905,000, rising to $2.155M in Year 3. Historical tax returns and P&L data establish Lily's baseline top-line at roughly $1.0M to $1.1M. Projecting an immediate 80-90% organic top-line expansion in Year 1 without adding sales reps or marketing capex violates empirical diligence constraints and masks catastrophic structural deficits.
+
+
+### Concept: Month 4 Liquidity Inversion and Working Capital Depletion (-$718 Deficit)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #147 Audit)
+* **Autopsy:** Even with an inflated $1.905M revenue profile, the model shows ending cash reserves collapsing from $50,000 to -$718 in Month 4 (April) due to the 45-day AR collection lag colliding with $64,000/month in mandatory fixed outflows. Under true historical revenue levels (~$85,000/month in Q1), the business would face a cash deficit exceeding -$60,000 by April, triggering immediate payroll bounced checks and senior debt default without an operating revolving credit facility.
+
+
+### Concept: Omission of Mandated 15% Downside Stress Test and 36-Month Horizon
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #147 Audit)
+* **Autopsy:** The draft truncates mid-sentence at Month 12, failing to model Months 13 through 36 and failing to calculate the required 15% revenue drop downside scenario. Against the fixed non-negotiable floor of $11,403/month in senior debt and facility lease payments, plus $8,333/month in GM living wages and $35,500/month in shop payroll, a 15% decline on baseline operations would produce negative cash flows every month outside of July and August.
+
+
+### Concept: Unsubstantiated Forensic Balance Sheet Adjustments ($108,218 Credit)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #147 Audit)
+* **Autopsy:** Sources and Uses relies on a $108,218 'Inventory True-Up & Forensic Settlement Credit' for alleged 2024 duplicate debits and references an unfiled '2025 Form 1120-S' tax return loss. Counting unnegotiated, unverified forensic accounting deductions as hard equity sources to close a $1.216M transaction capitalization is speculative deal engineering that no SBA lender will underwrite.
+
+
+### Concept: Omission of 15% Downside Scenario and Under-Capitalized $50k Working Capital Reserve
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #148 Audit)
+* **Autopsy:** The draft avoids modeling the required 15% revenue drop downside scenario because doing so exposes instant insolvency. In the Base Case, the 45-day AR collection lag combined with the Q1 winter trough compresses the starting $50,000 cash cushion to a razor-thin $7,219 in April (Month 4). Under a 15% revenue contraction (Year 1 revenue of $1.59M), Q1 monthly cash receipts would drop below $75,000 while fixed monthly burn remains locked at $67,970, driving cash balances negative by -$22,000 to -$35,000 in Months 3–5 without an active revolving line of credit.
+
+
+### Concept: SBA 7(a) Equity Hallucination ($10k Buyer Cash Equity & $297k Unfunded Gap)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #148 Audit)
+* **Autopsy:** SBA SOP 50 10 7.1 strictly mandates a minimum 10% equity injection for complete change-of-ownership acquisitions ($125,000–$130,000 on this $1.25M–$1.3M transaction). Sourcing only $10,000 in buyer cash equity into purchase consideration (0.8%) while parking $500,000 in seller debt and attempting to unilaterally resolve an unfunded $296,692 pre-close financing gap via an unagreed earnout and inventory write-down will be summarily rejected by any senior SBA underwriter.
+
+
+### Concept: Unrealistic COGS Cash Timing and Working Capital Pre-Buy Mechanics
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #148 Audit)
+* **Autopsy:** The cash flow engine treats variable COGS (43.5%) as perfectly synchronized with monthly revenue, while lagging cash collections by 45 days. In reality, manufacturing injection-molded consumables and machining proportioner pumps for the April/May civil construction surge requires pre-purchasing resin pellets, machined castings, and motors in January, February, and March. Forcing raw material cash outflows prior to spring revenue realization makes the Q1/Q2 cash trough significantly deeper than modeled, exhausting the $50k buffer before April.
+
+
+### Concept: Uncapitalized Day-1 Accounts Receivable Float
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #149 Audit)
+* **Autopsy:** The forecast assumes Jack Fay collects $105,000 in Month 1 (January) and $88,500 in Month 2 from pre-closing sales under a 45-day collection lag. However, the Sources and Uses table contains zero capital allocation to purchase pre-close Accounts Receivable from Bob Trout. In a standard asset sale, the seller sweeps cash and retains existing AR unless explicitly bought out. If Jack Fay begins with zero collected receivables and a 45-day collection lag on January sales ($85k billed), Month 1 cash receipts would be near $0 and Month 2 receipts only ~$42.5k, resulting in immediate Day-60 insolvency against $68k/month in fixed overhead.
+
+
+### Concept: Catastrophic Month 4 Liquidity Trough ($7,219 Cash Cushion)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #149 Audit)
+* **Autopsy:** Even under the author's optimistic Day-1 AR assumption, the April cash balance drops to $7,219. Total monthly cash disbursements in Month 4 equal $137,894. Operating with a $7,219 cushion represents less than 36 hours of operating cash expenses. A single delayed retainage payment from a DOT civil contractor (such as a $20,000 White Cap or Sika invoice extending from 45 to 60 days) or an unexpected injection mold chiller repair would cause an immediate payroll and debt service default.
+
+
+### Concept: Omission of Required 15% Downside Scenario and Underfunded Breakeven
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #149 Audit)
+* **Autopsy:** The prompt mandates stress-testing a 15% revenue drop downside against the $11,403 debt/lease floor and $8,333 GM salary. Baseline breakeven is calculated at $120,300/mo ($1.444M/yr), and $132,064/mo ($1.585M/yr) once the seller note amortizes. In a 15% downside scenario, revenue falls to ~$1.59M/yr, pushing Q1 monthly revenues to $60k-$75k. Without a commercial bank revolving line of credit (revolver), the company suffers cumulative net cash deficits exceeding -$45,000 across Q1/Q2, which wipes out the entire $50k working capital injection before peak summer collections can arrive.
+
+
+### Concept: Unilateral Seller Note Standby and DSCR Covenant Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #149 Audit)
+* **Autopsy:** The plan assumes Bob Trout will agree to a 24-month standby seller note that unilaterally freezes or converts to interest-only ($3,339/mo) whenever corporate DSCR falls below 1.35x, without triggering an event of default. In small-market lower-middle-market transactions, sellers rarely accept perpetual payment freezes tied to operational performance after already deferring principal for 24 months, particularly when Bob's personal retirement income depends on the cash flow.
+
+
+### Concept: Month 3 Arithmetic Error Masking Liquidity Insolvency by Month 4
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #150 Audit)
+* **Autopsy:** In Month 3 (March), cash collections are $88,200 while total cash outflows are $115,644 ($45,675 COGS + $48,233 fixed shop + $19,736 debt/rent/GM + $2,000 capex), producing a net burn of -$27,444. The table erroneously reports net cash flow as -$7,444 (a $20,000 arithmetic fudge). Correcting this error drops the Month 3 ending cash to $4,613. In Month 4, with net burn of -$17,394, the cash buffer hits -$12,781, resulting in immediate insolvency and bounced vendor/payroll checks in April.
+
+
+### Concept: Invented SBA SOP 50 10 Contingent Earnout Structure
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #150 Audit)
+* **Autopsy:** The draft claims the $176k-$188k financing gap can be bridged via a contingent gross-margin earnout 'structured under SBA SOP 50 10 guidelines'. SBA SOP 50 10 7.1 explicitly forbids earnouts where purchase price consideration or seller debt is contingent on future business performance. Sizing an SBA 7(a) senior note while relying on a contingent seller earnout violates PLP underwriting guidelines.
+
+
+### Concept: Truncation and Complete Omission of 36-Month Downside Stress Test
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #150 Audit)
+* **Autopsy:** The submission abruptly terminates at Month 5 ('| **M05** | May | $185,000 | $') without providing the remaining 31 months of the mandatory 36-month horizon. It completely ignores the required 15% revenue contraction downside scenario and fails to model the critical Month 25 cliff when the 24-month seller note standby interest and amortization expire.
+
+
+### Concept: Commercially Ungrounded Working Capital Peg & Inventory Write-Down
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #150 Audit)
+* **Autopsy:** The plan assumes Bob Trout will absorb a $108,000–$120,000 purchase price haircut for legacy dead inventory while simultaneously delivering $680,000 in pristine Net Working Capital ($165,000 in unencumbered trade AR and $515,000 in clean inventory) with zero trade payables transferred. Demanding the seller deliver over 54% of enterprise value in liquid NWC while taking a six-figure price cut and a standby subordinated note without verified agreement is wishful negotiation modeling.
+
+
+### Concept: Non-Compliant SBA 7(a) Equity Injection ($10k on $1.3M Project)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #151 Audit)
+* **Autopsy:** Under SBA SOP 50 10 (7.1), a complete change of ownership requires a minimum 10% equity injection ($130,000 on a $1.30M total project cost). Seller debt on full standby can satisfy a maximum of half of this requirement (50% of the 10%, or $65,000), meaning the buyer must inject at least $65,000 of unencumbered cash directly into the purchase price consideration. Modeling $10,000 buyer cash equity into the purchase and reserving $50,000 as unencumbered balance-sheet cash is an immediate underwriting rejection for an SBA PLP lender.
+
+
+### Concept: One-Sided Seller Subordination and Working Capital Gifting
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #151 Audit)
+* **Autopsy:** The financing gap resolution presumes Bob Trout will absorb a $108,000–$120,000 inventory write-down dollar-for-dollar against the purchase price, expand subordinated seller debt to $688,000, hand over $165,000 in collectible AR with zero vendor payables, and accept a covenant allowing Jack Fay to unilaterally freeze note payments if DSCR drops below 1.35x without triggering default. This assumes unprecedented seller capitulation without contractual leverage.
+
+
+### Concept: Truncated 36-Month Forecast and Omitted 15% Downside Stress Test
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #151 Audit)
+* **Autopsy:** The submission fails to provide the required 36-month forecast, truncating mid-table at Month 2. It completely omits the mandatory 15% revenue contraction downside scenario across Midwest winter freeze periods (Q1 sub-40°F curing halts), leaving the debt service floor ($11,403.04/month) and GM salary ($8,333.33/month) unmodeled against genuine liquidity stress.
+
+
+### Concept: Unfunded $292k Capital Gap & Unilateral Inventory Haircut
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #152 Audit)
+* **Autopsy:** The Sources & Uses lists $1.30M in uses against only $1.008M in identified sources. Bridging this $291,692 gap by unilaterally mandating a $108k–$120k 'forensic inventory deduction' dollar-for-dollar off Bob Trout's purchase price and forcing him to carry the rest in standby paper assumes the seller will accept a massive equity haircut without walking from the table or re-trading the entire transaction.
+
+
+### Concept: Day 1 Liquidity Solvency Dependent on Seller-Donated AR
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #152 Audit)
+* **Autopsy:** With a structural monthly cash breakeven of $120,299.82 and Q1 winter revenues dropping to $70,000–$95,000, Lily burns ~$30,000–$35,000 in net cash per month in January, February, and March. The business survives only because the plan assumes Bob Trout hands over $165,000 in pre-close accounts receivable for Day 1 collections while personally clearing all accounts payable. In a standard asset sale where the seller retains closing AR to pay off legacy liabilities, the buyer's $50,000 cash buffer runs completely dry by mid-February.
+
+
+### Concept: Incomplete Forecast Model & Missing Downside Stress Test
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #152 Audit)
+* **Autopsy:** The submission terminates mid-sentence at the Year 1 cash flow table header and completely omits the required monthly 36-month schedules and the mandatory 15% revenue drop downside scenario required to demonstrate senior debt and lease covenant compliance.
