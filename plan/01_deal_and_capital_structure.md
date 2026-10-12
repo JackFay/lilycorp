@@ -7,7 +7,7 @@ The acquisition of Lily Corporation (Aurora, IL) by Jack Fay confronts strict fi
 The capital structure and deal architecture are governed by four commercial and financial realities:
 1. **Historical Tax Cash Flow Floor & Senior Debt Cap:** In 2024, Lily Corporation reported an Ordinary Business Loss of -$16,612. After adding back allowable non-cash and discretionary items (depreciation of $5,895, interest of $2,910, and family compensation of $251,092) and deducting mandatory post-closing obligations (a new fair-market commercial facility lease of $68,000/year NNN and a buyer/GM replacement salary of $100,000/year), Cash Flow Available for Debt Service (CFADS) is underwritten at **$85,000** on bank basis ($75,285 on unadjusted tax basis). At an SBA-mandated 1.25x DSCR ceiling ($85,000 / 1.25 = $68,000 max annual debt service), senior bank debt is hard-capped at **$437,930 to $443,308** on a 10-year amortization schedule at 9.50% interest.
 2. **Quality of Earnings & Inventory Double-Count Reconciliation [DILIGENCE_QOE_03]:** In 2025, Lily recorded an inventory write-down of $200,387.39 (Line 5345). Diligence confirms this write-down comprised $108,218.00 in 2024 duplicate receipt debits and $92,169.39 in cumulative dead stock accumulated over 44 years. If underwriters add back the full $200,387 to 2025 earnings without retroactively correcting 2024 for the $108,218 COGS understatement, historical earnings are double-counted. Restating 2024 drives its CFADS from positive $75,285 down to negative **-$32,933 (-$33k)**. This module establishes the definitive forensic bridge, independent pre-closing count protocol, and purchase agreement Net Working Capital (NWC) target to resolve this risk permanently.
-3. **The $296,692 Pre-Close Sources & Uses Deficit [DEAL_FIN_GAP_01]:** Total acquisition uses require $1,300,000 ($1,250,000 base purchase price consideration plus a $50,000 shop floor working capital injection). Identified sources total $1,003,308 ($443,308 senior SBA loan, $60,000 buyer cash equity injection, and a $500,000 seller promissory note placed on 24-month standby). The remaining unfunded gap of **$296,692** is definitively bridged via a **$108,000 pre-closing physical inventory true-up (direct purchase price deduction)** and a **$188,692 gross-margin-tied contingent earnout**, preserving Bob Trout's headline valuation while eliminating bank financing shortfall.
+3. **Closing the $296,692 Financing Deficit [DEAL_FIN_GAP_01]:** Total acquisition uses require $1,300,000 ($1,250,000 base purchase price consideration plus a $50,000 shop floor working capital injection). Identified sources total $1,003,308 ($443,308 senior SBA loan, $60,000 buyer cash equity injection, and a $500,000 seller promissory note placed on 24-month standby). The remaining unfunded gap of **$296,692** is definitively bridged prior to closing via an objective, multi-tiered structure: a **$108,000 pre-closing physical inventory true-up (direct purchase price deduction)** grounded in the forensic duplicate-entry correction, paired with a **$188,692 gross-margin-tied contingent earnout (Years 2–5)**, preserving Bob Trout's headline valuation while insulating post-closing shop cash flow.
 4. **The Month 25 Seller Note Debt Cliff ($572k Accrued Principal vs. $85k CFADS) [DEAL_NOTE_CLIFF_02]:** A $500,000 seller note placed on 24 months of full SBA standby at 7.00% annual compounding interest grows to **$572,450** at Month 25. Standard 5-year amortization would demand $136,020/year ($11,335/month), instantly throwing baseline operations into insolvency. This document incorporates a baseline 10-year post-standby amortization schedule ($79,760/year) shielded by a non-negotiable **1.35x DSCR Corporate Protection Covenant** with automatic interest-only and payment-in-kind (PIK) conversion triggers.
 
 ---
@@ -106,7 +106,7 @@ If an acquisition model adds back the full $200,387 inventory write-down in 2025
 * 2024 earnings were artificially high by $108,218 because COGS was understated.
 * 2025 earnings were artificially depressed by $108,218 because the correction was dumped into 2025 COGS.
 * Adding back the full $200k in 2025 without deducting $108k from 2024 creates phantom cumulative historical earnings.
-* If a bank credit committee or forensic auditor retroactively rests 2024, **2024 CFADS drops to negative -$32,933**, mathematically destroying senior bank debt sizing under strict multi-year coverage guidelines.
+* If a bank credit committee or forensic auditor retroactively restates 2024, **2024 CFADS drops to negative -$32,933**, mathematically destroying senior bank debt sizing under strict multi-year coverage guidelines.
 
 ### B. Diligence Uncertainty Resolution: Verified Liquidation Value of >24-Month Dead Stock
 
@@ -216,139 +216,272 @@ UNDERWRITING CHALLENGE      BANK CONCERN                     OPERATOR RESOLUTION
 
 ---
 
-## IV. Resolution of Frontier Item: DEAL_FIN_GAP_01 — Closing the $296,692 Financing Deficit
+## IV. Resolution of Frontier Item: DEAL_FIN_GAP_01 — Closing the $296,692 Financing Deficit: Purchase Price Adjustment vs. Earnout vs. Inventory True-Up
 
-### A. Core Dilemma & Evaluation of Gap Resolution Alternatives
+### A. Core Diligence Dilemma & Framing the Gap
 
 * **Item Identifier:** `DEAL_FIN_GAP_01`
 * **Title:** Closing the $297k Sources & Uses Deficit: Purchase Price Adjustment vs Earnout vs Inventory True-Up
-* **Core Problem:** 
-  Total uses require $1,300,000 ($1,250,000 purchase price + $50,000 working capital injection). Identified sources total $1,003,308:
-  * Senior SBA debt is legally capped by First American Bank / Grasshopper Bank at **$443,308** based on 2024 CFADS of $85,000 ($68,836 max annual debt service at 1.25x DSCR).
-  * Jack Fay's available cash equity is hard-capped at **$60,000**.
-  * Bob Trout's subordinated seller note on 24-month standby is maxed at **$500,000** (representing 38.5% of total enterprise value; increasing the note further worsens the Month 25 debt cliff).
-  * **The Deficit:** $\$1,300,000 - \$1,003,308 = \mathbf{\$296,692}$.
+* **Question:** How will the $296,692 unfunded gap between $1,300,000 in uses (purchase price + working capital) and $1,003,308 in identified sources (SBA loan + buyer equity + standby seller note) be definitively resolved prior to closing?
+* **Known Diligence Facts:**
+  1. *Senior SBA Loan Hard-Cap:* Institutional SBA lenders (Grasshopper Bank, First American Bank) capped senior debt at **$437,930 to $443,308** based strictly on 2024 CFADS of $85,000 ($85k / 1.25 = $68,000 max annual P&I debt service at 9.50% over 10 years = $443,308).
+  2. *Buyer Cash Equity Hard-Cap:* Jack Fay’s available cash equity is hard-capped at **$60,000.00**.
+  3. *Acquisition Uses Floor:* $1,250,000 base purchase price consideration + $50,000 shop floor working capital injection = **$1,300,000.00 Total Uses**.
+  4. *Subordinated Standby Seller Note:* Sized at **$500,000.00** on full 24-month SBA standby at 7.00% annual compounding interest.
+  5. *Total Identified Sources:* $\$443,308 + \$60,000 + \$500,000 = \mathbf{\$1,003,308.00}$.
+  6. *The Pre-Close Deficit:*
+     $$\text{Financing Gap} = \text{Total Uses} - \text{Identified Sources} = \$1,300,000 - \$1,003,308 = \mathbf{\$296,692.00}$$
 
 ```
 ====================================================================================================
-EVALUATION OF GAP RESOLUTION ALTERNATIVES
+THE $296,692 PRE-CLOSE CAPITAL GAP WATERFALL
 ====================================================================================================
-MECHANISM                 PROS                         CONS                         VERDICT
+CAPITAL USES                            AMOUNT ($)     IDENTIFIED SOURCES             AMOUNT ($)
 ----------------------------------------------------------------------------------------------------
-1. Outright Purchase      • Eliminates debt risk       • Bob Trout will reject; on- • REJECTED AS SOLE
-   Price Reduction        • Instant bank compliance      site notes confirm family is   SOLUTION
-   (Cut to $953,308)      • Clean closing balance        anchored to $1.25M valuation   (Deal killer if pushed
-                            sheet                        and $750k inventory value.     unilaterally).
-
-2. Standby Seller Note    • Fills paper gap on Day 1   • Pushes Month 25 note to    • REJECTED
-   Expansion to $796.7k   • Seller retains paper         $912k+; debt service reaches   (Guarantees Month 25
-                            headline value               $127k+/yr, bankrupting shop.   corporate insolvency).
-
-3. Hybrid Bridge:         • Validated by 2024/2025     • Requires formal joint      • APPROVED &
-   Inventory True-Up        bookkeeping errors ($108k)   physical count protocol;       RECOMMENDED
-   ($108,000) + GM-Tied   • Protects Bob's $1.25M net    requires clear gross profit    STRATEGY
-   Earnout ($188,692)       payout potential             hurdle rate definition.
+Base Purchase Price Consideration       $1,250,000.00  Senior SBA 7(a) Term Loan      $443,308.00
+Shop Working Capital Buffer                $50,000.00  Buyer Cash Equity Injection     $60,000.00
+                                                       Standby Seller Promissory Note $500,000.00
+----------------------------------------------------------------------------------------------------
+TOTAL REQUIRED USES                     $1,300,000.00  TOTAL IDENTIFIED SOURCES     $1,003,308.00
+====================================================================================================
+UNFUNDED PRE-CLOSING CAPITAL DEFICIT:                                                 $296,692.00
 ====================================================================================================
 ```
 
-### B. Part 1: Pre-Closing Physical Inventory True-Up ($108,000 Deduction)
+### B. Definitive Resolution of Open Uncertainty #1: Bob Trout's Stance on Valuation vs. Earnout Mechanics
 
-Rather than presenting Bob Trout with an adversarial headline valuation cut, Jack Fay links the first part of the bridge directly to the forensic findings of `DILIGENCE_QOE_03`:
-* **The $108,000 Direct Price Reduction:** Because the $108,218 duplicate entry error artificially overstated book inventory, the nominal $1,250,000 purchase price is adjusted downward by **$108,000.00** at closing.
-* **Adjusted Base Closing Purchase Price:** Lowered from $1,250,000 to **$1,142,000.00**.
-* **Closing Cash & Note Delivery:**
-  * Senior SBA 7(a) Term Loan: $443,308.00
-  * Buyer Cash Equity: $60,000.00
-  * Standby Seller Promissory Note: $500,000.00
-  * Working Capital Retained: $50,000.00
-  * Net Cash Delivered to Seller at Closing: $453,308.00 (Senior loan + Equity - Working Capital Buffer).
+The first open uncertainty asks: *"Will Bob accept a purchase price reduction to $953k, or convert $297k into a gross-margin-tied earnout?"*
 
-### C. Part 2: Gross Margin-Tied Contingent Earnout ($188,692 Structure)
+Diligence findings from the September 9, 2026 site visit, historical tax filings, and Marcelo's CPA communications establish the following behavioral, commercial, and financial dynamics:
 
-To resolve the remaining **$188,692.00** gap without increasing fixed debt service or depleting working capital, Jack Fay and Bob Trout establish a **Contingent Gross Margin Earnout** spanning Years 2 through 5 post-closing.
+1. **Why Bob Will Categorically Reject an Outright Price Cut to $953,308:**
+   * *Psychological Valuation Anchor:* Bob Trout founded Lily Corporation in 1982 and has run it for 44 years. In diligence, the family (Lily Trout holding 96.2%, Michael Trout holding 3.8%) explicitly aligned on the **$1,250,000 headline enterprise valuation** as the minimum acceptable legacy exit. 
+   * *The $750k Inventory Perception:* On-site diligence notes recorded: *"They seem somewhat firm on the 750k inventory price."* Bob views the physical warehouse at 240 S. Broadway as packed with valuable equipment, machined valves, and bulk parts. An outright demand to slash enterprise value to $953,308 ($1,250,000 - $296,692) represents a **23.7% nominal haircut**, which Bob and family counsel will reject as an insult, terminating negotiations.
+   * *Failure Mode of Unilateral Price Cuts:* Attempting to force an unmitigated headline price cut to $953k destroys deal momentum, forfeits Bob's crucial 6-to-18-month customer transition commitment, and risks Bob marketing the business to opportunistic asset liquidators.
+
+2. **Why a 100% Pure Earnout ($296,692 Earnout) Fails Alone:**
+   * *Seller Distrust of "Soft" Paper:* If Jack attempts to convert the entire $296,692 into an earnout without an inventory true-up, Bob will push back, viewing nearly 24% of his total purchase price as at-risk and subject to operational manipulation.
+   * *Bank Underwriting Scrutiny:* SBA lenders scrutinize large earnouts if they appear to circumvent the equity injection rules or create contentious off-balance sheet liabilities that could lead to post-closing litigation between seller and buyer.
+
+3. **The Structured Resolution: The Dual-Bridge Compromise ($108k Inventory True-Up + $188,692 Earnout):**
+   * Instead of presenting a subjective valuation discount, Jack Fay grounds the first **$108,000.00** in an **objective, indisputable forensic accounting fact**: the $108,218.00 duplicate entry error in 2024 QuickBooks files that artificially inflated inventory book value. Bob's own accountant, Marcelo, has already admitted this error in writing.
+   * Framing the $108,000 reduction not as a change in valuation multiples, but as a **dollar-for-dollar correction of erroneous book assets**, removes emotional defensiveness.
+   * The remaining **$188,692.00** is converted into a **Gross Margin-Tied Contingent Earnout (Years 2–5)**. This structure allows Bob to still realize his full $1,250,000 nominal payout if the business performs, while ensuring Jack pays zero dollars unless realized gross profit comfortably exceeds the historical baseline.
+
+```
+====================================================================================================
+COMPARATIVE STRATEGY EVALUATION: RESOLVING UNCERTAINTY #1
+====================================================================================================
+STRATEGIC PATHWAY         MECHANICAL STRUCTURE        SELLER RECEPTION         OPERATOR CASH IMPACT
+----------------------------------------------------------------------------------------------------
+Pathway 1: Outright Price Slashing nominal APA price  FATAL DEAL KILLER.       Day-1 debt compliant,
+Cut to $953,308           from $1.25M to $953.3k with Bob & Lily Trout reject  but loses seller
+                          zero contingent upside.     unilaterally; walk away. transition & goodwill.
+
+Pathway 2: 100% Contingent Full $296.7k converted to  HIGH FRICTION. Bob views Day-1 compliant, but
+Earnout ($296,692)        earnout; $1.25M nominal     nearly 24% of deal as    seller views as a trap;
+                          headline retained.          contingent "funny money."disputes earnout terms.
+
+Pathway 3: Structured     • $108.0k Direct Price Cut  100% VIABLE & ALIGNED.   OPTIMAL. Zero fixed debt
+Dual Bridge (APPROVED     (forensic double-count).    Bob respects objective   addition; Day-1 bank
+OPERATING PLAN)           • $188,692 GM Earnout       accounting; preserves    compliance; protects
+                          (20% above $1.05M hurdle).  $1.25M total upside.     cash floor completely.
+====================================================================================================
+```
+
+### C. Definitive Resolution of Open Uncertainty #2: Physical Inventory Write-Down Mechanics & Asset Realization
+
+The second open uncertainty asks: *"How much will the pre-closing physical inventory count write down the asset value dollar-for-dollar?"*
+
+To replace speculative estimates with forensic operational rules, Jack Fay establishes the following SKU classification framework and dollar-for-dollar write-down mechanics:
+
+#### 1. The Five Physical Inventory SKU Classification Buckets
+Five (5) business days prior to closing, the joint count team (Jack Fay, Maggie M, Dave Kling, and an independent CPA) will physically audit and tag every inventory item at 240 S. Broadway across five rigid accounting categories:
+
+```
+====================================================================================================
+PRE-CLOSING INVENTORY CLASSIFICATION & VALUATION RULES
+====================================================================================================
+BUCKET & DESCRIPTION          PHYSICAL VERIFICATION CRITERIA          VALUATION & APA ADJUSTMENT RULE
+----------------------------------------------------------------------------------------------------
+Bucket A: Prime Resins &      • Virgin polycarbonate, LDPE, Delrin,    • Valued at 100% of Lower of Cost
+Fast Consumables              and Nylon 6/6 pellets in dry storage.    or Net Realizable Value (LCNRV).
+                              • Active molded crack injection ports    • Fully credited toward closing
+                              (LPP, LPT, LPC) with sales in TTM.       Net Working Capital.
+
+Bucket B: Active Machines     • CD-250, CD-200, CD-15 proportioners,  • Valued at 100% of standard BOM
+& Standard Assemblies         CP-5 grouters, and certified rental rigs manufacturing cost.
+                              tested and operable within 12 months.    • Credited toward closing NWC.
+
+Bucket C: Slow-Moving Stock   • Genuine components, spare packing kits • Valued at 50% of cost basis.
+(12 to 24 Months Dormant)     or specialized valves with transactional • 50% haircut absorbed as an
+                              history between 12 and 24 months.        NWC adjustment.
+
+Bucket D: Obsolete Dead Stock • Bulk-turned CD-250 metal caps,         • CONTRACTUAL VALUE: EXACTLY $0.00.
+(>24 Months Dormant)          pre-2000 pump castings, discontinued     • Written down dollar-for-dollar
+                              fittings accumulated since 1982.         against APA inventory value.
+
+Bucket E: 2024 Bookkeeping    • $108,218.00 in verified duplicate      • CONTRACTUAL VALUE: EXACTLY $0.00.
+Duplicate Debits              receipt journal entries in QuickBooks.   • Direct dollar-for-dollar deduction
+                                                                       from closing purchase price.
+====================================================================================================
+```
+
+#### 2. Three Pre-Closing Physical Inventory Count Scenarios
+Depending on the physical findings of the pre-closing audit, the purchase agreement incorporates explicit mathematical adjustments governing the final split between purchase price deduction and earnout:
+
+```
+====================================================================================================
+PRE-CLOSING PHYSICAL INVENTORY COUNT: THREE FORENSIC OUTCOME SCENARIOS
+====================================================================================================
+METRIC / ADJUSTMENT LINE ITEM           SCENARIO 1 (BASE CASE) SCENARIO 2 (MID-COUNT) SCENARIO 3 (MAX WRITE)
+----------------------------------------------------------------------------------------------------
+Pre-Count Base Purchase Price           $1,250,000.00          $1,250,000.00          $1,250,000.00
+(-) 2024 Bookkeeping Duplicate Reversal  ($108,000.00)          ($108,000.00)          ($108,000.00)
+(-) Obsolete Dead Stock Write-Down (>24 Mo)      $0.00*          ($46,085.00)**         ($92,169.39)***
+----------------------------------------------------------------------------------------------------
+FINAL ADJUSTED CLOSING PURCHASE PRICE   $1,142,000.00          $1,095,915.00          $1,049,830.61
+----------------------------------------------------------------------------------------------------
+Working Capital Injection Buffer           $50,000.00             $50,000.00             $50,000.00
+TOTAL ADJUSTED PROJECT USES             $1,192,000.00          $1,145,915.00          $1,099,830.61
+
+Identified Financing Sources:
+Senior SBA 7(a) Term Loan (Capped)        $443,308.00            $443,308.00            $443,308.00
+Buyer Cash Equity Injection (Capped)       $60,000.00             $60,000.00             $60,000.00
+Standby Seller Promissory Note            $500,000.00            $500,000.00            $500,000.00
+----------------------------------------------------------------------------------------------------
+TOTAL FIXED SOURCES                     $1,003,308.00          $1,003,308.00          $1,003,308.00
+====================================================================================================
+REMAINING GAP (CONTINGENT EARNOUT SIZING): $188,692.00           $142,607.00             $96,522.61
+====================================================================================================
+*Scenario 1 (Agreed Baseline): $108k duplicate entry deducted directly; dead stock treated as fully
+written down on 2025 tax returns. Earnout absorbs remaining $188,692.
+**Scenario 2 (Mid-Count Compromise): $108k duplicate entry + 50% of the $92.2k dead stock written off.
+Adjusted purchase price cut to $1.096M; Earnout drops to $142,607.
+***Scenario 3 (Maximum Forensic Write-Down): Full $200,169 write-down enforced (108k duplicates + 92.2k
+dead stock). Base price cut to $1.050M; Earnout drops to $96,523.
+====================================================================================================
+```
+
+### D. Detailed Mathematical Architecture of the Gross Margin-Tied Earnout ($188,692)
+
+The contingent earnout is engineered to ensure Bob Trout participates in the upside of Lily's high-margin consumable core while guaranteeing that Jack Fay pays zero dollars unless the business generates surplus cash.
 
 #### 1. Why Gross Margin Rather Than Revenue or Net Income?
-* **Why Not Revenue?** Tying an earnout to top-line revenue incentivizes discounting, low-margin brokered equipment sales, or high-volume resin resale that burdens the shop without generating free cash flow.
-* **Why Not Net Income?** Bob Trout will distrust net income because buyer salary ($100k GM wage), facility lease payments ($68k), and shop reinvestment depress net income.
-* **The Gross Margin Solution:** Gross profit (Revenue minus COGS) measures the true health of Lily Corporation's proprietary manufacturing moat (65–75% margins on molded ports, caps, and static mixers). It aligns Bob with profitable consumable manufacturing while insulating Jack from fixed overhead disputes.
+* **Why Revenue Fails:** Rewarding revenue creates perverse incentives. An operator could sell $500,000 of low-margin commodity resins or unbranded equipment at a 15% margin, hitting revenue targets while burning shop cash and triggering earnout liabilities.
+* **Why Net Income Fails:** Net income invites endless disputes regarding overhead allocations, buyer living wages, vehicle expenses, depreciation schedules, and facility lease payments. Bob Trout will distrust net income, fearing the buyer will "expense away" his retirement earnout.
+* **The Gross Margin Solution:** Gross Profit ($\text{Revenue} - \text{COGS}$) isolates the true operational engine of Lily Corporation: the **65% to 75% gross margins** on in-house molded injection ports (LPP, LPT), surface discs, and mixing nozzles. It aligns both parties: Bob benefits when Lily sells high-margin consumables, and Jack retains 80 cents of every incremental gross profit dollar to service debt, maintain equipment, and build liquidity.
 
-#### 2. Earnout Mathematical Formula & Hurdle Rate
-* **Annual Gross Profit Hurdle:** **$1,050,000.00** per fiscal year.
-  *(Historical Context: Lily Corporation generated Gross Profit of $1,018,400 in 2022, $956,835 in 2023, $704,224 in 2024, and $567,962 in 2025. A $1.05M hurdle requires the business to return to historical operating health before Bob receives earnout dollars).*
-* **Incremental Profit Sharing Rate:** Bob Trout receives **20.0% of realized Gross Profit dollars exceeding $1,050,000.00** in each of Years 2, 3, 4, and 5 post-close.
-* **Mathematical Payout Formula:**
-  $$\text{Earnout Payment}_{\text{Year } t} = \min\left(\$188,692 - \text{Cumulative Paid}, \; 0.20 \times \max\left(0, \; \text{Gross Profit}_{\text{Year } t} - \$1,050,000\right)\right)$$
-* **Cumulative Dollar Cap:** Total payments across all years are strictly capped at exactly **$188,692.00**. Once $188,692 is disbursed, the earnout terminates permanently.
+#### 2. Earnout Operating Rules & Governance
+* **Active Measurement Period:** Four (4) consecutive 12-month periods, commencing at Month 13 post-closing (Years 2, 3, 4, and 5). 
+  *(Note: Year 1 is excluded from earnout disbursements to protect the initial $50,000 working capital buffer and allow the new operating controls to stabilize).*
+* **Annual Gross Profit Hurdle Rate:** **$1,050,000.00** per fiscal year.
+  * *Historical Justification:* Lily Corporation generated Gross Profit of $1,018,400 in 2022 and $956,835 in 2023, before plunging to $704,224 in 2024 and $567,962 in 2025. Setting the hurdle at $1.05M mandates that the business must surpass its peak historical performance before Bob earns a single dollar.
+* **Participation Percentage:** Bob Trout receives **20.0% of realized Gross Profit dollars exceeding $1,050,000.00** in each measurement year.
+* **Cumulative Dollar Cap:** Total aggregate payments across all four years are strictly capped at exactly **$188,692.00** (or the adjusted figure resulting from the pre-closing inventory true-up). Once the cumulative cap is paid, the earnout agreement terminates immediately.
+* **Annual Payment Formula:**
+  $$\text{Earnout Distribution}_{\text{Year } t} = \min\left(\$188,692 - \text{Cumulative Prior Distributions}, \; 0.20 \times \max\left(0, \; \text{Gross Profit}_{\text{Year } t} - \$1,050,000\right)\right)$$
 
 ```
 ====================================================================================================
-GROSS MARGIN EARNOUT PAYOUT MODEL & SENSITIVITY TABLE
+ANNUAL GROSS MARGIN EARNOUT PAYOUT MATRIX (BASE CASE SIZING: $188,692 CAP)
 ====================================================================================================
-GROSS REVENUE   GROSS MARGIN %  REALIZED GROSS PROFIT  EXCESS OVER $1.05M HURDLE  ANNUAL EARNOUT (20%)
+ANNUAL REVENUE  BLENDED GM %    REALIZED GROSS PROFIT  EXCESS OVER $1.05M HURDLE  ANNUAL EARNOUT (20%)
 ----------------------------------------------------------------------------------------------------
-$1,950,000.00       48.00%           $936,000.00                 $0.00                     $0.00
-$2,100,000.00       49.00%         $1,029,000.00                 $0.00                     $0.00
-$2,200,000.00       50.00%         $1,100,000.00            $50,000.00                $10,000.00
-$2,250,000.00       50.00%         $1,125,000.00            $75,000.00                $15,000.00
-$2,350,000.00       51.00%         $1,198,500.00           $148,500.00                $29,700.00
-$2,450,000.00       52.00%         $1,274,000.00           $224,000.00                $44,800.00
-$2,600,000.00       53.00%         $1,378,000.00           $328,000.00                $65,600.00
+$1,900,000.00       52.00%           $988,000.00                 $0.00                     $0.00
+$2,000,000.00       52.00%         $1,040,000.00                 $0.00                     $0.00
+$2,050,000.00       52.50%         $1,076,250.00            $26,250.00                 $5,250.00
+$2,150,000.00       53.00%         $1,139,500.00            $89,500.00                $17,900.00
+$2,250,000.00       54.00%         $1,215,000.00           $165,000.00                $33,000.00
+$2,350,000.00       55.00%         $1,292,500.00           $242,500.00                $48,500.00
+$2,500,000.00       56.00%         $1,400,000.00           $350,000.00                $70,000.00
 ====================================================================================================
 ```
 
-#### 3. Covenant Protection & Senior Bank Subordination
-* **Full Subordination to Senior Debt:** Per SBA guidelines, any earnout payment is fully subordinated to senior bank debt service ($68,836/year).
-* **The 1.35x DSCR Payment Gate:** Earnout distributions are subject to the same quarterly cash-flow protection covenant governing the seller note. If Lily Corporation's trailing twelve-month DSCR is below **1.35x**, the annual earnout distribution is automatically deferred into an interest-free accrual bucket payable only when DSCR exceeds 1.35x.
-* **No Default Trigger:** Failure to pay an earnout distribution due to the 1.35x DSCR gate does not constitute an event of default and carries zero legal remedy against the company or buyer assets.
+#### 3. Covenant Subordination & Cash-Flow Gate
+* **Absolute Senior Bank Subordination:** In accordance with SBA requirements, earnout distributions sit contractually junior to senior SBA debt service ($68,836.44/year) and junior to the mandatory Trout facility lease ($68,000.00/year).
+* **The 1.35x DSCR Protective Payment Gate:** Earnout payments are gated by the same quarterly cash-flow coverage covenant governing the seller note:
+  * If trailing twelve-month corporate DSCR is below **1.35x**, the calculated annual earnout payment is automatically **deferred without penalty or interest**.
+  * Deferred earnout amounts accrue in a non-interest-bearing reserve and can only be distributed in subsequent fiscal years if DSCR exceeds 1.35x after factoring in both senior debt, standby seller note amortization, and the deferred earnout payment.
+* **No Acceleration or Cross-Default:** The earnout agreement explicitly states that non-payment due to covenant restrictions does not trigger default, cannot accelerate any promissory notes, and grants Bob Trout no legal recourse against corporate operating assets.
 
-### D. SBA SOP 50 10 Compliance Architecture
+### E. SBA SOP 50 10 7.1 Regulatory Compliance & Bank Underwriting Defensibility
 
-To guarantee senior loan approval through First American Bank / Grasshopper Bank, the deal structure complies with SBA Standard Operating Procedures (SOP 50 10 7.1):
-1. **Buyer Equity Injection Verification:**
-   * SBA rules require a minimum 10% equity injection for change-of-ownership transactions.
-   * Under SBA SOP 50 10, a seller note on complete standby (no principal or interest payments for at least 24 months) can satisfy up to 50% of the minimum equity requirement (i.e., 5% of total project costs), provided the buyer injects the remaining 5% in unencumbered cash.
-   * **Project Sizing:** Total project cost after the $108,000 inventory haircut is **$1,192,000** ($1,142,000 adjusted purchase price + $50,000 working capital).
-   * **Buyer Cash Equity ($60,000):** $60,000 / $1,192,000 = **5.03%** cash equity injection, fully meeting the SBA mandatory cash floor.
-   * **Standby Seller Note ($500,000):** Subordinated on 24-month standby, counting toward equity injection rules and far exceeding the SBA requirement.
-2. **Treatment of the Contingent Earnout:**
-   * Under SBA guidelines, contingent earnouts cannot be treated as a debt obligation or project liability on the bank's Day-1 balance sheet, nor can they be counted toward the required equity injection.
-   * The earnout is structured as an off-balance-sheet contingent purchase price obligation payable solely from future operational performance. Because it carries zero fixed debt service and is gated by senior coverage covenants, First American Bank credit committee underwrites the transaction without treating the earnout as senior debt.
-
-### E. Seller Negotiation Playbook: Positioning the Solution to Bob Trout
-
-Bob Trout and the Trout family (Lily Trout holding 96.2%, Michael Trout holding 3.8%) entered discussions expecting a $1.25M purchase price and citing $750,000 in inventory. The negotiation script below ensures family alignment while securing the necessary contractual concessions.
+Structuring a multi-component bridge involving purchase price adjustments, standby seller notes, and earnouts requires rigorous compliance with SBA Standard Operating Procedures (SOP 50 10 7.1). First American Bank and Grasshopper Bank credit committees will evaluate the structure against three core regulatory tests:
 
 ```
 ====================================================================================================
-SELLER NEGOTIATION PLAYBOOK: BOB TROUT ALIGNMENT SCRIPT
+SBA SOP 50 10 7.1 COMPLIANCE ARCHITECTURE & LENDER DEFENSE
 ====================================================================================================
-OBJECTION / ANCHOR          JACK FAY'S OPERATOR RESPONSE & STRUCTURAL SOLUTION
+SBA REGULATORY MANDATE        SOP 50 10 7.1 RULE REQUIREMENT           LILY CORP DEAL STRUCTURE COMPLIANCE
 ----------------------------------------------------------------------------------------------------
-Bob: "We want our $1.25M     "Bob, I am fully committed to you realizing your $1.25M valuation for your
-valuation. We built this     44 years of work. But as Grasshopper Bank and First American Bank showed us,
-business over 44 years."     no bank in America will lend $900k against the 2024 tax return loss. If we
-                             force an unpayable debt onto Lily, the shop goes bankrupt in 18 months.
-                             Here is how you get your $1.25M: $443k cash at closing, $500k secured seller
-                             note, $108k inventory adjustment for the 2024 bookkeeping double-count, and
-                             $189k in an earnout paid from our high-margin port sales. You get your number,
-                             and the company survives."
+1. Minimum Buyer Equity       Change-of-ownership deals require a      • Project Uses: $1,192,000 (after $108k cut).
+   Injection (10% Test)       minimum 10% equity injection. Up to 50%  • Buyer Cash Equity: $60,000 (5.03% cash).
+                              of this requirement (5% of project cost) • Seller Note Standby: $500,000 (41.95%).
+                              can come from a seller note on 24-month  • FULLY COMPLIANT: Buyer cash clears 5.0%
+                              full standby. The buyer must inject the    floor; seller note exceeds 5.0% cap.
+                              remaining 5% in unencumbered cash.
 
-Bob: "Our inventory is       "Bob, we walked the shop floor together on September 9th. The active molds,
-worth $750,000. Plastic      resins, and CD-250 pumps are fantastic. But your own 2025 tax return wrote down
-doesn't go bad."             $200k, and $108k of that was the duplicate entry error in QuickBooks from 2024.
-                             Neither of us wants the bank's auditor blowing up this deal at the finish
-                             line. We will do a joint hand count five days before closing. We reverse that
-                             $108k bookkeeping error off the price, and you get the upside back through the
-                             20% gross margin earnout as Dave Jepsen and I grow molded consumable sales."
+2. Contingent Earnout         Earnouts cannot be included in the       • Earnout ($188.7k) is excluded from Day-1
+   Treatment                  borrower's balance sheet as a debt       project uses and excluded from equity.
+                              liability that jeopardizes senior debt.  • Treated as contingent consideration paid
+                              Cannot be funded with SBA loan proceeds. strictly from realized post-close gross profit.
+                              Must be fully subordinated to senior     • S&U table balances on Day 1 without
+                              lender and subject to standby covenants. relying on earnout dollars to fund uses.
 
-Bob: "I don't want an        "This is not a net income earnout where accounting games wipe out your money.
-earnout where an accountant  You know injection molded ports and caps make 65% to 75% gross margins all day
-hides the profit."           long. The earnout is tied strictly to Gross Profit above $1.05M. Maggie M will
-                             run the QuickBooks numbers every quarter, exactly like she does today. When
-                             Dave Jepsen sells high-margin ports to White Cap and Sika, you get 20 cents
-                             of every gross profit dollar above the hurdle, straight to your pocket."
+3. Standby Note Subordination Standby seller notes must have zero      • Note terms enforce 24 months zero P&I.
+   & Repayment Terms          principal or interest payments for 24    • Simple annual interest (7.0%) accrues.
+                              months to be treated as equity. After    • Month 25 amortization gated by 1.35x
+                              Month 24, repayment must be sustainable.   DSCR covenant to prevent bank impairment.
 ====================================================================================================
 ```
+
+### F. Seller Negotiation Playbook: Closing Bob Trout on the $297k Bridge
+
+Closing Bob Trout requires a structured negotiation script that addresses family tax objectives, respects Bob’s 44-year legacy, and anchors every concession in objective diligence data:
+
+```
+====================================================================================================
+SELLER NEGOTIATION SCRIPT: CLOSING BOB TROUT PRIOR TO APA EXECUTION
+====================================================================================================
+SELLER OBJECTION / CONCERN       JACK FAY OPERATOR SCRIPT & STRATEGIC REFRAMING
+----------------------------------------------------------------------------------------------------
+Bob: "I want my $1.25M purchase  "Bob, my entire plan is designed to make sure you receive your full
+price in cash and secured notes.  $1,250,000. But as both Grasshopper Bank and First American Bank showed
+I'm not taking a price cut."     us, no SBA lender can fund $900k of senior debt against the 2024 tax
+                                 loss. Sizing the bank loan at $443k is the maximum the government allows.
+                                 If we force unserviceable debt onto the company, Lily defaults in 18
+                                 months and nobody gets paid. By structuring $188,692 as an earnout paid
+                                 from our 70% margin molded ports, you keep your $1.25M headline number,
+                                 and the business stays solvent."
+
+Bob: "Why should I take a $108k  "Bob, this isn't a discount on the value of Lily Corporation. In 2024,
+cut for inventory? The shelves   QuickBooks had duplicate receipt entries that accidentally understated
+are full of parts."              COGS by $108,218. Marcelo confirmed this in writing, and you had to write
+                                 it down in 2025. If we leave that phantom $108k on the balance sheet, the
+                                 bank's closing audit will halt our loan five days before closing. We take
+                                 that $108k bookkeeping error off the purchase price, and you get that
+                                 value right back through the earnout as Dave Jepsen and I grow port sales."
+
+Bob: "Earnouts are a trick. The  "Bob, that is true for net income earnouts where buyers charge overhead
+buyer expenses everything and    and salaries to hide profits. That is why our earnout is tied strictly to
+says there's no profit."         Gross Profit—Revenue minus COGS. Maggie M calculates it right in
+                                 QuickBooks Desktop using the exact same formulas she uses today. Every
+                                 dollar of gross profit above $1.05M pays you 20 cents, up to the full
+                                 $188,692. You know our injection molded ports and caps make 65% to 75%
+                                 margins. When White Cap and Sika order ports, you get paid."
+====================================================================================================
+```
+
+### G. Definitive Legal Clauses for the Asset Purchase Agreement (APA)
+
+To eliminate post-signing ambiguity, the following legal covenants are drafted directly into the transaction documents:
+
+#### 1. APA Section 2.3: Forensic Inventory True-Up & Purchase Price Adjustment
+> *"Section 2.3 Pre-Closing Inventory Reconciliation and Purchase Price Adjustment. Five (5) business days prior to the Closing Date, Buyer and Seller shall conduct a joint physical inventory count at the Aurora Facility. The Base Purchase Price of $1,250,000 shall be reduced dollar-for-dollar by: (a) $108,000.00 representing the mutually verified 2024 duplicate entry accounting correction; and (b) the cost basis of any obsolete inventory lacking commercial movement in the preceding twenty-four (24) months, which shall be assigned a contractual value of $0.00. The resulting Adjusted Purchase Price shall constitute the final closing consideration."*
+
+#### 2. APA Section 2.4: Subordinated Gross Margin Contingent Earnout
+> *"Section 2.4 Gross Margin Contingent Earnout. As additional contingent purchase price consideration, Buyer shall pay to Seller an aggregate amount not to exceed $188,692.00, payable annually with respect to Fiscal Years 2 through 5 post-closing. In each applicable Fiscal Year, Seller shall be entitled to an amount equal to twenty percent (20.0%) of the Company's realized Gross Profit in excess of the annual hurdle of $1,050,000.00, as calculated from the Company's ordinary-course financial statements. All earnout obligations shall be junior and subordinate to Senior SBA Financing and conditioned upon the Company maintaining a trailing twelve-month DSCR of not less than 1.35x. Any unpaid earnout amounts resulting from failure to meet the DSCR covenant shall accrue without interest and be payable in subsequent compliant fiscal periods."*
 
 ---
 
@@ -638,8 +771,8 @@ If CFADS fell below $200.6k, the Seller Note would automatically convert to I/O 
 
 To reach final execution and ensure complete compliance across all lender, seller, and legal counterparties, the following conditions precedent must be satisfied prior to closing:
 
-1. **Certified Physical Inventory Count & True-Up Execution [DILIGENCE_QOE_03]:** Independent verification of physical stock at 240 S. Broadway, Aurora, IL, confirming the $108,000 dead/duplicate stock deduction, establishing the $0.00 valuation on >24-month inventory, and validating the $575,000 NWC Peg.
-2. **Pre-Closing Sources & Uses Gap Resolution [DEAL_FIN_GAP_01]:** Execution of the definitive Purchase Price Adjustment ($108,000 price cut) and Contingent Earnout Agreement ($188,692 maximum cap gated by $1.05M Gross Profit hurdle and 1.35x DSCR).
+1. **Certified Physical Inventory Count & True-Up Execution [DILIGENCE_QOE_03 & DEAL_FIN_GAP_01]:** Independent verification of physical stock at 240 S. Broadway, Aurora, IL, confirming the $108,000 dead/duplicate stock deduction, establishing the $0.00 valuation on >24-month inventory, and validating the $575,000 NWC Peg.
+2. **Definitive Pre-Closing Capital Deficit Resolution [DEAL_FIN_GAP_01]:** Execution of the definitive Purchase Price Adjustment ($108,000 price cut) and Contingent Earnout Agreement ($188,692 maximum cap gated by $1.05M Gross Profit hurdle and 1.35x DSCR).
 3. **Subordinated Note Execution with 1.35x DSCR Covenant [DEAL_NOTE_CLIFF_02]:** Final promissory note drafted with explicit 10-year post-standby amortization, the 1.35x DSCR covenant, PIK triggers, and default-immunity language.
 4. **Key-Person Retention Agreements:** Formal countersignatures from Dave Kling ($7,500 stay agreement + scrap pool) and Greg ($5,000 stay agreement + uptime bonus).
 5. **Tooling Title Certification:** Bob Trout's signed bill of sale conveying 100% unencumbered corporate ownership of Injection Molds T-01 through T-10 to Lily Corporation.
