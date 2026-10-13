@@ -636,3 +636,148 @@
 ### Concept: Ambiguous 85% Press Uptime Metric in a Low-Volume Batch Environment
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #158 Audit)
 * **Autopsy:** Lily Corporation's injection molding press operates on periodic batch runs for proprietary consumable replenishment (~$200k–$300k annual consumable volume), not continuous production. Conditioning Greg's monthly bonus on '>85% scheduled press uptime' risks operational disputes unless strictly defined as equipment availability during scheduled production hours rather than total facility operating hours, given Greg's concurrent responsibilities on the 2,200 PSI hydrostatic QA test bench.
+
+
+### Concept: Mathematical Impossibility of Day-1 Consumable Price Hike Yield ($40k+ from 6.2%-7.5%)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #159 Audit)
+* **Autopsy:** A 6.2% to 7.5% price increase yielding $39,500 to $42,300 in pure margin mathematically requires an existing annual consumable sales volume of $560,000 to $650,000. Lily's historical total revenues across all product lines (equipment, proportioners, parts, and consumables) hover around $600k-$800k total. Consumables represent only a portion of that baseload; generating $40k in gross profit from a sub-8% price hike on Day 1 without customer churn is empirically impossible based on actual pl.csv baselines.
+
+
+### Concept: The 'Hexagonal Anti-Offshoring Citadel' and Formulator Coercion
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #159 Audit)
+* **Autopsy:** The plan claims Lily can force multi-billion-dollar global formulators (Sika, Euclid Chemical) to sign agreements with $250,000 liquidated damages clauses, annual volume cliffs of 250,000 units, margin shortfall penalty fees of $0.416/unit, and automatic 'submittal poison pills' that halt DOT jobsite pours. In reality, large chemical formulators possess overwhelming bargaining power and will simply multi-source or switch to commodity injection packers rather than submit to unilateral punitive covenants from a micro-scale supplier.
+
+
+### Concept: BABA Regulatory Misapplication on Sacrificial Injection Ports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #159 Audit)
+* **Autopsy:** The draft asserts that Build America, Buy America (BABA / 23 CFR 635.411) legally bans offshore plastic injection ports and that formulators face federal False Claims Act debarment for using imported ports. Temporary, sacrificial plastic injection ports are categorized as installation consumables/accessories, not permanent structural manufactured products subject to rigid domestic iron/steel or heavy manufacturing thresholds under standard FHWA construction guidance.
+
+
+### Concept: Operational and Tooling Violations on Frozen Capex & 4-Person Staff
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #159 Audit)
+* **Autopsy:** The draft mandates engraving 0.015-inch raised relief co-branded logos across Molds #3, #5, #6, and #7 while freezing Year 1 tooling. Concurrently, it tasks Maggie M with operating an enterprise-level EDI chargeback dispute desk, managing decoupled two-bucket clearing sub-ledgers, transmitting 48-hour evidence packets, and running custom Python COM/qbXML ingestion scripts, which exceeds the operational bandwidth of a single part-time bookkeeper running QuickBooks Desktop.
+
+
+### Concept: White Cap Net-Net Vendor Exemption & Debit Memo Offset Fantasy
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #159 Audit)
+* **Autopsy:** White Cap's centralized corporate accounts payable and merchandising portals do not waive standard 2% cash discounts, EDI fees, and co-op catalog deductions for niche micro-vendors based on branch-level manager requests. Unilaterally debiting White Cap Corporate AP and expecting local branches to coerce corporate AP into manual check reimbursements contradicts standard wholesale distributor credit and collections operations.
+
+
+### Concept: BABA Regulatory Weaponization on Sacrificial Consumables
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #160 Audit)
+* **Autopsy:** The plan asserts that BABA/IIJA legally prohibits formulators from sourcing plastic injection ports offshore under threat of federal False Claims Act debarment. In reality, sacrificial or temporary construction consumables and minor polymer crack repair accessories do not have established, unbending domestic component tracing mandates that disqualify formulator resin kits, nor do state DOTs mandate Lily-specific proprietary markings on unreinforced surface ports.
+
+
+### Concept: Hexagonal Anti-Offshoring Citadel & Formulator Purchase Volume Cliffs
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #160 Audit)
+* **Autopsy:** Demanding that multi-billion-dollar chemical conglomerates (Sika, Euclid Chemical, Simpson Strong-Tie) commit to 250,000-unit annual take-or-pay baseloads, submit to $250,000 liquidated damages covenants, pay margin shortfall true-ups ($0.416/unit), and emboss Lily branding into their own submittals is commercial fantasy. Sika and Euclid possess overwhelming market power and will simply multi-source generic overseas ports or alternative domestic molders at market rates without signing restrictive covenants.
+
+
+### Concept: White Cap Net-Net Rider and Centralized EDI Deduction Bypass
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #160 Audit)
+* **Autopsy:** National wholesale distributors like White Cap enforce standardized corporate Vendor Agreements with non-negotiable electronic automated clearinghouse terms (2% cash prompt-pay discounts, catalog fees, cumulative rebates). Assuming that Maggie M can unilaterally override corporate AP batch algorithms by rebilling White Cap Corporate AP via manual debit memos without triggering automated credit freezes or vendor disqualification ignores distributor procurement mechanics.
+
+
+### Concept: Operational Overload on Aurora Staff and IT Infrastructure
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #160 Audit)
+* **Autopsy:** The plan relies on custom on-premise Python engines interfacing with QuickBooks via COM/qbXML, sub-ledger split accounting, 48-hour corporate dispute evidence SLAs, custom mold core re-tooling across four molds, and high-volume packing (350k+ ports). Lily operates with a single press operator (Greg) and one bookkeeper (Maggie M), leaving zero overhead or working capital to build, debug, and maintain custom EDI middleware while maintaining baseline operations.
+
+
+### Concept: Mathematically Impossible Day-1 Consumables Harvest ($38k–$44k from 6.2%–7.5% Increase)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #161 Audit)
+* **Autopsy:** Lily Corporation's total historical annual revenue fluctuates between $600k and $750k across all proportioners, replacement parts, rebuilds, and consumables. For a 6.2% to 7.5% price increase to generate $38,000 to $44,000 in incremental margin, historical molded consumable revenue would have to be $550,000 to $700,000 annually. In empirical reality, equipment sales, custom machining, and parts represent a substantial portion of sales; actual consumable revenues are far lower, meaning this initiative captures at best $8k–$15k annually without volume expansion.
+
+
+### Concept: Phantom 350,000+ Port Formulator Commitments & Capacity Hallucination
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #161 Audit)
+* **Autopsy:** COMM_45 and COMM_51 treat 350,000+ annual port baseload agreements with multi-billion-dollar global formulators (Sika, Euclid) as guaranteed cash flow. Lily has zero binding OEM master purchase agreements, and standard surface injection ports retail from offshore commodity molders at $0.20–$0.35, making a $0.58–$0.90 net-net transfer price uncompetitive without an ironclad specification mandate. Operationally, producing 350,000 ports requires hundreds of machine-hours on a single injection press staffed part-time by one press operator (Greg).
+
+
+### Concept: Operational Bandwidth Hallucination for 4-Person Staff (Python EDI & Clearinghouse Litigation)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #161 Audit)
+* **Autopsy:** The plan tasks Maggie M (sole part-time bookkeeper/billing clerk) with maintaining an on-premise Python COM/qbXML order ingestion engine, running multi-bucket shadow ledger accounting, and enforcing 48-hour legalistic EDI 820 dispute packets against White Cap's corporate clearinghouse. Maggie has neither software engineering capabilities nor full-time capacity to act as an enterprise corporate EDI auditor while running daily payroll and AP/AR.
+
+
+### Concept: Invented Regulatory Lockout via BABA on Sacrificial Injection Ports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #161 Audit)
+* **Autopsy:** The plan asserts that BABA (IIJA Title IX) and 23 CFR 635.411 create an enforceable legal ban locking out non-domestic injection accessories on federal-aid bridge jobs. Sacrificial plastic crack injection ports are temporary construction consumables/supplies, not permanent iron, steel, or manufactured construction materials incorporated into the permanent structure. Federal highway specifications do not mandate domestic manufacturing origin or trademarked proprietary colors (Safety Orange) for temporary ports.
+
+
+### Concept: Unilateral Elimination of National Distributor EDI Deductions and Rebates (ESVP Rider A)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #162 Audit)
+* **Autopsy:** National civil distributors such as White Cap operate centralized AP clearinghouses that enforce standard electronic deductions (2% prompt pay, 1-3% catalog/co-op fees, 5-8% annual volume rebates) across all suppliers. The assumption that a small regional manufacturer with $50k in working capital can unilaterally impose Master Vendor Agreement Rider 'A' to strip corporate deductions without having branch purchase orders blocked or terms rejected is commercially unrealistic.
+
+
+### Concept: Asymmetric Formulator Co-Packing Agreements with Total Liability Indemnity
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #162 Audit)
+* **Autopsy:** Tier-1 chemical formulators like Sika and Euclid Chemical will not accept bilateral agreements that bundle 350,000+ ports annually while contractually indemnifying Lily from structural failures and capping Lily's liability solely at port replacement value. Without binding proprietary IP or exclusive chemical compatibility mandates, formulators will source generic injection ports at lower global spot prices ($0.20-$0.40) rather than paying $0.58-$0.90 to Lily under restrictive terms.
+
+
+### Concept: Operational Bandwidth Impossibility for a 4-Person Workforce
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #162 Audit)
+* **Autopsy:** The plan assigns complex workflows—including on-premise Python EDI 850 parsing, 48-hour corporate AP deduction dispute filings, bubble-tight testing across thousands of units, core exchange refurbishments, and custom labeling—to a shop floor with only Dave Kling, Julian Perez, Greg, and Maggie M. Greg is already the sole press operator and Julian the sole assembler/tester; adding manual core inspection, Pelican case tracking, and kit assembly creates an unmanageable labor bottleneck.
+
+
+### Concept: Regulatory Specification Lockouts via Prescriptive Air-Logic Standards
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #162 Audit)
+* **Autopsy:** Federal-aid highway projects under 23 CFR 635.411 strictly enforce anti-proprietary rules requiring functional performance metrics or broad 'or equal' clauses. State DOT materials bureaus do not adopt restrictive mechanical air-logic or cosmetic color mandates (e.g., Safety Orange) that sole-source a single manufacturer without extensive, multi-year empirical testing, formal public interest findings, and vetted agency approvals.
+
+
+### Concept: State DOT Jobsite Enforcement of Molded Trademark Relief and ASTM Licensing Revocation
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #163 Audit)
+* **Autopsy:** State DOT materials engineers and jobsite field inspectors verify compliance against project engineering specifications and qualified product lists (QPL/AML); they do not inspect proprietary molded plastic raised reliefs or adjudicate private intellectual property disputes between resin formulators and sub-tier accessory suppliers. Threatening to invalidate DOT submittals via letter to DOT bureaus invents a non-existent regulatory enforcement mechanism that would alienate formulators rather than lock them in.
+
+
+### Concept: Unilateral Elimination of White Cap Tier-1 Rebates and Automated Deductions via Rider 'A'
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #163 Audit)
+* **Autopsy:** National distributors like White Cap dictate standard terms via corporate Master Merchandising Agreements (MMA), enforcing automated EDI deductions for 2% prompt-pay, catalog allowances, and 5-8% annual volume rebates. A micro-cap supplier generating under $2M in revenue cannot unilaterally bypass centralized corporate AP through local branch manager pressure or on-premise QuickBooks debit memos without triggering automated vendor credit holds and PO cancellation.
+
+
+### Concept: Shop-Floor Operational Overload on a 4-Person Capacity Baseline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #163 Audit)
+* **Autopsy:** The plan demands that Greg (sole press operator), Julian (sole assembler/tester), and Maggie (sole bookkeeper) execute automated Python EDI ingestion, 100% inline bubble-tight testing fixtures, custom Zebra thermal planogram kitting, RapidSwap core decontamination/rebuilds, and two-bucket dispute ledgers while maintaining base proportioner assembly. This represents an operational impossibility under a strict 4-person shop floor constraint.
+
+
+### Concept: Frictionless Day-1 List Price Increase with Zero Churn Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #163 Audit)
+* **Autopsy:** Assuming an immediate 6.2%–7.5% list price increase directly yields $38k–$44k of pure margin without contractor pushback or volume loss treats an exploratory pricing hypothesis as guaranteed cash flow. Lily's historical customer base buys via phone orders and informal relationships; imposing immediate unilateral price ratchets across legacy direct accounts without prior price elasticity testing or tiered contract notification risks immediate defections to generic distributor-stocked alternatives.
+
+
+### Concept: White Cap Corporate AP Deduction Override & Net-Net Exemption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #164 Audit)
+* **Autopsy:** National distributors like White Cap enforce centralized electronic AP clearinghouses with automated 1-3% marketing allowances and 2% prompt-pay terms across all branch orders. The assumption that a $1M micro-manufacturer can force White Cap regional branches into an unapproved Net-Net rider waiving corporate deductions—and that Maggie M can manage decoupled two-bucket QuickBooks debit memos and disputes without branches being frozen—is commercially divorced from institutional distribution reality.
+
+
+### Concept: BABA and DOT Specification Lockout via Sacrificial Injection Ports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #164 Audit)
+* **Autopsy:** The plan invents a regulatory moat by claiming Build America, Buy America (IIJA Title IX) mandates domestic component registration for sacrificial crack injection ports and proportioning equipment to lock out foreign competitors. BABA applies to permanent construction materials incorporated into infrastructure, not temporary contractor tooling or sacrificial accessories, and 23 CFR 635.411 prohibits proprietary sole-sourcing on federal-aid projects without explicit 'or equal' provisions.
+
+
+### Concept: Chemical Formulator Captive Licensing & 350,000-Unit Baseload Mandates
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #164 Audit)
+* **Autopsy:** Assuming global chemical formulators (Sika, Euclid) will agree to buy 350,000+ proprietary ports annually at 60-72% gross margins, accept revocable submittal licenses, and tolerate raised tooling markings that trap them into Lily's Aurora plant is unrealistic. Multinationals maintain dual-sourcing policies, commodity injection port alternatives (landed imports under $0.35), and their own legal indemnification frameworks that reject supplier-imposed submittal revocation clauses.
+
+
+### Concept: Automated Python-qbXML EDI Architecture on a 4-Person Headcount
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #164 Audit)
+* **Autopsy:** Deploying an on-premise Python EDI 850 parsing engine integrated via COM/qbXML to automatically generate pick lists and manage min-max VMI across 15 national branches requires software development, continuous API maintenance, and EDI VAN infrastructure. Imposing this custom IT stack and 48-hour dispute resolution SLAs onto Maggie M (sole QuickBooks operator) exceeds shop floor capabilities and liquid working capital limits.
+
+
+### Concept: Unilateral Corporate Vendor Concessions and EDI Immunity from White Cap
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #165 Audit)
+* **Autopsy:** The assertion that local White Cap branch managers can force corporate procurement in Atlanta to sign a custom Master Vendor Agreement Rider eliminating standard automated 2% prompt-pay, 1% catalog fees, and volume rebates is a commercial fantasy. National distributors enforce centralized EDI clearinghouses precisely to eliminate branch-level rogue terms on niche MRO lines; Lily lacks the bargaining power to dictate net-net billing terms without corporate chargebacks.
+
+
+### Concept: Single Press Capacity and Labor Overload for 350,000+ Formulator Baseload
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #165 Audit)
+* **Autopsy:** Greg is Lily's sole injection molding press operator running a single aging press with 10 legacy molds. Committing to a 350,000+ unit annual private-label run for Sika and Euclid—on top of regular contractor demand, master carton packaging, and DL-100 bubble testing—exceeds single-shift machine cycle hours and labor bandwidth without significant capex or additional operators, both of which are barred by the $50k working capital and $20k capex limits.
+
+
+### Concept: Misapplied BABA Mandates as an Enforceable Anti-Offshoring Lockout
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #165 Audit)
+* **Autopsy:** The claim that Build America, Buy America (BABA / IIJA Title IX) allows Lily to register as the exclusive Component Manufacturer of Record on State DOT submittals to legally invalidate formulator imports of plastic surface ports misreads federal procurement regulations. Sacrificial plastic crack injection ports fall under de minimis or commercial off-the-shelf accessory thresholds on highway projects, and state DOT materials engineers do not adjudicate private sub-tier molding disputes or enforce proprietary color marks.
+
+
+### Concept: Day-1 Zero-Churn Price Increase Modeling Lacking Elasticity Discipline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #165 Audit)
+* **Autopsy:** Modeling an immediate Day-1 6.2% to 7.5% list price increase across all direct contractors and wholesale channels to capture $38k-$44k of pure margin assumes zero demand elasticity, no distributor pushback, and no pre-existing quote commitments. Direct concrete repair contractors and distributor desks will push back on immediate price hikes on commoditized static mixers and standard surface ports unless increases are phased and tied to documented material cost inflators.
