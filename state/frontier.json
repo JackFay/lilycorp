@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 158,
+  "active_cycle": 227,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -92,9 +92,9 @@
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 158,
       "last_audit_timestamp": "2026-10-13 00:47:42",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/36",
-      "github_auto_merged": false,
-      "github_pr_number": 36
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/37",
+      "github_auto_merged": true,
+      "github_pr_number": 37
     },
     {
       "id": "FIN_CASHFLOW_36M_05",
@@ -134,10 +134,15 @@
         "When was the last time Bob Trout raised list prices on molded accessories?"
       ],
       "target_plan_file": "plan/03_commercial_distribution_and_partnerships.md",
-      "confidence_score": 7,
-      "status": "REFINED",
+      "confidence_score": 4.0,
+      "status": "EXPLORATORY",
       "priority": "HIGH",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 227,
+      "last_audit_timestamp": "2026-10-13 18:04:43",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/103",
+      "github_auto_merged": false,
+      "github_pr_number": 103
     },
     {
       "id": "LEADERSHIP_DAY1_01",
