@@ -1,6 +1,6 @@
 # 03. Commercial Distribution & Strategic Partnerships Playbook
 
-> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an aggressive, institutional civil infrastructure brand. This module establishes the multi-tiered commercial architecture: executing an immediate Day-1 targeted 6.2%–7.5% list price increase across proprietary molded consumables to harvest $38,000–$44,000 in zero-capex, 100% gross margin cash flow; mobilizing Lily's idle shelf inventory into a pre-assembled, job-ready turnkey rental fleet backed by a 50% Rent-to-Own (RTO) equity accrual program, structured return overhaul protocols, and damage waiver provisions [PROD_RENTAL_FLEET_05]; embedding Lily equipment and molded accessories into state Department of Transportation (DOT) engineering specifications via formulator alliances; operationalizing private-label and co-branded packaging for national polymer formulators on Lily's Aurora injection molding press; expanding wholesale civil distribution channels (White Cap, Dayton Superior, Brock White); defending wholesale cash flow against predatory corporate EDI automated deductions; automating wholesale order ingestion via on-premise Python engines; deploying high-margin pre-packaged starter, bridge deck, and turnkey emergency night-shift kits; syndicating 3-tier gravity-feed counter merchandising planograms across multi-distributor branch networks via on-premise Zebra thermal custom labeling under strict $52.00 BOM limits without triggering exclusivity disputes; eliminating consignment balance-sheet traps; operationalizing distributor-financed RapidSwap core banks; enforcing rental fleet volumetric wear surcharges; executing domestic Build America, Buy America (BABA) certification protocols; operationalizing direct federal and state DOT equipment fleet bid capture without GovCon overhead; establishing compliant post-award DOT fleet maintenance retainers (CertAssure-DOT™); deploying automated on-premise QR lot traceability and digital Mill Test Report (MTR) engines for Drive-Lok infrastructure ports; driving performance-based State DOT Special Provisions for closed-loop volumetric ratio verification (RatioSentinel™); outfitting regional heavy civil contractor jobsite trailers via Procore/HCSS mobile scan-to-requisition workflows (RapidAssure™); deploying prioritized legal fallback matrices to close Tier-1 formulator contracts without stalling execution; extracting contractual margin uplifts and multi-year volume baseload commitments from Tier-1 chemical formulators (Sika, Euclid); and securing predictable, high-margin recurring cash flow.
+> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an aggressive, institutional civil infrastructure brand. This module establishes the multi-tiered commercial architecture: executing an immediate Day-1 targeted 6.2%–7.5% list price increase across proprietary molded consumables to harvest $38,000–$44,000 in zero-capex, 100% gross margin cash flow [COMM_PRICING_06]; mobilizing Lily's idle shelf inventory into a pre-assembled, job-ready turnkey rental fleet backed by a 50% Rent-to-Own (RTO) equity accrual program, structured return overhaul protocols, and damage waiver provisions [PROD_RENTAL_FLEET_05]; embedding Lily equipment and molded accessories into state Department of Transportation (DOT) engineering specifications via formulator alliances; operationalizing private-label and co-branded packaging for national polymer formulators on Lily's Aurora injection molding press; expanding wholesale civil distribution channels (White Cap, Dayton Superior, Brock White); defending wholesale cash flow against predatory corporate EDI automated deductions; automating wholesale order ingestion via on-premise Python engines; deploying high-margin pre-packaged starter, bridge deck, and turnkey emergency night-shift kits; syndicating 3-tier gravity-feed counter merchandising planograms across multi-distributor branch networks via on-premise Zebra thermal custom labeling under strict $52.00 BOM limits without triggering exclusivity disputes; eliminating consignment balance-sheet traps; operationalizing distributor-financed RapidSwap core banks; enforcing rental fleet volumetric wear surcharges; executing domestic Build America, Buy America (BABA) certification protocols; operationalizing direct federal and state DOT equipment fleet bid capture without GovCon overhead; establishing compliant post-award DOT fleet maintenance retainers (CertAssure-DOT™); deploying automated on-premise QR lot traceability and digital Mill Test Report (MTR) engines for Drive-Lok infrastructure ports; driving performance-based State DOT Special Provisions for closed-loop volumetric ratio verification (RatioSentinel™); outfitting regional heavy civil contractor jobsite trailers via Procore/HCSS mobile scan-to-requisition workflows (RapidAssure™); deploying prioritized legal fallback matrices to close Tier-1 formulator contracts without stalling execution; extracting contractual margin uplifts and multi-year volume baseload commitments from Tier-1 chemical formulators (Sika, Euclid); and securing predictable, high-margin recurring cash flow.
 
 ---
 
@@ -39,7 +39,7 @@
 * **The Winning Execution Architecture:** Jack Fay executes the **"Engineered Specialty Net-Net Vendor Protocol" (ESVP)**, leveraging four operational and commercial wedges:
   1. **The Specification Pull-Through Moat (Bottom-Up Channel Pressure):** Civil bridge contractors walk into White Cap and Brock White branches with approved DOT Section 590 submittal packages mandating Lily's Safety Orange or Drive-Lok bubble-tight ports (COMM_31). White Cap branch managers must source Lily ports to sell the lucrative high-volume resin pails. Branch managers pressure regional purchasing desks to set up Lily under non-standard specialty vendor profiles.
   2. **Vendor Classification as "Category 49 / Niche Civil Specialty MRO" (Branch-Direct / Non-DC Stocking):** Lily is onboarded under White Cap's Regional Direct-Ship / Specialty Manufacturer vendor code, legally exempting Lily from Tier-1 national distribution center (DC) vendor compliance rules.
-  3. **The Net-Net Front-End Margin Concession:** Instead of inflated list pricing minus backend rebates, Lily provides White Cap branches with a clean **"Everyday Net-Net Wholesale Price" of $0.84 per port ($840 per 1,000-count master carton)** (updated on Day 1 to $0.90 per port / $900 per carton under COMM_PRICING_06). This yields White Cap branches a massive **41.9% to 49.1% branch gross profit** (contractor resale at $1.55 to $1.65), far exceeding White Cap's internal 28–32% branch margin targets. In exchange for this superior immediate profit, White Cap executes Lily's Master Vendor Agreement Rider eliminating backend rebates and MDF.
+  3. **The Net-Net Front-End Margin Concession:** Instead of inflated list pricing minus backend rebates, Lily provides White Cap branches with a clean **"Everyday Net-Net Wholesale Price" of $0.84 per port ($840 per 1,000-count master carton)** (updated on Day 1 to $0.90 per port / $900 per carton under COMM_PRICING_06). This yields White Cap branches a massive **41.9% to 45.5% branch gross profit** (contractor resale at $1.55 to $1.65), far exceeding White Cap's internal 28–32% branch margin targets. In exchange for this superior immediate profit, White Cap executes Lily's Master Vendor Agreement Rider eliminating backend rebates and MDF.
   4. **The No-Buyback Rule via Non-Perishable Hardware Covenant:** Lily contractually replaces open-ended inventory buybacks with an airtight **"Annual Stock Balancing Privilege" capped at 5% of prior-year branch purchases**, valid only within 12 months in unopened master cartons, subject to a mandatory 20% restocking fee, distributor-paid return freight, and offsetting 1-for-1 new carton orders (zero cash refunds). Because molded ports have infinite shelf life and turn rapidly on DOT bridge contracts, buyback liability is zero.
 
 ---
@@ -62,19 +62,15 @@
 
 ---
 
-### 1.8 Frontier Resolution: COMM_79 (Chemical Formulator Private-Label vs. Co-Branded Licensing Terms & Anti-Offshoring Citadel)
-* **The Core Strategic Question:** What contractual safeguards (e.g., minimum annual purchase volume commitments of 250k units, mutual indemnification, co-branding marks) must Jack Fay enforce in OEM agreements with Sika, Euclid, and Simpson Strong-Tie to prevent them from taking Lily's ASTM test data to offshore custom molders?
-* **The Definitive Answer & Ground Truth:** **Jack Fay enforces the "Hexagonal Anti-Offshoring Contractual Citadel" (AOCC). A formulator cannot be granted unencumbered, anonymous private-label rights or unrestricted ownership of ASTM engineering test data.** When Sika (Sikadur), Euclid (Dural), or Simpson Strong-Tie (CI-LV / ETI / E-Z-Click) incorporates Lily’s injection ports and accessories into official State DOT submittal binders and ICC-ES certified systems, they require rigorous test reports (ASTM F2095 bubble-tight integrity, ASTM C881 chemical compatibility, tensile bond pull-off, and burst-pressure data). If Jack Fay provides generic white-label ports and assigns raw test data, formulator procurement teams will inevitably take Lily’s CAD drawings and ASTM test packets to an offshore custom molder in China, Taiwan, or Mexico, tooling cloned multi-cavity molds for $15,000 and sourcing knock-off ports at $0.15/unit while continuing to submit Lily’s test data!  
-* **The Winning Execution Architecture:** Jack Fay legally and operationally locks formulators to Lily's Aurora shop floor through six non-negotiable contractual mechanisms:
-  1. **Restricted, Revocable "License to Reference" ASTM Data with Automatic Submittal Poison Pill:** Lily retains 100% exclusive title and ownership of all ASTM laboratory test reports, CAD engineering prints, DL-100 bubble-tight certifications, and State DOT Qualified Product List (QPL) test records. Formulators receive only a conditional, revocable "Limited License to Reference Data." If the formulator procures, bundles, or ships *any* injection port from an unauthorized third party or offshore source, this license automatically terminates with immediate written notice sent directly to State DOT Materials Engineers and ICC-ES certifying engineers, invalidating the submittal and halting active jobsite pours.
-  2. **Build America, Buy America Act (BABA) & DOT Component Manufacturer of Record Listing:** Under Title IX of the Infrastructure Investment and Jobs Act (IIJA, P.L. 117-58) and 23 CFR 635.411, federal-aid highway projects strictly enforce domestic manufacturing mandates [3]. Lily registers itself directly with state DOT Materials Bureaus (IDOT, Caltrans, TxDOT, PennDOT) as the domestic *Component Manufacturer of Record*. Formulator agreements contractually covenant that all state DOT and federal submittals must specify "Lily Corporation (Aurora, IL)" as the domestic molding plant. If a formulator substitutes offshore parts on a federal-aid project, they commit federal False Claims Act violations and face administrative debarment [3].
-  3. **Minimum Annual Purchase Volume Cliff (250,000 Units) & Margin Shortfall True-Up:** Formulators must commit to a minimum annual volume of **250,000 units** (across bulk master cartons and in-kit polybags). If annual purchases drop below 250,000 units:
-     * The OEM transfer price instantly ratchets up from $0.58 to standard wholesale Net-Net ($0.90 under COMM_PRICING_06);
-     * The formulator must pay a **Margin Shortfall True-Up fee of $0.416 per unpurchased unit** (compensating Lily for 100% of its lost gross profit); and
-     * Lily retains the unilateral right to revoke submittal licensing and reassign regional co-branding to competing formulators.
-  4. **Mandatory Co-Branding Marks & Permanent Cavity Identification:** Pure anonymous "white-labeling" is strictly prohibited. Tooling inserts in Molds #3, #5, #6, and #7 permanently mold (in 0.015" raised relief) both the co-brand logo and the text: *"Engineered & Molded by Lily Corp (Aurora, IL) | Pat./Cert. ASTMF2095"*. Formulators cannot grind off this mark without compromising structural wall thickness, and DOT field inspectors verify the raised physical mark against the submittal cut sheet on site.
-  5. **5-Year Anti-Reverse Engineering & Offshore Sourcing Covenant with $250k Liquidated Damages:** Formulators agree that during the agreement term and for five (5) years post-termination, they will not clone, reverse engineer, tool duplicate injection molds, or procure functionally identical ports from any third party. Breach triggers **$250,000 in liquidated damages per violation**, immediate preliminary injunctive relief with bond waived, and disgorgement of 100% of gross chemical profits generated on projects utilizing infringing ports.
-  6. **Asymmetric Mutual Indemnification Firewall:** Formulators defend, indemnify, and hold Lily harmless against all chemical mixing, off-ratio pumping, structural failure, DOT liquidated damages, and contractor workmanship claims. In return, Lily warrants only mechanical dimensional tolerance and bubble-tight shutoff, capping its aggregate remedy at port invoice replacement value ($0.58/port). If the formulator introduces third-party ports into the system, all Lily indemnities and product warranties instantly void.
+### 1.8 Frontier Resolution: COMM_79 (Chemical Formulator Private-Label vs. Co-Branded Licensing Terms & Anti-Offshoring Protections)
+* **The Core Strategic Question:** What contractual safeguards (e.g., minimum annual purchase volume commitments, mutual indemnification, co-branding marks) must Jack Fay enforce in OEM agreements with Sika, Euclid, and Simpson Strong-Tie to prevent them from taking Lily's ASTM test data to offshore custom molders?
+* **The Definitive Answer & Ground Truth:** **Jack Fay enforces an airtight, operationally grounded IP and data licensing structure. A formulator cannot be granted unencumbered, anonymous private-label rights or unrestricted ownership of ASTM engineering test data.** When Sika (Sikadur), Euclid (Dural), or Simpson Strong-Tie incorporates Lily’s injection ports and accessories into official State DOT submittal binders and ICC-ES certified systems, they require rigorous test reports (ASTM F2095 bubble-tight integrity, ASTM C881 chemical compatibility, tensile bond pull-off, and burst-pressure data).  
+* **The Winning Execution Architecture:** Jack Fay operationally and contractually anchors formulators to Lily's Aurora shop floor through five enforceable mechanisms:
+  1. **Restricted, Revocable "License to Reference" ASTM Data with Automatic Submittal Revocation:** Lily retains 100% exclusive title and ownership of all ASTM laboratory test reports, CAD engineering prints, DL-100 bubble-tight certifications, and State DOT Qualified Product List (QPL) test records. Formulators receive only a conditional, revocable "Limited License to Reference Data." If the formulator procures, bundles, or ships injection ports from an unauthorized third party, this license automatically terminates with written notice sent directly to State DOT Materials Engineers and ICC-ES certifying engineers, invalidating the project submittal.
+  2. **Build America, Buy America Act (BABA) & DOT Component Manufacturer of Record Listing:** Under Title IX of the Infrastructure Investment and Jobs Act (IIJA, P.L. 117-58) and 23 CFR 635.411, federal-aid highway projects enforce domestic manufacturing content. Lily registers itself directly with state DOT Materials Bureaus (IDOT, Caltrans, TxDOT, PennDOT) as the domestic *Component Manufacturer of Record*. Formulator agreements covenant that all state DOT and federal submittals must specify "Lily Corporation (Aurora, IL)" as the domestic molding plant.
+  3. **Annual Volume Thresholds & Net-Net Pricing Ratchets:** Formulators access preferential OEM transfer pricing ($0.58/port or $8.95/pack) conditioned upon maintaining baseline release volumes (50,000 to 100,000 units annually). If releases fall below baseline, pricing automatically reverts to standard wholesale Net-Net ($0.90 under COMM_PRICING_06).
+  4. **Permanently Molded Tooling Identification:** Tooling inserts in Molds #3, #5, #6, and #7 permanently mold in raised relief: *"Engineered & Molded by Lily Corp (Aurora, IL) | Pat./Cert. ASTMF2095"*. Formulators cannot grind off this mark without compromising structural wall thickness, and DOT field inspectors verify the raised physical mark against the submittal cut sheet on site.
+  5. **Asymmetric Mutual Indemnification Firewall:** Formulators defend, indemnify, and hold Lily harmless against all chemical mixing, off-ratio pumping, structural failure, DOT liquidated damages, and contractor workmanship claims. In return, Lily warrants only mechanical dimensional tolerance and bubble-tight shutoff, capping its aggregate remedy at port invoice replacement value.
 
 ---
 
@@ -84,7 +80,6 @@
 * **The Institutional Problem:** White Cap operates over 450 regional branches. Individual branch managers cut branch-direct POs to Lily Corp at Net-Net terms ($0.90/port or $900/carton, Net 30). However, payment settlement routes through White Cap's centralized corporate accounts payable clearinghouse via automated EDI 820 electronic payment files. Corporate AP batch algorithms automatically execute predatory clawbacks:
   1. **Automated 2% Cash Discount Deduction:** Shaving 2% off the gross invoice ($18.00 per carton), even when payment is remitted past Day 30.
   2. **Automated 1% Catalog / Co-op Fee:** Assessing a mandatory 1% electronic catalog allowance ($9.00 per carton).
-* **The Operational Paradox:** Leaving the unpaid 3% open against the branch account causes QuickBooks to put the branch on "Credit Hold." The next day, when the branch orders 5 master cartons for an emergency IDOT bridge deck pour, the order is blocked, enraging the contractor and branch manager.
 * **The Winning Execution Architecture:** Jack Fay and Maggie M execute a decoupled operational and contractual defense protocol:
   1. **Contractual Foundation: Master Vendor Rider "A" Supremacy & EDI Non-Waiver Covenant:** Master Vendor Agreement Rider "A" explicitly states Net-Net terms with 0% early discount, 0% catalog fees, and non-waiver upon electronic settlement.
   2. **Accounting Firewall: The Decoupled Two-Bucket Sub-Ledger:** In QuickBooks Desktop, Maggie decouples the **Operating Branch (Bucket A)** from **Corporate AP Disputed Deductions (Bucket B)**. Branch invoices are credited 100% using an internal non-posting clearing account (`Account 1205: Corporate AP Deductions Under Dispute`), keeping branch credit pristine. Disputed amounts are simultaneously rebilled to `Customer: White Cap Corporate AP (Atlanta, GA)` via Rebill Debit Memos (`#DM-WC-[Original PO]`).
@@ -95,15 +90,15 @@
 ---
 
 ### 1.10 Frontier Resolution: COMM_71 (White Cap Consignment Stocking & EDI 850 Automated Replenishment Protocol)
-* **The Core Strategic Question:** Can Lily leverage the OPER_54 on-premise Python order ingestion engine to ingest White Cap automated 850 PO feeds directly and support vendor-managed inventory (VMI) min-max consignment stocking at top 15 regional bridge supply branches, securing 100% accessory spec exclusivity while maintaining net-30 terms?
-* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT stocking; but an unqualified YES to leveraging the OPER_54 on-premise Python engine to ingest White Cap automated EDI 850 Purchase Order feeds for a "Firm PO Automated Min-Max Replenishment" (Virtual VMI) protocol across the top 15 regional bridge supply branches, securing 100% accessory spec exclusivity while maintaining strict Net 30 payment terms.**
+* **The Core Strategic Question:** Can Lily leverage the on-premise Python order ingestion engine to ingest White Cap automated 850 PO feeds directly and support vendor-managed inventory (VMI) min-max consignment stocking at top 15 regional bridge supply branches, securing 100% accessory spec exclusivity while maintaining net-30 terms?
+* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT stocking; but an unqualified YES to leveraging the on-premise Python engine to ingest White Cap automated EDI 850 Purchase Order feeds for a "Firm PO Automated Min-Max Replenishment" (Virtual VMI) protocol across the top 15 regional bridge supply branches, securing 100% accessory spec exclusivity while maintaining strict Net 30 payment terms.**
 * **The Consignment Paradox & Why True Consignment Kills Lily:**
   1. *The Financial Fatal Flaw:* True consignment freezes **$63,000 to $126,000 in finished goods working capital** on remote distributor shelves, exceeding 125% to 250% of Lily's packed-in $50,000 cash liquidity!
   2. *The Inherent Contractual Contradiction:* Consignment delays invoicing until point-of-sale reporting, extending cash collection to 90–120 days post-manufacturing.
   3. *Branch Shrinkage Risk:* Unbilled plastic hardware cartons suffer yard damage and untracked contractor giveaways.
-* **The Winning Execution Architecture: "Automated Firm Min-Max Replenishment" via OPER_54:**
+* **The Winning Execution Architecture: "Automated Firm Min-Max Replenishment":**
   1. **Firm PO Triggering at Branch Min/Max Thresholds:** Authorized branches set min-max levels (Min: 2 master cartons / Max: 6 master cartons). Hitting 2 cartons auto-fires an EDI 850 PO for 4 cartons ($3,600 net value).
-  2. **OPER_54 On-Premise Python Ingestion Engine:** Parses EDI 850 files, audits Net-Net contract pricing ($900/carton), creates Sales Orders and Net 30 Invoices in QuickBooks via COM/qbXML, and prints Julian Perez's pick list in under 15 seconds.
+  2. **On-Premise Python Ingestion Engine:** Parses EDI 850 files, audits Net-Net contract pricing ($900/carton), creates Sales Orders and Net 30 Invoices in QuickBooks via COM/qbXML, and prints Julian Perez's pick list in under 15 seconds.
   3. **Strict Net 30 Terms on Firm Title Transfer:** Every master carton shipped is a firm wholesale sale, F.O.B. Aurora dock.
   4. **Top-15 Bridge Supply Branch Exclusivity Covenant:** In exchange for guaranteed 48-hour replenishment and a 41.9% front-end branch margin, branches designate Lily Safety Orange and SureClick™ ports as the exclusive specified injection accessories.
 
@@ -121,46 +116,46 @@
 
 ---
 
-### 1.13 Frontier Resolution: COMM_80 (Formulator Legal Fallback Matrix for AOCC Restrictive Covenants)
-* **The Core Strategic Question:** When Tier-1 corporate legal teams at Sika and Simpson Strong-Tie redline Section 11.4's $250,000 liquidated damages and chemical profit disgorgement clauses, what prioritized tiered concessions can Jack Fay offer to preserve the BABA domestic Manufacturer of Record registration and revocable ASTM test license without stalling contract execution?
-* **The Definitive Answer & Ground Truth:** **Jack Fay executes the "Prioritized Tiered Fallback Matrix" (PTFM) for Section 11.4.** Tier-1 corporate legal counsels at multi-billion dollar formulators (e.g., Sika AG, Simpson Manufacturing Co.) will *never* execute an agreement that subjects their multi-million dollar chemical product lines to a $250,000 arbitrary penalty per occurrence or disgorges 100% of gross chemical profits over a molded plastic port. Insisting on those punitive terms creates an immediate negotiation deadlock that paralyzes commercial launch. Under Illinois and California commercial law [1, 2], clauses disgorging unrelated chemical revenues or assessing uncalibrated lump sums are routinely struck down as unenforceable penalty clauses [1, 2].  
-* **The Strategic Realignment:** What actually protects Lily Corporation is **not** a speculative, multi-year court battle over liquidated damages. Lily’s true protection is its **Regulatory & Operational Hostage Moat**:
-  1. **Build America, Buy America (BABA) Domestic Component Manufacturer of Record (Section 8.2):** Sika and Simpson cannot substitute offshore ports on DOT and federally funded civil infrastructure without committing federal False Claims Act violations [3].
-  2. **Revocable ASTM Test Data License with Automatic DOT Stop-Work Poison Pill (Section 8.1):** The instant a formulator substitutes unauthorized hardware, Lily revokes the test data license and notifies State DOT Materials Bureaus and ICC-ES, halting active jobsite pours.
-  3. **Permanently Molded Cavity Relief (Section 6.3):** Tooling inserts physically mold Lily’s identity into the port flange in 0.015" raised relief, making physical substitution immediately obvious to DOT resident engineers.
+### 1.13 Frontier Resolution: COMM_80 (Formulator Legal Fallback Matrix for Restrictive Covenants)
+* **The Core Strategic Question:** When Tier-1 corporate legal teams at Sika and Simpson Strong-Tie redline uncalibrated liquidated damages and chemical profit disgorgement clauses, what prioritized tiered concessions can Jack Fay offer to preserve the BABA domestic Manufacturer of Record registration and revocable ASTM test license without stalling contract execution?
+* **The Definitive Answer & Ground Truth:** **Jack Fay executes a Prioritized Tiered Fallback Matrix (PTFM).** Tier-1 corporate legal counsels at multi-billion dollar formulators (e.g., Sika AG, Simpson Manufacturing Co.) will not execute an agreement that subjects their multi-million dollar chemical product lines to arbitrary six-figure lump-sum penalties or disgorges gross chemical profits over a molded plastic port [1, 2].  
+* **The Strategic Realignment:** What actually protects Lily Corporation is its **Regulatory & Operational Moat**:
+  1. **Build America, Buy America (BABA) Domestic Component Manufacturer of Record:** Sika and Simpson cannot substitute offshore ports on DOT and federally funded civil infrastructure without committing federal False Claims Act violations.
+  2. **Revocable ASTM Test Data License with Automatic DOT Stop-Work Poison Pill:** The instant a formulator substitutes unauthorized hardware, Lily revokes the test data license and notifies State DOT Materials Bureaus and ICC-ES, halting active jobsite pours.
+  3. **Permanently Molded Cavity Relief:** Tooling inserts physically mold Lily’s identity into the port flange in 0.015" raised relief, making physical substitution immediately obvious to DOT resident engineers.
 * **The Prioritized 3-Tier Fallback Protocol:** Jack Fay systematically trades away uncollectible punitive clauses to secure ironclad, self-executing operational remedies:
   * **Concession 1 (Chemical Disgorgement Redline):** Strike 100% chemical profit disgorgement; substitute **"Compensatory Hardware Lost Profit Liquidated Damages"** equal to $0.416 per unauthorized unit procured or used (Lily's actual lost gross margin, fully enforceable under UCC § 2-718 as actual compensatory damages [2, 4]), with a fixed cap of $50,000 to $100,000.
-  * **Concession 2 (Fixed Dollar LD Redline):** If corporate legal refuses any fixed lump sum ($250k or $100k), strike fixed liquidated damages entirely; substitute **"Baseload Volume Acceleration Remedy"** (accelerating the Section 4.2 Margin Shortfall True-Up of $104,000 for the remainder of the contract term as agreed liquidated compensation for early termination) plus actual attorney fees.
+  * **Concession 2 (Fixed Dollar LD Redline):** If corporate legal refuses any fixed lump sum, strike fixed liquidated damages entirely; substitute **"Baseload Volume Acceleration Remedy"** (accelerating the margin shortfall true-up for the remainder of the contract term as agreed liquidated compensation for early termination) plus actual attorney fees.
   * **Concession 3 (Restrictive Covenant Duration & Injunctive Relief):** Compress the anti-reverse engineering duration from 5 years to **2 or 3 years post-termination**; agree to standard injunctive relief with a reasonable mutual bond requirement ($10,000 to $25,000).
-  * **THE NON-NEGOTIABLE RED LINES (The Walk-Away Citadel):** Under NO circumstances will Jack Fay concede or alter:
-    - **Section 8.1(c):** Automatic termination of the ASTM License and unilateral right to notify State DOTs / ICC-ES upon unauthorized hardware substitution;
-    - **Section 8.2(c):** Mandatory attribution of Lily Corporation (Aurora, IL) as domestic Component Manufacturer of Record in all DOT binders;
-    - **Section 4.2(c):** Price ratchet from $0.58 OEM to $0.90 wholesale Net-Net upon breach;
-    - **Section 6.3:** Permanent 0.015" molded cavity logo and origin mark.
+  * **THE NON-NEGOTIABLE RED LINES (The Walk-Away Citadel):** Under NO circumstances will Jack Fay concede:
+    - Automatic termination of the ASTM License and unilateral right to notify State DOTs / ICC-ES upon unauthorized hardware substitution;
+    - Mandatory attribution of Lily Corporation (Aurora, IL) as domestic Component Manufacturer of Record in all DOT binders;
+    - Price ratchet from $0.58 OEM to $0.90 wholesale Net-Net upon breach;
+    - Permanent 0.015" molded cavity logo and origin mark.
 
 ---
 
-### 1.14 Frontier Resolution: COMM_91 (Distributor Consignment Staging & Auto-Replenishment Model for Fast-Turn Kits at Tier-1 Branches)
-* **The Core Strategic Question:** Can Lily leverage the high-throughput output of the OPER_66 kitting cell and OPER_54 EDI order ingestion to place pre-packaged starter and bridge deck port kits on managed consignment at top-performing White Cap and Dayton Superior regional hubs, capturing guaranteed shelf space while utilizing automated 30-day min/max reorder triggers to lock out third-party port knockoffs?
-* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT staging (which creates an unsupportable working capital drain, inventory shrink exposure, and reconciliation deadlock); but an emphatic YES to an "Authorized Tier-1 Civil Hub Guaranteed-Turn Planogram Program" (Firm VMI) backed by OPER_66 pre-packaged kits and OPER_54 automated EDI 850 min-max replenishment across 40 premier White Cap and Dayton Superior regional hubs.**
+### 1.14 Frontier Resolution: COMM_91 (Distributor Staging & Auto-Replenishment Model for Fast-Turn Kits at Tier-1 Branches)
+* **The Core Strategic Question:** Can Lily place pre-packaged starter and bridge deck port kits on managed consignment at top-performing White Cap and Dayton Superior regional hubs, capturing guaranteed shelf space while utilizing automated 30-day min/max reorder triggers to lock out third-party port knockoffs?
+* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT staging (which creates an unsupportable working capital drain, inventory shrink exposure, and reconciliation deadlock); but an emphatic YES to an "Authorized Tier-1 Civil Hub Guaranteed-Turn Planogram Program" (Firm VMI) backed by pre-packaged kits and automated EDI 850 min-max replenishment across 40 premier White Cap and Dayton Superior regional hubs.**
 
 ---
 
 ### 1.15 Frontier Resolution: COMM_100 (Direct Federal & State DOT Equipment Fleet Bid Discovery & Capture Protocol)
 * **The Core Strategic Question:** What automated, low-overhead search and scraping workflow (leveraging SAM.gov, state procurement clearinghouses like BidBuy/Cal eProcure, and regional DOT maintenance bulletins) can Maggie M and Dave Jepsen deploy to systematically identify and submit winning BAA-certified fleet bids for CD-250 and CD-15 proportioners without hiring a dedicated government contract specialist?
-* **The Definitive Answer & Ground Truth:** **Maggie M and Dave Jepsen will deploy the "GovFleet™ Discovery & Automated Capture Protocol" (GF-DCP)—a zero-headcount, on-premise automated scraping and triage engine coupled with a standardized 4-part "Bid-in-a-Box" response assembly.**  
+* **The Definitive Answer & Ground Truth:** **Maggie M and Dave Jepsen deploy the "GovFleet™ Discovery & Automated Capture Protocol" (GF-DCP)—a zero-headcount, on-premise automated scraping and triage engine coupled with a standardized 4-part "Bid-in-a-Box" response assembly.**
 
 ---
 
 ### 1.16 Frontier Resolution: COMM_151 (DOT Bridge Deck Emergency Repair Bundling Program — `RapidPass-Box™`)
 * **The Core Strategic Question:** Can Lily partner with White Cap and distributor regional hubs to commercialize a pre-packaged, shrink-wrapped 'Bridge Deck Night-Shift Kit' containing 100 SureClick ports, 10 SureMix bayonet mixers, 1 CleanPass manifold, and 1 SafePurge carboy under a single SKU ($395 list, $98 blended COGS, 75.2% GM) to bypass fragmented jobsite ordering and capture complete consumable bills-of-materials on DOT emergency repair contracts?
-* **The Definitive Answer & Ground Truth:** **YES. Lily will commercialize the `RapidPass-Box™` (SKU #RPB-100) through White Cap and regional civil distributor hubs, achieving 75.2% gross margin at $395.00 direct list ($98.00 blended COGS), and delivering a 35.4% to 38.0% branch margin to White Cap under an Everyday Net-Net Wholesale Price of $245.00 to $255.00 (yielding Lily a 60.0% to 61.6% wholesale gross margin).**  
+* **The Definitive Answer & Ground Truth:** **YES. Lily will commercialize the `RapidPass-Box™` (SKU #RPB-100) through White Cap and regional civil distributor hubs, achieving 75.2% gross margin at $395.00 direct list ($98.00 blended COGS), and delivering a 35.4% to 38.0% branch margin to White Cap under an Everyday Net-Net Wholesale Price of $245.00 to $255.00 (yielding Lily a 60.0% to 61.6% wholesale gross margin).**
 
 ---
 
 ### 1.17 Frontier Resolution: COMM_113 (Automated QR Lot Traceability & Digital DOT MTR Certification Engine for Drive-Lok Infrastructure Ports)
-* **The Core Strategic Question:** Can Maggie's on-premise OPER_54 Python pipeline generate batch-specific QR codes on master carton labels linking state DOT bridge inspectors directly to digitized 316 SS ball heat treat / MTR certs and QA-PROV-PORT burst hydro logs, creating an unassailable specification moat against uncertified generic ports?
-* **The Definitive Answer & Ground Truth:** **YES. Maggie's on-premise OPER_54 Python engine (`drive_lok_trace.py` / `qr_cert_engine.py`) can generate batch-specific dynamic QR codes on master carton Zebra shipping labels linking directly to a mobile-optimized, zero-login digital inspection certificate portal (`certs.lilycorp.com/cert/<LOT-ID>`), creating an airtight, unassailable specification moat that permanently locks out generic uncertified mechanical ports.**
+* **The Core Strategic Question:** Can Maggie's on-premise Python pipeline generate batch-specific QR codes on master carton labels linking state DOT bridge inspectors directly to digitized 316 SS ball heat treat / MTR certs and QA-PROV-PORT burst hydro logs, creating an unassailable specification moat against uncertified generic ports?
+* **The Definitive Answer & Ground Truth:** **YES. Maggie's on-premise Python engine (`drive_lok_trace.py` / `qr_cert_engine.py`) can generate batch-specific dynamic QR codes on master carton Zebra shipping labels linking directly to a mobile-optimized, zero-login digital inspection certificate portal (`certs.lilycorp.com/cert/<LOT-ID>`), creating an airtight, unassailable specification moat that permanently locks out generic uncertified mechanical ports.**
 
 ---
 
@@ -172,25 +167,25 @@
 
 ### 1.19 Frontier Resolution: COMM_173 (State DOT Special Provision Specification Campaign for Closed-Loop Ratio Verification — The RatioSentinel™ Mandate)
 * **The Core Strategic Question:** Can Lily coordinate with IDOT Bureau of Materials, Caltrans, and TxDOT to draft standard special provision language requiring 'mechanically synchronized, closed-loop graduated volumetric verification manifolds' on all structural epoxy bridge injection projects, effectively converting the RatioSentinel into a mandatory sole-source specification?
-* **The Definitive Answer & Ground Truth:** **NO to a literal de jure proprietary sole-source specification (which violates federal 23 CFR 635.411, triggers immediate rejection by State DOT specifications committees, and invites severe bid protests from Graco, Wiwa, ChemCo, and the AGC); but an emphatic, unqualified YES to orchestrating an industry-backed "Performance-Based Closed-Loop Quality Assurance Special Provision Campaign" across IDOT, Caltrans, and TxDOT.**  
+* **The Definitive Answer & Ground Truth:** **NO to a literal de jure proprietary sole-source specification (which violates federal 23 CFR 635.411, triggers immediate rejection by State DOT specifications committees, and invites severe bid protests from Graco, Wiwa, ChemCo, and the AGC); but an emphatic, unqualified YES to orchestrating an industry-backed "Performance-Based Closed-Loop Quality Assurance Special Provision Campaign" across IDOT, Caltrans, and TxDOT.**
 
 ---
 
-### 1.20 Frontier Resolution: COMM_138 (Regional Distributor Hub RapidSwap Consignment Float & EDI Auto-Replenishment Architecture)
-* **The Core Strategic Question:** Can Lily Corporation establish a zero-working-capital consignment float pool of 5 to 10 pre-tested RapidSwap wet-end cartridges across White Cap's top 20 civil bridge branches, using automated OPER_54 EDI triggers upon customer core drop-off to dispatch replacement stock from Aurora without carrying excess finished goods inventory?
-* **The Definitive Answer & Ground Truth:** **NO to establishing an unbilled CONSIGNMENT float pool of 5 to 10 cartridges (which is mathematically incapable of being "zero working capital," freezes $32,600 to $108,000 in finished goods capital against Lily’s $50,000 cash liquidity, creates massive core destruction moral hazard, and oversupplies slow-turning high-value capital assets); but an unqualified, emphatic YES to establishing an authorized "Distributor-Financed Lean Regional Hub Float Architecture" (2 Units per Hub) across White Cap’s top 20 civil bridge branches, powered by OPER_54 EDI 850 replenishment triggers, a 30-Second Go/No-Go Counter Inspection Shield, and a central 6-unit buffer pool in Aurora.**
+### 1.20 Frontier Resolution: COMM_138 (Regional Distributor Hub RapidSwap Core Bank Architecture)
+* **The Core Strategic Question:** Can Lily Corporation establish a zero-working-capital consignment float pool of 5 to 10 pre-tested RapidSwap wet-end cartridges across White Cap's top 20 civil bridge branches, using automated EDI triggers upon customer core drop-off to dispatch replacement stock from Aurora without carrying excess finished goods inventory?
+* **The Definitive Answer & Ground Truth:** **NO to establishing an unbilled CONSIGNMENT float pool of 5 to 10 cartridges (which is mathematically incapable of being "zero working capital," freezes $32,600 to $108,000 in finished goods capital against Lily’s $50,000 cash liquidity, creates massive core destruction moral hazard, and oversupplies slow-turning high-value capital assets); but an unqualified, emphatic YES to establishing an authorized "Distributor-Financed Lean Regional Hub Float Architecture" (2 Units per Hub) across White Cap’s top 20 civil bridge branches, powered by automated EDI 850 replenishment triggers, a 30-Second Go/No-Go Counter Inspection Shield, and a central 6-unit buffer pool in Aurora.**
 
 ---
 
 ### 1.21 Frontier Resolution: COMM_140 (State DOT Fleet Annual Operator Certification & Maintenance Retainer Bundling — CertAssure-DOT™)
 * **The Core Strategic Question:** Can Lily legally and commercially bundle a mandatory, sole-source annual Factory Operator Certification & Preventive Maintenance Retainer ($3,200/district/year) into winning COMM_100 public fleet bids for CD-250 and CD-15 proportioners, locking DOT maintenance garages into proprietary OEM consumable orders while fully complying with state procurement rules?
-* **The Definitive Answer & Ground Truth:** **NO to bundling an unrequested *mandatory* recurring service retainer or tying proprietary consumable purchases into sealed competitive capital equipment tenders (which renders the bid materially non-responsive under state procurement laws, commingles capital and operating appropriations, and triggers immediate disqualification or bid protests); but an unqualified, emphatic YES to executing the "Two-Tier Public Fleet Lifecycle Capture Architecture" (CertAssure-DOT™).**  
+* **The Definitive Answer & Ground Truth:** **NO to bundling an unrequested *mandatory* recurring service retainer or tying proprietary consumable purchases into sealed competitive capital equipment tenders (which renders the bid materially non-responsive under state procurement laws, commingles capital and operating appropriations, and triggers immediate disqualification or bid protests); but an unqualified, emphatic YES to executing the "Two-Tier Public Fleet Lifecycle Capture Architecture" (CertAssure-DOT™).**
 
 ---
 
-### 1.22 Frontier Resolution: COMM_157 / COMM_78 (RapidAssure™ Tool Trailer Consignment & Automated EDI/Procore Replenishment for Regional DOT Contractors)
-* **The Core Strategic Question:** Can Lily negotiate formal consigned inventory master agreements with the top 15 regional bridge rehabilitation contractors (e.g., Kraemer North America, Walsh Construction, Lunda Construction), pairing the OPER_106 RapidAssure tamper-seal QR webhooks directly into contractor Procore/HCSS HeavyJob procurement workflows to trigger auto-replenishment without local branch purchasing friction?
-* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT inventory staged on mobile contractor jobsite tool trailers (which creates balance-sheet capital asphyxiation, multi-state UCC-1 lien nightmares, jobsite theft/shrinkage risk, and audit disputes), and NO to autonomous billing webhooks that bypass contractor Project Manager approval; but an emphatic, unqualified YES to the "RapidAssure™ Jobsite Trailer Outfitting Master Agreement" (The Firm-Stocked Trailer Fleet Program) paired with the "OPER_106 Mobile Scan-to-Requisition Bridge" integrated directly into contractor Procore and HCSS HeavyJob approval workflows.**
+### 1.22 Frontier Resolution: COMM_157 / COMM_78 (RapidAssure™ Tool Trailer Outfitting & Automated EDI/Procore Replenishment for Regional DOT Contractors)
+* **The Core Strategic Question:** Can Lily negotiate formal consigned inventory master agreements with the top 15 regional bridge rehabilitation contractors (e.g., Kraemer North America, Walsh Construction, Lunda Construction), pairing tamper-seal QR webhooks directly into contractor Procore/HCSS HeavyJob procurement workflows to trigger auto-replenishment without local branch purchasing friction?
+* **The Definitive Answer & Ground Truth:** **NO to open, unbilled physical CONSIGNMENT inventory staged on mobile contractor jobsite tool trailers (which creates balance-sheet capital asphyxiation, multi-state UCC-1 lien nightmares, jobsite theft/shrinkage risk, and audit disputes), and NO to autonomous billing webhooks that bypass contractor Project Manager approval; but an emphatic, unqualified YES to the "RapidAssure™ Jobsite Trailer Outfitting Master Agreement" (The Firm-Stocked Trailer Fleet Program) paired with the "Mobile Scan-to-Requisition Bridge" integrated directly into contractor Procore and HCSS HeavyJob approval workflows.**
 
 ---
 
@@ -201,7 +196,7 @@
 ---
 
 ### 1.24 Frontier Resolution: COMM_163 / COMM_78 (Formulator Private-Label Turnkey Consumable Co-Packaging Agreements — Sika & Euclid Tolling/Supply Contract Bundling)
-* **The Core Strategic Question:** What contractual margin uplift and multi-year volume commitments can Dave Jepsen extract from Sika Corporation and Euclid Chemical by bundling dynamic private-label bagging (OPER_116) and BABA certification (OPER_101) directly into chemical master tolling/supply contracts?
+* **The Core Strategic Question:** What contractual margin uplift and multi-year volume commitments can Dave Jepsen extract from Sika Corporation and Euclid Chemical by bundling dynamic private-label bagging and BABA certification directly into chemical master tolling/supply contracts?
 * **The Definitive Answer & Ground Truth:** **Dave Jepsen can extract an immediate +680 to +810 basis point contractual margin uplift (ratcheting turnkey in-kit pack gross margins from 61.1% to 67.9%–69.2%, and bulk co-branded port gross margins from 71.7% to 73.3%), while locking in a combined 3-year minimum baseload volume commitment of 1,725,000 units (450,000 units Year 1; 600,000 units Year 2; 675,000 units Year 3) backed by mandatory take-or-pay shortfall true-ups ($0.45/unpurchased port, $6.50/unpurchased pack).**
 
 ---
@@ -214,17 +209,198 @@
 
 ### 1.26 Frontier Resolution: COMM_PRICING_06 (Day-1 Consumables List Price Increase: Capturing $30k–$50k Gross Margin with Zero Capex)
 * **The Core Strategic Question:** How will a targeted 5–8% list price increase across Lily's proprietary molded consumables (surface ports, caps, static mixers) be deployed across direct contractor accounts and distributors on Day 1 without customer churn? When was the last time Bob Trout raised list prices on molded accessories?
-* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 6.2% to 7.5% list price increase (weighted average: +6.8%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop.**  
-* **Empirical Diligence Findings & Historical Root Cause:**
-  1. *Historical Price Stagnation Resolved:* Diligence cross-referencing of historical P&L records (Accounts 4010, 5120) and Bob Trout's physical price sheets reveals that **Bob Trout had not systematically updated catalog list prices on molded consumables since February 2019 (over 7 years ago)**. During this same 2019–2026 window, virgin polypropylene and nylon 6/6 resin pellet costs escalated 22%–35%, corrugated carton costs rose 28%, and general consumer and industrial CPI advanced over 22%. Bob's operating philosophy was "keep the catalog steady so the old boys don't get annoyed," leaving substantial pricing power completely unmonetized.
-  2. *Infinitesimal Cost Share (<1% of Jobsite Contract Value):* On a typical $50,000 to $150,000 civil bridge deck or DOT structural crack injection contract, total expenditure on molded injection ports and static mixers ranges between **$350 and $750—representing strictly 0.4% to 0.8% of total contract value**. A 6.8% price adjustment on 500 ports represents an incremental cost of just **$35.00 to $45.00 on a $75,000 job**. No civil project manager or estimator changes suppliers, delays a pour, or risks a jobsite inspection failure over $40 in plastic hardware.
-  3. *Inelastic Emergency Demand Profile:* Contractors purchase crack injection ports and static mixers under acute jobsite mobilization or inspection deadlines. When an IDOT, WisDOT, or Caltrans resident engineer flags delaminations or cracks during an active lane closure, the contractor's sole priority is immediate availability of 100% bubble-tight, BABA-certified ports delivered next-morning via UPS. Switching to uncertified, generic import ports introduces catastrophic blowout risks, structural voiding, and DOT backcharges exceeding $5,000/hour.
-  4. *Zero Capex, Zero Labor, 100% Flow-Through Cash Engine:* Because Lily owns all 10 injection molds free-and-clear (Molds #1–10) and Greg operates the Cincinnati Milacron press under existing shop hours, an increase in list price requires **zero tooling capex ($0.00), zero shop labor additions, and incurs zero incremental material cost**. Every single incremental dollar billed flows **100% directly into Gross Margin, Operating Income, and Cash Flow Available for Debt Service (CFADS)**.
-* **The Day-1 Financial Impact Model (Capturing $38,000 to $44,000 Incremental Cash Flow):**
-  * Baseline Consumable & Accessory Revenue: ~$580,000 to $620,000 annually across direct contractor accounts and wholesale distribution channels.
-  * Weighted Average Price Adjustment: **+6.8%** across core molded lines.
-  * Realized Gross Margin Expansion: **+$39,440 to +$42,160 in annualized cash profit** ($3,286 to $3,513/month).
-  * *Immediate Liquidity Protection:* This zero-capex cash injection directly addresses the company's non-negotiable **$11,403.04/month ($136.8k/year) debt service and lease floor**. It generates enough incremental cash flow in Months 1–4 to absorb over 50% of the entire winter liquidity drawdown, protecting the tight $7,219 Year-1 Month 4 cash trough without drawing down working capital reserves!
+* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 6.2% to 7.5% list price increase (weighted average: +6.82%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop, capturing $38,000 to $44,000 in annualized net gross profit with zero capex, zero added shop labor, and zero contractor churn.**
+
+#### 1.26.1 Historical Diligence Finding: Resolving the Founder Pricing Stagnation
+* **Empirical Diligence Verification:** Forensic review of Lily Corporation's historical billing records in QuickBooks Desktop (`pl.csv`, Accounts 4010 and 5120) and Bob Trout's archived physical catalog sheets confirms that **Bob Trout last systematically updated catalog list prices on molded accessories and injection consumables in February 2019 (over 7 years ago)**.
+* **The Operational Cause of Stagnation:** Bob Trout’s commercial philosophy was anchored in personal customer familiarity: *"Keep the catalog steady so the old boys don't get annoyed."* Over the subsequent 7-year period (2019–2026), virgin polypropylene and nylon 6/6 resin pellet spot prices escalated 22%–35%, corrugated packaging cartons rose 28%, and broader industrial PPI/CPI advanced over 22%. By keeping prices frozen, Bob absorbed compounding inflation on purchased accessories and gave away substantial pricing power on Lily's proprietary molded lines.
+* **The Opportunity Wedge:** Because list prices have been artificially depressed since 2019, restoring catalog prices to normal 2026 commercial replacement value does not represent an aggressive price gouge—it is a modest, overdue normalization that remains fully competitive with generic market alternatives.
+
+#### 1.26.2 Inelastic Demand Economics & Asymmetric Jobsite Risk
+Lily's molded consumables possess an exceptionally rare combination of economic characteristics that allow an immediate price increase with mathematically near-zero customer churn:
+1. **Infinitesimal Cost Share (<1.0% of Jobsite Contract Value):**
+   * On a standard $50,000 to $150,000 civil bridge deck rehabilitation or DOT structural crack repair project, total expenditure on molded injection ports, snappy tees, and static mixers ranges between **$350 and $750—representing strictly 0.4% to 0.8% of total contract value**.
+   * On an order of 500 surface ports, a 6.8% price adjustment represents an incremental dollar variance of just **$35.00 to $50.00**.
+   * No heavy civil general contractor (Walsh, Kraemer, Lunda), DOT bridge superintendent, or project estimator will halt an active contract, risk project delays, or solicit competitive quotes over a $40 variance on a $75,000 bridge repair.
+2. **Acute Emergency Demand Profile:**
+   * Contractors do not purchase crack injection ports on speculative retail shopping cycles; they order against mandatory DOT engineer inspection punch lists, active highway lane closures, or sudden delamination discoveries.
+   * In a night-shift bridge deck pour where lane closure liquidated damages exceed **$2,500 to $5,000 per hour**, the contractor's sole purchasing criteria are **immediate physical availability, next-morning UPS delivery, and 100% mechanical seal reliability**.
+3. **Severe Blowout & Void Remediation Risk Asymmetry:**
+   * A surface injection port must withstand 50 to 250 PSI of hydraulic resin pressure without popping off the concrete or leaking low-viscosity epoxy out of its check valve.
+   * If a contractor attempts to save $0.10 by sourcing an uncertified, generic import port and the check valve fails, the epoxy drains out, creating an internal structural void. The State DOT resident engineer rejects the pour, mandates diamond core testing, and orders epoxy remediation costing **$5,000 to $15,000**.
+   * Contractor superintendents recognize that Lily’s 100% inline DL-100 bubble-tight certified ports and proprietary resin formulations eliminate this catastrophic failure mode. The perceived switching risk is overwhelmingly negative.
+
+#### 1.26.3 Zero Capex, Zero Labor, 100% Gross Profit Flow-Through
+* **Zero Capital Expenditure ($0.00):** Lily Corporation owns all 10 injection molds free-and-clear (Molds #1–10). Producing molded consumables uses existing tooling mounted on Lily's on-site Cincinnati Milacron press. Raising list prices requires zero tooling modification, zero machine reconfiguration, and zero software licensing cost.
+* **Zero Shop Labor Addition:** Greg operates the press and Julian Perez packs cartons during standard, unexpanded operating shifts. Direct shop labor (`Account 5210`) remains locked at its baseline $18,500/month allocation.
+* **100% Flow-Through to CFADS:** Because direct material and labor costs are already incurred, every incremental dollar generated from the price increase flows **100% directly into Gross Margin, Operating Income, and Cash Flow Available for Debt Service (CFADS)**.
+
+```
++-----------------------------------------------------------------------------------------------------------------------------------------+
+|                                    COMM_PRICING_06 SKU-LEVEL PRICE INCREASE & MARGIN EXPANSION SCHEDULE                                 |
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| SKU / Part Number | Description | Legacy List | 2026 List   | % Change  | Legacy Net   | 2026 Net-Net | % Change  | Unit Mfg | Legacy   | 2026     |
+| & Tooling Origin  | / Packaging | (Direct)    | (Direct)    | (Direct)  | (Wholesale)  | (Wholesale)  | (Wholesale| COGS     | Gross Mgn| Gross Mgn|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPP-1000         | LPI Surface | $1,450.00   | $1,550.00   | +6.90%    | $840.00      | $900.00      | +7.14%    | $164.00  | 80.5% Dir| 81.8% Dir|
+| (Molds #1, #2, #3)| Port (1,000)| ($1.45/ea)  | ($1.55/ea)  |           | ($0.84/ea)   | ($0.90/ea)   |           | ($0.164) | 88.7% Whs| 89.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPT-500          | Snappy Tee  | $875.00     | $935.00     | +6.86%    | $510.00      | $545.00      | +6.86%    | $115.00  | 76.5% Dir| 78.0% Dir|
+| (Mold #4)         | Adapt (500) | ($1.75/ea)  | ($1.87/ea)  |           | ($1.02/ea)   | ($1.09/ea)   |           | ($0.230) | 86.9% Whs| 87.7% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPC-50           | Reservoir   | $192.50     | $207.50     | +7.79%    | $115.00      | $124.00      | +7.83%    | $34.00   | 70.4% Dir| 72.6% Dir|
+| (Mold #8)         | Bowl (50-ct)| ($3.85/ea)  | ($4.15/ea)  |           | ($2.30/ea)   | ($2.48/ea)   |           | ($0.680) | 82.3% Whs| 83.6% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPT-CAP-100      | Port Sealing| $42.00      | $45.00      | +7.14%    | $24.00       | $26.00       | +8.33%    | $5.20    | 78.3% Dir| 79.8% Dir|
+| (Mold #6)         | Cap (100-ct)| ($0.42/ea)  | ($0.45/ea)  |           | ($0.24/ea)   | ($0.26/ea)   |           | ($0.052) | 87.6% Whs| 88.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #CD250-CAP-25     | CD-250 High-| $116.25     | $123.75     | +6.45%    | $68.75       | $73.75       | +7.27%    | $18.50   | 73.1% Dir| 74.9% Dir|
+| (Molds #9, #10)   | Flow Cap(25)| ($4.65/ea)  | ($4.95/ea)  |           | ($2.75/ea)   | ($2.95/ea)   |           | ($0.740) | 84.1% Whs| 85.1% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-1424-100      | 1/4"x24 Stat| $310.00     | $330.00     | +6.45%    | $195.00      | $208.00      | +6.67%    | $82.00   | 57.9% Dir| 60.6% Dir|
+| (Purch Consumable)| Mixer (100) | ($3.10/ea)  | ($3.30/ea)  |           | ($1.95/ea)   | ($2.08/ea)   |           | ($0.820) | 73.5% Whs| 75.2% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-3824-50       | 3/8"x24 Stat| $210.00     | $225.00     | +7.14%    | $132.50      | $141.50      | +6.79%    | $56.00   | 57.7% Dir| 60.4% Dir|
+| (Purch Consumable)| Mixer (50)  | ($4.20/ea)  | ($4.50/ea)  |           | ($2.65/ea)   | ($2.83/ea)   |           | ($1.120) | 73.3% Whs| 75.1% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-1224-25       | 1/2"x24 Stat| $187.50     | $200.00     | +6.67%    | $118.75      | $126.75      | +6.74%    | $51.25   | 56.8% Dir| 59.6% Dir|
+| (Purch Consumable)| Mixer (25)  | ($7.50/ea)  | ($8.00/ea)  |           | ($4.75/ea)   | ($5.07/ea)   |           | ($2.050) | 72.7% Whs| 74.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #VIN-TUB-100      | 1/4" PVC Tub| $65.00      | $69.50      | +6.92%    | $41.00       | $44.00       | +7.32%    | $17.50   | 57.3% Dir| 60.2% Dir|
+| (Purch Consumable)| 100-Ft Roll | ($0.65/ft)  | ($0.695/ft) |           | ($0.41/ft)   | ($0.44/ft)   |           | ($0.175) | 73.1% Whs| 74.8% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| BLENDED WEIGHTED  | ALL MOLDED  | --          | --          | +6.82%    | --           | --           | +7.04%    | --       | 70.8%    | 72.6%    |
+| AVERAGE           | & CONSUMABLE|             |             |           |              |              |           |          | Blended  | Blended  |
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+```
+
+#### 1.26.4 Mathematical Gross Margin & Cash Flow Realization Proof
+* **Baseline Annual Consumable Baseload:**
+  * Invoiced Sales from Consumables & Accessories (Accounts 4010 / 5120): **$600,000.00 annually** ($50,000.00/month average; $28,000/month in Q1 winter trough rising to $68,000/month during peak Q2/Q3 civil construction).
+  * Consumable Product Mix Breakdown:
+    - In-House Molded Parts (Ports, Tees, Bowls, Caps): 64% of volume = **$384,000.00**.
+    - Purchased Accessories (Static Mixers, PVC Tubing, Ratio Cups): 36% of volume = **$216,000.00**.
+* **Realized Price Uplift Calculation:**
+  $$\text{Incremental Annual Gross Cash Flow} = \$600,000.00 \times 6.82\% = \mathbf{\$40,920.00\text{ / year}}$$
+  * Conservative Churn/Grace-Period Adjusted Realization (97.0% realization factor):
+    $$\mathbf{\$40,920.00 \times 0.970 = \$39,692.40\text{ / year}} \quad (\mathbf{\$3,307.70\text{ / month}})$$
+  * Range Across Demand Scenarios: **$38,000 to $44,000 in pure annualized gross profit**.
+* **Balance Sheet & Debt Service Impact:**
+  * Mandatory Senior SBA 7(a) Debt Service & Facility Lease Floor: **$11,403.04/month ($136.8k/year)**.
+  * The Day-1 consumable price increase generates **$3,307.70/month in net cash**, single-handedly funding **29.0% of Lily's entire monthly debt service and facility lease obligation**.
+  * During the high-risk Year 1 winter trough (Months 1–4), this price normalization captures **+$13,230.80 in cumulative cash**, buffering the seasonal working capital trough and eliminating any risk of an overdraft.
+
+#### 1.26.5 Channel Deployment Architecture & Execution Playbook
+
+```
++----------------------------------------------------------------------------------------------------+
+|                               COMM_PRICING_06 ROLLOUT TIMELINE & WORKFLOW                          |
++----------------------------------------------------------------------------------------------------+
+| DAY 1 (07:30 AM CST) - INTERNAL ACTIVATION & BILLING ENGINE SETUP                                 |
+| 1. Maggie M exports the active Item List from QuickBooks Desktop Premier (Contractor Edition).     |
+| 2. Maggie applies the formula-based 2026 pricing schedule in Excel; verifies no rounding errors.  |
+| 3. Batch re-import of updated Item List into QuickBooks Desktop before 08:00 AM CST order window. |
+| 4. Print updated, laminated physical desktop cheat-sheets for Dave Jepsen's and Maggie's desks.    |
+| 5. Verify that outgoing Sales Order and Invoicing templates display updated pricing automatically. |
++----------------------------------------------------------------------------------------------------+
+| DAY 1 THROUGH DAY 30 - DIRECT CONTRACTOR CHANNEL (PHONE DESK & PO ORDERS)                          |
+| 1. Active Quote Grace Period: Honor any written quote issued prior to Day 1 for 30 calendar days.  |
+| 2. Verbal Jobsite Quoting: Dave Jepsen quotes updated list prices on all new phone/email requests. |
+| 3. Scripted Value Framing: Script deployed to handle contractor price mentions without friction.    |
+| 4. Zero Digital Friction: Maintain traditional Net 30 PO ordering; zero forced web logins.        |
++----------------------------------------------------------------------------------------------------+
+| DAY 3 THROUGH DAY 30 - WHOLESALE DISTRIBUTOR CHANNEL (WHITE CAP, BROCK WHITE, DAYTON)              |
+| 1. Jack Fay formally transmits the "2026 Commercial Price Normalization Notice" to regional desks. |
+| 2. Provide 30-day formal transition notice; new Everyday Net-Net wholesale pricing effective Day 30.|
+| 3. Frame price adjustment around expanded distributor branch gross margin ($750 gross profit/ctn). |
+| 4. Honor all confirmed distributor backlog POs received prior to Day 30 at legacy wholesale price. |
++----------------------------------------------------------------------------------------------------+
+| DAY 31 ONWARD - 100% STANDARDIZED PRICE REALIZATION & ONGOING AUDITING                             |
+| 1. All direct contractor orders and distributor EDI 850 feeds execute at 2026 price schedule.     |
+| 2. Weekly margin audit: Maggie reviews gross profit percentages across all shipped consumable POs. |
+| 3. Dave Jepsen reviews contractor order frequency: Verify zero account attrition across Top 50.    |
++----------------------------------------------------------------------------------------------------+
+```
+
+#### 1.26.6 Dave Jepsen Phone Desk Scripting & Contractor Objection Handling
+Dave Jepsen manages 90%+ of direct contractor interaction over his phone desk at 240 S. Broadway. When contractors place orders, Dave follows structured, field-tested verbal framing:
+
+* **Scenario A: Standard Inbound Reorder (No Price Mention by Contractor)**
+  * *Contractor:* "Dave, we’re mobilizing on the I-80 bridge deck over the Des Plaines River next Monday. Get me two cartons of Safety Orange surface ports and a box of 1/4-inch static mixers rushed out."
+  * *Dave Jepsen:* "Got it, Frank. That’s two cartons of the LPP-1000s and a box of SM-1424 mixers. We’ve got fresh stock molded this week. Master cartons are fifteen-fifty each and the mixers are three-thirty for the hundred-pack. What’s your jobsite trailer PO number?"
+  * *Contractor:* "PO is IDOT-80-044. Ship it standard UPS Freight."
+  * *Outcome:* Order booked at 2026 list price. Zero discussion, zero friction.
+
+* **Scenario B: Contractor Notices Price Variance**
+  * *Contractor:* "Hey Dave, looking at the invoice from last fall—weren't those ports fourteen-fifty a carton? You guys bumped them to fifteen-fifty?"
+  * *Dave Jepsen (Scripted Response):* "Yeah, Mike, you’ve got a sharp memory. We held our port prices completely flat for seven straight years—Bob hadn't touched catalog prices since early 2019 despite resin going through the roof. It works out to about a dime a port. The key is they’re still molded right here on our press in Aurora out of virgin resin, and every port is pressure-checked on our test bench before it goes into the box. You won't get cracked bodies or leaking check valves blowing out your bridge inspection."
+  * *Contractor:* "Fair enough, Dave. A dime a port won't kill us. Just make sure they're on the dock by Thursday morning."
+  * *Outcome:* Value reinforced (100% domestic, pressure-tested, zero blowout risk), 7-year price hold framed, transaction closed.
+
+* **Scenario C: Contractor Bidding Active Long-Term Contract (Quote Protection)**
+  * *Contractor:* "Dave, I quoted this county culvert repair two weeks ago based on your fourteen-fifty price. If you bump me now, I eat that variance."
+  * *Dave Jepsen (Scripted Concession):* "Say no more, Chris. If you’ve got an open quote or bid from the last thirty days, we honor it one hundred percent. Send me your bid submittal sheet or quote date, and I’ll lock in the fourteen-fifty price for the duration of that project. Anything you bid from today forward will be on the new sheet."
+  * *Outcome:* Customer loyalty cemented, zero margin erosion on forward business, contractor trust preserved.
+
+#### 1.26.7 Maggie M QuickBooks Desktop Operational SOP
+1. **System Backup:** Prior to modification, Maggie M creates a full QuickBooks backup file (`LILY_CORP_BACKUP_YYYYMMDD.QBB`) stored locally and on the secure shop NAS.
+2. **Item List Export:**
+   - Navigate to `Lists` > `Item List`.
+   - Select `Excel` > `Export all Items to Excel workbook`.
+   - File saved as `Lily_Item_List_Pre_Price_Increase_2026.xlsx`.
+3. **Price Calculation in Excel:**
+   - In Excel, target consumable items: `LPP-1000`, `LPT-500`, `LPC-50`, `LPT-CAP-100`, `CD250-CAP-25`, `SM-1424-100`, `SM-3824-50`, `SM-1224-25`, `VIN-TUB-100`.
+   - Verify wholesale Net-Net price tiers in Price Level lists (`Lists` > `Price Level List` > `Wholesale Net-Net Level 1`).
+   - Round all calculated unit prices to two decimal places (`=ROUND(C2*1.0682, 2)`).
+4. **QuickBooks Batch Re-Import / Direct Edit:**
+   - For items with complex assemblies, Maggie opens `Lists` > `Add/Edit Multiple Items`.
+   - Pastes new Sales Price figures into the active grid.
+   - Saves changes and runs an Item Listing report to verify that historical assembly bills-of-materials remain intact while sales list prices update.
+5. **Desk Cheat-Sheets & Templates:**
+   - Print two laminated 8.5" x 11" quick-reference sheets titled: *"Lily Corporation 2026 Consumable Price Reference (Effective Day 1)"*.
+   - Place one directly beside Dave Jepsen’s order phone and one at Maggie’s billing station.
+
+#### 1.26.8 Wholesale Distributor 30-Day Notification Protocol
+On Day 3, Jack Fay transmits formal price adjustment notices to regional purchasing managers at White Cap, Brock White, and Dayton Superior:
+
+```
+====================================================================================================
+LILY CORPORATION | 240 SOUTH BROADWAY, AURORA, IL 60505 | 630-892-0860
+====================================================================================================
+DATE: [Closing Date + 3 Days]
+TO: Regional Category Merchandising & Accounts Payable Managers
+    White Cap Supply Holdings | Brock White Construction Materials | Dayton Superior
+SUBJECT: 2026 Commercial Price Schedule & Category Margin Enhancement Notice
+
+Dear Valued Distribution Partner,
+
+For the past seven years—since February 2019—Lily Corporation has maintained frozen catalog pricing 
+across our proprietary civil injection ports, caps, and chemical accessories, absorbing substantial 
+polymer resin and packaging cost inflation to support your regional branch profitability.
+
+Effective thirty (30) days from this notice ([Effective Date]), Lily Corporation is instituting a 
+modest commercial price schedule update across our molded consumables and static mixers.
+
+IMPORTANT DISTRIBUTOR MARGIN HIGHLIGHTS:
+1. EXPANDED BRANCH GROSS MARGIN: Under our updated Everyday Net-Net Wholesale schedule, your branch 
+   purchase price on our flagship 1,000-count Safety Orange Port Master Carton (#PORT-SO-1000) adjusts 
+   from $840.00 to $900.00 Net-Net ($0.90/port). With prevailing contractor street resale adjusting 
+   from $1.55 to $1.65/port, your branch gross margin expands to a massive 45.5% ($750.00 gross profit 
+   per carton), significantly outperforming your internal 30% branch margin targets.
+2. 30-DAY BACKLOG PROTECTION: All confirmed purchase orders received prior to 5:00 PM CST on 
+   [Effective Date] will be invoiced at our legacy 2019 wholesale price schedule.
+3. DOMESTIC BABA MANUFACTURING INTEGRITY: All Lily injection ports and snappy tees continue to be 
+   100% manufactured and pressure-certified on our proprietary molds in Aurora, IL, satisfying all 
+   Build America, Buy America Act (BABA / 23 CFR 635.411) infrastructure requirements.
+
+Please update your branch POS and centralized ERP purchasing systems with the attached 2026 EDI/SKU 
+schedule. We appreciate your continued partnership in serving the heavy civil infrastructure market.
+
+Sincerely,
+Jack Fay, President & General Manager | Robert Trout, Founder & Technical Advisor
+Lily Corporation | Aurora, Illinois
+====================================================================================================
+```
 
 ---
 
@@ -272,7 +448,7 @@
   3. **Commercial Damage Waiver (CDW) at 11.5% of Base Rent:** Contractors are enrolled in an 11.5% non-refundable damage waiver (waivable only if the contractor provides a valid Certificate of Insurance naming Lily Corporation as Loss Payee with minimum $50,000 rented equipment coverage). The CDW covers accidental exterior jobsite wear, superficial sheet metal scrapes, and minor frame dents.  
   * **STRICT DAMAGE WAIVER EXCLUSIONS:** The CDW explicitly **excludes** internal polymer/resin freeze-ups caused by improper purging, use of unapproved caustic solvents (e.g., methylene chloride or ketones destroying seals), cross-threaded fluid manifolds, intentional abuse, and catastrophic contamination.
 * **Return Overhaul & Purge Protocol: Resolving the Cylinder Resin Freeze-Up Uncertainty:**
-  * *The Threat:* If a contractor ships a proportioner back to Aurora with unreacted structural epoxy, moisture-cure polyurethane, or mixed resin sitting inside precision 316 SS pump cylinders and patented COCO ball valves, the polymer cross-links during transit. Within 48 hours, the cylinder block freezes solid. Remediating a frozen cylinder requires 8 hours of machinist lathe time or complete wet-end replacement costing $1,850 (CD-15) to $4,200 (CD-250).
+  * *The Threat:* If a contractor ships a proportioner back to Aurora with unreacted structural epoxy, moisture-cure polyurethane, or mixed resin sitting inside precision 316 SS pump cylinders and COCO ball valves, the polymer cross-links during transit. Within 48 hours, the cylinder block freezes solid. Remediating a frozen cylinder requires 8 hours of machinist lathe time or complete wet-end replacement costing $1,850 (CD-15) to $4,200 (CD-250).
   * *The 4-Step Decontamination & Intake Overhaul Protocol:*
     1. **Pre-Dispatch Wet-End Priming with Neutral Storage Fluid:** Aurora never ships a rental pump dry. Julian Perez primes all fluid cylinders, pistons, and manifolds with high-purity, non-reactive plasticizer/storage oil (DINP / white mineral oil). High-visibility fluorescent weather-resistant tags are affixed to the inlet ports: *"SEALED FLEET RIG: FILLED WITH NEUTRAL STORAGE FLUID. FLUSH WITH CLEAN SOLVENT BEFORE INTRODUCING RESIN."*
     2. **Jobsite Return Demobilization SLA (The "FlushPass™ Protocol"):** The Master Rental Agreement stipulates that within 2 hours of taking the machine off-line, the jobsite operator must pump a minimum of 2 gallons of Lily-approved non-flammable flushing solvent (SafePurge™) through each component fluid path until solvent discharges 100% crystal clear, followed by drawing 1 quart of motor oil or hydraulic fluid into the pump suction lines. The jobsite superintendent signs the physical FlushPass tag attached to the rig handle before the freight carrier loads the unit.
@@ -308,23 +484,23 @@ Civil concrete supply houses (White Cap, Dayton Superior, Brock White) and resin
    * Formulators spend thousands in field engineering hours defending chemical batch integrity.
    * *The Lily Solution:* 100% inline bubble-tight pressure testing on the DL-100 automated fixture guarantees zero backflow leakage up to 60 PSI, completely eliminating mechanical backflow claims for formulator reps.
 
-4. **The Secondary Packaging & Chemical Plant Bottleneck (COMM_163 / OPER_116):**  
-   Chemical formulators are liquid manufacturers, not small-parts kitting operations. Hand-counting injection ports, static nozzles, and surface retaining caps on chemical filling lines causes packaging slowdowns, piece-count errors, and worker frustration at $40/hr labor rates. By leveraging Lily’s OPER_116 dynamic private-label bagging cell, Lily delivers sealed, formulator-branded 16-port packs ready for instant drop-in insertion on formulator lines, eliminating labor drag while securing Lily a 67.9% gross margin.
+4. **The Secondary Packaging & Chemical Plant Bottleneck (COMM_163):**  
+   Chemical formulators are liquid manufacturers, not small-parts kitting operations. Hand-counting injection ports, static nozzles, and surface retaining caps on chemical filling lines causes packaging slowdowns, piece-count errors, and worker frustration at $40/hr labor rates. By delivering sealed, formulator-branded 16-port packs ready for instant drop-in insertion on formulator lines, Lily eliminates labor drag while securing Lily a 67.9% gross margin.
 
-5. **The Build America, Buy America Act (BABA) Regulatory Shield (COMM_163 / OPER_101):**  
-   Formulators bidding on federal-aid bridge rehabilitation projects face strict domestic sourcing rules under IIJA Title IX and 23 CFR 635.411 [3]. Bundling uncertified imported ports creates massive False Claims Act liability. Lily’s verified domestic manufacturing content (>81% domestic content, US-molded on proprietary tooling) provides formulators with an unassailable BABA certification shield that protects multi-million dollar chemical bids.
+5. **The Build America, Buy America Act (BABA) Regulatory Shield (COMM_163):**  
+   Formulators bidding on federal-aid bridge rehabilitation projects face domestic sourcing rules under IIJA Title IX and 23 CFR 635.411. Bundling uncertified imported ports creates False Claims Act liability. Lily’s verified domestic manufacturing content (>81% domestic content, US-molded on proprietary tooling) provides formulators with an unassailable BABA certification shield that protects chemical bids.
 
 6. **The Off-Ratio Injection Disaster & RatioSentinel™ Moat (COMM_173):**  
-   Epoxy resins are stoichiometrically unforgiving. An off-ratio variation of as little as 5% prevents cross-linking, leaving permanent gooey, uncured resin inside structural bridge cracks that destroys load transfer and costs DOTs millions in diamond coring and structural remediation. Formulators bear the brunt of false product warranty claims when contractors use worn gear pumps or air-locked proportioners. By partnering with formulators to mandate closed-loop volumetric verification (RatioSentinel™), Lily provides chemical manufacturers with an impenetrable field QA shield while embedding Lily hardware directly into DOT standard specifications.
+   Epoxy resins are stoichiometrically unforgiving. An off-ratio variation of as little as 5% prevents cross-linking, leaving permanent uncured resin inside structural bridge cracks that destroys load transfer and costs DOTs millions in diamond coring and structural remediation. Formulators bear the brunt of false product warranty claims when contractors use worn gear pumps or air-locked proportioners. By partnering with formulators to mandate closed-loop volumetric verification (RatioSentinel™), Lily provides chemical manufacturers with an impenetrable field QA shield while embedding Lily hardware directly into DOT standard specifications.
 
 7. **The RapidSwap™ Zero-Downtime Civil Hub Backbone (COMM_57 & COMM_138):**  
-   When a structural injection pump gums up mid-shift during an active bridge deck lane closure, the contractor faces $5,000/hour liquidated damages from the DOT. Competitive proportioners (Graco, Wiwa) require a 4 to 8 hour chemical soak and complete tear-down. White Cap branches cannot stock complex mechanical replacement assemblies or provide in-house mechanics. The **RapidSwap™ 2-unit distributor-financed hub float** backed by the **Go/No-Go Gauge block** and **OPER_54 auto-replenishment** gives White Cap a foolproof, zero-liability way to save the contractor in 60 seconds while earning $190 pure profit per exchange.
+   When a structural injection pump gums up mid-shift during an active bridge deck lane closure, the contractor faces $5,000/hour liquidated damages from the DOT. Competitive proportioners (Graco, Wiwa) require a 4 to 8 hour chemical soak and complete tear-down. White Cap branches cannot stock complex mechanical replacement assemblies or provide in-house mechanics. The **RapidSwap™ 2-unit distributor-financed hub float** backed by the **Go/No-Go Gauge block** and automated replenishment gives White Cap a foolproof, zero-liability way to save the contractor in 60 seconds while earning $190 pure profit per exchange.
 
 8. **The Counter Labor Bottleneck & Gravity-Feed Merchandising Advantage (COMM_91, COMM_121, COMM_151 & COMM_168):**  
-   At wholesale branch counters (White Cap, Dayton Superior, Brock White), early morning contractor rushes and late-afternoon emergency panics create immense pressure. If a contractor buying crack repair epoxy needs 20 ports, 10 mixers, and 5 packers, the counter rep must walk back to open parts bins, hand-count plastic parts into a bag, and manually key multiple miscellaneous SKUs into the POS terminal. This consumes 8 to 15 minutes per transaction and leads to constant inventory shrinkage and missing components. Lily's pre-packaged gravity-feed counter displays reduce the entire transaction to a single 2-second barcode scan, handing the contractor a tamper-evident retail pack containing everything required for the shift while generating an immediate 41.9% front-end profit for the branch.
+   At wholesale branch counters (White Cap, Dayton Superior, Brock White), early morning contractor rushes and late-afternoon emergency panics create immense pressure. If a contractor buying crack repair epoxy needs 20 ports, 10 mixers, and 5 packers, the counter rep must walk back to open parts bins, hand-count plastic parts into a bag, and manually key multiple miscellaneous SKUs into the POS terminal. This consumes 8 to 15 minutes per transaction and leads to constant inventory shrinkage and missing components. Lily's pre-packaged gravity-feed counter displays reduce the entire transaction to a single 2-second barcode scan, handing the contractor a tamper-evident retail pack containing everything required for the shift while generating an immediate 41.9% to 45.5% front-end profit for the branch.
 
 9. **The Tool Trailer Outfitting & Frictionless Replenishment Moat (COMM_157):**  
-   Top regional bridge rehabilitation contractors run dozens of mobile tool trailers across multi-county DOT highway contracts. When a night-shift crew runs out of injection ports or blow a static mixer at 1:30 AM, they either halt the pour or dispatch an apprentice on a 2-hour morning run to a local distributor branch. By equipping contractor tool trailers with firm-stocked **RapidAssure™ modules** and pairing them with **OPER_106 mobile scan-to-requisition webhooks** linked to Procore and HCSS HeavyJob, Lily eliminates jobsite purchasing friction and locks in 100% of the contractor's consumable bill-of-materials.
+   Top regional bridge rehabilitation contractors run dozens of mobile tool trailers across multi-county DOT highway contracts. When a night-shift crew runs out of injection ports or blow a static mixer at 1:30 AM, they either halt the pour or dispatch an apprentice on a 2-hour morning run to a local distributor branch. By equipping contractor tool trailers with firm-stocked **RapidAssure™ modules** and pairing them with mobile scan-to-requisition webhooks linked to Procore and HCSS HeavyJob, Lily eliminates jobsite purchasing friction and locks in 100% of the contractor's consumable bill-of-materials.
 
 10. **The Environmental Night-Shift Containment Moat (SafePurge™ Integrity — COMM_151 & COMM_173):**  
    Bridge deck repairs occur directly over rivers and active traffic corridors where State DOT environmental inspectors enforce zero-tolerance spill regulations. By integrating the closed-loop **SafePurge™ carboy** into the RapidPass-Box, RapidAssure tool trailer packs, and enforcing closed-loop **RatioSentinel™** volumetric checks, Lily solves critical regulatory compliance bottlenecks that resin formulators and distributors cannot address with loose parts.
@@ -355,8 +531,8 @@ Chemical formulators, national distributors, and rental contractors are highly s
 | - DL-100 factory certification: 100% inline bubble-tight shutoff against backflow up to 60 PSI     |
 |   (Safety Orange / SureClick™ SC-FLAT & SC-90C) or mechanical retention up to 250 PSI (Drive-Lok).|
 | - Fixture Structural Integrity: 100% weld and finish durability of counter racks (#WC, #DS, #BW). |
-| - OPER_116 Bagging QA: 100% seal integrity on 4-mil polybags; zero piece-count shortages.          |
-| - OPER_101 BABA Compliance: Certified domestic polymer resin lots (>81% domestic content).         |
+| - Packaging QA: 100% seal integrity on 4-mil polybags; zero piece-count shortages.                |
+| - Certified domestic polymer resin lots (>81% domestic content).                                   |
 | - RatioSentinel™ Verification QA: Volumetric cylinder calibration accuracy to ±1.0% division;     |
 |   zero bypass leakage through 316 SS diverter valves up to 150 PSI hydrostatic hold.               |
 | - RapidSwap™ & CertAssure-DOT™ Rebuild QA: 3,000-PSI hydrostatic holding test; zero bypass seal leak|
@@ -400,7 +576,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 2. **Dayton Superior Counter Merchandising SKUs (#DS-RACK-INIT, #SC-PACK-20, #SM-BAYO-10, #DL-PACK-10):** Co-branded for Dayton Superior service centers, incorporating Drive-Lok surface ports for tilt-up and heavy precast repair.
 3. **Brock White Counter Merchandising SKUs (#BW-RACK-INIT, #SC-PACK-20, #SM-BAYO-10, #RG-PACK-10):** Co-branded for Brock White civil paving and geotech branches across the Upper Midwest.
 4. **Price Parity Covenant:** Standard Everyday Net-Net wholesale pricing (42.0% discount off published street list) applies equally across White Cap, Dayton Superior, and Brock White, preventing anti-competitive claims and protecting margin integrity.
-5. **Turnkey Formulator Co-Pack SKUs (#TK-SIKA-16, #TK-EUCLID-16 & #TK-BULK-BABA):** Sold strictly under 3-year rolling master tolling agreements. Formulators are contractually prohibited from unbundling and reselling loose ports to general distributors.
+5. **Turnkey Formulator Co-Pack SKUs (#TK-SIKA-16, #TK-EUCLID-16 & #TK-BULK-BABA):** Sold strictly under 3-year rolling master supply agreements. Formulators are contractually prohibited from unbundling and reselling loose ports to general distributors.
 6. **Wholesale Master Bulk Cartons (#PORT-SO-1000 & #DL-PORT-1000):** Everyday wholesale Net-Net pricing of $900.00 and $940.00 across all stocking distributor branches under COMM_PRICING_06.
 
 ---
@@ -428,7 +604,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
   Fleet Retainers       SK-100 ($165 net / 70.5% GM)                  Accrual Engine   - In-Kit Co-Packaging
   ($3,200/dist/yr       BDK-250 ($295 net / 70.1% GM)                 (90-day window)    (COMM_51: 15k-30k pks)
   COMM_140)           - RapidPass-Box™ (COMM_151):                  - CD-15 ($1,450/wk - Simpson OEM Baseload
-- RapidAssure™ Tool     RPB-100 ($245 net / 60.0% GM)                 $3,800/mo)         (COMM_79 Citadel)
+- RapidAssure™ Tool     RPB-100 ($245 net / 60.0% GM)                 $3,800/mo)         (COMM_79 Protections)
   Trailer Fleet Packs - Counter Merchandising (COMM_121 & 168):     - CD-250 ($2,850/wk- PTFM Redline Protocol
   (#RA-TRAILER-PACK     80 Syndicated Branch Counters                 $7,500/mo)         (COMM_80 Protocol)
   @ $1,850 net /        White Cap: Top 40 Hubs (#WC-RACK)           - Mandatory Flush  - RatioSentinel Submittal
@@ -443,7 +619,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 - RapidAssure-250™      Top 20 Civil Hubs (2 Units/Hub)               Pack Bundling
   Fleet MSAs          - RatioSentinel™ Retrofit Kits                  (#CD250-RENT-PACK
   ($1,650/rig/yr)       (#RS-DOT-UNIV @ $1,250 net / 72.8%)           @ $485 / 71.4% GM)
-- Direct RapidSwap    - OPER_54 EDI 850 Virtual VMI                 - RapidSwap Core
+- Direct RapidSwap    - Automated EDI 850 Virtual VMI               - RapidSwap Core
   Advance Hot-Swap      Zero Consignment Capital Drag                 Refurbishment
   Desk ($950 exch)    - Gross Margin: 54% - 78.6%                     Cell ($597 profit)
 ```
@@ -508,7 +684,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Place 5 to 10 master cartons on unbilled consignment across 15 White Cap branches, invoicing only after point-of-sale contractor consumption.
 * **Autopsy & Fatal Flaw:** Working capital asphyxiation ($63,000 to $126,000 frozen against Lily's $50,000 cash liquidity); 90–120 day cash conversion cycles; distributor yard shrinkage risk.
-* **Approved Pivot:** **The OPER_54 Automated Firm Replenishment Protocol (Virtual VMI)**. Min-max thresholds trigger automated firm EDI 850 POs on strict Net 30 terms.
+* **Approved Pivot:** **The Automated Firm Replenishment Protocol (Virtual VMI)**. Min-max thresholds trigger automated firm EDI 850 POs on strict Net 30 terms.
 
 ### 6. Concept: Blanket Branch Credit Holds & Passive EDI Deduction Acceptance (COMM_58 Autopsy)
 * **Classification:** `REJECTED / UNVIABLE`
@@ -532,7 +708,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 * **Classification:** `REJECTED / UNVIABLE`
 * **Original Idea:** Install a mechanical padlock over CD-250 rental fluid manifolds to lock out non-Lily hoses, and enforce mandatory contractual consumable lock-in under penalty of repossession.
 * **Autopsy & Operational Failure Modes:** Jobsite vandalism and destroyed manifolds; antitrust tying exposure under Clayton Act § 3; contractor walkaways.
-* **Approved Pivot:** **The PneuCount-250™ Tamper-Evident Totalizer & Volume-Tiered Wear Surcharge Architecture ($0.35/gal)**. Plumb a non-resettable pneumatic impulse counter inside a welded 304 SS enclosure with an armored Lexan window and OPER_106 security seal.
+* **Approved Pivot:** **The PneuCount-250™ Tamper-Evident Totalizer & Volume-Tiered Wear Surcharge Architecture ($0.35/gal)**. Plumb a non-resettable pneumatic impulse counter inside a welded 304 SS enclosure with an armored Lexan window and security seal.
 
 ### 10. Concept: Bespoke Colored Powder-Coat Racks & Third-Party Litho Header Cards (COMM_168 Autopsy)
 * **Classification:** `REJECTED / UNVIABLE`
@@ -576,8 +752,8 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                  | - Counter Syndication Specialist (COMM_168): Pitching the 3-Tier Gravity-Feed   |
 |                  |   Counter Program to Dayton Superior (25 hubs) and Brock White (15 hubs).       |
 |                  | - White Cap Restoration Specialist: Managing the Top 40 White Cap branch racks. |
-|                  | - Formulator Master Tolling Lead (COMM_163): Pitching 3-year Master Tolling     |
-|                  |   Agreements to Sika and Euclid Chemical corporate packaging directors.        |
+|                  | - Formulator Master Supply Lead (COMM_163): Pitching 3-year supply agreements  |
+|                  |   to Sika and Euclid Chemical corporate packaging directors.                   |
 |                  | - RapidAssure Contractor Fleet Lead (COMM_157): Pitching master trailer modules |
 |                  |   (#RA-TRAILER-PACK) and Procore/HCSS scan-to-requisition workflows.            |
 |                  | - CertAssure-DOT™ Lead (COMM_140): Pitching post-award maintenance retainers.   |
@@ -605,7 +781,7 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                  |   swab test); hydrostatic proof-testing to 1,500/3,000 PSI; applying Ready Tags.|
 |                  | - Counter Fixture Assembly Bench (COMM_168): Laminating Zebra synthetic header  |
 |                  |   faceplates to HIPS backer plates; snapping onto wire racks ($1.46 labor).     |
-|                  | - OPER_116 Bagging Cell Lead: Operating tabletop dynamic polybagging machine.   |
+|                  | - Packaging Cell Lead: Operating tabletop dynamic polybagging machine.         |
 |                  | - RapidSwap Central Remanufacturing Bench: Bench-testing refurbished cores.     |
 +------------------+---------------------------------------------------------------------------------+
 | Maggie M         | - Day-1 Billing Activation (COMM_PRICING_06): Importing updated consumables     |
@@ -623,7 +799,7 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 | (Owner/GM)       |   negotiating master merchandising agreements with White Cap, Dayton, and Brock.|
 |                  | - Rental Fleet Oversight: Auditing rental fleet utilization, RTO conversions,    |
 |                  |   and working capital impact; enforcing zero-capex discipline ($20k cap).       |
-|                  | - Negotiating 3-year Master Tolling Agreements with Sika and Euclid (COMM_163). |
+|                  | - Negotiating 3-year Master Supply Agreements with Sika and Euclid (COMM_163).  |
 |                  | - Closing Master Trailer Agreements with Kraemer, Walsh, and Lunda (COMM_157).   |
 |                  | - Auditing gross margin floors, fixture BOM compliance ($51.00), and cash flow. |
 +------------------+---------------------------------------------------------------------------------+
@@ -651,8 +827,8 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                   |     protocols, and QuickBooks RTO equity sub-ledger (Accounts 4015, 4142).     |
 |                   | [x] Mill interchangeable cavity logo inserts in Molds #3, #5, #6, and #7       |
 |                   |     featuring raised 0.015" text: "Engineered & Molded by Lily Corp (Aurora)". |
-|                   | [x] Setup and commission OPER_116 semi-automated tabletop bagging station with |
-|                   |     thermal transfer inline printer on Julian's packaging bench.               |
+|                   | [x] Setup and commission semi-automated tabletop bagging station with thermal  |
+|                   |     transfer inline printer on Julian's packaging bench.                       |
 |                   | [x] Deploy Maggie M's Two-Bucket Decoupled Sub-Ledger in QuickBooks Desktop.   |
 |                   | [x] Dave Kling inspects pilot batch of 50 universal Matte Black wire racks.    |
 |                   | [x] Perform formal BABA origin audit for CD-250/CD-15 proportioners (>81%).    |
@@ -662,8 +838,8 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                   |     top 30 civil contractors; secures first 6 rental dispatches.               |
 |                   | [x] Julian Perez executes first live 2-hour intake boroscope and bar-over      |
 |                   |     inspection SOP on returning rental rig; validates zero resin freeze-up.    |
-|                   | [x] Dave Jepsen and Jack Fay present Master Co-Packaging Tolling Agreements    |
-|                   |     (COMM_163) to Sika and Euclid Chemical packaging directors.                |
+|                   | [x] Dave Jepsen and Jack Fay present Master Co-Packaging Agreements (COMM_163) |
+|                   |     to Sika and Euclid Chemical packaging directors.                           |
 |                   | [x] Jack Fay presents the Syndicated Counter Merchandising Program (COMM_168)  |
 |                   |     to Dayton Superior and Brock White concrete accessories category managers. |
 |                   | [x] Julian Perez and Maggie M assemble pilot run of 10 Dayton Superior         |
@@ -674,7 +850,7 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 | Days 61–90        | RTO Conversions, Counter Display Rollouts & Rental Billing Execution           |
 |                   | [x] Execute first two 50% RTO equipment buyouts (converting rented CD-15 and   |
 |                   |     CD-250 rigs into $21,000+ net cash inflow via Account 4142 credits).       |
-|                   | [x] Finalize execution of 3-Year Master Tolling Agreements with Sika (300k min)|
+|                   | [x] Finalize execution of 3-Year Master Supply Agreements with Sika (300k min) |
 |                   |     and Euclid (150k min) incorporating $0.45/port shortfall true-up terms.    |
 |                   | [x] Dispatch 40 counter displays to White Cap (#WC-RACK-INIT), 25 to Dayton    |
 |                   |     Superior (#DS-RACK-INIT), and 15 to Brock White (#BW-RACK-INIT) on firm    |
@@ -705,21 +881,21 @@ Jack Fay reviews thirty-three commercial, syndication, rental, pricing, and manu
 7. **Counter Merchandising Network Syndication Footprint (COMM_168 & COMM_121 KPI):** Total active gravity-feed wire rack counter displays placed across White Cap, Dayton Superior, and Brock White service counters (Target: **strictly ≥80 active branch counters [40 White Cap, 25 Dayton Superior, 15 Brock White] within 90 days; generating ≥$90,944 in upfront buy-in wholesale revenue**).
 8. **Counter Display Fixture BOM Ceiling Compliance (COMM_168 KPI):** Total all-in unit BOM and direct labor cost to manufacture and package a finished 3-tier gravity-feed counter display fixture ready for dispatch (Target: **strictly ≤$51.50 per unit; never exceeding the $52.00 contractual ceiling; current audited run-rate: $51.00**).
 9. **Syndicated Counter Replenishment Volume & Gross Margin (COMM_168 KPI):** Realized gross margin and monthly wholesale revenue across syndicated counter replenishment packs (#SC-PACK-20, #SM-BAYO-10, #RG-PACK-10, #DL-PACK-10) sold under the 42.0% wholesale discount schedule (Target: **strictly ≥74.0% blended replenishment gross margin; ≥$34,000/month [$408,000+ annualized] in recurring wholesale revenue, delivering ≥$306,000+ in annual gross profit**).
-10. **Distributor Counter Exclusivity & Legal Dispute Incident Rate (COMM_168 KPI):** Total formal or informal commercial exclusivity disputes, cease-and-desist notices, or co-op deduction clawbacks asserted by White Cap regarding Dayton Superior or Brock White displays (Target: **strictly 0 disputes; 100% compliance with Rider "A" non-exclusivity covenants and Robinson-Patman price parity rules**).
+10. **Distributor Counter Exclusivity & Legal Dispute Incident Rate (COMM_168 KPI):** Total formal or informal commercial exclusivity disputes, cease-and-desist notices, or co-op deduction clawbacks asserted by White Cap regarding Dayton Superior or Brock White displays (Target: **strictly 0 disputes; 100% compliance with non-exclusivity covenants and Robinson-Patman price parity rules**).
 11. **Formulator Turnkey Co-Packaging Margin Uplift & Velocity (COMM_163 KPI):** Blended gross margin and monthly unit volume across turnkey private-label packs (#TK-SIKA-16 / #TK-EUCLID-16) and bulk BABA cartons (#TK-BULK-BABA) (Target: **strictly ≥67.0% realized gross margin on turnkey packs [$11.85 transfer price] and ≥73.0% on bulk BABA ports [$0.66/port]; minimum combined run-rate of ≥37,500 units/month [450,000 annualized Year 1], generating ≥$340,000+ in annual gross profit**).
 12. **Formulator Take-or-Pay Volume Compliance & True-Up Audit (COMM_163 KPI):** Annual cumulative volume tracking against Sika (300k units) and Euclid (150k units) master contract cliffs (Target: **100% contractual compliance; 0 uncollected shortfall dollars; 100% recovery of $0.45/unit margin shortfall true-ups on volume deficits by Dec 31**).
-13. **BABA Submittal Verification & Poison Pill Uptime (COMM_163 & COMM_79 KPI):** Percentage of active Sika and Euclid DOT submittal binders listing Lily Corporation as domestic Component Manufacturer of Record (Target: **100% compliance across all state DOT QPL listings; zero unauthorized generic hardware substitutions; 0 False Claims Act exposure**).
-14. **OPER_116 Bagging Cell Throughput & QA Error Rate (COMM_163 KPI):** Average cycle time per pack and seal failure/shortage rate on Julian’s dynamic bagging cell (Target: **≤18 seconds total packaging cycle per pack; 0% seal blowouts; <0.01% piece-count variance**).
-15. **Rental Fleet Stroke Counter Audit Compliance & Wear Surcharge Capture (COMM_159 KPI):** Percentage of CD-250 rental dispatches and returns operating with verified PneuCount-250™ totalizers and intact OPER_106 security seals, and total monthly wear surcharge dollars billed (Target: **100% compliance across all 12 rental rigs; strictly 0 unmetered rentals; capturing ≥$2,500 to $4,500/month in excess gallon wear surcharges at strictly ≥85.0% gross margin**).
+13. **BABA Submittal Verification Uptime (COMM_163 & COMM_79 KPI):** Percentage of active Sika and Euclid DOT submittal binders listing Lily Corporation as domestic Component Manufacturer of Record (Target: **100% compliance across all state DOT QPL listings; zero unauthorized generic hardware substitutions; 0 False Claims Act exposure**).
+14. **Bagging Cell Throughput & QA Error Rate (COMM_163 KPI):** Average cycle time per pack and seal failure/shortage rate on Julian’s dynamic bagging cell (Target: **≤18 seconds total packaging cycle per pack; 0% seal blowouts; <0.01% piece-count variance**).
+15. **Rental Fleet Stroke Counter Audit Compliance & Wear Surcharge Capture (COMM_159 KPI):** Percentage of CD-250 rental dispatches and returns operating with verified PneuCount-250™ totalizers and intact security seals, and total monthly wear surcharge dollars billed (Target: **100% compliance across all 12 rental rigs; strictly 0 unmetered rentals; capturing ≥$2,500 to $4,500/month in excess gallon wear surcharges at strictly ≥85.0% gross margin**).
 16. **CD-250 Rental Consumable Pack Pull-Through Rate (COMM_159 KPI):** Percentage of CD-250 rental mobilizations that unseal and retain the bundled #CD250-RENT-PACK accessory module (Target: **≥80.0% retention rate; generating ≥$3,880/month in high-margin consumable sales at strictly ≥70.0% realized gross margin**).
 17. **State DOT Fleet Maintenance Retainer Enrollment (COMM_140 KPI):** Total active State DOT maintenance district garages enrolled under annual CertAssure-DOT™ retainers (Target: **≥3 districts within 90 days; ≥8 to 12 districts within 180 days; generating ≥$25,600 to $38,400 in direct retainer revenue at strictly ≥80.0% gross margin**).
 18. **DOT Maintenance District Consumables Pull-Through (COMM_140 KPI):** Average annual volume of molded ports, static mixers, and RapidPass-Boxes ordered per enrolled DOT maintenance district (Target: **≥$3,000/district/year in consumables at strictly ≥70.0% gross margin**).
 19. **State DOT Closed-Loop Ratio Special Provision Adoption (COMM_173 KPI):** Total state DOT standard special provisions incorporating closed-loop pre-injection volumetric ratio verification language (Target: **≥1 State DOT [IDOT pilot] within 90 days; ≥3 State DOTs within 180 days**).
 20. **RatioSentinel™ Universal Retrofit Kit Velocity & Gross Margin (COMM_173 KPI):** Monthly units of standalone verification manifolds (#RS-DOT-UNIV) shipped across distributor and direct channels (Target: **≥10 to 15 kits/month at strictly ≥72.0% realized wholesale gross margin [$1,250 net] and ≥80.0% direct gross margin [$1,850 list]**).
 21. **RapidAssure™ Tool Trailer Fleet Outfitting (COMM_157 KPI):** Total regional contractor jobsite tool trailers equipped with RapidAssure™ modules (#RA-TRAILER-PACK) under Master Trailer Agreements (Target: **≥10 tool trailers within 90 days; ≥25 to 45 tool trailers within 180 days; generating ≥$46,250 to $83,250 in upfront firm outfitting revenue at strictly ≥71.0% gross margin**).
-22. **RapidAssure™ Scan-to-Requisition Velocity & Margin (COMM_157 KPI):** Monthly replenishment packs ordered via OPER_106 mobile tamper-seal scans and approved via Procore / HCSS HeavyJob workflows (Target: **≥15 to 25 replenishment packs/month at strictly ≥72.0% realized gross margin [$495 net price / $360 gross profit]**).
+22. **RapidAssure™ Scan-to-Requisition Velocity & Margin (COMM_157 KPI):** Monthly replenishment packs ordered via mobile tamper-seal scans and approved via Procore / HCSS HeavyJob workflows (Target: **≥15 to 25 replenishment packs/month at strictly ≥72.0% realized gross margin [$495 net price / $360 gross profit]**).
 23. **RapidSwap™ Authorized Hub Network Enrollment (COMM_138 KPI):** Total civil bridge branches maintaining active 2-unit distributor-financed core banks and Go/No-Go Gauge blocks (Target: **≥10 active hubs within 60 days, ≥20 active hubs within 90 days; generating ≥$30,400 in upfront stocking revenue**).
-24. **RapidSwap™ Hub Recurring Exchange Velocity & Gross Margin (COMM_138 KPI):** Monthly core exchange cycles processed across the 20-hub network via OPER_54 EDI 850 triggers (Target: **≥20 to 30 exchanges/month at strictly ≥78.0% realized gross margin [$760 net revenue, $597 net gross profit per exchange]**).
+24. **RapidSwap™ Hub Recurring Exchange Velocity & Gross Margin (COMM_138 KPI):** Monthly core exchange cycles processed across the 20-hub network via automated EDI 850 triggers (Target: **≥20 to 30 exchanges/month at strictly ≥78.0% realized gross margin [$760 net revenue, $597 net gross profit per exchange]**).
 25. **Wholesale Fast-Turn Kit Placement & Volume (COMM_91 KPI):** Total active branded wire-rack display endcaps placed at White Cap and Dayton Superior regional civil hubs, and monthly kit unit velocity (Target: **≥30 active hub planograms within 90 days, ≥40 hubs by Month 6; strictly ≥70.0% realized gross margin**).
 26. **RapidPass-Box™ Night-Shift Bundling Volume & Margin (COMM_151 KPI):** Monthly units shipped across White Cap civil hubs and direct emergency contractor desk (Target: **≥80 to 120 RPB-100 boxes shipped per month at strictly ≥60.0% realized wholesale margin [$245.00 Net-Net] and ≥75.0% direct margin [$395.00 list]**).
 27. **Drive-Lok™ Volume & QR Traceability Audit Compliance (COMM_113 KPI):** Monthly units of Drive-Lok ports shipped across wholesale and direct geotechnical channels (Target: **≥35,000 to 50,000 units/month at strictly ≥73.0% wholesale gross margin [$940/carton] and ≥82.0% direct margin [$1,450/carton]; 100% of cartons bearing scannable 2D QR codes**).
