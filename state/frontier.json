@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 156,
+  "active_cycle": 157,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -86,10 +86,12 @@
         "What stay bonus structure and press uptime bonus will align Dave K and Greg without destabilizing shop culture?"
       ],
       "target_plan_file": "plan/05_jack_fay_operator_guide.md",
-      "confidence_score": 7,
-      "status": "REFINED",
+      "confidence_score": 4.0,
+      "status": "EXPLORATORY",
       "priority": "CRITICAL",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 157,
+      "last_audit_timestamp": "2026-10-13 00:31:39"
     },
     {
       "id": "FIN_CASHFLOW_36M_05",
@@ -111,9 +113,9 @@
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 156,
       "last_audit_timestamp": "2026-10-13 00:18:36",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/34",
-      "github_auto_merged": false,
-      "github_pr_number": 34
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/35",
+      "github_auto_merged": true,
+      "github_pr_number": 35
     },
     {
       "id": "COMM_PRICING_06",
