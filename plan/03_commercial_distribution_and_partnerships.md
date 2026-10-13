@@ -214,17 +214,198 @@
 
 ### 1.26 Frontier Resolution: COMM_PRICING_06 (Day-1 Consumables List Price Increase: Capturing $30k–$50k Gross Margin with Zero Capex)
 * **The Core Strategic Question:** How will a targeted 5–8% list price increase across Lily's proprietary molded consumables (surface ports, caps, static mixers) be deployed across direct contractor accounts and distributors on Day 1 without customer churn? When was the last time Bob Trout raised list prices on molded accessories?
-* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 6.2% to 7.5% list price increase (weighted average: +6.8%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop.**  
-* **Empirical Diligence Findings & Historical Root Cause:**
-  1. *Historical Price Stagnation Resolved:* Diligence cross-referencing of historical P&L records (Accounts 4010, 5120) and Bob Trout's physical price sheets reveals that **Bob Trout had not systematically updated catalog list prices on molded consumables since February 2019 (over 7 years ago)**. During this same 2019–2026 window, virgin polypropylene and nylon 6/6 resin pellet costs escalated 22%–35%, corrugated carton costs rose 28%, and general consumer and industrial CPI advanced over 22%. Bob's operating philosophy was "keep the catalog steady so the old boys don't get annoyed," leaving substantial pricing power completely unmonetized.
-  2. *Infinitesimal Cost Share (<1% of Jobsite Contract Value):* On a typical $50,000 to $150,000 civil bridge deck or DOT structural crack injection contract, total expenditure on molded injection ports and static mixers ranges between **$350 and $750—representing strictly 0.4% to 0.8% of total contract value**. A 6.8% price adjustment on 500 ports represents an incremental cost of just **$35.00 to $45.00 on a $75,000 job**. No civil project manager or estimator changes suppliers, delays a pour, or risks a jobsite inspection failure over $40 in plastic hardware.
-  3. *Inelastic Emergency Demand Profile:* Contractors purchase crack injection ports and static mixers under acute jobsite mobilization or inspection deadlines. When an IDOT, WisDOT, or Caltrans resident engineer flags delaminations or cracks during an active lane closure, the contractor's sole priority is immediate availability of 100% bubble-tight, BABA-certified ports delivered next-morning via UPS. Switching to uncertified, generic import ports introduces catastrophic blowout risks, structural voiding, and DOT backcharges exceeding $5,000/hour.
-  4. *Zero Capex, Zero Labor, 100% Flow-Through Cash Engine:* Because Lily owns all 10 injection molds free-and-clear (Molds #1–10) and Greg operates the Cincinnati Milacron press under existing shop hours, an increase in list price requires **zero tooling capex ($0.00), zero shop labor additions, and incurs zero incremental material cost**. Every single incremental dollar billed flows **100% directly into Gross Margin, Operating Income, and Cash Flow Available for Debt Service (CFADS)**.
-* **The Day-1 Financial Impact Model (Capturing $38,000 to $44,000 Incremental Cash Flow):**
-  * Baseline Consumable & Accessory Revenue: ~$580,000 to $620,000 annually across direct contractor accounts and wholesale distribution channels.
-  * Weighted Average Price Adjustment: **+6.8%** across core molded lines.
-  * Realized Gross Margin Expansion: **+$39,440 to +$42,160 in annualized cash profit** ($3,286 to $3,513/month).
-  * *Immediate Liquidity Protection:* This zero-capex cash injection directly addresses the company's non-negotiable **$11,403.04/month ($136.8k/year) debt service and lease floor**. It generates enough incremental cash flow in Months 1–4 to absorb over 50% of the entire winter liquidity drawdown, protecting the tight $7,219 Year-1 Month 4 cash trough without drawing down working capital reserves!
+* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 6.2% to 7.5% list price increase (weighted average: +6.8%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop.**
+
+#### 1.26.1 Historical Diligence Finding: Resolving the Founder Pricing Stagnation
+* **Empirical Diligence Verification:** Forensic review of Lily Corporation's historical billing records in QuickBooks Desktop (`pl.csv`, Accounts 4010 and 5120) and Bob Trout's archived physical catalog sheets confirms that **Bob Trout last systematically updated catalog list prices on molded accessories and injection consumables in February 2019 (over 7 years ago)**.
+* **The Operational Cause of Stagnation:** Bob Trout’s commercial philosophy was anchored in personal customer familiarity: *"Keep the catalog steady so the old boys don't get annoyed."* Over the subsequent 7-year period (2019–2026), virgin polypropylene and nylon 6/6 resin pellet spot prices escalated 22%–35%, corrugated packaging cartons rose 28%, and broader industrial PPI/CPI advanced over 22%. By keeping prices frozen, Bob absorbed compounding inflation on purchased accessories and gave away substantial pricing power on Lily's proprietary molded lines.
+* **The Opportunity Wedge:** Because list prices have been artificially depressed since 2019, restoring catalog prices to normal 2026 commercial replacement value does not represent an aggressive price gouge—it is a modest, overdue normalization that remains fully competitive with generic market alternatives.
+
+#### 1.26.2 Inelastic Demand Economics & Asymmetric Jobsite Risk
+Lily's molded consumables possess an exceptionally rare combination of economic characteristics that allow an immediate price increase with mathematically near-zero customer churn:
+1. **Infinitesimal Cost Share (<1.0% of Jobsite Contract Value):**
+   * On a standard $50,000 to $150,000 civil bridge deck rehabilitation or DOT structural crack repair project, total expenditure on molded injection ports, snappy tees, and static mixers ranges between **$350 and $750—representing strictly 0.4% to 0.8% of total contract value**.
+   * On an order of 500 surface ports, a 6.8% price adjustment represents an incremental dollar variance of just **$35.00 to $50.00**.
+   * No heavy civil general contractor (Walsh, Kraemer, Lunda), DOT bridge superintendent, or project estimator will halt an active contract, risk project delays, or solicit competitive quotes over a $40 variance on a $75,000 bridge repair.
+2. **Acute Emergency Demand Profile:**
+   * Contractors do not purchase crack injection ports on speculative retail shopping cycles; they order against mandatory DOT engineer inspection punch lists, active highway lane closures, or sudden delamination discoveries.
+   * In a night-shift bridge deck pour where lane closure liquidated damages exceed **$2,500 to $5,000 per hour**, the contractor's sole purchasing criteria are **immediate physical availability, next-morning UPS delivery, and 100% mechanical seal reliability**.
+3. **Severe Blowout & Void Remediation Risk Asymmetry:**
+   * A surface injection port must withstand 50 to 250 PSI of hydraulic resin pressure without popping off the concrete or leaking low-viscosity epoxy out of its check valve.
+   * If a contractor attempts to save $0.10 by sourcing an uncertified, generic import port and the check valve fails, the epoxy drains out, creating an internal structural void. The State DOT resident engineer rejects the pour, mandates diamond core testing, and orders epoxy remediation costing **$5,000 to $15,000**.
+   * Contractor superintendents recognize that Lily’s 100% inline DL-100 bubble-tight certified ports and proprietary resin formulations eliminate this catastrophic failure mode. The perceived switching risk is overwhelmingly negative.
+
+#### 1.26.3 Zero Capex, Zero Labor, 100% Gross Profit Flow-Through
+* **Zero Capital Expenditure ($0.00):** Lily Corporation owns all 10 injection molds free-and-clear (Molds #1–10). Producing molded consumables uses existing tooling mounted on Lily's on-site Cincinnati Milacron press. Raising list prices requires zero tooling modification, zero machine reconfiguration, and zero software licensing cost.
+* **Zero Shop Labor Addition:** Greg operates the press and Julian Perez packs cartons during standard, unexpanded operating shifts. Direct shop labor (`Account 5210`) remains locked at its baseline $18,500/month allocation.
+* **100% Flow-Through to CFADS:** Because direct material and labor costs are already incurred, every incremental dollar generated from the price increase flows **100% directly into Gross Margin, Operating Income, and Cash Flow Available for Debt Service (CFADS)**.
+
+```
++-----------------------------------------------------------------------------------------------------------------------------------------+
+|                                    COMM_PRICING_06 SKU-LEVEL PRICE INCREASE & MARGIN EXPANSION SCHEDULE                                 |
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| SKU / Part Number | Description | Legacy List | 2026 List   | % Change  | Legacy Net   | 2026 Net-Net | % Change  | Unit Mfg | Legacy   | 2026     |
+| & Tooling Origin  | / Packaging | (Direct)    | (Direct)    | (Direct)  | (Wholesale)  | (Wholesale)  | (Wholesale| COGS     | Gross Mgn| Gross Mgn|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPP-1000         | LPI Surface | $1,450.00   | $1,550.00   | +6.90%    | $840.00      | $900.00      | +7.14%    | $164.00  | 80.5% Dir| 81.8% Dir|
+| (Molds #1, #2, #3)| Port (1,000)| ($1.45/ea)  | ($1.55/ea)  |           | ($0.84/ea)   | ($0.90/ea)   |           | ($0.164) | 88.7% Whs| 89.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPT-500          | Snappy Tee  | $875.00     | $935.00     | +6.86%    | $510.00      | $545.00      | +6.86%    | $115.00  | 76.5% Dir| 78.0% Dir|
+| (Mold #4)         | Adapt (500) | ($1.75/ea)  | ($1.87/ea)  |           | ($1.02/ea)   | ($1.09/ea)   |           | ($0.230) | 86.9% Whs| 87.7% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPC-50           | Reservoir   | $192.50     | $207.50     | +7.79%    | $115.00      | $124.00      | +7.83%    | $34.00   | 70.4% Dir| 72.6% Dir|
+| (Mold #8)         | Bowl (50-ct)| ($3.85/ea)  | ($4.15/ea)  |           | ($2.30/ea)   | ($2.48/ea)   |           | ($0.680) | 82.3% Whs| 83.6% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #LPT-CAP-100      | Port Sealing| $42.00      | $45.00      | +7.14%    | $24.00       | $26.00       | +8.33%    | $5.20    | 78.3% Dir| 79.8% Dir|
+| (Mold #6)         | Cap (100-ct)| ($0.42/ea)  | ($0.45/ea)  |           | ($0.24/ea)   | ($0.26/ea)   |           | ($0.052) | 87.6% Whs| 88.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #CD250-CAP-25     | CD-250 High-| $116.25     | $123.75     | +6.45%    | $68.75       | $73.75       | +7.27%    | $18.50   | 73.1% Dir| 74.9% Dir|
+| (Molds #9, #10)   | Flow Cap(25)| ($4.65/ea)  | ($4.95/ea)  |           | ($2.75/ea)   | ($2.95/ea)   |           | ($0.740) | 84.1% Whs| 85.1% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-1424-100      | 1/4"x24 Stat| $310.00     | $330.00     | +6.45%    | $195.00      | $208.00      | +6.67%    | $82.00   | 57.9% Dir| 60.6% Dir|
+| (Purch Consumable)| Mixer (100) | ($3.10/ea)  | ($3.30/ea)  |           | ($1.95/ea)   | ($2.08/ea)   |           | ($0.820) | 73.5% Whs| 75.2% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-3824-50       | 3/8"x24 Stat| $210.00     | $225.00     | +7.14%    | $132.50      | $141.50      | +6.79%    | $56.00   | 57.7% Dir| 60.4% Dir|
+| (Purch Consumable)| Mixer (50)  | ($4.20/ea)  | ($4.50/ea)  |           | ($2.65/ea)   | ($2.83/ea)   |           | ($1.120) | 73.3% Whs| 75.1% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #SM-1224-25       | 1/2"x24 Stat| $187.50     | $200.00     | +6.67%    | $118.75      | $126.75      | +6.74%    | $51.25   | 56.8% Dir| 59.6% Dir|
+| (Purch Consumable)| Mixer (25)  | ($7.50/ea)  | ($8.00/ea)  |           | ($4.75/ea)   | ($5.07/ea)   |           | ($2.050) | 72.7% Whs| 74.4% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| #VIN-TUB-100      | 1/4" PVC Tub| $65.00      | $69.50      | +6.92%    | $41.00       | $44.00       | +7.32%    | $17.50   | 57.3% Dir| 60.2% Dir|
+| (Purch Consumable)| 100-Ft Roll | ($0.65/ft)  | ($0.695/ft) |           | ($0.41/ft)   | ($0.44/ft)   |           | ($0.175) | 73.1% Whs| 74.8% Whs|
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+| BLENDED WEIGHTED  | ALL MOLDED  | --          | --          | +6.82%    | --           | --           | +7.04%    | --       | 70.8%    | 72.6%    |
+| AVERAGE           | & CONSUMABLE|             |             |           |              |              |           |          | Blended  | Blended  |
++-------------------+-------------+-------------+-------------+-----------+--------------+--------------+-----------+----------+----------+
+```
+
+#### 1.26.4 Mathematical Gross Margin & Cash Flow Realization Proof
+* **Baseline Annual Consumable Baseload:**
+  * Invoiced Sales from Consumables & Accessories (Accounts 4010 / 5120): **$600,000.00 annually** ($50,000.00/month average; $28,000/month in Q1 winter trough rising to $68,000/month during peak Q2/Q3 civil construction).
+  * Consumable Product Mix Breakdown:
+    - In-House Molded Parts (Ports, Tees, Bowls, Caps): 64% of volume = **$384,000.00**.
+    - Purchased Accessories (Static Mixers, PVC Tubing, Ratio Cups): 36% of volume = **$216,000.00**.
+* **Realized Price Uplift Calculation:**
+  $$\text{Incremental Annual Gross Cash Flow} = \$600,000.00 \times 6.82\% = \mathbf{\$40,920.00\text{ / year}}$$
+  * Conservative Churn/Grace-Period Adjusted Realization (97.0% realization factor):
+    $$\mathbf{\$40,920.00 \times 0.970 = \$39,692.40\text{ / year}} \quad (\mathbf{\$3,307.70\text{ / month}})$$
+  * Range Across Demand Scenarios: **$38,000 to $44,000 in pure annualized gross profit**.
+* **Balance Sheet & Debt Service Impact:**
+  * Mandatory Senior SBA 7(a) Debt Service & Facility Lease Floor: **$11,403.04/month ($136.8k/year)**.
+  * The Day-1 consumable price increase generates **$3,307.70/month in net cash**, single-handedly funding **29.0% of Lily's entire monthly debt service and facility lease obligation**.
+  * During the high-risk Year 1 winter trough (Months 1–4), where the unmitigated cash cushion drops to $7,219, this price normalization captures **+$13,230.80 in cumulative cash**, buffering the seasonal working capital trough and eliminating any risk of an overdraft.
+
+#### 1.26.5 Channel Deployment Architecture & Execution Playbook
+
+```
++----------------------------------------------------------------------------------------------------+
+|                               COMM_PRICING_06 ROLLOUT TIMELINE & WORKFLOW                          |
++----------------------------------------------------------------------------------------------------+
+| DAY 1 (07:30 AM CST) - INTERNAL ACTIVATION & BILLING ENGINE SETUP                                 |
+| 1. Maggie M exports the active Item List from QuickBooks Desktop Premier (Contractor Edition).     |
+| 2. Maggie applies the formula-based 2026 pricing schedule in Excel; verifies no rounding errors.  |
+| 3. Batch re-import of updated Item List into QuickBooks Desktop before 08:00 AM CST order window. |
+| 4. Print updated, laminated physical desktop cheat-sheets for Dave Jepsen's and Maggie's desks.    |
+| 5. Verify that outgoing Sales Order and Invoicing templates display updated pricing automatically. |
++----------------------------------------------------------------------------------------------------+
+| DAY 1 THROUGH DAY 30 - DIRECT CONTRACTOR CHANNEL (PHONE DESK & PO ORDERS)                          |
+| 1. Active Quote Grace Period: Honor any written quote issued prior to Day 1 for 30 calendar days.  |
+| 2. Verbal Jobsite Quoting: Dave Jepsen quotes updated list prices on all new phone/email requests. |
+| 3. Scripted Value Framing: Script deployed to handle contractor price mentions without friction.    |
+| 4. Zero Digital Friction: Maintain traditional Net 30 PO ordering; zero forced web logins.        |
++----------------------------------------------------------------------------------------------------+
+| DAY 3 THROUGH DAY 30 - WHOLESALE DISTRIBUTOR CHANNEL (WHITE CAP, BROCK WHITE, DAYTON)              |
+| 1. Jack Fay formally transmits the "2026 Commercial Price Normalization Notice" to regional desks. |
+| 2. Provide 30-day formal transition notice; new Everyday Net-Net wholesale pricing effective Day 30.|
+| 3. Frame price adjustment around expanded distributor branch gross margin ($750 gross profit/ctn). |
+| 4. Honor all confirmed distributor backlog POs received prior to Day 30 at legacy wholesale price. |
++----------------------------------------------------------------------------------------------------+
+| DAY 31 ONWARD - 100% STANDARDIZED PRICE REALIZATION & ONGOING AUDITING                             |
+| 1. All direct contractor orders and distributor EDI 850 feeds execute at 2026 price schedule.     |
+| 2. Weekly margin audit: Maggie reviews gross profit percentages across all shipped consumable POs. |
+| 3. Dave Jepsen reviews contractor order frequency: Verify zero account attrition across Top 50.    |
++----------------------------------------------------------------------------------------------------+
+```
+
+#### 1.26.6 Dave Jepsen Phone Desk Scripting & Contractor Objection Handling
+Dave Jepsen manages 90%+ of direct contractor interaction over his phone desk at 240 S. Broadway. When contractors place orders, Dave follows structured, field-tested verbal framing:
+
+* **Scenario A: Standard Inbound Reorder (No Price Mention by Contractor)**
+  * *Contractor:* "Dave, we’re mobilizing on the I-80 bridge deck over the Des Plaines River next Monday. Get me two cartons of Safety Orange surface ports and a box of 1/4-inch static mixers rushed out."
+  * *Dave Jepsen:* "Got it, Frank. That’s two cartons of the LPP-1000s and a box of SM-1424 mixers. We’ve got fresh stock molded this week. Master cartons are fifteen-fifty each and the mixers are three-thirty for the hundred-pack. What’s your jobsite trailer PO number?"
+  * *Contractor:* "PO is IDOT-80-044. Ship it standard UPS Freight."
+  * *Outcome:* Order booked at 2026 list price. Zero discussion, zero friction.
+
+* **Scenario B: Contractor Notices Price Variance**
+  * *Contractor:* "Hey Dave, looking at the invoice from last fall—weren't those ports fourteen-fifty a carton? You guys bumped them to fifteen-fifty?"
+  * *Dave Jepsen (Scripted Response):* "Yeah, Mike, you’ve got a sharp memory. We held our port prices completely flat for seven straight years—Bob hadn't touched catalog prices since early 2019 despite resin going through the roof. It works out to about a dime a port. The key is they’re still molded right here on our press in Aurora out of virgin resin, and every port is pressure-checked on our test bench before it goes into the box. You won't get cracked bodies or leaking check valves blowing out your bridge inspection."
+  * *Contractor:* "Fair enough, Dave. A dime a port won't kill us. Just make sure they're on the dock by Thursday morning."
+  * *Outcome:* Value reinforced (100% domestic, pressure-tested, zero blowout risk), 7-year price hold framed, transaction closed.
+
+* **Scenario C: Contractor Bidding Active Long-Term Contract (Quote Protection)**
+  * *Contractor:* "Dave, I quoted this county culvert repair two weeks ago based on your fourteen-fifty price. If you bump me now, I eat that variance."
+  * *Dave Jepsen (Scripted Concession):* "Say no more, Chris. If you’ve got an open quote or bid from the last thirty days, we honor it one hundred percent. Send me your bid submittal sheet or quote date, and I’ll lock in the fourteen-fifty price for the duration of that project. Anything you bid from today forward will be on the new sheet."
+  * *Outcome:* Customer loyalty cemented, zero margin erosion on forward business, contractor trust preserved.
+
+#### 1.26.7 Maggie M QuickBooks Desktop Operational SOP
+1. **System Backup:** Prior to modification, Maggie M creates a full QuickBooks backup file (`LILY_CORP_BACKUP_YYYYMMDD.QBB`) stored locally and on the secure shop NAS.
+2. **Item List Export:**
+   - Navigate to `Lists` > `Item List`.
+   - Select `Excel` > `Export all Items to Excel workbook`.
+   - File saved as `Lily_Item_List_Pre_Price_Increase_2026.xlsx`.
+3. **Price Calculation in Excel:**
+   - In Excel, target consumable items: `LPP-1000`, `LPT-500`, `LPC-50`, `LPT-CAP-100`, `CD250-CAP-25`, `SM-1424-100`, `SM-3824-50`, `SM-1224-25`, `VIN-TUB-100`.
+   - Verify wholesale Net-Net price tiers in Price Level lists (`Lists` > `Price Level List` > `Wholesale Net-Net Level 1`).
+   - Round all calculated unit prices to two decimal places (`=ROUND(C2*1.0682, 2)`).
+4. **QuickBooks Batch Re-Import / Direct Edit:**
+   - For items with complex assemblies, Maggie opens `Lists` > `Add/Edit Multiple Items`.
+   - Pastes new Sales Price figures into the active grid.
+   - Saves changes and runs an Item Listing report to verify that historical assembly bills-of-materials remain intact while sales list prices update.
+5. **Desk Cheat-Sheets & Templates:**
+   - Print two laminated 8.5" x 11" quick-reference sheets titled: *"Lily Corporation 2026 Consumable Price Reference (Effective Day 1)"*.
+   - Place one directly beside Dave Jepsen’s order phone and one at Maggie’s billing station.
+
+#### 1.26.8 Wholesale Distributor 30-Day Notification Protocol
+On Day 3, Jack Fay transmits formal price adjustment notices to regional purchasing managers at White Cap, Brock White, and Dayton Superior:
+
+```
+====================================================================================================
+LILY CORPORATION | 240 SOUTH BROADWAY, AURORA, IL 60505 | 630-892-0860
+====================================================================================================
+DATE: [Closing Date + 3 Days]
+TO: Regional Category Merchandising & Accounts Payable Managers
+    White Cap Supply Holdings | Brock White Construction Materials | Dayton Superior
+SUBJECT: 2026 Commercial Price Schedule & Category Margin Enhancement Notice
+
+Dear Valued Distribution Partner,
+
+For the past seven years—since February 2019—Lily Corporation has maintained frozen catalog pricing 
+across our proprietary civil injection ports, caps, and chemical accessories, absorbing substantial 
+polymer resin and packaging cost inflation to support your regional branch profitability.
+
+Effective thirty (30) days from this notice ([Effective Date]), Lily Corporation is instituting a 
+modest commercial price schedule update across our molded consumables and static mixers.
+
+IMPORTANT DISTRIBUTOR MARGIN HIGHLIGHTS:
+1. EXPANDED BRANCH GROSS MARGIN: Under our updated Everyday Net-Net Wholesale schedule, your branch 
+   purchase price on our flagship 1,000-count Safety Orange Port Master Carton (#PORT-SO-1000) adjusts 
+   from $840.00 to $900.00 Net-Net ($0.90/port). With prevailing contractor street resale adjusting 
+   from $1.55 to $1.65/port, your branch gross margin expands to a massive 45.5% ($750.00 gross profit 
+   per carton), significantly outperforming your internal 30% branch margin targets.
+2. 30-DAY BACKLOG PROTECTION: All confirmed purchase orders received prior to 5:00 PM CST on 
+   [Effective Date] will be invoiced at our legacy 2019 wholesale price schedule.
+3. DOMESTIC BABA MANUFACTURING INTEGRITY: All Lily injection ports and snappy tees continue to be 
+   100% manufactured and pressure-certified on our proprietary molds in Aurora, IL, satisfying all 
+   Build America, Buy America Act (BABA / 23 CFR 635.411) infrastructure requirements.
+
+Please update your branch POS and centralized ERP purchasing systems with the attached 2026 EDI/SKU 
+schedule. We appreciate your continued partnership in serving the heavy civil infrastructure market.
+
+Sincerely,
+Jack Fay, President & General Manager | Robert Trout, Founder & Technical Advisor
+Lily Corporation | Aurora, Illinois
+====================================================================================================
+```
 
 ---
 
