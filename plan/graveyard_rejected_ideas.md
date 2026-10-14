@@ -2861,3 +2861,48 @@
 ### Concept: CD-250deluge Conversion for Structural Slab Lifting
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
 * **Autopsy:** The CD-250 outputs 5.0 to 10.0 GPM designed for high-friction bridge deck overlays; pumping this volume into geotechnical sub-base voids would uncontrollably blow out or shatter highway concrete slabs requiring 1.0 to 2.5 GPM metered bursts. Additionally, its requirement for a 185 CFM tow-behind diesel compressor and 634 lb cart weight eliminates jobsite portability for commercial and residential slab lifting contractors.
+
+
+### Concept: PO Automation Labor Math Contradiction & Inflated Volume (OPER_54)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** The draft claims Maggie M spends 15–20 hours/week transcribing POs (750–1,000 hrs/yr), yet calculates recovered labor at only 342.1 hours/year (~6.8 hrs/week). At Lily's annual revenue of $1.8M–$2.2M and typical commercial order values ($500–$3,000), total transaction volume is roughly 1,000–2,500 orders per year (~20–50 orders/week). At 10.5 minutes per order, actual transcription consumes 3.5 to 8.5 hours/week, exposing the 15–20 hour premise as a 2x–3x inflation.
+
+
+### Concept: Brittle PDF Parsing & QuickBooks COM Architecture at Negligible Cost
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Relying on an on-premise Python script using legacy win32com/QBXMLRP2 to parse unstructured, variable PDF formats from dozens of disparate contractors (e.g., White Cap, Sika, Walsh, Kiewit, plus legacy faxes) for a trivial $594 capex is an ungrounded technical fantasy. Deterministic PDF extractors fail on scanned faxes, modified tabular formats, and non-standard line-item descriptions, requiring continuous software maintenance and OCR/LLM API costs that exceed the claimed one-time budget.
+
+
+### Concept: Unlabeled Speculative Revenue & Guaranteed Quality Metrics (OPER_20, OPER_28)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Projecting $115,000 to $230,000 in private-label chemical dropshipping sales (SafePurge-Citrus/LubeCoat-90) at >60% gross margins is treated as locked-in core performance rather than an unvalidated [EXPLORATORY HYPOTHESIS]. Simultaneously, asserting that an inline 50-PSI air decay test guarantees '0 PPM defect escape' under 2,500 PSI field operating conditions ignores real-world viscoelastic seal creep, dynamic particulate contamination, and high-pressure failure modes.
+
+
+### Concept: Inflated PO Data Transcription Hours & Phantom Labor Savings
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** Claiming Maggie spends 15-20 hours per week re-keying POs contradicts Lily's empirical sales volume. At 2,000 to 2,500 total orders per year, the shop processes approximately 40 to 50 orders per week across all product lines (8 to 10 per day). Even a slow manual entry of 8-10 minutes per order totals 5.5 to 8.0 hours per week, not 15-20 hours. Basing an operational initiative and $18,011 in recurring annual savings on a fabricated baseline creates fictitious labor recapture.
+
+
+### Concept: Frictionless $594 QuickBooks Desktop COM SDK Daemon Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** The plan assumes a 100% on-premise Python OCR and parsing daemon can reliably integrate via legacy QBXMLRP2 Windows COM connectors into an older desktop company file for $594. Civil contractors (Walsh, Kiewit, White Cap) submit heterogeneous purchase orders ranging from clean digital PDFs to low-resolution faxes, scanned paper tickets, and non-standard line-item SKUs. Managing edge cases, failed schema validations, and unmapped contractor part numbers requires continuous IT maintenance that a 4-person industrial shop lacking in-house software engineers cannot support without bleeding third-party contractor spend.
+
+
+### Concept: Extreme Capital & Initiative Scope Creep Across 4 Shop Personnel
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** Bundling custom chemical toll-blending reformulations (DPM cold-flow agents), inline pneumatic decay leak fixtures, optical borescope metrology probes, vibratory bowl feeders, and automated QuickBooks API daemons into Year 1 operational targets directly violates the 4-person shop reality and the $20,000 capex ceiling. With debt service fixed at $11,403/month, distracting Dave Kling, Julian Perez, and Maggie with multi-disciplinary engineering and bespoke software development risks catastrophic disruption of core rig assembly and parts shipping.
+
+
+### Concept: Mathematically Impossible Administrative Hours Recovery (OPER_54 / OPS_PO_AUTOMATION_04)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** Lily processes 2,000 to 2,500 orders annually, equating to 40 to 50 orders per week (~8 to 10 per business day). At the baseline estimate of 10.5 minutes per order, total gross order entry time across the entire company is only 7.0 to 8.75 hours per week. Claiming that an automated PO ingestion desk recovers '13.0 to 17.5 total administrative hours/week' projects savings that exceed the entire gross order-entry workload by more than 100%. Maggie cannot save 17.5 hours a week on a task that only takes 7.5 hours to begin with.
+
+
+### Concept: Capex Cannibalization via $15,000 Vibratory Bowl Feeder (OPER_30)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** The firm operates under a strict $50,000 liquid working capital baseline and a Year 1 discretionary Capex ceiling of $20,000. Allocating $15,000 (75% of the total annual Capex allowance) to a benchtop vibratory bowl-feeder to automate check-valve insertion for an incremental volume hypothesis severely impairs cash liquidity and violates working capital discipline, especially when press/mold maintenance (Account 5440) routinely requires $18,000 to $32,000 in emergency tooling cash.
+
+
+### Concept: Frictionless Parsing of Unstructured Civil Contractor POs for $594
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** General contractors such as Walsh, Kiewit, White Cap, and regional civil outfits submit orders via scanned faxes, multi-page PDFs with customized line descriptions, irregular freight terms, and jobsite release numbers. Parsing these reliably via an on-premise Python script interacting with legacy Windows COM `QBXMLRP2.RequestProcessor` for a one-time capex of $594 is technically naive. It ignores continuous edge-case exceptions, schema mismatches, mapping failures, and the absence of recurring vision-model API tokens, which will force Maggie to spend more time troubleshooting script errors than manually typing orders.
