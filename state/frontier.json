@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 251,
+  "active_cycle": 269,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -140,9 +140,9 @@
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 251,
       "last_audit_timestamp": "2026-10-14 00:05:25",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/127",
-      "github_auto_merged": false,
-      "github_pr_number": 127
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/128",
+      "github_auto_merged": true,
+      "github_pr_number": 128
     },
     {
       "id": "LEADERSHIP_DAY1_01",
@@ -179,10 +179,15 @@
         "What wholesale discount structure is required for commercial distribution placement?"
       ],
       "target_plan_file": "plan/02_product_lines_and_rd_pipeline.md",
-      "confidence_score": 8,
-      "status": "RESOLVED",
+      "confidence_score": 4.0,
+      "status": "EXPLORATORY",
       "priority": "HIGH",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 269,
+      "last_audit_timestamp": "2026-10-14 04:48:56",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/145",
+      "github_auto_merged": false,
+      "github_pr_number": 145
     },
     {
       "id": "MKT_GEOTECH_03",
