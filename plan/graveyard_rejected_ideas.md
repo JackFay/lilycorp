@@ -2816,3 +2816,48 @@
 ### Concept: Working Capital Strain from Tier-1 Distributor Net 60/90 Payment Terms
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #272 Audit)
 * **Autopsy:** Placing bulk master cartons into national distribution networks like White Cap or Sika introduces 60-to-90-day collection cycles and distributor rebate expectations (typically 5-8%). With liquid working capital strictly constrained to $50,000, front-loading resin purchases and carrying distributor receivables without factoring or strict credit limits risks triggering cash flow insolvency against the mandatory $11,403.04 monthly debt service floor.
+
+
+### Concept: Underwriting Unbuilt Hardware (OC-100 and GeoSkid 250) into Core Underwritten Baseline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** The plan violates the fundamental debt service floor constraint by categorizing speculative, non-existent products ('Omni-Cam Adapter Kit' and 'GeoSkid 250') as 'CORE UNDERWRITTEN BASELINE'. Neither asset exists in Lily's historical financials (pl.csv) or product catalog. Underwriting debt service ($11,403/mo) against projected 78%-86% gross margins on unengineered hardware prior to prototyping, field testing, or contractor validation violates working capital and diligence discipline.
+
+
+### Concept: Graco Fusion MP Impingement Gun to Lily Port Quick-Cam Interfacing (COMM_60)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** Polyurethane slab-jacking via Graco Reactors relies on high-pressure impingement mix guns (Fusion AP/MP, ProConnect, GX-7) operating at 1,000 to 2,000+ PSI that inject directly into steel mechanical packers or locking hydraulic couplers. Adapting these guns to Lily's push-on/snap-on plastic surface ports using a cheap hybrid cam-and-groove fitting is dangerous: plural foam reacting at 1,500 PSI will instantaneously blow out standard molded plastic ports, create chemical geysers, or blow off static mixers, creating severe contractor liability.
+
+
+### Concept: Pneumatic CD-250 'GeoSkid' Confined-Space Utility Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** Promoting a pneumatic proportioner as an ideal solution for confined spaces (subway tunnels, utility vaults, maritime seawalls) ignores air supply logistics. The CD-250 requires a massive continuous volume of compressed air (typically 25-50 CFM at 90-100 PSI), necessitating a large diesel tow-behind air compressor. Running hundreds of feet of pneumatic air line into underground confined vaults introduces major pressure drop and tripping hazards, undermining the claim that pneumatic drive offers frictionless portability over compact electric-hydraulic units.
+
+
+### Concept: Universal Competitive Rig Port Adapter (COMM_60) Revenue Wedge
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #274 Audit)
+* **Autopsy:** Projecting high-margin pull-through of Lily ports onto competitive ChemCo, SealBoss, and Graco rigs via a $9.59 outsourced adapter ignores field reality. Dispensing wands operate under aggressive chemical cycling, solvent flushes (acetone/MEK), and abrasive particulates. Without pressure-drop calculations, burst-pressure field validation, or signed distributor distribution agreements, modeling a 78%-86% margin baseline on an unbuilt fitting is speculative fiction.
+
+
+### Concept: Single-Press Color Masterbatch Purging Downtime (COMM_24)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #274 Audit)
+* **Autopsy:** Greg is the sole on-site injection molding press operator on Lily's aging Cincinnati Milacron press. Compounding UV-stabilized Safety Orange masterbatch into standard natural/translucent nylon runs introduces severe resin cross-contamination. Purging the barrel, screw, and multi-cavity hot runners between orange and standard production runs consumes hours of non-productive press time and creates purge scrap that erodes the claimed sub-$500 implementation cost.
+
+
+### Concept: Truncated CD-15 Technical Analysis and Unfinished Section 3.2
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #274 Audit)
+* **Autopsy:** The technical evaluation of whether the Mini Proportioner / CD-15 can address geotechnical applications cuts off mid-sentence ('and i'). Submitting an unfinished engineering evaluation fails diligence underwriting standards, leaving open unverified operational limits regarding fluid delivery rates, stall pressures, and packing seal survivability under high-solids grouts.
+
+
+### Concept: Geotechnical Polyjacking Heated Rig Retooling (MKT_GEOTECH_03)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
+* **Autopsy:** Contractor polyjacking requires 100°F–130°F fluid pre-heating and 150–300 ft heated hose loops for impingement mix viscosity coupling. Retooling the shop to build 240V heated mobile rigs requires UL 508A electrical panel certification ($35k–$50k capex), 45+ hours of specialized wiring per unit that overwhelms the 2-man mechanical bench (Dave Kling / Julian Perez), and incurs 24/7 mobile highway warranty liability that a 5-person operation cannot service.
+
+
+### Concept: Private-Label Mechanical Packer Manufacturing for Formulators (COMM_152)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
+* **Autopsy:** Achieving Lily's target 65% gross margin requires a wholesale transfer price of $1.75/unit, which is 2.5x to 4x higher than formulators' established Asian import supply chains ($0.40–$0.70 landed). Because chemical packers are sacrificial installation aids exempt from BABA/AIS mandates under de minimis rules, formulators have zero economic or regulatory incentive to pay a domestic premium, and investing $18,500 in Drive-Lok tooling violates Year 1 working capital discipline.
+
+
+### Concept: CD-250deluge Conversion for Structural Slab Lifting
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
+* **Autopsy:** The CD-250 outputs 5.0 to 10.0 GPM designed for high-friction bridge deck overlays; pumping this volume into geotechnical sub-base voids would uncontrollably blow out or shatter highway concrete slabs requiring 1.0 to 2.5 GPM metered bursts. Additionally, its requirement for a 185 CFM tow-behind diesel compressor and 634 lb cart weight eliminates jobsite portability for commercial and residential slab lifting contractors.
