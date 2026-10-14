@@ -2431,3 +2431,388 @@
 ### Concept: RapidAssure-250 Dual Seasonal Overhaul Shop Congestion (COMM_73)
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #251 Audit)
 * **Autopsy:** Offering dual seasonal wet-end overhauls per machine per year concentrates rebuild shipments during tight seasonal windows (pre-spring mobilization and late-fall winterization). Julian Perez is the sole assembly and rebuild technician; clustering dozens of wet-end ultrasonic teardowns and 3,000-PSI hydrostatic recertifications during peak construction months creates severe operational bottlenecks against new CD-15/CD-250 machine builds.
+
+
+### Concept: Unsubstantiated White Cap / Sika National Distribution Placement
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Treating national distributor adoption across White Cap, Sika, and Euclid as an immediate zero-capex cash cow is an ungrounded commercial fantasy. Tier-1 commercial construction distributors require corporate vendor onboarding, vendor-managed inventory (VMI), 10–15% distributor rebates/slotting fees, EDI compliance software, and Net 60–90 payment terms that would instantly drain Lily's $50,000 cash reserve. This channel expansion must be classified as an [EXPLORATORY HYPOTHESIS] rather than treated as guaranteed base-case EBITDA.
+
+
+### Concept: Shop Floor Labor Bottleneck for High-Volume Packaging
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Molding, counting, bagging, boxing, and palletizing 300,000 ports into 250-pack and 1,000-pack master cartons (300 to 1,200 cartons) demands dozens of manual labor hours per run. Expecting Julian Perez to manually package and palletize bulk consumables while simultaneously managing CD-15 builds, hose crimping, calibration testing, and LTL logistics—while Greg runs all press maintenance, mold changes, and hydrostatic testing alone—creates an immediate operational failure.
+
+
+### Concept: Working Capital Over-Allocation for Speculative Consumable Inventory
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Batch-molding 300,000 ports requires purchasing 10,000 to 14,000 lbs of injection-grade copolymer resin plus heavy-duty master cartons and poly-liners, requiring an upfront cash outlay of $15,000 to $22,000. With liquid working capital strictly capped at $50,000 and a mandatory $11,403.04/month debt service floor, sinking over 30% of available cash into speculative inventory prior to firm purchase orders threatens company solvency.
+
+
+### Concept: Unverified Pricing Power Against Commodity Import Ports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** The model assumes White Cap and regional formulators will willingly purchase bulk ports at $0.348 to $0.396 wholesale to generate >81% gross margins for Lily. Standard crack-injection surface ports are largely commoditized, with imported Chinese and domestic contract-molded ports readily available at $0.15 to $0.25 wholesale. Assuming premium pricing without proprietary locking geometry or an exclusive spec mandate is economically ungrounded.
+
+
+### Concept: Unqualified National Distribution Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** National stocking distributor placement is asserted as a zero-capex fait accompli based solely on offering a 40% gross margin discount. In reality, large construction distributors like White Cap impose extensive onboarding hurdles, including mandatory EDI compliance, vendor rebate programs (typically 5–10%), payment terms often stretching to Net 60/90, return/stock-rotation privileges, and multi-million dollar product liability umbrellas. Neither Lily nor the draft has secured vendor agreements or branch commitments; treating this as immediate baseline cash flow without labeling it an [EXPLORATORY HYPOTHESIS] violates empirical diligence.
+
+
+### Concept: Unverified Molding Capacity & Labor Bottlenecks for 300,000 Units
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** Molding and packaging 300,000 bare ports, caps, and tees relies on Greg (sole press operator) and Julian Perez (sole packager/assembler). The plan fails to provide mold cavitation, cycle time, or scrap rate data for Mold #1, #2, and #4. If Mold #1 is a low-cavity tool (e.g., 2 or 4 cavities with a 30-second cycle), running 300,000 parts requires 600 to 1,250 press operating hours—consuming 30% to 60% of Greg's total annual working hours while he is also responsible for machine setup, maintenance, and hydro testing. Julian is simultaneously expected to hand-bag, box, palletize, and ship these units while building pumps and assembling fluid whips.
+
+
+### Concept: Wholesale Price Immunity Against Landed Asian Commodity Imports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** The model assumes commercial distributors will readily purchase Lily surface ports at $0.348 to $0.396 per unit (and contractors at $0.58 to $0.66) to deliver 81%+ gross margins. In reality, sacrificial plastic crack-injection surface ports are low-tech commodity polyolefin parts facing heavy competition from generic domestic and Asian imports that retail below $0.20–$0.30 direct. Without empirical verification of competitor pricing or proven lock-in that forces contractors to buy Lily-branded ports for third-party dispensers, wholesale volume and realization assumptions are speculative.
+
+
+### Concept: Unsubstantiated Import Failure & DOT Liquidated Damages Narrative
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** The plan justifies a 100%+ price premium over Asian imports ($0.396 wholesale vs. $0.15–$0.25) by claiming generic ports delaminate at 200–800 PSI and trigger $1,500/hr DOT lane closure damages. No comparative burst data, empirical tensile testing, or DOT incident records are cited. Commercial distributors like White Cap will not stock higher-priced commodity ports based on unverified anecdotal claims without formal state DOT product list approvals.
+
+
+### Concept: Labor Bandwidth Overcommitment for Greg & Julian at 300,000 Units
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** Producing 300,000 units on Mold #1 (8 cavities) requires 37,500 molding cycles. At an average 30-second cycle time, this demands over 310 hours of press run-time, mold setup, barrel purging, and material handling—all loaded onto Greg, who is also the sole hydrostatic/burst test technician. Julian Perez is then expected to manually weigh-count, bag, box, and palletize 300 to 1,200 master cartons alongside CD-15 builds, hose crimping, and LTL shipping. This exceeds the shop floor's physical throughput capacity.
+
+
+### Concept: Unrealistic Distributor Gross Margins Under Working Capital Constraints
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** Projecting 81.6% to 82.6% wholesale gross margins when selling to tier-1 commercial distributors (White Cap, Sika, Euclid) ignores standard distribution friction: 5%–8% annual corporate rebates, 2% prompt-pay terms, inventory buy-backs, and 60- to 90-day receivable collection lags. Financing polymer resin inventory and packaging boxes for 300,000 units upfront while waiting 60+ days for distributor payment will dangerously deplete Lily's $50,000 liquid working capital cushion and imperil the $11,403.04/month debt service floor.
+
+
+### Concept: Fabrication of Historical Operational Data as Empirical Fact
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #255 Audit)
+* **Autopsy:** The draft states as empirical fact that 'internal rental fleet fouling dropped from 38.2% to 8.4% (a 78% reduction), saving 294 shop hours and $18,067/year,' and that Dave Kling has already machined and standardized multiple new components. Presenting speculative pro forma turnaround projections as verified historical operating data violates diligence standards and masks genuine technical and execution risk.
+
+
+### Concept: Channel Conflict with Chemical Formulators (Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #255 Audit)
+* **Autopsy:** The plan relies on selling bulk port master cartons through resin formulators and national distributors like Sika and Euclid at 81%+ gross margins. Sika, Euclid, and ChemCo package their own crack injection resins with low-cost contract-molded or imported surface ports; they have no economic incentive to distribute a third-party port that erodes their proprietary accessory pull-through unless Lily has an exclusive formulation tie-in or binding supply agreement, neither of which exists.
+
+
+### Concept: Extreme Shop Floor Labor Overload on Dave Kling and Julian Perez
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #255 Audit)
+* **Autopsy:** The R&D roadmap introduces roughly 30 trademarked sub-assemblies (AeroShift, DuraBore, StrokeTrack, DeckFlush, RapidSwap, OmniLatch, MultiLift-4, etc.) requiring CNC programming, custom lathe turning of 4140 collets, VMC fixture machining, and core exchange rebuilding. Dave Kling is already the sole machinist, welder, chassis fabricator, and purchasing agent, while Julian Perez handles all mechanical assembly, testing, and shipping. This volume of concurrent custom machining and core servicing is physically impossible for two shop-floor craftsmen without destroying core production throughput.
+
+
+### Concept: Contractor Acceptance Fallacy for 'StrokeTrack' Rental Overages
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #255 Audit)
+* **Autopsy:** Projecting $38,000 to $46,000 in unencumbered rental margin by retrofitting proportioners with tamper-evident NFC cycle counters and levying a $0.20/gallon overage penalty above 500 gallons assumes contractors will passively accept punitive metered billing. In highway and bridge contracting, contractors will simply bypass the counters, dispute mechanical cycle telemetry, or rent competitor rigs (Graco/ChemGrout) that do not penalize high-volume throughput.
+
+
+### Concept: Machine Shop Labor Capacity Overload (Dave Kling Bottleneck)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #256 Audit)
+* **Autopsy:** Dave Kling is Lily's sole machinist, fabricator, welder, and purchasing agent. Committing him to simultaneously machine billet manifolds (DF-101), modular tie-rod wet-ends (RS-250), 4-jaw hardened collet wands (OL-WAND-100), and armored billet telemetry housings (CC-303), on top of baseline Hurco VMC chassis fabrication and customer repairs, is physically impossible in a 4-person shop.
+
+
+### Concept: Fabricated Historical Baselines & Pseudo-Precision
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #256 Audit)
+* **Autopsy:** The plan cites precise historical operating figures (e.g., '38.2% of rental returns required teardowns', '294 shop labor hours', '$18,067 in unrecoverable parts', 'pressure drop of 214.2 PSI down to 11.8 PSI') that do not exist in Lily Corporation's verified tax returns, P&L files, or site diligence logs. Inventing empirical baselines violates diligence constraints.
+
+
+### Concept: Unsubstantiated Distributor Placement & Wholesale Margin Fantasy
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #256 Audit)
+* **Autopsy:** Assuming tier-1 distributors (White Cap, Sika, Euclid) will immediately stock 250-pack and 1,000-pack master cartons at an 81.6%–82.6% gross margin to Lily ($0.35–$0.40/port) ignores typical distributor gross margin requirements (30–40%), vendor onboarding hurdles, slotting fees, and intense price competition from commodity domestic and imported surface ports that retail at similar price points.
+
+
+### Concept: Absence of Epistemic Labeling on Speculative R&D
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #256 Audit)
+* **Autopsy:** Over 20 unbuilt R&D concepts (DuraBore-10M, FilterPass-250, StrokeTrack, OmniLatch, RapidSwap) are mapped directly into the core cash-cow moat and margin waterfall without the required [EXPLORATORY HYPOTHESIS] demarcation, falsely inflating Year 1 baseline EBITDA reliability.
+
+
+### Concept: Shop Floor Labor Overcommitment & R&D Sprawl
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** Assigning Dave Kling and Julian Perez to engineer, machine, assemble, and test over 15 distinct sub-assemblies (DeckFlush AODD kits, RapidSwap wet-end cartridges, OmniLatch collets, Hurco manifold retooling, and StrokeTrack telemetry) while maintaining core equipment production, warranty teardowns, and master pack shipping is physically impossible in a 4-man shop. This diversion directly imperils the baseline operational cash flow required to meet the non-negotiable $11,403.04/month debt service floor.
+
+
+### Concept: Wholesale Distributor Economics & Margin Assumptions
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** Projecting 79% to 83% gross margins on bulk injection ports ($0.348–$0.396 wholesale price against $0.064–$0.069 COGS) sold into commercial distributors like White Cap, Sika, and Euclid ignores empirical distributor pricing power. National distributors demand 35%–50% gross margins, vendor rebate programs, EDI compliance, and extended payment terms (Net 60/90), while generic and imported surface ports trade at $0.12–$0.22 wholesale. Without binding master distributor agreements or formal purchase commitments, these wholesale volumes and margins are ungrounded fiction.
+
+
+### Concept: RapidSwap 48-Hour Factory Core Exchange Annuity
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** The 48-hour turn closed-loop exchange model assumes a frictionless logistics pipeline and negligible bench overhaul costs ($140 BOM/labor against an $810 net profit margin). It completely ignores core freight float, damaged cylinder housings, unreturned cores, and the capital required to maintain a buffer pool of pre-built wet-end cartridges, which would rapidly deplete the company's constrained $50,000 liquid working capital.
+
+
+### Concept: Distribution Channel & Wholesale Margin Fantasy (White Cap/Sika/Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** The plan asserts Lily will capture an 'immediate, zero-capex, high-volume' revenue stream at 81.6% to 82.6% wholesale gross margin ($0.348–$0.396/port). In commercial reality, national distributors like White Cap demand 35%–50% distributor margins, annual volume rebates (2%–5%), EDI compliance, and stocking allowances. Furthermore, bulk surface injection ports face severe price pressure from imported injection-molded commodities selling for under $0.20/unit, and resin formulators (Sika, Euclid) prioritize bundling their own branded ports with their epoxy resins rather than distributing a third-party equipment manufacturer's generic consumables.
+
+
+### Concept: Shop Floor Over-Allocation & R&D Scope Creep (30+ Sub-Brands)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** The draft details an ungrounded roadmap of over thirty proprietary trademarked products (DuraBore, SafePurge, OmniLatch, DeckFlush, RapidSwap, DrySpear, RatioSentinel, MultiLift, etc.). Dave Kling is the shop's sole machinist/welder/fabricator and Julian Perez is the sole assembler/tester/shipper. Expecting this two-man physical throughput to design, machine, assemble, and certify dozens of complex new mechanical assemblies while simultaneously maintaining baseline CD-250 builds, warranty repairs, and packing thousands of ports is physically impossible.
+
+
+### Concept: Universal Cross-Platform Competitor Compatibility Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** Claiming that existing Mold #1 standard surface ports and Mold #2 corner ports are universally compatible with Graco, ChemCo, ChemGrout, and SealBoss equipment out-of-the-box ignores mechanical reality. Commercial crack injection systems utilize divergent quick-connect geometries, including luer locks, high-pressure zerk fittings, proprietary cam locks, and specific bayonet sockets; universal compatibility requires adapters (such as the unbuilt, speculative OmniLatch concept) rather than standard bare port heads.
+
+
+### Concept: RapidSwap 48-Hour Wet-End Core Rebuild Exchange Loop
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #257 Audit)
+* **Autopsy:** PROD_25 assumes Julian Perez can tear down returned fouled chemical cylinders, machine/lap 440C stainless check seats, install PTFE V-packing stacks, hydrostatic proof-test to 3,000 PSI, and turn around certified rebuilds within 48 hours for an 85.3% margin ($810 profit). In a small shop handling unpredictable rental return spikes, contaminated resin cleanouts frequently encounter damaged cylinder bores and crystallized isocyanates requiring ultrasonic soaking and Hurco boring, creating massive labor bottlenecks that exceed the 1.2-hour labor allowance.
+
+
+### Concept: Shop Floor Labor & Throughput Congestion
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #258 Audit)
+* **Autopsy:** The plan assigns Dave Kling (sole machinist/fabricator) and Julian Perez (sole assembly/shipping tech) to simultaneously manufacture, machine, inspect, pack, and service over 20 newly invented product lines (DeckFlush, RapidSwap, OmniLatch, StrokeTrack, DuraBore-10M, etc.) while maintaining baseline CD-250 and CD-15 proportioner builds. A 4-person shop cannot absorb rapid-turnaround rebuild loops, specialized precision machining, and custom product development without abandoning baseline production.
+
+
+### Concept: RapidSwap™ 48-Hour Rotable Core Exchange ($950 Service Fee / 85.3% Gross Margin)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #258 Audit)
+* **Autopsy:** Operating a rotable core exchange program requires floating substantial finished goods inventory of pre-torqued fluid sections and heavy-duty transit cases, immediately exhausting Lily's $50,000 liquid working capital buffer. Furthermore, guaranteeing a 48-hour rebuild turnaround when Julian Perez is already responsible for all proportioner assembly, packaging, and shipping is an operational impossibility.
+
+
+### Concept: OmniLatch™ Hardened 4140 Collet ($24.80 In-House COGS)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #258 Audit)
+* **Autopsy:** A 4-jaw hardened 4140 steel collet proofed to 1,200 PSI dynamic pressure requires specialized multi-axis precision machining, slotting, and external heat treatment (quench and temper). Dave Kling cannot produce these in low shop volumes on a Hurco VMC and manual lathe at a landed cost of $24.80, as external heat-treating minimum lot charges alone will exceed the entire target unit BOM.
+
+
+### Concept: Instant National Distributor Bulk Carton Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #258 Audit)
+* **Autopsy:** The assumption that major national concrete distributors will displace incumbent commodity ports and purchase 250-pack and 1,000-pack master cartons at an 81.6%–82.6% wholesale gross margin ($0.35–$0.40/port) is commercially ungrounded. National distributors demand supplier EDI integration, vendor rebate allowances (often 5%–10%), extended payment terms (Net 60/90), and compete directly against landed Asian imported injection ports priced at $0.15–$0.25 wholesale.
+
+
+### Concept: Conflation of Speculative R&D Concepts with Current Operating Moat
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #259 Audit)
+* **Autopsy:** Section 1 places over 15 unbuilt, unvalidated trademarked products (DuraBore-2M/10M, SafePurge-250, CleanPass-Seq, DrySpear-250, RatioSentinel, MultiLift-4) into the current 'EQUIPMENT & FLEET' and 'CONSUMABLES & TOOLING' core moat boxes. Presenting uncommercialized concepts as existing enterprise infrastructure misrepresents baseline operational reality and obscures the true cash-generating core.
+
+
+### Concept: Frictionless Tier-1 Distributor Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #259 Audit)
+* **Autopsy:** The plan assumes immediate high-margin wholesale uptake of master cartons without budgeting for distributor onboarding lead times, EDI compliance, mandatory buybacks, stocking re-packaging requirements, or Net 60/90 receivables lag. Placing master cartons in national distributor channels would immediately tie up tens of thousands in resin and packaging inventory, breaching the strict $50,000 liquid working capital ceiling.
+
+
+### Concept: Shop Floor Labor Cannibalization (Julian Perez & Dave Kling)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #259 Audit)
+* **Autopsy:** Julian Perez is designated as the sole operator responsible for CD-15 proportioner assembly, fluid whip crimping, calibration testing, warranty rebuilds, and freight logistics. Adding benchtop scale-counting, packaging, and palletizing of thousands of bulk ports (250 and 1,000-count cartons) directly cannibalizes proportioner production capacity. Similarly, Dave Kling cannot machine custom manifolds, wet-end tie rods, and OmniLatch collets while running baseline VMC production and chassis welding.
+
+
+### Concept: PROD_25 Wet-End Cartridge Float Working Capital Trap
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #259 Audit)
+* **Autopsy:** Establishing a nationwide rapid-exchange wet-end core program requires a standing buffer fleet of pre-assembled, pre-torqued CD-250 fluid cartridges and Pelican transit cases. At a landed manufacturing cost of $872.50 per assembly, maintaining a working float of even 15 to 20 units locks up $13,000 to $17,500—consuming 26% to 35% of Lily's total $50,000 liquid cash reserves on a single speculative aftermarket program.
+
+
+### Concept: Universal Port Compatibility Paradox vs. Proprietary Wand Dependency
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #260 Audit)
+* **Autopsy:** The plan asserts that existing Mold #1 and #2 surface ports are universal drop-in consumables compatible with competitor pumps (Graco, ChemCo, ChemGrout, SealBoss), yet PROD_44 admits competitor wands do not latch onto Lily ports without a newly engineered, CNC-lathed 4140 steel 'OmniLatch' wand adapter. If contractors require custom mechanical adapters to dispense through Lily ports, distributors will not stock them as generic universal replacements.
+
+
+### Concept: Dave Kling and Julian Perez Shop Floor Labor Overload
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #260 Audit)
+* **Autopsy:** The operational plan assumes Dave Kling can simultaneously machine 6061-T6 flush manifolds (PROD_22), CNC ground bedplates and tie-rod assemblies (PROD_25), machine 3/4" NPT manifold blocks (PROD_32), and turn hardened 4140 steel collets (PROD_44), while remaining sole purchasing agent, chassis welder, and lathe machinist. Julian Perez is likewise allocated to 48-hour cartridge core lapping, bench testing, CD-15 assembly, hose crimping, and manual scale-counting thousands of ports into bulk master cartons. Two shop floor workers cannot execute high-volume contract packaging, complex precision machining, and standard machine assembly simultaneously.
+
+
+### Concept: Unsubstantiated Distributor Wholesale Margins (White Cap / Sika / Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #260 Audit)
+* **Autopsy:** Projecting an 81.6% to 82.6% gross margin on wholesale port sales ($0.35–$0.40/port against $0.065 COGS) to commercial distribution giants like White Cap or Sika is economically ungrounded. National building material distributors demand 30% to 50% gross margins for stocking inventory and will not retail non-proprietary plastic surface ports at $0.70–$0.80/unit when commodity injection ports and Asian imports trade at retail for $0.30–$0.50/unit.
+
+
+### Concept: Runaway Speculative R&D Pipeline on a $50k Working Capital Budget
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #260 Audit)
+* **Autopsy:** Despite correctly freezing Molds #11 and #12 under the $20k capex cap, the plan injects over 25 speculative trademarked initiatives (DuraBore-10M, FilterPass-250, CleanPass-Seq, StrokeTrack, SafePurge-250, IsoGuard-500) into a target module intended solely for bulk carton packaging of existing port inventory. This introduces massive operational scope creep and risks diverting liquid cash away from the non-negotiable $11,403.04/month debt service obligation.
+
+
+### Concept: Immediate Tier-1 Commercial Distributor Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #261 Audit)
+* **Autopsy:** The plan asserts that packaging ports into 250 and 1,000-count boxes immediately unlocks high-volume wholesale distribution at 81.6% to 82.6% gross margin. Commercial distribution channels like White Cap and national formulators require formal vendor onboarding, EDI integration, slotting fees, return allowances, and 30-45% distributor markups. Assuming immediate unassisted distributor adoption without distributor contracts, coupled with pricing power at 4x the cost of overseas commodity imports, is an ungrounded commercial fantasy.
+
+
+### Concept: Shop Floor Capacity Overdraft Across 4 Craftsmen
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #261 Audit)
+* **Autopsy:** The module tasks Dave Kling with CNC lathe turning 4140 hardened OmniLatch collets, machining Hurco VMC billet purge blocks, and fabricating rapid-swap wet-end cartridges, while Julian Perez is assigned a 48-hour cartridge exchange rebuild loop, burst testing, hose crimping, and master carton packaging. This multi-SKU manufacturing expansion is impossible without adding multiple machinists and assembly techs, directly violating the 4-person shop floor operational constraint.
+
+
+### Concept: Unvalidated Cross-Platform Wand & Port Compatibility (OmniLatch 1,200 PSI)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #261 Audit)
+* **Autopsy:** Claiming universal leak-free locking up to 1,200 PSI across disparate competitor geometries (Graco, ChemCo, ChemGrout, SealBoss) using a single in-house machined 4-jaw collet is an unverified engineering assertion. Surface port entry dimensions, taper angles, and flange detents vary widely across formulators; deploying an unvalidated wand interface in high-pressure structural epoxy applications exposes the firm to severe catastrophic blowout and jobsite contamination liabilities.
+
+
+### Concept: Inflated Consumable Wholesale Gross Margin Math
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #261 Audit)
+* **Autopsy:** Modeling wholesale port pricing at $0.348 to $0.396 per port against an Aurora COGS of $0.064-$0.069 ignores distributor margin economics. If distributors sell ports to contractors at market parity ($0.45-$0.60/port), standard 35-50% distributor markups force the manufacturer realized net sale price down to $0.22-$0.30/port, compressing realistic gross margins well below the modeled 82% threshold once master box packaging, freight allowance, and scrap rates are incorporated.
+
+
+### Concept: Immediate Tier-1 Distribution Placement (White Cap, Sika, Euclid) at ~78% Wholesale Gross Margin
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #262 Audit)
+* **Autopsy:** Major national building supply distributors and chemical formulators do not immediately list unverified SKUs on Net 30 terms without aggressive distributor discounts (typically 35%-50% off list), EDI compliance, vendor insurance requirements ($5M+ umbrella), and standard payment terms. Formulators like Sika and Euclid already bundle branded crack-injection ports or import bulk commodity surface ports from Asia at $0.08–$0.12 landed. Assuming immediate wholesale pricing of $0.255–$0.312 per port without factoring in distributor margin clawbacks, slotting fees, or competitive displacement is financially ungrounded.
+
+
+### Concept: 30+ Pipeline R&D Sprawl on a 4-Person Shop Floor
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #262 Audit)
+* **Autopsy:** The visual R&D architecture introduces dozens of bespoke sub-assemblies (AeroShift, DuraBore-10M, SafePurge-250, IsoGuard-500, RatioSentinel, MultiLift-4, DeepDrive-15, SureMix-Geo). Dave Kling is the sole machinist/purchaser and Julian Perez is the sole assembly/rebuild/shipping tech. Expecting Dave to program CNC Hurco runs for custom manifolds, alignment dowels, and 4140 collets while maintaining primary machine fabrication and warranty repairs—while Julian hand-weighs bulk cartons and conducts 1.2-hour core overhauls—creates an immediate operational bottleneck that threatens baseline machine shipments and debt service coverage.
+
+
+### Concept: RapidSwap Core Rebuild Annuity Reverse-Logistics Model
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #262 Audit)
+* **Autopsy:** The 85.3% margin assumption on $950 rebuild fees relies on contractors reliably returning worn cores in Pelican transit cases rather than abandoning them on jobsites, disputing $1,200 core deposits, or demanding immediate field replacements. Furthermore, allocating only 1.2 shop hours for Julian Perez to decontaminate cross-linked polymer resins, strip V-packings, lap check valves, and hydrostatic test to 3,000 PSI is wildly optimistic for field-abused commercial equipment.
+
+
+### Concept: Commercial Formulator Distribution via Sika and Euclid
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #263 Audit)
+* **Autopsy:** Chemical formulators such as Sika and Euclid sell integrated, warrantied specification systems (resins, ports, and delivery accessories) under their own brand names. They will not inventory or promote Lily-branded bulk master cartons on distributor line cards without private-label OEM manufacturing agreements, which would compress wholesale margins below the projected 76-80% through private-label discounting and volume rebates.
+
+
+### Concept: White Cap National Distribution Without Onboarding / Rebate Deductions
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #263 Audit)
+* **Autopsy:** National concrete accessory distributors like White Cap mandate EDI integration, national vendor registration, guaranteed stock balancing, and 10%–15% vendor rebate programs. Modeling a clean 76.5%–79.7% wholesale gross margin directly against Aurora landed COGS without accounting for distributor margin haircut, terms discounts (2% 10 Net 30), or central DC freight freight-prepaid minimums is economically ungrounded.
+
+
+### Concept: Julian Perez Labor Bandwidth Contention at Packing Workcell
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #263 Audit)
+* **Autopsy:** Julian Perez is the sole assembly technician responsible for CD-15 builds, proportioner warranty teardowns, fluid whip crimping, calibration bench testing, and all outgoing LTL shipments. Offloading high-volume bulk carton packing (scale-weighing, bagging, carton labeling, and palletizing 250-pack and 1,000-pack cases) onto Julian will bottleneck the higher-dollar proportioner repair and assembly revenue stream unless dedicated automated bagging hardware or temporary packaging labor is funded.
+
+
+### Concept: Truncated Module Architecture & Incomplete Delivery
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #263 Audit)
+* **Autopsy:** The submitted plan terminates abruptly at '## 8. Deep Dive: PROD_48 — CD-250', failing to deliver the technical, labor, and BOM specifications for that initiative, rendering the document incomplete for formal underwriting.
+
+
+### Concept: RapidSwap™ 1.2-Hour Factory Rebuild Turnaround Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #264 Audit)
+* **Autopsy:** Allocating only 1.2 hours of Julian Perez's shop labor to chemically de-gel cross-linked epoxy/polyurethane, lap 440C stainless check valve seats, replace PTFE V-packings, and execute 3,000 PSI hydrostatic pressure testing is an operational impossibility on fouled field-returned cylinders. Field-seized pumps require extended solvent baths and mechanical scraping. Committing Julian to a 48-hour core exchange SLA cannibalizes his primary responsibilities for new rig assembly, fluid whip crimping, and master carton packaging.
+
+
+### Concept: Machining Capacity Bottleneck on Hurco VMC & Lathe (Dave Kling)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #264 Audit)
+* **Autopsy:** Dave Kling is already Lily's sole welder, fabricator, purchasing agent, and warranty teardown technician. Tasking Dave with CNC-machining 6061-T6 billet manifolds for DeckFlush (DF-101), turning 4-jaw hardened 4140 steel collets for OmniLatch (OL-WAND-100), and re-machining CD-250 discharge manifolds for 3/4" NPT full-port ball disconnects creates an immediate shop labor choke point, directly violating the 4-person operational boundary.
+
+
+### Concept: R&D Architecture Roadmap Bloat (20+ Speculative SKUs)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #264 Audit)
+* **Autopsy:** The architecture introduces over 20 speculative hardware and formulated chemical initiatives (SafePurge-250, IsoGuard-500, AeroShift, SureMix-Geo, MultiLift-4, RatioSentinel, CleanPass-Seq) for a firm operating on $50,000 of liquid working capital and an $11,403/month debt service floor. This speculative sprawl distracts commercial focus from the immediate zero-capex cash cow: high-volume universal surface port cartons (PROD_UNIVERSAL_PORTS_02).
+
+
+### Concept: Truncated Module Section 8
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #264 Audit)
+* **Autopsy:** The submission terminates mid-sentence at '## 8. Deep Dive: PROD_48 — CD-250', omitting mandatory engineering specifications, BOM costing, and labor impact analysis required for diligence sign-off.
+
+
+### Concept: Frictionless Tier-1 Commercial Distribution Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #265 Audit)
+* **Autopsy:** The plan assumes immediate high-margin wholesale uptake ($0.255–$0.312/port) by national distributors without accounting for commercial reality: vendor onboarding cycles take 6 to 12 months, national distribution agreements require 8% to 15% annual volume rebates/co-op advertising fees, and payment terms are Net 60 to Net 90. Furthermore, major chemical formulators like Sika and Euclid already bundle private-labeled ports or specify proprietary delivery systems. Assuming Lily can capture national placement with zero marketing spend, no dedicated sales reps, and without discounting into low-margin Asian import competition ($0.10–$0.15/port) is commercially ungrounded.
+
+
+### Concept: Working Capital Cash-Trap on Bulk Inventory Scaling
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #265 Audit)
+* **Autopsy:** Lily operates with a strictly constrained liquid working capital buffer of $50,000. Producing inventory for bulk 1,000-pack master cartons to support multi-branch distribution requires pre-purchasing full gaylords of nylon/polypropylene resin, masterbatch colorant, and heavy-duty corrugated cartons upfront. Carrying $25,000 to $40,000 of consumable inventory while waiting 75+ days for distributor receivables will breach operating cash minimums and threaten the mandatory $11,403.04/month debt service floor.
+
+
+### Concept: Julian Perez and Greg Shop-Floor Labor Cannibalization
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #265 Audit)
+* **Autopsy:** The operational model ignores the labor capacity of Lily's 4-man shop floor. Greg is the sole injection molding press operator, responsible for machine setup, barrel heat zones, mold swaps, and hydrostatic pressure testing. Julian Perez is the sole assembly technician for CD-15/LPI proportioners, fluid whip crimping, calibration, and warranty rebuilds. Forcing Julian to manually inspect, scale-weigh, bag, and box tens of thousands of ports into 250-pack and 1,000-pack master cartons directly strips hours away from rebuilding proportioners and assembling high-ticket pumps, threatening core revenue.
+
+
+### Concept: Absurd 88-Cycle R&D Roadmap for a 2-Craftsman Shop Floor
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #265 Audit)
+* **Autopsy:** The module outlines more than 25 concurrent engineering initiatives (from autofrettaged manifolds to bio-solvent flush carts, universal wands, and de-grit blocks). Dave Kling is Lily's only machinist, welder, purchasing agent, and equipment repairman. Expecting Dave to program and run Hurco VMC runs, turn collets, draft CAD files, and test prototypes while performing daily chassis fabrication and warranty repairs is physically impossible without hiring external engineering talent, which violates the zero-discretionary overhead constraint.
+
+
+### Concept: Immediate Commercial Wholesale Distributor Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #266 Audit)
+* **Autopsy:** National distribution placement is treated as an immediate zero-capex turnkey channel. In reality, national distributors like White Cap require formal vendor agreements, EDI integration, 2%/10 Net 60 terms, annual rebate allowances (4-8%), and 30-40% gross margins for themselves. If Lily sells at $0.255-$0.312/port, distributor retail pricing would reach $0.40-$0.50/port, rendering standard surface ports uncompetitive against generic domestic and Asian-imported ports retailing at $0.20-$0.30.
+
+
+### Concept: Shop Floor Over-Allocation for Julian Perez and Greg
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #266 Audit)
+* **Autopsy:** Greg is the sole injection molding press operator responsible for barrel heating, mold changeovers, and QA. Julian Perez is the sole assembly tech for proportioners, hose crimping, testing, and LTL shipping. Adding bulk manual counting, bagging, boxing, and palletizing of thousands of 250/1,000-pack master cartons without an automated bagging/weighing line will cannibalize high-dollar machine builds and rental rebuilds.
+
+
+### Concept: Incomplete Section 8 Drafting
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #266 Audit)
+* **Autopsy:** Section 8 ('Deep Dive: PROD_48 — CD-250') terminates mid-heading without technical specifications, bill of materials, or financial grounding, violating draft completeness standards.
+
+
+### Concept: Frictionless National Distributor Adoption at 76-80% Wholesale Gross Margin
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #267 Audit)
+* **Autopsy:** Assuming White Cap, Sika, and Euclid will distribute Lily bulk cartons (LPP-250 and LPP-1000) at $0.255–$0.312 per port delivering near-80% gross margin is commercially ungrounded. Tier-1 commercial distribution networks mandate 35%–50% distributor markups, annual vendor rebates, return allowances, and EDI integration costs. Without master distribution agreements or an outside sales force beyond Dave Jepsen's phone desk, capturing high-volume national shelf space at these margins is a spreadsheet fantasy.
+
+
+### Concept: Shop Floor Capacity Overload on Dave Kling and Julian Perez
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #267 Audit)
+* **Autopsy:** The plan burdens Dave Kling with concurrent machining of 6061-T6 billet flush manifolds (DF-101), CD-250 wet-end alignment bedplates (RS-250), 3/4-inch NPT manifold redesigns, and 4140 steel knurled collets for OmniLatch, on top of his mandatory baseline duties as sole welder, lathe operator, purchasing agent, and equipment repairman. Julian Perez is concurrently tasked with full rig assembly, calibration testing, packing bulk master cartons on bench scales, and a 48-hour rebuild turnaround on exchanged wet-ends. A 4-person shop floor cannot absorb this product development matrix without paralyzing baseline equipment production.
+
+
+### Concept: RapidSwap 48-Hour Wet-End Core Exchange Logistics and Working Capital Drag
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #267 Audit)
+* **Autopsy:** The RS-250 cartridge core-exchange loop assumes contractors will seamlessly ship unpurged, resin-contaminated fluid sections across state lines in Pelican cases and pay $950 service fees. Shipping unpurged cylinders with reactive isocyanates and epoxy resins introduces hazardous material carrier restrictions and decontamination liabilities. Maintaining an unencumbered float of machined spare wet-end cores to support transit times will trap significant cash, directly violating the firm's $50,000 liquid working capital discipline.
+
+
+### Concept: Unqualified Commercial Distribution Placement (White Cap, Sika, Euclid) at 76%+ Gross Margins
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #268 Audit)
+* **Autopsy:** Assuming immediate master carton placement into national distributors like White Cap, Euclid, and Sika at $0.255–$0.312 per port ignores empirical wholesale distribution economics. National distributors demand 35% to 50% distributor discounts, EDI integration, vendor rebate programs, and extended Net 60/90 terms. Furthermore, commercial concrete accessory distributors already stock commodity injection ports and surface tees sourced from high-volume Asian molders at $0.08–$0.14 wholesale. Lily cannot capture high-volume distributor shelf space at an 80% gross margin without signed vendor agreements or proprietary interface lock-in.
+
+
+### Concept: Julian Perez Labor Over-Allocation & 48-Hour RapidSwap Rebuild SLA
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #268 Audit)
+* **Autopsy:** Julian Perez is the sole assembly, testing, and shipping technician on the shop floor. Allocating him to manually weigh, verify, and pack 250-pack and 1,000-pack cartons (thousands of molded pieces per run), assemble CD-15/CD-250 rigs, crimp fluid whips, and manage daily LTL freight creates an operational bottleneck. Layering a commercial 48-hour factory turnaround guarantee for RapidSwap cartridge rebuilds (teardown, seal replacement, check lapping, 3,000 PSI hydrostatic test) will either fail customer turnaround SLAs during peak construction season or halt regular equipment shipments entirely.
+
+
+### Concept: Unverified Cross-Platform High-Pressure Burst Interoperability
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #268 Audit)
+* **Autopsy:** Asserting seamless 'native compatibility' across Graco, ChemCo, and ChemGrout dispensers under high injection pressure solely via standard 1/4" tubing and Snappy-Tees lacks empirical burst-testing validation. Viscous epoxy injection under Midwest cold-weather conditions generates significant back-pressures; without verified hydrostatic burst and blow-off testing data across varying competitor wand geometries, Lily faces significant product liability and warranty claims if contractor lines separate under load.
+
+
+### Concept: Machinist & Hurco VMC Labor Capacity Over-Allocation
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #269 Audit)
+* **Autopsy:** Dave Kling is Lily's sole fabricator, machinist, welder, and purchasing agent. The plan mandates that Dave program and machine DF-101 billet manifolds, 4140 ground alignment bedplates for RapidSwap, 3/4-inch NPT manifold discharge modifications, and 4-jaw hardened 4140 OmniLatch collets. Imposing multiple new CNC setups and precision turning runs on the shop's single Hurco VMC and lathe while Dave must maintain baseline CD-250/CD-15 chassis fabrication and warranty teardowns creates an immediate operational bottleneck and halts baseline machine production.
+
+
+### Concept: Unsubstantiated Big-Box Distribution Placement & Margin Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #269 Audit)
+* **Autopsy:** Assuming immediate national master carton volume through commercial distributors (White Cap, Sika, Euclid) at 76.5% to 79.7% wholesale gross margin ignores empirical supply chain economics. National construction supply distributors demand 35% to 50% wholesale discounts off contractor list, mandatory co-op advertising deductions, vendor onboarding fees, and Net 60 to Net 90 payment terms. Financing palletized inventory float on these payment cycles would instantly exhaust Lily's strict $50,000 liquid working capital buffer.
+
+
+### Concept: RapidSwap 48-Hour Factory Core Exchange Feasibility
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #269 Audit)
+* **Autopsy:** The RapidSwap core exchange loop assumes Julian Perez can tear down, ultrasonic clean, repack PTFE seals, lap 440C check balls, and hydrostatically recertify returned fluid cartridges within 48 hours for $60 in shop labor (1.2 hours). In reality, Julian is already responsible for all CD-15/LPI assembly, fluid line crimping, rental check-ins, burst testing, and carton packaging. Tying Julian up with field-fouled, cross-linked epoxy cores risks shop contamination and creates shipping delays for primary high-margin equipment and consumables.
+
+
+### Concept: Immediate Tier-1 Distributor Channel Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #270 Audit)
+* **Autopsy:** National distributors do not stock new consumable SKUs simply because master cartons exist. Onboarding with White Cap or Euclid requires formal vendor pre-qualification, EDI compliance, mandatory vendor rebate structures (typically 5%–12%), extended payment terms (Net 60 to Net 90), and guaranteed return allowances. Assuming immediate, zero-friction pull-through without distributor discount concessions or shelf-space buy-in directly contradicts disciplined acquisition diligence.
+
+
+### Concept: Julian Perez Labor Overdraft (Manual Packaging vs. Core Assembly)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #270 Audit)
+* **Autopsy:** Julian Perez is already solely responsible for proportioner assembly (CD-15, LPI), fluid whip crimping, calibration bench testing, and LTL shipping. Manually sorting, scale-weighing, bagging, and carton-packing tens of thousands of injection ports into 250-pack and 1,000-pack master cartons without automated bagging equipment cannibalizes high-margin equipment manufacturing and warranty overhaul bench time.
+
+
+### Concept: Dave Kling VMC Machining Bottleneck Across Peripheral SKUs
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #270 Audit)
+* **Autopsy:** The draft tasks Dave Kling—the shop's sole machinist, welder, and purchasing agent—with CNC machining DeckFlush 6061-T6 manifolds (DF-101), RapidSwap alignment bedplates, 3/4" full-port coupler manifolds, and 4140 steel OmniLatch collets, in addition to chassis fabrication and daily lathe operations. This creates an unmodeled machine-hour and labor bottleneck that will halt base proportioner production.
+
+
+### Concept: Shop Floor Labor & Capacity Over-Allocation
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #271 Audit)
+* **Autopsy:** The plan assigns Julian Perez to simultaneously handle proportioner assembly, fluid whip crimping, calibration testing, LTL logistics, 48-hour wet-end rebuild loops, AND manual benchtop scale packaging of tens of thousands of universal ports in 250/1,000-count cartons. Simultaneously, Dave Kling is assigned custom CNC machining for DeckFlush manifolds, RapidSwap bedplates, and OmniLatch collets while managing plant purchasing and core machining. With only 4 craftsmen, peak-season core production will suffer catastrophic bottlenecks.
+
+
+### Concept: Frictionless White Cap / Sika / Euclid National Distribution Placement
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #271 Audit)
+* **Autopsy:** Assuming immediate commercial distributor stocking of Lily-branded master cartons without vendor qualification fees, EDI compliance overhead, mandatory liability insurance escalations, or guaranteed buyback/consignment terms is commercially ungrounded. Sika and Euclid formulate their own epoxies and white-label their own accessories; they will not displace captive accessory margins for an independent Aurora jobber without severe margin erosion.
+
+
+### Concept: R&D Architecture Sprawl vs. Working Capital Reality
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #271 Audit)
+* **Autopsy:** The revenue moat ASCII diagram showcases over 20 proprietary trademarked sub-systems (AeroShift, DuraBore-10M, FilterPass-250, MultiLift-4, SafePurge-250, IsoGuard-500, SureMix-Geo) that have zero engineering drawings, zero prototype data, and zero allocated capital under the strict $50,000 liquid working capital and $20,000 Year 1 discretionary capex boundaries.
+
+
+### Concept: Incomplete Document Artifact (PROD_48 Truncation)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #271 Audit)
+* **Autopsy:** Section 8 cuts off abruptly ('Deep Dive: PROD_48 — CD-2'), leaving critical equipment specifications incomplete and unreviewed.
+
+
+### Concept: Julian Perez Workcell Congestion Between Bulk Carton Packing and RapidSwap Bench Rebuilds
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #272 Audit)
+* **Autopsy:** Assigning Julian Perez to manually package high-volume 250-pack and 1,000-pack master cartons via benchtop counting scales while simultaneously handling CD-15 pump assembly, LTL shipping, and 1.2-hour RapidSwap wet-end rebuilds creates an unmodeled shop labor bottleneck in a 4-man facility. Master carton packaging runs must be batched during off-peak assembly hours or pre-bagged by Greg during injection molding cycle dwell times to prevent cannibalizing high-margin pump repair throughput.
+
+
+### Concept: Working Capital Strain from Tier-1 Distributor Net 60/90 Payment Terms
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #272 Audit)
+* **Autopsy:** Placing bulk master cartons into national distribution networks like White Cap or Sika introduces 60-to-90-day collection cycles and distributor rebate expectations (typically 5-8%). With liquid working capital strictly constrained to $50,000, front-loading resin purchases and carrying distributor receivables without factoring or strict credit limits risks triggering cash flow insolvency against the mandatory $11,403.04 monthly debt service floor.
