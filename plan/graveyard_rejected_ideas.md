@@ -2816,3 +2816,18 @@
 ### Concept: Working Capital Strain from Tier-1 Distributor Net 60/90 Payment Terms
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #272 Audit)
 * **Autopsy:** Placing bulk master cartons into national distribution networks like White Cap or Sika introduces 60-to-90-day collection cycles and distributor rebate expectations (typically 5-8%). With liquid working capital strictly constrained to $50,000, front-loading resin purchases and carrying distributor receivables without factoring or strict credit limits risks triggering cash flow insolvency against the mandatory $11,403.04 monthly debt service floor.
+
+
+### Concept: Underwriting Unbuilt Hardware (OC-100 and GeoSkid 250) into Core Underwritten Baseline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** The plan violates the fundamental debt service floor constraint by categorizing speculative, non-existent products ('Omni-Cam Adapter Kit' and 'GeoSkid 250') as 'CORE UNDERWRITTEN BASELINE'. Neither asset exists in Lily's historical financials (pl.csv) or product catalog. Underwriting debt service ($11,403/mo) against projected 78%-86% gross margins on unengineered hardware prior to prototyping, field testing, or contractor validation violates working capital and diligence discipline.
+
+
+### Concept: Graco Fusion MP Impingement Gun to Lily Port Quick-Cam Interfacing (COMM_60)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** Polyurethane slab-jacking via Graco Reactors relies on high-pressure impingement mix guns (Fusion AP/MP, ProConnect, GX-7) operating at 1,000 to 2,000+ PSI that inject directly into steel mechanical packers or locking hydraulic couplers. Adapting these guns to Lily's push-on/snap-on plastic surface ports using a cheap hybrid cam-and-groove fitting is dangerous: plural foam reacting at 1,500 PSI will instantaneously blow out standard molded plastic ports, create chemical geysers, or blow off static mixers, creating severe contractor liability.
+
+
+### Concept: Pneumatic CD-250 'GeoSkid' Confined-Space Utility Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #273 Audit)
+* **Autopsy:** Promoting a pneumatic proportioner as an ideal solution for confined spaces (subway tunnels, utility vaults, maritime seawalls) ignores air supply logistics. The CD-250 requires a massive continuous volume of compressed air (typically 25-50 CFM at 90-100 PSI), necessitating a large diesel tow-behind air compressor. Running hundreds of feet of pneumatic air line into underground confined vaults introduces major pressure drop and tripping hazards, undermining the claim that pneumatic drive offers frictionless portability over compact electric-hydraulic units.
