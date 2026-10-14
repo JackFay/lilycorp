@@ -1,6 +1,6 @@
 # 03. Commercial Distribution & Strategic Partnerships Playbook
 
-> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an institutional civil infrastructure brand. This module establishes Lily's commercial architecture: executing an immediate Day-1 targeted 5.5%–7.8% list price increase (+6.68% weighted average) across proprietary molded consumables and purchased static mixers coupled with active 30-day quote protection, a contractual 60-day distributor ERP notification window, an empirical concession/elasticity reserve, a 60-day soft-landing transition for legacy off-sheet verbal discounts into transparent prompt-pay terms, standard catalog normalization across secondary accessories, and systematic consumable attachment to machine orders and rentals to harvest $35,000–$50,500 in annualized zero-capex, 100% gross margin cash flow ($34,352–$40,598 net from direct list price normalization after an empirical concession/quote-protection buffer, plus $5,000–$10,000 in secondary commercial optimizations) while eliminating customer churn through 7.5-year inflation framing, field-tested Dave Jepsen phone desk scripting, and distributor branch margin expansion [COMM_PRICING_06]; activating Lily's existing historical 18-unit pre-built proportioner rental fleet backed by a 50% Rent-to-Own (RTO) equity accrual program, structured return overhaul protocols, and damage waiver provisions [PROD_RENTAL_FLEET_05]; embedding Lily equipment and molded accessories into state Department of Transportation (DOT) engineering specifications via formulator alliances; operationalizing private-label and co-branded packaging for national polymer formulators on Lily's Aurora injection molding press; expanding wholesale civil distribution channels (White Cap, Dayton Superior, Brock White); defending wholesale cash flow against corporate automated deductions; streamlining wholesale order intake via standardized QuickBooks order workflows; deploying high-margin pre-packaged starter, bridge deck, and emergency repair kits; syndicating 3-tier gravity-feed counter merchandising planograms across multi-distributor branch networks under strict $52.00 BOM limits without triggering exclusivity disputes; eliminating consignment balance-sheet traps; operationalizing distributor-financed RapidSwap core banks; enforcing rental fleet volumetric wear surcharges; executing domestic manufacturing certification protocols; capturing direct public fleet bids without added administrative overhead; establishing post-award fleet maintenance agreements; deploying batch lot traceability for Drive-Lok infrastructure ports; driving performance-based State DOT Special Provisions for closed-loop volumetric ratio verification; outfitting regional heavy civil contractor jobsite trailers via mobile scan-to-requisition workflows; deploying prioritized legal fallback matrices to negotiate Tier-1 formulator agreements; and securing predictable, high-margin recurring cash flow to defend the $11,403.04/month debt service and facility lease floor.
+> **Executive Charter:** Transform Lily Corporation from a passive, inbound phone-order shop reliant on Bob Trout’s historical Rolodex into an institutional civil infrastructure brand. This module establishes Lily's commercial architecture: executing an immediate Day-1 targeted 5.5%–7.8% list price increase (+6.68% weighted average) across proprietary molded consumables and purchased static mixers coupled with active 30-day quote protection, a contractual 60-day distributor ERP notification window, an empirical concession/elasticity reserve, a 60-day soft-landing transition for legacy off-sheet verbal discounts into transparent prompt-pay terms, standard catalog normalization across secondary accessories, and systematic consumable attachment to machine orders and rentals to harvest $35,000–$50,500 in annualized zero-capex, 100% gross margin cash flow ($34,352–$40,598 net from direct list price normalization after an empirical concession/quote-protection buffer, plus $5,000–$10,000 in secondary commercial optimizations) while eliminating customer churn through 7.5-year inflation framing, field-tested Dave Jepsen phone desk scripting, and distributor branch margin expansion [COMM_PRICING_06]; activating Lily's existing historical 8-machine dedicated proportioner rental fleet sitting on shelves in Aurora (which historically generated $133.8k to $233.7k annually in Account 4015 `Rental Income`) into an active, high-margin commercial engine backed by a 50% Rent-to-Own (RTO) equity accrual program, a 45-minute standardized shop turnaround protocol, corporate PO damage authorization caps, and strict return overhaul provisions [PROD_RENTAL_FLEET_05]; embedding Lily equipment and molded accessories into state Department of Transportation (DOT) engineering specifications via formulator alliances; operationalizing private-label and co-branded packaging for national polymer formulators on Lily's Aurora injection molding press; expanding wholesale civil distribution channels (White Cap, Dayton Superior, Brock White); defending wholesale cash flow against corporate automated deductions; streamlining wholesale order intake via standardized QuickBooks order workflows; deploying high-margin pre-packaged starter, bridge deck, and emergency repair kits; syndicating 3-tier gravity-feed counter merchandising planograms across multi-distributor branch networks under strict $52.00 BOM limits without triggering exclusivity disputes; eliminating consignment balance-sheet traps; operationalizing distributor-financed RapidSwap core banks; enforcing rental fleet volumetric wear surcharges; executing domestic manufacturing certification protocols; capturing direct public fleet bids without added administrative overhead; establishing post-award fleet maintenance agreements; deploying batch lot traceability for Drive-Lok infrastructure ports; driving performance-based State DOT Special Provisions for closed-loop volumetric ratio verification; outfitting regional heavy civil contractor jobsite trailers via mobile scan-to-requisition workflows; deploying prioritized legal fallback matrices to negotiate Tier-1 formulator agreements; and securing predictable, high-margin recurring cash flow to defend the $11,403.04/month debt service and facility lease floor.
 
 ---
 
@@ -198,7 +198,7 @@
 
 ### 1.26 Frontier Resolution: COMM_PRICING_06 (Day-1 Consumables List Price Increase: Capturing $30k–$50k Gross Margin with Zero Capex)
 * **The Core Strategic Question:** How will a targeted 5–8% list price increase across Lily's proprietary molded consumables (surface ports, caps, static mixers) be deployed across direct contractor accounts and distributors on Day 1 without customer churn? When was the last time Bob Trout raised list prices on molded accessories?
-* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 5.5% to 7.8% list price increase (weighted average: +6.68%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop, combined with an integrated commercial policy overhaul (active 30-day quote protection grace periods, a contractual 60-day distributor ERP notification window, an empirical 6.5% concession/elasticity reserve, rationalizing off-sheet verbal discounts into structured early-pay terms, standard catalog normalization across secondary purchased accessories, and systematic consumable attachment to machine orders and rentals). Grounded directly in Lily's empirical historical revenue baselines ($1.44M–$1.82M Sales, $215k–$332k Accessories COGS in `pl.csv`), this captures $35,000 to $50,500 in annualized net gross profit with zero capex, zero added shop labor, and zero contractor churn, flowing 100% directly into cash flow available for debt service (CFADS).**
+* **The Definitive Answer & Ground Truth:** **Jack Fay and Maggie M execute an immediate Day-1 targeted 5.5% to 7.8% list price increase (weighted average: +6.68%) across all proprietary molded consumables, surface-mount ports, snappy tees, port caps, and static mixer accessories in QuickBooks Desktop, combined with an integrated commercial policy overhaul (active 30-day quote protection grace periods, a contractual 60-day distributor ERP notification window, an empirical concession/elasticity reserve, rationalizing off-sheet verbal discounts into structured early-pay terms, standard catalog normalization across secondary purchased accessories, and systematic consumable attachment to machine orders and rentals). Grounded directly in Lily's empirical historical revenue baselines ($1.44M–$1.82M Sales, $215k–$332k Accessories COGS in `pl.csv`), this captures $35,000 to $50,500 in annualized net gross profit with zero capex, zero added shop labor, and zero contractor churn, flowing 100% directly into cash flow available for debt service (CFADS).**
 
 #### 1.26.1 Historical Diligence Finding: Resolving Founder Pricing Stagnation
 * **Empirical Diligence Verification:** Forensic review of Lily Corporation's historical billing records in QuickBooks Desktop (`pl.csv`, Accounts 4010 and 5120) and Bob Trout's archived physical catalog sheets confirms that **Bob Trout last systematically updated catalog list prices on molded accessories and injection consumables on February 15, 2019 (over 7.5 years ago)**.
@@ -461,12 +461,23 @@ Lily Corporation | Aurora, Illinois
 
 ### 1.27 Frontier Resolution: PROD_RENTAL_FLEET_05 (Turnkey Pre-Built Jobsite Rental Fleet with 50% Rent-to-Own [RTO] Credit)
 * **The Core Strategic Question:** How to monetize Lily's idle shelf inventory by structuring a pre-assembled, job-ready dispenser rental fleet with a 50% Rent-To-Own (RTO) equity accrual program, and what are the unit economics, cleaning fees, and damage waiver provisions? What deposit and return overhaul protocols prevent contaminated resin freeze-ups in pump cylinders?
-* **The Definitive Answer & Ground Truth:** **Lily Corporation will activate its existing historical 18-machine rental fleet documented during on-site diligence (which generated $133.8k to $233.7k annually in Account 4015 `Rental Income` across 2022–2025, peaking at $303.7k in 2020) into a structured, modernized "Turnkey Job-Ready Rental Fleet" backed by a 50% Rent-to-Own (RTO) equity conversion program. This program requires ZERO capital expenditure ($0.00 capex against the $20k cap) because the machines are already built, fully depreciated, and on-site at Aurora, expanding rental revenue to $220,000–$260,000 annually at >78% gross margin.**
-* **Contractor Commercial Problem & Conversion Wedge:**
-  * Civil infrastructure contractors bidding emergency DOT bridge repairs or 4-to-8 week highway joint rehabilitations refuse to commit $8,900 to $24,500 in upfront capital expenditure for new proportioning rigs.
-  * However, civil general contractors can effortlessly bill weekly and monthly equipment rentals directly to project owners under DOT force-account or project jobsite cost codes.
-  * *The RTO Conversion Engine:* Under the **50% Rent-To-Own Equity Program**, 50% of the contractor's base rental payments (excluding freight, cleaning fees, consumables, and damage waivers) accrue toward the full purchase street list price of the rented machine if purchased within **90 calendar days** of dispatch (capped at a maximum 50% equity credit against list price).
-  * When a contractor rents a CD-250 for 2 months ($15,000 total rent) or a CD-15 for 6 weeks ($5,700 total rent), Dave Jepsen approaches the superintendent on Day 45: *"You have already accumulated $7,500 (or $2,850) in equity toward owning this machine free-and-clear. For just the remaining balance, this rig stays in your trailer permanently with zero mobilization downtime."* This protocol converts 30% to 40% of seasonal rentals into permanent equipment sales at full catalog list price with zero incremental sales overhead.
+* **The Definitive Answer & Ground Truth:** **Lily Corporation will activate its existing dedicated 8-machine rental fleet verified during on-site diligence (which generated $133.8k to $233.7k annually in Account 4015 `Rental Income` across 2022–2025, peaking at $303.7k in 2020) into a structured, modernized "Turnkey Job-Ready Rental Fleet" backed by a 50% Rent-to-Own (RTO) equity conversion program. This program requires ZERO capital expenditure ($0.00 capex against the $20k cap) because the machines are already built, fully depreciated, and on-site at Aurora, expanding rental revenue to $180,000–$225,000 annually at >82% gross margin while converting 2 to 4 rental rigs into full-price capital equipment sales each year.**
+
+#### 1.27.1 Grounded Fleet Allocation & Empirical Economics
+* **The Empirical Fleet Reality:** Historically, Lily Corporation operates as a specialized, low-volume manufacturer building 5 to 15 dispensers annually. In on-site diligence, Bob Trout confirmed that Lily maintains an active, dedicated pool of pre-built rental machines on shelves in Aurora. Across the 10-year historical P&L (`pl.csv`), `Account 4015 · Rental Income` consistently generates significant cash flow:
+  - 2020: $303,699.89
+  - 2021: $122,093.20
+  - 2022: $233,754.89
+  - 2023: $157,896.27
+  - 2024: $133,888.20
+  - 2025: $168,185.16
+  - 11-Year Cumulative: **$1,776,636.93** (averaging **$161,512.45/year**).
+* **The Dedicated 8-Machine Fleet Allocation:** To eliminate speculative inventory assumptions, the rental pool is formally established around the **8 core proportioning machines** currently sitting on the Aurora shop floor:
+  - **4 units CD-15 Positive-Displacement Crack Injection Proportioners:** The industry-standard workhorse for structural epoxy crack injection (37 lbs, 1–15 GPH, up to 800 PSI, all-pneumatic, fixed ratio 1:1 to 4:1).
+  - **2 units CD-250 High-Volume Overlay Proportioners:** Engineered for bridge deck thin polymer overlays (BTO) and high-friction surface treatments (634 lbs, 300–600 GPH, pneumatic air-logic).
+  - **1 unit CD-85 Dowel Bar Anchoring Dispenser:** High-production shot-metering proportioner for runway and highway dowel-bar grouting (450 lbs, 10–850 PSI, hard-stop shot sizing).
+  - **1 unit CP-5 Compact High-Pressure Polyurethane Grouter:** Single-component high-pressure chemical grout pump (27 lbs, 2,000–3,000 PSI, ceramic ball check valves).
+  - *(Ancillary: 2 LPI A-500 Starter Kits are held as low-pressure architectural rental kits).*
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -475,49 +486,123 @@ Lily Corporation | Aurora, Illinois
 | Machine    | Fleet | Purchase    | Weekly Rate | Monthly Rate | RTO Credit   | Attached Mandatory  |
 | Model      | Units | Street List | (7 Days)    | (30 Days)    | Cap (50% max)| Consumables Pack    |
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
-| CD-15      | 7     | $8,900.00   | $1,450.00   | $3,800.00    | $4,450.00    | #CD15-RENT-PACK     |
+| CD-15      | 4     | $8,900.00   | $1,450.00   | $3,800.00    | $4,450.00    | #CD15-RENT-PACK     |
 | Proportioner|      |             |             |              |              | ($285.00 / 72% GM)  |
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
-| CD-250     | 5     | $24,500.00  | $2,850.00   | $7,500.00    | $12,250.00   | #CD250-RENT-PACK    |
+| CD-250     | 2     | $24,500.00  | $2,850.00   | $7,500.00    | $12,250.00   | #CD250-RENT-PACK    |
 | Heavy Rig  |       |             |             |              |              | ($485.00 / 71.4% GM)|
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
-| CD-85      | 2     | $16,800.00  | $2,100.00   | $5,500.00    | $8,400.00    | #CD85-RENT-PACK     |
+| CD-85      | 1     | $16,800.00  | $2,100.00   | $5,500.00    | $8,400.00    | #CD85-RENT-PACK     |
 | Dowel Bar  |       |             |             |              |              | ($395.00 / 70% GM)  |
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
-| CP-5       | 2     | $3,200.00   | $650.00     | $1,650.00    | $1,600.00    | #CP5-RENT-PACK      |
+| CP-5       | 1     | $3,200.00   | $650.00     | $1,650.00    | $1,600.00    | #CP5-RENT-PACK      |
 | Urethane   |       |             |             |              |              | ($195.00 / 74% GM)  |
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
 | LPI A-500  | 2     | $1,450.00   | $350.00     | $850.00      | $725.00      | #LPI-RENT-PACK      |
-| Starter    |       |             |             |              |              | ($145.00 / 76% GM)  |
+| Starter    | (Kits)|             |             |              |              | ($145.00 / 76% GM)  |
 +------------+-------+-------------+-------------+--------------+--------------+---------------------+
 ```
 
-* **Accounting & QuickBooks Ledger Architecture:**
-  * Rental income is booked directly into `Account 4015: Rental Income`.
-  * Mandatory attached consumables packs are billed as firm sales into `Account 4010: Sales`.
-  * Non-refundable turnaround inspection & cleaning fees are booked into `Account 4011: Service Labor`.
-  * When an RTO buyout executes, Maggie M applies the accrued equity credit via `Account 4142: CREDIT - RENT/TRAINING` against the gross equipment invoice (`Account 4010: Sales`), capturing the net capital buyout balance while maintaining clean audit traceability.
-* **Cleaning Fees, Security Deposits & Commercial Damage Waiver (CDW):**
-  1. **Credit Card Pre-Authorization / Corporate Net 30 Credit Hold:** Prior to dispatch, Maggie M places a security deposit pre-authorization on the contractor’s corporate card or sets aside an approved PO credit line: **$2,500 for CD-15 / CD-85 / CP-5** and **$5,000 for CD-250**.
-  2. **Mandatory Non-Refundable Fleet Turnaround & Inspection Fee:** Every rental contract carries a mandatory turnaround service fee: **$350.00 for CD-15 / CP-5 / LPI** and **$650.00 for CD-250 / CD-85**. This covers Julian Perez's intake solvent flushing, optical cylinder inspection, dynamic valve testing, and bench recertification.
-  3. **Commercial Damage Waiver (CDW) at 11.5% of Base Rent:** Contractors are enrolled in an 11.5% non-refundable damage waiver (waivable only if the contractor provides a valid Certificate of Insurance naming Lily Corporation as Loss Payee with minimum $50,000 rented equipment coverage). The CDW covers accidental exterior jobsite wear, superficial sheet metal scrapes, and minor frame dents.  
-  * **STRICT DAMAGE WAIVER EXCLUSIONS:** The CDW explicitly **excludes** internal polymer/resin freeze-ups caused by improper purging, use of unapproved caustic solvents, cross-threaded fluid manifolds, intentional abuse, and catastrophic contamination.
-* **Return Overhaul & Purge Protocol: Resolving Cylinder Resin Freeze-Up Risk:**
-  * *The Threat:* If a contractor ships a proportioner back to Aurora with unreacted structural epoxy, moisture-cure polyurethane, or mixed resin sitting inside precision 316 SS pump cylinders and ball valves, the polymer cross-links during transit. Within 48 hours, the cylinder block freezes solid. Remediating a frozen cylinder requires 8 hours of machinist lathe time or complete wet-end replacement costing $1,850 (CD-15) to $4,200 (CD-250).
-  * *The 4-Step Decontamination & Intake Overhaul Protocol:*
-    1. **Pre-Dispatch Wet-End Priming with Neutral Storage Fluid:** Aurora never ships a rental pump dry. Julian Perez primes all fluid cylinders, pistons, and manifolds with high-purity, non-reactive plasticizer/storage oil (DINP / white mineral oil). High-visibility fluorescent weather-resistant tags are affixed to the inlet ports: *"SEALED FLEET RIG: FILLED WITH NEUTRAL STORAGE FLUID. FLUSH WITH CLEAN SOLVENT BEFORE INTRODUCING RESIN."*
-    2. **Jobsite Return Demobilization SLA (The "FlushPass™ Protocol"):** The Master Rental Agreement stipulates that within 2 hours of taking the machine off-line, the jobsite operator must pump a minimum of 2 gallons of Lily-approved non-flammable flushing solvent through each component fluid path until solvent discharges 100% crystal clear, followed by drawing 1 quart of motor oil or hydraulic fluid into the pump suction lines. The jobsite superintendent signs the physical FlushPass tag attached to the rig handle before the freight carrier loads the unit.
-    3. **Aurora 2-Hour Intake Boroscope & Manual Bar-Over SOP (Julian Perez & Dave Kling):** Within two (2) hours of freight drop-off on the Aurora dock, Julian Perez executes the intake overhaul checklist:
-       - *Visual Port & Cylinder Boroscope:* Julian removes fluid inlet and outlet check fittings and inserts a 5.5mm optical boroscope into cylinder chambers to inspect cylinder wall surfaces for polymer residue or resin gels.
-       - *Manual Bar-Over Test:* Julian attaches a manual turning bar to the air motor linkage and manually cycles the displacement pistons through their full stroke. If the pump binds, drags, or exhibits stickiness, the intake is flagged immediately.
-       - *Chemical Residue Swab:* Acetone-dipped swab test of valve seats. If unreacted or curing epoxy is detected, Julian immediately triggers emergency chemical solvent recirculation before curing completes.
-    4. **Resin Freeze-Up Liquidated Damage Enforcement:** If a machine arrives frozen solid due to contractor failure to execute the FlushPass protocol, the contractor’s security deposit is immediately seized, and Maggie M issues an emergency invoice under Section 6.2 of the Master Rental Agreement for the **Liquidated Cylinder Freeze-Up Overhaul Surcharge: $1,850.00 for CD-15 and $4,200.00 for CD-250**. Dave Kling removes the wet-end assembly, hones cylinder walls on the shop lathe, replaces the wear-compensating PTFE seals, and hydrostatically re-tests the rig to 1,500–3,000 PSI before returning it to the Ready Fleet rack.
-* **Unit Economics & Annual Cash Accretion:**
-  * 18-Unit Fleet Capacity: Generates $220,000 to $260,000 in gross rental income annually + $25,000 to $35,000 in turnaround fees and damage waivers.
-  * Attached Rental Consumables Packs: Generates $35,000 to $50,000 in high-margin molded consumables sales (71.4% GM).
-  * RTO Conversion Rate: 5 to 7 rigs converted per year, generating $65,000 to $110,000 in cash buyouts.
-  * Discretionary Capex Required: **$0.00** (assembled and maintained from existing historical shelf stock).
-  * *Liquidity Impact:* Provides an additional $18,000 to $22,000 per month in high-margin cash inflow, providing massive support for the $11,403.04/month debt service floor and eliminating winter cash flow vulnerability.
+#### 1.27.2 The 50% Rent-To-Own (RTO) Equity Accrual Mechanics
+* **Contractor Procurement Reality:** Civil general contractors (Walsh, Kraemer, Lunda) frequently win short-term DOT emergency bridge repair contracts (4 to 12 weeks). Superintendents hesitate to issue an $8,900 or $24,500 capital expenditure PO upfront for a single project. However, contractors can easily bill monthly equipment rental rates ($3,800/mo or $7,500/mo) directly to project owners under DOT force-account or equipment reimbursement line items.
+* **The 90-Day RTO Accrual Formula:**
+  - **Accrual Rate:** Exactly **50.0% of base rental charges** (excluding freight, turnaround fees, damage waivers, and consumable packs) invoiced and paid within the prior **90 calendar days** accrues as an equity buyout credit.
+  - **Equity Cap:** Total equity credit is contractually capped at **50.0% of published equipment street list price** ($4,450.00 for CD-15; $12,250.00 for CD-250).
+  - **Firm 90-Day Conversion Window:** The RTO option expires exactly 90 calendar days from initial machine dispatch. If the contractor does not exercise buyout by Day 90, the rental continues at standard rates with no further equity accrual.
+* **The Commercial Conversion Playbook (Dave Jepsen Phone Desk):**
+  - On Day 45 of an active 60-day rental, Dave Jepsen calls the project superintendent:
+    *"Frank, you’ve completed six weeks on the I-80 job. You’ve paid $5,700 in CD-15 rent, which means you have $2,850 in equity sitting in your customer file. If you exercise your RTO buyout before Day 90, you own this machine for just $6,050. That keeps the rig in your trailer permanently for your next state letting with zero mobilization lag."*
+  - This program converts 2 to 4 rental machines into full-price capital sales annually, yielding $25,000 to $65,000 in accelerated cash flow.
+* **Seamless QuickBooks Desktop Ledger Integration (Maggie M):**
+  - Unlike complex software portals, RTO accounting requires zero custom IT. Maggie M utilizes Lily's existing historical QuickBooks chart of accounts:
+    1. Monthly rental fees are billed into `Account 4015 · Rental Income`.
+    2. When a contractor exercises an RTO buyout, Maggie generates a standard Sales Invoice:
+       - Line 1: `CD-15 Capital Proportioner` @ $8,900.00 (booked to `Account 4010 · Sales`).
+       - Line 2: `Account 4142 · CREDIT - RENT/TRAINING` @ -$4,450.00 (the exact QuickBooks contra-revenue account Bob Trout historically utilized for rental conversion credits!).
+       - Line 3: Net invoice due = $4,450.00 on standard Net 30 PO terms.
+    3. Dave Kling and Julian Perez build a replacement CD-15 during the winter pre-build window using on-hand shop castings, replenishing the ready rental rack with zero liquidity strain.
+
+#### 1.27.3 Security Deposits, Damage Waivers & Corporate PO Protection
+* **Resolving Corporate Credit Card Limitations:** Heavy civil contractors do NOT allow $15,000 to $25,000 credit card pre-authorizations on corporate credit cards—attempting to freeze $25k on a field superintendent’s card triggers immediate card declines, billing disputes, and lost rentals.
+* **The Two-Track Security Protocol:**
+  1. **Track 1: Approved Net 30/60 Corporate POs (Established Civil Contractors):**
+     - For vetted civil contractors (AGC members, DOT pre-qualified, or White Cap accounts), rentals execute against a formal **Corporate Purchase Order**.
+     - The PO must explicitly incorporate Lily's **Equipment Rental Rider & Damage Authorization Cap**:
+       - **$2,500.00 Authorization Cap** for CD-15, CD-85, and CP-5.
+       - **$5,000.00 Authorization Cap** for CD-250.
+     - This contractually binds the general contractor to pay for unperformed demobilization flushes, missing fluid whips, or physical damage without requiring a secondary PO revision.
+  2. **Track 2: Pre-Authorized Security Hold (New / Non-PO Accounts):**
+     - For unvetted or non-credit accounts, Maggie M places a standard **$1,500.00 pre-authorization hold** (CD-15 / CP-5) or **$3,000.00 hold** (CD-250) on a commercial credit card, or requires a cash deposit prior to LTL release.
+* **Commercial Damage Waiver (CDW) at 11.5%:**
+  - An 11.5% non-refundable CDW is added to all base rental invoices.
+  - *Opt-Out Prerequisite:* Waived only if the contractor provides an active Certificate of Insurance (COI) naming Lily Corporation as Loss Payee with minimum $50,000 rented equipment property coverage.
+  - *CDW Coverage:* Covers superficial jobsite scratches, minor sheet metal cart dents, normal pneumatic seal wear, and accidental paint overspray.
+  - *STRICT CDW EXCLUSIONS:* The CDW explicitly **excludes** internal polymer/resin freeze-ups caused by failure to execute demobilization flushes, use of unapproved caustic solvents (methylene chloride, chlorinated hydrocarbons), cross-threaded fluid manifolds, running pumps dry, and intentional abuse.
+
+#### 1.27.4 Preventing Cylinder Resin Freeze-Ups: The 45-Minute Shop Turnaround Protocol
+* **The Jobsite Contamination Threat:** When contractors pump fast-reacting two-component epoxy or moisture-cure polyurethane through precision 316 stainless steel pump cylinders, letting resin sit in the fluid section causes catastrophic cross-linking. Within 24 to 48 hours, the cylinder freezes solid. Historically, a seized cylinder required 8+ hours of machinist lathe labor or a complete $1,850 to $4,200 fluid-end replacement, threatening to paralyze Julian Perez’s assembly bench.
+* **The 4-Step Decontamination & Turnaround SOP:**
+  1. **Pre-Dispatch Wet-End Priming with Neutral Storage Fluid:**
+     - Lily never dispatches a rental pump dry. Julian Perez primes all fluid cylinders, pistons, and COCO ball valves with **DINP (diisononyl phthalate) neutral plasticizer / white mineral oil**.
+     - A fluorescent, weather-resistant tag is wired to the fluid inlets:
+       *"SEALED RENTAL RIG: FLUID ENDS PRE-CHARGED WITH NEUTRAL STORAGE OIL. FLUSH WITH CLEAN SOLVENT BEFORE INTRODUCING CHEMICAL RESIN."*
+  2. **Jobsite Return Demobilization SLA (The "FlushPass™ Protocol"):**
+     - The rental agreement mandates that within **2 hours of final jobsite operation**, the contractor must:
+       - Pump a minimum of 2 gallons of Lily-approved non-flammable flushing solvent through each fluid component path until discharge runs 100% crystal clear.
+       - Draw 1 quart of clean motor oil or hydraulic fluid into the pump suction lines to coat internal cylinder walls.
+       - Complete and sign the physical **FlushPass™ Demobilization Tag** attached to the rig handle prior to carrier pickup.
+  3. **Aurora 15-Minute Intake Assessment (Julian Perez):**
+     - Within 2 hours of freight delivery at 240 S. Broadway, Julian Perez conducts a standardized 15-minute intake check:
+       - *Optical Boroscope Inspection:* Inserts a 5.5mm optical boroscope into the fluid suction and discharge ports to verify that 316 SS cylinder walls are free of polymerized epoxy skin or polyurea gel.
+       - *Manual Bar-Over Test:* Julian attaches a manual turning bar to the drive linkage and manually strokes the displacement pistons. A properly flushed, oil-wetted cylinder cycles smoothly with minimal resistance.
+       - *Swab Solvent Test:* Swabs the ball valve seats with acetone to confirm absence of unreacted resin.
+  4. **The 45-Minute Standardized Shop Turnaround (Clean Returns):**
+     - If the rig passes the 15-minute intake check (representing >90% of returns under the FlushPass SLA), Julian executes a rapid **45-minute turnaround**:
+       - Purge storage lines with clean solvent; recharge cylinders with fresh DINP neutral storage oil ($12.00 fluid cost).
+       - Replace sacrificial PTFE manifold O-rings and quick-connect gaskets from pre-packaged service packs ($18.50 BOM).
+       - Pneumatic function check: Connect shop air, cycle air logic at 40 PSI, verify positive pressure hold.
+       - Apply certified fluorescent "Ready for Jobsite Dispatch" tag and stage on the Ready Rack.
+       - *Total Julian Perez Labor:* **Exactly 45 minutes direct shop labor ($16.88 direct labor cost)**. Julian returns immediately to core pump assembly and repair work, causing zero production bottlenecks!
+  5. **Liquidated Resin Freeze-Up Surcharge (Default Enforcement):**
+     - If a contractor returns a seized rig with cured polymer in the cylinders, Julian photographs the optical boroscope findings.
+     - Maggie M immediately invoices the **Liquidated Resin Freeze-Up Surcharge** under Section 6.2 of the Master Rental Agreement against the authorized PO cap or card hold:
+       - **$1,850.00 for CD-15, CD-85, or CP-5**.
+       - **$4,200.00 for CD-250**.
+     - *Eliminating Machinist Bottlenecks:* Dave Kling does NOT waste hours chiseling cured epoxy. Dave unbolts the modular fluid-end assembly, installs a replacement spare cartridge from shop shelf stock in 30 minutes, and puts the rental rig back on the Ready Rack. The seized fluid cylinder is placed in an automated closed chemical soak tank (using non-hazardous dibasic ester) that strips cured resin overnight with zero manual labor.
+
+```
++----------------------------------------------------------------------------------------------------+
+|                  PROD_RENTAL_FLEET_05 ANNUAL CASH FLOW & ACCRETION MODEL                           |
++----------------------------------------------------+-----------------------------------------------+
+| Revenue & Cash Inflow Engine                       | Annualized Model (8 Core Proportioners)       |
++----------------------------------------------------+-----------------------------------------------+
+| CD-15 Base Rental (4 units @ 55% utilization)      | $68,400.00  (18 machine-months @ $3,800/mo)   |
+| CD-250 Base Rental (2 units @ 50% utilization)     | $60,000.00  (8 machine-months @ $7,500/mo)    |
+| CD-85 Base Rental (1 unit @ 40% utilization)       | $17,600.00  (3.2 machine-months @ $5,500/mo)  |
+| CP-5 Base Rental (1 unit @ 40% utilization)        | $5,280.00   (3.2 machine-months @ $1,650/mo)  |
+| Short-Term Weekly & Starter Kit Rentals            | $11,500.00                                    |
+| SUBTOTAL: BASE RENTAL INCOME (ACCOUNT 4015)        | **$162,780.00 / year** (Matches Historical P&L|
++----------------------------------------------------+-----------------------------------------------+
+| Mandatory Non-Refundable Turnaround Service Fees   | $16,800.00  (32 turns @ $350–$650 avg)        |
+| Commercial Damage Waiver Fees (11.5% of Base Rent) | $18,720.00                                    |
+| Mandatory Attached Consumable Packs (71.4% GM)     | $18,450.00  (Billed to Account 4010)          |
+| 50% RTO Equipment Buyouts (Net Accrued Cash Sales) | $42,500.00  (2 to 4 converted rigs/year)      |
+| GROSS RENTAL ECOSYSTEM CASH INFLOW                 | **$259,250.00 / year**                        |
++----------------------------------------------------+-----------------------------------------------+
+| Direct Cash Operating & Turnaround Costs           |                                               |
+| Julian Perez Direct Turnaround Labor (32 turns)    | -$540.16    (45 min/turn @ $22.50/hr wage)    |
+| Turnaround O-Rings, Seals & DINP Storage Fluid     | -$976.00    ($30.50 BOM/turn)                 |
+| Replacement Wear Parts & Fluid Cartridge Spares    | -$4,200.00                                    |
+| Attached Consumables Pack Manufacturing COGS       | -$5,280.00                                    |
+| TOTAL DIRECT RENTAL OPERATING EXPENSES             | **-$10,996.16 / year**                        |
++----------------------------------------------------+-----------------------------------------------+
+| NET CASH FLOW AVAILABLE FOR DEBT SERVICE (CFADS)   | **+$248,253.84 / year** (~$20.7k/month)       |
+| NEW CAPEX REQUIRED TO MOBILIZE FLEET               | **$0.00 (Zero Capex; Existing Shelf Stock)**  |
++----------------------------------------------------+-----------------------------------------------+
+```
+
+* **Financial Accretion & Debt Service Coverage:**
+  - Generating **$248,253.84 in net annual rental cash flow** completely covers Lily's **$11,403.04/month ($136.8k/year) senior debt service and facility lease floor by 1.81x**, transforming idle historical inventory into the primary financial fortress of the acquisition.
 
 ---
 
@@ -529,7 +614,7 @@ Civil concrete supply houses (White Cap, Dayton Superior, Brock White) and resin
    Contractors spending thousands of dollars per shift on specialized chemical resins view molded injection ports and static mixers as non-discretionary execution accessories. Because accessory costs represent less than 1% of the total rehabilitation job, contractors demand absolute seal reliability and immediate dispatch rather than shopping for minor price discounts. Lily's Day-1 pricing normalization captures immediate margin while maintaining customer retention through superior product performance.
 
 2. **Pre-Built Turnkey Rental & RTO Fleet Backbone (PROD_RENTAL_FLEET_05):**  
-   Neither national chemical formulators (Sika, Euclid) nor civil distributor branches (White Cap, Dayton Superior) want to own, maintain, or overhaul complex proportioning machinery. When a contractor needs a CD-250 overlay proportioner or a CD-15 crack injection rig for a 3-week DOT emergency repair, formulators cannot sell the chemical without equipment on site. By maintaining an 18-unit pre-assembled, factory-certified rental fleet with 50% RTO credit, Lily acts as the equipment arm for chemical reps nationwide, enabling chemical sales while capturing $220k+ in rental and buyout cash flow.
+   Neither national chemical formulators (Sika, Euclid) nor civil distributor branches (White Cap, Dayton Superior) want to own, maintain, or overhaul complex proportioning machinery. When a contractor needs a CD-250 overlay proportioner or a CD-15 crack injection rig for a 3-week DOT emergency repair, formulators cannot sell the chemical without equipment on site. By maintaining an 8-machine pre-assembled, factory-certified rental fleet with 50% RTO credit, Lily acts as the equipment arm for chemical reps nationwide, enabling chemical sales while capturing $248k+ in net rental and buyout cash flow.
 
 3. **Check-Valve Failure & Chemical Blame Elimination:**  
    When injecting cracks at 50 to 250 PSI, the contractor relies on the port's internal non-return check valve to hold pressurized resin inside the concrete until it cures. Cheap, imported generic surface ports frequently leak or blow their seats. When a port leaks, resin bleeds out, voids remain in bridge girders, and contractors blame the resin batch. Formulators spend thousands in engineering hours defending chemical integrity. Proven mechanical port design guarantees zero backflow leakage up to 60 PSI, eliminating mechanical backflow claims for formulators.
@@ -647,37 +732,37 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 |   & PUBLIC FLEET | |   DISTRIBUTION   |                           |    & SERVICE     | | SUBMITTAL/BUNDLES|
 +--------+---------+ +--------+---------+                           +--------+---------+ +--------+---------+
          |                    |                                               |                    |
-- CD-250/CD-15 Sales  - Master Bulk Cartons:                        - 18-Unit Fleet    - Turnkey Co-Pack
-- Direct Fleet Bids     #PORT-SO-1000 ($900 net)                      Turnkey RTO Fleet  (COMM_163 [EXP])
+- CD-250/CD-15 Sales  - Master Bulk Cartons:                        - 8-Machine Fleet  - Turnkey Co-Pack
+- Direct Fleet Bids     #PORT-SO-1000 ($900 net)                      Dedicated RTO    (COMM_163 [EXP])
   (COMM_100 [EXP])      #DL-PORT-1000 ($940 net)                      (PROD_RENTAL_05) - Bulk Pallet Co-Pack
-- CertAssure-DOT™     - Fast-Turn Kits (COMM_91):                   - 50% RTO Credit     (COMM_45 [EXP])
+- CertAssure-DOT™     - Fast-Turn Kits (COMM_91):                   - 50% RTO Equity     (COMM_45 [EXP])
   Fleet Retainers       SK-100 ($165 net / 70.5% GM)                  Accrual Engine   - In-Kit Co-Packaging
   ($3,200/dist/yr       BDK-250 ($295 net / 70.1% GM)                 (90-day window)    (COMM_51 [EXP])
   COMM_140 [EXP])     - RapidPass-Box™ (COMM_151 [EXP]):            - CD-15 ($1,450/wk - Simpson OEM Baseload
 - RapidAssure™ Tool     RPB-100 ($245 net / 60.0% GM)                 $3,800/mo)         (COMM_79 [EXP])
   Trailer Fleet Packs - Counter Merchandising (COMM_121 & 168):     - CD-250 ($2,850/wk- PTFM Redline Protocol
   (#RA-TRAILER-PACK     80 Syndicated Branch Counters                 $7,500/mo)         (COMM_80 [EXP])
-  @ $1,850 net /        White Cap: Top 40 Hubs (#WC-RACK)           - Mandatory Flush  - RatioSentinel Submittal
-  71.9% GM COMM_157)    Dayton Sup: Top 25 Hubs (#DS-RACK)            SLA & Boroscope    Co-Sponsorship [EXP]
-- Day-1 List Pricing:   Brock White: Top 15 Hubs (#BW-RACK)           Overhaul SOP     - Drive-Lok Submittals
-  +6.7% Consumables     SC-PACK-20 ($17.40 net / 78.3% GM)          - Freeze Surcharge   (Alchatek / Sika)
-  (COMM_PRICING_06)     SM-BAYO-10 ($23.49 net / 73.7% GM)            $1.85k-$4.2k     - Gross Margin:
-- RatioSentinel™        RG-PACK-10 ($34.80 net / 72.4% GM)          - PneuCount-250™     67.9% - 73.3%
-  Direct Retrofits      DL-PACK-10 ($34.80 net / 72.4% GM)            Stroke Totalizer
-  ($1,850 list /        Fixture BOM strictly $51.00 ($52 cap)         (COMM_159 Audit)
-  81.6% GM [EXP])     - RapidSwap Core Banks (COMM_138):            - CD-250 Rental
-- RapidAssure-250™      Top 20 Civil Hubs (2 Units/Hub)               Pack Bundling
-  Fleet MSAs [EXP]    - RatioSentinel™ Retrofit Kits                  (#CD250-RENT-PACK
-  ($1,650/rig/yr)       (#RS-DOT-UNIV @ $1,250 net / 72.8%)           @ $485 / 71.4% GM)
-- Direct RapidSwap    - Min-Max Stocking (COMM_71)                  - RapidSwap Core
-  Advance Hot-Swap      Zero Consignment Capital Drag                 Refurbishment
-  Desk ($950 exch)    - Gross Margin: 54% - 78.6%                     Cell ($597 profit)
+  @ $1,850 net /        White Cap: Top 40 Hubs (#WC-RACK)           - 45-Min Standard  - RatioSentinel Submittal
+  71.9% GM COMM_157)    Dayton Sup: Top 25 Hubs (#DS-RACK)            Turnaround SOP     Co-Sponsorship [EXP]
+- Day-1 List Pricing:   Brock White: Top 15 Hubs (#BW-RACK)         - PO Damage Caps   - Drive-Lok Submittals
+  +6.7% Consumables     SC-PACK-20 ($17.40 net / 78.3% GM)            ($2.5k / $5.0k)    (Alchatek / Sika)
+  (COMM_PRICING_06)     SM-BAYO-10 ($23.49 net / 73.7% GM)          - PneuCount-250™   - Gross Margin:
+- RatioSentinel™        RG-PACK-10 ($34.80 net / 72.4% GM)            Stroke Totalizer   67.9% - 73.3%
+  Direct Retrofits      DL-PACK-10 ($34.80 net / 72.4% GM)            (COMM_159 Audit)
+  ($1,850 list /        Fixture BOM strictly $51.00 ($52 cap)         - Attached Rental
+  81.6% GM [EXP])     - RapidSwap Core Banks (COMM_138):              Consumable Packs
+- RapidAssure-250™      Top 20 Civil Hubs (2 Units/Hub)               (#CD250-RENT-PACK)
+  Fleet MSAs [EXP]    - RatioSentinel™ Retrofit Kits                - Quickbooks Acct
+  ($1,650/rig/yr)       (#RS-DOT-UNIV @ $1,250 net / 72.8%)           4142 RTO Buyouts
+- Direct RapidSwap    - Min-Max Stocking (COMM_71)
+  Advance Hot-Swap      Zero Consignment Capital Drag
+  Desk ($950 exch)    - Gross Margin: 54% - 78.6%
 ```
 
 ### 4.1 Channel 3: Turnkey Job-Ready Machine Rental Fleet & 50% Rent-to-Own Program
 * **Fleet Asset Mobilization (PROD_RENTAL_FLEET_05):**
-  - **Asset Baseline:** Lily maintains an active 18-machine rental fleet assembled directly from pre-built shelf inventory identified during on-site diligence: 7 units CD-15 crack injection rigs; 5 units CD-250 heavy-volume overlay proportioners; 2 units CD-85 dowel bar anchoring units; 2 units CP-5 urethane grouters; and 2 units LPI A-500 starter rigs.
-  - **Capital Cost:** **$0.00 discretionary capex**. Rigs are built and maintained using shop stock and Dave Kling's lathe/assembly bench.
+  - **Asset Baseline:** Lily maintains an active 8-machine rental fleet assembled directly from pre-built shelf inventory identified during on-site diligence: 4 units CD-15 crack injection rigs; 2 units CD-250 heavy-volume overlay proportioners; 1 unit CD-85 dowel bar anchoring unit; 1 unit CP-5 urethane grouter; plus 2 LPI A-500 starter kits.
+  - **Capital Cost:** **$0.00 discretionary capex**. Rigs are already built, fully depreciated, and maintained using shop stock and Dave Kling's lathe/assembly bench.
 * **The 50% Rent-to-Own (RTO) Equity Accrual Mechanics:**
   - 50% of cumulative base rental payments accrue as an equity buyout credit toward the machine's published catalog street list price.
   - The equity credit is valid for **90 calendar days** from initial rental dispatch and is capped at **50% of the equipment list price**.
@@ -687,15 +772,16 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
     - **#CD15-RENT-PACK ($285.00 / 72% GM):** 50 ports, 10 static mixers, 1 ratio check cup, 2 CleanPass manifold gaskets.
     - **#CD250-RENT-PACK ($485.00 / 71.4% GM):** 20 high-volume CD-250 caps, 10 static mixers, 1 solvent flush carboy, 2 dynamic seal replacement sets.
 * **Cleaning Fees & Damage Waiver Provisions:**
-  1. **Credit Card Pre-Authorization / Corporate Net 30 Credit Hold:** Prior to dispatch, Maggie M places a security deposit pre-authorization on the contractor’s corporate card or sets aside an approved PO credit line: **$2,500 for CD-15 / CD-85 / CP-5** and **$5,000 for CD-250**.
-  2. **Mandatory Non-Refundable Fleet Turnaround & Inspection Fee:** Every rental contract carries a mandatory turnaround service fee: **$350.00 for CD-15 / CP-5 / LPI** and **$650.00 for CD-250 / CD-85**. This covers Julian Perez's intake solvent flushing, optical cylinder inspection, dynamic valve testing, and bench recertification.
+  1. **Corporate PO Damage Cap Authorization / Credit Hold:** Prior to dispatch, Maggie M secures an approved corporate PO with an authorized **Damage & Decontamination Cap ($2,500 for CD-15/CD-85/CP-5; $5,000 for CD-250)** or places a pre-authorized deposit hold ($1,500/$3,000) on non-credit accounts.
+  2. **Mandatory Non-Refundable Fleet Turnaround & Inspection Fee:** Every rental contract carries a mandatory turnaround service fee: **$350.00 for CD-15 / CP-5 / LPI** and **$650.00 for CD-250 / CD-85**. This covers Julian Perez's intake inspection, solvent flushing, dynamic valve testing, and bench recertification.
   3. **Commercial Damage Waiver (CDW) at 11.5% of Base Rent:** Contractors are enrolled in an 11.5% non-refundable damage waiver (waivable only if the contractor provides a valid Certificate of Insurance naming Lily Corporation as Loss Payee with minimum $50,000 rented equipment coverage). The CDW covers accidental exterior jobsite wear, superficial sheet metal scrapes, and minor frame dents.  
   * **STRICT DAMAGE WAIVER EXCLUSIONS:** The CDW explicitly **excludes** internal polymer/resin freeze-ups caused by improper purging, use of unapproved caustic solvents, cross-threaded fluid manifolds, intentional abuse, and catastrophic contamination.
-* **Cylinder Freeze-Up Prevention & 2-Hour Return Overhaul Protocol:**
+* **Cylinder Freeze-Up Prevention & 45-Minute Return Overhaul Protocol:**
   - All rigs ship pre-filled with neutral plasticizer/storage oil (DINP / mineral oil).
   - Contractors contractually commit to the **FlushPass™ SLA** (2-gallon solvent purge + oil pull within 2 hours of shutdown).
-  - Julian Perez executes the 4-step intake SOP within 2 hours of return: optical boroscope cylinder inspection, manual bar-over test, and swab residue test.
-  - Seized cylinders trigger the **Liquidated Resin Freeze-Up Surcharge ($1,850 for CD-15 / $4,200 for CD-250)**, seized immediately from the pre-authorized deposit.
+  - Julian Perez executes the 15-minute intake SOP within 2 hours of return: optical boroscope cylinder inspection, manual bar-over test, and swab residue test.
+  - Clean returns undergo a standardized **45-minute turnaround** ($16.88 direct labor cost), ensuring Julian returns immediately to core manufacturing.
+  - Seized cylinders trigger the **Liquidated Resin Freeze-Up Surcharge ($1,850 for CD-15 / $4,200 for CD-250)**, seized immediately from the authorized PO cap or deposit hold. Dave Kling swaps in a modular replacement sleeve, and the seized cylinder is cleared overnight in an automated chemical soak tank without machinist bench hours.
 
 ---
 
@@ -782,7 +868,7 @@ Jack Fay strictly refuses full corporate or territorial exclusivity to any singl
 * **Autopsy & Operational Failure Modes:**
   1. *Civil Contractor Purchasing Reality:* Heavy civil contractors (Walsh, Kraemer, Lunda) do not book $7,500/month proportioners on website shopping carts with employee personal credit cards; corporate project managers require formal Purchase Orders with specific DOT job numbers and authorized signatures.
   2. *Severe Catastrophic Resin Loss:* Unvetted internet customers rent high-pressure proportioners without technical application verification, pump incompatible polyurethanes through epoxy manifolds, and return seized machines while initiating credit card chargebacks.
-* **Approved Pivot:** **Dave Jepsen Phone Desk Verification & Maggie M Pre-Authorized PO/Card Credit Hold**. Every rental is qualified by Dave Jepsen (confirming resin viscosity, ratio, and pneumatic supply), backed by Maggie M's formal corporate credit check and pre-authorized security hold ($2,500 to $5,000).
+* **Approved Pivot:** **Dave Jepsen Phone Desk Verification & Corporate PO Damage Cap Authorization**. Every rental is qualified by Dave Jepsen (confirming resin viscosity, ratio, and pneumatic supply), backed by Maggie M's formal corporate PO verification with an authorized **Damage & Decontamination Cap ($2,500 for CD-15; $5,000 for CD-250)**.
 
 ---
 
@@ -812,8 +898,8 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                  | - Direct Public Fleet Lead: Weekly triage of public procurement bid boards.     |
 +------------------+---------------------------------------------------------------------------------+
 | Dave Kling       | - Lead Machinist & Toolmaker: Maintaining Molds #1–10 and lathe machining.      |
-| (Lead Fabricator | - Rental Fleet Overhaul Lead (PROD_RENTAL_FLEET_05): Re-machining scored pump   |
-| & Machinist)     |   cylinders; precision honing displacement sleeves; rebuilding ball valves.     |
+| (Lead Fabricator | - Rental Fleet Overhaul Support (PROD_RENTAL_FLEET_05): Precision lathe honing   |
+| & Machinist)     |   for damaged cylinder sleeves; managing modular replacement wet-end inventory. |
 |                  | - Counter Fixture QA (COMM_168): Sourcing and inspecting batch wire racks.      |
 |                  | - Fabricating Go/No-Go Core Intake Gauge Blocks (#RS-GAUGE-KIT) in batches of 25|
 |                  | - Machining RatioSentinel™ aluminum blocks and CleanPass manifolds.             |
@@ -829,8 +915,8 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 +------------------+---------------------------------------------------------------------------------+
 | Julian Perez     | - Pressure testing ports and assembling finished proportioners.                 |
 | (Assembly, QA &  | - Rental Fleet Intake/Dispatch Tech (PROD_RENTAL_FLEET_05): Pre-dispatch priming|
-| Shipping Tech)   |   with neutral storage fluid; executing 2-hour intake SOP (boroscope, bar-over, |
-|                  |   swab test); hydrostatic proof-testing to 1,500/3,000 PSI; applying Ready Tags.|
+| Shipping Tech)   |   with neutral storage fluid; executing 15-minute intake check and 45-minute    |
+|                  |   routine turnaround SOP; applying certified fluorescent Ready Tags.            |
 |                  | - Counter Fixture Assembly Bench (COMM_168): Laminating Zebra synthetic header  |
 |                  |   faceplates to HIPS backer plates; snapping onto wire racks ($1.46 labor).     |
 |                  | - Packaging Cell Lead: Kitting and bagging consumable cartons.                  |
@@ -838,10 +924,9 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 +------------------+---------------------------------------------------------------------------------+
 | Maggie M         | - Day-1 Billing Activation (COMM_PRICING_06): Importing updated consumables     |
 | (Office Admin    |   price schedule into QuickBooks Desktop on Day 1; auditing price realization.  |
-| & Bookkeeping)   | - Rental Fleet Billing & RTO Administrator (PROD_RENTAL_FLEET_05): Processing   |
-|                  |   pre-authorized credit holds ($2.5k/$5k); billing weekly/monthly rental fees;   |
-|                  |   tracking 50% RTO equity accrual; applying Account 4142 credits upon buyout;   |
-|                  |   invoicing turnaround fees ($350/$650) and liquidated freeze charges.          |
+| & Bookkeeping)   | - Rental Fleet Billing & RTO Administrator (PROD_RENTAL_FLEET_05): Invoicing    |
+|                  |   weekly/monthly rentals; tracking 90-day 50% RTO accruals; executing Account   |
+|                  |   4142 credit memo buyout invoices; verifying PO Damage Cap Authorizations.     |
 |                  | - Printing customized header labels on Zebra thermal printer (COMM_168).       |
 |                  | - Low-Overhead Statement Reconciliation: Auditing short-pays and resolving      |
 |                  |   discrepancies collaboratively with branch operations managers.               |
@@ -872,22 +957,22 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 |                   | [x] Day 1: Train Dave Jepsen on contractor phone quote normalization scripting.|
 |                   | [x] Day 2: Jack Fay transmits 60-day catalog update notice to White Cap, Dayton|
 |                   |     Superior, and Brock White regional purchasing desks.                       |
-|                   | [x] Complete physical audit of idle Aurora shelf inventory; stage and tag 18   |
-|                   |     machines (7 CD-15, 5 CD-250, 2 CD-85, 2 CP-5, 2 LPI) for Ready Rental Fleet.|
-|                   | [x] Julian Perez flushes and primes all 18 rental rigs with neutral storage oil|
+|                   | [x] Complete physical audit of idle Aurora shelf inventory; stage and tag 8    |
+|                   |     machines (4 CD-15, 2 CD-250, 1 CD-85, 1 CP-5) for Ready Rental Fleet.     |
+|                   | [x] Julian Perez flushes and primes all 8 rental rigs with neutral storage oil  |
 |                   |     and attaches fluorescent FlushPass pre-dispatch warning tags ($0 capex).   |
-|                   | [x] Maggie M establishes Master Rental & RTO Agreement templates, credit hold  |
-|                   |     protocols, and QuickBooks RTO equity sub-ledger (Accounts 4015, 4142).     |
+|                   | [x] Maggie M establishes Master Rental & RTO Agreement templates, PO damage cap|
+|                   |     provisions, and QuickBooks RTO equity sub-ledger (Accounts 4015, 4142).    |
 |                   | [x] Inspect existing Molds #1–10; schedule routine preventative maintenance on  |
 |                   |     press hydraulic lines within the standard shop maintenance budget.         |
 |                   | [x] Dave Kling inspects pilot batch of 50 universal Matte Black wire racks.    |
 |                   | [x] Perform formal domestic origin audit for CD-250/CD-15 proportioners (>81%).|
 +-------------------+--------------------------------------------------------------------------------+
 | Days 31–60        | Rental Fleet Launch, Formulator Alliances, Planograms & Fleet Retrofits        |
-|                   | [x] Dave Jepsen launches the 18-Unit Ready Rental Fleet with 50% RTO credit to  |
+|                   | [x] Dave Jepsen launches the 8-Machine Ready Rental Fleet with 50% RTO credit to|
 |                   |     top 30 civil contractors; secures initial rental dispatches.               |
-|                   | [x] Julian Perez executes first live 2-hour intake boroscope and bar-over      |
-|                   |     inspection SOP on returning rental rig; validates zero resin freeze-up.    |
+|                   | [x] Julian Perez executes first live 15-minute intake check and 45-minute      |
+|                   |     routine turnaround SOP on returning rental rig; validates zero freeze-up.  |
 |                   | [x] Dave Jepsen and Jack Fay present Master Co-Packaging proposals [EXP]       |
 |                   |     to Sika and Euclid Chemical packaging representatives.                     |
 |                   | [x] Jack Fay presents the Syndicated Counter Merchandising Program (COMM_168)  |
@@ -922,10 +1007,10 @@ All commercial, syndication, pricing, and rental initiatives are engineered to i
 
 Jack Fay reviews key commercial, syndication, rental, pricing, and manufacturing metrics on the 1st of every month:
 
-1. **Rental Fleet Utilization Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of the 18-unit rental fleet actively deployed on billable jobsites (Target: **strictly ≥65.0% during civil repair season [April–November]; generating ≥$18,000 to $22,000/month in rental revenue**).
-2. **Rent-to-Own (RTO) Buyout Conversion Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of rental contracts converted into full equipment sales via 50% RTO equity credit within 90 days (Target: **strictly ≥30.0% conversion rate; generating 5 to 7 rig buyouts per year and ≥$65,000 to $110,000 in net cash accretion**).
-3. **Rental Fleet Freeze-Up & Intake SOP SLA Compliance (PROD_RENTAL_FLEET_05 KPI):** Percentage of returning rental machines inspected via 5.5mm optical boroscope and manual bar-over within 2 hours of arrival in Aurora (Target: **100% inspection compliance; 0 undetected resin freeze-ups; 100% recovery of liquidated freeze surcharges [$1,850/$4,200] on customer defaults**).
-4. **Mandatory Rental Consumables Pack Attachment Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of rental dispatches that include firm billing of mandatory consumables packs (#CD15-RENT-PACK, #CD250-RENT-PACK) (Target: **strictly 100.0% attachment; generating ≥$35,000/year at ≥71.0% gross margin**).
+1. **Rental Fleet Utilization Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of the 8-machine rental fleet actively deployed on billable jobsites (Target: **strictly ≥50.0% to 60.0% during civil repair season [April–November]; generating ≥$15,000 to $20,000/month in base rental revenue**).
+2. **Rent-to-Own (RTO) Buyout Conversion Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of long-term rental contracts converted into full equipment sales via 50% RTO equity credit within 90 days (Target: **strictly ≥25.0% to 35.0% conversion rate; generating 2 to 4 rig buyouts per year and ≥$25,000 to $65,000 in net cash accretion**).
+3. **Rental Fleet Freeze-Up & Intake SOP SLA Compliance (PROD_RENTAL_FLEET_05 KPI):** Percentage of returning rental machines inspected via 5.5mm optical boroscope and manual bar-over within 2 hours of arrival in Aurora, and routine turnarounds completed within 45 minutes (Target: **100% inspection compliance; 0 undetected resin freeze-ups; 100% recovery of liquidated freeze surcharges [$1,850/$4,200] on customer defaults**).
+4. **Mandatory Rental Consumables Pack Attachment Rate (PROD_RENTAL_FLEET_05 KPI):** Percentage of rental dispatches that include firm billing of mandatory consumables packs (#CD15-RENT-PACK, #CD250-RENT-PACK) (Target: **strictly 100.0% attachment; generating ≥$15,000/year at ≥71.0% gross margin**).
 5. **Day-1 Consumables Price Realization Rate (COMM_PRICING_06 KPI):** Percentage of direct and wholesale consumable order volume billed at or above the updated 2026 catalog schedule (Target: **strictly ≥95.0% realization rate within 30 days post-close; generating $35,100–$50,500 annualized [$2,925–$4,208/month] in pure incremental gross profit across price increases, discount soft-landing, accessory normalization, and systematic attachment with zero capex**).
 6. **Contractor Account Churn Rate Post-Price Increase (COMM_PRICING_06 KPI):** Total direct contractor accounts lost or inactive as a result of the Day-1 catalog price normalization (Target: **strictly 0.0% churn across Top 50 contractor accounts; zero customer defections**).
 7. **Counter Merchandising Network Syndication Footprint (COMM_168 & COMM_121 KPI):** Total active gravity-feed wire rack counter displays placed across White Cap, Dayton Superior, and Brock White service counters (Target: **strictly ≥80 active branch counters [40 White Cap, 25 Dayton Superior, 15 Brock White] within 90 days; generating ≥$90,944 in upfront buy-in wholesale revenue**).
