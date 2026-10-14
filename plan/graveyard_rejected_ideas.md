@@ -2431,3 +2431,53 @@
 ### Concept: RapidAssure-250 Dual Seasonal Overhaul Shop Congestion (COMM_73)
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #251 Audit)
 * **Autopsy:** Offering dual seasonal wet-end overhauls per machine per year concentrates rebuild shipments during tight seasonal windows (pre-spring mobilization and late-fall winterization). Julian Perez is the sole assembly and rebuild technician; clustering dozens of wet-end ultrasonic teardowns and 3,000-PSI hydrostatic recertifications during peak construction months creates severe operational bottlenecks against new CD-15/CD-250 machine builds.
+
+
+### Concept: Unsubstantiated White Cap / Sika National Distribution Placement
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Treating national distributor adoption across White Cap, Sika, and Euclid as an immediate zero-capex cash cow is an ungrounded commercial fantasy. Tier-1 commercial construction distributors require corporate vendor onboarding, vendor-managed inventory (VMI), 10–15% distributor rebates/slotting fees, EDI compliance software, and Net 60–90 payment terms that would instantly drain Lily's $50,000 cash reserve. This channel expansion must be classified as an [EXPLORATORY HYPOTHESIS] rather than treated as guaranteed base-case EBITDA.
+
+
+### Concept: Shop Floor Labor Bottleneck for High-Volume Packaging
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Molding, counting, bagging, boxing, and palletizing 300,000 ports into 250-pack and 1,000-pack master cartons (300 to 1,200 cartons) demands dozens of manual labor hours per run. Expecting Julian Perez to manually package and palletize bulk consumables while simultaneously managing CD-15 builds, hose crimping, calibration testing, and LTL logistics—while Greg runs all press maintenance, mold changes, and hydrostatic testing alone—creates an immediate operational failure.
+
+
+### Concept: Working Capital Over-Allocation for Speculative Consumable Inventory
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** Batch-molding 300,000 ports requires purchasing 10,000 to 14,000 lbs of injection-grade copolymer resin plus heavy-duty master cartons and poly-liners, requiring an upfront cash outlay of $15,000 to $22,000. With liquid working capital strictly capped at $50,000 and a mandatory $11,403.04/month debt service floor, sinking over 30% of available cash into speculative inventory prior to firm purchase orders threatens company solvency.
+
+
+### Concept: Unverified Pricing Power Against Commodity Import Ports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #252 Audit)
+* **Autopsy:** The model assumes White Cap and regional formulators will willingly purchase bulk ports at $0.348 to $0.396 wholesale to generate >81% gross margins for Lily. Standard crack-injection surface ports are largely commoditized, with imported Chinese and domestic contract-molded ports readily available at $0.15 to $0.25 wholesale. Assuming premium pricing without proprietary locking geometry or an exclusive spec mandate is economically ungrounded.
+
+
+### Concept: Unqualified National Distribution Placement (White Cap, Sika, Euclid)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** National stocking distributor placement is asserted as a zero-capex fait accompli based solely on offering a 40% gross margin discount. In reality, large construction distributors like White Cap impose extensive onboarding hurdles, including mandatory EDI compliance, vendor rebate programs (typically 5–10%), payment terms often stretching to Net 60/90, return/stock-rotation privileges, and multi-million dollar product liability umbrellas. Neither Lily nor the draft has secured vendor agreements or branch commitments; treating this as immediate baseline cash flow without labeling it an [EXPLORATORY HYPOTHESIS] violates empirical diligence.
+
+
+### Concept: Unverified Molding Capacity & Labor Bottlenecks for 300,000 Units
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** Molding and packaging 300,000 bare ports, caps, and tees relies on Greg (sole press operator) and Julian Perez (sole packager/assembler). The plan fails to provide mold cavitation, cycle time, or scrap rate data for Mold #1, #2, and #4. If Mold #1 is a low-cavity tool (e.g., 2 or 4 cavities with a 30-second cycle), running 300,000 parts requires 600 to 1,250 press operating hours—consuming 30% to 60% of Greg's total annual working hours while he is also responsible for machine setup, maintenance, and hydro testing. Julian is simultaneously expected to hand-bag, box, palletize, and ship these units while building pumps and assembling fluid whips.
+
+
+### Concept: Wholesale Price Immunity Against Landed Asian Commodity Imports
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #253 Audit)
+* **Autopsy:** The model assumes commercial distributors will readily purchase Lily surface ports at $0.348 to $0.396 per unit (and contractors at $0.58 to $0.66) to deliver 81%+ gross margins. In reality, sacrificial plastic crack-injection surface ports are low-tech commodity polyolefin parts facing heavy competition from generic domestic and Asian imports that retail below $0.20–$0.30 direct. Without empirical verification of competitor pricing or proven lock-in that forces contractors to buy Lily-branded ports for third-party dispensers, wholesale volume and realization assumptions are speculative.
+
+
+### Concept: Unsubstantiated Import Failure & DOT Liquidated Damages Narrative
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** The plan justifies a 100%+ price premium over Asian imports ($0.396 wholesale vs. $0.15–$0.25) by claiming generic ports delaminate at 200–800 PSI and trigger $1,500/hr DOT lane closure damages. No comparative burst data, empirical tensile testing, or DOT incident records are cited. Commercial distributors like White Cap will not stock higher-priced commodity ports based on unverified anecdotal claims without formal state DOT product list approvals.
+
+
+### Concept: Labor Bandwidth Overcommitment for Greg & Julian at 300,000 Units
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** Producing 300,000 units on Mold #1 (8 cavities) requires 37,500 molding cycles. At an average 30-second cycle time, this demands over 310 hours of press run-time, mold setup, barrel purging, and material handling—all loaded onto Greg, who is also the sole hydrostatic/burst test technician. Julian Perez is then expected to manually weigh-count, bag, box, and palletize 300 to 1,200 master cartons alongside CD-15 builds, hose crimping, and LTL shipping. This exceeds the shop floor's physical throughput capacity.
+
+
+### Concept: Unrealistic Distributor Gross Margins Under Working Capital Constraints
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #254 Audit)
+* **Autopsy:** Projecting 81.6% to 82.6% wholesale gross margins when selling to tier-1 commercial distributors (White Cap, Sika, Euclid) ignores standard distribution friction: 5%–8% annual corporate rebates, 2% prompt-pay terms, inventory buy-backs, and 60- to 90-day receivable collection lags. Financing polymer resin inventory and packaging boxes for 300,000 units upfront while waiting 60+ days for distributor payment will dangerously deplete Lily's $50,000 liquid working capital cushion and imperil the $11,403.04/month debt service floor.

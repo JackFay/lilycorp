@@ -160,10 +160,10 @@ Under this turnaround architecture, Lily aggressively mobilizes its existing fle
 
 ### Margin Realities by Product Line
 1. **Molded Consumables & Universal Bulk Packaging (Accounts 4010 / 5120):**
-   * *Gross Margin:* 72% to 89% direct contractor; 78% to 83% commercial distributor wholesale.
-   * *Dynamics:* Zero moving parts. Molded 100% on-site at 240 S. Broadway in Aurora by Greg on the Cincinnati Milacron press. Zero external toll-molding markups. Packed into 250-pack and 1,000-pack heavy-duty master cartons by Julian Perez. Sold via Net 30/60 purchase orders, Dave Jepsen's phone desk, and commercial stocking distributors (White Cap, Sika, Euclid).
+   * *Gross Margin:* 88% to 90% direct contractor; 79% to 83% commercial distributor wholesale.
+   * *Dynamics:* Zero moving parts. Molded 100% on-site at 240 S. Broadway in Aurora by Greg on the Cincinnati Milacron press. Zero external toll-molding markups. Packed into 250-pack and 1,000-pack heavy-duty master cartons at Workcell Station #4 by Julian Perez using calibrated benchtop counting scales. Sold via Net 30/60 purchase orders, Dave Jepsen's phone desk, and commercial stocking distributors (White Cap, Sika, Euclid).
    * *Consumable Expansion Anchor:*
-     * **PROD_UNIVERSAL_PORTS_02 (Universal Surface Ports & Master Cartons):** Unlocks immediate national distribution placement by packaging Lily's Mold #1 standard surface ports, Mold #2 corner ports, and Mold #4 caps into standardized 250-pack (`LPP-250`) and 1,000-pack (`LPP-1000`) master cartons. Compatible with Graco, ChemCo, ChemGrout, and SealBoss dispensers. Generates **81.6% to 82.6% gross margin at wholesale** ($0.348–$0.396/port) against an in-house landed Aurora COGS of **$0.064–$0.069 per port**. Zero tooling capex required.
+     * **PROD_UNIVERSAL_PORTS_02 (Universal Surface Ports & Master Cartons):** Unlocks immediate high-margin revenue by packaging Lily's Mold #1 standard surface ports, Mold #2 corner ports, and Mold #4 caps into standardized 250-pack (`LPP-250`) and 1,000-pack (`LPP-1000`) master cartons. Compatible with Graco, ChemCo, ChemGrout, and SealBoss dispensers. Generates **81.6% to 82.6% gross margin at wholesale** ($0.348–$0.396/port) against an in-house landed Aurora COGS of **$0.064–$0.069 per port**. Zero tooling capex required.
 2. **Proprietary Proportioners (CD-250, CD-150, CD-15):**
    * *Gross Margin (Unit Sales):* 48% to 54% baseline (expanding to 72%–77% on specialized modular packages).
    * *Dynamics:* Pneumatic air-logic driven, positive piston displacement, explosion-proof. Assembled, machined, and hydrostatically tested in Aurora by Dave Kling and Julian Perez.
@@ -329,15 +329,18 @@ Under this turnaround architecture, Lily aggressively mobilizes its existing fle
 * **Item ID:** `PROD_UNIVERSAL_PORTS_02`
 * **Core Frontier Question:** *How can Lily's 10 injection molds be optimized to produce high-margin universal surface ports compatible with competitor dispensers (Graco, ChemCo, ChemGrout), sold in 250 and 1,000 bulk master cartons to commercial distributors (White Cap, Sika, Euclid)? What are tooling wear rates and per-unit molding costs at outside molders (e.g. Elgin) versus in-house molding? What wholesale discount structure is required for commercial distribution placement?*
 * **Resolution & Operational Verdict:**
-  1. **Immediate Zero-Capex Commercialization:** Lily Corporation mobilizes its 100% free-and-clear owned tooling—specifically **Mold #1 (Standard Surface Mount Port - LPP)**, **Mold #2 (Corner Port)**, and **Mold #4 (Retaining Cap - LPC)**—to launch standardized **250-pack (`LPP-250`)** and **1,000-pack (`LPP-1000`) Bulk Master Cartons**.
-  2. **In-House Press Manufacturing Supremacy:** Molding in-house on Greg’s Cincinnati Milacron press in Aurora delivers a landed bare part COGS of **$0.055 per port**, compared to **$0.155 to $0.185 per port** at outside Chicago-area molders (Component Plastics in Elgin / Wise Plastics in St. Charles). In-house production saves **$27,000 to $33,000 in direct cash COGS annually** on 300,000 units while eliminating outside setup fees, inventory minimums, and freight markups.
-  3. **Universal Competitor Compatibility:** Civil applicators routinely run Lily ports on Graco, ChemCo Systems, and ChemGrout pumping rigs because of Lily’s wide 2.25" perforated bonding flange, low-profile entry geometry, and superior non-blowout mechanical hold at 200–800 PSI. Lily’s standard 0.375" barbed stem and LPT Snappy-Tee coupler interface natively with standard 1/4" ID pressure tubing and commercial grease-coupler delivery wands without proprietary lockouts.
-  4. **High-Margin Wholesale Pricing Waterfall:** To secure national stocking status at White Cap branches and private-label inclusion with chemical manufacturers (Sika, Euclid), Lily establishes a structured two-tier wholesale discount model:
+  1. **Immediate Zero-Capex Commercialization:** Lily Corporation mobilizes its 100% free-and-clear owned tooling—specifically **Mold #1 (Standard Surface Mount Port - LPP, 8-cavity)**, **Mold #2 (Corner Port, 4-cavity)**, and **Mold #4 (Friction Retaining Cap - LPC, 12-cavity)**—to launch standardized **250-pack (`LPP-250`)** and **1,000-pack (`LPP-1000`) Bulk Master Cartons**.
+  2. **In-House Press Manufacturing Supremacy:** Molding in-house on Greg’s Cincinnati Milacron press in Aurora delivers a landed bare part COGS of **$0.055 per port**, compared to **$0.155 to $0.185 per port** at outside Chicago-area molders (Component Plastics in Elgin / Wise Plastics in St. Charles). In-house production saves **$37,860 in direct cash COGS annually** on a 300,000-unit baseline while eliminating outside setup fees, high MOQs, and inbound freight markups.
+  3. **Universal Competitor Compatibility & Anti-Blowout Moat:** Civil applicators routinely run Lily ports on Graco, ChemCo Systems, ChemGrout, and SealBoss pumping rigs because of Lily’s wide 2.25" perforated bonding flange, low-profile entry geometry, and superior non-blowout mechanical hold at 200–800 PSI. While generic import ports retail cheaply ($0.15–$0.25 landed), their narrow, unperforated bases frequently delaminate under pressure, risking $1,500/hr DOT lane closure liquidated damages. Lily’s standard 0.375" barbed stem and LPT Snappy-Tee coupler interface natively with standard 1/4" ID pressure tubing and commercial grease-coupler delivery wands without proprietary lockouts.
+  4. **Disciplined Two-Track Commercial Strategy:**
+     * **Track 1 (Grounded Core Revenue):** Direct sales to existing civil contractors via Dave Jepsen’s inbound phone desk and regional Midwest distributor branch pull-through (White Cap Aurora, Des Plaines, Indianapolis; local Sika and Euclid warehouses). Billed on standard Net 30/60 purchase orders.
+     * **Track 2 `[EXPLORATORY HYPOTHESIS]`:** Corporate-level master agreement placement across national distributor networks (White Cap corporate Atlanta, Sika corporate Lyndhurst). Modeled with full operational friction: standard 5%–8% corporate rebate holdbacks, 2% prompt-pay cash discounts, EDI order transmission, and 60-day working capital collection lags.
+  5. **High-Margin Wholesale Pricing Waterfall:**
      * **Contractor List / Direct Price:** $0.66/port ($165.00 / 250-pk) | $0.58/port ($580.00 / 1,000-pk).
      * **Distributor Wholesale (40% discount):** **$0.396/port ($99.00 / 250-pk)** | **$0.348/port ($348.00 / 1,000-pk)**.
      * **Master Pallet Tier (45% discount - 36 master cartons / 36,000 ports):** **$0.319/port ($319.00 / 1,000-pk)**.
      * **Lily Landed Aurora COGS:** **$0.0688 per port in 250-pack** ($17.21/carton) | **$0.0640 per port in 1,000-pack** ($64.04/carton).
-     * **Realized Gross Margin:** Lily captures **81.6% to 82.6% Gross Margin at distributor wholesale**, and **88.9% to 89.6% Gross Margin on direct contractor desk orders**. Distributor partners capture **31.7% to 45.0% counter margins**, driving aggressive branch stocking.
+     * **Realized Gross Margin:** Lily captures **81.6% to 82.6% Gross Margin at distributor wholesale**, and **88.9% to 89.6% Gross Margin on direct contractor desk orders**. Distributor partners capture **31.7% to 40.0% counter margins**, driving active branch stocking.
 
 ```
 +---------------------------------------------------------------------------------------------------------+
@@ -345,18 +348,20 @@ Under this turnaround architecture, Lily aggressively mobilizes its existing fle
 +---------------------------------------------------------------------------------------------------------+
 
   STAGE 1: IN-HOUSE PRECISION MOLDING (GREG / CINCINNATI MILACRON PRESS - AURORA)
-  • Resin: High-Density Polyethylene (HDPE 6706) dried in-house; Mold #1 (8-cavity) running at 19.5s cycle.
-  • Output: 1,472 ports/hour | Bare Part COGS: $0.055 ($0.031 resin + $0.022 labor + $0.002 machine power).
+  • Resin: Prime Injection Grade HDPE (ExxonMobil HD 6706) dried in-house; Mold #1 (8-cavity) @ 19.5s cycle.
+  • Output: 1,476 ports/hour | Bare Part COGS: $0.0549 ($0.0310 resin + $0.0217 labor + $0.0022 machine power).
+  • Batch Discipline: Small runs (20k-40k units) drawing from existing on-hand resin stock; zero speculative cash drain.
                                       │
                                       ▼
   STAGE 2: BENCHTOP PACKAGING CELL (JULIAN PEREZ - WORKCELL STATION #4)
+  • Batch Scale Weighing: Calibrated bench scale tares 250 ports in 30 sec; zero individual hand-counting.
   • 250-Pack: 250 ports in 4-mil polybag with tear-notch; packed in 200# test corrugated carton ($17.21 COGS).
   • 1,000-Pack: 4 x 250 polybags packed in 275# double-wall master carton ($64.04 COGS).
-  • Exterior: Barcoded GS1/UPC label, White Cap SKU, quick jobsite instruction card, Dave Jepsen reorder QR.
+  • Exterior: Barcoded GS1/UPC label, White Cap SKU format, jobsite instruction card, Dave Jepsen reorder QR.
                                       │
                                       ▼
   STAGE 3: DUAL-CHANNEL COMMERCIAL DISTRIBUTION (MAGGIE / DAVE J)
-  • Channel A: Commercial Distributors (White Cap, Sika, Euclid) via Net 30/60 corporate POs.
+  • Channel A: Regional Distributors (White Cap, Sika, Euclid) via Net 30/60 corporate POs.
     - 250-Pack Wholesale: $99.00 ($0.396/port) -> Lily Gross Profit: $81.79 (82.6% GM).
     - 1,000-Pack Wholesale: $348.00 ($0.348/port) -> Lily Gross Profit: $283.96 (81.6% GM).
     - Pallet Tier (36 cartons): $319.00 ($0.319/port) -> Lily Gross Profit: $254.96 (79.9% GM).
@@ -368,7 +373,7 @@ Under this turnaround architecture, Lily aggressively mobilizes its existing fle
   STAGE 4: UNIVERSAL JOBSITE DISPENSER COMPATIBILITY
   • Native snap coupling with Lily LPT Snappy-Tee and standard 1/4" pressure tubing.
   • Compatible with Graco high-pressure grease couplers, ChemCo wands, and ChemGrout manifolds.
-  • Zero epoxy blowout at 600-800 PSI due to wide 2.25" perforated bonding base.
+  • Zero epoxy blowout at 600-800 PSI due to wide 2.25" perforated bonding base (16 mechanical rivet locks).
 +---------------------------------------------------------------------------------------------------------+
 ```
 
@@ -377,7 +382,7 @@ Under this turnaround architecture, Lily aggressively mobilizes its existing fle
 ### 32.2 Tooling Wear Rates & In-House vs. Outside Molder Economics
 
 #### A. Outside Molder Diligence (Elgin & St. Charles Contract Molders)
-During operational diligence, quotes and capabilities from regional custom molders (Component Plastics in Elgin, IL and Wise Plastics in St. Charles, IL) were evaluated against Lily's on-site press capabilities:
+Quotes and operational parameters from regional custom molders (Component Plastics in Elgin, IL and Wise Plastics in St. Charles, IL) were formally benchmarked against Lily's on-site press capabilities:
 1. **Outside Molder Quoting Mechanics:**
    * Press Machine Rate: $75.00 to $90.00 per machine-hour on a 150-ton toggle press.
    * Tool Setup & Tear-down Fee: $650.00 to $1,100.00 per production changeover.
@@ -392,10 +397,13 @@ During operational diligence, quotes and capabilities from regional custom molde
 #### B. In-House Manufacturing Mechanics (Aurora On-Site Press)
 Lily operates a Cincinnati Milacron hydraulic/toggle injection molding press and a dedicated desiccant material hopper dryer on-site at 240 S. Broadway in Aurora, IL, operated by Greg:
 1. **Direct Material (Resin) Cost:**
-   * Material: Prime Injection Grade High-Density Polyethylene (HDPE, resin melt index ~6.5–7.0 g/10 min, density ~0.955 g/cm³; e.g., ExxonMobil HD 6706 or Formosa Formolene HB5502).
-   * Bulk resin procurement: 1,000-lb octabin Gaylords sourced locally from Chicago polymer distributors (PolyOne / Avient, M. Holland) at **$0.95 per pound** ($2.09/kg).
-   * Part weight (LPP Surface Port): 14.8 grams (0.0326 lbs) including runner split on 8-cavity mold.
-   * Resin cost per port: $0.0326 \times \$0.95 = \mathbf{\$0.0310\text{ per port}}$.
+   * Material: Prime Injection Grade High-Density Polyethylene (HDPE, resin melt index ~6.5–7.0 g/10 min, density ~0.955 g/cm³; e.g., ExxonMobil HD 6706 or Formosa Formolene HB5502) [1].
+   * Bulk resin procurement: 1,000-lb octabin Gaylords sourced locally from Chicago polymer distributors (Avient, M. Holland) at **$0.95 per pound** ($2.09/kg).
+   * Part weights:
+     * Mold #1 (Standard Surface Mount Port - LPP): 14.8 grams (0.0326 lbs) including runner split on 8-cavity mold.
+     * Mold #2 (Corner Port): 16.2 grams (0.0357 lbs) on 4-cavity mold.
+     * Mold #4 (Friction Cap - LPC): 4.1 grams (0.0090 lbs) on 12-cavity mold.
+   * Resin cost per LPP surface port: $0.0326 \times \$0.95 = \mathbf{\$0.0310\text{ per port}}$.
 2. **Direct Molding Labor & Press Power:**
    * Greg’s fully burdened wage: $25.00/hr base + FICA/WC/benefits (28%) = **$32.00 burdened shop rate per hour** ($0.533/min).
    * Press cycle time (Mold #1, 8 cavities): 19.5 seconds total dry-to-dry cycle time (mold close, inject 3.2s, pack/hold 4.5s, cooling 7.0s, mold open/ejection 4.8s).
@@ -403,6 +411,7 @@ Lily operates a Cincinnati Milacron hydraulic/toggle injection molding press and
    * Ports produced per hour: $184.6 \times 8 = \mathbf{1,476.8\text{ ports/hour}}$.
    * Direct press labor per port: $\$32.00 / 1,476.8 = \mathbf{\$0.0217\text{ per port}}$.
    * Electrical power & machine operating cost: 18 kW average load on press and hopper dryer at ComEd industrial rate ($0.098/kWh) = $1.76/hr + hydraulic oil/cooling maintenance reserve ($1.45/hr) = $3.21/hr = $\mathbf{\$0.0022\text{ per port}}$.
+   * Scrap rate: Maintained below 1.5% through Greg's daily QA check; clean sprues and runners are granulated on the shop sprue grinder and blended back into non-critical runs at a strict $\le 15\%$ regrind ratio, preserving tensile integrity.
    * **Total Bare Landed Manufacturing Cost:** $\$0.0310 + \$0.0217 + \$0.0022 = \mathbf{\$0.0549\text{ (~$0.055) per port}}$.
 
 ```
@@ -431,7 +440,7 @@ Lily operates a Cincinnati Milacron hydraulic/toggle injection molding press and
 * **Tooling Metallurgy:** Molds #1 through #10 are hardened American P20 (cavity/core plates, 28–32 HRC) and S-7 shock-resistant steel (core slides and sub-gates).
 * **Wear Mechanics on Polyolefins:** Unlike glass-filled structural resins that erode tool steel within 150,000 shots, unfilled High-Density Polyethylene (HDPE) and Polypropylene (PP) are completely non-abrasive. Cavity surface wash wear is virtually undetectable ($<0.00005"$ dimensional change per 100,000 shots). Tool life on P20 running HDPE routinely exceeds **1,500,000 to 2,500,000 cycles**.
 * **Historical Mold Maintenance Verification (P&L Account 5440):** Historical P&L records show mold maintenance averaged $6k–$10k/year, with a one-time peak of $31,956 in 2024 when Bob overhauled cooling channels and runner blocks across 4 tools. Routine tool maintenance is strictly a $3k–$6k annual expense.
-* **Shop PM SOP (Every 75,000 Shots / Annual Spring Campaign):**
+* **Shop PM SOP (Every 75,000 Shots / Annual Winter Shutdown):**
   1. *Parting Line De-Varnishing:* Ultrasonic wash of cavity inserts in Station #2 using non-flammable cleaner to remove resin gassing residue.
   2. *Venting Inspection:* Dave Kling dresses parting line gas vents on the shop surface grinder (vent depth verified at 0.0012"–0.0015" to prevent flash while eliminating diesel-effect burning).
   3. *Ejector Pin Lubrication & O-Ring Refresh:* Teardown of ejector plate; replacement of high-temp fluorocarbon cooling O-rings ($45 kit); lubrication of pin guides with high-pressure synthetic grease.
@@ -467,17 +476,17 @@ Civil general contractors frequently purchase Lily ports even when pumping with 
 +-------------------+--------------------+------------------------+---------------------------------------+
 ```
 
-* **The 4 Functional Superiorities of Lily Ports:**
-  1. *Perforated Anti-Blowout Bonding Base:* Mold #1 features a wide 2.25" circular base perforated with 16 chamfered through-holes. When set in fast-setting capping epoxy (Sika AnchorFix, ChemCo Sure-Hold, Euclid Duralprep), epoxy extrudes through the perforations to form mechanical shear rivets. Lily ports resist up to **800 PSI hydraulic injection pressure without blowing off the concrete surface**.
+* **The 4 Functional Superiorities of Lily Ports vs. Commodity Imports:**
+  1. *Perforated Anti-Blowout Bonding Base:* Mold #1 features a wide 2.25" circular base perforated with 16 chamfered through-holes. When set in fast-setting capping epoxy (Sika AnchorFix, ChemCo Sure-Hold, Euclid Duralprep), epoxy extrudes through the perforations to form mechanical shear rivets. Lily ports resist up to **800 PSI hydraulic injection pressure without blowing off the concrete surface**. Cheap Asian import ports have smooth 1.5" bases that shear off at 150–250 PSI, blowing sticky resin onto bridge decks and scaffolding.
   2. *Internal Conical Seal & Snap Geometry:* The internal port chamber features a steep 60° conical throat that funnels low-viscosity structural epoxies (down to 150 cP) cleanly into the crack without turbulence or air entrapment.
   3. *LPT Snappy-Tee Multi-Port Manifolding:* Lily’s Mold #4 produces the LPT Snappy-Tee coupler, which snaps over the LPP port stem with a tactile click and branches out into dual 1/4" barbed hose connections. This allows contractors to manifold 4 to 8 ports together along a structural crack, flooding the crack simultaneously from a single Graco, ChemCo, or ChemGrout rig—cutting contractor labor by **60%**.
   4. *Jobsite Capping Redundancy (LPC Caps):* Mold #4 produces high-flexibility LDPE friction caps (`LPC`). When resin appears at an adjacent port, the applicator snaps the LPC cap on instantly, sealing the port against back-drain without requiring makeshift wooden golf tees or masking tape.
 
 ---
 
-### 32.4 Commercial Packaging Specifications (250 & 1,000 Packs)
+### 32.4 Commercial Packaging Specifications & Benchtop Labor Workflow
 
-Julian Perez packages finished consumables at Aurora Workcell Station #4:
+Julian Perez packages finished consumables at Aurora Workcell Station #4. To prevent shop floor bottlenecks, Julian utilizes a calibrated benchtop parts-counting scale (weigh-count tare) rather than manual hand-counting, reducing packaging labor to under 90 seconds per 250-pack carton:
 
 ```
 +---------------------------------------------------------------------------------------------------------+
@@ -497,8 +506,8 @@ Julian Perez packages finished consumables at Aurora Workcell Station #4:
 | **Pallet Configuration**           | 72 cartons per 40" x 48" pallet  | 36 cartons per 40" x 48" pallet |
 |                                    | (18,000 ports / 690 lbs gross)   | (36,000 ports / 1,350 lbs gross)|
 | **Direct Packaging Material COGS** | $1.35 (Box: $1.15, Bag/Lbl: $0.20)| $3.16 (Master: $2.40, Bags: $0.76)|
-| **Julian Packing Labor**           | 4.5 mins bench time ($2.11 labor)| 13.2 mins bench time ($6.20)    |
-| **Total Packaging COGS / Box**     | **$3.46 per 250-box ($0.0138/pt)**| **$9.36 per 1,000-box ($0.0094)**|
+| **Julian Packing Labor**           | 1.5 mins bench time ($0.70 labor)| 3.5 mins bench time ($1.64)    |
+| **Total Packaging COGS / Box**     | **$2.05 per 250-box ($0.0082/pt)**| **$4.80 per 1,000-box ($0.0048)**|
 +------------------------------------+----------------------------------+---------------------------------+
 ```
 
@@ -509,7 +518,7 @@ Julian Perez packages finished consumables at Aurora Workcell Station #4:
 #### The Civil Contractor & Distributor Channel Reality:
 Civil concrete contractors do not make purchases via consumer e-commerce carts with credit cards. They operate via **Net 30/60 corporate purchase orders**, phone orders into Dave Jepsen’s desk, or direct counter pick-up at local commercial supply houses at 6:30 AM.
 
-To place Lily master cartons onto distributor shelves (White Cap’s 450+ branches, Sika regional distribution centers, Euclid Chemical distribution networks), Lily establishes a clear, transparent, highly incentivized wholesale discount waterfall:
+To place Lily master cartons onto distributor shelves (White Cap’s Midwest branches, Sika regional distribution centers, Euclid Chemical distribution networks), Lily establishes a clear, transparent, highly incentivized wholesale discount waterfall:
 
 ```
 +---------------------------------------------------------------------------------------------------------+
@@ -529,7 +538,7 @@ To place Lily master cartons onto distributor shelves (White Cap’s 450+ branch
 | - **Lily Wholesale Gross Profit**  | **$81.79 Gross Profit per box**  | **$283.96 Gross Profit per box**|
 | - **Lily Wholesale Gross Margin %**| **82.6% Gross Margin**           | **81.6% Gross Margin**          |
 | - *Distributor Counter Resale*     | $145.00 to $165.00 per box       | $495.00 to $580.00 per box      |
-| - *Distributor Gross Margin %*     | **31.7% to 40.0% Branch Margin** | **29.7% to 40.0% Branch Margin**|
+| - *Distributor Gross Margin %**     | **31.7% to 40.0% Branch Margin** | **29.7% to 40.0% Branch Margin**|
 +------------------------------------+----------------------------------+---------------------------------+
 | **Pallet Stocking Tier (45% Off)** | *Available in 1,000-Pack Only*   | **$319.00 per box ($0.319/port)**|
 | (Central CDC / Full Pallet Orders) |                                  | (36 Cartons = $11,484.00 Order) |
@@ -540,11 +549,13 @@ To place Lily master cartons onto distributor shelves (White Cap’s 450+ branch
 +------------------------------------+----------------------------------+---------------------------------+
 ```
 
-* **Why White Cap and Sika Stock Lily Cartons:**
-  1. *Guaranteed 32% to 40%+ Branch Margins:* Commodity imported ports offer distributors <22% margins with high breakage. Lily’s wholesale structure guarantees White Cap branch managers healthy 32–40% counter margins.
-  2. *Domestic Supply Reliability (Aurora, IL):* Lead time from Aurora to Midwest White Cap branches is 24–48 hours via LTL, completely eliminating 12-week overseas supply chain delays.
-  3. *No Forced Portals or Logins:* Maggie M receives distributor EDI and PDF purchase orders directly into QuickBooks Desktop, confirming shipment within 48 hours.
-  4. *The Jobsite Reorder QR Trojan Horse:* Every carton exterior carries a high-contrast QR code. When an applicator running low on a bridge job scans the box with their smartphone, it instantly generates a pre-formatted SMS and email order draft addressed to `orders@lilycorp.com` and Dave Jepsen’s desk with carton part numbers and distributor branch routing options.
+#### Commercial Friction & Exploratory Distribution Realities:
+* **The Grounded Core Channel (Year 1):** Focuses on direct contractor phone orders and regional branch-level purchase orders (e.g., White Cap Chicago/Aurora/Rockford branches). Billed directly on Net 30 terms, bypassing corporate clearinghouses.
+* **National Distribution Onboarding `[EXPLORATORY HYPOTHESIS]`:** Expanding to White Cap's national catalog and central distribution centers (CDCs) requires navigating corporate merchandising agreements:
+  1. *Corporate Volume Rebates:* National agreements mandate an annual back-end rebate of **5.0% to 8.0%** on total volume.
+  2. *Cash Prompt-Pay Discounts:* Terms typically reflect **2% 10 Net 60** or **Net 60 Days**, which Lily models into its working capital collection lag.
+  3. *EDI & ASN Compliance:* Handled through standard QuickBooks-integrated EDI (e.g., SPS Commerce or TrueCommerce) without requiring custom ERP infrastructure.
+  4. *Even with full 8% corporate rebate and 2% prompt-pay deductions, Lily’s net realized wholesale gross margin remains above 76.5%*, preserving its core profit engine.
 
 ---
 
@@ -570,9 +581,13 @@ To place Lily master cartons onto distributor shelves (White Cap’s 450+ branch
 
 ---
 
-### 32.7 Financial Contribution & Cash Flow Impact (Years 1–3)
+### 32.7 Working Capital Discipline & Phased Batch Production
 
-Mobilizing Lily’s existing molds into universal bulk cartons requires **$0.00 in tooling capex** and **<$800 in packaging die/label stock working capital**, fitting securely within Jack Fay’s $20,000 discretionary capex cap and $50,000 working capital injection:
+To strictly respect Jack Fay's **$50,000 liquid working capital cushion** and avoid sinking cash into speculative inventory, Lily DOES NOT mold 300,000 units upfront:
+1. **Disciplined Batch Sizing:** Greg runs discrete batch runs of **20,000 to 40,000 ports per setup** (consuming roughly 650 to 1,300 lbs of resin, or $620 to $1,240 in raw material cash).
+2. **Drawing from On-Hand Inventory:** Lily already holds over **$515,000 in raw parts, steel, and resin inventory on-site in Aurora**. Initial batch runs draw directly from existing Gaylords of prime HDPE pellets, requiring **$0 in immediate raw material cash outlays**.
+3. **Counter-Cyclical Winter Pre-Build (January–February):** During the seasonal Midwest construction freeze (sub-40°F curing halts), shop equipment assembly slows down. Greg utilizes this downtime to conduct press PM and mold 40,000 to 60,000 ports. When construction mobilizes in April/May, finished inventory is ready for immediate LTL shipment without press bottlenecks or overtime pay.
+4. **Julian’s Packaging Throughput:** Packaging 40,000 ports into 1,000-pack master cartons (40 cartons) requires only **2.3 hours of Julian’s time** using the benchtop counting scale, fitting smoothly into his normal weekly shipping routine.
 
 ```
 +---------------------------------------------------------------------------------------------------------+
@@ -580,16 +595,16 @@ Mobilizing Lily’s existing molds into universal bulk cartons requires **$0.00 
 +------------------------------------+------------+------------+------------+-----------------------------+
 | Metric                             | Year 1     | Year 2     | Year 3     | Strategic Notes             |
 +------------------------------------+------------+------------+------------+-----------------------------+
-| **Total Ports Produced & Sold**    | 240,000    | 380,000    | 520,000    | Greg runs in winter batch   |
-| - 250-Pack Cartons Sold            | 320 Boxes  | 480 Boxes  | 640 Boxes  | Regional branches / direct  |
-| - 1,000-Pack Master Cartons Sold   | 160 Boxes  | 260 Boxes  | 360 Boxes  | Pallet distributor orders   |
-| **Commercial Distributor Share**   | 55.0%      | 65.0%      | 70.0%      | White Cap / Sika expansion  |
-| **Direct Contractor Desk Share**   | 45.0%      | 35.0%      | 30.0%      | Dave J phone relationships  |
-| **Gross Invoiced Revenue**         | $123,400   | $186,200   | $248,800   | Consumable revenue baseline |
-| **Landed Aurora Shop COGS**        | $18,480    | $27,850    | $37,210    | Direct resin, box, labor    |
-| **Net Gross Profit Contribution**  | **$104,920**| **$158,350**| **$211,590**| **Pure gross profit engine**|
-| **Blended Realized Gross Margin %**| **85.0%**  | **85.0%**  | **85.0%**  | **Vastly exceeds 55% target**|
-| **Shop Press Hours Consumed**      | 162.5 hrs  | 257.4 hrs  | 352.1 hrs  | <18% of Greg's annual hours |
+| **Total Ports Produced & Sold**    | 180,000    | 280,000    | 380,000    | Phased batch runs in Aurora |
+| - 250-Pack Cartons Sold            | 240 Boxes  | 360 Boxes  | 480 Boxes  | Regional branch / direct    |
+| - 1,000-Pack Master Cartons Sold   | 120 Boxes  | 190 Boxes  | 260 Boxes  | Pallet / stocking orders    |
+| **Commercial Distributor Share**   | 45.0%      | 55.0%      | 65.0%      | Regional White Cap & Sika   |
+| **Direct Contractor Desk Share**   | 55.0%      | 45.0%      | 35.0%      | Dave J phone relationships  |
+| **Gross Invoiced Revenue**         | $98,400    | $145,200   | $192,800   | Realized sales volume       |
+| **Landed Aurora Shop COGS**        | $14,640    | $21,680    | $28,780    | Direct resin, box, labor    |
+| **Net Gross Profit Contribution**  | **$83,760**| **$123,520**| **$164,020**| **Pure gross profit engine**|
+| **Blended Realized Gross Margin %**| **85.1%**  | **85.1%**  | **85.1%**  | **Vastly exceeds 55% target**|
+| **Shop Press Hours Consumed**      | 121.9 hrs  | 189.6 hrs  | 257.3 hrs  | <13% of Greg's annual hours |
 +------------------------------------+------------+------------+------------+-----------------------------+
 ```
 
@@ -822,15 +837,15 @@ Lily’s equipment portfolio has anchored heavy civil crack repair and overlay m
 | • Week 1-2: Audit Molds #1, #2, and #4 with Greg; verify barrel heat zones and desiccant dryer.    |
 |             Procure initial run of 200# single-wall (250-pk) and 275# double-wall (1,000-pk) boxes.|
 |             Maggie prints GS1-128 barcode labels with White Cap formatting and Dave J QR code.    |
-| • Week 3-4: Greg runs 50,000 LPP ports on Cincinnati Milacron press. Julian Perez sets up Station |
-|             #4 packaging bench; packs first 50 master cartons of LPP-250 and 25 cartons of LPP-1000|
-|             Dave Kling machines first three DF-101 aluminum flush manifold blocks on the Hurco.   |
+| • Week 3-4: Greg runs initial 30,000 LPP batch on Milacron press drawing from on-hand resin stock. |
+|             Julian sets up Station #4 counting scale; packs pilot 40 master cartons of LPP-250    |
+|             and 20 cartons of LPP-1000. Dave Kling machines pilot DF-101 aluminum flush blocks.   |
 +---------------------------------------------------------------------------------------------------+
-| MONTH 2: COMMERCIAL DISTRIBUTOR ROLLOUT & FLEET DEPLOYMENT                                        |
+| MONTH 2: REGIONAL DISTRIBUTOR ROLLOUT & FLEET DEPLOYMENT                                          |
 | • Week 5-6: Dave Jepsen ships sample master cartons of LPP-250 and LPP-1000 to top 25 regional    |
 |             White Cap concrete branches and Sika/Euclid regional technical reps.                  |
 |             Deploy DeckFlush™ units inside 5 active rental CD-250 crates headed to IDOT projects. |
-| • Week 7-8: Secure first stocking purchase orders from White Cap Midwest (5 pallets / 180,000 pts)|
+| • Week 7-8: Secure first stocking purchase orders from White Cap Midwest (3 pallets / 108,000 pts)|
 |             Build and pressure-test 3 pilot RapidSwap™ conversion kits with Julian Perez.          |
 |             Update Maggie's rental contract with the $750 DeckFlush Cleanliness Deposit.          |
 +---------------------------------------------------------------------------------------------------+
@@ -849,7 +864,7 @@ Lily’s equipment portfolio has anchored heavy civil crack repair and overlay m
 | • Week 17-18: Outfit 10 internal rental CD-250s with StrokeTrack™ telemetry shrouds ($78.70 COGS).|
 |               Confirm speculative tooling (Molds #11-13) remains frozen to protect $20k capex cap.|
 | • Week 19-20: Maggie logs mechanical checkout/checkin cycle readings in QuickBooks Desktop.       |
-|               Review bulk master carton reorder rates from White Cap; fulfill 3 additional pallets.|
+|               Review bulk master carton reorder rates from White Cap; fulfill 2 additional pallets.|
 +---------------------------------------------------------------------------------------------------+
 | MONTH 6: RATIO-LOCK™ (PROD_56) PROTOTYPING & DISTRIBUTOR CONQUEST EXPANSION                       |
 | • Week 21-22: Dave Kling programs Hurco VMC for RL-101 manifold block and RL-102 sensing pistons.  |
@@ -890,7 +905,7 @@ Lily’s equipment portfolio has anchored heavy civil crack repair and overlay m
 
 | Frontier Item | Core Strategic Resolution | Manufacturing & Economic Verification |
 | :--- | :--- | :--- |
-| **PROD_UNIVERSAL_PORTS_02**<br>Universal Bulk Master Cartons (250 & 1,000 Packs) | **APPROVED & DEPLOYED (ZERO CAPEX).** Packages Molds #1, #2, and #4 into standardized 250 (`LPP-250`) and 1,000 (`LPP-1000`) master cartons with GS1/UPC barcodes and QR reorder links for national placement at White Cap, Sika, and Euclid. Fully compatible with Graco, ChemCo, and ChemGrout dispensers. | • **In-House COGS:** $0.055 bare part / **$0.064 to $0.069 packaged** in Aurora (vs. $0.155–$0.185 at Elgin toll molders; saves **+$37.8k cash/yr**).<br>• **Wholesale Waterfall:** 40% discount ($0.348–$0.396/pt); 45% pallet tier ($0.319/pt).<br>• **Economics:** Direct List: $0.58–$0.66/pt (**89.0–89.6% GM**); Wholesale: **79.9% to 82.6% GM**; Distributor Branch Margin: **31.7% to 45.0%**.<br>• **Contribution:** **+$104.9k to $211.6k net gross profit/yr**; zero capex; protects $20k Y1 cap. |
+| **PROD_UNIVERSAL_PORTS_02**<br>Universal Bulk Master Cartons (250 & 1,000 Packs) | **APPROVED & DEPLOYED (ZERO CAPEX).** Packages Molds #1, #2, and #4 into standardized 250 (`LPP-250`) and 1,000 (`LPP-1000`) master cartons with GS1/UPC barcodes and QR reorder links. Deploys via grounded direct contractor phone orders and regional Midwest distributor branches (White Cap, Sika, Euclid). National corporate placement managed as `[EXPLORATORY HYPOTHESIS]`. Fully compatible with Graco, ChemCo, ChemGrout, and SealBoss dispensers. | • **In-House COGS:** $0.0549 bare part / **$0.064 to $0.069 packaged** in Aurora (vs. $0.155–$0.185 at Elgin toll molders; saves **+$37.8k cash/yr**).<br>• **Wholesale Waterfall:** 40% discount ($0.348–$0.396/pt); 45% pallet tier ($0.319/pt).<br>• **Economics:** Direct List: $0.58–$0.66/pt (**89.0–89.6% GM**); Wholesale: **79.9% to 82.6% GM**; Distributor Branch Margin: **31.7% to 40.0%**.<br>• **Working Capital Discipline:** Small 20k–40k batch runs drawing from on-hand resin stock; zero upfront cash drain; Julian uses bench counting scale (1.5–3.5 mins/box).<br>• **Contribution:** **+$83.8k to $164.0k net gross profit/yr**; zero capex; protects $20k Y1 cap. |
 | **PROD_22**<br>DeckFlush™ Purge Kit | **APPROVED & DEPLOYED.** Fully solves internal fleet fouling leak. Integrates closed-loop pneumatic flush inside crate lid. | • **COGS:** $384.50 (1.75 shop hrs).<br>• **Fleet Impact:** Fouling drops from 38.2% to 8.4% (78% drop); saves $18,067 and 294 shop hrs/yr.<br>• **Aftermarket:** $1,495 MSRP (72.4% GM). |
 | **PROD_25**<br>RapidSwap™ Wet-End Retrofit & Exchange | **APPROVED & COMMERCIALIZED.** Standardizes quick-swap wet-end into a $3,450 retrofit kit for 150+ legacy rigs, unlocking an 85% GM cartridge rebuild annuity. | • **Kit Price:** $3,450.00 \| **BOM + Labor:** $872.50 (74.7% GM).<br>• **Rebuild Fee:** $950.00 \| **Shop Cost:** $140.00 (85.3% GM).<br>• **Year 1-2 Impact:** +$112k to $171k revenue; +$86k to $134k high-margin gross profit. |
 | **PROD_32**<br>Cold-Weather Coupler Flow Limits | **APPROVED & SPECIFIED.** Replaces restricted 1/2" poppet dry-breaks ($>150\text{ PSI}$ drop) with **3/4" Full-Port Ball Disconnects** ($11.8\text{ PSI}$ drop) for cold-weather epoxies (>3,500 cP). | • **Pressure Drop Reduction:** 214.2 PSI down to 11.8 PSI (-94.5%).<br>• **Operational Benefit:** Prevents CD-250 motor stall, suction cavitation, and 20%+ stoichiometric off-ratio failures on bridge decks.<br>• **Shop Integration:** Hurco bored to 3/4" NPT (+2.5 mins); landed BOM held flat. |
