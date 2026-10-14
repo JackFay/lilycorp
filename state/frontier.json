@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 275,
+  "active_cycle": 281,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -208,9 +208,9 @@
       "execution_horizon": "BASELINE_RESOLVED",
       "last_audit_cycle": 275,
       "last_audit_timestamp": "2026-10-14 06:18:04",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/151",
-      "github_auto_merged": false,
-      "github_pr_number": 151
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/152",
+      "github_auto_merged": true,
+      "github_pr_number": 152
     },
     {
       "id": "OPS_PO_AUTOMATION_04",
@@ -226,10 +226,15 @@
         "What QuickBooks integration mechanism (QODBC vs IIF import vs SDK) provides the most reliable 1-click approval workflow for Maggie without disrupting her existing habits?"
       ],
       "target_plan_file": "plan/04_shop_floor_modernization_and_capacity.md",
-      "confidence_score": 8,
-      "status": "RESOLVED",
+      "confidence_score": 7.0,
+      "status": "REFINED",
       "priority": "HIGH",
-      "execution_horizon": "YEAR_1_CORE"
+      "execution_horizon": "YEAR_1_CORE",
+      "last_audit_cycle": 281,
+      "last_audit_timestamp": "2026-10-14 07:50:36",
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/157",
+      "github_auto_merged": false,
+      "github_pr_number": 157
     },
     {
       "id": "PROD_RENTAL_FLEET_05",
