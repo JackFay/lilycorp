@@ -3006,3 +3006,148 @@
 ### Concept: Zero-Cost Hot-Standby Toll-Molder Capacity Reservation
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #285 Audit)
 * **Autopsy:** Regional injection molders operate on tight machine utilization schedules and will not hold matched platen capacity or store proprietary adapter plates on 'hot-standby' during peak summer paving season without a committed monthly reservation retainer or guaranteed production minimums.
+
+
+### Concept: Phantom 18-Machine Pre-Built Fleet Inventory
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** Lily Corporation has historically operated as a low-volume, make-to-order pneumatic equipment shop building 5 to 15 dispensers annually. The claim that 18 complete, operational proportioners (CD-15 and CD-250 units costing $8,000 to $25,000+ in retail value each) are sitting pre-assembled and idle on shelves in Aurora is fictitious. Fabricating an 18-unit fleet from scratch would consume more than the entirety of Lily's $50,000 liquid working capital and Year 1 $20,000 capex budget.
+
+
+### Concept: Rental Turnaround Labor Overlap on Julian Perez
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** When contractors return proportioners used with fast-curing two-component epoxies and polyurethanes, turnaround requires aggressive solvent stripping, seal replacements, check valve lapping, and ratio testing. Julian Perez is already the sole technician responsible for new machine assembly, RapidSwap core overhauls, and RapidAssure wet-end rebuilds. Adding ongoing rental fleet turnaround will cause immediate delivery bottlenecks on paid customer orders.
+
+
+### Concept: Unrealistic Merchant Pre-Authorizations & RTO Administration in QuickBooks
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** Civil infrastructure contractors renting $15,000 to $40,000 proportioner rigs will not absorb $15k+ pre-authorization holds on company credit cards without widespread declines and disputes. Furthermore, managing multi-month 50% Rent-to-Own equity accrual calculations, wear allowances, and damage waiver claims manually inside standard QuickBooks Desktop places an unsustainable administrative and collections burden on Maggie M.
+
+
+### Concept: Inflated Historical Rental Income Grounding (Account 4015)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #287 Audit)
+* **Autopsy:** The Executive Charter asserts that Lily's 8-machine rental fleet historically generated '$133.8k to $233.7k annually in Account 4015 Rental Income'. Empirical historical financials (pl.csv) show Account 4015 equipment rental revenue historically fluctuated between $20k and $45k annually; claiming historical rental revenue of up to $233.7k represents an ungrounded 5x-10x inflation of historical baseline performance.
+
+
+### Concept: Shop Floor Overhaul & Testing Labor Stacking (Julian Perez Bottleneck)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #287 Audit)
+* **Autopsy:** Julian Perez is Lily's sole mechanical assembly and testing technician. The draft commits Julian to simultaneously executing new machine assembly, quality testing, 45-minute rental turnarounds, ultrasonic solvent teardowns, cylinder bore honing, and 3,000-PSI hydrostatic recertification for RapidSwap cores (COMM_57), RapidAssure-250 cold spares (COMM_73), and warehouse pick tickets (COMM_71). Julian cannot absorb 2.5-hour teardown/rebuild cycles across multiple nationwide exchange programs without starving baseline machine manufacturing.
+
+
+### Concept: Sole-Seat Administrative Overload (Maggie M & Dave Jepsen)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #287 Audit)
+* **Autopsy:** The plan assigns Maggie M (Lily's sole part-time/full-time bookkeeper) to manage standard QuickBooks invoicing, audit complex distributor Net-Net deductions, execute weekly branch reconciliation, and co-run a SAM.gov/state DOT procurement clearinghouse triage protocol (COMM_100) alongside Dave Jepsen (sole sales rep). Dave Jepsen is already committed to field contractor training and phone order desk conversions; adding municipal RFP bid management and automated EDI/clearinghouse dispute resolution without added administrative headcount will cause billing and collections to collapse.
+
+
+### Concept: Omission of Core Initiative Specifications [PROD_RENTAL_FLEET_05]
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #287 Audit)
+* **Autopsy:** Despite highlighting PROD_RENTAL_FLEET_05 in the executive charter, the body contains zero operational mechanics, financial schedules, damage waiver formulas, cleaning fee structures, or RTO equity amortization schedules for the 50% Rent-to-Own fleet program, and truncates prematurely at Section 1.15.
+
+
+### Concept: 45-Minute Proportioner Fleet Turnaround Protocol
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #288 Audit)
+* **Autopsy:** Two-component reactive resins (epoxies, polyurethanes, polyureas) foul fluid paths, check valves, and pressure manifolds. Even detached cartridge wet-end rebuilds require 2.0 to 2.5 hours of ultrasonic cleaning, seal replacement, and hydrostatic testing (as conceded in COMM_73). Claiming Julian Perez can chemically flush, inspect, rebuild, and hydro-test an entire proportioner rig in 45 minutes will result in off-ratio equipment deployments, jobsite failures, and catastrophic liability.
+
+
+### Concept: Sole Admin GovFleet Multi-Portal Procurement Scraping
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #288 Audit)
+* **Autopsy:** Maggie M is the sole office administrator handling QuickBooks, phone orders, invoicing, and corporate distributor AP deduction reconciliation. Tasking her with manual RFQ/RFP monitoring, compliance verification, and formal bid submissions across SAM.gov, Illinois BidBuy, Cal eProcure, and regional DOT bulletins without dedicated bidding staff or paid aggregation software exceeds the cognitive and hourly capacity of a single FTE.
+
+
+### Concept: Uncapped 50% Rent-To-Own (RTO) Equity Accrual Cash Cannibalization
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #288 Audit)
+* **Autopsy:** Offering an automatic 50% rental equity credit toward outright purchase without minimum rental tenures, high buyout floor prices, or interest/carrying charges allows regional civil contractors to rent proportioners for single peak-season bridge jobs and execute bargain buyouts. This cannibalizes full-margin new rig capital sales, ties up Lily's scarce 8-unit fleet, and risks stranding depreciated, abused machines in Aurora without adequate working capital replenishment.
+
+
+### Concept: Missing Core Resolution Text for PROD_RENTAL_FLEET_05
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #288 Audit)
+* **Autopsy:** The draft's Executive Charter references PROD_RENTAL_FLEET_05, but the resolution text truncates at COMM_100 without delivering the required detailed operational procedures, unit economics, mandatory cleaning fee schedules, or corporate PO damage waiver legal mechanisms.
+
+
+### Concept: 45-Minute Standardized Rental Turnaround Protocol
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #289 Audit)
+* **Autopsy:** A chemical proportioner (CD-15 or CD-250) pumping 2-part epoxies and polyurethanes cannot be safely depressurized, solvent-flushed, disassembled, inspected for seal wear, recalibrated for volumetric ratio accuracy, and re-certified in 45 minutes by a single assembly technician (Julian Perez). Chemical proportioner turnaround empirically requires chemical de-fouling, pressure testing, and seal inspection taking 2 to 4 hours; compressing this to 45 minutes risks sending off-ratio or fouled pumps to jobsites, triggering severe contractor downtime claims.
+
+
+### Concept: 50% Rent-to-Own (RTO) Cannibalization of Baseline Rental Asset Base
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #289 Audit)
+* **Autopsy:** Account 4015 Rental Income historically generated $133.8k to $233.7k/year from Lily's 8-machine fleet, serving as vital cash flow to cover the $11,403.04/month debt service floor. Crediting 50% of rental payments toward machine buyout incentivizes long-term renters to strip Lily of its active rental fleet at a steep discount, while Lily's Year 1 discretionary capex cap ($20,000) and $50,000 working capital cushion make fabricating replacement fleet proportioners mathematically impossible.
+
+
+### Concept: Julian Perez Shop-Floor Labor Over-Allocation
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #289 Audit)
+* **Autopsy:** The plan burdens Julian Perez with RapidSwap core-exchange overhauls (ultrasonic baths, honing, hydrostatic testing), RapidAssure-250 bi-annual customer overhauls (2.0-2.5 hrs each), rental fleet turnaround, master carton pick-and-pack fulfillment, and standard new machine assembly. With only 1 dedicated assembly/rebuild technician on the floor, these multi-tier service programs will create unmanageable production bottlenecks and halt core equipment fulfillment.
+
+
+### Concept: Incomplete Document Execution (Mid-Sentence Truncation)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #289 Audit)
+* **Autopsy:** Section 1.15 ('Direct Federal & State DOT Equipment Fleet Bid Discovery & Capture Protocol') terminates mid-sentence at 'a l', representing an incomplete draft that fails diligence review standards.
+
+
+### Concept: Complete Absence of PROD_RENTAL_FLEET_05 Mechanics and Unit Economics
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #290 Audit)
+* **Autopsy:** While the executive charter touts an active 8-machine rental fleet with a 50% RTO credit program, the draft cuts off at Section 1.15 without defining the rental rate schedule, RTO contract equity accrual terms, demobilization cleaning fees, damage waiver limits, or capital maintenance reserves required by the target prompt.
+
+
+### Concept: Shop Floor Labor Oversubscription on Rebuilds and Core Swaps
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #290 Audit)
+* **Autopsy:** The draft assumes Julian Perez and Dave Kling can handle RapidSwap cartridge teardowns, ultrasonic solvent cleaning, cylinder bore honing, 3,000-PSI hydrostatic recertifications (COMM_57), and RapidAssure bi-annual factory wet-end overhauls (COMM_73) within 2.0-2.5 hours per unit. In reality, Julian is the sole assembler and tester while Dave Kling manages machining and purchasing; adding high-frequency core turnaround creates severe shop-floor bottlenecks against baseline new-machine builds.
+
+
+### Concept: Administrative Overload of Solo Bookkeeper for Public Fleet Bidding
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #290 Audit)
+* **Autopsy:** Mandating that Maggie M (the sole billing and QuickBooks administrator) and Dave Jepsen monitor SAM.gov, BidBuy, and Cal eProcure while assembling formal state/federal public procurement tender packets (COMM_100) is operationally unviable without external compliance or dedicated administrative overhead.
+
+
+### Concept: Missing PROD_RENTAL_FLEET_05 Architecture & Truncated Module
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #291 Audit)
+* **Autopsy:** The draft lists PROD_RENTAL_FLEET_05 in its executive charter but fails to operationalize it in the body, completely omitting the required rental unit economics, demobilization cleaning fee tiers, damage waiver terms, and RTO depreciation mechanics before cutting off mid-sentence at Section 1.15.
+
+
+### Concept: Administrative Back-Office Fantasy (Maggie M Multi-Channel Overhead)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #291 Audit)
+* **Autopsy:** Maggie M is a single-seat bookkeeper managing day-to-day QuickBooks invoicing and orders. Assigning her to simultaneously navigate state/federal procurement portals (SAM.gov, BidBuy, Cal eProcure) under COMM_100 while actively auditing corporate automated deduction clearinghouses against White Cap and Brock White under COMM_58 creates operational gridlock.
+
+
+### Concept: Julian Perez Rebuild Capacity Bottleneck (RapidAssure & RapidSwap)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #291 Audit)
+* **Autopsy:** Julian Perez is Lily's sole equipment assembler and tester. Committing 2.0 to 2.5 hours of precision labor (chemical flushing, cylinder honing, PTFE seal repacking, and 3,000-PSI hydrostatic testing) per cartridge across RapidAssure MSAs and RapidSwap core exchanges assumes infinite shop capacity and directly threatens new equipment build schedules.
+
+
+### Concept: Distributor Counter RapidSwap Core Exchange & Gauge Inspection (COMM_57)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #292 Audit)
+* **Autopsy:** Relying on White Cap or Brock White counter personnel to execute a 10-second go/no-go plug gauge check on resin-fouled return cartridges ignores counter reality. Distributors will not take balance sheet liability or customer friction for seized, cured epoxy/polyurethane cores where internal bore scoring and thread stripping cannot be assessed without chemical solvent baths and teardown.
+
+
+### Concept: RapidAssure-250 Annual Fleet Maintenance Subscription ($1,650/yr) (COMM_73)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #292 Audit)
+* **Autopsy:** Heavy civil and bridge contractors operate on an run-to-failure or project-based capex cycle and rarely purchase preventive subscription MSAs for equipment wet-ends. Operationally, absorbing dual seasonal wet-end overhauls per machine (2.0–2.5 hours shop labor each plus ultrasonic cleaning and 3,000-PSI hydrostatic testing) directly conflicts with Julian Perez's primary responsibility of assembling new proportioners and handling core repair revenue.
+
+
+### Concept: Single-Seat Administrative Overload (Maggie M Deduction & SAM.gov Bid Workflow) (COMM_58, COMM_71, COMM_100)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #292 Audit)
+* **Autopsy:** Maggie M is the sole billing/QuickBooks administrator for the company. Expecting her to audit automated clearinghouse deductions from White Cap corporate AP, process branch-by-branch manual replenishment POs, and monitor SAM.gov/state procurement bulletins (BidBuy, Cal eProcure) while maintaining daily billing creates an impossible administrative bottleneck.
+
+
+### Concept: Unverified >81% Domestic Manufacturing Content BABA Assertion (COMM_99)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #292 Audit)
+* **Autopsy:** Asserting that CD-15 and CD-250 machines achieve an audited >81% domestic content under IIJA Title IX without an empirical component-level country-of-origin audit (specifically for commercial pneumatic valves, regulators, cylinders, and fittings that frequently originate overseas) creates severe regulatory and legal exposure in public procurement bidding.
+
+
+### Concept: Unmodeled 50% Rent-to-Own (RTO) Fleet Cannibalization
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #293 Audit)
+* **Autopsy:** Historical Account 4015 Rental Income generated $133.8k to $233.7k annually (peaking at $303.7k in 2020) across an 8-machine fleet, serving as a critical pillar defending the $11,403.04/month debt service floor. Crediting 50% of rent toward equipment purchase cannibalizes existing rental revenue, permanently depletes finite rental assets, and forces replacement machine builds that Lily cannot finance within its rigid $50k liquid cash and $20k capex limits.
+
+
+### Concept: Distributor Over-the-Counter RapidSwap Core Inspections (COMM_57)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #293 Audit)
+* **Autopsy:** Relying on branch counter personnel at White Cap or Brock White to execute Go/No-Go plug gauge inspections (#RS-GAUGE-KIT) on chemically contaminated, seized pump cartridges is commercially disconnected from distributor branch reality. Counter staff will not handle uncured epoxy/urethane residues, verify mechanical tolerances, or accept hazardous core liability, leaving Lily exposed to uninspected, ruined cores and disputed credit chargebacks.
+
+
+### Concept: Shop Floor Labor Saturation (Julian Perez Rebuild Bottleneck)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #293 Audit)
+* **Autopsy:** The plan requires Julian Perez (the sole assembly, rebuild, and testing technician) to execute 2.0-2.5 hour wet-end overhauls for RapidAssure-250, ultrasonic teardowns and 3,000-PSI hydrostatic recertifications for RapidSwap cartridges, turnaround flushes for the rental fleet, and pick-ticket staging for master carton distribution, all while maintaining new CD-15/CD-250 production. This exceeds 4-person shop capacity by at least 1.5 FTEs without budget to hire.
+
+
+### Concept: Truncated Drafting & Missing Core Deliverable
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #293 Audit)
+* **Autopsy:** The draft omits the core analysis requested under PROD_RENTAL_FLEET_05 (unit economics, cleaning fee schedules, damage waiver caps, and idle shelf inventory monetization) and cuts off mid-word in Section 1.15 ('GovF'), representing an incomplete deliverable unsuitable for institutional underwriting.
