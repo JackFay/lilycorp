@@ -2861,3 +2861,18 @@
 ### Concept: CD-250deluge Conversion for Structural Slab Lifting
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
 * **Autopsy:** The CD-250 outputs 5.0 to 10.0 GPM designed for high-friction bridge deck overlays; pumping this volume into geotechnical sub-base voids would uncontrollably blow out or shatter highway concrete slabs requiring 1.0 to 2.5 GPM metered bursts. Additionally, its requirement for a 185 CFM tow-behind diesel compressor and 634 lb cart weight eliminates jobsite portability for commercial and residential slab lifting contractors.
+
+
+### Concept: PO Automation Labor Math Contradiction & Inflated Volume (OPER_54)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** The draft claims Maggie M spends 15–20 hours/week transcribing POs (750–1,000 hrs/yr), yet calculates recovered labor at only 342.1 hours/year (~6.8 hrs/week). At Lily's annual revenue of $1.8M–$2.2M and typical commercial order values ($500–$3,000), total transaction volume is roughly 1,000–2,500 orders per year (~20–50 orders/week). At 10.5 minutes per order, actual transcription consumes 3.5 to 8.5 hours/week, exposing the 15–20 hour premise as a 2x–3x inflation.
+
+
+### Concept: Brittle PDF Parsing & QuickBooks COM Architecture at Negligible Cost
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Relying on an on-premise Python script using legacy win32com/QBXMLRP2 to parse unstructured, variable PDF formats from dozens of disparate contractors (e.g., White Cap, Sika, Walsh, Kiewit, plus legacy faxes) for a trivial $594 capex is an ungrounded technical fantasy. Deterministic PDF extractors fail on scanned faxes, modified tabular formats, and non-standard line-item descriptions, requiring continuous software maintenance and OCR/LLM API costs that exceed the claimed one-time budget.
+
+
+### Concept: Unlabeled Speculative Revenue & Guaranteed Quality Metrics (OPER_20, OPER_28)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Projecting $115,000 to $230,000 in private-label chemical dropshipping sales (SafePurge-Citrus/LubeCoat-90) at >60% gross margins is treated as locked-in core performance rather than an unvalidated [EXPLORATORY HYPOTHESIS]. Simultaneously, asserting that an inline 50-PSI air decay test guarantees '0 PPM defect escape' under 2,500 PSI field operating conditions ignores real-world viscoelastic seal creep, dynamic particulate contamination, and high-pressure failure modes.
