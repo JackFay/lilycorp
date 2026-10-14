@@ -3006,3 +3006,18 @@
 ### Concept: Zero-Cost Hot-Standby Toll-Molder Capacity Reservation
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #285 Audit)
 * **Autopsy:** Regional injection molders operate on tight machine utilization schedules and will not hold matched platen capacity or store proprietary adapter plates on 'hot-standby' during peak summer paving season without a committed monthly reservation retainer or guaranteed production minimums.
+
+
+### Concept: Phantom 18-Machine Pre-Built Fleet Inventory
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** Lily Corporation has historically operated as a low-volume, make-to-order pneumatic equipment shop building 5 to 15 dispensers annually. The claim that 18 complete, operational proportioners (CD-15 and CD-250 units costing $8,000 to $25,000+ in retail value each) are sitting pre-assembled and idle on shelves in Aurora is fictitious. Fabricating an 18-unit fleet from scratch would consume more than the entirety of Lily's $50,000 liquid working capital and Year 1 $20,000 capex budget.
+
+
+### Concept: Rental Turnaround Labor Overlap on Julian Perez
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** When contractors return proportioners used with fast-curing two-component epoxies and polyurethanes, turnaround requires aggressive solvent stripping, seal replacements, check valve lapping, and ratio testing. Julian Perez is already the sole technician responsible for new machine assembly, RapidSwap core overhauls, and RapidAssure wet-end rebuilds. Adding ongoing rental fleet turnaround will cause immediate delivery bottlenecks on paid customer orders.
+
+
+### Concept: Unrealistic Merchant Pre-Authorizations & RTO Administration in QuickBooks
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #286 Audit)
+* **Autopsy:** Civil infrastructure contractors renting $15,000 to $40,000 proportioner rigs will not absorb $15k+ pre-authorization holds on company credit cards without widespread declines and disputes. Furthermore, managing multi-month 50% Rent-to-Own equity accrual calculations, wear allowances, and damage waiver claims manually inside standard QuickBooks Desktop places an unsustainable administrative and collections burden on Maggie M.
