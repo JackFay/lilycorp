@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-11T18:00:00Z",
-  "active_cycle": 272,
+  "active_cycle": 273,
   "confidence_overall": 5.0,
   "frontier": [
     {
@@ -185,9 +185,9 @@
       "execution_horizon": "YEAR_1_CORE",
       "last_audit_cycle": 272,
       "last_audit_timestamp": "2026-10-14 05:34:21",
-      "github_pr": "https://github.com/JackFay/lilycorp/pull/148",
-      "github_auto_merged": false,
-      "github_pr_number": 148
+      "github_pr": "https://github.com/JackFay/lilycorp/pull/149",
+      "github_auto_merged": true,
+      "github_pr_number": 149
     },
     {
       "id": "MKT_GEOTECH_03",
@@ -202,10 +202,12 @@
         "Do slab-jacking contractors require heated hoses and automated pre-heaters, and can Lily's shop support heated rig packaging?"
       ],
       "target_plan_file": "plan/01_market_expansion_and_adjacent_verticals.md",
-      "confidence_score": 8,
-      "status": "RESOLVED",
+      "confidence_score": 4.0,
+      "status": "EXPLORATORY",
       "priority": "HIGH",
-      "execution_horizon": "BASELINE_RESOLVED"
+      "execution_horizon": "BASELINE_RESOLVED",
+      "last_audit_cycle": 273,
+      "last_audit_timestamp": "2026-10-14 05:48:15"
     },
     {
       "id": "OPS_PO_AUTOMATION_04",
