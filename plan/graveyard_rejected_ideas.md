@@ -2861,3 +2861,138 @@
 ### Concept: CD-250deluge Conversion for Structural Slab Lifting
 * **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #275 Audit)
 * **Autopsy:** The CD-250 outputs 5.0 to 10.0 GPM designed for high-friction bridge deck overlays; pumping this volume into geotechnical sub-base voids would uncontrollably blow out or shatter highway concrete slabs requiring 1.0 to 2.5 GPM metered bursts. Additionally, its requirement for a 185 CFM tow-behind diesel compressor and 634 lb cart weight eliminates jobsite portability for commercial and residential slab lifting contractors.
+
+
+### Concept: PO Automation Labor Math Contradiction & Inflated Volume (OPER_54)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** The draft claims Maggie M spends 15–20 hours/week transcribing POs (750–1,000 hrs/yr), yet calculates recovered labor at only 342.1 hours/year (~6.8 hrs/week). At Lily's annual revenue of $1.8M–$2.2M and typical commercial order values ($500–$3,000), total transaction volume is roughly 1,000–2,500 orders per year (~20–50 orders/week). At 10.5 minutes per order, actual transcription consumes 3.5 to 8.5 hours/week, exposing the 15–20 hour premise as a 2x–3x inflation.
+
+
+### Concept: Brittle PDF Parsing & QuickBooks COM Architecture at Negligible Cost
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Relying on an on-premise Python script using legacy win32com/QBXMLRP2 to parse unstructured, variable PDF formats from dozens of disparate contractors (e.g., White Cap, Sika, Walsh, Kiewit, plus legacy faxes) for a trivial $594 capex is an ungrounded technical fantasy. Deterministic PDF extractors fail on scanned faxes, modified tabular formats, and non-standard line-item descriptions, requiring continuous software maintenance and OCR/LLM API costs that exceed the claimed one-time budget.
+
+
+### Concept: Unlabeled Speculative Revenue & Guaranteed Quality Metrics (OPER_20, OPER_28)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #276 Audit)
+* **Autopsy:** Projecting $115,000 to $230,000 in private-label chemical dropshipping sales (SafePurge-Citrus/LubeCoat-90) at >60% gross margins is treated as locked-in core performance rather than an unvalidated [EXPLORATORY HYPOTHESIS]. Simultaneously, asserting that an inline 50-PSI air decay test guarantees '0 PPM defect escape' under 2,500 PSI field operating conditions ignores real-world viscoelastic seal creep, dynamic particulate contamination, and high-pressure failure modes.
+
+
+### Concept: Inflated PO Data Transcription Hours & Phantom Labor Savings
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** Claiming Maggie spends 15-20 hours per week re-keying POs contradicts Lily's empirical sales volume. At 2,000 to 2,500 total orders per year, the shop processes approximately 40 to 50 orders per week across all product lines (8 to 10 per day). Even a slow manual entry of 8-10 minutes per order totals 5.5 to 8.0 hours per week, not 15-20 hours. Basing an operational initiative and $18,011 in recurring annual savings on a fabricated baseline creates fictitious labor recapture.
+
+
+### Concept: Frictionless $594 QuickBooks Desktop COM SDK Daemon Assumption
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** The plan assumes a 100% on-premise Python OCR and parsing daemon can reliably integrate via legacy QBXMLRP2 Windows COM connectors into an older desktop company file for $594. Civil contractors (Walsh, Kiewit, White Cap) submit heterogeneous purchase orders ranging from clean digital PDFs to low-resolution faxes, scanned paper tickets, and non-standard line-item SKUs. Managing edge cases, failed schema validations, and unmapped contractor part numbers requires continuous IT maintenance that a 4-person industrial shop lacking in-house software engineers cannot support without bleeding third-party contractor spend.
+
+
+### Concept: Extreme Capital & Initiative Scope Creep Across 4 Shop Personnel
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #277 Audit)
+* **Autopsy:** Bundling custom chemical toll-blending reformulations (DPM cold-flow agents), inline pneumatic decay leak fixtures, optical borescope metrology probes, vibratory bowl feeders, and automated QuickBooks API daemons into Year 1 operational targets directly violates the 4-person shop reality and the $20,000 capex ceiling. With debt service fixed at $11,403/month, distracting Dave Kling, Julian Perez, and Maggie with multi-disciplinary engineering and bespoke software development risks catastrophic disruption of core rig assembly and parts shipping.
+
+
+### Concept: Mathematically Impossible Administrative Hours Recovery (OPER_54 / OPS_PO_AUTOMATION_04)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** Lily processes 2,000 to 2,500 orders annually, equating to 40 to 50 orders per week (~8 to 10 per business day). At the baseline estimate of 10.5 minutes per order, total gross order entry time across the entire company is only 7.0 to 8.75 hours per week. Claiming that an automated PO ingestion desk recovers '13.0 to 17.5 total administrative hours/week' projects savings that exceed the entire gross order-entry workload by more than 100%. Maggie cannot save 17.5 hours a week on a task that only takes 7.5 hours to begin with.
+
+
+### Concept: Capex Cannibalization via $15,000 Vibratory Bowl Feeder (OPER_30)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** The firm operates under a strict $50,000 liquid working capital baseline and a Year 1 discretionary Capex ceiling of $20,000. Allocating $15,000 (75% of the total annual Capex allowance) to a benchtop vibratory bowl-feeder to automate check-valve insertion for an incremental volume hypothesis severely impairs cash liquidity and violates working capital discipline, especially when press/mold maintenance (Account 5440) routinely requires $18,000 to $32,000 in emergency tooling cash.
+
+
+### Concept: Frictionless Parsing of Unstructured Civil Contractor POs for $594
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #278 Audit)
+* **Autopsy:** General contractors such as Walsh, Kiewit, White Cap, and regional civil outfits submit orders via scanned faxes, multi-page PDFs with customized line descriptions, irregular freight terms, and jobsite release numbers. Parsing these reliably via an on-premise Python script interacting with legacy Windows COM `QBXMLRP2.RequestProcessor` for a one-time capex of $594 is technically naive. It ignores continuous edge-case exceptions, schema mismatches, mapping failures, and the absence of recurring vision-model API tokens, which will force Maggie to spend more time troubleshooting script errors than manually typing orders.
+
+
+### Concept: Inflated Administrative Labor Recovery and Phantom Call Elimination
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #279 Audit)
+* **Autopsy:** At Lily's empirical volume of 2,000 to 2,500 orders annually, transcribing an order at 10.5 minutes represents 350 to 437 hours per year, or roughly 7.0 to 8.5 hours per week. Claiming 15 to 20 hours per week in savings requires assuming that automated PDF parsing magically eliminates contractor phone clarification calls and billing disputes. In reality, civil contractors submitting messy, non-standard PDF or fax POs require human clarification regarding jobsite delivery dates, out-of-stock items, and custom terms regardless of how the text is staged in QuickBooks.
+
+
+### Concept: Unrealistic $594 Software TCO and Fragile QBXML COM Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #279 Audit)
+* **Autopsy:** Deploying an on-premise automated OCR daemon with a side-by-side human review UI and Intuit Windows COM (QBXMLRP2) integration cannot be achieved for $594 without massive unbudgeted engineering labor. QuickBooks Desktop COM connectors are notoriously fragile, failing whenever modal dialog boxes are open or when QuickBooks is running in single-user mode. With no on-site IT staff among the four employees, a broken sync script or unhandled PDF format would paralyze Maggie's order entry desk.
+
+
+### Concept: Cumulative Capex and Working Capital Compression
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #279 Audit)
+* **Autopsy:** While this specific software wedge claims negligible capex ($594), the companion initiatives in the draft commit $15,000 to a vibratory bowl feeder (OPER_30) against a rigid Year 1 capex cap of $20,000 and a thin $50,000 liquid working capital buffer. Committing 75% of discretionary capex to automated assembly while Account 5440 mold tooling maintenance has historically spiked up to $31,956 leaves zero financial cushion for inevitable press downtime or tooling refurbishments.
+
+
+### Concept: Phantom Wage Realization & Soft-Hour Monetization
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #280 Audit)
+* **Autopsy:** The plan claims $11,800 to $16,200 in hard annual wage value savings by reducing Maggie M's manual order entry by 8 to 11 hours per week. In an enterprise with only one full-time office administrator, liberated hours do not produce dollar-for-dollar payroll reductions unless Maggie's compensation is cut to part-time or existing overtime is eliminated. Historical pl.csv payroll records show no dedicated overtime line, meaning these savings are purely theoretical operational slack, not bankable cash flow to cover the $11,403.04/month debt service floor.
+
+
+### Concept: Fabricated $4,200/Year Shipping Miskey Loss Baseline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #280 Audit)
+* **Autopsy:** The draft asserts that automation 'eliminates ~$4,200/year in shipping miskeys.' Diligence materials and pl.csv contain zero empirical tracking, scrap chargebacks, or freight return accounts documenting $4,200 in annual transcription losses. Inventing arbitrary failure baselines to inflate software project ROI violates empirical diligence constraints.
+
+
+### Concept: Unrealistic In-House Maintenance of Custom QuickBooks COM/Vision Pipeline
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #280 Audit)
+* **Autopsy:** Deploying a bespoke Python on-premise pipeline leveraging native Windows COM objects (`QBXMLRP2.RequestProcessor`), SQLite crosswalks, modal dialog interceptors, and multimodal Vision API fallbacks creates an unmanaged IT maintenance liability. Lily's 5-person team (Dave K., Julian, Greg, Maggie, Dave J.) contains zero systems administrators or software engineers. When QuickBooks Desktop updates break COM interfaces, locks out modal dialogs, or vendor invoice layouts drift, the desk will crash, leaving order fulfillment paralyzed.
+
+
+### Concept: Mechanical DSO Compression via Internal Order Desk Bandwidth
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #281 Audit)
+* **Autopsy:** Projecting an automatic 10-day DSO reduction (from 52 to 42 days) generating $34,500 in liquid cash float purely by liberating 8-11 hours/week of Maggie's desk time is economically ungrounded. Tier-1 civil contractors and distributors (White Cap, Kiewit, Walsh) enforce institutional Net 45/60 pay cycles, vendor compliance portals, and pay-when-paid subcontract terms that do not accelerate simply because Lily Corporation calls more frequently or generates invoices a few hours earlier.
+
+
+### Concept: Fragile QuickBooks Desktop COM/SDK Automation Architecture
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #281 Audit)
+* **Autopsy:** Relying on legacy QuickBooks Desktop COM automation (QBXMLRP2.RequestProcessor) across a 4-person office environment is notoriously brittle. Even with a scripted 'Modal Dialog Guard', unhandled native QB dialogs (e.g., credit-limit warnings, sales tax jurisdiction mismatches, inventory site warnings, or single-user lockouts during month-end reconciliations) routinely freeze background COM threads, creating an ongoing troubleshooting burden that Jack Fay or Dave Kling cannot service without dedicated software engineering support.
+
+
+### Concept: Underestimated Civil Contractor PO Variance and Format Drift
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #281 Audit)
+* **Autopsy:** The model assumes a $15/year token budget on multimodal fallback, implying near-perfect deterministic PDF vector parsing. In empirical civil construction, purchase orders from White Cap, state DOT sub-tier contractors, and regional injection outfits are frequently scanned, skewed, stamped with internal field approvals, or reference project-specific job site codes rather than standard Lily catalog SKUs. Maggie will still spend substantial manual time reconciling messy contractor line items against internal inventory.
+
+
+### Concept: Bespoke QuickBooks Desktop COM SDK & Custom OCR Middleware Maintenance
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #282 Audit)
+* **Autopsy:** Developing and supporting a custom hybrid PDF parser, multimodal API pipeline, and native COM SDK (`QBXMLRP2.RequestProcessor`) interface with a modal dialog guard on an air-gapped QuickBooks Desktop deployment is operationally unviable for a 4-person manufacturing team with zero software engineers. Any schema change, Windows update, or QuickBooks modal lock leaves order entry frozen, threatening operational continuity with no IT support to triage COM exceptions.
+
+
+### Concept: Phantom DSO Cash Acceleration as Guaranteed Float
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #282 Audit)
+* **Autopsy:** Treating a 10-day DSO reduction (52 to 42 days) yielding $34,500 in liquid float as a settled fact to defend the $11,403.04/month debt service is speculative financial modeling. Major civil general contractors and distribution accounts (White Cap, Sika, Kiewit) operate on institutional Net 60/90 pay-when-paid cycles tied to public DOT project disbursements, which do not accelerate simply because administrative desk hours are reallocated to outbound collections calls.
+
+
+### Concept: Fabricated Pre-Executed Toll-Molder Bailment Agreements
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #282 Audit)
+* **Autopsy:** The contingency topology asserts that a 'Pre-Executed Bailment & Emergency Capacity Agreement is on File' with tooling adapter plates pre-fitted at regional molders. Diligence confirms that 100% of tooling is currently managed on informal tribal knowledge at 240 S. Broadway with zero commercial toll-molding agreements, legal bailment contracts, or verified platen-matched adapter tooling in place.
+
+
+### Concept: Bespoke QuickBooks Desktop COM SDK Integration at Zero Development Cost
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #283 Audit)
+* **Autopsy:** Building a custom on-premise Windows COM integration via QBXMLRP2.RequestProcessor with custom modal dialog interceptors, PDF vector layout parsers, and API fallbacks is not a $594 off-the-shelf deployment. QuickBooks Desktop SDK is notoriously brittle, throwing fatal RPC exceptions when modal windows, billing alerts, or single-user reconciliation dialogs are open. Sourcing or developing custom middleware without budgeting software development/maintenance labor consumes operator bandwidth or fails in production, risking data corruption in Lily's core ledger.
+
+
+### Concept: Invented Third-Party Toll-Molder Bailment Agreements
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #283 Audit)
+* **Autopsy:** The draft asserts as an empirical operational fact that Lily has a 'Pre-Executed Bailment & Emergency Capacity Agreement on File' with specific regional molders (Fox Valley Tool & Molding, Precision Plastics). Diligence notes confirm Bob Trout run all molds informally in-house; no executed third-party contingency bailment contracts or machine platen fitment validations currently exist on file.
+
+
+### Concept: Overstated Labor Savings from PO Transcription Automation
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #283 Audit)
+* **Autopsy:** The draft projects liberating 8 to 11 hours per week based on an assumed 15-20 hours spent on PO processing. However, empirical breakdown shows raw keystroke entry accounts for only 5.5 to 8.0 hours; the remaining 10+ hours stem from contractor SKU aliasing, calling field superintendents to confirm delivery addresses, and verifying jobsite tax exemptions—cognitive coordination tasks that a PDF-to-QuickBooks ingestion pipeline cannot automate.
+
+
+### Concept: Asserting Pre-Executed Toll-Molding Agreements and Pre-Fitted Tooling on File
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #284 Audit)
+* **Autopsy:** Section 5 asserts that emergency toll-molding capacity agreements are 'pre-executed on file' and machine adapter plates are 'pre-fitted and validated' across Batavia and St. Charles molders. Diligence confirms that Bob Trout operated on informal tribal knowledge with zero third-party toll molders, zero off-site molds, and zero formal standby contracts. Presenting prospective post-close operational initiatives as verified, pre-existing assets misrepresents operating readiness to lenders and equity partners.
+
+
+### Concept: Sub-$0.005 Custom Extruded Sleeve Rail Packaging at 100k Annual Volume (OPER_18)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #284 Audit)
+* **Autopsy:** Assuming a specialty component manufacturer will engineer and package sub-miniature check valves into continuous extruded plastic magazine rails for zero to $0.005 per unit on a tiny 100,000-unit annual order volume is commercially unrealistic. Custom packaging automation or rail extrusion requires substantial Non-Recurring Engineering (NRE) charges and setup minimums typically reserved for multi-million-unit automotive or medical customers. At Lily's purchasing scale, suppliers will either refuse the custom packaging format outright or impose minimum markups ($0.05–$0.15/unit) that wipe out downstream assembly labor savings.
+
+
+### Concept: QuickBooks Desktop COM Automation and 'Modal Dialog Guard' Brittleness (OPER_54)
+* **Classification:** `REJECTED / UNVIABLE` (Logged in Cloud Cycle #284 Audit)
+* **Autopsy:** QuickBooks Desktop SDK (`QBXMLRP2`) shares execution context with the desktop UI thread. Whenever QuickBooks raises an interactive modal window (e.g., credit limit warning, inventory reorder alert, multi-user lock, or update prompt), the COM server hard-blocks with error code 0x80040416. Mitigating this with a software 'Modal Dialog Guard' requires fragile Win32 API window hooking and mouse injection, creating constant maintenance overhead for a 4-person shop. Staging PO data into an intermediary review UI or CSV batch queue for semi-automated standard entry is operationally stable, whereas unattended direct COM injection into an active user desktop session is a known failure mode.
